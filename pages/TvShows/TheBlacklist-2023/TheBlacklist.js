@@ -29,7 +29,7 @@ const schemaData   = {
     "@id": "https://uwatchfree.vercel.app/TvShows/TheBlacklist-2023/TheBlacklist"
     
   },
-  "headline": "The Blacklist - S10 (2023) Tv Show Online Free | Uwatchfree™",
+  "headline": "The Equalizer (2023) Tv Show Online Free | Uwatchfree™",
   "image": "https://uwatchfree.vercel.app/the-blacklist-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -48,7 +48,7 @@ const schemaData   = {
         "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatchfree™ The Blacklist - S10 (2023) Tv Show Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  "description": "Uwatchfree™ The Equalizer - S3, EP13 (2023) Tv Show Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -71,8 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
-
-
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -123,15 +122,14 @@ function togglePopup() {
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt2741602/" target="_blank" > 
      <h2 >IDBM Ranking</h2></a></button></div>
-<div className="flex container flex-col items-center justify-center space-y-3 mx-10 text-xl font-bold text-center text-yellow-100/50" >
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
 <h2 ><strong>Genre:</strong> Drama, Thriller, Crime.</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
-<h2 ><strong>Production company:</strong> NBC USA  <img className=" relative inline-flex bg-white items-right justify-center rounded-3xl"  src='/nbc.webp' alt='NBC USA (2023)'  width={50} height={100} loading="lazy"/>
- </h2>
+<h2 ><strong>Director:</strong>Production company -  NBC USA  </h2>
 <h2 ><strong>Creators :</strong> Jon Bokenkamp</h2>
 <h2 ><strong>Country:</strong> USA </h2>
 <h2 ><strong>Starring:</strong> James Spader, Diego Klattenhoff, Harry Lennix, Hisham Tawfiq, Amir Arison, Megan Boone, Mozhan Marnò, Ryan Eggold, Laura Sohn, Susan Blommaert, Baz, Teddy Coluca, Deirdre Lovejoy, Jonathan Holtzman.</h2>
-<h2 ><strong>Description:</strong> A new FBI profiler, Elizabeth Keen, has her entire life uprooted when a mysterious criminal, Raymond Reddington, who has eluded capture for decades, turns himself in and insists on speaking only to her.</h2>
+<h2 ><strong>Description:</strong>A new FBI profiler, Elizabeth Keen, has her entire life uprooted when a mysterious criminal, Raymond Reddington, who has eluded capture for decades, turns himself in and insists on speaking only to her.</h2>
 </div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 

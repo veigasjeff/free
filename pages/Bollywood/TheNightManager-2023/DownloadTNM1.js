@@ -11,7 +11,7 @@ import Image from "next/image";
 const DownloadTNM1 = () => {
   return (
     <div>
-         <div className="bg-gray-900 ">
+           <div className="bg-gray-900 ">
 
   <Head>
    <script src="../../propler/ads.js" defer></script>  

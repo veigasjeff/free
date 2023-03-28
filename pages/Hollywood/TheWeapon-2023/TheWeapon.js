@@ -71,8 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the weapon movie,index of the weapon movie,the weapon movie 2023,the weapon tv series,the weapon movie online,watch the weapon movie,dubbed movies,the weapon movie download,the weapon movie latest,the weapon movie videos,the weapon movie trailer,the weapon movie cast,the weapon movie story,the weapon movie release date,the weapon movie watch online free,the weapon movie free download,the weapon movie download" />
 <meta property="og:locale" content="en_US" />   
-
-
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -97,7 +96,7 @@ function togglePopup() {
 
       <div className="bg-gray-900 ">
 
-<Translate/>
+        <Translate/>
     
         
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch The Weapon (2023 ) </h1>
@@ -124,7 +123,7 @@ function togglePopup() {
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt18228142/" target="_blank" > 
      <h2 >IDBM Ranking</h2></a></button></div>
-<div className="flex container flex-col items-center justify-center space-y-3 mx-10 text-xl font-bold text-center text-yellow-100/50" >
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
 <h2 ><strong>Genre:</strong> Action, Drama, Thriller.</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
 <h2 ><strong>Director:</strong> Tony Schiena</h2>

@@ -29,7 +29,7 @@ const schemaData   = {
     "@id": "https://uwatchfree.vercel.app/TvShows/Succession-2023/Succession"
     
   },
-  "headline": "Succession (2023) Tv Show Online Free | Uwatchfree™",
+  "headline": "The Equalizer (2023) Tv Show Online Free | Uwatchfree™",
   "image": "https://uwatchfree.vercel.app/succession.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -48,7 +48,7 @@ const schemaData   = {
         "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatchfree™ Succession - S4, EP1 • Premiere (2023) Tv Show Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  "description": "Uwatchfree™ The Equalizer - S3, EP13 (2023) Tv Show Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -71,8 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
-
-
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -99,7 +98,7 @@ function togglePopup() {
         <Translate/>
         <WorldClock />
         
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Succession - S4, EP1 • Premiere (2023)</h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Succession - Season 4, Episode 1 • Premiere (2023)</h1>
     <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Sunday 26th March 2023 - Schedule Time UK GMT+1 @ 02:00 </h2>
     <div className={styles['iframe-container']}>
     <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitAllowFullScreen mozallowfullscreen allowFullScreen" marginheight="0" marginwidth="0" src="https://daddylivehd.sx/embed/stream-321.php" name="iframe_a" scrolling="no" allowfullscreen="yes" width="100%" height="100%" frameborder="0"></iframe>
@@ -123,7 +122,7 @@ function togglePopup() {
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt7660850/" target="_blank" > 
      <h2 >IDBM Ranking</h2></a></button></div>
-<div className="flex container flex-col items-center justify-center space-y-3 mx-10 text-xl font-bold text-center text-yellow-100/50" >
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
 <h2 ><strong>Genre:</strong> Drama, Tv Show, Adventure.</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
 <h2 ><strong>Director:</strong>Production company -  HBO MAX USA </h2>

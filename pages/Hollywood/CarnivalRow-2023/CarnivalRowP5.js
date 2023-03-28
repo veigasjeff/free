@@ -72,8 +72,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,carnival row episode 1 movie,index of carnival row episode 1 movie,carnival row episode 1 movie 2023,carnival row episode 1 tv series,carnival row episode 1 movie online,watch carnival row episode 1 movie,dubbed movies,carnival row episode 1 movie download,carnival row episode 1 movie latest,carnival row episode 1 movie videos,carnival row episode 1 movie trailer,carnival row episode 1 movie cast,carnival row episode 1 movie story,carnival row episode 1 movie release date,carnival row episode 1 movie watch online free,carnival row episode 1 movie free download,carnival row episode 1 movie download" />
 <meta property="og:locale" content="en_US" />   
-
-
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -95,7 +94,7 @@ function togglePopup() {
 
       </Head>
 
-    <div className="bg-gray-900 ">
+      <div className="bg-gray-900 ">
 
       <Translate/>
       
@@ -233,7 +232,7 @@ function togglePopup() {
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt0489974/" target="_blank" > 
      <h2 >IDBM Ranking</h2></a></button></div>
-<div className="flex container flex-col items-center justify-center space-y-3 mx-10 text-xl font-bold text-center text-yellow-100/50" >
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
 <h2 ><strong>Genre:</strong> Crime, Drama, Fantasy.</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
 <h2 ><strong>Director:</strong>Travis Beacham, René Echevarria</h2>

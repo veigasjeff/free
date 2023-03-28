@@ -1,3 +1,7 @@
+
+
+
+
 import Head from 'next/head';
 import ShareThis from '@components/ShareThis';
 import WorldClock from '@components/WorldClock';
@@ -14,7 +18,7 @@ const SportsTable = () => {
        
         {
           name: ' iFollow (CH-166) ',
-          link: '../../../../Channel/Ch01',
+          link: '../../../../Channel/Ch166',
           logo: '/ifollow.webp',
           logo1: '/soccer.webp', 
           date: "2023-03-25",
@@ -4653,28 +4657,28 @@ const SportsTable = () => {
    
 <div>
 <Head>
-    <title>Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free.</title>
+    <title>Uwatchfree??? | Watch Movies, TV-Series & Sports Live Online Free.</title>
     <meta name="robots" content="index, follow" />  
     <meta name="revisit-after" content="1 days" />
    
-   <meta name="description" content="Uwatchfree™ -  Watch Movies, TV-Series & Sports Live Online Free." />
+   <meta name="description" content="Uwatchfree??? -  Watch Movies, TV-Series & Sports Live Online Free." />
    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="keywords" content="uwatchfree, daddylive, daddylivehs.sx, uwatchfree.com, streaming free, livetv, freetvchannels, onlinetv, tvchannelsfree, watchtvlive, online tv channels, updated live stream, live sports streaming, stream sports live, watch live sports online, live sports online Live sports TV, free sports streaming, live sports channels, sports streaming services, online sports streaming, sports live stream free, sports live TV, live cricket streaming, live football streaming, live basketball streaming, live baseball streaming, live soccer streaming, live NHL streaming, live NFL streaming, live tennis streaming, live MMA streaming" />
    <meta property="og:locale" content="en_US" />   
 
-   <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free. " />
+   <meta property="og:site_name" content="Uwatchfree??? | Watch Movies, TV-Series & Sports Live Online Free. " />
    <meta property="og:type" content="website" />
    <meta property="og:image:height" content="1280"/>
    <meta property="og:image:width" content="720"/>
-   <meta property="og:title" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free. " />
-   <meta property="og:description" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free. " />
+   <meta property="og:title" content="Uwatchfree??? | Watch Movies, TV-Series & Sports Live Online Free. " />
+   <meta property="og:description" content="Uwatchfree??? | Watch Movies, TV-Series & Sports Live Online Free. " />
    <meta property="og:url" content="https://uwatchfree.vercel.app/" />
    <meta property="og:image:type" content="image/jpeg" />
    <meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
    <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/og_image.jpg" />
    <meta name="twitter:card" content="summary_large_image" />
-   <meta name="twitter:title" content="Uwatchfree™ " />
-   <meta name="twitter:description" content=" Uwatchfree™ -  Watch Movies, TV-Series & Sports Live Online Free. " />
+   <meta name="twitter:title" content="Uwatchfree??? " />
+   <meta name="twitter:description" content=" Uwatchfree??? -  Watch Movies, TV-Series & Sports Live Online Free. " />
    <meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
    <meta name="google-site-verification" content="4dFu4PUk1pc1IYqU6Brt84akCwNxaoUpKSO3gDW0kJ0" />
 <link rel="alternate" hrefLang="en-gb" 	href="https://uwatchfree.vercel.app/"/>
@@ -4698,7 +4702,7 @@ const SportsTable = () => {
 
 
 
-<div className="bg-gray-900 ">
+<div className="bg-gray-600 ">
 <Translate />
 <div className="flex mx-10  px-10 text-blue-600 text-center ">
     <a href="/">
@@ -4733,11 +4737,11 @@ const SportsTable = () => {
 
         <div className="text-xl font-bold text-center leading-none tracking-tight text-white">
           <WorldClock /> </div>
-          <div className="text-2xl font-bold text-center leading-none tracking-tight text-blue-600">
+          <div className="text-2xl font-bold text-center leading-none tracking-tight text-blue-500">
            
           {sport.description}
           </div>
-          <div className="text-2xl mt-5 font-bold text-center leading-none tracking-tight text-blue-600">
+          <div className="text-2xl mt-5 font-bold text-center leading-none tracking-tight text-black">
           <p>Channel Broadcasting </p>
         </div>
         {sport.channels.map((channel) => {

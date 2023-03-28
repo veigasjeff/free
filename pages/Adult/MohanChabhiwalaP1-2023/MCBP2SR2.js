@@ -75,8 +75,7 @@ function togglePopup() {
 <meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />   
-
-
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -122,7 +121,7 @@ function togglePopup() {
    <h2 className="text-white font-bold text-xl ">  5.3 Out of 10</h2>
     
 </div>
-<div className="flex container flex-col items-center justify-center space-y-3 mx-10 text-xl font-bold text-center text-yellow-100/50" >
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
 <h2 ><strong>Genre:</strong> Adult, Hot, Romance.</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
 <h2 ><strong>Director:</strong> Ullu Web Series</h2>
