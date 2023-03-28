@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,shahmaran movie,index of shahmaran movie,shahmaran movie 2023,shahmaran tv series,shahmaran movie online,watch shahmaran movie,dubbed movies,shahmaran movie download,shahmaran movie latest,shahmaran movie videos,shahmaran movie trailer,shahmaran movie cast,shahmaran movie story,shahmaran movie release date,shahmaran movie watch online free,shahmaran movie free download,shahmaran movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

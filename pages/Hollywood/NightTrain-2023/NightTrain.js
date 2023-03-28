@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,night train movie,index of night train movie,night train movie 2023,night train tv series,night train movie online,watch night train movie,dubbed movies,night train movie download,night train movie latest,night train movie videos,night train movie trailer,night train movie cast,night train movie story,night train movie release date,night train movie watch online free,night train movie free download,night train movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

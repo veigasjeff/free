@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,ginny and georgia movie,index of ginny and georgia movie,ginny and georgia movie 2023,ginny and georgia tv series,ginny and georgia movie online,watch ginny and georgia movie,dubbed movies,ginny and georgia movie download,ginny and georgia movie latest,ginny and georgia movie videos,ginny and georgia movie trailer,ginny and georgia movie cast,ginny and georgia movie story,ginny and georgia movie release date,ginny and georgia movie watch online free,ginny and georgia movie free download,ginny and georgia movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

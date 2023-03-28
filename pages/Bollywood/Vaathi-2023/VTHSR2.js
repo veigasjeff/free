@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,vaathi movie,index of vaathi movie,vaathi movie 2023,vaathi tv series,vaathi movie online,watch vaathi movie,dubbed movies,vaathi movie download,vaathi movie latest,vaathi movie videos,vaathi movie trailer,vaathi movie cast,vaathi movie story,vaathi movie release date,vaathi movie watch online free,vaathi movie free download,vaathi movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

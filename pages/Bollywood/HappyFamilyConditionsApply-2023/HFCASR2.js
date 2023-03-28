@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,happy family conditions apply movie,index of happy family conditions apply movie,happy family conditions apply movie 2023,happy family conditions apply tv series,happy family conditions apply movie online,watch happy family conditions apply movie,dubbed movies,happy family conditions apply movie download,happy family conditions apply movie latest,happy family conditions apply movie videos,happy family conditions apply movie trailer,happy family conditions apply movie cast,happy family conditions apply movie story,happy family conditions apply movie release date,happy family conditions apply movie watch online free,happy family conditions apply movie free download,happy family conditions apply movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

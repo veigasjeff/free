@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,taaza khabar movie,index of taaza khabar movie,taaza khabar movie 2023,taaza khabar tv series,taaza khabar movie online,watch taaza khabar movie,dubbed movies,taaza khabar movie download,taaza khabar movie latest,taaza khabar movie videos,taaza khabar movie trailer,taaza khabar movie cast,taaza khabar movie story,taaza khabar movie release date,taaza khabar movie watch online free,taaza khabar movie free download,taaza khabar movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

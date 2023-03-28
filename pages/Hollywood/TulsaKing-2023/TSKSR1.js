@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,Tulsa King  movie,index of Tulsa King  movie,Tulsa King  movie 2023,Tulsa King  tv series,Tulsa King  movie online,watch Tulsa King  movie,dubbed movies,Tulsa King  movie download,Tulsa King  movie latest,Tulsa King  movie videos,Tulsa King  movie trailer,Tulsa King movie cast,Tulsa King  movie story,Tulsa King  movie release date,Tulsa King  movie watch online free,Tulsa King  movie free download,Tulsa King  movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

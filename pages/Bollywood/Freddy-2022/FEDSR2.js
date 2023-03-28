@@ -75,7 +75,7 @@ function togglePopup() {
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,freddy movie,index of freddy movie,freddy movie 2023,freddy tv series,freddy movie online,watch freddy movie,dubbed movies,freddy movie download,freddy movie latest,freddy movie videos,freddy movie trailer,freddy movie cast,freddy movie story,freddy movie release date,freddy movie watch online free,freddy movie free download,freddy movie download" />
 
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

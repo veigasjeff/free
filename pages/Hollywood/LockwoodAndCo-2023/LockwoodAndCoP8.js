@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,lockwood and co movie,index of lockwood and co movie,lockwood and co movie 2023,lockwood and co tv series,lockwood and co movie online,watch lockwood and co movie,dubbed movies,lockwood and co movie download,lockwood and co movie latest,lockwood and co movie videos,lockwood and co movie trailer,lockwood and co movie cast,lockwood and co movie story,lockwood and co movie release date,lockwood and co movie watch online free,lockwood and co movie free download,lockwood and co movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

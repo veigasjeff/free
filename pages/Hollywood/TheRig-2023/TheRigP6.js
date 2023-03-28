@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the rig movie,index of the rig movie,the rig movie 2023,the rig tv series,the rig movie online,watch the rig movie,dubbed movies,the rig movie download,the rig movie latest,the rig movie videos,the rig movie trailer,the rig movie cast,the rig movie story,the rig movie release date,the rig movie watch online free,the rig movie free download,the rig movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

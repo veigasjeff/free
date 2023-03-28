@@ -76,7 +76,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,triptych movie,index of triptych movie,triptych movie 2023,triptych tv series,triptych movie online,watch triptych movie,dubbed movies,triptych movie download,triptych movie latest,triptych movie videos,triptych movie trailer,triptych movie cast,triptych movie story,triptych movie release date,triptych movie watch online free,triptych movie free download,triptych movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

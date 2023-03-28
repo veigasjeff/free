@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,jaanbaaz hindustan ke movie,index of jaanbaaz hindustan ke movie,jaanbaaz hindustan ke movie 2023,jaanbaaz hindustan ke tv series,jaanbaaz hindustan ke movie online,watch jaanbaaz hindustan ke movie,dubbed movies,jaanbaaz hindustan ke movie download,jaanbaaz hindustan ke movie latest,jaanbaaz hindustan ke movie videos,jaanbaaz hindustan ke movie trailer,jaanbaaz hindustan ke movie cast,jaanbaaz hindustan ke movie story,jaanbaaz hindustan ke movie release date,jaanbaaz hindustan ke movie watch online free,jaanbaaz hindustan ke movie free download,jaanbaaz hindustan ke movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

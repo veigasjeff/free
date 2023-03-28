@@ -72,7 +72,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,against the ice movie,index of against the ice movie,against the ice movie 2023,against the ice tv series,against the ice movie online,watch against the ice movie,dubbed movies,against the ice movie download,against the ice movie latest,against the ice movie videos,against the ice movie trailer,against the ice movie cast,against the ice movie story,against the ice movie release date,against the ice movie watch online free,against the ice movie free download,against the ice movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

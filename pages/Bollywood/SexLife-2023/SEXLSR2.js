@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,sex life movie,index of sex life movie,sex life movie 2023,sex life tv series,sex life movie online,watch sex life movie,dubbed movies,sex life movie download,sex life movie latest,sex life movie videos,sex life movie trailer,sex life movie cast,sex life movie story,sex life movie release date,sex life movie watch online free,sex life movie free download,sex life movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

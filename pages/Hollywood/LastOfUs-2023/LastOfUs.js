@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the last of us movie,index of the last of us movie,the last of us movie 2023,the last of us tv series,the last of us movie online,watch the last of us movie,dubbed movies,the last of us movie download,the last of us movie latest,the last of us movie videos,the last of us movie trailer,the last of us movie cast,the last of us movie story,the last of us movie release date,the last of us movie watch online free,the last of us movie free download,the last of us movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

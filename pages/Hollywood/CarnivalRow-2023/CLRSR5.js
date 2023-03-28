@@ -72,7 +72,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,carnival row episode 1 movie,index of carnival row episode 1 movie,carnival row episode 1 movie 2023,carnival row episode 1 tv series,carnival row episode 1 movie online,watch carnival row episode 1 movie,dubbed movies,carnival row episode 1 movie download,carnival row episode 1 movie latest,carnival row episode 1 movie videos,carnival row episode 1 movie trailer,carnival row episode 1 movie cast,carnival row episode 1 movie story,carnival row episode 1 movie release date,carnival row episode 1 movie watch online free,carnival row episode 1 movie free download,carnival row episode 1 movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

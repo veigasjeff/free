@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the old way movie,index of the old way movie,the old way movie 2023,the old way tv series,the old way movie online,watch the old way movie,dubbed movies,the old way movie download,the old way movie latest,the old way movie videos,the old way movie trailer,the old way movie cast,the old way movie story,the old way movie release date,the old way movie watch online free,the old way movie free download,the old way movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

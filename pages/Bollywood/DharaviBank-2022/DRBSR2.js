@@ -74,7 +74,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,dharavi bank movie,index of dharavi bank movie,dharavi bank movie 2023,dharavi bank tv series,dharavi bank movie online,watch dharavi bank movie,dubbed movies,dharavi bank movie download,dharavi bank movie latest,dharavi bank movie videos,dharavi bank movie trailer,dharavi bank movie cast,dharavi bank movie story,dharavi bank movie release date,dharavi bank movie watch online free,dharavi bank movie free download,dharavi bank movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

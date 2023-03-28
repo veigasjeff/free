@@ -74,7 +74,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,dhishkyaoon movie,index of dhishkyaoon movie,dhishkyaoon movie 2023,dhishkyaoon tv series,dhishkyaoon movie online,watch dhishkyaoon movie,dubbed movies,dhishkyaoon movie download,dhishkyaoon movie latest,dhishkyaoon movie videos,dhishkyaoon movie trailer,dhishkyaoon movie cast,dhishkyaoon movie story,dhishkyaoon movie release date,dhishkyaoon movie watch online free,dhishkyaoon movie free download,dhishkyaoon movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

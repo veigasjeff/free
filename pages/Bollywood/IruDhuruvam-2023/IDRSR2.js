@@ -76,7 +76,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,iru dhuruvam movie,index of iru dhuruvam movie,iru dhuruvam movie 2023,iru dhuruvam tv series,iru dhuruvam movie online,watch iru dhuruvam movie,dubbed movies,iru dhuruvam movie download,iru dhuruvam movie latest,iru dhuruvam movie videos,iru dhuruvam movie trailer,iru dhuruvam movie cast,iru dhuruvam movie story,iru dhuruvam movie release date,iru dhuruvam movie watch online free,iru dhuruvam movie free download,iru dhuruvam movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,minus one movie,index of minus one movie,minus one movie 2023,minus one tv series,minus one movie online,watch minus one movie,dubbed movies,minus one movie download,minus one movie latest,minus one movie videos,minus one movie trailer,minus one movie cast,minus one movie story,minus one movie release date,minus one movie watch online free,minus one movie free download,minus one movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

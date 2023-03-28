@@ -74,7 +74,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,love at first kiss movie,index of love at first kiss movie,love at first kiss movie 2023,love at first kiss tv series,love at first kiss movie online,watch love at first kiss movie,dubbed movies,love at first kiss movie download,love at first kiss movie latest,love at first kiss movie videos,love at first kiss movie trailer,love at first kiss movie cast,love at first kiss movie story,love at first kiss movie release date,love at first kiss movie watch online free,love at first kiss movie free download,love at first kiss movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

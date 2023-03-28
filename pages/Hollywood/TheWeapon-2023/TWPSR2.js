@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the weapon movie,index of the weapon movie,the weapon movie 2023,the weapon tv series,the weapon movie online,watch the weapon movie,dubbed movies,the weapon movie download,the weapon movie latest,the weapon movie videos,the weapon movie trailer,the weapon movie cast,the weapon movie story,the weapon movie release date,the weapon movie watch online free,the weapon movie free download,the weapon movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

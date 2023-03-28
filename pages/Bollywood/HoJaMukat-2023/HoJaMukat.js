@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,ho ja mukt movie,index of ho ja mukt movie,ho ja mukt movie 2023,ho ja mukt tv series,ho ja mukt movie online,watch ho ja mukt movie,dubbed movies,ho ja mukt movie download,ho ja mukt movie latest,ho ja mukt movie videos,ho ja mukt movie trailer,ho ja mukt movie cast,ho ja mukt movie story,ho ja mukt movie release date,ho ja mukt movie watch online free,ho ja mukt movie free download,ho ja mukt movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

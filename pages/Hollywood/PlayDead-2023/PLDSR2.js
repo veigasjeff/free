@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,play dead movie,index of play dead movie,play dead movie 2023,play dead tv series,play dead movie online,watch play dead movie,dubbed movies,play dead movie download,play dead movie latest,play dead movie videos,play dead movie trailer,play dead movie cast,play dead movie story,play dead movie release date,play dead movie watch online free,play dead movie free download,play dead movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

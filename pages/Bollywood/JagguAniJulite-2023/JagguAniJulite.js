@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,jaggu ani juliet movie,index of jaggu ani juliet movie,jaggu ani juliet movie 2023,jaggu ani juliet tv series,jaggu ani juliet movie online,watch jaggu ani juliet movie,dubbed movies,jaggu ani juliet movie download,jaggu ani juliet movie latest,jaggu ani juliet movie videos,jaggu ani juliet movie trailer,jaggu ani juliet movie cast,jaggu ani juliet movie story,jaggu ani juliet movie release date,jaggu ani juliet movie watch online free,jaggu ani juliet movie free download,jaggu ani juliet movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

@@ -72,7 +72,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,12 desperate hours movie,index of 12 desperate hours movie,12 desperate hours movie 2023,12 desperate hours tv series,12 desperate hours movie online,watch 12 desperate hours movie,dubbed movies,12 desperate hours movie download,12 desperate hours movie latest,12 desperate hours movie videos,12 desperate hours movie trailer,12 desperate hours movie cast,12 desperate hours movie story,12 desperate hours movie release date,12 desperate hours movie watch online free,12 desperate hours movie free download,12 desperate hours movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

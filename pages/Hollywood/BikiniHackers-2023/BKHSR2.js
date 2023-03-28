@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,bikini hackers movie,index of bikini hackers movie,bikini hackers movie 2023,bikini hackers tv series,bikini hackers movie online,watch bikini hackers movie,dubbed movies,bikini hackers movie download,bikini hackers movie latest,bikini hackers movie videos,bikini hackers movie trailer,bikini hackers movie cast,bikini hackers movie story,bikini hackers movie release date,bikini hackers movie watch online free,bikini hackers movie free download,bikini hackers movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

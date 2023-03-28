@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the match stick flame 2 movie,index of the match stick flame 2 movie,the match stick flame 2 movie 2023,the match stick flame 2 tv series,the match stick flame 2 movie online,watch the match stick flame 2 movie,dubbed movies,the match stick flame 2 movie download,the match stick flame 2 movie latest,the match stick flame 2 movie videos,the match stick flame 2 movie trailer,the match stick flame 2 movie cast,the match stick flame 2 movie story,the match stick flame 2 movie release date,the match stick flame 2 movie watch online free,the match stick flame 2 movie free download,the match stick flame 2 movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

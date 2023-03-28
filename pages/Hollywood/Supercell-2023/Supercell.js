@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,supercell movie,index of supercell movie,supercell movie 2023,supercell tv series,supercell movie online,watch supercell movie,dubbed movies,supercell movie download,supercell movie latest,supercell movie videos,supercell movie trailer,supercell movie cast,supercell movie story,supercell movie release date,supercell movie watch online free,supercell movie free download,supercell movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

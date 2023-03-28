@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,poker face movie,index of poker face movie,poker face movie 2023,poker face tv series,poker face movie online,watch poker face movie,dubbed movies,poker face movie download,poker face movie latest,poker face movie videos,poker face movie trailer,poker face movie cast,poker face movie story,poker face movie release date,poker face movie watch online free,poker face movie free download,poker face movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

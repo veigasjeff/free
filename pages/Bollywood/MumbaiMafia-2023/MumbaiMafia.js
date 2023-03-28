@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,mumbai mafia movie,index of mumbai mafia movie,mumbai mafia movie 2023,mumbai mafia tv series,mumbai mafia movie online,watch mumbai mafia movie,dubbed movies,mumbai mafia movie download,mumbai mafia movie latest,mumbai mafia movie videos,mumbai mafia movie trailer,mumbai mafia movie cast,mumbai mafia movie story,mumbai mafia movie release date,mumbai mafia movie watch online free,mumbai mafia movie free download,mumbai mafia movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

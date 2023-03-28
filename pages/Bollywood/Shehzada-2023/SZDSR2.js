@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,shehzada movie,index of shehzada movie,shehzada movie 2023,shehzada tv series,shehzada movie online,watch shehzada movie,dubbed movies,shehzada movie download,shehzada movie latest,shehzada movie videos,shehzada movie trailer,shehzada movie cast,shehzada movie story,shehzada movie release date,shehzada movie watch online free,shehzada movie free download,shehzada movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

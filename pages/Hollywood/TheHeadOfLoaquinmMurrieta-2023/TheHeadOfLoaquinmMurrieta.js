@@ -72,7 +72,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the head of joaquin murrieta movie,index of the head of joaquin murrieta movie,the head of joaquin murrieta movie 2023,the head of joaquin murrieta tv series,the head of joaquin murrieta movie online,watch the head of joaquin murrieta movie,dubbed movies,the head of joaquin murrieta movie download,the head of joaquin murrieta movie latest,the head of joaquin murrieta movie videos,the head of joaquin murrieta movie trailer,the head of joaquin murrieta movie cast,the head of joaquin murrieta movie story,the head of joaquin murrieta movie release date,the head of joaquin murrieta movie watch online free,the head of joaquin murrieta movie free download,the head of joaquin murrieta movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

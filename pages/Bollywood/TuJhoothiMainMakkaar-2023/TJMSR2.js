@@ -74,7 +74,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,tu jhoothi main makkaar movie,index of tu jhoothi main makkaar movie,tu jhoothi main makkaar movie 2023,tu jhoothi main makkaar tv series,tu jhoothi main makkaar movie online,watch tu jhoothi main makkaar movie,dubbed movies,tu jhoothi main makkaar movie download,tu jhoothi main makkaar movie latest,tu jhoothi main makkaar movie videos,tu jhoothi main makkaar movie trailer,tu jhoothi main makkaar movie cast,tu jhoothi main makkaar movie story,tu jhoothi main makkaar movie release date,tu jhoothi main makkaar movie watch online free,tu jhoothi main makkaar movie free download,tu jhoothi main makkaar movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

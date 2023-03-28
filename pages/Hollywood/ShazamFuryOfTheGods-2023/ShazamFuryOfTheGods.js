@@ -71,7 +71,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,shazam fury of the gods movie,index of shazam fury of the gods movie,shazam fury of the gods movie 2023,shazam fury of the gods tv series,shazam fury of the gods movie online,watch shazam fury of the gods movie,dubbed movies,shazam fury of the gods movie download,shazam fury of the gods movie latest,shazam fury of the gods movie videos,shazam fury of the gods movie trailer,shazam fury of the gods movie cast,shazam fury of the gods movie story,shazam fury of the gods movie release date,shazam fury of the gods movie watch online free,shazam fury of the gods movie free download,shazam fury of the gods movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

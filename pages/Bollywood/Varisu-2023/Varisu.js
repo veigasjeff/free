@@ -73,7 +73,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,varisu movie,index of varisu movie,varisu movie 2023,varisu tv series,varisu movie online,watch varisu movie,dubbed movies,varisu movie download,varisu movie latest,varisu movie videos,varisu movie trailer,varisu movie cast,varisu movie story,varisu movie release date,varisu movie watch online free,varisu movie free download,varisu movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

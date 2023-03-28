@@ -76,7 +76,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,outer banks movie,index of outer banks movie,outer banks movie 2023,outer banks tv series,outer banks movie online,watch outer banks movie,dubbed movies,outer banks movie download,outer banks movie latest,outer banks movie videos,outer banks movie trailer,outer banks movie cast,outer banks movie story,outer banks movie release date,outer banks movie watch online free,outer banks movie free download,outer banks movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

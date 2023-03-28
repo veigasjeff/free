@@ -72,7 +72,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,devotion movie,index of devotion movie,devotion movie 2023,devotion tv series,devotion movie online,watch devotion movie,dubbed movies,devotion movie download,devotion movie latest,devotion movie videos,devotion movie trailer,devotion movie cast,devotion movie story,devotion movie release date,devotion movie watch online free,devotion movie free download,devotion movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />

@@ -72,7 +72,7 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the blacklist movie,index of the blacklist movie,the blacklist movie 2023,the blacklist tv series,the blacklist movie online,watch the blacklist movie,dubbed movies,the blacklist movie download,the blacklist movie latest,the blacklist movie videos,the blacklist movie trailer,the blacklist movie cast,the blacklist movie story,the blacklist movie release date,the blacklist movie watch online free,the blacklist movie free download,the blacklist movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
