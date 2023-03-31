@@ -19,7 +19,11 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   // your Next.js configuration
   webpack: (config, { isServer }) => {
-    // custom webpack configuration
+    config.stats = {
+      preset: 'normal',
+      outputPath: 'stats',
+      filename: 'stats.json',
+    };
     return config;
   },
 });
