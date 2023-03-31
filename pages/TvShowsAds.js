@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import Link from 'next/link';
-import { Carousel } from "@components/HCarousel";
+import { Carousel } from "@components/TVCarousel";
 
 
 function Most() {

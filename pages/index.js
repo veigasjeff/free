@@ -157,7 +157,7 @@ const schemaData   = {
         <a href="../../Sports-2023/Sports">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/sports.webp' alt='TU JHOOTHI MAIN MAKKAAR - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/sports.webp' alt='SPORTS LIVE - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -167,6 +167,25 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
       GENRE : SOCCER, CRICKET, TENNIS, GOLF, BASKETBALL, HOCKEY, BASEBALL, CYCLING, HANDBALL, HORSE RACING, ICE HOCKEY, VOLLEY BALL, BOXING, DARTS, RUGBY.     </div>
       <a href="../../Sports-2023/Sports">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Sports-2023/IPL-GtVsCsk-2023/IPLGtVsCsk">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-gtvscsk.webp' alt='IPL GUJARAT TITANS VS CHENNAI SUPER KINGS - 2023'  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL CHENNAI SUPER KINGS VS GUJARAT TITANS - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 01 March Friday 31st, 7:30 IST @ Narendra Modi Stadium, Ahmedabad.  </h3>
+                
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : Match 01 - IPL 2023     </div>
+      <a href="../../Sports-2023/IPL-GtVsCsk-2023/IPLGtVsCsk">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
