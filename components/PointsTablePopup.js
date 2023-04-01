@@ -32,20 +32,20 @@ const PointsTablePopup = () => {
                 <th>FOR</th>
                 <th>AGST</th>
                 <th>PTS</th>
-              </tr>
+                </tr>
             </thead>
             <tbody >
               <tr>
                 <td>1</td>
                 <td>CSK</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
+                <td>-0.514</td>
+                <td>178/20.0</td>
+                <td>182/19.2</td>
                 <td>0</td>
               </tr>
               <tr>
@@ -64,15 +64,15 @@ const PointsTablePopup = () => {
               <tr>
                 <td>3</td>
                 <td>GT</td>
+                <td>1</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
-                <td>0</td>
+                <td>0.514</td>
+                <td>182/19.2</td>
+                <td>178/20.0</td>
+                <td>2</td>
               </tr>
               <tr>
                 <td>4</td>
