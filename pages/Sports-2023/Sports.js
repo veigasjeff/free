@@ -17,1330 +17,533 @@ const SportsTable = () => {
       channels: [
        
         {
-          name: ' iFollow (CH-166) ',
-          link: '../../../../Channel/Ch166',
-          logo: '/ifollow.webp',
+          name: '  BT Sport 1 UK (CH-31)  ',
+          link: '../../../../Channel/Ch31',
+          logo: '/bt1.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
-          name: ' Nova Sport Bulgaria (CH-468) ',
-          link: '../../../../Channel/Ch468',
-          logo: '/nova-sport.webp',
+          name: '  Astro SuperSport 3 (CH-125) ',
+          link: '../../../../Channel/Ch125',
+          logo: '/astrosports.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        
-        {
-          name: ' Arena Sport 3 Premium (CH-139)',
-          link: '../../../../Channel/Ch139',
-          logo: '/arena-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
-          name: 'Sportdigital Germany (CH-571) ',
-          link: '../../../../Channel/Ch571',
-          logo: '/sportdigital.webp',
+          name: ' Canal+ Foot (CH-463) ',
+          link: '../../../../Channel/Ch463',
+          logo: '/canal+.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
-            
+        {
+          name: '  SuperSport Premier League (CH-414) ',
+          link: '../../../../Channel/Ch414',
+          logo: '/suppersports.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        }, 
+        {
+          name: '  beIN Sports MENA Premium 1 (CH-98) ',
+          link: '../../../../Channel/Ch98',
+          logo: '/bein1-premium.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        }, 
+        {
+          name: ' Sky Sport Premier League DE (CH-10) ',
+          link: '../../../../Channel/Ch10',
+          logo: '/sky-premier.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        }, 
+        {
+          name: '  Sky Sport Top Event DE (CH-556) ',
+          link: '../../../../Channel/Ch556',
+          logo: '/sky-mainevent.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        }, 
+        {
+          name: '  Eleven Sports 1 Portugal (CH-455)  ',
+          link: '../../../../Channel/Ch455',
+          logo: '/Eleven.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        }, 
+        {
+          name: '  Sky Sport Football Italy (CH-460) ',
+          link: '../../../../Channel/Ch460',
+          logo: '/sky-football.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        }, 
+        {
+          name: ' ESPN SUR (CH-149)  ',
+          link: '../../../../Channel/Ch149',
+          logo: '/espn.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        }, 
       ],
-      description: '16:00 England League One : Peterborough United vs Derby County.',
+      description: '12:30 England Premier League : Manchester City vs Liverpool.',
     },
     {
      
       channels: [
         {
           
-          name: ' Fox Soccer Plus (CH-756) ',
-          link: '../../../../Channel/Ch756',
-          logo: '/fox-sports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' Viaplay Sports 1 UK (CH-451) ',
-          link: '../../../../Channel/Ch451',
-          logo: '/viaplay-xtra.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  DAZN1 DE (CH-426) ',
-          link: '../../../../Channel/Ch426',
-          logo: '/dazn.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Arena Sport 1 Premium (CH-134)',
-          link: '../../../../Channel/Ch134',
-          logo: '/arena-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  DAZN1 DE (CH-426) ',
-          link: '../../../../Channel/Ch426',
-          logo: '/dazn.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  L Equipe France (CH-645) ',
-          link: '../../../../Channel/Ch645',
-          logo: '/lequipe.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' SuperSport Premier League (CH-414)',
-          link: '../../../../Channel/Ch414',
-          logo: '/supersport-premier.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Sport TV1 Portugal (CH-49) ',
-          link: '../../../../Channel/Ch49',
-          logo: '/sport-tv5-portugal.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Polsat Sport Extra Poland (CH-50)  ',
-          link: '../../../../Channel/Ch50',
-          logo: '/polsat.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' Astro SuperSport 3 (CH-125) ',
-          link: '../../../../Channel/Ch125',
-          logo: '/astrosports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' Diema Sport 3 Bulgaria (CH-467)  ',
-          link: '../../../../Channel/Ch467',
-          logo: '/diema-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '   Ziggo Voetbal NL (CH-398)  ',
-          link: '../../../../Channel/Ch398',
-          logo: '/ziggo-voetball.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  DAZN1 DE (CH-426) ',
-          link: '../../../../Channel/Ch426',
-          logo: '/dazn.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Sportv Brasil (Ch-78) ',
-          link: '../../../../Channel/Ch78',
-          logo: '/sportstv.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '   ESPN SUR (CH-149)  ',
-          link: '../../../../Channel/Ch149',
-          logo: '/Espn-p.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },  
-        {
-          
-          name: ' Digi Sport 1 Romania (CH-400) ',
-          link: '../../../../Channel/Ch400',
-          logo: '/digi1.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        }, 
-        {
-          
-          name: '  Sport 1 Israel (CH-140) ',
-          link: '../../../../Channel/Ch140',
-          logo: '/sport-israel.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "15:00",
-          endTime: "17:00", 
-          startDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },  
-      ],
-      description: '15:00 UEFA Euro Qualifying : Scotland vs Cyprus.',
-    },
-    {
-      
-      channels: [
-       
-        {
-          name: ' Sky Sports Premier League (CH-130)  ',
-          link: '../../../../Channel/Ch130',
-          logo: '/sky-premier.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-        },
-        {
-          name: ' Sky Sports Football (CH-35) ',
+          name: ' Sky Sports Football (CH-35)  ',
           link: '../../../../Channel/Ch35',
           logo: '/sky-football.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        
-        {
-          name: ' Sky Sport Premier League DE (CH-1)',
-          link: '../../../../Channel/Ch01',
-          logo: '/sky-premier.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
-          name: 'Sky Sports Main Event (CH-38) ',
-          link: '../../../../Channel/Ch38',
-          logo: '/sky-mainevent.webp',
+          
+          name: '   beIN Sports MAX 4 France (CH-494) ',
+          link: '../../../../Channel/Ch494',
+          logo: '/beinMAX.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
-          name: 'ESPN BR (CH-81)',
-          link: '../../../../Channel/Ch81',
-          logo: '/espn-brazil.webp',
+          
+          name: '  beIN Sports MENA Premium 2 (CH-99)  ',
+          link: '../../../../Channel/Ch99',
+          logo: '/bein2-premium.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "16:00",
-          endTime: "18:00" ,  
-          startDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        }, 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+        },
+        {
+          
+          name: '  Diema Sport Bulgaria (CH-465) ',
+          link: '../../../../Channel/Ch465',
+          logo: '/diema-sport.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+        },
+        {
+          
+          name: '  Sky Sport 7 NZ (CH-594) ',
+          link: '../../../../Channel/Ch594',
+          logo: '/sky-sport.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+        },
+        {
+          
+          name: '  Sportdigital Germany (CH-571)  ',
+          link: '../../../../Channel/Ch571',
+          logo: '/sportdigital.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "12:30",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+        },
       ],
-      description: '16:00 England Womens Super League : Tottenham Hotspur vs Arsenal.',
+      description: '12:30 England Championship : Preston North End vs Blackpool.',
     },
     {
-      
+     
       channels: [
         {
           
-          name: '  Fox Soccer Plus (CH-756)   ',
-          link: '../../../../Channel/Ch756',
-          logo: '/fox-sports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-        },
-        {
-          
-          name: '  TRT 1 Turkey (CH-3) ',
-          link: '../../../../Channel/Ch03',
-          logo: '/trt-spor2.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  DAZN1 DE (CH-426)  ',
-          link: '../../../../Channel/Ch426',
+          name: ' DAZN LaLiga (CH-538)  ',
+          link: '../../../../Channel/Ch538',
           logo: '/dazn.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '  SuperSport Variety 4 (CH-419)   ',
-          link: '../../../../Channel/Ch419',
-          logo: '/suppersports.webp',
+          name: ' Eleven Sports 4 Portugal (CH-458) ',
+          link: '../../../../Channel/Ch458',
+          logo: '/Eleven.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
+        {
+          
+          name: '  Arena Sport 2 Premium (CH-135) ',
+          link: '../../../../Channel/Ch135',
+          logo: '/arena-sport.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
+        {
+          
+          name: '  beIN Sports MENA 1 (CH-91)  ',
+          link: '../../../../Channel/Ch91',
+          logo: '/bein-eng1.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
+        {
+          
+          name: '  beIN Sports MAX 9 France (CH-499) ',
+          link: '../../../../Channel/Ch499',
+          logo: '/beinMAX.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
+        {
+          
+          name: '  Digi Sport 2 Romania (CH-401) ',
+          link: '../../../../Channel/Ch401',
+          logo: '/digi2.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
+      ],
+      description: '13:00 Spain La Liga : Girona vs Espanyol.',
+    },
+    {
+     
+      channels: [
+        {
+          
+          name: ' beIN SPORTS USA (CH-425) ',
+          link: '../../../../Channel/Ch425',
+          logo: '/bein-eng1.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "14:00",
+          endTime: "16:00" ,  
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
+        {
+          
+          name: '  beIN Sports 1 France (CH-116)  ',
+          link: '../../../../Channel/Ch116',
+          logo: '/bein1-french.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "14:00",
+          endTime: "16:00" ,  
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
+        {
+          
+          name: ' beIN SPORTS en Español (CH-372)  ',
+          link: '../../../../Channel/Ch372',
+          logo: '/bein-spanish.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "14:00",
+          endTime: "16:00" ,  
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
+      ],
+      description: '14:00 France Ligue 2 : Saint-Étienne vs Niort .',
+    },
+    {
+     
+      channels: [
         {
           
           name: '  Arena Sport 2 Premium (CH-135)  ',
           link: '../../../../Channel/Ch135',
           logo: '/arena-sport.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '   Polsat Sport Premium 1 Poland (CH-5)   ',
-          link: '../../../../Channel/Ch05',
-          logo: '/polsat.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  Astro Supersport 1 (CH-123) ',
-          link: '../../../../Channel/Ch123',
-          logo: '/astrosports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' Diema Sport 2 Bulgaria (CH-466) ',
-          link: '../../../../Channel/Ch466',
-          logo: '/diema-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: 'Astro SuperSport 1 (CH-123)  ',
-          link: '../../../../Channel/Ch123',
-          logo: '/astro5.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  Diema Sport 3 Bulgaria (CH-467)   ',
-          link: '../../../../Channel/Ch467',
-          logo: '/diema-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  Digi Sport 3 Romania (CH-402)  ',
-          link: '../../../../Channel/Ch402',
-          logo: '/digi3.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  Sport 2 Israel (CH-141) ',
-          link: '../../../../Channel/Ch141',
-          logo: '/sport2-israel.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-      ],
-      description: '18:00 UEFA Euro Qualifying : Armenia vs Turkey.',
-    },
-    {
-      
-      channels: [
-        {
-          
-          name: '  Fox Sports 2 USA (CH-758)',
-          link: '../../../../Channel/Ch758',
-          logo: '/fox-sports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-        },
-        {
-          
-          name: ' Viaplay Sports 1 UK (CH-451)  ',
-          link: '../../../../Channel/Ch451',
-          logo: '/viaplay-xtra.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' DAZN2 DE (CH-427)   ',
-          link: '../../../../Channel/Ch427',
-          logo: '/dazn.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '   SuperSport Premier League (CH-414)  ',
-          link: '../../../../Channel/Ch414',
-          logo: '/supersport-premier.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' Arena Sport 1 Premium (CH-134)  ',
-          link: '../../../../Channel/Ch134',
-          logo: '/arena-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '   Sport TV1 Portugal (CH-49)  ',
-          link: '../../../../Channel/Ch49',
-          logo: '/sportstv1.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  Polsat Sport Premium 2 Poland (CH-30)',
-          link: '../../../../Channel/Ch30',
-          logo: '/polsat.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' Diema Sport 2 Bulgaria (CH-467) ',
-          link: '../../../../Channel/Ch467',
-          logo: '/diema-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: 'Astro SuperSport 2 (CH-124)  ',
-          link: '../../../../Channel/Ch124',
-          logo: '/astrosports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  SuperSport MaXimo 1 (CH-572)   ',
-          link: '../../../../Channel/Ch572',
-          logo: '/supersport-maximo.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '   Sportv Brasil (Ch-78)   ',
-          link: '../../../../Channel/Ch78',
-          logo: '/sportstv.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  Sport 2 Israel (CH-140) ',
-          link: '../../../../Channel/Ch140',
-          logo: '/sport2-israel.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' ESPN SUR (CH-149) ',
-          link: '../../../../Channel/Ch149',
-          logo: '/Espn-p.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' Digi Sport 1 Romania (CH-400)',
-          link: '../../../../Channel/Ch',
-          logo: '/digi1.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-      ],
-      description: '18:00 UEFA Euro Qualifying : Belarus vs Switzerland.',
-    },
-    {
-      
-      channels: [
-        {
-          
-          name: ' SuperSport Football (CH-56)',
-          link: '../../../../Channel/Ch56',
-          logo: '/suppersports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-        },
-        {
-          
-          name: ' Sport TV5 Portugal (CH-290)  ',
-          link: '../../../../Channel/Ch290',
-          logo: '/sport-tv5-portugal.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  Diema Sport Bulgaria (CH-465)  ',
-          link: '../../../../Channel/Ch465',
-          logo: '/diema-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' Digi Sport 2 Romania (CH-401) ',
-          link: '../../../../Channel/Ch401',
-          logo: '/digi2.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-          {
-          
-          name: '  Sport 2 Israel (CH-144) ',
-          link: '../../../../Channel/Ch144',
-          logo: '/sport2-israel.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:00",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-    
-      ],
-      description: '18:00 UEFA Euro Qualifying : Israel vs Kosovo.',
-    },
-    {
-      
-      channels: [
-        {
-          
-          name: ' Sky Sports Premier League (CH-130) ',
-          link: '../../../../Channel/Ch130',
-          logo: '/sky-premier.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:30",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: '  Sky Sports Football (CH-35) ',
-          link: '../../../../Channel/Ch35',
-          logo: '/sky-football.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:30",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' Sky Sport Premier League DE (CH-1)  ',
-          link: '../../../../Channel/Ch01',
-          logo: '/sky-premier.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:30",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' Sky Sports Main Event (CH-38)  ',
-          link: '../../../../Channel/Ch38',
-          logo: '/sky-mainevent.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:30",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },  
-      ],
-      description: '18:30 England Womens Super League : Manchester United vs West Ham United.',
-    },
-    {
-      
-      channels: [
-        {
-          
-          name: ' LaLiga SmartBank TV (CH-539)  ',
-          link: '../../../../Channel/Ch539',
-          logo: '/laliga-smartbanktv.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:30",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          
-          name: ' Eleven Sports 4 Portugal (CH-458) ',
-          link: '../../../../Channel/Ch458',
+          name: '   Eleven Sports 3 Portugal (CH-457)  ',
+          link: '../../../../Channel/Ch457 ',
           logo: '/eleven1.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:30",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '  beIN Sports MAX 4 France (CH-494)  ',
-          link: '../../../../Channel/Ch494',
-          logo: '/bein-sports-max4.webp',
+          name: '  DAZN 4 ES (CH-448)  ',
+          link: '../../../../Channel/Ch448 ',
+          logo: '/dazn.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "18:30",
-          endTime: "20:00", 
-          startDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
-      
+        {
+          
+          name: ' Sport 1 Israel (CH-140) ',
+          link: '../../../../Channel/Ch140 ',
+          logo: '/sport-israel.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
       ],
-      description: '18:30 Spain Segunda Division : Deportivo Alav??s vs Tenerife.',
+      description: '15:00 England Premier League : AFC Bournemouth vs Fulham.',
     },
     {
      
       channels: [
         {
           
-          name: ' Fox Sports 2 USA (CH-758) ',
-          link: '../../../../Channel/Ch758',
-          logo: '/fox-sports.webp',
+          name: '  USA Network (CH-343) ',
+          link: '../../../../Channel/Ch343',
+          logo: '/usa.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: ' Viaplay Sports 2 UK (CH-550) ',
-          link: '../../../../Channel/Ch550',
-          logo: '/viaplay-xtra.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  DAZN1 DE (CH-426) ',
-          link: '../../../../Channel/Ch426',
-          logo: '/dazn.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Arena Sport 1 Premium (CH-134)',
-          link: '../../../../Channel/Ch134',
-          logo: '/arena-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
-        },
-     
-        {
-          
-          name: '  L Equipe France (CH-645) ',
-          link: '../../../../Channel/Ch645',
-          logo: '/lequipe.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })      
-        },
-        {
-          
-          name: '  SuperSport Laliga (CH-415)',
-          link: '../../../../Channel/Ch415',
-          logo: '/supersport-premier.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Sport TV1 Portugal (CH-49) ',
-          link: '../../../../Channel/Ch49',
-          logo: '/sport-tv5-portugal.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Polsat Sport Extra Poland (CH-50)  ',
-          link: '../../../../Channel/Ch50',
-          logo: '/polsat.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' Astro SuperSport 3 (CH-125) ',
+          name: '   Astro SuperSport 3 (CH-125) ',
           link: '../../../../Channel/Ch125',
           logo: '/astrosports.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: ' Diema Sport 3 Bulgaria (CH-467)  ',
-          link: '../../../../Channel/Ch467',
-          logo: '/diema-sport.webp',
+          name: ' SuperSport Premier League (CH-414) ',
+          link: '../../../../Channel/Ch414',
+          logo: '/suppersports.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        
-        {
-          
-          name: '  Sportv Brasil (Ch-78) ',
-          link: '../../../../Channel/Ch78',
-          logo: '/sportstv.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '  Diema Sport 3 Bulgaria (CH-467) ',
-          link: '../../../../Channel/Ch467',
-          logo: '/digi3.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })       
-        },  
-        {
-          
-          name: ' Digi Sport 1 Romania (CH-400) ',
-          link: '../../../../Channel/Ch400',
-          logo: '/digi1.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
-        }, 
-        {
-          
-          name: '  Sport 4 Israel (CH-143) ',
-          link: '../../../../Channel/Ch143',
-          logo: '/sport-israel.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },  
-      ],
-      description: '20:45 UEFA Euro Qualifying : Spain vs Norway.',
-    },
-    {
-     
-      channels: [
-        {
-          
-          name: ' Viaplay Sports 1 UK (CH-451)  ',
-          link: '../../../../Channel/Ch451',
-          logo: '/viaplay-xtra.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' Viaplay Sports 2 UK (CH-550) ',
-          link: '../../../../Channel/Ch550',
-          logo: '/viaplay-xtra.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' Nova TV Croatia (CH-2)  ',
-          link: '../../../../Channel/Ch02',
-          logo: '/nova-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' DAZN2 DE (CH-427)',
-          link: '../../../../Channel/Ch427',
+          name: '  DAZN 2 ES (CH-446)  ',
+          link: '../../../../Channel/Ch446',
           logo: '/dazn.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
-     
         {
           
-          name: '  SuperSport Premier League (CH-414) ',
-          link: '../../../../Channel/Ch414',
-          logo: '/supersport-premier.webp',
+          name: '  Eleven Sports 1 Portugal (CH-455)  ',
+          link: '../../../../Channel/Ch455',
+          logo: '/eleven1.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })      
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '  SuperSport Laliga (CH-415)',
-          link: '../../../../Channel/Ch415',
-          logo: '/supersport-premier.webp',
+          name: '  Canal+ Foot (CH-463)  ',
+          link: '../../../../Channel/Ch463',
+          logo: '/canal+.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: ' Arena Sport 3 Premium (CH-139)  ',
-          link: '../../../../Channel/Ch139',
+          name: '  Sky Sport Premier League DE (CH-10) ',
+          link: '../../../../Channel/Ch10',
+          logo: '/sky-premier.webp',
+          logo1: '/soccer.webp', 
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
+        {
+          
+          name: '  Arena Sport 3 Premium (CH-139)  ',
+          link: '../../../../Channel/Ch139  ',
           logo: '/arena-sport.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '  Polsat Sport Extra Poland (CH-5)  ',
-          link: '../../../../Channel/Ch05',
-          logo: '/polsat.webp',
+          name: '   beIN Sports MENA Premium 1 (CH-98)  ',
+          link: '../../../../Channel/Ch98  ',
+          logo: '/bein1-premium.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '  Sport TV2 Portugal (CH-74) ',
-          link: '../../../../Channel/Ch74',
-          logo: '/spotrstv2.webp',
+          name: '    ESPN BR (CH-81)   ',
+          link: '../../../../Channel/Ch81  ',
+          logo: '/espn-brazil.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: ' Sportv Brasil (Ch-78)  ',
-          link: '../../../../Channel/Ch78',
-          logo: '/sportstv.webp',
+          name: '   ESPN SUR (CH-149)  ',
+          link: '../../../../Channel/Ch149  ',
+          logo: '/espn.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        
-        {
-          
-          name: '   Astro Supersport 1 (CH-123)  ',
-          link: '../../../../Channel/Ch123',
-          logo: '/astrosports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '  Diema Sport 3 Bulgaria (CH-466) ',
-          link: '../../../../Channel/Ch467',
+          name: '  Diema Sport 2 Bulgaria (CH-466)  ',
+          link: '../../../../Channel/Ch466  ',
           logo: '/diema-sport.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })       
-        },  
-        {
-          
-          name: ' Digi Sport 3 Romania (CH-402) ',
-          link: '../../../../Channel/Ch402',
-          logo: '/digi3.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
-        }, 
-        {
-          
-          name: '  Sport 4 Israel (CH-141) ',
-          link: '../../../../Channel/Ch141',
-          logo: '/sport-israel.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },  
-      ],
-      description: '20:45 UEFA Euro Qualifying : Croatia vs Wales.',
-    },
-    {
-     
-      channels: [
-        {
-          
-          name: '  SuperSport Football (CH-56)  ',
-          link: '../../../../Channel/Ch56',
-          logo: '/suppersports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
-          name: '  Sport TV6 Portugal (CH-291) ',
-          link: '../../../../Channel/Ch291',
-          logo: '/sport-tv5-portugal.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Antena 1 Romania (CH-107) ',
-          link: '../../../../Channel/Ch107',
-          logo: '/antena.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Sport 4 Israel (CH-140) ',
-          link: '../../../../Channel/Ch140',
-          logo: '/sport-israel.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },  
-      ],
-      description: '20:45 UEFA Euro Qualifying : Andorra vs Romania.',
-    },
-    {
-     
-      channels: [
-        {
-          
-          name: '  Fox Soccer Plus (CH-756) ',
-          link: '../../../../Channel/Ch756',
-          logo: '/fox-sports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  SuperSport PSL (CH-413)  ',
-          link: '../../../../Channel/Ch413',
-          logo: '/suppersports.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '   Sport TV5 Portugal (CH-290)',
-          link: '../../../../Channel/Ch290',
-          logo: '/sport-tv5-portugal.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Sport 4 Israel (CH-142) ',
-          link: '../../../../Channel/Ch142',
-          logo: '/sport-israel.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: ' Polsat Sport Premium 2 Poland (CH-30)',
-          link: '../../../../Channel/Ch30',
-          logo: '/polsat.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },  
-        {
-          
-          name: ' SuperSport MaXimo 1 (CH-572) ',
-          link: '../../../../Channel/Ch572',
-          logo: '/supersport-maximo.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },  
-        {
-          
-          name: ' Diema Sport Bulgaria (CH-465)',
-          link: '../../../../Channel/Ch465',
-          logo: '/diema-sport.webp',
-          logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },
-        {
-          
-          name: '  Digi Sport 2 Romania (CH-401)',
-          link: '../../../../Channel/Ch401',
+          name: '  Digi Sport 2 Romania (CH-401)   ',
+          link: '../../../../Channel/Ch401  ',
           logo: '/digi2.webp',
           logo1: '/soccer.webp', 
-          date: "2023-03-25",
-          startTime: "20:45",
-          endTime: "22:00", 
-          startDate: new Date("2023-03-25T20:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-22T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-        },  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00" ,  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+        },
       ],
-      description: '20:45 Friendly : Germany vs Peru.',
+      description: '15:00 England Premier League : Arsenal vs Leeds United .',
     },
-
-
-
-
-
-
-
+  
 
   // Cricket tabel timezone**********************************************************************************
     {
@@ -1351,60 +554,183 @@ const SportsTable = () => {
           link: '../../../../Channel/Ch65',
           logo: '/sky-cricket.webp',
           logo1: '/cricket.webp',  
-          date: "2023-03-25",
-          startTime: "13:00",
-          endTime: "15:00",  
-          startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "11:00",
+          endTime: "14:00",  
+          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
           name: ' SuperSport Cricket (CH-368)',
           link: '../../../../Channel/Ch368',
           logo: '/suppersports.webp',
           logo1: '/cricket.webp',  
-          date: "2023-03-25",
-          startTime: "13:00",
-          endTime: "15:00",  
-          startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "11:00",
+          endTime: "14:00",  
+          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
           name: 'Willow Cricket (CH-346)',
           link: '../../../../Channel/Ch346',
           logo: '/willow.webp',
           logo1: '/cricket.webp',  
-          date: "2023-03-25",
-          startTime: "13:00",
-          endTime: "15:00",  
-          startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "11:00",
+          endTime: "14:00",  
+          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
           name: ' Astro Cricket (CH-370)',
           link: '../../../../Channel/Ch370',
           logo: '/astrosports.webp',
           logo1: '/cricket.webp',  
-          date: "2023-03-25",
-          startTime: "13:00",
-          endTime: "15:00",  
-          startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "11:00",
+          endTime: "14:00",  
+          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
-          name: 'Sky Sports Main Event (CH-38)',
-          link: '../../../../Channel/Ch38',
-          logo: '/sky-mainevent.webp',
+          name: ' Fox Cricket (CH-369)',
+          link: '../../../../Channel/Ch369',
+          logo: '/fox-cricket.webp',
           logo1: '/cricket.webp',  
-          date: "2023-03-25",
-          startTime: "13:00",
-          endTime: "15:00",  
-          startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          date: "2023-04-01",
+          startTime: "11:00",
+          endTime: "14:00",  
+          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: ' Sky Sport 3 NZ (CH-590)',
+          link: '../../../../Channel/Ch590',
+          logo: '/sky-cricket.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-01",
+          startTime: "11:00",
+          endTime: "14:00",  
+          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
       ],
-      description: '13:00 1st T20I : South Africa vs West Indies.',
+      description: '11:00 Indian Premier League : Kings XI Punjab vs Kolkata Knight Riders.',
+    },
+    {
+     
+      channels: [
+        {
+          name: 'Sky Sports Cricket (CH-65) ',
+          link: '../../../../Channel/Ch65',
+          logo: '/sky-cricket.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00",  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: ' SuperSport Cricket (CH-368)',
+          link: '../../../../Channel/Ch368',
+          logo: '/suppersports.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00",  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: 'Willow Cricket (CH-346)',
+          link: '../../../../Channel/Ch346',
+          logo: '/willow.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00",  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: ' Astro Cricket (CH-370)',
+          link: '../../../../Channel/Ch370',
+          logo: '/astrosports.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00",  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: ' Fox Cricket (CH-369)',
+          link: '../../../../Channel/Ch369',
+          logo: '/fox-cricket.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00",  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: ' Sky Sport 3 NZ (CH-590)',
+          link: '../../../../Channel/Ch590',
+          logo: '/sky-cricket.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-01",
+          startTime: "15:00",
+          endTime: "17:00",  
+          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+      ],
+      description: '15:00 Indian Premier League : Lucknow Super Giants vs Delhi Capitals.',
+    },
+    {
+     
+      channels: [
+        {
+          name: ' BT Sport 1 UK (CH-31) ',
+          link: '../../../../Channel/Ch31',
+          logo: '/bt1.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-02",
+          startTime: "01:00",
+          endTime: "03:00",  
+          startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: ' SuperSport Cricket (CH-368)',
+          link: '../../../../Channel/Ch368',
+          logo: '/suppersports.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-02",
+          startTime: "01:00",
+          endTime: "03:00",  
+          startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: ' Fox Cricket (CH-369)',
+          link: '../../../../Channel/Ch369',
+          logo: '/fox-cricket.webp',
+          logo1: '/cricket.webp',  
+          date: "2023-04-02",
+          startTime: "01:00",
+          endTime: "03:00",  
+          startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },  
+      ],
+      description: '01:00 (1st T20) : New Zealand vs Sri Lanka.',
     },
 
+    
    // Wrestling tabel timezone**********************************************************************************
    
   
@@ -1412,38 +738,92 @@ const SportsTable = () => {
      name: 'Wrestling',
        channels: [
           {
-           name: 'TNT USA (CH-338)',
-           link: '../../../../Channel/Ch338',
-          logo: '/tnt.webp',
+           name: 'SuperSport Variety 3 (CH-418)',
+           link: '../../../../Channel/Ch418',
+          logo: '/suppersports.webp',
           logo1: '/wwe.webp',
-          date: "2023-03-26",
-          startTime:"03:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-26T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-02",
+          startTime:"00:00",
+          endTime: "02:00",
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
          },
       
        ],
   
-        description: '03:00 All Elite Wrestling: Rampage - Season 3, Episode 12.',
+        description: '00:00 WrestleMania 39 Night 1.',
       },
     
-  
-  /*
+  // Snooker tabel timezone**********************************************************************************
+ 
      {
        name: 'Snooker',
       channels: [
         {
-         name: 'Viaplay Xtra UK (CH-597)',
-         link: '../../../../Channel/Ch597',
-         logo: '/viaplay-xtra.webp',
+         name: 'ITV 4 UK (CH-353) ',
+         link: '../../../../Channel/Ch353',
+         logo: '/itv4.webp',
          logo1: '/snooker.webp',
+         date: "2023-04-01",
+         startTime:"13:00",
+         endTime: "15:00",
+         startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+         endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
          },
+         {
+          name: ' Sport Klub HD Serbia (CH-453) ',
+          link: '../../../../Channel/Ch453',
+          logo: '/sport-klub.webp',
+          logo1: '/snooker.webp',
+          date: "2023-04-01",
+          startTime:"13:00",
+          endTime: "15:00",
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          },
        ],
-       description: '19:30 Ultimate Pool Champions League.',
+       description: '13:00 Cazzo Tour Championship - Day 6.',
      },
+     {
+     
+     channels: [
+       {
+        name: 'ITV 4 UK (CH-353) ',
+        link: '../../../../Channel/Ch353',
+        logo: '/itv4.webp',
+        logo1: '/snooker.webp',
+        date: "2023-04-01",
+        startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+         name: ' Sport Klub HD Serbia (CH-453) ',
+         link: '../../../../Channel/Ch453',
+         logo: '/sport-klub.webp',
+         logo1: '/snooker.webp',
+         date: "2023-04-01",
+         startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+         },
+         {
+          name: '  Astro SuperSport 2 (CH-124)  ',
+          link: '../../../../Channel/Ch124',
+          logo: '/astrosports.webp',
+          logo1: '/snooker.webp',
+          date: "2023-04-01",
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          },
+      ],
+      description: '19:00 Cazzo Tour Championship - Bonus Arena.',
+    },
   
-  */
   
   // Tennis tabel timezone**********************************************************************************
     {
@@ -1454,317 +834,50 @@ const SportsTable = () => {
           link: '../../../../Channel/Ch40',
           logo: '/tennis-logo.webp',
           logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'TSN2 (CH-112)  ',
-          link: '../../../../Channel/Ch112',
-          logo: '/tsn.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'TSN5 (CH-115)  ',
-          link: '../../../../Channel/Ch115',
-          logo: '/tsn.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"21:00",
+          endTime: "23:00",
+          startDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: 'SuperSport Tennis (CH-423)  ',
           link: '../../../../Channel/Ch423',
           logo: '/suppersports.webp',
           logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-              
-        {
-          name: '  beIN Sports MENA 5 (CH-95) ',
-          link: '../../../../Channel/Ch95',
-          logo: '/bein-arabia.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"21:00",
+          endTime: "23:00",
+          startDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
-          name: 'Eleven Sports 1 Portugal (CH-455)  ',
-          link: '../../../../Channel/Ch455',
-          logo: '/eleven1.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' Polsat Sport Poland (CH-47)',
-          link: '../../../../Channel/Ch47',
-          logo: '/polsat.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: '   Polsat Sport News Poland (CH-129) ',
-          link: '../../../../Channel/Ch129',
-          logo: '/polsat.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: '  Sport Klub 1 Serbia (CH-101) ',
-          link: '../../../../Channel/Ch101',
-          logo: '/sport-klub.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' ESPN2 SUR (CH-150) ',
-          link: '../../../../Channel/Ch150',
-          logo: '/espn2.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-      ],
-      description: '18:00 2023 Miami Open Tennis | WTA Third Round & ATP Second Round.  ',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Tennis Channel (CH-40) ',
-          link: '../../../../Channel/Ch40',
-          logo: '/tennis-logo.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'TSN2 (CH-112)  ',
-          link: '../../../../Channel/Ch112',
-          logo: '/tsn.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'TSN5 (CH-115)  ',
-          link: '../../../../Channel/Ch115',
-          logo: '/tsn.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'SuperSport Tennis (CH-423)  ',
-          link: '../../../../Channel/Ch423',
-          logo: '/suppersports.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-              
-        {
-          name: 'Eleven Sports 1 Portugal (CH-455)  ',
-          link: '../../../../Channel/Ch455',
-          logo: '/eleven1.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' CANAL+ SPORT Poland (CH-48)',
-          link: '../../../../Channel/Ch48',
+          name: ' Canal+ Sport 2 Poland (CH-73)',
+          link: '../../../../Channel/Ch73',
           logo: '/canal+.webp',
           logo1: '/tennis.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"21:00",
+          endTime: "23:00",
+          startDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
-            
+        {
+          name: '  DAZN 3 ES (CH-447)  ',
+          link: '../../../../Channel/Ch447',
+          logo: '/dazn.webp',
+          logo1: '/tennis.webp',
+          date: "2023-04-01",
+          startTime:"21:00",
+          endTime: "23:00",
+          startDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+     
       ],
-      description: '20:00 ATP/WTA Early Round Coverage, Day 4.',
+      description: '21:00 WTA 1000 Miami .  ',
     },
-  
-    {
-      
-      channels: [
-        {
-          name: 'Tennis Channel (CH-40) ',
-          link: '../../../../Channel/Ch40',
-          logo: '/tennis-logo.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-26T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'TSN2 (CH-112)  ',
-          link: '../../../../Channel/Ch112',
-          logo: '/tsn.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-26T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'TSN5 (CH-115)  ',
-          link: '../../../../Channel/Ch115',
-          logo: '/tsn.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-26T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'SuperSport Tennis (CH-423)  ',
-          link: '../../../../Channel/Ch423',
-          logo: '/suppersports.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-26T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-              
-        {
-          name: 'Eleven Sports 1 Portugal (CH-455)  ',
-          link: '../../../../Channel/Ch455',
-          logo: '/eleven1.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-26T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-                  
-      ],
-      description: '00:00 2023 Miami Open Tennis | ATP Second Round, WTA Third Round.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Tennis Channel (CH-40) ',
-          link: '../../../../Channel/Ch40',
-          logo: '/tennis-logo.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"02:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'TSN2 (CH-112)  ',
-          link: '../../../../Channel/Ch112',
-          logo: '/tsn.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"02:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'TSN5 (CH-115)  ',
-          link: '../../../../Channel/Ch115',
-          logo: '/tsn.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"02:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'SuperSport Tennis (CH-423)  ',
-          link: '../../../../Channel/Ch423',
-          logo: '/suppersports.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"02:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-              
-        {
-          name: 'Eleven Sports 1 Portugal (CH-455)  ',
-          link: '../../../../Channel/Ch455',
-          logo: '/eleven1.webp',
-          logo1: '/tennis.webp',
-          date: "2023-03-26",
-          startTime:"02:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-                  
-      ],
-      description: '02:00 WTA 1000 Miami.',
-    },
-
+   
 
 
 // Badminton tabel timezone**********************************************************************************
@@ -1773,47 +886,29 @@ const SportsTable = () => {
   name: 'Badminton',
   channels: [
     {
-      name: 'BT Sport 6 UK (CH-11)',
-      link: '../../../../Channel/Ch11',
+      name: 'BT Sport 6 UK (CH-23)',
+      link: '../../../../Channel/Ch23',
       logo: '/bt1.webp',
       logo1: '/badminton.webp',
-      date: "2023-03-25",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-03-25T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      date: "2023-04-01",
+      startTime:"12:00",
+      endTime: "14:00",
+      startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
     },
     {
       name: ' Astro SuperSport 4 (CH-126)',
       link: '../../../../Channel/Ch126',
       logo: '/astrosports.webp',
       logo1: '/badminton.webp',
-      date: "2023-03-25",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-03-25T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      date: "2023-04-01",
+      startTime:"12:00",
+      endTime: "14:00",
+      startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
     },
   ],
-  description: '14:00 BWF World Tour : Swiss Open - Semi Finals.',
-},
-{
- 
-  channels: [
-    {
-      name: 'BT Sport 2 UK (CH-32)',
-      link: '../../../../Channel/Ch32',
-      logo: '/bt1.webp',
-      logo1: '/badminton.webp',
-      date: "2023-03-25",
-      startTime:"17:00",
-      endTime: "19:00",
-      startDate: new Date("2023-03-25T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-   
-  ],
-  description: '17:00 BWF World Tour : Swiss Open - Semi Finals.',
+  description: '12:00 BWF World Tour | Spain Masters - Semi Finals.',
 },
 
 
@@ -1827,1093 +922,298 @@ const SportsTable = () => {
   channels: [
    
     {
-      name: ' Sky Sport MotoGP IT (CH-55)  ',
-      link: '../../../../Channel/Ch55',
-      logo: '/Sky-Sport-MotoGP.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"09:40",
-      endTime: "10:00",
-      startDate: new Date("2023-03-25T09:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-    },
-    {
-      name: ' Sport TV4 Portugal (CH-289)  ',
-      link: '../../../../Channel/Ch289',
-      logo: '/sport-tv5-portugal.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"09:40",
-      endTime: "10:00",
-      startDate: new Date("2023-03-25T09:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-    },
-    {
-      name: ' Canal+ Sport360 (CH-464) ',
-      link: '../../../../Channel/Ch464',
-      logo: '/canal+.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"09:40",
-      endTime: "10:00",
-      startDate: new Date("2023-03-25T09:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-    },
-    {
-      name: '  Polsat Sport Premium 2 Poland (CH-30)  ',
-      link: '../../../../Channel/Ch30',
-      logo: '/polsat.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"09:40",
-      endTime: "10:00",
-      startDate: new Date("2023-03-25T09:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-    },
-    {
-      name: ' Sport Klub 3 Serbia (CH-103) ',
-      link: '../../../../Channel/Ch103',
-      logo: '/sport-klub.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"09:40",
-      endTime: "10:00",
-      startDate: new Date("2023-03-25T09:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-    },
-    {
-      name: '  beIN Sports MENA 6 (CH-96)  ',
-      link: '../../../../Channel/Ch96',
-      logo: '/bein-arabia.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"09:40",
-      endTime: "10:00",
-      startDate: new Date("2023-03-25T09:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-    },
-    {
-      name: ' beIN Sports MENA English 3 (CH-46) ',
-      link: '../../../../Channel/Ch46',
-      logo: '/bein-eng3.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"09:40",
-      endTime: "10:00",
-      startDate: new Date("2023-03-25T09:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport 5 Live Israel (CH-146) ',
-      link: '../../../../Channel/Ch146',
-      logo: '/sport5-israel.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"09:40",
-      endTime: "10:00",
-      startDate: new Date("2023-03-25T09:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-  ],
-  description: '09:40 Moto3 : Free Practice 3 - GP Portugal.',
-},
-{
-  
-  channels: [
-   
-    {
-      name: ' Sky Sport MotoGP IT (CH-55)  ',
-      link: '../../../../Channel/Ch55',
-      logo: '/Sky-Sport-MotoGP.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"10:25",
-      endTime: "11:25",
-      startDate: new Date("2023-03-25T10:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport TV4 Portugal (CH-289)  ',
-      link: '../../../../Channel/Ch289',
-      logo: '/sport-tv5-portugal.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"10:25",
-      endTime: "11:25",
-      startDate: new Date("2023-03-25T10:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Canal+ Sport360 (CH-464) ',
-      link: '../../../../Channel/Ch464',
-      logo: '/canal+.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"10:25",
-      endTime: "11:25",
-      startDate: new Date("2023-03-25T10:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  Polsat Sport Premium 2 Poland (CH-30)  ',
-      link: '../../../../Channel/Ch30',
-      logo: '/polsat.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"10:25",
-      endTime: "11:25",
-      startDate: new Date("2023-03-25T10:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport Klub 3 Serbia (CH-103) ',
-      link: '../../../../Channel/Ch103',
-      logo: '/sport-klub.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"10:25",
-      endTime: "11:25",
-      startDate: new Date("2023-03-25T10:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  beIN Sports MENA 6 (CH-96)  ',
-      link: '../../../../Channel/Ch96',
-      logo: '/bein-arabia.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"10:25",
-      endTime: "11:25",
-      startDate: new Date("2023-03-25T10:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-    },
-    {
-      name: ' beIN Sports MENA English 3 (CH-46) ',
-      link: '../../../../Channel/Ch46',
-      logo: '/bein-eng3.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"10:25",
-      endTime: "11:25",
-      startDate: new Date("2023-03-25T10:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport 5 Live Israel (CH-146) ',
-      link: '../../../../Channel/Ch146',
-      logo: '/sport5-israel.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"10:25",
-      endTime: "11:25",
-      startDate: new Date("2023-03-25T10:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-  ],
-  description: '10:25 Moto2 : Treinos Livres 3 - GP Portugal.',
-},  
-{
-  
-  channels: [
-   
-    {
       name: ' BT Sport 2 UK (CH-32)  ',
-      link: '../../../../Channel/Ch32',
+      link: '../../../../Channel/Ch33',
       logo: '/bt2.webp',
       logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      date: "2023-04-01",
+      startTime:"14:00",
+      endTime: "16:00",
+      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
-      name: ' Sky Sport MotoGP IT (CH-55)  ',
-      link: '../../../../Channel/Ch55',
-      logo: '/Sky-Sport-MotoGP.webp',
+      name: '  Sky Sport MotoGP IT (CH-59)   ',
+      link: '../../../../Channel/Ch59',
+      logo: '/sky-motorgp.webp',
       logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      date: "2023-04-01",
+      startTime:"14:00",
+      endTime: "16:00",
+      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
-      name: ' Sport TV4 Portugal (CH-289)  ',
+      name: ' DAZN 1 ES (CH-445)   ',
+      link: '../../../../Channel/Ch445',
+      logo: '/dazn.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"14:00",
+      endTime: "16:00",
+      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+    },
+    {
+      name: '  Sport TV4 Portugal (CH-289)  ',
       link: '../../../../Channel/Ch289',
       logo: '/sport-tv5-portugal.webp',
       logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      date: "2023-04-01",
+      startTime:"14:00",
+      endTime: "16:00",
+      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
-      name: ' Canal+ Sport360 (CH-464) ',
-      link: '../../../../Channel/Ch464',
-      logo: '/canal+.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-    },
-    {
-      name: '  Polsat Sport Premium 2 Poland (CH-30)  ',
-      link: '../../../../Channel/Ch30',
-      logo: '/polsat.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-    },
-    {
-      name: ' Sport Klub 3 Serbia (CH-103) ',
-      link: '../../../../Channel/Ch103',
-      logo: '/sport-klub.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-    },
-    {
-      name: '  beIN Sports MENA 6 (CH-96)  ',
-      link: '../../../../Channel/Ch96',
-      logo: '/bein-arabia.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' beIN Sports MENA English 3 (CH-46) ',
-      link: '../../../../Channel/Ch46',
-      logo: '/bein-eng3.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport 5 Live Israel (CH-146) ',
-      link: '../../../../Channel/Ch146',
-      logo: '/sport5-israel.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:10",
-      endTime: "12:10",
-      startDate: new Date("2023-03-25T11:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-  ],
-  description: '11:10 MotoGP : Grand Prix of Portugal - MotoGP Qualifying.',
-},  
-{
-  
-  channels: [
-   
-    {
-      name: ' Ziggo Racing NL (CH-396)   ',
-      link: '../../../../Channel/Ch396',
-      logo: '/ziggo-racing.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:25",
-      endTime: "12:25",
-      startDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Eleven Sports 1 Portugal (CH-455) ',
-      link: '../../../../Channel/Ch455',
-      logo: '/eleven1.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:25",
-      endTime: "12:25",
-      startDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  SuperSport Action (CH-420)  ',
-      link: '../../../../Channel/Ch420',
-      logo: '/suppersports.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"11:25",
-      endTime: "12:25",
-      startDate: new Date("2023-03-25T11:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T12:25:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-   
-  ],
-  description: '11:25 Formula E : ePrix Sao Paulo | Vrije Training 2.',
-},  
-{
-  
-  channels: [
-   
-    {
-      name: ' Ziggo Racing NL (CH-396)   ',
-      link: '../../../../Channel/Ch396',
-      logo: '/ziggo-racing.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:30",
-      endTime: "14:30",
-      startDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Eleven Sports 1 Portugal (CH-455) ',
-      link: '../../../../Channel/Ch455',
-      logo: '/eleven1.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:30",
-      endTime: "14:30",
-      startDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  SuperSport Action (CH-424)  ',
+      name: '  SuperSport Motorsport (CH-424)  ',
       link: '../../../../Channel/Ch424',
       logo: '/suppersports.webp',
       logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:30",
-      endTime: "14:30",
-      startDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-   
-  ],
-  description: '13:30 Formula E : Sao Paulo, qualifications.',
-},  
-{
-  
-  channels: [
-   
-     {
-      name: ' Sky Sport MotoGP IT (CH-55)  ',
-      link: '../../../../Channel/Ch55',
-      logo: '/Sky-Sport-MotoGP.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:45",
-      endTime: "14:45",
-      startDate: new Date("2023-03-25T13:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      date: "2023-04-01",
+      startTime:"14:00",
+      endTime: "16:00",
+      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
-      name: ' Sport TV4 Portugal (CH-289)  ',
-      link: '../../../../Channel/Ch289',
-      logo: '/sport-tv5-portugal.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:45",
-      endTime: "14:45",
-      startDate: new Date("2023-03-25T13:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-   
-    {
-      name: '  Polsat Sport Premium 2 Poland (CH-30)  ',
-      link: '../../../../Channel/Ch30',
-      logo: '/polsat.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:45",
-      endTime: "14:45",
-      startDate: new Date("2023-03-25T13:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport Klub 3 Serbia (CH-103) ',
-      link: '../../../../Channel/Ch103',
-      logo: '/sport-klub.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:45",
-      endTime: "14:45",
-      startDate: new Date("2023-03-25T13:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  beIN Sports MENA 6 (CH-96)  ',
-      link: '../../../../Channel/Ch96',
-      logo: '/bein-arabia.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:45",
-      endTime: "14:45",
-      startDate: new Date("2023-03-25T13:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' beIN Sports MENA English 3 (CH-46) ',
-      link: '../../../../Channel/Ch46',
-      logo: '/bein-eng3.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:45",
-      endTime: "14:45",
-      startDate: new Date("2023-03-25T13:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport 5 Live Israel (CH-146) ',
-      link: '../../../../Channel/Ch146',
-      logo: '/sport5-israel.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:45",
-      endTime: "14:45",
-      startDate: new Date("2023-03-25T13:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Canal+ Sport360 (CH-464) ',
+      name: '  Canal+ Sport360 (CH-464)  ',
       link: '../../../../Channel/Ch464',
       logo: '/canal+.webp',
       logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"13:45",
-      endTime: "14:45",
-      startDate: new Date("2023-03-25T13:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      date: "2023-04-01",
+      startTime:"14:00",
+      endTime: "16:00",
+      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+    },
+    {
+      name: '  ESPN4 BR (CH-85)   ',
+      link: '../../../../Channel/Ch85',
+      logo: '/espn-brazil.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"14:00",
+      endTime: "16:00",
+      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
   ],
-  description: '13:45 Moto3 : Portuguese GP | Qualifying.',
-}, 
-{
-  
-  channels: [
-   
-     {
-      name: ' Sky Sport MotoGP IT (CH-55)  ',
-      link: '../../../../Channel/Ch55',
-      logo: '/Sky-Sport-MotoGP.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"14:45",
-      endTime: "15:45",
-      startDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport TV4 Portugal (CH-289)  ',
-      link: '../../../../Channel/Ch289',
-      logo: '/sport-tv5-portugal.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"14:45",
-      endTime: "15:45",
-      startDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-   
-    {
-      name: '  Polsat Sport Premium 2 Poland (CH-30)  ',
-      link: '../../../../Channel/Ch30',
-      logo: '/polsat.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"14:45",
-      endTime: "15:45",
-      startDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport Klub 3 Serbia (CH-103) ',
-      link: '../../../../Channel/Ch103',
-      logo: '/sport-klub.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"14:45",
-      endTime: "15:45",
-      startDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  beIN Sports MENA 6 (CH-96)  ',
-      link: '../../../../Channel/Ch96',
-      logo: '/bein-arabia.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"14:45",
-      endTime: "15:45",
-      startDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-    },
-    {
-      name: ' beIN Sports MENA English 3 (CH-46) ',
-      link: '../../../../Channel/Ch46',
-      logo: '/bein-eng3.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"14:45",
-      endTime: "15:45",
-      startDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport 5 Live Israel (CH-146) ',
-      link: '../../../../Channel/Ch146',
-      logo: '/sport5-israel.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"14:45",
-      endTime: "15:45",
-      startDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Canal+ Sport360 (CH-464) ',
-      link: '../../../../Channel/Ch464',
-      logo: '/canal+.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"14:45",
-      endTime: "15:45",
-      startDate: new Date("2023-03-25T14:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-  ],
-  description: '14:45 Moto2 : Portugal Qualifying.',
-}, 
-{
-  
-  channels: [
-   
-     {
-      name: ' Sky Sport MotoGP IT (CH-55)  ',
-      link: '../../../../Channel/Ch55',
-      logo: '/Sky-Sport-MotoGP.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"15:45",
-      endTime: "16:45",
-      startDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
-    },
-    {
-      name: ' Sport TV4 Portugal (CH-289)  ',
-      link: '../../../../Channel/Ch289',
-      logo: '/sport-tv5-portugal.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"15:45",
-      endTime: "16:45",
-      startDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-   
-    {
-      name: '  Polsat Sport Premium 2 Poland (CH-30)  ',
-      link: '../../../../Channel/Ch30',
-      logo: '/polsat.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"15:45",
-      endTime: "16:45",
-      startDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport Klub 3 Serbia (CH-103) ',
-      link: '../../../../Channel/Ch103',
-      logo: '/sport-klub.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"15:45",
-      endTime: "16:45",
-      startDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  beIN Sports MENA 6 (CH-96)  ',
-      link: '../../../../Channel/Ch96',
-      logo: '/bein-arabia.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"15:45",
-      endTime: "16:45",
-      startDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' beIN Sports MENA English 3 (CH-46) ',
-      link: '../../../../Channel/Ch46',
-      logo: '/bein-eng3.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"15:45",
-      endTime: "16:45",
-      startDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Sport 5 Live Israel (CH-146) ',
-      link: '../../../../Channel/Ch146',
-      logo: '/sport5-israel.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"15:45",
-      endTime: "16:45",
-      startDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' Canal+ Sport360 (CH-464) ',
-      link: '../../../../Channel/Ch464',
-      logo: '/canal+.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"15:45",
-      endTime: "16:45",
-      startDate: new Date("2023-03-25T15:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T16:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-  ],
-  description: '15:45 Grand Prix of Portugal - MotoGP Sprint Race.',
+  description: '14:00 MotoGP : Grand Prix of Argentina - Qualifying.',
 },
 {
-  
-  channels: [
-   
-     {
-      name: ' CBS USA (CH-52)  ',
-      link: '../../../../Channel/Ch52',
-      logo: '/cbs.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"17:30",
-      endTime: "18:30",
-      startDate: new Date("2023-03-25T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: ' TSN3 (CH-113)  ',
-      link: '../../../../Channel/Ch113',
-      logo: '/tsn.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"17:30",
-      endTime: "18:30",
-      startDate: new Date("2023-03-25T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-    },
-   
-    {
-      name: ' Eurosport 2 UK (CH-42)  ',
-      link: '../../../../Channel/Ch42',
-      logo: '/eurosports2.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"17:30",
-      endTime: "18:30",
-      startDate: new Date("2023-03-25T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  Eurosport 2 Poland (CH-58)  ',
-      link: '../../../../Channel/Ch58',
-      logo: '/euro2.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"17:30",
-      endTime: "18:30",
-      startDate: new Date("2023-03-25T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
-    {
-      name: '  Eurosport 2 ES (CH-525)  ',
-      link: '../../../../Channel/Ch525',
-      logo: '/eurosport1-es.webp',
-      logo1: '/motorsports.webp',
-      date: "2023-03-25",
-      startTime:"17:30",
-      endTime: "18:30",
-      startDate: new Date("2023-03-25T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-    },
  
+  channels: [
+   
+    {
+      name: '  DAZN F1 ES (CH-537)   ',
+      link: '../../../../Channel/Ch537',
+      logo: '/dazn.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"23:00",
+      endTime: "23:59",
+      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+    },
+    {
+      name: '   Sky Sport F1 DE (CH-55)    ',
+      link: '../../../../Channel/Ch55',
+      logo: '/sky-racing.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"23:00",
+      endTime: "23:59",
+      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+    },
+    {
+      name: '  Sport 5 Live Israel (CH-146)  ',
+      link: '../../../../Channel/Ch146',
+      logo: '/sport5-israel.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"23:00",
+      endTime: "23:59",
+      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+    },
+    {
+      name: '  Sport TV4 Portugal (CH-289)  ',
+      link: '../../../../Channel/Ch289',
+      logo: '/sport-tv5-portugal.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"23:00",
+      endTime: "23:59",
+      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+    },
+    {
+      name: '  SuperSport Motorsport (CH-424)  ',
+      link: '../../../../Channel/Ch424',
+      logo: '/suppersports.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"23:00",
+      endTime: "23:59",
+      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+    },
+    {
+      name: '  Canal+ Sport360 (CH-122)  ',
+      link: '../../../../Channel/Ch122',
+      logo: '/canal+.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"23:00",
+      endTime: "23:59",
+      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+    },
+    {
+      name: '  Sport Klub 1 Serbia (CH-101)  ',
+      link: '../../../../Channel/Ch101',
+      logo: '/sport-klub.webp',
+      logo1: '/motorsports.webp',
+      date: "2023-04-01",
+      startTime:"23:00",
+      endTime: "23:59",
+      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+    },
   ],
-  description: '17:30 FIA Formula E Racing Round 6: Sao Paulo E-Prix.',
+  description: '23:00 Formula 3 : FIA F3 - 23: Australia Feature Race.',
 },
-
-
-
 
 
 
 // Basketball tabel timezone**********************************************************************************
-/*
+
     {
       name: 'Basketball',
       channels: [
         {
-          name: 'Polsat Sport News Poland (CH-129)',
-          link: '../../../../Channel/Ch129',
-          logo: '/polsat.webp',
+          name: 'Sky Sports Mix UK (CH-449) ',
+          link: '../../../../Channel/Ch449',
+          logo: '/sky-mix.webp',
           logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"17:30",
-          endTime: "19:00",
-          startDate: new Date("2023-03-25T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-      ],
-      description: '17:30 Polish Basketball League : Czarni Slupsk vs Spojnia Stargard.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Magenta Sport (CH-13)',
-          link: '../../../../Channel/Ch13',
-          logo: '/magenta-sport.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"19:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          name: 'DAZN 2 ES (CH-446)  ',
-          link: '../../../../Channel/Ch446',
-          logo: '/dazn.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"19:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          name: ' Sport Klub 1 Serbia (CH-101) ',
-          link: '../../../../Channel/Ch101',
-          logo: '/sport-klub.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"19:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          name: ' Sky Sport Arena Italy (CH-462)',
-          link: '../../../../Channel/Ch462',
-          logo: '/sky-arena.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"19:00",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-      ],
-      description: '19:00 Euroleague : Crvena zvezda vs Baskonia.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Magenta Sport (CH-14) ',
-          link: '../../../../Channel/Ch14',
-          logo: '/magenta-sport.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"19:30",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T19:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
-        },
-        {
-          name: ' DAZN 1 ES (CH-445)  ',
-          link: '../../../../Channel/Ch445',
-          logo: '/dazn.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"19:30",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T19:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          name: ' Max Sport 2 Bulgaria (CH-473)',
-          link: '../../../../Channel/Ch473',
-          logo: '/max-sport4.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"19:30",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T19:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-        {
-          name: '  Sport Klub 4 Serbia (CH-104)',
-          link: '../../../../Channel/Ch104',
-          logo: '/sport-klub.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"19:30",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T19:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-      ],
-      description: '19:30 Euroleague : Panathinaikos vs Barcelona.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Magenta Sport (CH-15) ',
-          link: '../../../../Channel/Ch15',
-          logo: '/magenta-sport.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T20:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: '  DAZN 3 ES (CH-447)  ',
-          link: '../../../../Channel/Ch447',
-          logo: '/dazn.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T20:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: '  Sport 5 Plus Israel (CH-145)',
-          link: '../../../../Channel/Ch145',
-          logo: '/sport5-israel.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T20:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' Sport Klub HD Serbia (CH-453)',
-          link: '../../../../Channel/Ch453',
-          logo: '/sport-klub.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T20:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-      ],
-      description: '20:00 Euroleague : Alba Berlin vs Anadolu Efes.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Magenta Sport (CH-16) ',
-          link: '../../../../Channel/Ch16',
-          logo: '/magenta-sport.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T20:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: '  DAZN 4 ES (CH-448)  ',
-          link: '../../../../Channel/Ch448',
-          logo: '/dazn.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T20:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: '  Sport 5 Plus Israel (CH-144)',
-          link: '../../../../Channel/Ch144',
-          logo: '/sport5-israel.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T20:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' Sport Klub 3 Serbia (CH-103)',
-          link: '../../../../Channel/Ch103',
-          logo: '/sport-klub.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T20:03:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
-        },
-      ],
-      description: '20:00 Euroleague : Lyon-Villeurbanne vs Maccabi Tel Aviv.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Bally Sports Florida (CH-9)',
-          link: '../../../../Channel/Ch09',
-          logo: '/bally-sports.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-       
-      ],
-      description: '00:00 NBA : Orlando Magic vs New York Knicks.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Sportsnet 360 (CH-10) ',
-          link: '../../../../Channel/Ch10',
-          logo: '/sportsnet.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:30",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
-          name: 'Movistar Deportes Spain (CH-436) ',
-          link: '../../../../Channel/Ch436',
-          logo: '/movistar-deportes.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"00:30",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' Sport TV2 Portugal (CH-74) ',
-          link: '../../../../Channel/Ch74',
-          logo: '/sport-tv5-portugal.webp',
-          logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"00:30",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: 'beIN Sports 1 France (CH-116) ',
+          name: 'beIN Sports 1 France (CH-116)  ',
           link: '../../../../Channel/Ch116',
           logo: '/bein1-french.webp',
           logo1: '/basketball.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:30",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
-          name: 'beIN Sports MENA Premium 3 (CH-100) ',
-          link: '../../../../Channel/Ch100',
-          logo: '/bein3-premium.webp',
+          name: ' #Vamos Spain (CH-521) ',
+          link: '../../../../Channel/Ch521',
+          logo: '/vamos.webp',
           logo1: '/basketball.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:30",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
-          name: 'beIN Sports MENA English 3 (CH-46)',
-          link: '../../../../Channel/Ch46',
-          logo: '/bein-eng3.webp',
+          name: ' Arena Sport 1 Premium (CH-134) ',
+          link: '../../../../Channel/Ch134',
+          logo: '/arena-sport.webp',
           logo1: '/basketball.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:30",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
-          name: ' Astro SuperSport 4 (CH-126)',
+          name: 'Sport TV2 Portugal (CH-74) ',
+          link: '../../../../Channel/Ch74',
+          logo: '/sport-tv5-portugal.webp',
+          logo1: '/basketball.webp',
+          date: "2023-04-02",
+          startTime:"00:30",
+          endTime: "02:00",
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: ' CANAL+ Sport Poland (CH-48) ',
+          link: '../../../../Channel/Ch48',
+          logo: '/canal+.webp',
+          logo1: '/basketball.webp',
+          date: "2023-04-02",
+          startTime:"00:30",
+          endTime: "02:00",
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
+        {
+          name: 'Astro SuperSport 4 (CH-126)  ',
           link: '../../../../Channel/Ch126',
           logo: '/astrosports.webp',
           logo1: '/basketball.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:30",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
-      ],
-      description: '00:30 NBA : Brooklyn Nets vs Cleveland Cavaliers.',
-    },
-    {
-      
-      channels: [
         {
-          name: '  Bally Sports New Orleans (CH-13)',
-          link: '../../../../Channel/Ch13',
-          logo: '/bally-sports.webp',
+          name: ' Diema Sport 2 Bulgaria (CH-466)  ',
+          link: '../../../../Channel/Ch466',
+          logo: '/diema-sport.webp',
           logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"01:00",
+          date: "2023-04-02",
+          startTime:"00:30",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T01:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
-      
+        {
+          name: ' ESPN2 BR (CH-82) ',
+          link: '../../../../Channel/Ch82',
+          logo: '/espn-brazil.webp',
+          logo1: '/basketball.webp',
+          date: "2023-04-02",
+          startTime:"00:30",
+          endTime: "02:00",
+          startDate: new Date("2023-04-02T00:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+        },
       ],
-      description: '01:00 NBA : New Orleans Pelicans vs Charlotte Hornets.',
+      description: '00:30 NBA : Miami Heat vs Dallas Mavericks.',
     },
     {
       
       channels: [
         {
-          name: ' Sportsnet 360 (CH-14) ',
-          link: '../../../../Channel/Ch14',
-          logo: '/sportsnet.webp',
+          name: 'NBA League Pass (CH-1)',
+          link: '../../../../Channel/Ch1',
+          logo: '/nba.webp',
           logo1: '/basketball.webp',
-          date: "2023-03-25",
-          startTime:"03:30",
-          endTime: "05:00",
-          startDate: new Date("2023-03-25T03:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T05:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-02",
+          startTime:"01:30",
+          endTime: "03:00",
+          startDate: new Date("2023-04-02T01:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
+       
       ],
-      description: '03:30 NBA : Los Angeles Clippers vs Oklahoma City Thunder.',
+      description: '01:30 NBA : New Orleans Pelicans vs Los Angeles Clipper.',
     },
-  */
+  
   
     // Golf tabel timezone**********************************************************************************
   
@@ -2921,160 +1221,280 @@ const SportsTable = () => {
       name: 'Golf',
       channels: [
         {
-          name: 'Sky Sports Golf (CH-70) ',
-          link: '../../../../Channel/Ch70',
-          logo: '/sky-golf.webp',
-          logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"12:30",
-          endTime: "13:30",
-          startDate: new Date("2023-03-25T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' Movistar Golf (CH-528)  ',
-          link: '../../../../Channel/Ch528',
-          logo: '/movistar.webp',
-          logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"12:30",
-          endTime: "13:30",
-          startDate: new Date("2023-03-25T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' Sport TV3 Portugal (CH-454)   ',
-          link: '../../../../Channel/Ch454',
-          logo: '/sport-tv5-portugal.webp',
-          logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"12:30",
-          endTime: "13:30",
-          startDate: new Date("2023-03-25T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: '  SuperSport Golf (CH-422) ',
+          name: 'SuperSport Golf (CH-422) ',
           link: '../../../../Channel/Ch422',
           logo: '/suppersports.webp',
           logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"12:30",
-          endTime: "13:30",
-          startDate: new Date("2023-03-25T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"10:00",
+          endTime: "12:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
-        {
-          name: ' Sky Sports Main Event (CH-38) ',
-          link: '../../../../Channel/Ch38',
-          logo: '/sky-mainevent.webp',
-          logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"12:30",
-          endTime: "13:30",
-          startDate: new Date("2023-03-25T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
+             
       ],
-      description: '12:30 WGC-Dell Match Play.',
+      description: '10:00 Sunshine 22/23 Limpopo Champs D3.',
     },
     {
       
       channels: [
         {
-          name: 'NBC USA (CH-53)',
+          name: 'Sky Sports Golf (CH-70)',
+          link: '../../../../Channel/Ch70',
+          logo: '/sky-golf.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"10:00",
+          endTime: "12:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' NBC USA (CH-53) ',
           link: '../../../../Channel/Ch53',
           logo: '/nbc.webp',
           logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"12:30",
-          endTime: "13:30",
-          startDate: new Date("2023-03-25T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"10:00",
+          endTime: "12:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
-      
-      ],
-      description: '17:00 WGC - Dell Technologies Match Play, Quarterfinals.',
-    },
-    {
-      
-      channels: [
         {
-          name: 'SuperSport Variety 1 (CH-416)',
-          link: '../../../../Channel/Ch416',
-          logo: '/nbc.webp',
+          name: 'TSN3 (CH-113) ',
+          link: '../../../../Channel/Ch113',
+          logo: '/tsn.webp',
           logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"22:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"10:00",
+          endTime: "12:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
-      
+        {
+          name: 'TSN5 (CH-115) ',
+          link: '../../../../Channel/Ch115',
+          logo: '/tsn.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"10:00",
+          endTime: "12:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' Movistar Golf (CH-528)',
+          link: '../../../../Channel/Ch528',
+          logo: '/movistar.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"10:00",
+          endTime: "12:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' SuperSport Golf (CH-422)',
+          link: '../../../../Channel/Ch422',
+          logo: '/suppersports.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"10:00",
+          endTime: "12:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' ESPN 2 BR (CH-82)',
+          link: '../../../../Channel/Ch82',
+          logo: '/espn-brazil.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"10:00",
+          endTime: "12:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
       ],
-      description: '22:00 PGA Champions 23 The Galleri D2.',
+      description: '17:00 Augusta National Amateur, Final Round.',
     },
     {
      
       channels: [
         {
-          name: 'Sky Sports Golf (CH-70) ',
+          name: 'CW USA (CH-300) ',
+          link: '../../../../Channel/Ch300',
+          logo: '/cw.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"18:00",
+          endTime: "20:00",
+          startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+             
+      ],
+      description: '18:00 LIV Golf Invitational Series.',
+    },
+    {
+     
+      channels: [
+        {
+          name: 'Sky Sports Golf (CH-70)',
           link: '../../../../Channel/Ch70',
           logo: '/sky-golf.webp',
           logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"22:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
-          name: ' Movistar Golf (CH-528)  ',
-          link: '../../../../Channel/Ch528',
-          logo: '/movistar.webp',
+          name: 'NBC USA (CH-53) ',
+          link: '../../../../Channel/Ch53',
+          logo: '/nbc.webp',
           logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"22:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
-          name: ' Sport TV3 Portugal (CH-454)   ',
-          link: '../../../../Channel/Ch454',
-          logo: '/sport-tv5-portugal.webp',
+          name: 'GOLF Channel USA (CH-318) ',
+          link: '../../../../Channel/Ch318',
+          logo: '/golf-channel-usa.webp',
           logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"22:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
-          name: '  SuperSport Golf (CH-422) ',
-          link: '../../../../Channel/Ch422',
-          logo: '/suppersports.webp',
-          logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"22:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
-        },
-        {
-          name: ' Sky Sports Main Event (CH-38) ',
+          name: ' Sky Sports Main Event (CH-38)',
           link: '../../../../Channel/Ch38',
           logo: '/sky-mainevent.webp',
           logo1: '/golf.webp',
-          date: "2023-03-25",
-          startTime:"22:00",
-          endTime: "23:00",
-          startDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
+        {
+          name: 'Movistar Golf (CH-528) ',
+          link: '../../../../Channel/Ch528',
+          logo: '/movistar.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' SuperSport Golf (CH-422)',
+          link: '../../../../Channel/Ch422',
+          logo: '/suppersports.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' Eurosport 2 Poland (CH-58)',
+          link: '../../../../Channel/Ch58',
+          logo: '/eurosports2.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+            
       ],
-      description: '22:00 LPGA Drive On Championship.',
+      description: '20:00 Valero Texas Open.',
     },
+    {
+     
+      channels: [
+        {
+          name: 'Sky Sports Golf (CH-70)',
+          link: '../../../../Channel/Ch70',
+          logo: '/sky-golf.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"23:00",
+          endTime: "23:59",
+          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: 'GOLF Channel USA (CH-318) ',
+          link: '../../../../Channel/Ch318',
+          logo: '/golf-channel-usa.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"23:00",
+          endTime: "23:59",
+          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' Sky Sports Main Event (CH-38)',
+          link: '../../../../Channel/Ch38',
+          logo: '/sky-mainevent.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"23:00",
+          endTime: "23:59",
+          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' SuperSport Grandstand (CH-412) ',
+          link: '../../../../Channel/Ch412',
+          logo: '/suppersports.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"23:00",
+          endTime: "23:59",
+          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: ' SuperSport Golf (CH-422)',
+          link: '../../../../Channel/Ch422',
+          logo: '/suppersports.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"23:00",
+          endTime: "23:59",
+          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+        {
+          name: '  Sport TV3 Portugal (CH-454)',
+          link: '../../../../Channel/Ch424',
+          logo: '/sport-tv5-portugal.webp',
+          logo1: '/golf.webp',
+          date: "2023-04-01",
+          startTime:"23:00",
+          endTime: "23:59",
+          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        },
+            
+      ],
+      description: '23:00 LPGA Tour: Dio Implant LA Open.',
+    },
+
+
 
 
  // Cycling tabel timezone**********************************************************************************
@@ -3085,65 +1505,47 @@ const SportsTable = () => {
       channels: [
        
         {
-          name: ' SuperSport Variety 1 (CH-416) ',
-        link: '../../../../Channel/Ch416',
-        logo: '/suppersports.webp',
+          name: ' Eurosport 1 UK (CH-41)  ',
+        link: '../../../../Channel/Ch41',
+        logo: '/eurosport1.webp',
         logo1: '/cycling.webp',
-        date: "2023-03-25",
-        startTime:"07:30",
-        endTime: "08:30",
-        startDate: new Date("2023-03-25T07:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-        endDate: new Date("2023-03-25T08:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        date: "2023-04-01",
+        startTime:"14:30",
+        endTime: "16:00",
+        startDate: new Date("2023-04-01T07:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+        endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+        {
+          name: '  Eurosport 1 Poland (CH-57)   ',
+        link: '../../../../Channel/Ch57',
+        logo: '/eurosport1.webp',
+        logo1: '/cycling.webp',
+        date: "2023-04-01",
+        startTime:"14:30",
+        endTime: "16:00",
+        startDate: new Date("2023-04-01T07:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+        endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+        {
+          name: ' Eurosport 1 ES (CH-524) ',
+        link: '../../../../Channel/Ch524',
+        logo: '/eurosport1.webp',
+        logo1: '/cycling.webp',
+        date: "2023-04-01",
+        startTime:"14:30",
+        endTime: "16:00",
+        startDate: new Date("2023-04-01T07:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+        endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
       ],
-      description: '07:30 Absa Cape Epic - 23: Stage 6.',
+      description: '14:30 Grand Prix Miguel Indurain | Estella - Estella (203 km) .',
     },
-    {
-      
-      channels: [
-       
-        {
-          name: ' Eurosport 2 UK (CH-42) ',
-        link: '../../../../Channel/Ch42',
-        logo: '/euro2.webp',
-        logo1: '/cycling.webp',
-        date: "2023-03-25",
-        startTime:"15:15",
-        endTime: "16:30",
-        startDate: new Date("2023-03-25T15:15:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-        endDate: new Date("2023-03-25T16:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-        {
-          name: '  Eurosport 2 Poland (CH-58) ',
-        link: '../../../../Channel/Ch58',
-        logo: '/eurosports2.webp',
-        logo1: '/cycling.webp',
-        date: "2023-03-25",
-        startTime:"15:15",
-        endTime: "16:30",
-        startDate: new Date("2023-03-25T15:15:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-        endDate: new Date("2023-03-25T16:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-        {
-          name: '  Eurosport 2 ES (CH-525) ',
-        link: '../../../../Channel/Ch525',
-        logo: '/eurosport1-es.webp',
-        logo1: '/cycling.webp',
-        date: "2023-03-25",
-        startTime:"15:15",
-        endTime: "16:30",
-        startDate: new Date("2023-03-25T15:15:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-        endDate: new Date("2023-03-25T16:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-      ],
-      description: '15:15 Tour of Catalunya | 6th stage | Martorell - Molins de Rei (177 km).',
-    },
-  
+   
   
   
     // Baseball tabel timezone**********************************************************************************
   
-   
+   /*
     {
       name: 'Baseball',
       channels: [
@@ -3175,158 +1577,11 @@ const SportsTable = () => {
         startDate: new Date("2023-03-25T18:05:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
         endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
-        {
-          name: ' beIN Sports MENA English 3 (CH-46)',
-          link: '../../../../Channel/Ch46',
-          logo: '/bein-eng3.webp',
-          logo1: '/baseball.webp',
-          date: "2023-03-25",
-          startTime:"18:05",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:05:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-          },
-      ],
-      description: '18:05 MLB : New York Yankees vs St. Louis Cardinals.',
-    },
-    {
-      channels: [
-       {
-       name: ' Sportsnet Ontario (CH-10) ',
-       link: '../../../../Channel/Ch10',
-       logo: '/sportsnet.webp',
-       logo1: '/baseball.webp',
-       date: "2023-03-25",
-       startTime:"18:05",
-          endTime: "20:00",
-          startDate: new Date("2023-03-25T18:05:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-       },
-      
-     ],
+        ],
      description: '18:05 MLB : Toronto Blue Jays vs Minnesota Twins.',
    },
-   {
-    channels: [
-     {
-     name: '  Bally Sports Arizona (CH-11) ',
-     link: '../../../../Channel/Ch11',
-     logo: '/bally-sports.webp',
-     logo1: '/baseball.webp',
-     date: "2023-03-25",
-     startTime:"21:05",
-     endTime: "23:00",
-     startDate: new Date("2023-03-25T21:05:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-     endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-     },
-    
-   ],
-   description: '21:05 MLB : Arizona Diamondbacks vs Chicago Cubs.',
- },
- {
-  channels: [
-   {
-   name: ' NBCS Chicago (CH-12)',
-   link: '../../../../Channel/Ch399',
-   logo: '/nbcs-chicago.webp',
-   logo1: '/baseball.webp',
-   date: "2023-03-25",
-   startTime:"21:05",
-   endTime: "23:00",
-   startDate: new Date("2023-03-25T21:05:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-   endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-   },
-  
- ],
- description: '21:05 MLB : San Francisco Giants vs Chicago White Sox.',
-},
-{
-  channels: [
-   {
-   name: '  MLB Network USA (CH-399)  ',
-   link: '../../../../Channel/Ch399',
-   logo: '/mlb.webp',
-   logo1: '/baseball.webp',
-   date: "2023-03-25",
-   startTime:"21:10",
-   endTime: "23:00",
-   startDate: new Date("2023-03-25T21:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-   endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-   },
-  
- ],
- description: '21:10 MLB : Kansas City Royals vs San Diego Padres.',
-},
-{
-  channels: [
-   {
-   name: 'NBCS Bay Area (CH-1)',
-   link: '../../../../Channel/Ch01',
-   logo: '/nbcs-bay-area.webp',
-   logo1: '/baseball.webp',
-   date: "2023-03-25",
-   startTime:"02:05",
-   endTime: "03:00",
-   startDate: new Date("2023-03-25T02:05:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-   endDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-   },
-  
- ],
- description: '02:05 MLB : Cleveland Guardians vs San Francisco Giants.',
-},
-
-{
-  channels: [
-   {
-   name: '  MLB Network USA (CH-399) ',
-   link: '../../../../Channel/Ch399',
-   logo: '/mlb.webp',
-   logo1: '/baseball.webp',
-   date: "2023-03-25",
-   startTime:"02:05",
-   endTime: "03:00",
-   startDate: new Date("2023-03-25T02:05:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-   endDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-   },
-  
- ],
- description: '02:05 MLB : Oakland Athletics vs Texas Rangers.',
-},
-{
-  channels: [
-   {
-   name: '  ACC Network USA (CH-664)  ',
-   link: '../../../../Channel/Ch664',
-   logo: '/acc-network.webp',
-   logo1: '/baseball.webp',
-   date: "2023-03-25",
-   startTime:"00:00",
-   endTime: "02:00",
-   startDate: new Date("2023-03-25T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-   endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-   },
-  
- ],
- description: '00:00 NCAA College Baseball : Duke vs. North Carolina (Chapel Hill).',
-},
-{
-  channels: [
-   {
-   name: '  SEC Network USA (CH-385)  ',
-   link: '../../../../Channel/Ch385',
-   logo: '/sec.webp',
-   logo1: '/baseball.webp',
-   date: "2023-03-25",
-   startTime:"00:00",
-   endTime: "02:00",
-   startDate: new Date("2023-03-25T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-   endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-   },
-  
- ],
- description: '00:00 NCAA College Softball : Kennesaw State vs. Georgia.',
-},
-
+ 
+*/
 // Boxing tabel timezone**********************************************************************************
   
    
@@ -3334,347 +1589,114 @@ const SportsTable = () => {
   name: 'Boxing',
   channels: [
     {
-      name: 'Polsat Sport Fight Poland (CH-7) ',
-      link: '../../../../Channel/Ch07',
-      logo: '/polsat.webp',
+      name: ' DAZN UK (CH-69) ',
+      link: '../../../../Channel/Ch69',
+      logo: '/dazn.webp',
       logo1: '/boxing.webp',
-      date: "2023-03-25",
+      date: "2023-04-01",
       startTime:"19:00",
       endTime: "20:30",
-      startDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+    },
+    {
+      name: ' DAZN 2 ES (CH-446)  ',
+      link: '../../../../Channel/Ch446',
+      logo: '/dazn.webp',
+      logo1: '/boxing.webp',
+      date: "2023-04-01",
+      startTime:"19:00",
+      endTime: "20:30",
+      startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+    },
+    {
+      name: ' DAZN1 DE (CH-426) ',
+      link: '../../../../Channel/Ch426',
+      logo: '/dazn.webp',
+      logo1: '/boxing.webp',
+      date: "2023-04-01",
+      startTime:"19:00",
+      endTime: "20:30",
+      startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     
   ],
-  description: '19:00 Gala 2 in Bialystok super middleweight fight: Przemys??aw Gorgo?? vs Damian Kiwior.',
+  description: '19:00 Fight Night : Anthony Joshua vs Jermaine Franklin.',
 },
 {
  
   channels: [
     {
-      name: 'Sky PPV Feed (CH-59) ',
-      link: '../../../../Channel/Ch59',
+      name: 'Sky PPV Feed (CH-105) ',
+      link: '../../../../Channel/Ch105',
       logo: '/Sky-boxing.webp',
       logo1: '/boxing.webp',
-      date: "2023-03-25",
-      startTime:"20:00",
-      endTime: "21:00",
-      startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      date: "2023-04-02",
+      startTime:"02:00",
+      endTime: "04:00",
+      startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     {
       name: 'Sky Sports Action (CH-37) ',
       link: '../../../../Channel/Ch37',
       logo: '/sky-action.webp',
       logo1: '/boxing.webp',
-      date: "2023-03-25",
-      startTime:"20:00",
-      endTime: "21:00",
-      startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: ' CANAL+ Sport 2 Poland (CH-73)',
-      link: '../../../../Channel/Ch73',
-      logo: '/Canal+2.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-25",
-      startTime:"20:00",
-      endTime: "21:00",
-      startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: 'Match TV Russia (CH-127) ',
-      link: '../../../../Channel/Ch127',
-      logo: '/matchtv-russia.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-25",
-      startTime:"20:00",
-      endTime: "21:00",
-      startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-  ],
-  description: '20:00 IBF Title Fights : Lawrence Okolie vs David Light.',
-},
-{
- 
-  channels: [
-    {
-      name: 'BT Sport 1 UK (CH-31)  ',
-      link: '../../../../Channel/Ch127',
-      logo: '/bt1.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-25",
-      startTime:"21:00",
-      endTime: "22:00",
-      startDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: ' RMC Sport 1 France (CH-119) ',
-      link: '../../../../Channel/Ch119',
-      logo: '/rmc-sports.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-25",
-      startTime:"21:00",
-      endTime: "22:00",
-      startDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: ' MAX Sport 3 Bulgaria (CH-474) ',
-      link: '../../../../Channel/Ch474',
-      logo: '/max-sport4.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-25",
-      startTime:"21:00",
-      endTime: "22:00",
-      startDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: '  Sport Klub 3 Serbia (CH-103)',
-      link: '../../../../Channel/Ch103',
-      logo: '/sport-klub.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-25",
-      startTime:"21:00",
-      endTime: "22:00",
-      startDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-  ],
-  description: '21:00 BT Sport Fight Night : Nathan Heaney vs Jack Flatley.',
-},
-{
- 
-  channels: [
-    {
-      name: 'DAZN UK (CH-68) ',
-      link: '../../../../Channel/Ch68',
-      logo: '/dazn.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"01:00",
-      endTime: "02:00",
-      startDate: new Date("2023-03-26T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-   
-  ],
-  description: '01:00 Fight Night : Jose Zepeda vs Neeraj Goyat.',
-},
-{
- 
-  channels: [
-    {
-      name: 'Combate Brasil (CH-89) ',
-      link: '../../../../Channel/Ch89',
-      logo: '/combate-brasil.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"01:00",
-      endTime: "02:00",
-      startDate: new Date("2023-03-26T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-   
-  ],
-  description: '01:00 WGP 68: All-Star Gp Finals.',
-},
-{
- 
-  channels: [
-    {
-      name: 'ESPN USA (CH-44)  ',
-      link: '../../../../Channel/Ch44',
-      logo: '/espn.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"03:00",
+      date: "2023-04-02",
+      startTime:"02:00",
       endTime: "04:00",
-      startDate: new Date("2023-03-26T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     {
-      name: 'Sky Sports Action (CH-37) ',
-      link: '../../../../Channel/Ch37',
-      logo: '/sky-action.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"03:00",
-      endTime: "04:00",
-      startDate: new Date("2023-03-26T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: ' TSN3 (CH-113) ',
-      link: '../../../../Channel/Ch113',
-      logo: '/tsn.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"03:00",
-      endTime: "04:00",
-      startDate: new Date("2023-03-26T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: 'beIN Sports 1 France (CH-116) ',
-      link: '../../../../Channel/Ch116',
+      name: ' beIN Sports 2 France (CH-117) ',
+      link: '../../../../Channel/Ch117',
       logo: '/bein1-french.webp',
       logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"03:00",
+      date: "2023-04-02",
+      startTime:"02:00",
       endTime: "04:00",
-      startDate: new Date("2023-03-26T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     {
-      name: 'TVP Sport Poland (CH-128)  ',
-      link: '../../../../Channel/Ch128',
-      logo: '/tvp.webp',
+      name: '  Diema Sport Bulgaria (CH-465) ',
+      link: '../../../../Channel/Ch468',
+      logo: '/diema-sport.webp',
       logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"03:00",
+      date: "2023-04-02",
+      startTime:"02:00",
       endTime: "04:00",
-      startDate: new Date("2023-03-26T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: 'Sky Sports Main Event (CH-38)',
-      link: '../../../../Channel/Ch38',
-      logo: '/sky-mainevent.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"03:00",
-      endTime: "04:00",
-      startDate: new Date("2023-03-26T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: 'Combate Brasil (CH-89) ',
-      link: '../../../../Channel/Ch89',
-      logo: '/combate-brasil.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"03:00",
-      endTime: "04:00",
-      startDate: new Date("2023-03-26T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-   
-  ],
-  description: '03:00 Boxing Super lightweight : Jose Carlos Ramirez vs Richard Commey .',
-},
-{
- 
-  channels: [
-
-    {
-      name: 'Sky PPV Feed (CH-69)',
-      link: '../../../../Channel/Ch69',
-      logo: '/Sky-boxing.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"04:00",
-      endTime: "05:00",
-      startDate: new Date("2023-03-26T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: 'Polsat Sport Poland (CH-47)',
-      link: '../../../../Channel/Ch47',
-      logo: '/polsat.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"04:00",
-      endTime: "05:00",
-      startDate: new Date("2023-03-26T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: ' RMC Sport 1 France (CH-119) ',
-      link: '../../../../Channel/Ch119',
-      logo: '/rmc-sports.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"04:00",
-      endTime: "05:00",
-      startDate: new Date("2023-03-26T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: ' SuperSport Action (CH-420) ',
-      link: '../../../../Channel/Ch420',
-      logo: '/suppersports.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"04:00",
-      endTime: "05:00",
-      startDate: new Date("2023-03-26T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: ' ESPN2 SUR (CH-150) ',
-      link: '../../../../Channel/Ch150',
-      logo: '/espn2.webp',
-      logo1: '/boxing.webp',
-      date: "2023-03-26",
-      startTime:"04:00",
-      endTime: "05:00",
-      startDate: new Date("2023-03-26T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-26T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
   ],
-  description: '04:00 Boxing Super middleweight : David Benavidez vs Caleb Plant Showtime.',
+  description: '02:00 Boxing : Robeisy Ramirez vs Isaac Dogboe.',
 },
-
-
 
 
 // Darts tabel timezone**********************************************************************************
   
-   
+  
 {
   name: 'Darts',
   channels: [
     {
-      name: 'Channel 5 UK (CH-355)  ',
-      link: '../../../../Channel/Ch355',
-      logo: '/channel5.webp',
+      name: ' Viaplay Sports 2 UK (CH-550) ',
+      link: '../../../../Channel/Ch550',
+      logo: '/viaplay-xtra.webp',
       logo1: '/darts.webp',
-      date: "2023-03-25",
-      startTime:"13:00",
+      date: "2023-04-01",
+      startTime:"12:00",
       endTime: "14:00",
-      startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
-    {
-      name: 'SPORT1 Germany (CH-641) ',
-      link: '../../../../Channel/Ch641',
-      logo: '/sports1.webp',
-      logo1: '/darts.webp',
-      date: "2023-03-25",
-      startTime:"13:00",
-      endTime: "14:00",
-      startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: 'DAZN2 DE (CH-427) ',
-      link: '../../../../Channel/Ch427',
-      logo: '/dazn.webp',
-      logo1: '/darts.webp',
-      date: "2023-03-25",
-      startTime:"13:00",
-      endTime: "14:00",
-      startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },   
+    
   ],
-  description: '13:00 European Darts Open - Day 2 Session 1.',
+  description: '12:00 International Darts Open - Day 2 Session 1.',
 },
 {
   
@@ -3684,26 +1706,15 @@ const SportsTable = () => {
       link: '../../../../Channel/Ch597',
       logo: '/viaplay-xtra.webp',
       logo1: '/darts.webp',
-      date: "2023-03-25",
-      startTime:"20:40",
-      endTime: "22:00",
-      startDate: new Date("2023-03-25T20:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      date: "2023-04-01",
+      startTime:"18:00",
+      endTime: "20:00",
+      startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
-    {
-      name: 'SPORT1 Germany (CH-641) ',
-      link: '../../../../Channel/Ch641',
-      logo: '/sports1.webp',
-      logo1: '/darts.webp',
-      date: "2023-03-25",
-      startTime:"20:40",
-      endTime: "22:00",
-      startDate: new Date("2023-03-25T20:40:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-       
+   
   ],
-  description: '19:00 European Darts Open - Day 2 Session 2.',
+  description: '18:00 International Darts Open - Day 2 Session 2.',
 },
 
 
@@ -3714,73 +1725,37 @@ const SportsTable = () => {
       name: 'Futsal',
       channels: [
         {
-          name: 'BT Sport 3 UK (CH-33)',
-          link: '../../../../Channel/Ch33',
-          logo: '/bt3.webp',
+          name: 'Teledeporte Spain (CH-529)',
+          link: '../../../../Channel/Ch529',
+          logo: '/teledeporte.webp',
           logo1: '/futsal.webp',
-          date: "2023-03-25",
-          startTime:"11:15",
-          endTime: "12:30",
-          startDate: new Date("2023-03-25T11:15:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-01",
+          startTime:"11:00",
+          endTime: "13:00",
+          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
-      description: '11:15 The FA National Futsal Series : Birmingham WLV Women vs London Helvecia Futsal Club Ladies.',
+      description: '11:00 Spain Copa del Rey : Peniscola FS vs. Cartagena FS.',
     },
     {
       
       channels: [
         {
-          name: 'BT Sport 5 UK (CH-29)',
-          link: '../../../../Channel/Ch29',
-          logo: '/bt3.webp',
+          name: 'Teledeporte Spain (CH-529)',
+          link: '../../../../Channel/Ch529',
+          logo: '/teledeporte.webp',
           logo1: '/futsal.webp',
-          date: "2023-03-25",
+          date: "2023-04-01",
           startTime:"13:30",
-          endTime: "14:30",
-          startDate: new Date("2023-03-25T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T14:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          endTime: "15:30",
+          startDate: new Date("2023-04-01T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
-      description: '13:30 The FA National Futsal Series : Bolton Futsal Club Women vs Bloomsbury Futsal Women.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Sport TV2 Portugal (CH-74)',
-          link: '../../../../Channel/Ch74',
-          logo: '/sport-tv5-portugal.webp',
-          logo1: '/futsal.webp',
-          date: "2023-03-25",
-          startTime:"18:00",
-          endTime: "19:00",
-          startDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-       
-      ],
-      description: '18:00 Liga SportZone : Caxinas Poca Barca vs Benfica.',
-    },
-    {
-      
-      channels: [
-        {
-          name: 'Canal 11 Portugal (CH-540)',
-          link: '../../../../Channel/Ch540',
-          logo: '/canal+.webp',
-          logo1: '/futsal.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-       
-      ],
-      description: '20:00 Liga SportZone : Lombos vs Futsal Azemeis.',
+      description: '13:30 Spain Copa del Rey : Palma Futsal vs. FC Barcelona.',
     },
   
   // Horse Racing tabel timezone**********************************************************************************
@@ -3790,446 +1765,380 @@ const SportsTable = () => {
       name: 'Horse Racing',
       channels: [
         {
-          name: ' SuperSport Variety 3 (CH-418) ',
-          link: '../../../../Channel/Ch418',
-          logo: '/suppersports.webp',
+          name: 'Sky Sports Racing UK (CH-554) ',
+          link: '../../../../Channel/Ch554',
+          logo: '/sky-racing.webp',
           logo1: '/horse-racing.webp',
-          date: "2023-03-25",
-          startTime:"14:00",
-          endTime: "16:00",
-          startDate: new Date("2023-03-25T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-01",
+          startTime:"13:00",
+          endTime: "15:00",
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
-      description: '12:00 Dubai World Cup - 23.',
+      description: '13:00 Live racing from around the UK.',
     },  
     {
      
       channels: [
         {
-          name: ' FOX Sports 2 USA (CH-758) ',
-          link: '../../../../Channel/Ch758',
-          logo: '/fox-sports.webp',
+          name: ' SuperSport Variety 3 (CH-418) ',
+          link: '../../../../Channel/Ch418',
+          logo: '/suppersports.webp',
           logo1: '/horse-racing.webp',
-          date: "2023-03-25",
-          startTime:"12:00",
-          endTime: "13:00",
-          startDate: new Date("2023-03-25T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-       
-      ],
-      description: '12:00 Dubai World Cup - 23.',
-    }, 
-    {
-     
-      channels: [
-        {
-          name: ' Racing TV UK (CH-555)',
-          link: '../../../../Channel/Ch555',
-          logo: '/racinguk.webp',
-          logo1: '/horse-racing.webp',
-          date: "2023-03-25",
-          startTime:"13:00",
-          endTime: "14:00",
-          startDate: new Date("2023-03-25T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-       
-      ],
-      description: '13:45 Live Racing from Kelso, Newbury and Curragh.',
-    }, 
-    {
-     
-      channels: [
-        {
-          name: ' Sky Sports Racing UK (CH-554)',
-          link: '../../../../Channel/Ch554',
-          logo: '/sky-racing.webp',
-          logo1: '/horse-racing.webp',
-          date: "2023-03-25",
-          startTime:"14:00",
+          date: "2023-04-01",
+          startTime:"13:30",
           endTime: "15:00",
-          startDate: new Date("2023-03-25T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-01T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
-      description: '14:00 Live racing from around the UK.',
+      description: '13:30 WSB Derby Day-23.',
     }, 
     {
      
       channels: [
         {
-          name: '  ITV 4 UK (CH-353)',
-          link: '../../../../Channel/Ch353',
-          logo: '/itv4.webp',
+          name: ' SuperSport Variety 3 (CH-418) ',
+          link: '../../../../Channel/Ch418',
+          logo: '/suppersports.webp',
           logo1: '/horse-racing.webp',
-          date: "2023-03-25",
-          startTime:"14:10",
-          endTime: "15:10",
-          startDate: new Date("2023-03-25T14:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T15:10:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-02",
+          startTime:"00:00",
+          endTime: "02:00",
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
-      description: '14:10 Live Racing from Kelso and Newbury.',
+      description: '00:00 Florida Derby-23 .',
     }, 
-    {
-     
-      channels: [
-        {
-          name: '  UAE ITV 4 UK (CH-353)',
-          link: '../../../../Channel/Ch353',
-          logo: '/itv4.webp',
-          logo1: '/horse-racing.webp',
-          date: "2023-03-25",
-          startTime:"17:00",
-          endTime: "18:00",
-          startDate: new Date("2023-03-25T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-       
-      ],
-      description: '17:00 Live Horse racing from Meydan Raceourse,.',
-    }, 
+  
 
   // Ice Hockey tabel timezone**********************************************************************************
   
-  /*
+
   
     {
       name: 'Ice Hockey',
       channels: [
         {
-          name: ' Viaplay Sports 1 UK (CH-451)   ',
-          link: '../../../../Channel/Ch451',
-          logo: '/viaplay-xtra.webp',
+          name: ' NHL Network (CH-18)  ',
+          link: '../../../../Channel/Ch18',
+          logo: '/nfl.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"01:00",
-          endTime: "02:30",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-01",
+          startTime:"18:00",
+          endTime: "20:00",
+          startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
-          name: '   ESPN USA (CH-44)   ',
-          link: '../../../../Channel/Ch44',
-          logo: '/espn.webp',
+          name: '   Sport Klub 4 Serbia (CH-104)  ',
+          link: '../../../../Channel/Ch104',
+          logo: '/sport-klub.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"01:00",
-          endTime: "02:30",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-01",
+          startTime:"18:00",
+          endTime: "20:00",
+          startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+      
+      
+      ],
+      description: '18:00 NHL : Nashville Predators vs St. Louis Blues.',
+    }, 
+    {
+     
+      channels: [
+        {
+          name: 'ABC USA (CH-51)  ',
+          link: '../../../../Channel/Ch51',
+          logo: '/abc.webp',
+          logo1: '/ice-hockey.webp',
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
-          name: ' Sport Klub 3 Serbia (CH-103)  ',
+          name: ' Sportsnet One (CH-411) ',
+          link: '../../../../Channel/Ch411',
+          logo: '/sportsnet.webp',
+          logo1: '/ice-hockey.webp',
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+        {
+          name: 'Sky Sport Austria 1 (CH-559) ',
+          link: '../../../../Channel/Ch559',
+          logo: '/sky-sport.webp',
+          logo1: '/ice-hockey.webp',
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+        {
+          name: ' Sport Klub 3 Serbia (CH-103) ',
           link: '../../../../Channel/Ch103',
           logo: '/sport-klub.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"01:00",
-          endTime: "02:30",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-      
+          date: "2023-04-01",
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },      
       ],
-      description: '23:30 NHL : Philadelphia Flyers vs Minnesota Wild.',
+      description: '20:00 NHL : Pittsburgh Penguins vs Boston Bruins.',
     }, 
     {
      
       channels: [
         {
-          name: 'NBCS Chicago (CH-15) ',
-          link: '../../../../Channel/Ch15',
-          logo: '/nbcs-chicago.webp',
+          name: 'NBCS Philadelphia (CH-2) ',
+          link: '../../../../Channel/Ch2',
+          logo: '/nbcs-philadelphia.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:00",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
-            
+         
       ],
-      description: '00:00 NHL : Washington Capitals vs Chicago Blackhawks.',
+      description: '00:00 NHL : Buffalo Sabres vs Philadelphia Flyers.',
     }, 
     {
      
       channels: [
         {
-          name: 'ESPN+ USA (CH-16)  ',
-          link: '../../../../Channel/Ch16',
-          logo: '/espn.webp',
+          name: 'Sportsnet East (CH-3) ',
+          link: '../../../../Channel/Ch3',
+          logo: '/sportsnet.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:00",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
-        {
-          name: ' TSN2 (CH-112) ',
-          link: '../../../../Channel/Ch112',
-          logo: '/tsn.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },   
+         
       ],
-      description: '00:00 NHL : Boston Bruins vs Montreal Canadiens.',
+      description: '00:00 NHL : Montreal Canadiens vs Carolina Hurricanes.',
     }, 
-
     {
-      
+     
       channels: [
         {
-          name: ' Viaplay Sports 2 UK (CH-550) ',
-          link: '../../../../Channel/Ch550',
-          logo: '/viaplay-xtra.webp',
+          name: 'Bally Sports Florida (CH-4) ',
+          link: '../../../../Channel/Ch4',
+          logo: '/bally-sports.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:00",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-          },
-          {
-          name: ' ESPN 2 NL (CH-386) ',
-          link: '../../../../Channel/Ch336',
-          logo: '/espn-nl.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-          },
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+         
+      ],
+      description: '00:00 NHL : Columbus Blue Jackets vs Florida Panthers.',
+    }, 
+    {
+     
+      channels: [
         {
-          name: '  Sport TV6 Portugal (CH-291) ',
-          link: '../../../../Channel/Ch291',
-          logo: '/sport-tv5-portugal.webp',
+          name: 'Bally Sports Florida+ (CH-5) ',
+          link: '../../../../Channel/Ch4',
+          logo: '/bally-sports.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:00",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+         
+      ],
+      description: '00:00 NHL : Tampa Bay Lightning vs New York Islanders.',
+    }, 
+    {
+     
+      channels: [
+        {
+          name: 'Sportsnet Ontario (CH-6)  ',
+          link: '../../../../Channel/Ch6',
+          logo: '/sportsnet.webp',
+          logo1: '/ice-hockey.webp',
+          date: "2023-04-02",
+          startTime:"00:00",
+          endTime: "02:00",
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
-          name: '  Sky Sport Mix DE (CH-557) ',
+          name: ' Sky Sport Mix DE (CH-557) ',
           link: '../../../../Channel/Ch557',
           logo: '/sky-mix.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:00",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-          },
-        {
-          name: ' Sky Sport Top Event DE (CH-556)',
-          link: '../../../../Channel/Ch556',
-          logo: '/sky-mainevent.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
-          name: ' Sport Klub HD Serbia (CH-453) ',
-          link: '../../../../Channel/Ch453',
+          name: 'Sport Klub 3 Serbia (CH-103) ',
+          link: '../../../../Channel/Ch103',
           logo: '/sport-klub.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
+          date: "2023-04-02",
           startTime:"00:00",
           endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-02T00:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
       ],
-      description: '00:00 NHL : Carolina Hurricanes vs New York Rangers.',
+      description: '00:00 NHL : Ottawa Senators vs Toronto Maple Leafs.',
     }, 
     {
      
       channels: [
         {
-          name: 'Bally Sports Sun (CH-3)  ',
-          link: '../../../../Channel/Ch03',
-          logo: '/bally-sports.webp',
+          name: 'NBCS Chicago (CH-7)  ',
+          link: '../../../../Channel/Ch7',
+          logo: '/nbcs-chicago.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-        {
-          name: 'TSN5 (CH-115) ',
-          link: '../../../../Channel/Ch15',
-          logo: '/tsn.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },    
-      ],
-      description: '00:00 NHL : Ottawa Senators vs Tampa Bay Lightning.',
-    }, 
-    {
-     
-      channels: [
-        {
-          name: 'Sportsnet Ontario (CH-4) ',
-          link: '../../../../Channel/Ch04',
-          logo: '/sportsnet.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-            
-      ],
-      description: '00:00 NHL : Florida Panthers vs Toronto Maple Leafs.',
-    }, 
-    {
-     
-      channels: [
-        {
-          name: 'Bally Sports Midwest (CH-5) ',
-          link: '../../../../Channel/Ch05',
-          logo: '/bally-sports.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"00:00",
-          endTime: "02:00",
-          startDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-            
-      ],
-      description: '00:00 NHL : Detroit Red Wings vs St. Louis Blues.',
-    }, 
-   
-    {
-     
-      channels: [
-        {
-          name: ' Sportsnet West (CH-7) ',
-          link: '../../../../Channel/Ch07',
-          logo: '/sportsnet.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"02:00",
+          date: "2023-04-02",
+          startTime:"01:00",
           endTime: "03:00",
-          startDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
-            
-      ],
-      description: '02:00 NHL : Calgary Flames vs Vegas Golden Knights.',
-    }, 
-    {
-     
-      channels: [
         {
-          name: ' ESPN USA (CH-44)  ',
-          link: '../../../../Channel/Ch44',
+          name: ' ESPN2 USA (CH-45) ',
+          link: '../../../../Channel/Ch45',
           logo: '/espn.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"02:00",
+          date: "2023-04-02",
+          startTime:"01:00",
           endTime: "03:00",
-          startDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
-        {
-          name: ' Sportsnet Ontario (CH-8)',
-          link: '../../../../Channel/Ch08',
-          logo: '/sportsnet.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"02:00",
-          endTime: "03:00",
-          startDate: new Date("2023-03-25T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },    
+      
       ],
-      description: '02:00 NHL : Dallas Stars vs Pittsburgh Penguins.',
+      description: '01:00 NHL : New Jersey Devils vs Chicago Blackhawks.',
     }, 
     {
      
       channels: [
         {
-          name: 'NBCS California (CH-17) ',
-          link: '../../../../Channel/Ch17',
-          logo: '/nbcs-california.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"03:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-            
-      ],
-      description: '03:00 NHL : Vancouver Canucks vs San Jose Sharks.',
-    }, 
-    {
-     
-      channels: [
-        {
-          name: 'Bally Sports West (CH-18) ',
-          link: '../../../../Channel/Ch18',
+          name: 'Bally Sports San Antonio (CH-8) ',
+          link: '../../../../Channel/Ch8',
           logo: '/bally-sports.webp',
           logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"03:00",
+          date: "2023-04-02",
+          startTime:"02:00",
           endTime: "04:00",
-          startDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
-        {
-          name: ' TSN3 (CH-113)',
-          link: '../../../../Channel/Ch113',
-          logo: '/tsn.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"03:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-        {
-          name: ' Sport 5 Star Israel (CH-147) ',
-          link: '../../../../Channel/Ch147',
-          logo: '/sport5-israel.webp',
-          logo1: '/ice-hockey.webp',
-          date: "2023-03-25",
-          startTime:"03:00",
-          endTime: "04:00",
-          startDate: new Date("2023-03-25T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },   
+         
       ],
-      description: '03:00 NHL : Anaheim Ducks vs Winnipeg Jets.',
+      description: '02:00 NHL : Colorado Avalanche vs Dallas Stars.',
     }, 
-*/
+    {
+     
+      channels: [
+        {
+          name: 'Bally Sports West (CH-9) ',
+          link: '../../../../Channel/Ch9',
+          logo: '/bally-sports.webp',
+          logo1: '/ice-hockey.webp',
+          date: "2023-04-02",
+          startTime:"03:00",
+          endTime: "05:00",
+          startDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T05:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+         
+      ],
+      description: '03:00 NHL : Seattle Kraken vs Los Angeles Kings.',
+    }, 
+    {
+     
+      channels: [
+        {
+          name: 'Bally Sports Wisconsin (CH-10) ',
+          link: '../../../../Channel/Ch10',
+          logo: '/bally-sports.webp',
+          logo1: '/ice-hockey.webp',
+          date: "2023-04-02",
+          startTime:"03:00",
+          endTime: "05:00",
+          startDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T05:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+         
+      ],
+      description: '03:00 NHL : Vegas Golden Knights vs Minnesota Wild.',
+    }, 
+    {
+     
+      channels: [
+        {
+          name: 'NBCS California (CH-14) ',
+          link: '../../../../Channel/Ch14',
+          logo: '/nbcs-california.webp',
+          logo1: '/ice-hockey.webp',
+          date: "2023-04-02",
+          startTime:"03:00",
+          endTime: "05:00",
+          startDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T05:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+         
+      ],
+      description: '03:00 NHL : Arizona Coyotes vs San Jose Sharks.',
+    }, 
+
+    {
+     
+      channels: [
+        {
+          name: ' Sky Sport Mix DE (CH-557) ',
+          link: '../../../../Channel/Ch557',
+          logo: '/sky-mix.webp',
+          logo1: '/ice-hockey.webp',
+          date: "2023-04-02",
+          startTime:"03:00",
+          endTime: "05:00",
+          startDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-02T05:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+         
+      ],
+      description: '03:00 NHL : Edmonton Oilers vs Anaheim Ducks.',
+    }, 
+
+
+
+
   // Ice Skating tabel timezone**********************************************************************************
 
-  
+ /* 
   {
     name: 'Ice Skating',
     channels: [
@@ -4299,11 +2208,11 @@ const SportsTable = () => {
     description: '11:30 ISU World Figure Skating Championships.',
   }, 
   
-
+*/
 
   // WaterPolo tabel timezone**********************************************************************************
 
-  
+ /* 
   {
     name: 'WaterPolo',
     channels: [
@@ -4353,7 +2262,7 @@ const SportsTable = () => {
 
 
 
-
+*/
 
   
   // Handball tabel timezone**********************************************************************************
@@ -4363,31 +2272,79 @@ const SportsTable = () => {
       name: 'Handball',
       channels: [
         {
-          name: ' Sky Sport Top Event DE (CH-556)',
-          link: '../../../../Channel/Ch556',
-          logo: '/sky-mainevent.webp',
+          name: ' Sky Sport Mix DE (CH-557)',
+          link: '../../../../Channel/Ch557',
+          logo: '/sky-mix.webp',
           logo1: '/handball.webp',
-          date: "2023-03-25",
+          date: "2023-04-01",
           startTime:"17:30",
-          endTime: "18:300",
-          startDate: new Date("2023-03-25T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          endTime: "18:30",
+          startDate: new Date("2023-04-01T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
+       
+      ],
+      description: '17:30 Handball-Bundesliga : HSG Wetzlar vs Minden.',
+    }, 
+    {
+     
+      channels: [
+        {
+          name: ' TVP Sport Poland (CH-128)',
+          link: '../../../../Channel/Ch128',
+          logo: '/tvp.webp',
+          logo1: '/handball.webp',
+          date: "2023-04-01",
+          startTime:"19:15",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:15:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+       
+      ],
+      description: '19:15 Superliga : Piotrkowianin Piotrkow vs Kalisz.',
+    },
+    {
+     
+      channels: [
         {
           name: ' Sky Sport Mix DE (CH-557)',
           link: '../../../../Channel/Ch557',
           logo: '/sky-mix.webp',
           logo1: '/handball.webp',
-          date: "2023-03-25",
-          startTime:"17:30",
-          endTime: "18:300",
-          startDate: new Date("2023-03-25T17:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T18:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-01",
+          startTime:"19:30",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
+       
       ],
-      description: '17:30 Handball-Bundesliga : Minden vs Goppingen.',
-    }, 
-  
+      description: '19:30 Handball-Bundesliga : Hamm-Westfalen vs SG Flensburg-Handewitt.',
+    },
+    {
+     
+      channels: [
+        {
+          name: ' beIN Sports MAX 6 France (CH-496)',
+          link: '../../../../Channel/Ch496',
+          logo: '/beinMAX.webp',
+          logo1: '/handball.webp',
+          date: "2023-04-01",
+          startTime:"19:30",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+       
+      ],
+      description: '19:30 France Coupe de France Women : Brest Bretagne vs Metz Handbal.',
+    },
+
+
+
+
+
  // Volleyball tabel timezone**********************************************************************************
 
 
@@ -4396,97 +2353,126 @@ const SportsTable = () => {
       name: 'Volleyball',
       channels: [
         {
-          name: 'Canal Portugal (CH-718)',
-          link: '../../../../Channel/Ch718',
-          logo: '/canal.webp',
+          name: 'TRT Spor 2 Turkey (CH-26)',
+          link: '../../../../Channel/Ch26',
+          logo: '/trt-spor2.webp',
           logo1: '/volleyball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-01",
+          startTime:"18:00",
+          endTime: "20:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-03-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
-      description: '20:00 Divisao Women : AJM/FC Porto W vs Ponta Delgada W Porto.',
+      description: '18:00 TVF Efeler Ligi : Halkbank vs Fenerbahce.',
     }, 
     {
-      
+     
       channels: [
         {
-          name: 'beIN Sports 2 France HD (CH-117)',
-          link: '../../../../Channel/Ch117',
-          logo: '/bein2-french.webp',
-          logo1: '/volleyball.webp',
-          date: "2023-03-25",
-          startTime:"20:00",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-       
-      ],
-      description: '20:00 France Ligue A : St. Nazaire VB vs. Narbonne Volley.',
-    }, 
-    {
-      
-      channels: [
-        {
-          name: ' Rai Sport+ HD (CH-153)',
-          link: '../../../../Channel/Ch153',
-          logo: '/rai-sports.webp',
-          logo1: '/volleyball.webp',
-          date: "2023-03-25",
-          startTime:"20:30",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-        },
-       
-      ],
-      description: '20:30 Italy Serie A1 Women : Cuneo Granda Volley vs. Pallavolo Scandicci.',
-    }, 
-    {
-      
-      channels: [
-        {
-          name: ' Polsat Sport Poland (CH-47)',
+          name: 'Polsat Sport Poland (CH-47)',
           link: '../../../../Channel/Ch47',
           logo: '/polsat.webp',
           logo1: '/volleyball.webp',
-          date: "2023-03-25",
-          startTime:"20:30",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-01",
+          startTime:"18:00",
+          endTime: "20:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-03-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
-      description: '20:30 PlusLiga : Cuprum vs Politechnika Lublin.',
+      description: '18:00 POLAND VOLLEYBALL CUP : LKS Lodz Women vs Rzeszow Women.',
     }, 
     {
-      
+     
       channels: [
         {
-          name: ' Sportv2 Brasil (CH-79)',
+          name: 'beIN Sports MAX 8 France (CH-498)',
+          link: '../../../../Channel/Ch498',
+          logo: '/beinMAX.webp',
+          logo1: '/volleyball.webp',
+          date: "2023-04-01",
+          startTime:"19:30",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-03-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+       
+      ],
+      description: '19:30 France Coupe de France Women : Beziers VB vs Racing Club de Cannes.',
+    }, 
+    {
+     
+      channels: [
+        {
+          name: ' Rai Sport+ (CH-9)',
+          link: '../../../../Channel/Ch9',
+          logo: '/rai-sports.webp',
+          logo1: '/volleyball.webp',
+          date: "2023-04-01",
+          startTime:"19:30",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-03-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+       
+      ],
+      description: '19:30 Italy Serie A1 Women : Volley Vallefoglia vs. Agil Volley Nova. (W).',
+    },
+    {
+     
+      channels: [
+        {
+          name: ' Polsat Sport Poland (CH-47) ',
+          link: '../../../../Channel/Ch47',
+          logo: '/polsat.webp',
+          logo1: '/volleyball.webp',
+          date: "2023-04-01",
+          startTime:"20:30",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-03-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+        {
+          name: ' Sport Klub 1 Serbia (CH-101) ',
+          link: '../../../../Channel/Ch101',
+          logo: '/sport-klub.webp',
+          logo1: '/volleyball.webp',
+          date: "2023-04-01",
+          startTime:"20:30",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-03-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        },
+      ],
+      description: '20:30 PlusLiga : Kedzierzyn-Kozle vs Jastrzebski.',
+    },
+    {
+     
+      channels: [
+        {
+          name: ' Sportv2 Brasil (CH-79) ',
           link: '../../../../Channel/Ch79',
           logo: '/sportstv.webp',
           logo1: '/volleyball.webp',
-          date: "2023-03-25",
-          startTime:"20:30",
-          endTime: "21:00",
-          startDate: new Date("2023-03-25T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          date: "2023-04-01",
+          startTime:"22:30",
+          endTime: "23:59",
+          startDate: new Date("2023-04-01T22:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-03-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
-      description: '20:30 Superliga B De V??lei Feminino : Blu V??lei vs Taubat??.',
-    }, 
-  
+      description: '22:30 Superliga De Vôlei Masculino : Suzano vs Guarulhos.',
+    },
+
+
 
 // Rugby tabel timezone**********************************************************************************
 
-
+/*
 
 {
   name: 'Rugby',
@@ -4527,70 +2513,7 @@ const SportsTable = () => {
   ],
   description: '10:00 National Rugby League : Parramatta Eels vs Penrith Panthers.',
 }, 
-{
- 
-  channels: [
-    {
-      name: 'Sky Sports Arena UK (CH-36)',
-      link: '../../../../Channel/Ch36',
-      logo: '/sky-arena.webp',
-      logo1: '/rugby.webp',
-      date: "2023-03-25",
-      startTime:"21:00",
-      endTime: "23:00",
-      startDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-  
-  ],
-  description: '21:00 Super League Rugby : Huddersfield vs St Helens.',
-}, 
-{
- 
-  channels: [
-    {
-      name: 'SuperSport Rugby (CH-421)',
-      link: '../../../../Channel/Ch421',
-      logo: '/suppersports.webp',
-      logo1: '/rugby.webp',
-      date: "2023-03-25",
-      startTime:"17:45",
-      endTime: "19:00",
-      startDate: new Date("2023-03-25T17:45:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-  
-  ],
-  description: '17:45 Varsity Shield 23: TUT vs CPUT.',
-}, 
-{
- 
-  channels: [
-    {
-      name: 'Canal+ Sport France (CH-122) ',
-      link: '../../../../Channel/Ch122',
-      logo: '/canal+.webp',
-      logo1: '/rugby.webp',
-      date: "2023-03-25",
-      startTime:"21:00",
-      endTime: "23:00",
-      startDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-    {
-      name: 'Sportsnet World (CH-410)',
-      link: '../../../../Channel/Ch410',
-      logo: '/sportsnet.webp',
-      logo1: '/rugby.webp',
-      date: "2023-03-25",
-      startTime:"21:00",
-      endTime: "23:00",
-      startDate: new Date("2023-03-25T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-03-25T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
-    },
-  ],
-  description: '21:00 Pro D2 : Provence Rugby vs Colomiers.',
-}, 
+*/
   /*
   
     {
@@ -4749,8 +2672,9 @@ const SportsTable = () => {
           const now = new Date();
 
           // Set the timezone to UTC
-          const options = { timeZone: 'UTC' };
-          
+        const options = { timeZone: 'UTC' };
+
+      
 // Convert the game's date, start time and end time to UTC
 const gameDate = new Date(channel.date + "T" + channel.startTime + ":00Z");
 const gameEndDate = new Date(channel.date + "T" + channel.endTime + ":00Z");
