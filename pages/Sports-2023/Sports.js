@@ -22,10 +22,10 @@ const SportsTable = () => {
           logo: '/bt1.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           name: '  Astro SuperSport 3 (CH-125) ',
@@ -33,10 +33,10 @@ const SportsTable = () => {
           logo: '/astrosports.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           name: ' Canal+ Foot (CH-463) ',
@@ -44,10 +44,10 @@ const SportsTable = () => {
           logo: '/canal+.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           name: '  SuperSport Premier League (CH-414) ',
@@ -55,10 +55,10 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         }, 
         {
           name: '  beIN Sports MENA Premium 1 (CH-98) ',
@@ -66,10 +66,10 @@ const SportsTable = () => {
           logo: '/bein1-premium.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         }, 
         {
           name: ' Sky Sport Premier League DE (CH-10) ',
@@ -77,10 +77,10 @@ const SportsTable = () => {
           logo: '/sky-premier.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         }, 
         {
           name: '  Sky Sport Top Event DE (CH-556) ',
@@ -88,10 +88,10 @@ const SportsTable = () => {
           logo: '/sky-mainevent.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
         }, 
         {
           name: '  Eleven Sports 1 Portugal (CH-455)  ',
@@ -99,10 +99,10 @@ const SportsTable = () => {
           logo: '/Eleven.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         }, 
         {
           name: '  Sky Sport Football Italy (CH-460) ',
@@ -110,10 +110,10 @@ const SportsTable = () => {
           logo: '/sky-football.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-            startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
         }, 
         {
           name: ' ESPN SUR (CH-149)  ',
@@ -121,10 +121,10 @@ const SportsTable = () => {
           logo: '/espn.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-          startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         }, 
       ],
       description: '12:30 England Premier League : Manchester City vs Liverpool.',
@@ -139,10 +139,10 @@ const SportsTable = () => {
           logo: '/sky-football.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           
@@ -151,10 +151,10 @@ const SportsTable = () => {
           logo: '/beinMAX.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
         },
         {
           
@@ -163,10 +163,10 @@ const SportsTable = () => {
           logo: '/bein2-premium.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })      
         },
         {
           
@@ -175,10 +175,10 @@ const SportsTable = () => {
           logo: '/diema-sport.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
@@ -187,10 +187,10 @@ const SportsTable = () => {
           logo: '/sky-sport.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })      
         },
         {
           
@@ -199,10 +199,10 @@ const SportsTable = () => {
           logo: '/sportdigital.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "12:30",
-          endTime: "14:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
+          startTime: "11:30",
+          endTime: "13:00" ,  
+          startDate: new Date("2023-04-01T11:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
       ],
       description: '12:30 England Championship : Preston North End vs Blackpool.',
@@ -217,10 +217,10 @@ const SportsTable = () => {
           logo: '/dazn.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "13:00",
-          endTime: "15:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "12:00",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
@@ -229,10 +229,10 @@ const SportsTable = () => {
           logo: '/Eleven.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "13:00",
-          endTime: "15:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "12:00",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
@@ -241,10 +241,10 @@ const SportsTable = () => {
           logo: '/arena-sport.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "13:00",
-          endTime: "15:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "12:00",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
@@ -253,10 +253,10 @@ const SportsTable = () => {
           logo: '/bein-eng1.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "13:00",
-          endTime: "15:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "12:00",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
         },
         {
           
@@ -265,10 +265,10 @@ const SportsTable = () => {
           logo: '/beinMAX.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "13:00",
-          endTime: "15:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "12:00",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           
@@ -277,10 +277,10 @@ const SportsTable = () => {
           logo: '/digi2.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "13:00",
-          endTime: "15:00" ,  
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "12:00",
+          endTime: "14:00" ,  
+          startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
       ],
       description: '13:00 Spain La Liga : Girona vs Espanyol.',
@@ -295,10 +295,10 @@ const SportsTable = () => {
           logo: '/bein-eng1.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "14:00",
-          endTime: "16:00" ,  
-          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           
@@ -307,10 +307,10 @@ const SportsTable = () => {
           logo: '/bein1-french.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "14:00",
-          endTime: "16:00" ,  
-          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           
@@ -319,10 +319,10 @@ const SportsTable = () => {
           logo: '/bein-spanish.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "14:00",
-          endTime: "16:00" ,  
-          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startTime: "13:00",
+          endTime: "15:00" ,  
+          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
       ],
       description: '14:00 France Ligue 2 : Saint-Étienne vs Niort .',
@@ -337,10 +337,10 @@ const SportsTable = () => {
           logo: '/arena-sport.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })      
         },
         {
           
@@ -349,9 +349,9 @@ const SportsTable = () => {
           logo: '/eleven1.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -361,9 +361,9 @@ const SportsTable = () => {
           logo: '/dazn.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -373,10 +373,10 @@ const SportsTable = () => {
           logo: '/sport-israel.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })     
         },
       ],
       description: '15:00 England Premier League : AFC Bournemouth vs Fulham.',
@@ -391,9 +391,9 @@ const SportsTable = () => {
           logo: '/usa.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -403,10 +403,10 @@ const SportsTable = () => {
           logo: '/astrosports.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           
@@ -415,10 +415,10 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           
@@ -427,10 +427,10 @@ const SportsTable = () => {
           logo: '/dazn.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           
@@ -439,9 +439,9 @@ const SportsTable = () => {
           logo: '/eleven1.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -451,9 +451,9 @@ const SportsTable = () => {
           logo: '/canal+.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -463,9 +463,9 @@ const SportsTable = () => {
           logo: '/sky-premier.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -475,9 +475,9 @@ const SportsTable = () => {
           logo: '/arena-sport.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -487,9 +487,9 @@ const SportsTable = () => {
           logo: '/bein1-premium.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -499,9 +499,9 @@ const SportsTable = () => {
           logo: '/espn-brazil.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
@@ -511,10 +511,10 @@ const SportsTable = () => {
           logo: '/espn.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           
@@ -523,10 +523,10 @@ const SportsTable = () => {
           logo: '/diema-sport.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })    
         },
         {
           
@@ -535,9 +535,9 @@ const SportsTable = () => {
           logo: '/digi2.webp',
           logo1: '/soccer.webp', 
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00" ,  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
       ],
@@ -555,9 +555,9 @@ const SportsTable = () => {
           logo: '/sky-cricket.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "11:00",
+          startTime: "10:00",
           endTime: "14:00",  
-          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
@@ -566,9 +566,9 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "11:00",
+          startTime: "10:00",
           endTime: "14:00",  
-          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
@@ -577,10 +577,10 @@ const SportsTable = () => {
           logo: '/willow.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "11:00",
+          startTime: "10:00",
           endTime: "14:00",  
-          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: ' Astro Cricket (CH-370)',
@@ -588,10 +588,10 @@ const SportsTable = () => {
           logo: '/astrosports.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "11:00",
+          startTime: "10:00",
           endTime: "14:00",  
-          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: ' Fox Cricket (CH-369)',
@@ -599,10 +599,10 @@ const SportsTable = () => {
           logo: '/fox-cricket.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "11:00",
+          startTime: "10:00",
           endTime: "14:00",  
-          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: ' Sky Sport 3 NZ (CH-590)',
@@ -610,10 +610,10 @@ const SportsTable = () => {
           logo: '/sky-cricket.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "11:00",
+          startTime: "10:00",
           endTime: "14:00",  
-          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
       ],
       description: '11:00 Indian Premier League : Kings XI Punjab vs Kolkata Knight Riders.',
@@ -627,9 +627,9 @@ const SportsTable = () => {
           logo: '/sky-cricket.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00",  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
@@ -638,9 +638,9 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00",  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
@@ -649,9 +649,9 @@ const SportsTable = () => {
           logo: '/willow.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00",  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
@@ -660,9 +660,9 @@ const SportsTable = () => {
           logo: '/astrosports.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00",  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
@@ -671,10 +671,10 @@ const SportsTable = () => {
           logo: '/fox-cricket.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00",  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })   
         },
         {
           name: ' Sky Sport 3 NZ (CH-590)',
@@ -682,9 +682,9 @@ const SportsTable = () => {
           logo: '/sky-cricket.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-01",
-          startTime: "15:00",
+          startTime: "14:00",
           endTime: "17:00",  
-          startDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
       ],
@@ -699,9 +699,9 @@ const SportsTable = () => {
           logo: '/bt1.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-02",
-          startTime: "01:00",
+          startTime: "12:00",
           endTime: "03:00",  
-          startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-02T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
@@ -710,9 +710,9 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-02",
-          startTime: "01:00",
+          startTime: "12:00",
           endTime: "03:00",  
-          startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-02T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },
         {
@@ -721,9 +721,9 @@ const SportsTable = () => {
           logo: '/fox-cricket.webp',
           logo1: '/cricket.webp',  
           date: "2023-04-02",
-          startTime: "01:00",
+          startTime: "12:00",
           endTime: "03:00",  
-          startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-02T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-02T03:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
         },  
       ],
@@ -765,10 +765,10 @@ const SportsTable = () => {
          logo: '/itv4.webp',
          logo1: '/snooker.webp',
          date: "2023-04-01",
-         startTime:"13:00",
-         endTime: "15:00",
-         startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-         endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+         startTime:"12:00",
+         endTime: "14:00",
+         startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+         endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
          },
          {
           name: ' Sport Klub HD Serbia (CH-453) ',
@@ -776,10 +776,10 @@ const SportsTable = () => {
           logo: '/sport-klub.webp',
           logo1: '/snooker.webp',
           date: "2023-04-01",
-          startTime:"13:00",
-          endTime: "15:00",
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"12:00",
+          endTime: "14:00",
+          startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
           },
        ],
        description: '13:00 Cazzo Tour Championship - Day 6.',
@@ -793,10 +793,10 @@ const SportsTable = () => {
         logo: '/itv4.webp',
         logo1: '/snooker.webp',
         date: "2023-04-01",
-        startTime:"19:00",
-          endTime: "21:00",
-          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+        startTime:"18:00",
+        endTime: "20:00",
+        startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+        endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
          name: ' Sport Klub HD Serbia (CH-453) ',
@@ -804,10 +804,10 @@ const SportsTable = () => {
          logo: '/sport-klub.webp',
          logo1: '/snooker.webp',
          date: "2023-04-01",
-         startTime:"19:00",
-          endTime: "21:00",
-          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+         startTime:"18:00",
+         endTime: "20:00",
+         startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+         endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
          },
          {
           name: '  Astro SuperSport 2 (CH-124)  ',
@@ -815,10 +815,10 @@ const SportsTable = () => {
           logo: '/astrosports.webp',
           logo1: '/snooker.webp',
           date: "2023-04-01",
-          startTime:"19:00",
-          endTime: "21:00",
-          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"18:00",
+          endTime: "20:00",
+          startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
           },
       ],
       description: '19:00 Cazzo Tour Championship - Bonus Arena.',
@@ -835,10 +835,10 @@ const SportsTable = () => {
           logo: '/tennis-logo.webp',
           logo1: '/tennis.webp',
           date: "2023-04-01",
-          startTime:"21:00",
-          endTime: "23:00",
-          startDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: 'SuperSport Tennis (CH-423)  ',
@@ -846,10 +846,10 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/tennis.webp',
           date: "2023-04-01",
-          startTime:"21:00",
-          endTime: "23:00",
-          startDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: ' Canal+ Sport 2 Poland (CH-73)',
@@ -857,10 +857,10 @@ const SportsTable = () => {
           logo: '/canal+.webp',
           logo1: '/tennis.webp',
           date: "2023-04-01",
-          startTime:"21:00",
-          endTime: "23:00",
-          startDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: '  DAZN 3 ES (CH-447)  ',
@@ -868,10 +868,10 @@ const SportsTable = () => {
           logo: '/dazn.webp',
           logo1: '/tennis.webp',
           date: "2023-04-01",
-          startTime:"21:00",
-          endTime: "23:00",
-          startDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"20:00",
+          endTime: "22:00",
+          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
      
       ],
@@ -891,10 +891,10 @@ const SportsTable = () => {
       logo: '/bt1.webp',
       logo1: '/badminton.webp',
       date: "2023-04-01",
-      startTime:"12:00",
-      endTime: "14:00",
-      startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      startTime:"11:00",
+      endTime: "13:00",
+      startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
     },
     {
       name: ' Astro SuperSport 4 (CH-126)',
@@ -902,10 +902,10 @@ const SportsTable = () => {
       logo: '/astrosports.webp',
       logo1: '/badminton.webp',
       date: "2023-04-01",
-      startTime:"12:00",
-      endTime: "14:00",
-      startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      startTime:"11:00",
+      endTime: "12:00", 
+      startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
     },
   ],
   description: '12:00 BWF World Tour | Spain Masters - Semi Finals.',
@@ -927,10 +927,10 @@ const SportsTable = () => {
       logo: '/bt2.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+      startTime:"13:00",
+      endTime: "15:00",
+      startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
       name: '  Sky Sport MotoGP IT (CH-59)   ',
@@ -938,10 +938,10 @@ const SportsTable = () => {
       logo: '/sky-motorgp.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+      startTime:"13:00",
+      endTime: "15:00",
+      startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
       name: ' DAZN 1 ES (CH-445)   ',
@@ -949,10 +949,10 @@ const SportsTable = () => {
       logo: '/dazn.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+      startTime:"13:00",
+      endTime: "15:00",
+      startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
       name: '  Sport TV4 Portugal (CH-289)  ',
@@ -960,10 +960,10 @@ const SportsTable = () => {
       logo: '/sport-tv5-portugal.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+      startTime:"13:00",
+      endTime: "15:00",
+      startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
       name: '  SuperSport Motorsport (CH-424)  ',
@@ -971,10 +971,10 @@ const SportsTable = () => {
       logo: '/suppersports.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+      startTime:"13:00",
+      endTime: "15:00",
+      startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
       name: '  Canal+ Sport360 (CH-464)  ',
@@ -982,10 +982,10 @@ const SportsTable = () => {
       logo: '/canal+.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+      startTime:"13:00",
+      endTime: "15:00",
+      startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
       name: '  ESPN4 BR (CH-85)   ',
@@ -993,10 +993,10 @@ const SportsTable = () => {
       logo: '/espn-brazil.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"14:00",
-      endTime: "16:00",
-      startDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+      startTime:"13:00",
+      endTime: "15:00",
+      startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
   ],
   description: '14:00 MotoGP : Grand Prix of Argentina - Qualifying.',
@@ -1011,9 +1011,9 @@ const SportsTable = () => {
       logo: '/dazn.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"23:00",
+      startTime:"22:00",
       endTime: "23:59",
-      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
       endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
@@ -1022,10 +1022,10 @@ const SportsTable = () => {
       logo: '/sky-racing.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"23:00",
+      startTime:"22:00",
       endTime: "23:59",
-      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' })  
+      startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
       name: '  Sport 5 Live Israel (CH-146)  ',
@@ -1033,9 +1033,9 @@ const SportsTable = () => {
       logo: '/sport5-israel.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"23:00",
+      startTime:"22:00",
       endTime: "23:59",
-      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
       endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
@@ -1044,9 +1044,9 @@ const SportsTable = () => {
       logo: '/sport-tv5-portugal.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"23:00",
+      startTime:"22:00",
       endTime: "23:59",
-      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
       endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
@@ -1055,9 +1055,9 @@ const SportsTable = () => {
       logo: '/suppersports.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"23:00",
+      startTime:"22:00",
       endTime: "23:59",
-      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
       endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
@@ -1066,9 +1066,9 @@ const SportsTable = () => {
       logo: '/canal+.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"23:00",
+      startTime:"22:00",
       endTime: "23:59",
-      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
       endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
     {
@@ -1077,9 +1077,9 @@ const SportsTable = () => {
       logo: '/sport-klub.webp',
       logo1: '/motorsports.webp',
       date: "2023-04-01",
-      startTime:"23:00",
+      startTime:"22:00",
       endTime: "23:59",
-      startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
       endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
     },
   ],
@@ -1226,10 +1226,10 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"10:00",
-          endTime: "12:00",
-          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"09:00",
+          endTime: "10:00",
+          startDate: new Date("2023-04-01T09:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
              
       ],
@@ -1244,10 +1244,10 @@ const SportsTable = () => {
           logo: '/sky-golf.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"10:00",
-          endTime: "12:00",
-          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"16:00",
+          endTime: "18:00",
+          startDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: ' NBC USA (CH-53) ',
@@ -1255,10 +1255,10 @@ const SportsTable = () => {
           logo: '/nbc.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"10:00",
-          endTime: "12:00",
-          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"16:00",
+          endTime: "18:00",
+          startDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: 'TSN3 (CH-113) ',
@@ -1266,10 +1266,10 @@ const SportsTable = () => {
           logo: '/tsn.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"10:00",
-          endTime: "12:00",
-          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"16:00",
+          endTime: "18:00",
+          startDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: 'TSN5 (CH-115) ',
@@ -1277,10 +1277,10 @@ const SportsTable = () => {
           logo: '/tsn.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"10:00",
-          endTime: "12:00",
-          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"16:00",
+          endTime: "18:00",
+          startDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: ' Movistar Golf (CH-528)',
@@ -1288,10 +1288,10 @@ const SportsTable = () => {
           logo: '/movistar.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"10:00",
-          endTime: "12:00",
-          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"16:00",
+          endTime: "18:00",
+          startDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: ' SuperSport Golf (CH-422)',
@@ -1299,10 +1299,10 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"10:00",
-          endTime: "12:00",
-          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"16:00",
+          endTime: "18:00",
+          startDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: ' ESPN 2 BR (CH-82)',
@@ -1310,10 +1310,10 @@ const SportsTable = () => {
           logo: '/espn-brazil.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"10:00",
-          endTime: "12:00",
-          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"16:00",
+          endTime: "18:00",
+          startDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
       ],
       description: '17:00 Augusta National Amateur, Final Round.',
@@ -1327,10 +1327,10 @@ const SportsTable = () => {
           logo: '/cw.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"17:00",
+          endTime: "19:00",
+          startDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
              
       ],
@@ -1345,10 +1345,10 @@ const SportsTable = () => {
           logo: '/sky-golf.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: 'NBC USA (CH-53) ',
@@ -1356,10 +1356,10 @@ const SportsTable = () => {
           logo: '/nbc.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: 'GOLF Channel USA (CH-318) ',
@@ -1367,10 +1367,10 @@ const SportsTable = () => {
           logo: '/golf-channel-usa.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: ' Sky Sports Main Event (CH-38)',
@@ -1378,10 +1378,10 @@ const SportsTable = () => {
           logo: '/sky-mainevent.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: 'Movistar Golf (CH-528) ',
@@ -1389,10 +1389,10 @@ const SportsTable = () => {
           logo: '/movistar.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: ' SuperSport Golf (CH-422)',
@@ -1400,10 +1400,10 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
           name: ' Eurosport 2 Poland (CH-58)',
@@ -1411,10 +1411,10 @@ const SportsTable = () => {
           logo: '/eurosports2.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
             
       ],
@@ -1429,9 +1429,9 @@ const SportsTable = () => {
           logo: '/sky-golf.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"23:00",
+          startTime:"22:00",
           endTime: "23:59",
-          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
@@ -1440,9 +1440,9 @@ const SportsTable = () => {
           logo: '/golf-channel-usa.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"23:00",
+          startTime:"22:00",
           endTime: "23:59",
-          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
@@ -1451,9 +1451,9 @@ const SportsTable = () => {
           logo: '/sky-mainevent.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"23:00",
+          startTime:"22:00",
           endTime: "23:59",
-          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
@@ -1462,9 +1462,9 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"23:00",
+          startTime:"22:00",
           endTime: "23:59",
-          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
@@ -1473,9 +1473,9 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"23:00",
+          startTime:"22:00",
           endTime: "23:59",
-          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
         {
@@ -1484,9 +1484,9 @@ const SportsTable = () => {
           logo: '/sport-tv5-portugal.webp',
           logo1: '/golf.webp',
           date: "2023-04-01",
-          startTime:"23:00",
+          startTime:"22:00",
           endTime: "23:59",
-          startDate: new Date("2023-04-01T23:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          startDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T23:59:00Z").toLocaleString('en-US', { timeZone: 'UTC' }) 
         },
             
@@ -1510,10 +1510,10 @@ const SportsTable = () => {
         logo: '/eurosport1.webp',
         logo1: '/cycling.webp',
         date: "2023-04-01",
-        startTime:"14:30",
-        endTime: "16:00",
-        startDate: new Date("2023-04-01T07:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-        endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        startTime:"13:30",
+        endTime: "15:00",
+        startDate: new Date("2023-04-01T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+        endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: '  Eurosport 1 Poland (CH-57)   ',
@@ -1521,10 +1521,10 @@ const SportsTable = () => {
         logo: '/eurosport1.webp',
         logo1: '/cycling.webp',
         date: "2023-04-01",
-        startTime:"14:30",
-        endTime: "16:00",
-        startDate: new Date("2023-04-01T07:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-        endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        startTime:"13:30",
+        endTime: "15:00",
+        startDate: new Date("2023-04-01T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+        endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: ' Eurosport 1 ES (CH-524) ',
@@ -1532,10 +1532,10 @@ const SportsTable = () => {
         logo: '/eurosport1.webp',
         logo1: '/cycling.webp',
         date: "2023-04-01",
-        startTime:"14:30",
-        endTime: "16:00",
-        startDate: new Date("2023-04-01T07:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-        endDate: new Date("2023-04-01T16:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+        startTime:"13:30",
+        endTime: "15:00",
+        startDate: new Date("2023-04-01T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+        endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
       ],
       description: '14:30 Grand Prix Miguel Indurain | Estella - Estella (203 km) .',
@@ -1594,10 +1594,10 @@ const SportsTable = () => {
       logo: '/dazn.webp',
       logo1: '/boxing.webp',
       date: "2023-04-01",
-      startTime:"19:00",
-      endTime: "20:30",
-      startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"18:00",
+      endTime: "20:00",
+      startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     {
       name: ' DAZN 2 ES (CH-446)  ',
@@ -1605,10 +1605,10 @@ const SportsTable = () => {
       logo: '/dazn.webp',
       logo1: '/boxing.webp',
       date: "2023-04-01",
-      startTime:"19:00",
-      endTime: "20:30",
-      startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"18:00",
+      endTime: "20:00",
+      startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     {
       name: ' DAZN1 DE (CH-426) ',
@@ -1616,10 +1616,10 @@ const SportsTable = () => {
       logo: '/dazn.webp',
       logo1: '/boxing.webp',
       date: "2023-04-01",
-      startTime:"19:00",
-      endTime: "20:30",
-      startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T20:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"18:00",
+      endTime: "20:00",
+      startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     
   ],
@@ -1634,10 +1634,10 @@ const SportsTable = () => {
       logo: '/Sky-boxing.webp',
       logo1: '/boxing.webp',
       date: "2023-04-02",
-      startTime:"02:00",
-      endTime: "04:00",
-      startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"01:00",
+      endTime: "03:00",
+      startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     {
       name: 'Sky Sports Action (CH-37) ',
@@ -1645,10 +1645,10 @@ const SportsTable = () => {
       logo: '/sky-action.webp',
       logo1: '/boxing.webp',
       date: "2023-04-02",
-      startTime:"02:00",
-      endTime: "04:00",
-      startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"01:00",
+      endTime: "03:00",
+      startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     {
       name: ' beIN Sports 2 France (CH-117) ',
@@ -1656,10 +1656,10 @@ const SportsTable = () => {
       logo: '/bein1-french.webp',
       logo1: '/boxing.webp',
       date: "2023-04-02",
-      startTime:"02:00",
-      endTime: "04:00",
-      startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"01:00",
+      endTime: "03:00",
+      startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     {
       name: '  Diema Sport Bulgaria (CH-465) ',
@@ -1667,10 +1667,10 @@ const SportsTable = () => {
       logo: '/diema-sport.webp',
       logo1: '/boxing.webp',
       date: "2023-04-02",
-      startTime:"02:00",
-      endTime: "04:00",
-      startDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-02T04:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"01:00",
+      endTime: "03:00",
+      startDate: new Date("2023-04-02T01:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-02T02:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
   ],
   description: '02:00 Boxing : Robeisy Ramirez vs Isaac Dogboe.',
@@ -1689,10 +1689,10 @@ const SportsTable = () => {
       logo: '/viaplay-xtra.webp',
       logo1: '/darts.webp',
       date: "2023-04-01",
-      startTime:"12:00",
-      endTime: "14:00",
-      startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T14:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"11:00",
+      endTime: "13:00",
+      startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
     
   ],
@@ -1707,10 +1707,10 @@ const SportsTable = () => {
       logo: '/viaplay-xtra.webp',
       logo1: '/darts.webp',
       date: "2023-04-01",
-      startTime:"18:00",
-      endTime: "20:00",
-      startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-      endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+      startTime:"17:00",
+      endTime: "19:00",
+      startDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+      endDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
     },
    
   ],
@@ -1730,10 +1730,10 @@ const SportsTable = () => {
           logo: '/teledeporte.webp',
           logo1: '/futsal.webp',
           date: "2023-04-01",
-          startTime:"11:00",
-          endTime: "13:00",
-          startDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"10:00",
+          endTime: "11:00",
+          startDate: new Date("2023-04-01T10:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T11:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
@@ -1748,10 +1748,10 @@ const SportsTable = () => {
           logo: '/teledeporte.webp',
           logo1: '/futsal.webp',
           date: "2023-04-01",
-          startTime:"13:30",
-          endTime: "15:30",
-          startDate: new Date("2023-04-01T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"12:30",
+          endTime: "13:30",
+          startDate: new Date("2023-04-01T12:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
@@ -1770,10 +1770,10 @@ const SportsTable = () => {
           logo: '/sky-racing.webp',
           logo1: '/horse-racing.webp',
           date: "2023-04-01",
-          startTime:"13:00",
-          endTime: "15:00",
-          startDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"12:00",
+          endTime: "13:00",
+          startDate: new Date("2023-04-01T12:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T13:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
        
       ],
@@ -1788,7 +1788,7 @@ const SportsTable = () => {
           logo: '/suppersports.webp',
           logo1: '/horse-racing.webp',
           date: "2023-04-01",
-          startTime:"13:30",
+          startTime:"12:30",
           endTime: "15:00",
           startDate: new Date("2023-04-01T13:30:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
           endDate: new Date("2023-04-01T15:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
@@ -1830,10 +1830,10 @@ const SportsTable = () => {
           logo: '/nfl.webp',
           logo1: '/ice-hockey.webp',
           date: "2023-04-01",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"17:00",
+          endTime: "19:00",
+          startDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: '   Sport Klub 4 Serbia (CH-104)  ',
@@ -1841,10 +1841,10 @@ const SportsTable = () => {
           logo: '/sport-klub.webp',
           logo1: '/ice-hockey.webp',
           date: "2023-04-01",
-          startTime:"18:00",
-          endTime: "20:00",
-          startDate: new Date("2023-04-01T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"17:00",
+          endTime: "19:00",
+          startDate: new Date("2023-04-01T17:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
       
       
@@ -1860,10 +1860,10 @@ const SportsTable = () => {
           logo: '/abc.webp',
           logo1: '/ice-hockey.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: ' Sportsnet One (CH-411) ',
@@ -1871,10 +1871,10 @@ const SportsTable = () => {
           logo: '/sportsnet.webp',
           logo1: '/ice-hockey.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: 'Sky Sport Austria 1 (CH-559) ',
@@ -1882,10 +1882,10 @@ const SportsTable = () => {
           logo: '/sky-sport.webp',
           logo1: '/ice-hockey.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: ' Sport Klub 3 Serbia (CH-103) ',
@@ -1893,10 +1893,10 @@ const SportsTable = () => {
           logo: '/sport-klub.webp',
           logo1: '/ice-hockey.webp',
           date: "2023-04-01",
-          startTime:"20:00",
-          endTime: "22:00",
-          startDate: new Date("2023-04-01T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
-          endDate: new Date("2023-04-01T22:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
+          startTime:"19:00",
+          endTime: "21:00",
+          startDate: new Date("2023-04-01T19:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-01T21:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },      
       ],
       description: '20:00 NHL : Pittsburgh Penguins vs Boston Bruins.',
@@ -2619,7 +2619,7 @@ const SportsTable = () => {
 <link rel="icon" type="image/webp" sizes="16x16" href="/favicon-16x16.webp" />
 <link rel="manifest" href="/site.webmanifest"></link>
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Sports-2023" />
 
   </Head>
 
