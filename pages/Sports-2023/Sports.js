@@ -2635,7 +2635,7 @@ const SportsTable = () => {
           </div>
     <div>
 
-    <h1 className="text-center font-bold text-white text-2xl py-3 px-4">Friday 25th March 2023 - Schedule Time UK GMT+1
+    <h1 className="text-center font-bold text-white text-2xl py-3 px-4">Saturday 01st April 2023 - Schedule Time UK GMT+1
           </h1>
       
 
