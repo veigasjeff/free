@@ -1,37 +1,17 @@
-
-const withPlugins = require('next-compose-plugins');
-const withTM = require('next-transpile-modules')(['module1', 'module2']);
-const TerserPlugin = require('terser-webpack-plugin');
-
-module.exports = withPlugins([withTM], {
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.optimization.minimizer = [new TerserPlugin()];
-    }
-    return config;
-  },
-});
-
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
+ 
 });
 
 module.exports = withBundleAnalyzer({
-  // your Next.js configuration
-  webpack: (config, { isServer }) => {
-    config.stats = {
-      preset: 'normal',
-      outputPath: 'stats',
-      filename: 'stats.json',
-    };
-    return config;
-  },
+  // Your Next.js configuration options here
 });
 
 const withOptimizedImages = require('next-optimized-images')
 
 module.exports = withOptimizedImages({
   optimizeImagesInDev: true,
+ 
   // Other Next.js configurations
 })
 

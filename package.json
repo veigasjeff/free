@@ -1,15 +1,17 @@
 {
-  "name": "next-netlify-starter",
-  "version": "0.5.0",
-  "private": true,
+  "name": "uwatchfree",
+  "version": "1.0.0",
+  "description": "Best Movie package",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "postbuild": "next-sitemap --config next-sitemap.config.js",
-    "analyze": "cross-env ANALYZE=true next build && webpack-bundle-analyzer ./.next/static/stats/*.json"
+    "postbuild": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^13.2.4",
     "@popperjs/core": "^2.11.6",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "cypress": "^10.0.3",
@@ -30,13 +32,11 @@
     "tw-elements": "^1.0.0-alpha13"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.2.4",
     "autoprefixer": "^10.4.13",
     "cross-env": "^7.0.3",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^10.0.0",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4",
-    "webpack-bundle-analyzer": "^4.8.0"
+    "tailwindcss": "^3.2.4"
   }
 }

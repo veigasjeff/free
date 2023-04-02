@@ -22,10 +22,10 @@ const IPLMatch02  = () => {
 }, [ ])
 
 const match1 = {
-  date: "April 01, 2023",
+  date: "April 02, 2023",
   time: "07:30 PM IST",
-  venue: { name: "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,", city: "Lucknow." },
-  umpires: { field: "Anil Chaudhary & Nikhil Patwardhan", third: "Sadashiv Iyer" },
+  venue: { name: "M Chinnaswamy Stadium,", city: "Bengaluru." },
+  umpires: { field: "Tapan Balwant Sharma & Nitin Menon.", third: "Virender Kumar Sharma." },
 };
 
 const match2 = {
@@ -41,11 +41,11 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://uwatchfree.vercel.app/TvShows/IPL-2023/IPLMatch02"
+    "@id": "https://uwatchfree.vercel.app/Sports-2023/IPL-2023/IPLMatch02"
     
   },
-  "headline": "IPL Lucknow Super Giants vs Delhi Capitals (2023) Sports Online Free | Uwatchfree™",
-  "image": "https://uwatchfree.vercel.app/ipl-2023-match02",
+  "headline": "IPL Royal Challengers Bangalore vs Mumbai Indians (2023) Sports Online Free | Uwatchfree™",
+  "image": "https://uwatchfree.vercel.app/ipl-2023-match05.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
@@ -63,7 +63,7 @@ const schemaData   = {
         "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatchfree™ IPL LSG VS DC (2023) Sports Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  "description": "Uwatchfree™ IPL RCB VS MI (2023) Sports Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 
@@ -79,7 +79,7 @@ const scrollSearch = myKey => {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch IPL Live Matches (2023) Sports Live Online Free | Uwatchfree™</title>
+     <title>Watch IPL Live Matches (2023) Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree, daddylive, streaming free, livetv, freetvchannels, onlinetv, tvchannelsfree, watchtvlive, online tv channels, updated live stream, live sports streaming, stream sports live, watch live sports online, live sports online Live sports TV, free sports streaming, live sports channels, sports streaming services, online sports streaming, sports live stream free, sports live TV, live cricket streaming, live football streaming, live basketball streaming, live baseball streaming, live soccer streaming, live NHL streaming, live NFL streaming, live tennis streaming, live MMA streaming" />
 <meta property="og:locale" content="en_US" />   
@@ -88,16 +88,16 @@ const scrollSearch = myKey => {
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch IPL LSG VS DC (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Sports-2023/IPL-GtVsCsk-2023/IPLMatch02" />
-<meta property="og:image" content="https://uwatchfree.vercel.app/ipl-2023-match02" />
+<meta property="og:title" content="Watch IPL RCB VS MI (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Sports-2023/IPL-2023/IPLMatch02" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/ipl-2023-match05.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch IPL LSG VS DC (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://uwatchfree.vercel.app/ipl-2023-match02" />
-<meta name="description" content="Watch IPL LSG VS DC (2023) Sports Online on Uwatchfree™, You can also download IPL LSG VS DC (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch IPL RCB VS MI (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/ipl-2023-match05.webp" />
+<meta name="description" content="Watch IPL RCB VS MI (2023) Sports Online on Uwatchfree™, You can also download IPL RCB VS MI (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatchfree.vercel.app/TvShows/IPL-2023/" />
  
@@ -109,9 +109,9 @@ const scrollSearch = myKey => {
         
     
         
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">IPL Lucknow Super Giants vs Delhi Capitals </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">IPL Royal Challengers Bangalore vs Mumbai Indians </h1>
 
-    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Saturday 01st April 2023 - Schedule Time IST @ 07:30 </h2>
+    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Sunday 02nd April 2023 - Schedule Time IST @ 07:30 </h2>
     <div className={styles['iframe-container']}>
     <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://daddylivehd.sx/embed/stream-65.php" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0" />
     </div>     
@@ -142,12 +142,6 @@ const scrollSearch = myKey => {
   Fox Cricket 
       </button></Link>
       </div>
-      <div className="flex justify-center">
-      <Link href="../../../../Channel/Ch590">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Sky Sport 3 NZ 
-      </button></Link>
-      </div>
       </div>
     <div className="flex flex-col space-y-4 m-8">
     <h1 className="text-white text-3xl font-bold ">Match Details</h1>
@@ -174,7 +168,7 @@ const scrollSearch = myKey => {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer IPL LSG VS DC (2023)</h2>
+          <h2 className="text-2xl font-bold" >Offical Trailer IPL RCB VS MI (2023)</h2>
            <div className={styles['iframe-container']}>
  <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/9sglfjm39hfm.html" />
                    
@@ -216,12 +210,12 @@ const scrollSearch = myKey => {
         }
       `}</style>
        */} 
-  <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">
+ 
+ <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">
 24/7 Live Sports & Entertainment Channels</h2>
 <h2  className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../Sports" > 
       Click To Watch Other Sports</a></h2>
-  
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
