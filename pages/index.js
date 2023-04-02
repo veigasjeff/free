@@ -138,7 +138,7 @@ const schemaData   = {
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest"></link>
   <link rel="canonical" href="https://uwatchfree.vercel.app/" />
-  
+
       </Head>
     
      

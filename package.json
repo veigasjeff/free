@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Best Movie package",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -24,6 +23,7 @@
     "next-sitemap": "^3.1.52",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-ga": "^3.3.1",
     "react-modal": "^3.16.1",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
