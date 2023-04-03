@@ -1559,12 +1559,22 @@ const SportsTable = () => {
           link: '../../../../Channel/Ch111',
           logo: '/tsn.webp',
           logo1: '/winter-sports.webp',
+          date: "2023-04-03",
+          startTime:"18:00",
+          endTime: "20:00",
+          startDate: new Date("2023-04-03T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-03T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
         {
           name: 'TSN5 (CH-115) ',
           link: '../../../../Channel/Ch115',
           logo: '/tsn.webp',
           logo1: '/winter-sports.webp',
+          date: "2023-04-03",
+          startTime:"18:00",
+          endTime: "20:00",
+          startDate: new Date("2023-04-03T18:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' }),
+          endDate: new Date("2023-04-03T20:00:00Z").toLocaleString('en-US', { timeZone: 'UTC' })
         },
       ],
       description: '19:00 2023 World Mens Curling Championship : Canada vs. Japan.',
