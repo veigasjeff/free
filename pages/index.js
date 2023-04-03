@@ -120,7 +120,7 @@ const schemaData   = {
 	     <meta name="twitter:description" content=" Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free " />
 	     <meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
        <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
-      
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8QKRZ4B44"></script>
   <link rel="alternate" hrefLang="en-us" 	href="https://uwatchfree.vercel.app/"/>
 	<link rel="alternate" hrefLang="en-gb" 	href="https://uwatchfree.vercel.app/"/>
 	<link rel="alternate" hrefLang="en-ca" 	href="https://uwatchfree.vercel.app/"/>
