@@ -5,11 +5,11 @@ import Image from 'next/image';
 
 export const Carousel = () => {
   const images = [
-    { src: '/we-have-a-ghost-2023.webp', alt: 'We Have A Ghost', link: '../../Hollywood/WeHaveAGhost-2023/WeHaveAGhost' },
-    { src: '/little-dixie-2023.webp', alt: 'Little Dixie', link: '../../Hollywood/LittleDixie-2023/LittleDixie' },
-    { src: '/creed-III-2023.webp', alt: 'Creed-III', link: '../../Hollywood/Creed3-2023/Creed3' },
-    { src: '/bikini-hackers-2023.webp', alt: 'Bikini Hackers', link: '../../Hollywood/BikiniHackers-2023/BikiniHackers' },
-    { src: '/sayen-2023.webp', alt: 'Sayen', link: '../../Hollywood/Sayen-2023/SayenP1' },
+    { src: '/selfiee-2023.webp', alt: 'Selfiee', link: '../../Bollywood/Selfiee-2023/Selfiee' },
+    { src: '/gulmohar-2023.webp', alt: 'Gulmohar', link: '../../Bollywood/Gulmohar-2023/Gulmohar' },
+    { src: '/incar-2023.webp', alt: 'InCar', link: '../../Bollywood/InCar-2023/InCar' },
+    { src: '/raundal-2023.webp', alt: 'Raundal', link: '../../Bollywood/Raundal-2023/Raundal' },
+    { src: '/tu-jhoothi-main-makkaar-2023.webp', alt: 'Tu Jhoothi Main Makkaar', link: '../../Bollywood/TuJhoothiMainMakkaar-2023/TuJhoothiMainMakkaar' },
   ];
 
   const settings = {
@@ -30,9 +30,9 @@ export const Carousel = () => {
     <Slider {...settings}>
       {images.map((image, index) => (
         <div key={index}>
-          <div onClick={() => handleImageClick(image.link)} style={{  display: "flex", justifyContent: "center", cursor: 'pointer' }}>
+          <div onClick={() => handleImageClick(image.link)}  style={{  display: "flex", justifyContent: "center", cursor: 'pointer' }} >
             <Image
-              className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl"
+              className=" scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl"
               src={image.src}
               alt={image.alt}
               width={600}

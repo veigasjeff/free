@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import React, { useEffect } from 'react'
 import '@styles/styles.module.css'
-
 import ShareThis from '@components/ShareThis';
 
 
@@ -95,7 +94,7 @@ const schemaData   = {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
       <div className="bg-gray-900 ">
-
+      
       <Head>
         <title>Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free</title>
         <meta name="robots" content="index, follow" />  
@@ -140,7 +139,7 @@ const schemaData   = {
   <link rel="canonical" href="https://uwatchfree.vercel.app/" />
 
       </Head>
-    
+      
      
 
       <main>
@@ -171,45 +170,7 @@ const schemaData   = {
          
         </div>
       </div>
-   
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Sports-2023/IPL-2023/IPLMatch01">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match04.webp' alt='IPL Sunrisers Hyderabad vs Rajasthan Royals - 2023'  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL Sunrisers Hyderabad vs Rajasthan Royals </h2>
-          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 02 April Saturday 01st, 03:30 IST @ Rajiv Gandhi International Stadium, Hyderabad.  </h3>
-                
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : Match 04 - IPL 2023     </div>
-      <a href="../../Sports-2023/IPL-2023/IPLMatch01">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Sports-2023/IPL-2023/IPLMatch02">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match05.webp' alt='IPL Royal Challengers Bangalore vs Mumbai Indians - 2023'  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL Royal Challengers Bangalore vs Mumbai Indians </h2>
-          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 02 April Saturday 01st, 07:30 IST @ M Chinnaswamy Stadium, Bengaluru.  </h3>
-                
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : Match 05 - IPL 2023     </div>
-      <a href="../../Sports-2023/IPL-2023/IPLMatch02">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
+    
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Sports-2023/IPL-2023/IPLMatch01">
@@ -231,7 +192,7 @@ const schemaData   = {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Sports-2023/IPL-2023/IPLMatch02">
+        <a href="../../Sports-2023/IPL-2023/IPLMatch01">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
   <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match07.webp' alt='IPL DELHI CAPITAL vs GUJARAT TITANS - 2023'  width={400} height={300} loading="lazy"/>
@@ -239,104 +200,142 @@ const schemaData   = {
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL DELHI CAPITAL vs GUJARAT TITANS </h2>
-          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 04 April Tuesday 04th, 07:30 IST @ Arun Jaitley Stadium, Delhi.  </h3>
+          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 07 April Tuesday 04th, 07:30 IST @ Arun Jaitley Stadium, Delhi.  </h3>
                 
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
       GENRE : Match 07 - IPL 2023     </div>
-      <a href="../../Sports-2023/IPL-2023/IPLMatch02">
+      <a href="../../Sports-2023/IPL-2023/IPLMatch01">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/Station19-2023/Station19">
+        <a href="../../Sports-2023/IPL-2023/IPLMatch01">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/station19-2023.webp' alt='STATION 19 - S6 (2023) '  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match08.webp' alt='IPL PUNJAB KINGS VS RAJASTHAN ROYALS - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">STATION 19 - S6 (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">This spinoff of the critically acclaimed show Grey's Anatomy follows the lives of the men and women of firehouse station 19 in Seattle, Washington.</h3>
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL PUNJAB KINGS VS RAJASTHAN ROYALS </h2>
+          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 08 April Wednesday 05th, 07:30 IST @ Barsapara Cricket Stadium, Guwahati.  </h3>
+                
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : Match 08 - IPL 2023     </div>
+      <a href="../../Sports-2023/IPL-2023/IPLMatch01">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Sports-2023/IPL-2023/IPLMatch01">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match09.webp' alt='IPL KOLKATA KNIGHT RIDERS VS ROYAL CHALLENGERS BANGALORE - 2023'  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL KOLKATA KNIGHT RIDERS VS ROYAL CHALLENGERS BANGALORE </h2>
+          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 09 April Thursday 06th, 07:30 IST @ Eden Gardens, Kolkata.  </h3>
+                
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : Match 09 - IPL 2023     </div>
+      <a href="../../Sports-2023/IPL-2023/IPLMatch01">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../TvShows/Lacasadelosfamosos-2023/Lacasadelosfamosos">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/La-casa-de-los-amosos.webp' alt='LA CASA DE LOS FAMOSOS - S3 (2023) '  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">LA CASA DE LOS FAMOSOS - S3 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Celebrities gathered under one roof and cut off from the outside world are recorded by cameras 24 hours a day, seven days a week, as they compete with one goal: to win.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
     <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               6.9 Out of 10</h3>
+               5.7 Out of 10</h3>
          
          
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
       GENRE : ACTION, DRAMA.
        </div>
-       <a href="../../TvShows/Station19-2023/Station19">
+       <a href="../../TvShows/Lacasadelosfamosos-2023/Lacasadelosfamosos">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/YoungSheldon-2023/YoungSheldon">
+        <a href="../../TvShows/AmericanIdol-2023/AmericanIdol">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/young-sheldon-2023.webp' alt='YOUNG SHELDON - S6 (2023) '  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/american-idol.webp' alt='AMERICAN IDOL - S21 (2023) '  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">YOUNG SHELDON - S6 (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Meet a child genius named Sheldon Cooper (already seen as an adult in The Big Bang Theory (2007)) and his family. </h3>
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">AMERICAN IDOL - S21 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Twelve American finalists (six men and six women) compete in a singing contest.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
     <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               7.6 Out of 10</h3>
+               4.2 Out of 10</h3>
          
          
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : COMEDY, FAMILY.
+      GENRE : REALITY TV, MUSIC
        </div>
-       <a href="../../TvShows/YoungSheldon-2023/YoungSheldon">
+       <a href="../../TvShows/AmericanIdol-2023/AmericanIdol">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/LawAndOrder-2023/LawAndOrder">
+        <a href="../../TvShows/TheVoice-2023/TheVoice">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/law&order-2023.webp' alt='LAW & ORDER - S22 (2023) '  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-voice-2023.webp' alt='THE VOICE - S23 (2023) '  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">LAW & ORDER - S22 (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">A crime is tracked from two separate vantage points: the police investigation and the prosecution in court. Is a Crime, Mystery Series.</h3>
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">THE VOICE - S23 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Four famous musicians search for the best voices in America and will mentor these singers to become artists. America will decide which singer will be worthy of the grand prize.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
     <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               7.8 Out of 10</h3>
+               6.5 Out of 10</h3>
          
          
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
       GENRE : CRIME, MYSTERY.
        </div>
-       <a href="../../TvShows/LawAndOrder-2023/LawAndOrder">
+       <a href="../../TvShows/TheVoice-2023/TheVoice">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/NextLevelChef-2023/NextLevelChef ">
+        <a href="../../TvShows/Enamorandonos-2023/Enamorandonos ">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/next-level-chef-2023.webp' alt='NEXT LEVEL CHEF - S2 (2023) '  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/enamorándonos-2023.webp' alt='ENAMORANDONOS - S4 (2023) '  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">NEXT LEVEL CHEF - S2 (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Gordon Ramsay, Nyesha Arrington, and Richard Blais compete together on what is the next evolution in cooking competitions.</h3>
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">ENAMORANDONOS - S4 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">“Enamorándonos” has been an international hit in countries and has tallied more than 500 marriages and 272 babies around the world.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
@@ -347,7 +346,7 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
       GENRE : REALITY TV, TV SHOW
        </div>
-       <a href="../../TvShows/NextLevelChef-2023/NextLevelChef">
+       <a href="../../TvShows/Enamorandonos-2023/Enamorandonos">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
@@ -355,67 +354,41 @@ const schemaData   = {
         
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/Walker-2023/Walker">
+        <a href="../../TvShows/PerdonaNuestrosPecados-2023/PerdonaNuestrosPecados">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/walker-2023.webp' alt='WALKER - S3 (2023)'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/perdona-nuestros-ecados-2023.webp' alt='WALKER - S3 (2023)'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">WALKER - S3 (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">A widowed father returns to Austin after one year, attempting to reconnect with his children, navigate clashes with his family.</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               6.1 Out of 10</h3>
-         
-         
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : ACTION, CRIME.
-       </div>
-       <a href="../../TvShows/Walker-2023/Walker">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/JerseyShore-2023/JerseyShore">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/jersey-shore-2023.webp' alt='JERSEY SHORE: FAMILY VACATION - S6 (2023)'  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">JERSEY SHORE: FAMILY VA.. - S6 (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Past members of the cast of "Jersey Shore" reunite to live together and go on vacation in Miami and other destinations.</h3>
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">PERDONA NUESTROS PECADOS - S1 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Elsa, the daughter of the richest man in town, falls in love with Andrés, the son of her family's maid. When her philandering father Armando discovers their relationship, he vows to stop at nothing to keep them apart.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
     <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-                6.6 Out of 10</h3>
+               1.1 Out of 10</h3>
          
          
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, TV SHOW
+      GENRE : DRAMA, FAMILY
        </div>
-       <a href="../../TvShows/JerseyShore-2023/JerseyShore">
+       <a href="../../TvShows/PerdonaNuestrosPecados-2023/PerdonaNuestrosPecados">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/GreysAnatomy-2023/GreysAnatomy">
+        <a href="../../TvShows/BasketballWives-2023/BasketballWives">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/greys-anatomy-2023.webp' alt='GREYS ANATOMY - S19 (2023)'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/basketball-wives-2023.webp' alt='BASKETBALL WIVES - S10 (2023)'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">GREY'S ANATOMY - S19 (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">A drama centered on the personal and professional lives of five surgical interns and their supervisors.Grey's Anatomy is a Drama Romance Series.</h3>
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">BASKETBALL WIVES - S10 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Jackie demands a ponderosa with the ladies to set the record straight; Brooke tries to sever ties with her husband. Duffey and Iman encounter relationship roadblock.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
@@ -424,65 +397,40 @@ const schemaData   = {
          
          
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : ROMANCE, DRAMA
+      GENRE : REALITY TV, GAME SHOW
        </div>
-       <a href="../../TvShows/GreysAnatomy-2023/GreysAnatomy">
+       <a href="../../TvShows/BasketballWives-2023/BasketballWives">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/ExBeachCouples-2023/ExBeachCouples">
+        <a href="../../TvShows/PerryMason-2023/PerryMason">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ex-onthe-beach-couples-2023.webp' alt='Ex ON THE BEACH COUPLES - S6 (2023)'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/perry-mason-2023.webp' alt='PERRY MASON - S2 (2023)'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">Ex ON THE BEACH COUPLES - S6 (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Ten romantically embattled reality stars appear alongside everyday singles who show up for what they think is a run-of-the-mill love, dating show.</h3>
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">PERRY MASON - S2 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">In booming 1932 Los Angeles, a down-and-out defense attorney takes on the case of a lifetime.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
     <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-                5.0 Out of 10</h3>
+                7.6 Out of 10</h3>
          
          
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, TV SHOW
+      GENRE : CRIME, THRILLER
        </div>
-       <a href="../../TvShows/ExBeachCouples-2023/ExBeachCouples">
+       <a href="../../TvShows/PerryMason-2023/PerryMason">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/GrownAndGospel-2023/GrownAndGospel">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/grown&gospel-2023.webp' alt='GROWN & GOSPEL - S1 (2023)'  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">GROWN & GOSPEL - S1 (2023)</h2>
-          <h3 className="leading-relaxed text-white text-base">Follows five career-driven childhood friends as they hustle to step out of the shadows of their prominent parents as they strive to triumph.</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-                5.3 Out of 10</h3>
-         
-         
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : MUSIC, TV SHOW.
-       </div>
-       <a href="../../TvShows/GrownAndGospel-2023/GrownAndGospel">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
+   
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Hollywood/ShazamFuryOfTheGods-2023/ShazamFuryOfTheGods">

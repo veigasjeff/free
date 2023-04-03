@@ -8,7 +8,7 @@ import {Carousel}  from "@components/SCarousel";
 function Most() {
   const [showAd, setShowAd] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
-  const [remainingTime, setRemainingTime] = useState(30);
+  const [remainingTime, setRemainingTime] = useState(10);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -47,7 +47,7 @@ function Most() {
 
 
   <h1 className="mb-4 py-5  font-bold leading-none tracking-tight text-white  flex flex-col items-center justify-center text-2xl dark:text-white"  >
-    Latest Sports Upcoming Events
+    Latest Sports Updated Events
    </h1>
  
               <Carousel />

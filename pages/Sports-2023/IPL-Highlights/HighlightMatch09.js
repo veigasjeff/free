@@ -7,7 +7,7 @@ import styles from '@styles/video-player.module.css'
 import ShareThis from '@components/ShareThis';
 import PointsTablePopup from '@components/PointsTablePopup';
 
-const HighlightMatch03  = () => {
+const HighlightMatch09  = () => {
   useEffect(() => {
     const handleContextmenu = e => {
         e.preventDefault()
@@ -25,11 +25,11 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://https://uwatchfree.vercel.app/Sports-2023/IPL-Highlights/HighlightMatch03"
+    "@id": "https://https://uwatchfree.vercel.app/Sports-2023/IPL-Highlights/HighlightMatch09"
     
   },
-  "headline": "IPL LUCKNOW SUPER GIANTS VS DELHI CAPITALS (2023) Sports Online Free | Uwatchfree™",
-  "image": "https://uwatchfree.vercel.app/ipl-2023-highlight03.webp",
+  "headline": "IPL Kolkata Knight Riders vs Royal Challengers Bangalore (2023) Sports Online Free | Uwatchfree™",
+  "image": "https://uwatchfree.vercel.app/ipl-2023-highlight09.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
@@ -47,7 +47,7 @@ const schemaData   = {
         "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatchfree™ IPL MATCH 03 LSG VS DC (2023) Sports Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  "description": "Uwatchfree™ IPL MATCH 09 KKR VS RCB (2023) Sports Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 
@@ -63,7 +63,7 @@ const scrollSearch = myKey => {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch IPL: Highlights MATCH 03 LSG VS DC (2023) | Uwatchfree™</title>
+     <title>Watch IPL: Highlights MATCH 09 KKR VS RCB (2023) | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree, daddylive, daddylivehs.sx, uwatchfree.com, streaming free, livetv, freetvchannels, onlinetv, tvchannelsfree, watchtvlive, online tv channels, updated live stream, live sports streaming, stream sports live, watch live sports online, live sports online Live sports TV, free sports streaming, live sports channels, sports streaming services, online sports streaming, sports live stream free, sports live TV, live cricket streaming, live football streaming, live basketball streaming, live baseball streaming, live soccer streaming, live NHL streaming, live NFL streaming, live tennis streaming, live MMA streaming" />
 <meta property="og:locale" content="en_US" />   
@@ -72,16 +72,16 @@ const scrollSearch = myKey => {
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch IPL MATCH 03 LSG VS DC (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Sports-2023/IPL-Highlights/HighlightMatch03" />
-<meta property="og:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight03.webp" />
+<meta property="og:title" content="Watch IPL MATCH 09 KKR VS RCB (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Sports-2023/IPL-Highlights/HighlightMatch09" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight09.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch IPL MATCH 03 LSG VS DC (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight03.webp" />
-<meta name="description" content="Watch IPL MATCH 03 LSG VS DC (2023) Sports Online on Uwatchfree™, You can also download IPL MATCH 03 LSG VS DC (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch IPL MATCH 09 KKR VS RCB (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight09.webp" />
+<meta name="description" content="Watch IPL MATCH 09 KKR VS RCB (2023) Sports Online on Uwatchfree™, You can also download IPL MATCH 09 KKR VS RCB (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatchfree.vercel.app/TvShows/IPL-Highlights/" />
  
@@ -93,11 +93,11 @@ const scrollSearch = myKey => {
         
     
         
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">IPL LUCKNOW SUPER GIANTS VS DELHI CAPITALS </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">IPL Kolkata Knight Riders vs Royal Challengers Bangalore  </h1>
 
-    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Match 03 Highlights </h2>
+    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Match 09 Highlights </h2>
     <div className={styles['iframe-container']}>
-    <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://sbface.com/e/9dpunxavzuby.html" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0" />
+    <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://sbface.com/e/43bx2sfvufhi.html" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0" />
     </div>     
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
     
@@ -132,7 +132,7 @@ const scrollSearch = myKey => {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer IPL MATCH 03 LSG VS DC (2023)</h2>
+          <h2 className="text-2xl font-bold" >Offical Trailer IPL MATCH 09 KKR VS RCB (2023)</h2>
            <div className={styles['iframe-container']}>
  <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/9sglfjm39hfm.html" />
                    
@@ -195,4 +195,4 @@ const scrollSearch = myKey => {
   )
 }
 
-export default HighlightMatch03 ;
+export default HighlightMatch09 ;

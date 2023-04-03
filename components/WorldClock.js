@@ -6,7 +6,9 @@ export default function Home() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      const currentTime = moment.tz('Europe/London').format('HH:mm:ss');
+      // const currentTime = moment().tz('Europe/Paris').format('HH:mm:ss');
+         //   const currentTime = moment.tz('Europe/Madrid').format('HH:mm:ss');
+         const currentTime = moment.tz('Europe/London').format('HH:mm:ss');
       setTime(currentTime);
     }, 1000);
     return () => clearInterval(intervalId);

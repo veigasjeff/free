@@ -35,7 +35,7 @@ const PointsTablePopup = () => {
                 </tr>
             </thead>
             <tbody >
-              <tr>
+              <tr className="text-center mt-2 text-red-600 text-xl">
                 <td>1</td>
                 <td>CSK</td>
                 <td>1</td>
@@ -48,20 +48,20 @@ const PointsTablePopup = () => {
                 <td>182/19.2</td>
                 <td>0</td>
               </tr>
-              <tr>
+              <tr  className="text-center mt-2 text-red-600 text-xl">
                 <td>2</td>
                 <td>DC</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
+                <td>-2.500</td>
+                <td>143/20.0</td>
+                <td>193/20.0</td>
                 <td>0</td>
               </tr>
-              <tr>
+              <tr className="text-center mt-2 text-green-600/75 text-xl font-bold">
                 <td>3</td>
                 <td>GT</td>
                 <td>1</td>
@@ -74,95 +74,95 @@ const PointsTablePopup = () => {
                 <td>178/20.0</td>
                 <td>2</td>
               </tr>
-              <tr>
+              <tr className="text-center mt-2 text-red-600 text-xl ">
                 <td>4</td>
                 <td>KKR</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
+                <td>-0.438</td>
+                <td>146/16.0</td>
+                <td>153/16.0</td>
                 <td>0</td>
               </tr>
-              <tr>
+              <tr className="text-center mt-2 text-green-600 text-xl font-bold">
                 <td>5</td>
                 <td>LSG</td>
+                <td>1</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
-                <td>0</td>
-              </tr>
-              <tr>
+                <td>2.500</td>
+                <td>193/20.0</td>
+                <td>143/20.0</td>
+                <td>2</td>
+                </tr>
+                <tr className="text-center mt-2 text-red-600 text-xl ">
                 <td>6</td>
                 <td>MI</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
+                <td>-1.981</td>
+                <td>171/20.0</td>
+                <td>172/16.2</td>
                 <td>0</td>
               </tr>
-              <tr>
+              <tr className="text-center mt-2 text-green-600 text-xl font-bold">
                 <td>7</td>
                 <td>PBKS</td>
+                <td>1</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
-                <td>0</td>
+                <td>0.438</td>
+                <td>153/16.0</td>
+                <td>146/16.0</td>
+                <td>2</td>
               </tr>
-              <tr>
+              <tr className="text-center mt-2 text-green-600 text-xl font-bold">
                 <td>8</td>
                 <td>RR</td>
+                <td>1</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
-                <td>0</td>
+                <td>3.600</td>
+                <td>203/20.0</td>
+                <td>131/20.0</td>
+                <td>2</td>
               </tr>
-              <tr>
+              <tr className="text-center mt-2 text-green-600 text-xl font-bold">
                 <td>9</td>
                 <td>RBC</td>
+                <td>1</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
-                <td>0</td>
+                <td>1.981</td>
+                <td>172/16.2</td>
+                <td>171/20.0</td>
+                <td>2</td>
               </tr>
-              <tr>
+              <tr className="text-center mt-2 text-red-600 text-xl ">
                 <td>10</td>
                 <td>SRH</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
                 <td>0</td>
                 <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0.000</td>
-                <td>0/0</td>
-                <td>0/0</td>
+                <td>-3.600</td>
+                <td>131/20.0</td>
+                <td>203/20.0</td>
                 <td>0</td>
               </tr>
             </tbody>

@@ -29,7 +29,7 @@ const schemaData   = {
     
   },
   "headline": "IPL PUNJAB KINGS VS KOLKATA KNIGHT RIDERS (2023) Sports Online Free | Uwatchfree™",
-  "image": "https://uwatchfree.vercel.app/ipl-2023-highlight02webp",
+  "image": "https://uwatchfree.vercel.app/ipl-2023-highlight02.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
@@ -65,7 +65,7 @@ const scrollSearch = myKey => {
      <Head>
      <title>Watch IPL: Highlights MATCH 02 PBKS VS KKR (2023) | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,highlights,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest Sportss online" />
+<meta name="keywords" content="uwatchfree, daddylive, daddylivehs.sx, uwatchfree.com, streaming free, livetv, freetvchannels, onlinetv, tvchannelsfree, watchtvlive, online tv channels, updated live stream, live sports streaming, stream sports live, watch live sports online, live sports online Live sports TV, free sports streaming, live sports channels, sports streaming services, online sports streaming, sports live stream free, sports live TV, live cricket streaming, live football streaming, live basketball streaming, live baseball streaming, live soccer streaming, live NHL streaming, live NFL streaming, live tennis streaming, live MMA streaming" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
@@ -74,13 +74,13 @@ const scrollSearch = myKey => {
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch IPL MATCH 02 PBKS VS KKR (2023) | Uwatchfree™" />
 <meta property="og:url" content="https://uwatchfree.vercel.app/Sports-2023/IPL-Highlights/HighlightMatch02" />
-<meta property="og:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight02webp" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight02.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch IPL MATCH 02 PBKS VS KKR (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight02webp" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight02.webp" />
 <meta name="description" content="Watch IPL MATCH 02 PBKS VS KKR (2023) Sports Online on Uwatchfree™, You can also download IPL MATCH 02 PBKS VS KKR (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatchfree.vercel.app/TvShows/IPL-Highlights/" />
