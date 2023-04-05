@@ -29,7 +29,8 @@
     "react-slick": "^0.29.0",
     "sharethis-reactjs": "^1.6.0",
     "slick-carousel": "^1.8.1",
-    "tw-elements": "^1.0.0-alpha13"
+    "tw-elements": "^1.0.0-alpha13",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
@@ -37,6 +38,7 @@
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^10.0.0",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "webpack": "^5.77.0"
   }
 }
