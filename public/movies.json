@@ -29,21 +29,7 @@
     "movie.watch": "../../Sports-2023/Sports"
    
   },
-  {
-    "id": "IPLPBvsRR",
-    "title": "IPL PBKS VS RR",
-    "poster": "/ipl-2023-match08.webp",
-    "yearRelease": 2023,
-    "genre": ["SPORTS "],
-    "rating": 0,
-    "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-    "starring": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
-    "director": "Christopher Nolan",
-    "country": "INDIA",
-    "link": "https://www.imdb.com/title/tt0468569/",
-    "movie.watch": "../../Sports-2023/IPL-2023/IPLMatch01"
-  },
-  {
+   {
     "id": "IPLKKRvsRCB",
     "title": "IPL KKR VS RCB",
     "poster": "/ipl-2023-match09.webp",
@@ -55,7 +41,49 @@
     "director": "Peter Jackson",
     "country": "INDIA",
     "link": "https://www.imdb.com/title/tt0167260/",
-    "movie.watch": "../12DesparateHours-2023/12DesparateHours"
+    "movie.watch": "../../Sports-2023/IPL-2023/IPLMatch01"
+  },
+  {
+    "id": "IPLPBvsRR",
+    "title": "IPL SRH VS LSG",
+    "poster": "/ipl-2023-match10.webp",
+    "yearRelease": 2023,
+    "genre": ["SPORTS "],
+    "rating": 0,
+    "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "starring": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "director": "Christopher Nolan",
+    "country": "INDIA",
+    "link": "https://www.imdb.com/title/tt0468569/",
+    "movie.watch": "../../Sports-2023/IPL-2023/IPLMatch01"
+  },
+  {
+    "id": "IPLPBvsRR",
+    "title": "IPL DC VS RR",
+    "poster": "/ipl-2023-match11.webp",
+    "yearRelease": 2023,
+    "genre": ["SPORTS "],
+    "rating": 0,
+    "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "starring": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "director": "Christopher Nolan",
+    "country": "INDIA",
+    "link": "https://www.imdb.com/title/tt0468569/",
+    "movie.watch": "../../Sports-2023/IPL-2023/IPLMatch01"
+  },
+  {
+    "id": "IPLPBvsRR",
+    "title": "IPL MI VS CSK",
+    "poster": "/ipl-2023-match12.webp",
+    "yearRelease": 2023,
+    "genre": ["SPORTS "],
+    "rating": 0,
+    "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "starring": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "director": "Christopher Nolan",
+    "country": "INDIA",
+    "link": "https://www.imdb.com/title/tt0468569/",
+    "movie.watch": "../../Sports-2023/IPL-2023/IPLMatch01"
   },
   {
     "id": "LCDLF",
@@ -69,35 +97,77 @@
     "director": "Peter Jackson",
     "country": "USA",
     "link": "https://www.imdb.com/title/tt0167260/",
-    "movie.watch": "../12DesparateHours-2023/12DesparateHours"
+    "movie.watch": "../TvShows/Lacasadelosfamosos-2023/Lacasadelosfamosos"
   },
   {
     "id": "AMI",
-    "title": "AMERICAN IDOL - S21",
-    "poster": "/american-idol.webp",
+    "title": "Station 19 - S6",
+    "poster": "/station19-2023.webp",
     "yearRelease": 2023,
-    "genre": [" REALITY ", " TV SHOW,", " MUSIC"],
-    "rating": 4.2,
+    "genre": [" REALITY ", " TV SHOW,", " DRAMA"],
+    "rating": 6.9,
     "synopsis": "Twelve American finalists (six men and six women) compete in a singing contest.",
     "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
     "director": "Peter Jackson",
     "country": "USA",
     "link": "https://www.imdb.com/title/tt0167260/",
-    "movie.watch": "../12DesparateHours-2023/12DesparateHours"
+    "movie.watch": "../TvShows/Station19-2023/Station19"
   },
   {
     "id": "TVO",
-    "title": "THE VOICE - S23",
-    "poster": "/the-voice-2023.webp",
+    "title": "LAW & ORDER - S22",
+    "poster": "/law&order-2023.webp",
     "yearRelease": 2023,
-    "genre": [" REALITY ", " TV SHOW,", " MUSIC"],
-    "rating": 6.5,
+    "genre": [" CRIME, ", " TV SHOW,", " THRILLER"],
+    "rating": 7.8,
     "synopsis": "Four famous musicians search for the best voices in America and will mentor these singers to become artists. America will decide which singer will be worthy of the grand prize.",
     "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
     "director": "Peter Jackson",
     "country": "USA",
     "link": "https://www.imdb.com/title/tt0167260/",
-    "movie.watch": "../12DesparateHours-2023/12DesparateHours"
+    "movie.watch": "../TvShows/LawAndOrder-2023/LawAndOrder"
+  },
+  {
+    "id": "TVO",
+    "title": "NEXT LEVEL CHEF - S2",
+    "poster": "/next-level-chef-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" REALITY ", " TV SHOW,", " COOKING"],
+    "rating": 6.8,
+    "synopsis": "Four famous musicians search for the best voices in America and will mentor these singers to become artists. America will decide which singer will be worthy of the grand prize.",
+    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
+    "director": "Peter Jackson",
+    "country": "USA",
+    "link": "https://www.imdb.com/title/tt0167260/",
+    "movie.watch": "../TvShows/NextLevelChef-2023/NextLevelChef"
+  },
+  {
+    "id": "TVO",
+    "title": "EX ON THE BEACH COUPLES - S6",
+    "poster": "/ex-onthe-beach-couples-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" REALITY ", " TV SHOW"],
+    "rating": 6.8,
+    "synopsis": "Four famous musicians search for the best voices in America and will mentor these singers to become artists. America will decide which singer will be worthy of the grand prize.",
+    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
+    "director": "Peter Jackson",
+    "country": "USA",
+    "link": "https://www.imdb.com/title/tt0167260/",
+    "movie.watch": "../TvShows/ExBeachCouples-2023/ExBeachCouples"
+  },
+  {
+    "id": "TVO",
+    "title": "GREY'S ANATOMY - S19",
+    "poster": "/greys-anatomy-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" REALITY ", " TV SHOW" ],
+    "rating": 7.8,
+    "synopsis": "Four famous musicians search for the best voices in America and will mentor these singers to become artists. America will decide which singer will be worthy of the grand prize.",
+    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
+    "director": "Peter Jackson",
+    "country": "USA",
+    "link": "https://www.imdb.com/title/tt0167260/",
+    "movie.watch": "../TvShows/GreysAnatomy-2023/GreysAnatomy"
   },
   {
     "id": "SFG",

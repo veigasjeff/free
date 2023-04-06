@@ -98,7 +98,7 @@ function togglePopup() {
         
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch Chicago Med - S8 (2023)  </h1>
     <WorldClock />
-    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Monday 27th March 2023 - Schedule Time UK GMT+1 @ 01:00 </h2>
+    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"> Schedule Time UK GMT+1 @ 01:00 </h2>
     <div className={styles['iframe-container']}>
     <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://daddylivehd.sx/embed/stream-53.php" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0" />
     </div>     
@@ -134,6 +134,8 @@ function togglePopup() {
 <h2 ><strong>Starring:</strong> Nick Gehlfuss, Marlyne Barrett, S. Epatha Merkerson, 	Oliver Platt, Brian Tee, Yaya DaCosta, Torrey DeVitto, Lorena Diaz, Courtney Rioux, Colin Donnell, Ashland Thomas, Dominic Rains, Rachel DiPillo.</h2>
 <h2 ><strong>Description:</strong> The city's most highly skilled medical team saves lives, while navigating their unique interpersonal relationships.</h2>
 </div>
+<h3 className="mb-9 text-sm text-black-500 text-white text-center xl:px-4 ">
+    Disclaimer - Our platform merely displays links to audiovisual content located on servers of third parties and provided and/or transmitted by third parties. We DO NOT host nor transmit any audiovisual content itself and DO NOT control nor influence such content. We cannot accept any liability for the content transmitted by others. Any responsibility for this content lies with those who host or transmit it. We are not affiliated nor claim to be affiliated with any of the owners of streams and/or videos. All content is copyright of their respective owners.</h3>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
