@@ -142,7 +142,7 @@ const schemaData   = {
                  <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
   <img className="w-full h-full object-cover rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} />
 
-  <a href={movie['movie.watch']} >
+  <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center ">
    
   </a>
 </div>
