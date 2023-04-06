@@ -10,6 +10,7 @@ function Application({ Component, pageProps }) {
  
   return ( 
     <>
+     <div className="center">
     <GoogleAnalytics measurementId="G-K8QKRZ4B44" />
       <PageTransition>  
   <Hamburger />
@@ -20,6 +21,7 @@ function Application({ Component, pageProps }) {
   <Footer />
 
    </PageTransition>
+   </div>
    </>
 
   );

@@ -1,56 +1,34 @@
-import React from 'react'
-import {StickyShareButtons} from 'sharethis-reactjs';
+import React from 'react';
+import { StickyShareButtons } from 'sharethis-reactjs';
 
 const ShareThis = () => {
+  const iconFormat = (name) => {
+    const iconUrl = `https://platform-cdn.sharethis.com/img/${name.toLowerCase()}.svg`;
+    return <img src={iconUrl} alt={`${name} Logo`} width="20" height="20" />;
+  };
+
   return (
-    <div>
-    <style dangerouslySetInnerHTML={{__html: `
-
-    html, body {
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    h1 {
-      font-size: 24px;
-      font-weight: bold;
-    }
-    hr {
-      margin-bottom: 10px;
-      margin-top: 40px;
-      width: 30%;
-    }
-  `}} />
-  <StickyShareButtons
-  config={{
-    alignment: 'left',    // alignment of buttons (left, right)
-    color: 'social',      // set the color of buttons (social, white)
-    enabled: true,        // show/hide buttons (true, false)
-    font_size: 12,        // font size for the buttons
-    hide_desktop: false,  // hide buttons on desktop (true, false)
-    labels: 'counts',     // button labels (cta, counts, null)
-    language: 'en',       // which language to use (see LANGUAGES)
-    min_count: 0,         // hide react counts less than min_count (INTEGER)
-    networks: [           // which networks to include (see SHARING NETWORKS)
-      'facebook',
-      'twitter',
-      'whatsapp',
-      'linkedin',
-      'email'
-    ],
-            // padding within buttons (INTEGER)
-    radius: 4,            // the corner radius on each button (INTEGER)
-    show_total: true,     // show/hide the total share count (true, false)
-    show_mobile: true,    // show/hide the buttons on mobile (true, false)
-    show_toggle: true,    // show/hide the toggle buttons (true, false)
-    size: 48,             // the size of each button (INTEGER)
-    top: 220,             // offset in pixels from the top of the page
-
-  }}
-/>
-  
-    </div>
-  )
-}
+    <StickyShareButtons
+      config={{
+        alignment: 'left',
+        color: 'social',
+        enabled: true,
+        font_size: 12,
+        hide_desktop: false,
+        labels: 'counts',
+        language: 'en',
+        min_count: 0,
+        networks: ['facebook', 'twitter', 'whatsapp', 'linkedin', 'email'],
+        radius: 4,
+        show_total: true,
+        show_mobile: true,
+        show_toggle: true,
+        size: 48,
+        top: 220,
+        iconFormat,
+      }}
+    />
+  );
+};
 
 export default ShareThis;
