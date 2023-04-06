@@ -36,6 +36,24 @@ module.exports = withOptimizedImages({
   // Other Next.js configurations
 })
 
+const WebpackObfuscator = require('webpack-obfuscator');
+
+module.exports = {
+  // ...
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.plugins.push(
+        new WebpackObfuscator({
+          rotateStringArray: true,
+        })
+      );
+    }
+
+    return config;
+  },
+  // ...
+};
+
 
 module.exports = {
     async headers() {
