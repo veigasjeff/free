@@ -4,13 +4,16 @@ import Rating from 'pages/Rating';
 import Head from 'next/head'
 
 import React, { useEffect, useState } from 'react';
-;
 import styles from '@styles/video-player.module.css'
+import AdultSkipAds from '@components/AdultSkipAds'
 import Max from 'pages/Max';
 
 import ShareThis from '@components/ShareThis';
 
-const Agilan  = () => {
+
+
+
+const IMISR2  = () => {
   useEffect(() => {
     const handleContextmenu = e => {
         e.preventDefault()
@@ -26,11 +29,11 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://uwatchfree.vercel.app/Bollywood/Agilan-2023/Agilan"
+    "@id": "https://uwatchfree.vercel.app/Adult/Imli-2023/Imli"
     
   },
-  "headline": "Agilan (2023)Full Movie Online Free | Uwatchfree™",
-  "image": "https://uwatchfree.vercel.app/agilan-2023.webp",
+  "headline": "Imli Part 2 - 2023 Full Movie Online Free | Uwatchfree™",
+  "image": "https://uwatchfree.vercel.app/Imli-P2-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
@@ -48,7 +51,7 @@ const schemaData   = {
         "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatchfree™ Agilan (2023)Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  "description": "Uwatchfree™ Imli Part 2 - 2023 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free."
 
 };
 const scrollSearch = myKey => {
@@ -60,51 +63,53 @@ const [showPopup, setShowPopup] = useState(false);
 function togglePopup() {
   setShowPopup(!showPopup);
 }
+
   return (
     <div>
-               <script
+       <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Agilan (2023) Full Movie Online Free | Uwatchfree™</title>
+     <title>Watch Imli Part 2 (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch agilan movie,index of agilan movie,agilan movie 2023,agilan movie online,watch agilan movie online free,agilan tv series,agilan movie download,agilan movie free download,agilan movie download" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch imli part 2 movie,index of imli part 2 movie,imli part 2 movie 2023,imli part 2 movie online,watch imli part 2 movie online free,imli part 2 tv series,imli part 2 movie download,imli part 2 movie free download,imli part 2 movie download" />
+
 <meta property="og:locale" content="en_US" />   
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Agilan (2023)| Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Bollywood/Agilan-2023/Agilan" />
-<meta property="og:image" content="https://uwatchfree.vercel.app/agilan-2023.webp" />
+
+<meta property="og:title" content="Watch Imli Part 2 (2023)  | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Adult/Imli-2023/Imli" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/Imli-P2-2023.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Agilan (2023)| Uwatchfree™" />
-<meta name="twitter:image" content="https://uwatchfree.vercel.app/agilan-2023.webp" />
-<meta name="description" content="Watch Agilan Full Movie Online on Uwatchfree™, You can also download Agilan (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Agilan-2023/" />
+<meta name="twitter:title" content="Watch Imli Part 2 (2023)  | Uwatchfree™" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/Imli-P2-2023.webp" />
+<meta name="description" content="Watch Imli-2023 Full Movie Online on Uwatchfree™, You can also download Imli Part 2 (2023) in full HD quality to watch later offline." />
+<script src="../../propler/ads.js" defer></script>
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Imli-2023/" />
  
 
       </Head>
 
       <div className="bg-gray-600 ">
-
         
-    
-        
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch Agilan (2023)</h1>
+         <AdultSkipAds />
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch Imli Part 2 (2023) </h1>
 
     <div className={styles['iframe-container']}>
-      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/ar070dmo6ygn.html" />
-    </div>     
+      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://dood.yt/e/r2ah1w7be6pa" />
+    </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-    <a href="../Agilan-2023/AGLSR2" > 
-      <h2 >Click To Watch Agilan (2023)Server 2</h2></a></button>
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    <a href="../Imli-2023/Imli" > 
+      <h2 >Click To Watch Imli Part 2 (2023) Server 1</h2></a></button>
     <div className="flex flex-col space-y-4 m-8">
     <Rating /></div>
     <div className="flex flex-col space-y-4 ...">
@@ -116,17 +121,13 @@ function togglePopup() {
    <h2 className="text-white font-bold text-xl ">  5.3 Out of 10</h2>
     
 </div>
-<div>
-      <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
-    <a href="https://www.imdb.com/title/tt15415924/" target="_blank" > 
-     <h2 >IDBM Ranking</h2></a></button></div>
- <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }} >
-<h2 ><strong>Genre:</strong> Action, Drama, Thriller.</h2>
+<div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }} >
+<h2 ><strong>Genre:</strong> Action, Drama & Thriller</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
-<h2 ><strong>Director:</strong>N. Kalyanakrishnan</h2>
-<h2 ><strong>Country:</strong> India</h2>
-<h2 ><strong>Starring:</strong> Tarun Arora, Boxer Dheena, Rachit Jadoun, Chirag Jani, Shaan Kakkar, Vetri Kiran, Kumaravel, Hardy Nation, Hareesh Peradi, Madhusudhan Rao, Jayam Ravi.</h2>
-<h2 ><strong>Description:</strong>When a crane operator starts controlling illegal trades at the harbor, he winds up clashing with another gangster.</h2>
+<h2 ><strong>Director:</strong> Matt Nable</h2>
+<h2 ><strong>Country:</strong> USA</h2>
+<h2 ><strong>Starring:</strong> Sam Worthington, Phoebe Tonkin, Matt Nable, Susie Porter, Edward Carmody, Jeremy Lindsay Taylor, George Houvardas, Sam Cotton.</h2>
+<h2 ><strong>Description:</strong> A former Special Forces operative thrust into the criminal underworld to keep his only son from being taken from him.</h2>
 </div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
@@ -142,11 +143,11 @@ function togglePopup() {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer Agilan (2023)</h2>
+          <h2 className="text-2xl font-bold" >Offical Trailer Imli Part 2 (2023) </h2>
            <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/r1letzuh7mhf.html" />
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/6th84ycb3zjt.html" />
                    
-             </div></div>
+             </div> </div>
           </div>
        
       )}
@@ -188,32 +189,33 @@ function togglePopup() {
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
- <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Agilan (2023)</h3>
- <Link href="../../Bollywood/Agilan-2023/DownloadAGL1">
+ <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Imli Part 2 (2023) </h3>
+ <Link href="../../Adult/Imli-2023/DownloadIMI1">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
 </button></Link>
 
-<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Agilan (2023)</h3>
-<Link href="../../Bollywood/Agilan-2023/DownloadAGL2">
+<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Imli Part 2 (2023)</h3>
+<Link href="../../Adult/Imli-2023/DownloadIMI2">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
 </button></Link>
 
 
-<Max />
-
-<Link href="../../BollywoodAds"><button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
- 
-  Back To Bollywood Section
+<Max /> 
+<Link href="../../AdultAds">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+  Back To Adult Section
 
 </button></Link>
- < ShareThis async defer />
+< ShareThis async defer />
 </div>
     </div> </div>
+
+
   )
 }
 
-export default Agilan ;
+export default IMISR2 ;

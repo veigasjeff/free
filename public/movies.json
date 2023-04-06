@@ -170,6 +170,48 @@
     "movie.watch": "../TvShows/GreysAnatomy-2023/GreysAnatomy"
   },
   {
+    "id": "JHW",
+    "title": "JOHN WICK SERIES",
+    "name": "John Wick Series",
+    "poster": "/john-wick-c4-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" ACTION, ", " CRIME,", " THRILLER" ],
+    "rating": 8.3,
+    "synopsis": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "starring": ["Keanu Reeves", "Laurence Fishburne", "George Georgiou", "Lance Reddick" , "Clancy Brown" , "Ian McShane" , "Marko Zaror", "Bill Skarsgård", "Donnie Yen" , "Aimée Kwan" , "Hiroyuki Sanada" , "Shamier Anderson" ],
+    "director": "Chad Stahelski",
+    "country": "USA",
+    "link": "https://www.imdb.com/title/tt10366206/",
+
+    "movie.watch": "../../Bollywood/JohnWick-2023/JohnWickP1",
+
+    "movie.watchP1": "https://sbface.com/e/pjo5o3spck36.html",
+    "movie.watchP2": "https://sbface.com/e/k43nvxfeolao.html",
+    "movie.watchP3": "https://sbface.com/e/z62fby7k5my4.html",
+    "movie.watchP4": "https://sbface.com/e/yo16jtet2v8d.html",
+
+    "movie.watchSR1": "https://dood.yt/e/pgdtwpxy5lqx",
+    "movie.watchSR2": "https://dood.yt/e/w7ntak6bub7c",
+    "movie.watchSR3": "https://dood.yt/e/8vifvg5jy23p",
+    "movie.watchSR4": "https://dood.yt/e/rbrqmetcn3dp",
+   
+    "download1": "../../Bollywood/JohnWick-2023/DownloadJHW1",
+
+    "down1link1": "https://sbface.com/d/pjo5o3spck36.html",
+    "down1link2": "https://sbface.com/d/k43nvxfeolao.html",
+    "down1link3": "https://sbface.com/d/z62fby7k5my4.html",
+    "down1link4": "https://sbface.com/d/yo16jtet2v8d.html",
+
+    "download2": "../../Bollywood/JohnWick-2023/DownloadJHW2",
+    "down2link1": "https://dood.yt/d/pgdtwpxy5lqx",
+    "down2link2": "https://dood.yt/d/w7ntak6bub7c",
+    "down2link3": "https://dood.yt/d/8vifvg5jy23p",
+    "down2link4": "https://dood.yt/d/rbrqmetcn3dp",
+
+    "movie.trailer": "https://sbface.com/e/lnysw4hmyd86.html"
+
+  },
+  {
     "id": "SFG",
     "title": "SHAZAM FURY OF THE GODS",
     "poster": "/shazam-fury-of-the-gods-2023.webp",
