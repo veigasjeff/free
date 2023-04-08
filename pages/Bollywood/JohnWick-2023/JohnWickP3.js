@@ -76,7 +76,7 @@ const JhonWickP3  = () => {
   }, []);
 
   if (!movie) {
-    return <div className=" text-xl text-red-600 text-center ">Loading...</div>;
+    return <div className=" text-3xl text-red-600 text-center ">Loading...</div>;
   }
 
   return (

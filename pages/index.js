@@ -148,7 +148,7 @@ const schemaData   = {
 </div>
                   <div className="mt-4">
                   <h1 className="text-2xl font-bold leading-normal mb-2" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
-  {movie.title}
+  {movie.title} 
 </h1>
 
 

@@ -23,7 +23,7 @@ const DownloadJHW1 = () => {
   }, []);
 
   if (!movie) {
-    return <div>Loading...</div>;
+   return <div className=" text-3xl text-red-600 text-center ">Loading...</div>;
   }
   return (
     <div>

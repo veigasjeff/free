@@ -3,12 +3,28 @@
      
 import Head from "next/head"
 import Max from 'pages/Max';
-
+import { useState, useEffect } from 'react';
 import ShareThis from '@components/ShareThis';
-import Image from "next/image";
 
 
-const DownloadPLN2 = () => {
+
+const DownloadTWE2 = () => {
+  const [movie, setMovie] = useState(null);
+
+  useEffect(() => {
+    const fetchMovieDetails = async () => {
+      const res = await fetch('/movies.json');
+      const data = await res.json();
+      const selectedMovie = data.find(movie => movie.id === 'TWE');
+      setMovie(selectedMovie);
+    };
+
+    fetchMovieDetails();
+  }, []);
+
+  if (!movie) {
+   return <div className=" text-3xl text-red-600 text-center ">Loading...</div>;
+  }
   return (
     <div>
            <div className="bg-gray-600 ">
@@ -21,12 +37,78 @@ const DownloadPLN2 = () => {
 
 
   <div className="flex flex-col items-center  justify-center space-y-12">
+  <img src={movie.poster} alt={`Poster for ${movie.title}`} loading="lazy" className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD MOVIE PLANE (2023) LINK BELOW </h2>
+    CLICK TO DOWNLOAD {movie.title} (2023) </h2>
   
-    <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/plane-2023.webp' alt='PLANE - 2023' width={400} height={300}  loading="lazy"/>
-
-<a href="https://dood.yt/d/vo2340bt5397" target={"_blamk"} id="download_link" > 
+  
+    
+    <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+    {movie.name} Episode 1 (2023) </h2>
+<a href={movie.down2link1} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name} Episode 2 (2023) </h2>
+<a href={movie.down2link2} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name} Episode 3 (2023) </h2>
+<a href={movie.down2link3} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name}  Episode 4 (2023) </h2>
+<a href={movie.down2link4} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name}  Episode 5 (2023) </h2>
+<a href={movie.down2link5} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name}  Episode 6 (2023) </h2>
+<a href={movie.down2link6} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name}  Episode 7 (2023) </h2>
+<a href={movie.down2link7} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name}  Episode 8 (2023) </h2>
+<a href={movie.down2link8} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name}  Episode 9 (2023) </h2>
+<a href={movie.down2link9} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name}  Episode 10 (2023) </h2>
+<a href={movie.down2link10} target={"_blamk"} id="download_link" > 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Download Now
  
@@ -39,7 +121,7 @@ Please Share the Link.</h2>
 
 
 
-<a href="../../Hollywood/Plane-2023/PLNSR2" >
+<a href="../../Hollywood/TheWatchfulEye-2023/TWESR1" >
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Back
 
@@ -50,4 +132,4 @@ Please Share the Link.</h2>
   )
 }
 
-export default DownloadPLN2;
+export default DownloadTWE2;
