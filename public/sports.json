@@ -1,0 +1,2249 @@
+
+[
+  {
+    "gameid": "SOR1",
+    "sname": "SOCCER™",
+    "simg": "/soccer.webp",
+    "title": "Italy Serie A ",
+    "chname": " BT Sport 3 UK ",
+    "chimg": "/bt3.webp",
+    "chlink": "../../../../Channel/Ch33",
+    "date": "2023-04-08",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "startDate": "4/8/2023, 10:30:00 AM",
+    "endDate": "4/8/2023, 11:30:00 AM",
+    "description": "11:30AM : Udinese vs Monza."
+  },
+  {
+   
+    "simg": "/soccer.webp",
+    "chname": " SuperSport Football ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch56",
+    "date": "2023-04-08",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "startDate": "4/8/2023, 10:30:00 AM",
+    "endDate": "4/8/2023, 11:30:00 AM"
+  },
+  {
+   
+    "simg": "/soccer.webp",
+    "chname": "  DAZN2 DE ",
+    "chimg": "/dazn.webp",
+    "chlink": "../../../../Channel/Ch427",
+    "date": "2023-04-08",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "startDate": "4/8/2023, 10:30:00 AM",
+    "endDate": "4/8/2023, 11:30:00 AM"
+  },
+  {
+   
+    "simg": "/soccer.webp",
+    "chname": " C More Fotball",
+    "chimg": "/cmore-football.webp",
+    "chlink": "../../../../Channel/Ch4747",
+    "date": "2023-04-08",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "startDate": "4/8/2023, 10:30:00 AM",
+    "endDate": "4/8/2023, 11:30:00 AM"
+  },
+  {
+   
+    "simg": "/soccer.webp",
+    "chname": " Arena Sport 2 Premium ",
+    "chimg": "/arena-sport.webp",
+    "chlink": "../../../../Channel/Ch135",
+    "date": "2023-04-08",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "startDate": "4/8/2023, 10:30:00 AM",
+    "endDate": "4/8/2023, 11:30:00 AM"
+  },
+  {
+   
+    "simg": "/soccer.webp",
+    "chname": "  beIN Sports MAX 4 France ",
+    "chimg": "/beinMAX.webp",
+    "chlink": "../../../../Channel/Ch494",
+    "date": "2023-04-08",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "startDate": "4/8/2023, 10:30:00 AM",
+    "endDate": "4/8/2023, 11:30:00 AM"
+  },
+  {
+   
+    "simg": "/soccer.webp",
+    "chname": "  Sport TV2 Portugal  ",
+    "chimg": "/sport-tv5-portugal.webp",
+    "chlink": "../../../../Channel/Ch74",
+    "date": "2023-04-08",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "startDate": "4/8/2023, 10:30:00 AM",
+    "endDate": "4/8/2023, 11:30:00 AM"
+  },
+  {
+   
+    "simg": "/soccer.webp",
+    "chname": " Eleven Sports 1 Poland (CH-71) ",
+    "chimg": "/Eleven.webp",
+    "chlink": "../../../../Channel/Ch71",
+    "date": "2023-04-08",
+    "startTime": "10:30",
+    "endTime": "11:30",
+    "startDate": "4/8/2023, 10:30:00 AM",
+    "endDate": "4/8/2023, 11:30:00 AM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "title": "England Premier League",
+    "chname": " USA Network ",
+    "chimg": "/usa.webp",
+    "chlink": "../../../../Channel/Ch343",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM",
+    "description": "12:30 England Premier League : Manchester United vs Everton"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "BT Sport 1 UK ",
+    "chimg": "/bt1.webp",
+    "chlink": "../../../../Channel/Ch31",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "SuperSport Premier League ",
+    "chimg": "/supersport-premier.webp",
+    "chlink": "../../../../Channel/Ch414",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": " DAZN 1 ES  ",
+    "chimg": "/dazn.webp",
+    "chlink": "../../../../Channel/Ch445",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": " Arena Sport 1 Premium  ",
+    "chimg": "/arena-sport.webp",
+    "chlink": "../../../../Channel/Ch134",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": " Canal+ Foot ",
+    "chimg": "/canal+foot.webp",
+    "chlink": "../../../../Channel/Ch463",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  beIN Sports MENA English 1  ",
+    "chimg": "/bein-eng1.webp",
+    "chlink": "../../../../Channel/Ch61",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": " Astro SuperSport 3   ",
+    "chimg": "/astrosports.webp",
+    "chlink": "../../../../Channel/Ch125",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  Sky Sport Premier League DE  ",
+    "chimg": "/sky-premier.webp",
+    "chlink": "../../../../Channel/Ch08",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "   Sky Sport Football Italy  ",
+    "chimg": "/sky-football.webp",
+    "chlink": "../../../../Channel/Ch460",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  Eleven Sports 1 Portugal  ",
+    "chimg": "/eleven1.webp",
+    "chlink": "../../../../Channel/Ch455",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "   beIN Sports MENA Premium 1  ",
+    "chimg": "/bein1-premium.webp",
+    "chlink": "../../../../Channel/Ch98",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 12:30:00 PM"
+    
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "title": "Spain La Liga ",
+    "chname": "Viaplay Sports 1 UK  ",
+    "chimg": "/viaplay.webp",
+    "chlink": "../../../../Channel/Ch451",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:00:00 PM",
+    "description": "13:00 Spain La Liga : Osasuna vs Elche"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": " DAZN LaLiga  ",
+    "chimg": "/dazn.webp",
+    "chlink": "../../../../Channel/Ch538",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:00:00 PM"
+      },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": " SuperSport Laliga   ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch415",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:00:00 PM"   
+  },
+   {
+    
+    "simg": "/soccer.webp",
+    "chname": "  Eleven Sports 3 Portugal   ",
+    "chimg": "/eleven1.webp",
+    "chlink": "../../../../Channel/Ch457",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:00:00 PM"  
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  beIN Sports MAX 7 France  ",
+    "chimg": "/beinMAX.webp",
+    "chlink": "../../../../Channel/Ch497",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:00:00 PM"  
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": " Digi Sport 4 Romania   ",
+    "chimg": "/digi4.webp",
+    "chlink": "../../../../Channel/Ch403",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:00:00 PM"  
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "title": "England Premier League ",
+    "chname": " DAZN 4 ES   ",
+    "chimg": "/dazn.webp",
+    "chlink": "../../../../Channel/Ch448",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM",
+    "description": "15:00 England Premier League : Aston Villa vs Nottingham Forest."
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  ESPN2 BR  ",
+    "chimg": "/espn-brazil.webp",
+    "chlink": "../../../../Channel/Ch82",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  ESPN SUR ",
+    "chimg": "/espn.webp",
+    "chlink": "../../../../Channel/Ch149",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "title": "England Premier League ",
+    "chname": " DAZN 3 ES   ",
+    "chimg": "/dazn.webp",
+    "chlink": "../../../../Channel/Ch447",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM",
+    "description": "15:00 England Premier League : Brentford vs Newcastle United."
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  ESPN4 BR  ",
+    "chimg": "/espn-brazil.webp",
+    "chlink": "../../../../Channel/Ch85",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "   Astro SuperSport 2 ",
+    "chimg": "/astrosports.webp",
+    "chlink": "../../../../Channel/Ch124",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": " beIN Sports MENA Premium 1  ",
+    "chimg": "/bein1-premium.webp",
+    "chlink": "../../../../Channel/Ch98",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  SuperSport Action   ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch420",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "title": "England Premier League ",
+    "chname": "  SuperSport Variety 2   ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch417",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM",
+    "description": "15:00 England Premier League : Fulham vs West Ham United."
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "   Arena Sport 3 Premium  ",
+    "chimg": "/arena-sport.webp",
+    "chlink": "../../../../Channel/Ch139",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "   beIN Sports MENA English 2   ",
+    "chimg": "/bein-eng2.webp",
+    "chlink": "../../../../Channel/Ch90",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+  {
+    
+    "simg": "/soccer.webp",
+    "chname": "  Sky Sport 5 NZ   ",
+    "chimg": "/sky-sport.webp",
+    "chlink": "../../../../Channel/Ch592",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+  {
+    "gameid": "CRI",
+    "sname": "CRICKET™",
+    "simg": "/cricket.webp",
+    "title": "Indian Premier League",
+    "chname": "Sky Sports Cricket ",
+    "chimg": "/sky-cricket.webp",
+    "chlink": "../../../../Channel/Ch65",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM",
+    "description": "11:00 : Rajasthan Royals vs Delhi Capitals. "
+  },
+  {
+    
+    "simg": "/cricket.webp",
+    "chname": "   Willow Cricket ",
+    "chimg": "/willow.webp",
+    "chlink": "../../../../Channel/Ch346",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM"
+  },
+  {
+    
+    "simg": "/cricket.webp",
+    "chname": "   Astro Cricket ",
+    "chimg": "/astro-cricket.webp",
+    "chlink": "../../../../Channel/Ch370",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM"
+  },
+  {
+    
+    "simg": "/cricket.webp",
+    "chname": "  Fox Cricket  ",
+    "chimg": "/fox-cricket.webp",
+    "chlink": "../../../../Channel/Ch369",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM"
+  },
+  {
+    
+    "simg": "/cricket.webp",
+    "chname": " Sky Sport 2 NZ  ",
+    "chimg": "/sky-cricket.webp",
+    "chlink": "../../../../Channel/Ch589",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM"
+  },
+
+  {
+    "gameid": "CRI",
+    "sname": "CRICKET™",
+    "simg": "/cricket.webp",
+    "title": "County Championship One",
+    "chname": "Sky Sports Mix UK  ",
+    "chimg": "/sky-mix.webp",
+    "chlink": "../../../../Channel/Ch449",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM",
+    "description": "11:00 : Lancashire vs Surrey. "
+  },
+
+
+
+  {
+    "gameid": "CRI",
+    "sname": "CRICKET™",
+    "simg": "/cricket.webp",
+    "title": "Indian Premier League",
+    "chname": "Sky Sports Cricket ",
+    "chimg": "/sky-cricket.webp",
+    "chlink": "../../../../Channel/Ch65",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "16:59",
+    "startDate": "4/8/2023, 14:00:00 AM",
+    "endDate": "4/8/2023, 16:59:00 AM",
+    "description": "15:00 : Mumbai Indians vs Chennai Super Kings. "
+  },
+  {
+    
+    "simg": "/cricket.webp",
+    "chname": "   Willow Cricket ",
+    "chimg": "/willow.webp",
+    "chlink": "../../../../Channel/Ch346",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM"
+  },
+  {
+    
+    "simg": "/cricket.webp",
+    "chname": "   Astro Cricket ",
+    "chimg": "/astro-cricket.webp",
+    "chlink": "../../../../Channel/Ch370",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM"
+  },
+  {
+    
+    "simg": "/cricket.webp",
+    "chname": "  Fox Cricket  ",
+    "chimg": "/fox-cricket.webp",
+    "chlink": "../../../../Channel/Ch369",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM"
+  },
+  {
+    
+    "simg": "/cricket.webp",
+    "chname": " Sky Sport 2 NZ  ",
+    "chimg": "/sky-cricket.webp",
+    "chlink": "../../../../Channel/Ch589",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM"
+  },
+
+  {
+    "gameid": "TEN",
+    "sname": "TENNIS™",
+    "simg": "/tennis.webp",
+    "title": "Charleston 2023 Open Tennis WTA",
+    "chname": "Tennis Channel  ",
+    "chimg": "/tennis-logo.webp",
+    "chlink": "../../../../Channel/Ch40",
+    "date": "2023-04-08",
+    "startTime": "10:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 10:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM",
+    "description": "07:00 2023 Charleston Open Tennis WTA Early Rounds. "
+  },
+  {
+    "simg": "/tennis.webp",
+    "title": "ATP 250 Marrakech.",
+    "chname": "Sport TV5 Portugal  ",
+    "chimg": "/sport-tv5-portugal.webp",
+    "chlink": "../../../../Channel/Ch290",
+    "date": "2023-04-08",
+    "startTime": "11:00",
+    "endTime": "15:59",
+    "startDate": "4/8/2023, 11:00:00 AM",
+    "endDate": "4/8/2023, 15:59:00 PM",
+    "description": "12:00 ATP 250 Marrakech. "
+  },
+  {
+ 
+    "simg": "/tennis.webp",
+    "chname": " Sport Klub 2 Serbia  ",
+    "chimg": "/sport-klub.webp",
+    "chlink": "../../../../Channel/Ch102",
+    "date": "2023-04-08",
+    "startTime": "11:00",
+    "endTime": "15:59",
+    "startDate": "4/8/2023, 11:00:00 AM",
+    "endDate": "4/8/2023, 15:59:00 PM"   
+  },
+  {
+     "simg": "/tennis.webp",
+    "title": "ATP 250 Millenium Estoril Open - Portugal 2023.",
+    "chname": "beIN Sports MENA 5  ",
+    "chimg": "/bein-eng5.webp",
+    "chlink": "../../../../Channel/Ch95",
+    "date": "2023-04-08",
+    "startTime": "13:30",
+    "endTime": "15:59",
+    "startDate": "4/8/2023, 13:30:00 PM",
+    "endDate": "4/8/2023, 15:59:00 PM",
+    "description": "14:30 SF1 - ATP 250 - Millenium Estoril Open - Portugal 2023. "
+  },
+  {
+    "simg": "/tennis.webp",
+    "title": "Charleston 2023 Open Tennis WTA.",
+    "chname": "Tennis Channel   ",
+    "chimg": "/tennis-logo.webp",
+    "chlink": "../../../../Channel/Ch40",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "16:59",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 16:59:00 PM",
+    "description": "15:00 2023 Charleston Open Tennis WTA Early Rounds. "
+  },
+  {
+ 
+    "simg": "/tennis.webp",
+    "chname": " DAZN 2 ES  ",
+    "chimg": "/dazn.webp",
+    "chlink": "../../../../Channel/Ch446",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "19:59",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 19:59:00 PM"  
+  },
+  {
+ 
+    "simg": "/tennis.webp",
+    "chname": "  SuperSport Tennis  ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch423",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "19:59",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 19:59:00 PM"  
+  },
+  {
+ 
+    "simg": "/tennis.webp",
+    "chname": " Canal+ Sport 2 Poland  ",
+    "chimg": "/Canal+2.webp",
+    "chlink": "../../../../Channel/Ch73",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "19:59",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 19:59:00 PM"  
+  },
+  {
+   
+    "simg": "/tennis.webp",
+    "title": "Copa Colsanitas SF1",
+    "chname": "SuperSport Variety 1  ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch416",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:59",
+    "startDate": "4/8/2023, 16:00:00 PM",
+    "endDate": "4/8/2023, 18:59:00 PM",
+    "description": "17:00 WTA250 '23: Copa Colsanitas SF1. "
+  },
+  {
+    "gameid": "BAD",
+    "sname": "BADMINTON™",
+    "simg": "/badminton.webp",
+    "title": "BWF World Tour",
+    "chname": "BT Sport 6 UK  ",
+    "chimg": "/BT1.webp",
+    "chlink": "../../../../Channel/Ch25",
+    "date": "2023-04-08",
+    "startTime": "09:00",
+    "endTime": "11:59",
+    "startDate": "4/8/2023, 9:00:00 AM",
+    "endDate": "4/8/2023, 11:59:00 AM",
+    "description": "10:00 BWF World Tour : Orleans Masters - Semi Finals. "
+  },
+
+
+  {
+    "gameid": "MOT",
+    "sname": "MOTORSPORTS™",
+    "simg": "/motorsports.webp",
+    "title": "E2 Coverage | Silverstone ",
+    "chname": "Eurosport 2 UK  ",
+    "chimg": "/eurosport1.webp",
+    "chlink": "../../../../Channel/Ch42",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:59",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:59:00 PM",
+    "description": "13:00 BSB | E2 Coverage | Round 1, Silverstone - Day 1. "
+  },
+  {
+   
+    "simg": "/motorsports.webp",
+    "title": "E2 Coverage | Silverstone ",
+    "chname": " Eurosport 2 Poland ",
+    "chimg": "/eurosports2.webp",
+    "chlink": "../../../../Channel/Ch58",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:59",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:59:00 PM"
+   
+  },
+  {
+   
+    "simg": "/motorsports.webp",
+    "title": "E2 Coverage | Silverstone ",
+    "chname": " Eurosport 2 ES ",
+    "chimg": "/eurosport1-es.webp",
+    "chlink": "../../../../Channel/Ch525",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "13:59",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 13:59:00 PM"
+   
+  },
+  {
+    
+    "simg": "/motorsports.webp",
+    "title": "SPEEDWAY ",
+    "chname": "CANAL+ SPORT 5 Poland ",
+    "chimg": "/canal+.webp",
+    "chlink": "../../../../Channel/Ch75",
+    "date": "2023-04-08",
+    "startTime": "13:00",
+    "endTime": "17:59",
+    "startDate": "4/8/2023, 13:00:00 PM",
+    "endDate": "4/8/2023, 17:59:00 PM",
+    "description": "14:00 - 16:30 | 2. liga Poland | Unia Tarnow - Stal Rzeszow & Polonia Bydgoszcz - Orzel Lodz. "
+  },
+  {
+    
+    "simg": "/motorsports.webp",
+    "title": "SPEEDWAY ",
+    "chname": "Eleven Sports 2 Poland ",
+    "chimg": "/eleven1.webp",
+    "chlink": "../../../../Channel/Ch72",
+    "date": "2023-04-08",
+    "startTime": "17:00",
+    "endTime": "20:59",
+    "startDate": "4/8/2023, 17:00:00 PM",
+    "endDate": "4/8/2023, 20:59:00 PM",
+    "description": "18:00 - 20:30 | Ekstraliga Poland | Apator Torun - Stal Gorzow & GKM Grudziadz - Wlokniarz Czestochowa. "
+  },
+  {
+    
+    "simg": "/motorsports.webp",
+    "title": "NASCAR Craftsman Truck Series ",
+    "chname": "FOX Sports 2 USA ",
+    "chimg": "/fox-sports.webp",
+    "chlink": "../../../../Channel/Ch758",
+    "date": "2023-04-08",
+    "startTime": "20:30",
+    "endTime": "02:59",
+    "startDate": "4/8/2023, 20:00:00 PM",
+    "endDate": "4/9/2023, 02:59:00 AM",
+    "description": "21:30 - 01:00 | Weather Guard Truck Race on Dirt, Qualifying. "
+  },
+  {
+    
+    "simg": "/motorsports.webp",
+    "title": "NASCAR Craftsman Truck Series ",
+    "chname": "FOX Sports 2 USA ",
+    "chimg": "/fox-sports.webp",
+    "chlink": "../../../../Channel/Ch758",
+    "date": "2023-04-08",
+    "startTime": "22:00",
+    "endTime": "00:59",
+    "startDate": "4/8/2023, 20:00:00 PM",
+    "endDate": "4/9/2023, 00:59:00 AM",
+    "description": "23:00 NASCAR Cup Series | Food City Dirt Race, Qualifying. "
+  },
+ 
+  {
+    "gameid": "BOX",
+    "sname": "BOXING™",
+    "simg": "/boxing.webp",
+    "title": "Top Rank Boxing ",
+    "chname": " ESPN+ USA ",
+    "chimg": "/espn.webp",
+    "chlink": "../../../../Channel/Ch55",
+    "date": "2023-04-08",
+    "startTime": "19:00",
+    "endTime": "20:59",
+    "startDate": "4/8/2023, 19:00:00 PM",
+    "endDate": "4/8/2023, 20:59:00 PM",
+    "description": "20:00 : Ken Shiro vs Anthony Olascuaga. "
+  },
+  {
+   
+    "simg": "/boxing.webp",
+    "title": "Top Rank Boxing ",
+    "chname": " DAZN 2 ES  ",
+    "chimg": "/dazn.webp",
+    "chlink": "../../../../Channel/Ch446",
+    "date": "2023-04-08",
+    "startTime": "19:00",
+    "endTime": "20:59",
+    "startDate": "4/8/2023, 19:00:00 PM",
+    "endDate": "4/8/2023, 20:59:00 PM"
+  
+  },
+  {
+   
+    "simg": "/boxing.webp",
+    "title": "Top Rank Boxing WBC Lightweight Title Eliminator ",
+    "chname": " ESPN+ USA ",
+    "chimg": "/espn.webp",
+    "chlink": "../../../../Channel/Ch59",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 2:00:00 AM",
+    "description": "00:00 : Shakur Stevenson vs Shuichiro Yoshino. "
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  ESPN USA ",
+    "chimg": "/Espn-p.webp",
+    "chlink": "../../../../Channel/Ch44",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 2:00:00 AM"
+ 
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  TSN2  ",
+    "chimg": "/tsn.webp",
+    "chlink": "../../../../Channel/Ch112",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 2:00:00 AM"
+ 
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  Sky Sports Action UK  ",
+    "chimg": "/sky-action.webp",
+    "chlink": "../../../../Channel/Ch37",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 2:00:00 AM"
+ 
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  TVP Sport Poland  ",
+    "chimg": "/tvp-sport.webp",
+    "chlink": "../../../../Channel/Ch128",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 2:00:00 AM"
+ 
+  },
+  {
+   
+    "simg": "/boxing.webp",
+    "title": "Top Rank Boxing 10 Rounds Heavyweight ",
+    "chname": " ESPN+ USA ",
+    "chimg": "/espn.webp",
+    "chlink": "../../../../Channel/Ch59",
+    "date": "2023-04-09",
+    "startTime": "01:00",
+    "endTime": "03:00",
+    "startDate": "4/9/2023, 01:00:00 AM",
+    "endDate": "4/9/2023, 3:00:00 AM",
+    "description": "02:00 : Jared Anderson vs George Arias. "
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  ESPN USA ",
+    "chimg": "/Espn-p.webp",
+    "chlink": "../../../../Channel/Ch44",
+    "date": "2023-04-09",
+    "startTime": "01:00",
+    "endTime": "03:00",
+    "startDate": "4/9/2023, 01:00:00 AM",
+    "endDate": "4/9/2023, 3:00:00 AM"
+ 
+  },
+ 
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  Sky Sports Action UK  ",
+    "chimg": "/sky-action.webp",
+    "chlink": "../../../../Channel/Ch37",
+    "date": "2023-04-09",
+    "startTime": "01:00",
+    "endTime": "03:00",
+    "startDate": "4/9/2023, 01:00:00 AM",
+    "endDate": "4/9/2023, 3:00:00 AM"
+ 
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  ESPN Deportes",
+    "chimg": "/espn-deportes.webp",
+    "chlink": "../../../../Channel/Ch375",
+    "date": "2023-04-09",
+    "startTime": "01:00",
+    "endTime": "03:00",
+    "startDate": "4/9/2023, 01:00:00 AM",
+    "endDate": "4/9/2023, 3:00:00 AM"
+ 
+  },
+
+  {
+   
+    "simg": "/boxing.webp",
+    "title": "Top Rank Boxing 10 Rounds Heavyweight ",
+    "chname": " Showtime USA  ",
+    "chimg": "/showtime.webp",
+    "chlink": "../../../../Channel/Ch333",
+    "date": "2023-04-09",
+    "startTime": "02:00",
+    "endTime": "04:00",
+    "startDate": "4/9/2023, 02:00:00 AM",
+    "endDate": "4/9/2023, 4:00:00 AM",
+    "description": "03:00 PBC : Sebastian Fundora vs Brian Mendoza. "
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  RMC Sport 1 France ",
+    "chimg": "/rmc-sports.webp",
+    "chlink": "../../../../Channel/Ch119",
+    "date": "2023-04-09",
+    "startTime": "02:00",
+    "endTime": "04:00",
+    "startDate": "4/9/2023, 02:00:00 AM",
+    "endDate": "4/9/2023, 4:00:00 AM"
+ 
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  Polsat Sport Extra Poland ",
+    "chimg": "/polsat.webp",
+    "chlink": "../../../../Channel/Ch50",
+    "date": "2023-04-09",
+    "startTime": "02:00",
+    "endTime": "04:00",
+    "startDate": "4/9/2023, 02:00:00 AM",
+    "endDate": "4/9/2023, 4:00:00 AM"
+ 
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  ESPN4 BR   ",
+    "chimg": "/espn-brazil.webp",
+    "chlink": "../../../../Channel/Ch85",
+    "date": "2023-04-09",
+    "startTime": "02:00",
+    "endTime": "04:00",
+    "startDate": "4/9/2023, 02:00:00 AM",
+    "endDate": "4/9/2023, 4:00:00 AM"
+ 
+  },
+  {
+   
+    "simg": "/boxing.webp",
+     "chname": "  ESPN2 SUR   ",
+    "chimg": "/espn-p.webp",
+    "chlink": "../../../../Channel/Ch150",
+    "date": "2023-04-09",
+    "startTime": "02:00",
+    "endTime": "04:00",
+    "startDate": "4/9/2023, 02:00:00 AM",
+    "endDate": "4/9/2023, 4:00:00 AM"
+ 
+  },
+
+  {
+    "gameid": "GOL",
+    "sname": "GOLF™",
+    "simg": "/golf.webp",
+    "title": "Masters Breakfast ",
+    "chname": " Sky Sports Golf HD  ",
+    "chimg": "/sky-golf.webp",
+    "chlink": "../../../../Channel/Ch70",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM",
+    "description": "08:00 Second round. "
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "  ESPN USA   ",
+    "chimg": "/espn.webp",
+    "chlink": "../../../../Channel/Ch44",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "   TSN3   ",
+    "chimg": "/tsn.webp",
+    "chlink": "../../../../Channel/Ch113",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "   TSN4   ",
+    "chimg": "/tsn.webp",
+    "chlink": "../../../../Channel/Ch114",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "  Sport TV3 Portugal    ",
+    "chimg": "/sport-tv5-portugal.webp",
+    "chlink": "../../../../Channel/Ch454",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "  SuperSport Golf   ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch422",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "  Canal+ Sport France   ",
+    "chimg": "/canal+.webp",
+    "chlink": "../../../../Channel/Ch122",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "   Sky Sports Main Event     ",
+    "chimg": "/sky-mainevent.webp",
+    "chlink": "../../../../Channel/Ch138",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+    "title": "The Masters '23 D3 ",
+    "chname": " Sky Sports Golf HD  ",
+    "chimg": "/sky-golf.webp",
+    "chlink": "../../../../Channel/Ch70",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 16:00:00 PM",
+    "description": "15:00 - 2nd Feed. "
+  },
+  {
+   
+    "simg": "/golf.webp",
+    "chname": "   TSN1   ",
+    "chimg": "/tsn.webp",
+    "chlink": "../../../../Channel/Ch111",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "   TSN3   ",
+    "chimg": "/tsn.webp",
+    "chlink": "../../../../Channel/Ch113",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "   TSN4   ",
+    "chimg": "/tsn.webp",
+    "chlink": "../../../../Channel/Ch114",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+ 
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "  SuperSport Golf   ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch422",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "  Canal+ Sport France   ",
+    "chimg": "/canal+.webp",
+    "chlink": "../../../../Channel/Ch122",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+    "title": "Featured Hole-The Masters ",
+    "chname": " Sky Sports Golf HD  ",
+    "chimg": "/sky-golf.webp",
+    "chlink": "../../../../Channel/Ch70",
+    "date": "2023-04-08",
+    "startTime": "17:30",
+    "endTime": "19:00",
+    "startDate": "4/8/2023, 17:30:00 PM",
+    "endDate": "4/8/2023, 19:00:00 PM",
+    "description": "18:30 : Holes 15 & 16. "
+  },
+  {
+   
+    "simg": "/golf.webp",
+    "chname": "   TSN1   ",
+    "chimg": "/tsn.webp",
+    "chlink": "../../../../Channel/Ch111",
+    "date": "2023-04-08",
+    "startTime": "17:30",
+    "endTime": "19:00",
+    "startDate": "4/8/2023, 17:30:00 PM",
+    "endDate": "4/8/2023, 19:00:00 PM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "   TSN5   ",
+    "chimg": "/tsn.webp",
+    "chlink": "../../../../Channel/Ch115",
+    "date": "2023-04-08",
+    "startTime": "17:30",
+    "endTime": "19:00",
+    "startDate": "4/8/2023, 17:30:00 PM",
+    "endDate": "4/8/2023, 19:00:00 PM"
+  
+  },
+ 
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "  SuperSport Golf   ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch422",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+  {
+   
+    "simg": "/golf.webp",
+     "chname": "  Canal+ Sport France   ",
+    "chimg": "/canal+.webp",
+    "chlink": "../../../../Channel/Ch122",
+    "date": "2023-04-08",
+    "startTime": "07:00",
+    "endTime": "09:00",
+    "startDate": "4/8/2023, 07:00:00 AM",
+    "endDate": "4/8/2023, 09:00:00 AM"
+  
+  },
+
+  {
+    "gameid": "CYC",
+    "sname": "CYCLING™",
+    "simg": "/cycling.webp",
+    "title": "Paris-Roubaix Women ",
+    "chname": "  Eurosport 1 UK   ",
+    "chimg": "/eurosport1.webp",
+    "chlink": "../../../../Channel/Ch41",
+    "date": "2023-04-08",
+    "startTime": "11:40",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 11:40:00 AM",
+    "endDate": "4/8/2023, 13:00:00 PM",
+    "description": "12:40 Paris-Roubaix Women. "
+  },
+  {
+    
+    "simg": "/cycling.webp",
+    "title": "Paris-Roubaix Women ",
+    "chname": "  Eurosport 1 Poland   ",
+    "chimg": "/eurosports2.webp",
+    "chlink": "../../../../Channel/Ch57",
+    "date": "2023-04-08",
+    "startTime": "11:40",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 11:40:00 AM",
+    "endDate": "4/8/2023, 13:00:00 PM"
+  
+  },
+  {
+    
+    "simg": "/cycling.webp",
+    "title": "Paris-Roubaix Women ",
+    "chname": "  Eurosport 1 ES  ",
+    "chimg": "/eurosport1-es.webp",
+    "chlink": "../../../../Channel/Ch524",
+    "date": "2023-04-08",
+    "startTime": "11:40",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 11:40:00 AM",
+    "endDate": "4/8/2023, 13:00:00 PM"
+  
+  },
+  {
+   
+    "simg": "/cycling.webp",
+    "title": "Tour of the Basque Country  ",
+    "chname": "  Eurosport 1 UK   ",
+    "chimg": "/eurosport1.webp",
+    "chlink": "../../../../Channel/Ch41",
+    "date": "2023-04-08",
+    "startTime": "13:15",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 13:15:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM",
+    "description": "14:15 | 6th stage | Eibar – Eibar (137,8 km). "
+  },
+  {
+    
+    "simg": "/cycling.webp",
+    "chname": "  Eurosport 1 Poland   ",
+    "chimg": "/eurosports2.webp",
+    "chlink": "../../../../Channel/Ch57",
+    "date": "2023-04-08",
+    "startTime": "13:15",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 13:15:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  
+  },
+  {
+    
+    "simg": "/cycling.webp",
+    "chname": "  Eurosport 1 ES  ",
+    "chimg": "/eurosport1-es.webp",
+    "chlink": "../../../../Channel/Ch524",
+    "date": "2023-04-08",
+    "startTime": "13:15",
+    "endTime": "15:00",
+    "startDate": "4/8/2023, 13:15:00 PM",
+    "endDate": "4/8/2023, 15:00:00 PM"
+  },
+
+  {
+    "gameid": "DAT",
+    "sname": "DARTS™",
+    "simg": "/darts.webp",
+    "title": "German Darts ",
+    "chname": "  Viaplay Xtra UK  ",
+    "chimg": "/viaplay-xtra.webp",
+    "chlink": "../../../../Channel/Ch597",
+    "date": "2023-04-08",
+    "startTime": "11:40",
+    "endTime": "20:00",
+    "startDate": "4/8/2023, 11:40:00 AM",
+    "endDate": "4/8/2023, 20:00:00 PM",
+    "description": "12:00 - 18:00 | Grand Prix 1st round. "
+  },
+  {
+    
+    "simg": "/darts.webp",
+    "chname": "  SPORT1 Germany ",
+    "chimg": "/sports1.webp",
+    "chlink": "../../../../Channel/Ch641",
+    "date": "2023-04-08",
+    "startTime": "11:40",
+    "endTime": "20:00",
+    "startDate": "4/8/2023, 11:40:00 AM",
+    "endDate": "4/8/2023, 20:00:00 PM"
+  },
+
+
+  {
+    "gameid": "FUT",
+    "sname": "FUTSAL™",
+    "simg": "/futsal.webp",
+    "title": "Ekstraklasa ",
+    "chname": " TVP Sport Poland  ",
+    "chimg": "/tvp-sport.webp",
+    "chlink": "../../../../Channel/Ch128",
+    "date": "2023-04-08",
+    "startTime": "15:00",
+    "endTime": "17:00",
+    "startDate": "4/8/2023, 15:00:00 PM",
+    "endDate": "4/8/2023, 17:00:00 PM",
+    "description": "16:00 : Legia Warszawa vs Chorzow. "
+  },
+  {
+   
+    "simg": "/futsal.webp",
+    "title": "Liga SportZone ",
+    "chname": " Sport TV5 Portugal ",
+    "chimg": "/sport-tv5-portugal.webp",
+    "chlink": "../../../../Channel/Ch290",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "startDate": "4/8/2023, 16:00:00 PM",
+    "endDate": "4/8/2023, 18:00:00 PM",
+    "description": "17:00 : Braga vs Leoes. "
+  },
+  {
+   
+    "simg": "/futsal.webp",
+    "title": "Liga SportZone ",
+    "chname": " Canal 11 Portugal",
+    "chimg": "/canal.webp",
+    "chlink": "../../../../Channel/Ch540",
+    "date": "2023-04-08",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "startDate": "4/8/2023, 18:00:00 PM",
+    "endDate": "4/8/2023, 20:00:00 PM",
+    "description": "19:00 : Electrico vs Ferreira do Zezere.  "
+  },
+  {
+   
+    "simg": "/futsal.webp",
+    "title": "Brazilska league  ",
+    "chname": " Sport Klub 1 Serbia ",
+    "chimg": "/sport-klub.webp",
+    "chlink": "../../../../Channel/Ch101",
+    "date": "2023-04-08",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "startDate": "4/8/2023, 18:00:00 PM",
+    "endDate": "4/8/2023, 20:00:00 PM",
+    "description": "22:55 : Campo Mourao vs Jaragua.  "
+  },
+
+
+
+ {
+    "gameid": "HOR",
+    "sname": "HORSE RACING™",
+    "simg": "/horse-racing.webp",
+    "title": "Live Racing ",
+    "chname": " Sky Sports Racing UK ",
+    "chimg": "/sky-racing.webp",
+    "chlink": "../../../../Channel/Ch554",
+    "date": "2023-04-08",
+    "startTime": "12:00",
+    "endTime": "14:00",
+    "startDate": "4/8/2023, 12:00:00 PM",
+    "endDate": "4/8/2023, 14:00:00 PM",
+    "description": "13:00 Live racing from around the UK. "
+  },
+  {
+   
+    "simg": "/horse-racing.webp",
+    "title": "America's Day ",
+    "chname": "  FOX Sports 1 USA ",
+    "chimg": "/fox-sports.webp",
+    "chlink": "../../../../Channel/Ch39",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "startDate": "4/8/2023, 16:00:00 PM",
+    "endDate": "4/8/2023, 18:00:00 PM",
+    "description": "17:00 America's Day At the Races. "
+  },
+  {
+   
+    "simg": "/horse-racing.webp",
+    "title": "America's Day ",
+    "chname": "  FOX Sports 2 USA ",
+    "chimg": "/fox-sports.webp",
+    "chlink": "../../../../Channel/Ch758",
+    "date": "2023-04-08",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "startDate": "4/8/2023, 18:00:00 PM",
+    "endDate": "4/8/2023, 20:00:00 PM",
+    "description": "19:00 America's Day At the Races. "
+  },
+  {
+   
+    "simg": "/horse-racing.webp",
+    "title": "Santa Anita Derby '23 ",
+    "chname": "  SuperSport Variety 1 ",
+    "chimg": "/suppersports.webp",
+    "chlink": "../../../../Channel/Ch416",
+    "date": "2023-04-08",
+    "startTime": "20:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:30 At the Races. "
+  },
+
+  {
+    "gameid": "IHY",
+    "sname": "ICE HOCKEY™",
+    "simg": "/ice-hockey.webp",
+    "title": "NHL",
+    "chname": " Sky Sport Mix DE  ",
+    "chimg": "/sky-mix.webp",
+    "chlink": "../../../../Channel/Ch557",
+    "date": "2023-04-08",
+    "startTime": "16:30",
+    "endTime": "18:30",
+    "startDate": "4/8/2023, 16:30:00 PM",
+    "endDate": "4/8/2023, 18:30:00 PM",
+    "description": "17:30 : Buffalo Sabres vs Carolina Hurricanes. "
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "chname": " Viaplay Xtra UK   ",
+    "chimg": "/viaplay-xtra.webp",
+    "chlink": "../../../../Channel/Ch597",
+    "date": "2023-04-08",
+    "startTime": "16:30",
+    "endTime": "18:30",
+    "startDate": "4/8/2023, 16:30:00 PM",
+    "endDate": "4/8/2023, 18:30:00 PM"
+   
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": " ABC USA (CH-51) ",
+    "chimg": "/abc.webp",
+    "chlink": "../../../../Channel/Ch51",
+    "date": "2023-04-08",
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "startDate": "4/8/2023, 17:00:00 PM",
+    "endDate": "4/8/2023, 19:00:00 PM",
+    "description": "18:00 : Detroit Red Wings vs Pittsburgh Penguins. "
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": " ABC USA (CH-51) ",
+    "chimg": "/abc.webp",
+    "chlink": "../../../../Channel/Ch51",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "21:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 21:00:00 PM",
+    "description": "20:30 : Dallas Stars vs Vegas Golden Knights. "
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": " Sky Sport Mix DE  ",
+    "chimg": "/sky-mix.webp",
+    "chlink": "../../../../Channel/Ch557",
+    "date": "2023-04-08",
+    "startTime": "20:00",
+    "endTime": "21:00",
+    "startDate": "4/8/2023, 20:00:00 PM",
+    "endDate": "4/8/2023, 21:00:00 PM",
+    "description": "21:00 : San Jose Sharks vs Edmonton Oilers. "
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": " Bally Sports West ",
+    "chimg": "/bally-sports.webp",
+    "chlink": "../../../../Channel/Ch03",
+    "date": "2023-04-08",
+    "startTime": "21:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 21:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "22:30 : Arizona Coyotes vs Anaheim Ducks. "
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": " ESPN+ USA  ",
+    "chimg": "/espn.webp",
+    "chlink": "../../../../Channel/Ch02",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 02:00:00 AM",
+    "description": "00:00 : Winnipeg Jets vs Nashville Predators."
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": " Viaplay Sports 1 UK   ",
+    "chimg": "/viaplay.webp",
+    "chlink": "../../../../Channel/Ch451",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 02:00:00 AM",
+    "description": "00:00 : Washington Capitals vs Florida Panthers."
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": "  ESPN+ USA    ",
+    "chimg": "/espn.webp",
+    "chlink": "../../../../Channel/Ch04",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 02:00:00 AM",
+    "description": "00:00 : Toronto Maple Leafs vs Montreal Canadiens."
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": "   Bally Sports Sun     ",
+    "chimg": "/bally-sports.webp",
+    "chlink": "../../../../Channel/Ch06",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 02:00:00 AM",
+    "description": "00:00 : Ottawa Senators vs Tampa Bay Lightning."
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": "  NBCS Philadelphia    ",
+    "chimg": "/nbc-philadelphia.webp",
+    "chlink": "../../../../Channel/Ch07",
+    "date": "2023-04-09",
+    "startTime": "00:30",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:30:00 AM",
+    "endDate": "4/9/2023, 02:00:00 AM",
+    "description": "00:30 : New York Islanders vs Philadelphia Flyers."
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": "  Bally Sports Midwest   ",
+    "chimg": "/bally-sports.webp",
+    "chlink": "../../../../Channel/Ch09",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 02:00:00 AM",
+    "description": "01:00 : Minnesota Wild vs St. Louis Blues."
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": "   Sky Sport Top Event DE  ",
+    "chimg": "/sky-mainevent.webp",
+    "chlink": "../../../../Channel/Ch556",
+    "date": "2023-04-09",
+    "startTime": "00:00",
+    "endTime": "02:00",
+    "startDate": "4/9/2023, 00:00:00 AM",
+    "endDate": "4/9/2023, 02:00:00 AM",
+    "description": "01:00 : Boston Bruins vs New Jersey Devils."
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": "  ESPN+ USA  ",
+    "chimg": "/espn.webp",
+    "chlink": "../../../../Channel/Ch10",
+    "date": "2023-04-09",
+    "startTime": "02:00",
+    "endTime": "04:00",
+    "startDate": "4/9/2023, 02:00:00 AM",
+    "endDate": "4/9/2023, 04:00:00 AM",
+    "description": "03:00 : Vancouver Canucks vs Calgary Flames."
+  },
+  {
+   
+    "simg": "/ice-hockey.webp",
+    "title": "NHL ",
+    "chname": "  Viaplay Sports 1 UK  ",
+    "chimg": "/viaplay.webp",
+    "chlink": "../../../../Channel/Ch451",
+    "date": "2023-04-09",
+    "startTime": "02:30",
+    "endTime": "04:30",
+    "startDate": "4/9/2023, 02:30:00 AM",
+    "endDate": "4/9/2023, 04:30:00 AM",
+    "description": "03:30 : Los Angeles Kings vs Colorado Avalanche."
+  },
+
+  {
+    "gameid": "HND",
+    "sname": "HANDBALL™",
+    "simg": "/handball.webp",
+    "title": "Hungary Magyar Kupa ",
+    "chname": "  Sport Klub 3 Serbia ",
+    "chimg": "/sport-klub.webp",
+    "chlink": "../../../../Channel/Ch103",
+    "date": "2023-04-08",
+    "startTime": "11:30",
+    "endTime": "13:00",
+    "startDate": "4/8/2023, 11:30:00 AM",
+    "endDate": "4/8/2023, 13:00:00 PM",
+    "description": "12:30 : Telekom Veszprem vs. Tatabanya Carbonex KC . "
+  },
+  {
+   
+    "simg": "/handball.webp",
+    "title": "World Championship Women ",
+    "chname": "  CT Sport Czech HD  ",
+    "chimg": "/ct-sport-czech.webp",
+    "chlink": "../../../../Channel/Ch161",
+    "date": "2023-04-08",
+    "startTime": "13:00",
+    "endTime": "15:00",
+    "startDate": "4/9/2023, 13:00:00 PM",
+    "endDate": "4/9/2023, 15:00:00 PM",
+    "description": "14:00 : Switzerland (W) vs. Czech Republic (W)."
+  },
+  {
+   
+    "simg": "/handball.webp",
+    "title": "World Championship Women ",
+    "chname": " Teledeporte Spain  ",
+    "chimg": "/teledeporte.webp",
+    "chlink": "../../../../Channel/Ch529",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "startDate": "4/9/2023, 16:00:00 PM",
+    "endDate": "4/9/2023, 18:00:00 PM",
+    "description": "17:00 : Austria (W) vs. Spain (W)."
+  },
+  {
+   
+    "simg": "/handball.webp",
+    "title": "France LNH Starligue  ",
+    "chname": " beIN Sports 3 France  ",
+    "chimg": "/bein3-french.webp",
+    "chlink": "../../../../Channel/Ch118",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "startDate": "4/9/2023, 16:00:00 PM",
+    "endDate": "4/9/2023, 18:00:00 PM",
+    "description": "19:00 : HBC Nantes vs. Montpellier Handball."
+  },
+  {
+   
+    "simg": "/handball.webp",
+    "chname": " beIN Sports 7 Qatar HD  ",
+    "chimg": "/bein-arabia.webp",
+    "chlink": "../../../../Channel/Ch97",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "startDate": "4/9/2023, 16:00:00 PM",
+    "endDate": "4/9/2023, 18:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/handball.webp",
+    "title": "Spain Asobal  ",
+    "chname": " Teledeporte Spain  ",
+    "chimg": "/teledeporte.webp",
+    "chlink": "../../../../Channel/Ch529",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "startDate": "4/9/2023, 16:00:00 PM",
+    "endDate": "4/9/2023, 18:00:00 PM",
+    "description": "19:00 : BM Ciudad Encantada vs. BM Granollers."
+  },
+
+  {
+    "gameid": "VOB",
+    "sname": "VOLLEYBALL™",
+    "simg": "/volleyball.webp",
+    "title": "Division 1 Women ",
+    "chname": " TRT Spor 2 Turkey  ",
+    "chimg": "/trt-spor2.webp",
+    "chlink": "../../../../Channel/Ch29",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 16:00:00 PM",
+    "description": "15:00 : Vakifbank W vs Galatasaray W. "
+  },
+  {
+   
+    "simg": "/volleyball.webp",
+    "title": "Bundesliga Women  ",
+    "chname": " SPORT1 Germany   ",
+    "chimg": "/sports1.webp",
+    "chlink": "../../../../Channel/Ch641",
+    "date": "2023-04-08",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "startDate": "4/8/2023, 14:00:00 PM",
+    "endDate": "4/8/2023, 16:00:00 PM",
+    "description": "16:00 : VC Wiesbaden W vs Dresdner SC W. "
+  },
+  {
+   
+    "simg": "/volleyball.webp",
+    "title": "PlusLiga  ",
+    "chname": " Polsat Sport Poland   ",
+    "chimg": "/polsat.webp",
+    "chlink": "../../../../Channel/Ch647",
+    "date": "2023-04-08",
+    "startTime": "15:00",
+    "endTime": "16:00",
+    "startDate": "4/8/2023, 15:00:00 PM",
+    "endDate": "4/8/2023, 16:00:00 PM",
+    "description": "16:00 : Rzeszow vs PWSZ Nysa. "
+  },
+  {
+   
+    "simg": "/volleyball.webp",
+    "title": "Italy Serie A1 Playoffs  ",
+    "chname": " Rai Sport+ HD  ",
+    "chimg": "/rai-sports.webp",
+    "chlink": "../../../../Channel/Ch168",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "startDate": "4/8/2023, 16:00:00 PM",
+    "endDate": "4/8/2023, 18:00:00 PM",
+    "description": "17:00 : Volley Civitanova vs. Volley Verona. "
+  },
+  {
+   
+    "simg": "/volleyball.webp",
+    "title": "France Ligue A   ",
+    "chname": " beIN Sports Max 6 France ",
+    "chimg": "/beinMAX.webp",
+    "chlink": "../../../../Channel/Ch496",
+    "date": "2023-04-08",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "startDate": "4/8/2023, 16:00:00 PM",
+    "endDate": "4/8/2023, 18:00:00 PM",
+    "description": "19:00 : Nantes Reze Metropole Volley vs. Arago de Sete. "
+  },
+
+  {
+    "gameid": "BAS",
+    "sname": "BASKETBALL™",
+    "simg": "/basketball.webp",
+    "title": "NBA ",
+    "chname": "  Sky Sports Arena UK ",
+    "chimg": "/sky-arena.webp",
+    "chlink": "../../../../Channel/Ch36",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "20:30 : Utah Jazz vs Denver Nuggets. "
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "  Sky Sports Mix UK",
+    "chimg": "/sky-mix.webp",
+    "chlink": "../../../../Channel/Ch449",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "  Sport TV4 Portugal  ",
+    "chimg": "/sport-tv5-portugal.webp",
+    "chlink": "../../../../Channel/Ch25",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "  CANAL+ Family Poland  ",
+    "chimg": "/canal+family.webp",
+    "chlink": "../../../../Channel/Ch567",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "   ESPN 2 NL ",
+    "chimg": "/espn2nl.webp",
+    "chlink": "../../../../Channel/Ch386",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "   beIN Sports MENA Premium 3   ",
+    "chimg": "/bein3-premium.webp",
+    "chlink": "../../../../Channel/Ch100",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "  beIN Sports MAX 6 France  ",
+    "chimg": "/beinMAX.webp",
+    "chlink": "../../../../Channel/Ch496",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "  ESPN2 BR ",
+    "chimg": "/espn-brazil.webp",
+    "chlink": "../../../../Channel/Ch82",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "   Sport 5 Live Israel ",
+    "chimg": "/sport5-israel.webp",
+    "chlink": "../../../../Channel/Ch146",
+    "date": "2023-04-08",
+    "startTime": "19:30",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 19:30:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "title": "NBA ",
+    "chname": "  beIN Sports 3 France (CH-118)  ",
+    "chimg": "/bein3-french.webp",
+    "chlink": "../../../../Channel/Ch118",
+    "date": "2023-04-08",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:00:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:00 : San Antonio Spurs vs Minnesota Timberwolves. "
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "   Sport 5 Israel  ",
+    "chimg": "/sport5-israel.webp",
+    "chlink": "../../../../Channel/Ch144",
+    "date": "2023-04-08",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:00:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "  Sport 5 Star Israel   ",
+    "chimg": "/sport5-israel.webp",
+    "chlink": "../../../../Channel/Ch147",
+    "date": "2023-04-08",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:00:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "title": "NBA ",
+    "chname": " Bally Sports SoCal   ",
+    "chimg": "/bally-sports.webp",
+    "chlink": "../../../../Channel/Ch26",
+    "date": "2023-04-08",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:00:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:00 : Los Angeles Clippers vs Portland Trail Blazers. "
+  },
+  {
+   
+    "simg": "/basketball.webp",
+    "chname": "   Astro SuperSport 1   ",
+    "chimg": "/astrosports.webp",
+    "chlink": "../../../../Channel/Ch123",
+    "date": "2023-04-08",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:00:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM"
+   
+  },
+  {
+    "gameid": "BAB",
+    "sname": "BASEBALL™",
+    "simg": "/baseball.webp",
+    "title": "MLB ",
+    "chname": "  Bally Sports North ",
+    "chimg": "/bally-sports.webp",
+    "chlink": "../../../../Channel/Ch5",
+    "date": "2023-04-08",
+    "startTime": "18:10",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 18:10:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "19:10 : Houston Astros vs Minnesota Twins. "
+  },
+  {
+   
+    "simg": "/baseball.webp",
+    "title": "MLB ",
+    "chname": " NBCS Bay Area (CH-6)   ",
+    "chimg": "/nbcs-bay-area.webp",
+    "chlink": "../../../../Channel/Ch06",
+    "date": "2023-04-08",
+    "startTime": "20:05",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:05:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:05 : Kansas City Royals vs San Francisco Giants. "
+  },
+  {
+   
+    "simg": "/baseball.webp",
+    "title": "MLB ",
+    "chname": " FOX Sports 1 USA   ",
+    "chimg": "/fox-sport1.webp",
+    "chlink": "../../../../Channel/Ch39",
+    "date": "2023-04-08",
+    "startTime": "20:05",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:05:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:05 : Texas Rangers vs Chicago Cubs. "
+  },
+  {
+   
+    "simg": "/baseball.webp",
+    "title": "MLB ",
+    "chname": " NBCS Philadelphia+ ",
+    "chimg": "/nbc-philadelphia.webp",
+    "chlink": "../../../../Channel/Ch07",
+    "date": "2023-04-08",
+    "startTime": "20:05",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:05:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:05 : Cincinnati Reds vs Philadelphia Phillies. "
+  },
+  {
+   
+    "simg": "/baseball.webp",
+    "title": "MLB ",
+    "chname": " Bally Sports Detroit ",
+    "chimg": "/bally-sports.webp",
+    "chlink": "../../../../Channel/Ch11",
+    "date": "2023-04-08",
+    "startTime": "20:10",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:10:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:10 : Boston Red Sox vs Detroit Tigers. "
+  },
+  {
+   
+    "simg": "/baseball.webp",
+    "title": "MLB ",
+    "chname": " Bally Sports Sun ",
+    "chimg": "/bally-sports.webp",
+    "chlink": "../../../../Channel/Ch12",
+    "date": "2023-04-08",
+    "startTime": "20:10",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:10:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:10 : Oakland Athletics vs Tampa Bay Rays. "
+  },
+  {
+   
+    "simg": "/baseball.webp",
+    "title": "MLB ",
+    "chname": " Bally Sports Florida  ",
+    "chimg": "/bally-sports.webp",
+    "chlink": "../../../../Channel/Ch15",
+    "date": "2023-04-08",
+    "startTime": "20:10",
+    "endTime": "22:00",
+    "startDate": "4/8/2023, 20:10:00 PM",
+    "endDate": "4/8/2023, 22:00:00 PM",
+    "description": "21:10 : Miami Marlins vs New York Mets. "
+  },
+  {
+   
+    "simg": "/baseball.webp",
+    "title": "MLB ",
+    "chname": " BT Sport 2 UK   ",
+    "chimg": "/bt2.webp",
+    "chlink": "../../../../Channel/Ch32",
+    "date": "2023-04-08",
+    "startTime": "22:35",
+    "endTime": "23:59",
+    "startDate": "4/8/2023, 22:35:00 PM",
+    "endDate": "4/8/2023, 23:59:00 PM",
+    "description": "23:35 : Chicago White Sox vs Pittsburgh Pirates. "
+  }
+
+
+
+
+
+
+]
