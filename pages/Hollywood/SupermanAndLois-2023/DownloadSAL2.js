@@ -1,45 +1,105 @@
 
-
-     
-import Head from "next/head"
+import Head from 'next/head'
+import React, { useEffect, useState } from 'react';
 import Max from 'pages/Max';
-import { useState, useEffect } from 'react';
 import ShareThis from '@components/ShareThis';
 
 
 
-const DownloadJHW2 = () => {
-  const [movie, setMovie] = useState(null);
-
-  useEffect(() => {
-    const fetchMovieDetails = async () => {
-      const res = await fetch('/movies.json');
-      const data = await res.json();
-      const selectedMovie = data.find(movie => movie.id === 'SAL');
-      setMovie(selectedMovie);
-    };
-
-    fetchMovieDetails();
-  }, []);
+function DownloadSAL2({ movie }) {
+  
 
   if (!movie) {
-   return <div className=" text-3xl text-red-600 text-center ">Loading...</div>;
+    return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
+  useEffect(() => {
+    const handleContextmenu = e => {
+        e.preventDefault()
+    }
+    document.addEventListener('contextmenu', handleContextmenu)
+    return function cleanup() {
+        document.removeEventListener('contextmenu', handleContextmenu)
+    }
+}, [ ])
+  const scrollSearch = myKey => {
+    window.scrollTo(0, 0);
+    frontMatter.handleSearch(myKey)
+  };
+  const [showPopup, setShowPopup] = useState(false);
+  
+  function togglePopup() {
+    setShowPopup(!showPopup);
+  }
+  const schemaData   = {
+    "@context": "https://schema.org",
+    
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://uwatchfree.vercel.app/Hollywood/SupermanAndLois-2023/SupermanAndLoisP1"
+      
+    },
+    "headline": "Superman & Lois - S3 (2023) Full Movie Online Free | Uwatchfree™",
+    "image": "https://uwatchfree.vercel.app/superman&lois-2023.webp",
+  
+    "datePublished": '2023-01-01T09:00:00.000Z',
+    "dateModified": '2023-01-01T09:00:00.000Z',
+    "author": [{
+        "@type": "Person",
+        "name": "DrTrailer",
+        "url": "https://uwatchfree.vercel.app/DrTrailer.webp"
+      }],
+    
+    "publisher": {
+        "@type": "Organization",
+        "name": "Uwatchfree",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://uwatchfree.vercel.app/og_image.jpg"
+        }
+      },
+    "description": "Uwatchfree™ Superman & Lois - S3 (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  
+  };
   return (
     <div>
-           <div className="bg-gray-600 ">
+        <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+  />
+      <Head>
+     <title>Watch {movie.name} (2023) Full Movie Online Free | Uwatchfree™</title>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch superman & lois movie,index of superman & lois movie,superman & lois movie 2023,superman & lois movie online,watch superman & lois movie online free,superman & lois tv series,superman & lois movie download,superman & lois movie free download,superman & lois movie download" />
+<meta property="og:locale" content="en_US" />   
 
-  <Head>
-   <script src="../../propler/ads.js" defer></script>  
- 
+<meta name="robots" content="index, follow" />  
+<meta name="revisit-after" content="1 days" />
+<meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
+<meta property="og:type" content="movie" />
+<meta property="og:title" content="Watch Superman & Lois - S3 (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/SupermanAndLois-2023/SupermanAndLoisP1" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/superman&lois-2023.webp" />
+<meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Watch Superman & Lois - S3 (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/superman&lois-2023.webp" />
+<meta name="description" content="Watch Superman & Lois - S3 Full Movie Online on Uwatchfree™, You can also download Superman & Lois - S3 (2023) in full HD quality to watch later offline." />
+<script src="../../propler/ads.js" defer></script> 
+<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/SupermanAndLois-2023/" />
+       </Head>
 
-  </Head>
+       <div className="bg-gray-600 shadow ">
 
 
+
+     
   <div className="flex flex-col items-center  justify-center space-y-12">
   <img src={movie.poster} alt={`Poster for ${movie.title}`} loading="lazy" className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD {movie.title} (2023) </h2>
+     DOWNLOAD {movie.title} (2023) </h2>
   
   
     
@@ -86,9 +146,22 @@ Please Share the Link.</h2>
 
 </button></a>
  < ShareThis async defer />
-</div></div>
-    </div> 
-  )
+
+
+ </div> 
+    </div> </div>
+  );
 }
 
-export default DownloadJHW2;
+export async function getServerSideProps() {
+  const res = await fetch('http://localhost:3000/movies.json');
+  const data = await res.json();
+  const selectedMovie = data.find(movie => movie.id === 'SAL');
+  return {
+    props: {
+      movie: selectedMovie
+    }
+  };
+}
+ 
+export default DownloadSAL2;

@@ -15,7 +15,7 @@ const DownloadBPW2 = () => {
 
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD MOVIE Luther The Fallen Sun (2023) LINK BELOW </h2>
+     DOWNLOAD MOVIE Luther The Fallen Sun (2023) LINK BELOW </h2>
   
 
 <a href="https://dood.yt/d/ge21ksmln2h3" target={"_blamk"} id="download_link" > 

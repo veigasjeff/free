@@ -1,17 +1,20 @@
+
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-
 import React, { useEffect, useState } from 'react';
-;
-import styles from '@styles/video-player.module.css'
+import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
-
 import ShareThis from '@components/ShareThis';
 
 
 
-const SALSR1  = () => {
+function SALSR1({ movie }) {
+  
+
+  if (!movie) {
+    return <div className="text-3xl text-red-600 text-center">Loading...</div>;
+  }
   useEffect(() => {
     const handleContextmenu = e => {
         e.preventDefault()
@@ -61,31 +64,13 @@ const SALSR1  = () => {
     "description": "Uwatchfree™ Superman & Lois - S3 (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
   
   };
-
-  const [movie, setMovie] = useState(null);
-
-  useEffect(() => {
-    const fetchMovieDetails = async () => {
-      const res = await fetch('/movies.json');
-      const data = await res.json();
-      const selectedMovie = data.find(movie => movie.id === 'SAL');
-      setMovie(selectedMovie);
-    };
-
-    fetchMovieDetails();
-  }, []);
-
-  if (!movie) {
-    return <div className=" text-3xl text-red-600 text-center ">Loading...</div>;
-  }
-
   return (
     <div>
-    <script
+        <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
-     <Head>
+      <Head>
      <title>Watch {movie.name} (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch superman & lois movie,index of superman & lois movie,superman & lois movie 2023,superman & lois movie online,watch superman & lois movie online free,superman & lois tv series,superman & lois movie download,superman & lois movie free download,superman & lois movie download" />
@@ -108,10 +93,13 @@ const SALSR1  = () => {
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/SupermanAndLois-2023/" />
        </Head>
- 
+
        <div className="bg-gray-600 shadow ">
-      <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title}</h1>
-      <div className={styles['iframe-container']}>
+
+
+
+       <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - Episode 1</h1>
+       <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
         src={movie['movie.watchSR1']}
         width="100%"
@@ -123,25 +111,25 @@ const SALSR1  = () => {
            <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
     
     <div className="flex justify-center">
-    <Link href="../../Hollywood/SupermanAndLois-2023/SALSR1">
+    <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP1">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
   Episode 1
       </button></Link>
     </div>
     <div className="flex justify-center">
-    <Link href="../../Hollywood/SupermanAndLois-2023/SALSR2">
+    <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP2">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
   Episode 2
       </button></Link>
     </div>
     <div className="flex justify-center">
-    <Link href="../../Hollywood/SupermanAndLois-2023/SALSR3">
+    <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP3">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
   Episode 3
       </button></Link>
       </div>
       <div className="flex justify-center">
-      <Link href="../../Hollywood/SupermanAndLois-2023/SALSR4">
+      <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP4">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
   Episode 4
       </button></Link>
@@ -149,17 +137,14 @@ const SALSR1  = () => {
       </div>
            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
            <a href="../SupermanAndLois-2023/SupermanAndLoisP1" >  
-      <h2 >Click To Watch {movie.name} (2023) Server 1</h2></a></button>
+      <h2 > Watch {movie.name} (2023) Server 1</h2></a></button>
       <Rating />
-      <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank" >IMDb Rating: {movie.rating}</a>  
+      <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank">IMDb Rating: {movie.rating}</a>  
       
       <ul className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }}>
         <li>Starring: {movie.starring.join(', ')}</li>
         <li>Year of release: {movie.yearRelease}</li>
-        <li style={{ display: "flex", alignItems: "center" }}>Production Company: {movie.pcompany} <img src={movie.pcompanyimg} alt="{movie.pcompany}" style={{ verticalAlign: "middle", width: "50px", height: "50px"  }} /></li>
-
-
-        <li>Creators : {movie.director}</li>
+        <li>Director: {movie.director}</li>
         <li>Country: {movie.country}</li>
         <li>Genre: {movie.genre}</li>
         <p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
@@ -223,9 +208,7 @@ const SALSR1  = () => {
           }
         }
       `}</style>
-
-
-    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+  <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} (2023) </h3>
  <a href={movie.download1} >
@@ -244,15 +227,28 @@ Download
 
 <Max />
 
-<Link href="../../HollywoodAds"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+<Link href="../../BollywoodAds"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
-  Back To Hollywood Section
+  Back To Bollywood Section
 
 </buton></Link>
  < ShareThis async defer />
- </div>
-    </div>
-    </div>
+
+
+ </div> 
+    </div> </div>
   );
 }
-export default SALSR1 ;
+
+export async function getServerSideProps() {
+  const res = await fetch('http://localhost:3000/movies.json');
+  const data = await res.json();
+  const selectedMovie = data.find(movie => movie.id === 'SAL');
+  return {
+    props: {
+      movie: selectedMovie
+    }
+  };
+}
+ 
+export default SALSR1;

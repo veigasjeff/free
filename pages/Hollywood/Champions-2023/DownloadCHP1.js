@@ -39,7 +39,7 @@ const DownloadCHP1 = () => {
   <div className="flex flex-col items-center  justify-center space-y-12">
   <img src={movie.poster} alt={`Poster for ${movie.title}`} loading="lazy" className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl " >
-    CLICK TO DOWNLOAD {movie.title} (2023) </h2>
+     DOWNLOAD {movie.title} (2023) </h2>
    
   
     

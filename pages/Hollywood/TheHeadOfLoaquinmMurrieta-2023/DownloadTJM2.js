@@ -22,7 +22,7 @@ const DownloadTJM2 = () => {
 
   <div classNameName="flex flex-col items-center  justify-center space-y-12">
   <h2 classNameName="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD MOVIE THE HEAD OF JOAQUIN MURRIETA (2023) LINK BELOW </h2>
+     DOWNLOAD MOVIE THE HEAD OF JOAQUIN MURRIETA (2023) LINK BELOW </h2>
   
     <Image classNameName="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-head-of-joaquin-murrieta-2023.webp' alt='THE HEAD OF JOAQUIN MURRIETA - 2023' width={400} height={300} loading="lazy"/>
 

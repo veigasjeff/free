@@ -13,7 +13,7 @@ const DownloadPOF2 = () => {
 
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD MOVIE Poker Face (2022) LINK BELOW </h2>
+     DOWNLOAD MOVIE Poker Face (2022) LINK BELOW </h2>
   
 
 <a href="https://dood.yt/d/xqeh30v8vnag" target={"_blamk"} id="download_link" > 

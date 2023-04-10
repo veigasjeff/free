@@ -23,7 +23,7 @@ const DownloadBYL2 = () => {
 
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD MOVIE ANT-MAN AND THE WASP QUANTUMANIA (2023) English Version LINK BELOW </h2>
+     DOWNLOAD MOVIE ANT-MAN AND THE WASP QUANTUMANIA (2023) English Version LINK BELOW </h2>
   
     <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/ant-Man-and-the-wasp-2023.webp' alt='ANT-MAN AND THE Wasp - 2023' width={400} height={300}  loading="lazy"/>
 
@@ -33,7 +33,7 @@ const DownloadBYL2 = () => {
  
 </button></a>
 <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD MOVIE Ant-Man and the Wasp Quantumania (2023) Hindi Dubbed LINK BELOW </h2>
+     DOWNLOAD MOVIE Ant-Man and the Wasp Quantumania (2023) Hindi Dubbed LINK BELOW </h2>
   
 
 <a href="https://dood.yt/d/toh5521o2uld" target={"_blamk"} id="download_link" > 

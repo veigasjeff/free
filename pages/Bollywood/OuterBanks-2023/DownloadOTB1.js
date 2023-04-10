@@ -24,7 +24,7 @@ const DownloadAMG1 = () => {
 
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD MOVIE OUTER BANKS (2023) LINK BELOW </h2>
+     DOWNLOAD MOVIE OUTER BANKS (2023) LINK BELOW </h2>
   
     <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/outer-banks-2023.webp' alt='OUTER BANKS - 2023' width={400} height={300}  loading="lazy"/>
     
