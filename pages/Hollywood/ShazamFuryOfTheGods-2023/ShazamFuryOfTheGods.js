@@ -2,12 +2,9 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-
 import React, { useEffect, useState } from 'react';
-;
-import styles from '@styles/video-player.module.css'
+import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
-
 import ShareThis from '@components/ShareThis';
 
 const ShazamFuryOfTheGods  = () => {
@@ -94,8 +91,7 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-600 ">
-
-        
+    
     
         
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch Shazam Fury of the Gods (2023) </h1>

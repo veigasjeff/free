@@ -2,12 +2,9 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-
 import React, { useEffect, useState } from 'react';
-;
-import styles from '@styles/video-player.module.css'
+import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
-
 import ShareThis from '@components/ShareThis';
 
 const SFGSR2  = () => {
