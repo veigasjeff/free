@@ -103,6 +103,39 @@
     "movie.watch": "../TvShows/GreysAnatomy-2023/GreysAnatomy"
   },
   {
+    "id": "CAK",
+    "title": "CRIMES AAJ KAL",
+    "name": "Crimes Aaj Kal",
+    "poster": "/crimes-aaj-kal-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" ACTION, ", " CRIME,", " THRILLER" ],
+    "rating": 8.8,
+    "synopsis": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "starring": ["Manav Soneji", "Basant Kumar", "Sejal Jaiswal", "Jimmy Roy" , "Vikrant Massey"  ],
+    "director": "Subbu Iyer, Subramanian S. Iyer ",
+    "country": "India",
+    "link": "https://www.imdb.com/title/tt27302334/",
+    "status": "new",
+    "movie.watch": "../../Bollywood/CrimesAajKal-2023/CrimesAajKal",
+
+    "movie.watchP1": "https://lvturbo.com/e/9az0eftj2yxk.html",
+  
+
+    "movie.watchSR1": "https://dood.yt/e/cnv2arcqa1bh",
+   
+   
+    "download1": "../../Bollywood/CrimesAajKal-2023/DownloadCAK1",
+
+    "down1link1": "https://lvturbo.com/d/9az0eftj2yxk.html",
+   
+
+    "download2": "../../Bollywood/CrimesAajKal-2023/DownloadCAK2",
+    "down2link1": "https://dood.yt/d/cnv2arcqa1bh",
+    
+    "movie.trailer": "https://lvturbo.com/e/3z793bgll5tu.html"
+
+  },
+  {
     "id": "JHW",
     "title": "JOHN WICK SERIES",
     "name": "John Wick Series",
@@ -957,6 +990,7 @@
     "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
     "director": "Peter Jackson",
     "country": "USA",
+    "status": "updated",
     "link": "https://www.imdb.com/title/tt2741602/",
     "movie.watch": "../../Hollywood/TheBlacklist-2023/TheBlacklistP1"
   },
