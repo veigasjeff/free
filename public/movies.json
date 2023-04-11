@@ -26,6 +26,7 @@
     "starring": ["Tim Robbins", "Morgan Freeman"],
     "director": "Frank Darabont",
     "country": "USA",
+    "status": "live",
     "link": "https://www.imdb.com/title/tt0111161/",
     "movie.watch": "../../Sports-2023/Sports"
    

@@ -32,4 +32,15 @@ export default function Home () {
     </div>
   );
 }
+export async function getServerSideProps() {
+  const res = await fetch('http://uwatchfree,vercel.app/movies.json');
+
+  const data = await res.json();
+  const selectedMovie = data.find(movie => movie.id === 'WSL');
+  return {
+    props: {
+      movie: selectedMovie
+    }
+  };
+}
    // https://daddyhd.com/embed/stream-32.php
