@@ -103,6 +103,37 @@
     "movie.watch": "../TvShows/GreysAnatomy-2023/GreysAnatomy"
   },
   {
+    "id": "AAM",
+    "title": "AAMRAS",
+    "name": "Aamras", 
+    "poster": "/aamras-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" ADULT, ", " HOT,", " 18 +" ],
+    "rating": 6.3,
+    "synopsis": " The plot revolves around two friends who plan to go on a date. A girl enters their life and changes everything.",
+    "starring": ["Aayushi Jaiswal", "Aritaa Paul", "Leena Singh" ],
+    "director": "Ullu app",
+    "country": "India",
+    "status": "new",
+    "link": "#",
+
+    "movie.watch": "../../Adult/Badan-2023/BadanP1",
+
+    "movie.watchP1": "https://lvturbo.com/e/lcq93flhrh1w.html",
+  
+    "movie.watchSR1": "https://dood.yt/e/lopl4irxcxra",
+     
+    "download1": "../../Adult/Badan-2023/DownloadBDN1",
+
+    "down1link1": "https://lvturbo.com/d/lcq93flhrh1w.html",
+   
+    "download2": "../../Adult/Badan-2023/DownloadBDN2",
+    "down2link1": "https://dood.yt/d/lopl4irxcxra",
+   
+    "movie.trailer": "https://lvturbo.com/e/vo3t54nf6vg1.html"
+
+  },
+  {
     "id": "BHL",
     "title": "BHOLAA",
     "name": "Bholaa",
@@ -182,7 +213,7 @@
     "country": "USA",
     "link": "https://www.imdb.com/title/tt15255288/",
     "status": "new",
-    "movie.watch": "../../Bollywood/MurderMystery2-2023/MurderMystery2",
+    "movie.watch": "../../Bollywood/MurderMystery2-2023/Murder2Mystery",
 
     "movie.watchP1": "https://lvturbo.com/e/u6yym8dmbif5.html",
   
