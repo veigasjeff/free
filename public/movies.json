@@ -103,6 +103,138 @@
     "movie.watch": "../TvShows/GreysAnatomy-2023/GreysAnatomy"
   },
   {
+    "id": "M2M",
+    "title": "MUDER MYSTERY 2",
+    "name": "Murder Mystery 2",
+    "poster": "/murder-mystery-2-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" ACTION, ", " COMEDY,", " CRIME" ],
+    "rating": 5.6,
+    "synopsis": "Full-time detectives Nick and Audrey are struggling to get their private eye agency off the ground. They find themselves at the center of international abduction when their friend Maharaja, is kidnapped at his own lavish wedding.",
+    "starring": ["Adam Sandler", "Jennifer Aniston", "Mark Strong", "Mélanie Laurent" , "Jodie Turner-Smith" , "John Kani" , "Kuhoo Verma"  , "Dany Boon"  , "Adeel Akhtar"  , "Enrique Arce"  , "Zurin Villanueva"  , "Jillian Bell"   ],
+    "director": "Jeremy Garelick",
+    "country": "USA",
+    "link": "https://www.imdb.com/title/tt15255288/",
+    "status": "new",
+    "movie.watch": "../../Bollywood/MurderMystery2-2023/MurderMystery2",
+
+    "movie.watchP1": "https://lvturbo.com/e/u6yym8dmbif5.html",
+  
+
+    "movie.watchSR1": "https://dood.yt/e/jguzt49lnozr",
+   
+   
+    "download1": "../../Bollywood/MurderMystery2-2023/DownloadM2M1",
+
+    "down1link1": "https://lvturbo.com/d/u6yym8dmbif5.html",
+   
+
+    "download2": "../../Bollywood/MurderMystery2-2023/DownloadM2M2",
+    "down2link1": "https://dood.yt/d/jguzt49lnozr",
+    
+    "movie.trailer": "https://lvturbo.com/e/in2ugsmbh8kk.html"
+
+  },
+  {
+    "id": "FRZ",
+    "title": "FARAAZ",
+    "name": "Faraaz",
+    "poster": "/faraaz-2022.webp",
+    "yearRelease": 2022,
+    "genre": [" ACTION, ", " DRAMA,", " THRILLER" ],
+    "rating": 4.8,
+    "synopsis": "Based on the real-life terrorist attack that ravaged a Dhaka cafe, Faraaz is a tense hostage drama that unfolds over one claustrophobic night..",
+    "starring": ["Nani", "Keerthy Suresh", "Shine Tom Chacko", "Dheekshith Shetty" , "Samuthirakani" , "Sai Kumar" , "Jhansi"   ],
+    "director": "Hansal Mehta",
+    "country": "India",
+    "link": "https://www.imdb.com/title/tt15175188/",
+    "status": "new",
+    "movie.watch": "../../Bollywood/Faraaz-2022/Faraaz",
+
+    "movie.watchP1": "https://lvturbo.com/e/zuy1poijca7w.html",
+  
+
+    "movie.watchSR1": "https://dood.yt/e/w19df1oxttai",
+   
+   
+    "download1": "../../Bollywood/Faraaz-2022/DownloadFRZ1",
+
+    "down1link1": "https://lvturbo.com/d/zuy1poijca7w.html",
+   
+
+    "download2": "../../Bollywood/Faraaz-2022/DownloadFRZ2",
+    "down2link1": "https://dood.yt/d/w19df1oxttai",
+    
+    "movie.trailer": "https://lvturbo.com/e/5vevl6tf61nk.html"
+
+  },
+  {
+    "id": "DSR",
+    "title": "DASARA",
+    "name": "Dasara",
+    "poster": "/dasara-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" ACTION, ", " DRAMA,", " ADVENTURE" ],
+    "rating": 7.5,
+    "synopsis": "Set in the backdrop of Singareni coal mines near Godavarikhani of Telangana.",
+    "starring": ["Nani", "Keerthy Suresh", "Shine Tom Chacko", "Dheekshith Shetty" , "Samuthirakani" , "Sai Kumar" , "Jhansi"   ],
+    "director": "Srikanth Odela",
+    "country": "India",
+    "link": "https://www.imdb.com/title/tt15440322/",
+    "status": "new",
+    "movie.watch": "../../Bollywood/Dasara-2023/Dasara",
+
+    "movie.watchP1": "https://lvturbo.com/e/nn2704mfcuvs.html",
+  
+
+    "movie.watchSR1": "https://dood.yt/e/ak9wmbul50pi",
+   
+   
+    "download1": "../../Bollywood/Dasara-2023/DownloadDSR1",
+
+    "down1link1": "https://lvturbo.com/d/nn2704mfcuvs.html",
+   
+
+    "download2": "../../Bollywood/Dasara-2023/DownloadDSR2",
+    "down2link1": "https://dood.yt/d/ak9wmbul50pi",
+    
+    "movie.trailer": "https://lvturbo.com/e/3mlpu6u5ys8g.html"
+
+  },
+  {
+    "id": "KJM",
+    "title": "KANJOOS MAKHICHOOS",
+    "name": "Kanjoos Makhichoos",
+    "poster": "/kanjoos-makhichoos-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" COMEDY, ", " DRAMA,", " FAMILY" ],
+    "rating": 6.7,
+    "synopsis": "Jamnaprasad Pandey is infamous in the entire town as a miser whose family is fed up with his penny-pinching habits. However, little does the family know that these savings is to fulfill his father's wish of going on a char-dhaam yatra.",
+    "starring": ["Kunal Kemmu", "Shweta Tripathi", "Piyush Mishra", "Alka Amin" , "Alish Nathani" , "Hema Singh" , "Rajiv Gupta" , "Raju Srivastava" , "Abhishek Giri" , "Sachin Singh" , "Avinash Shukla" , "Omendra Kumar"  ],
+    "director": "Vipul Mehta",
+    "country": "India",
+    "link": "https://www.imdb.com/title/tt15717242/",
+    "status": "new",
+    "movie.watch": "../../Bollywood/KanjoosMakhichoos-2023/KanjoosMakhichoos",
+
+    "movie.watchP1": "https://lvturbo.com/e/5crv6uba0108.html",
+  
+
+    "movie.watchSR1": "https://dood.yt/e/ulqbg5w0oy8u",
+   
+   
+    "download1": "../../Bollywood/KanjoosMakhichoos-2023/DownloadKMJ1",
+
+    "down1link1": "https://lvturbo.com/d/5crv6uba0108.html",
+   
+
+    "download2": "../../Bollywood/KanjoosMakhichoos-2023/DownloadKMJ2",
+    "down2link1": "https://dood.yt/d/ulqbg5w0oy8u",
+    
+    "movie.trailer": "https://lvturbo.com/e/z1q7lmhsobms.html"
+
+  },
+  {
     "id": "CAK",
     "title": "CRIMES AAJ KAL",
     "name": "Crimes Aaj Kal",
@@ -110,7 +242,7 @@
     "yearRelease": 2023,
     "genre": [" ACTION, ", " CRIME,", " THRILLER" ],
     "rating": 8.8,
-    "synopsis": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "synopsis": "The urgency, impatience and demand for instant gratification, fast paced lives of youngsters in this super tech age forms the base for this slick and tightly ....",
     "starring": ["Manav Soneji", "Basant Kumar", "Sejal Jaiswal", "Jimmy Roy" , "Vikrant Massey"  ],
     "director": "Subbu Iyer, Subramanian S. Iyer ",
     "country": "India",
