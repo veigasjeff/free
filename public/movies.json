@@ -103,6 +103,72 @@
     "movie.watch": "../TvShows/GreysAnatomy-2023/GreysAnatomy"
   },
   {
+    "id": "BHL",
+    "title": "BHOLAA",
+    "name": "Bholaa",
+    "poster": "/bholaa-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" ACTION, ", " ADVENTURE,", " CRIME" ],
+    "rating": 8.0,
+    "synopsis": "After getting out of prison with the desire to meet his daughter, Bholaa's plans are interrupted by a well-orchestrated drug bust.",
+    "starring": ["Ajay Devgn", "Amala Paul", "Raai Laxmi", "Tabu" , "Abhishek Bachchan" , "Deepak Dobriyal" , "Sanjay Mishra"  , "Vineet Kumar"  , "Hirva Trivedi"  , "Tarun Gahlot"  , "Jahangir Khan" , "Ketan Karande" , "Shriidhar Dubey"  ],
+    "director": "Ajay Devgn",
+    "country": "India",
+    "link": "https://www.imdb.com/title/tt15302222/",
+    "status": "new",
+    "movie.watch": "../../Bollywood/Bholaa-2023/Bholaa",
+
+    "movie.watchP1": "https://lvturbo.com/e/c5dx0p3nu5oy.html",
+  
+
+    "movie.watchSR1": "https://dood.yt/e/640ivqubsavz",
+   
+   
+    "download1": "../../Bollywood/Bholaa-2023/DownloadBHL1",
+
+    "down1link1": "https://lvturbo.com/d/c5dx0p3nu5oy.html",
+   
+
+    "download2": "../../Bollywood/Bholaa-2023/DownloadBHL2",
+    "down2link1": "https://dood.yt/d/640ivqubsavz",
+    
+    "movie.trailer": "https://lvturbo.com/e/ispr0kxjest1.html"
+
+  },
+  {
+    "id": "UTK",
+    "title": "UNITED KACCHE",
+    "name": "United Kacche",
+    "poster": "/united-kacche-2023.webp",
+    "yearRelease": 2023,
+    "genre": [" DRAMA, ", " COMEDY,", " FAMILY" ],
+    "rating": 7.1,
+    "synopsis": "Tango's biggest dream in life is to shift abroad from his pind in Punjab. He finally manages, but as a kachcha, an illegal immigrant. Is life in the UK as rosy as Tango thought it would be?",
+    "starring": ["Sammy Jonas Heaney", "Alexandra Taylor", "Sunil Grover", "Sapna Pabbi" , "Nikhil Vijay" , "Manu Rishi Chadha" , "Nayani Dixit"  , "Diksha Juneja"  , "Satish Shah"  , "Poojan Chhabra"  , "Neelu Kohli"  ],
+    "director": "Manav Shah, Dharampal Thakur",
+    "country": "India",
+    "link": "https://www.imdb.com/title/tt27055809/",
+    "status": "new",
+    "movie.watch": "../../Bollywood/UnitedKacche-2023/UnitedKacche",
+
+    "movie.watchP1": "https://lvturbo.com/e/vp9qmcz2feuj.html",
+  
+
+    "movie.watchSR1": "https://dood.yt/e/0qxldd21e6ju",
+   
+   
+    "download1": "../../Bollywood/UnitedKacche-2023/DownloadUTK1",
+
+    "down1link1": "https://lvturbo.com/d/vp9qmcz2feuj.html",
+   
+
+    "download2": "../../Bollywood/UnitedKacche-2023/DownloadUTK2",
+    "down2link1": "https://dood.yt/d/0qxldd21e6ju",
+    
+    "movie.trailer": "https://lvturbo.com/e/xf1pn2x8vnzy.html"
+
+  },
+  {
     "id": "M2M",
     "title": "MUDER MYSTERY 2",
     "name": "Murder Mystery 2",
