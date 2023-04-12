@@ -8,7 +8,7 @@ import ShareButtons from '@components/ShareButtons';
 
 
 
-function DownloadGTG2({ movie }) {
+function DownloadRAH1({ movie }) {
   
 
   if (!movie) {
@@ -38,11 +38,11 @@ function DownloadGTG2({ movie }) {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://uwatchfree.vercel.app/Bollywood/GutarGu-2023/GutarGu"
+      "@id": "https://uwatchfree.vercel.app/Bollywood/Roached-2023/Roached"
       
     },
-    "headline": "Gutar Gu (2023) Full Movie Online Free | Uwatchfree™",
-    "image": "https://uwatchfree.vercel.app/gutar-gu-2023.webp",
+    "headline": "Roached (2023) Full Movie Online Free | Uwatchfree™",
+    "image": "https://uwatchfree.vercel.app/roached-2023.webp",
   
     "datePublished": '2023-01-01T09:00:00.000Z',
     "dateModified": '2023-01-01T09:00:00.000Z',
@@ -60,7 +60,7 @@ function DownloadGTG2({ movie }) {
           "url": "https://uwatchfree.vercel.app/og_image.jpg"
         }
       },
-    "description": "Uwatchfree™ Gutar Gu (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+    "description": "Uwatchfree™ Roached (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
   
   };
   return (
@@ -72,25 +72,25 @@ function DownloadGTG2({ movie }) {
     <Head>
      <title>Watch {movie.name} (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch gutar gu movie,index of gutar gu movie,gutar gu movie 2023,gutar gu movie online,watch gutar gu movie online free,gutar gu tv series,gutar gu movie download,gutar gu movie free download,gutar gu movie download" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch roached movie,index of roached movie,roached movie 2023,roached movie online,watch roached movie online free,roached tv series,roached movie download,roached movie free download,roached movie download" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Gutar Gu (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Bollywood/GutarGu-2023/GutarGu" />
-<meta property="og:image" content="https://uwatchfree.vercel.app/gutar-gu-2023.webp" />
+<meta property="og:title" content="Watch Roached (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Bollywood/Roached-2023/Roached" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/roached-2023.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Gutar Gu (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://uwatchfree.vercel.app/gutar-gu-2023.webp" />
-<meta name="description" content="Watch Gutar Gu Full Movie Online on Uwatchfree™, You can also download Gutar Gu (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Roached (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/roached-2023.webp" />
+<meta name="description" content="Watch Roached Full Movie Online on Uwatchfree™, You can also download Roached (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/GutarGu-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Roached-2023/" />
        </Head>
 
        <div className="bg-gray-600 shadow ">
@@ -103,11 +103,10 @@ function DownloadGTG2({ movie }) {
   <img src={movie.poster} alt={`Poster for ${movie.title}`} loading="lazy" className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
      DOWNLOAD {movie.title} (2023) </h2>
-  
-  
+   
     
- 
-<a href={movie.down2link1} target={"_blamk"} id="download_link" > 
+   
+<a href={movie.down1link1} target={"_blamk"} id="download_link" > 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Download Now
  
@@ -121,7 +120,7 @@ Please Share the Link.</h2>
 
 
 
-<a href="../../Bollywood/GutarGu-2023/GTGSR1" >
+<a href="../../Bollywood/Roached-2023/Roached" >
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Back
 
@@ -140,7 +139,7 @@ export async function getServerSideProps() {
   const res = await fetch('http://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'GTG');
+  const selectedMovie = data.find(movie => movie.id === 'RAH');
   return {
     props: {
       movie: selectedMovie
@@ -148,4 +147,4 @@ export async function getServerSideProps() {
   };
 }
  
-export default DownloadGTG2;
+export default DownloadRAH1;

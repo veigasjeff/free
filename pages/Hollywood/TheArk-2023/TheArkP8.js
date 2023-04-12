@@ -11,7 +11,7 @@ import ShareButtons from '@components/ShareButtons';
 
 
 
-function TheArkP3({ movie }) {
+function TheArkP8({ movie }) {
   
 
   if (!movie) {
@@ -98,10 +98,10 @@ function TheArkP3({ movie }) {
        </Head>
  
        <div className="bg-gray-600 shadow ">
-      <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - EPISODE 3</h1>
+      <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - EPISODE 8</h1>
       <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-        src={movie['movie.watchP3']}
+        src={movie['movie.watchP8']}
         width="100%"
         height="500px"
         allowFullScreen
@@ -175,7 +175,7 @@ function TheArkP3({ movie }) {
       </div>
       </div>
            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-           <a href="../TheArk-2023/ARKSR3" >  
+           <a href="../TheArk-2023/ARKSR8" >  
       <h2 > Watch {movie.name} (2023) Server 2</h2></a></button>
       <Rating />
       <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank">IMDb Rating: {movie.rating}</a>  
@@ -293,4 +293,4 @@ export async function getServerSideProps() {
   };
 }
  
-export default TheArkP3;
+export default TheArkP8;
