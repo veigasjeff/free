@@ -12,7 +12,8 @@ function Application({ Component, pageProps }) {
      <div className="center">
     <GoogleAnalytics measurementId="G-K8QKRZ4B44" />
       <Head>
-      <script async data-id="101405628" src="//static.getclicky.com/js"></script>
+        <script async type="text/javascript" src="//static.getclicky.com/js"></script>
+        <script async data-id="101405628" src="//static.getclicky.com/js"></script>
       </Head>
       <PageTransition>  
         <Hamburger />
