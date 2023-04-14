@@ -144,7 +144,14 @@ const schemaData   = {
         <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
         
     <div className="relative overflow-hidden rounded-3xl border border-white shadow-md" loading="lazy" alt="loading"  width="626" height="417" >
-    <img className="w-full h-full object-cover rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417" />
+    <img
+  className="w-full h-full object-cover rounded-3xl border border-white shadow-md"
+  loading="lazy"
+  alt={movie.title}
+  srcSet={`${movie.poster} 626w, ${movie.poster_small} 320w`}
+  sizes="(max-width: 640px) 320px, 626px"
+/>
+
 
 
   <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center"></a>
