@@ -143,9 +143,14 @@ const schemaData   = {
       {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
         <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
         
-        <div className="relative overflow-hidden rounded-3xl border border-white shadow-md" style={{ backgroundColor: '#f2f2f2' }}>
+        <div className="relative overflow-hidden rounded-3xl border border-white shadow-md" style={{ backgroundColor: '#f2f2f2' }} width="626" height="417" >
     <img className="w-full h-full object-cover rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417" />
-
+    <style jsx>{`
+  .relative {
+    width: 626px;
+    height: 417px;
+  }
+`}</style>
 
 
 
