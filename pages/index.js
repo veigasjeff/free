@@ -156,7 +156,7 @@ const schemaData   = {
   {movie.status || movie.badge}
 </span>
 
-
+</div>
 
 
 
@@ -170,7 +170,7 @@ const schemaData   = {
             <p className={`${styles.yearRelease} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Year Release : {movie.yearRelease}</p>
             <p className={`${styles.genre} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Genre : {movie.genre}</p>
           </div>
-          </div>
+        
 
         </div>
       ))}
