@@ -140,8 +140,12 @@ const schemaData   = {
             <div className="flex flex-wrap justify-center">
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
-                 <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
-  <img className="w-full h-full object-cover  rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417"  />
+                  <div className="relative overflow-hidden rounded-3xl shadow-md" loading="lazy"  width="626" height="417" >  
+                 
+  <img className=" object-cover  rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417"  />
+  <span className={`${movie.status === 'New Movie' || movie.badge === 'New Movie' ? 'bg-green-500 border border-white' : movie.status === 'New Series' || movie.badge === 'New Series' ? 'bg-yellow-500 border border-white' : movie.status === 'Updated' || movie.badge === 'Updated' ? 'bg-yellow-500 border border-white' : movie.status === 'Live Sports' || movie.badge === 'Live Sports' ? 'bg-red-500 border border-white' : movie.status === 'Tv Show' || movie.badge === 'Tv Show' ? movie.badge === 'blue' ? 'bg-blue-500 border border-white' : 'bg-blue-500 border border-white' : movie.status === 'Sports' || movie.badge === 'Sports' ? movie.badge === 'orange' ? 'bg-orange-500 border border-white' : 'bg-orange-500 border border-white' : ''} text-black font-bold px-5 py-2  rounded-3xl absolute top-0 right-0 my-3 mx-2  animate-pulse ${movie.status === 'new' || movie.badge === 'new' ? '-slow' : ''}`}>
+  {movie.status || movie.badge}
+</span>
 
   <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center  "  >
    
@@ -151,17 +155,18 @@ const schemaData   = {
                   <h1 className="text-2xl font-bold leading-normal mb-2" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
   {movie.title} 
 </h1>
-<div className="relative overflow-hidden rounded-3xl shadow-md" loading="lazy"  width="626" height="417" >
 
-                    <a href={movie.link} className="text-xl font-bold leading-normal mb-2 text-yellow-500 " target="_blank" style={{ textShadow: "2px 2px 4px #000" }}>IMDb Rating : {movie.rating}</a>     
+
+                    <a href={movie.link} className="text-xl font-bold leading-normal mb-2 text-yellow-500 " target="_blank" style={{ textShadow: "2px 2px 4px #000" }}>IMDb Rating : {movie.rating}</a> 
+                     
                     <p className={`${styles.yearRelease} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Year Release : {movie.yearRelease}</p>
+                   
                     <p className={`${styles.genre} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Genre : {movie.genre}</p>
-                    <span className={`${movie.status === 'New Movie' || movie.badge === 'New Movie' ? 'bg-green-500 border border-white' : movie.status === 'New Series' || movie.badge === 'New Series' ? 'bg-yellow-500 border border-white' : movie.status === 'Updated' || movie.badge === 'Updated' ? 'bg-yellow-500 border border-white' : movie.status === 'Live Sports' || movie.badge === 'Live Sports' ? 'bg-red-500 border border-white' : movie.status === 'Tv Show' || movie.badge === 'Tv Show' ? movie.badge === 'blue' ? 'bg-blue-500 border border-white' : 'bg-blue-500 border border-white' : movie.status === 'Sports' || movie.badge === 'Sports' ? movie.badge === 'orange' ? 'bg-orange-500 border border-white' : 'bg-orange-500 border border-white' : ''} text-black font-bold py-2 px-3 rounded-3xl absolute top-0 right-0 m-1 animate-pulse ${movie.status === 'new' || movie.badge === 'new' ? '-slow' : ''}`}>
-  {movie.status || movie.badge}
-</span>
+                  
+                  
                   </div> 
                   </div> 
-                </div>
+               
               ))}
             </div>
           </section>
