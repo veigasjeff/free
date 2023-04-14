@@ -145,7 +145,7 @@ const schemaData   = {
           <div >
             <img className="w-full h-full object-cover rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417" />
             <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center"></a>
-        
+            </div>
           <div className="mt-4">
           <div className="relative overflow-hidden rounded-3xl  shadow-md"  width="626" height="417" loading="lazy" >
             <h1 className="text-2xl font-bold leading-normal mb-2" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
@@ -159,7 +159,7 @@ const schemaData   = {
 </span>
           </div>
         </div>
-        </div>
+       
         </div>
       ))}
     </div>
