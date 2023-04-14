@@ -5,6 +5,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   // Your Next.js configuration options here
 });
+
+
+
+
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
@@ -22,6 +26,7 @@ module.exports = {
     return config;
   },
 };
+
 
 module.exports = {
   // Other configuration options...
@@ -72,6 +77,10 @@ module.exports = {
       ];
     },
   };
-  
 
+
+
+
+
+  
   
