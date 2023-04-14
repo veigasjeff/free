@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import movies from '../public/movies.json';
 import ShareButtons from '@components/ShareButtons';
-
+import Image from 'next/image';
 
 import React, { useEffect, useState } from 'react';
 
@@ -137,35 +137,45 @@ const schemaData   = {
 
       <main className={styles.main}>
   <section className={`${styles.movies} bg-gray-600 shadow md:block py-5`}>
-    <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+  <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
     <h2 className="text-center font-bold text-3xl text-white py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch Movies, TV-Series & Sports Live Online Free</h2>
     <div className="flex flex-wrap justify-center">
       {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
         <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
         
-            <img className="object-cover rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417" />
-            <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center"></a>
-       
+        <div className="relative overflow-hidden rounded-3xl border border-white shadow-md" loading="lazy" alt="loading"  width="626" height="417" >
+   
+   <img className="w-full h-full object-cover rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417" />
+
+
+
+  <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center"></a>
+
+
+  <span className={`${movie.status === 'New Movie' || movie.badge === 'New Movie' ? 'bg-green-500 border border-white' : movie.status === 'New Series' || movie.badge === 'New Series' ? 'bg-yellow-500 border border-white' : movie.status === 'Updated' || movie.badge === 'Updated' ? 'bg-yellow-500 border border-white' : movie.status === 'Live Sports' || movie.badge === 'Live Sports' ? 'bg-red-500 border border-white' : movie.status === 'Tv Show' || movie.badge === 'Tv Show' ? movie.badge === 'blue' ? 'bg-blue-500 border border-white' : 'bg-blue-500 border border-white' : movie.status === 'Sports' || movie.badge === 'Sports' ? movie.badge === 'orange' ? 'bg-orange-500 border border-white' : 'bg-orange-500 border border-white' : ''} text-black font-bold py-2 px-4 rounded-3xl absolute top-0 right-0 m-1 animate-pulse ${movie.status === 'new' || movie.badge === 'new' ? '-slow' : ''}`}>
+  {movie.status || movie.badge}
+</span>
+
+
+
+
+
+</div>
+
+
           <div className="mt-4">
-          <div className="relative overflow-hidden rounded-3xl  shadow-md"  width="626" height="417"  >
             <h1 className="text-2xl font-bold leading-normal mb-2" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
               {movie.title}
             </h1>
             <a href={movie.link} className="text-xl font-bold leading-normal mb-2 text-yellow-500 " target="_blank" style={{ textShadow: "2px 2px 4px #000" }}>IMDb Rating : {movie.rating}</a>
             <p className={`${styles.yearRelease} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Year Release : {movie.yearRelease}</p>
             <p className={`${styles.genre} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Genre : {movie.genre}</p>
-            <span className={`${movie.status === 'New Movie' || movie.badge === 'New Movie' ? 'bg-green-500 border border-white' : movie.status === 'New Series' || movie.badge === 'New Series' ? 'bg-yellow-500 border border-white' : movie.status === 'Updated' || movie.badge === 'Updated' ? 'bg-yellow-500 border border-white' : movie.status === 'Live Sports' || movie.badge === 'Live Sports' ? 'bg-red-500 border border-white' : movie.status === 'Tv Show' || movie.badge === 'Tv Show' ? movie.badge === 'blue' ? 'bg-blue-500 border border-white' : 'bg-blue-500 border border-white' : movie.status === 'Sports' || movie.badge === 'Sports' ? movie.badge === 'orange' ? 'bg-orange-500 border border-white' : 'bg-orange-500 border border-white' : ''} text-black font-bold py-2 px-4  my-8 rounded-3xl absolute top-0 right-0 m-1 animate-pulse ${movie.status === 'new' || movie.badge === 'new' ? '-slow' : ''}`}>
-  {movie.status || movie.badge}
-</span>
           </div>
-        </div>
-       
         </div>
       ))}
     </div>
   </section>
 </main>
-
       </div>
     </div>
   );
