@@ -1,7 +1,7 @@
 const express = require('express');
 const next = require('next');
 const path = require('path');
-const compression = require('compression'); // import the compression package
+const fs = require('fs');
 
 const port = process.env.PORT || 3000;
 const dev = process.env.NODE_ENV !== 'production';
@@ -16,9 +16,6 @@ app.prepare().then(() => {
     maxAge: dev ? '0' : '365d',
     immutable: true
   }));
-
-  // Compress static files with gzip
-  server.use(compression());
 
   // Serve Next.js pages
   server.get('*', (req, res) => handle(req, res));
