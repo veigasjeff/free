@@ -1,10 +1,23 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
 });
 
 module.exports = withBundleAnalyzer({
-  // Your Next.js configuration options here
+  webpack(config, { isServer }) {
+    if (!isServer) {
+      config.performance = {
+        maxAssetSize: 1024 * 1024,
+        maxEntrypointSize: 1024 * 1024,
+      };
+    }
+
+    return config;
+  },
 });
+
+
+
+
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
@@ -22,6 +35,7 @@ module.exports = {
     return config;
   },
 };
+
 
 module.exports = {
   // Other configuration options...
