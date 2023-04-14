@@ -142,12 +142,12 @@ const schemaData   = {
     <div className="flex flex-wrap justify-center">
       {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
         <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
-         <div className="bg-gray-600">
+         <div className="relative bg-gray-600" loading="lazy" >
             <img className="w-full h-full object-cover rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417" />
             <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center"></a>
             </div>
           <div className="mt-4">
-          <div className="relative overflow-hidden rounded-3xl  shadow-md"  width="626" height="417" loading="lazy" >
+          <div className="relative overflow-hidden rounded-3xl  shadow-md"  width="626" height="417"  >
             <h1 className="text-2xl font-bold leading-normal mb-2" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
               {movie.title}
             </h1>
