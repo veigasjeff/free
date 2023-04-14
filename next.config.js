@@ -1,20 +1,10 @@
-const withBundleAnalyzer = require("@next/bundle-analyzer")({
-  enabled: process.env.ANALYZE === "true",
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
 });
 
 module.exports = withBundleAnalyzer({
-  webpack(config, { isServer }) {
-    if (!isServer) {
-      config.performance = {
-        maxAssetSize: 1024 * 1024,
-        maxEntrypointSize: 1024 * 1024,
-      };
-    }
-
-    return config;
-  },
+  // Your Next.js configuration options here
 });
-
 
 
 

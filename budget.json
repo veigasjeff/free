@@ -1,9 +1,0 @@
-{
-    "webpack": {
-      "bundlesize": {
-        "javascript": 1024,
-        "css": 1024
-      }
-    }
-  }
-  
