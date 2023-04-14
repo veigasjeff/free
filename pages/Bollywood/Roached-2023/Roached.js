@@ -2,21 +2,19 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+
 import React, { useEffect, useState } from 'react';
-import styles from '@styles/video-player.module.css';
+;
+import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
+
 import ShareButtons from '@components/ShareButtons';
 
 
 
 
 
-function Roached({ movie }) {
-  
-
-  if (!movie) {
-    return <div className="text-3xl text-red-600 text-center">Loading...</div>;
-  }
+const Farzi  = () => {
   useEffect(() => {
     const handleContextmenu = e => {
         e.preventDefault()
@@ -26,113 +24,121 @@ function Roached({ movie }) {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
-  const scrollSearch = myKey => {
-    window.scrollTo(0, 0);
-    frontMatter.handleSearch(myKey)
-  };
-  const [showPopup, setShowPopup] = useState(false);
+const schemaData   = {
+  "@context": "https://schema.org",
   
-  function togglePopup() {
-    setShowPopup(!showPopup);
-  }
-  const schemaData   = {
-    "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://uwatchfree.vercel.app/Bollywood/Farzi-2023/Farzi"
     
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://uwatchfree.vercel.app/Bollywood/Roached-2023/Roached"
-      
+  },
+  "headline": "Farzi (2023) Full Movie Online Free | Uwatchfree™",
+  "image": "https://uwatchfree.vercel.app/farzi-2023.webp",
+
+  "datePublished": '2023-01-01T09:00:00.000Z',
+  "dateModified": '2023-01-01T09:00:00.000Z',
+  "author": [{
+      "@type": "Person",
+      "name": "DrTrailer",
+      "url": "https://uwatchfree.vercel.app/DrTrailer.webp"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "Uwatchfree",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://uwatchfree.vercel.app/og_image.jpg"
+      }
     },
-    "headline": "Roached (2023) Full Movie Online Free | Uwatchfree™",
-    "image": "https://uwatchfree.vercel.app/roached-2023.webp",
-  
-    "datePublished": '2023-01-01T09:00:00.000Z',
-    "dateModified": '2023-01-01T09:00:00.000Z',
-    "author": [{
-        "@type": "Person",
-        "name": "DrTrailer",
-        "url": "https://uwatchfree.vercel.app/DrTrailer.webp"
-      }],
-    
-    "publisher": {
-        "@type": "Organization",
-        "name": "Uwatchfree",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://uwatchfree.vercel.app/og_image.jpg"
-        }
-      },
-    "description": "Uwatchfree™ Roached (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
-  
-  };
+  "description": "Uwatchfree™ Farzi (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+
+};
+const scrollSearch = myKey => {
+  window.scrollTo(0, 0);
+  frontMatter.handleSearch(myKey)
+};
+const [showPopup, setShowPopup] = useState(false);
+
+function togglePopup() {
+  setShowPopup(!showPopup);
+}
+
   return (
     <div>
-        <script
+               <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
-    <Head>
-     <title>Watch {movie.name} (2023) Full Movie Online Free | Uwatchfree™</title>
+     <Head>
+     <title>Watch Farzi (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch roached movie,index of roached movie,roached movie 2023,roached movie online,watch roached movie online free,roached tv series,roached movie download,roached movie free download,roached movie download" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch farzi movie,index of farzi movie,farzi movie 2023,farzi movie online,watch farzi movie online free,farzi tv series,farzi movie download,farzi movie free download,farzi movie download" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Roached (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Bollywood/Roached-2023/Roached" />
-<meta property="og:image" content="https://uwatchfree.vercel.app/roached-2023.webp" />
+
+<meta property="og:title" content="Watch Farzi (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Bollywood/Farzi-2023/Farzi" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/farzi-2023.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Roached (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://uwatchfree.vercel.app/roached-2023.webp" />
-<meta name="description" content="Watch Roached Full Movie Online on Uwatchfree™, You can also download Roached (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Farzi (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/farzi-2023.webp" />
+<meta name="description" content="Watch Farzi Full Movie Online on Uwatchfree™, You can also download Farzi (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Roached-2023/" />
-       </Head>
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Farzi-2023/" />
+ 
 
-       <div className="bg-gray-600 shadow ">
+      </Head>
 
+      <div className="bg-gray-600 ">
 
+        
+    
+        
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch Farzi (2023) </h1>
 
-       <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - 2023</h1>
-       <div className={styles['iframe-container']}>
-      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-        src={movie['movie.watchP1']}
-        width="100%"
-        height="500px"
-        allowFullScreen
-      ></iframe>
-           </div>  
-           <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
+    <div className={styles['iframe-container']}>
+    <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src="https://sbhight.com/e/enxmfqt63cuz.html" />
+    </div>    
+    <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
 <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
 
 
-       
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-           <a href="../Roached-2023/RAHSR1" >  
-      <h2 > Watch {movie.name} (2023) Server 2</h2></a></button>
-      <Rating />
-      <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank">IMDb Rating: {movie.rating}</a>  
-      
-      <ul className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }}>
-        <li>Starring: {movie.starring.join(', ')}</li>
-        <li>Year of release: {movie.yearRelease}</li>
-        <li>Director: {movie.director}</li>
-        <li>Country: {movie.country}</li>
-        <li>Genre: {movie.genre}</li>
-        <p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
-      </ul>
-     
-           <img  src={movie.poster} alt={`Poster for ${movie.title}`} className="mx-auto my-10 rounded-3xl  " />
-       
-   
-      <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    <a href="../Farzi-2023/FARSR2" > 
+      <h2 > Watch Farzi (2023) Server 2</h2></a></button>
+    <div className="flex flex-col space-y-4 m-8">
+    <Rating /></div>
+    <div className="flex flex-col space-y-4 ...">
+    <div className="flex items-center  justify-center">
+    <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+    <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Second star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+    <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Third star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+    <svg aria-hidden="true" className="w-10 h-10 text-gray-300 dark:text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fifth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+   <h2 className="text-white font-bold text-xl ">  8.6 Out of 10</h2>
+    
+</div>
+<div>
+      <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
+    <a href="https://www.imdb.com/title/tt15477488/" target="_blank" > 
+     <h2 >IDBM Ranking</h2></a></button></div>
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }} >
+<h2 ><strong>Genre:</strong>Action, Drama, Crime.</h2>
+<h2 ><strong>Release year:</strong> 2022</h2>
+<h2 ><strong>Director:</strong>Krishna D.K., Raj Nidimoru</h2>
+<h2 ><strong>Country:</strong> India</h2>
+<h2 ><strong>Starring:</strong>Shahid Kapoor, Vijay Sethupathi, Bhuvan Arora, 	Jaswant Dalal, Raashi Khanna, Kay Kay Menon, Amol Palekar, Chittaranjan Giri, Zakir Hussain, Saqib Ayub, 	Saurav Chakrabarti, Vijayakumar, Abdul Majid Shaikh, Shaurya Shanker, Prammod Sanghi.</h2>
+<h2 ><strong>Description:</strong>An artist who gets pulled into the murky high stakes of a con job and a fiery task force officer on the mission to rid the country of his menaces in a fast-paced, edgy one-of-a-kind thriller.</h2>
+</div>
+<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
 
@@ -146,11 +152,11 @@ function Roached({ movie }) {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer {movie.name} (2023) </h2>
-           <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src={movie['movie.trailer']} />
+          <h2 className="text-2xl font-bold" >Offical Trailer Farzi (2023) </h2>
+          <div className={styles['iframe-container']}>
+    <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src="https://sbhight.com/e/qqnwgl4zwtfz.html" />
                    
-             </div></div>
+             </div>  </div>
           </div>
        
       )}
@@ -187,50 +193,43 @@ function Roached({ movie }) {
           }
         }
       `}</style>
-  <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+    </div>
+
+
+    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
- <h3  className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} (2023) </h3>
- <a href={movie.download1} >
+ <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Farzi (2023) </h3>
+ <Link href="../../Bollywood/Farzi-2023/DownloadFAR1">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
-</button></a>
+</button></Link>
 
-<h3 className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} (2023)</h3>
-<a href={movie.download2} >
+<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Farzi (2023)</h3>
+<Link href="../../Bollywood/Farzi-2023/DownloadFAR2">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
-</button></a>
+</button></Link>
+
+
 
 
 <Max />
 
-<Link href="../../BollywoodAds"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+<Link href="../../BollywoodAds">
+
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
   Back To Bollywood Section
-
-</buton></Link>
+ 
+</button></Link>
  
 
 
-
-
- </div> 
+</div>
     </div> </div>
-  );
+  )
 }
 
-export async function getServerSideProps() {
-  const res = await fetch('http://uwatchfree.vercel.app/movies.json');
-
-  const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'RAH');
-  return {
-    props: {
-      movie: selectedMovie
-    }
-  };
-}
- 
-export default Roached;
+export default Farzi ;

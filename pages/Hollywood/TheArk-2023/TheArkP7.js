@@ -2,21 +2,17 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+
 import React, { useEffect, useState } from 'react';
-import styles from '@styles/video-player.module.css';
+;
+import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
+
 import ShareButtons from '@components/ShareButtons';
 
 
 
-
-
-function TheArkP7({ movie }) {
-  
-
-  if (!movie) {
-    return <div className="text-3xl text-red-600 text-center">Loading...</div>;
-  }
+const TheArkP7  = () => {
   useEffect(() => {
     const handleContextmenu = e => {
         e.preventDefault()
@@ -26,55 +22,55 @@ function TheArkP7({ movie }) {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
-  const scrollSearch = myKey => {
-    window.scrollTo(0, 0);
-    frontMatter.handleSearch(myKey)
-  };
-  const [showPopup, setShowPopup] = useState(false);
+const schemaData   = {
+  "@context": "https://schema.org",
   
-  function togglePopup() {
-    setShowPopup(!showPopup);
-  }
-  const schemaData   = {
-    "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://uwatchfree.vercel.app/Hollywood/TheArk-2023/TheArkP1"
     
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://uwatchfree.vercel.app/Hollywood/TheArk-2023/TheArkP1"
-      
+  },
+  "headline": " The Ark (2023) Full Movie Online Free | Uwatchfree™",
+  "image": "https://uwatchfree.vercel.app/the-ark-2023.webp",
+
+  "datePublished": '2023-01-01T09:00:00.000Z',
+  "dateModified": '2023-01-01T09:00:00.000Z',
+  "author": [{
+      "@type": "Person",
+      "name": "DrTrailer",
+      "url": "https://uwatchfree.vercel.app/DrTrailer.webp"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "uwatchfree",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://uwatchfree.vercel.app/og_image.jpg"
+      }
     },
-    "headline": " The Ark (2023) Full Movie Online Free | Uwatchfree™",
-    "image": "https://uwatchfree.vercel.app/the-ark-2023.webp",
-  
-    "datePublished": '2023-01-01T09:00:00.000Z',
-    "dateModified": '2023-01-01T09:00:00.000Z',
-    "author": [{
-        "@type": "Person",
-        "name": "DrTrailer",
-        "url": "https://uwatchfree.vercel.app/DrTrailer.webp"
-      }],
-    
-    "publisher": {
-        "@type": "Organization",
-        "name": "uwatchfree",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://uwatchfree.vercel.app/og_image.jpg"
-        }
-      },
-    "description": "Uwatchfree™  The Ark (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
-  
-  };
+  "description": "Uwatchfree™  The Ark (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+
+};
+const scrollSearch = myKey => {
+  window.scrollTo(0, 0);
+  frontMatter.handleSearch(myKey)
+};
+const [showPopup, setShowPopup] = useState(false);
+
+function togglePopup() {
+  setShowPopup(!showPopup);
+}
   return (
     <div>
-        <script
+               <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
-      <Head>
-     <title>Watch {movie.name} (2023) Full Movie Online Free | Uwatchfree™</title>
-     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+     <Head>
+     <title>Watch The Ark (2023) Full Movie Online Free | Uwatchfree™</title>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch the ark movie,index of the ark movie,the ark movie 2023,the ark movie online,watch the ark movie online free,the ark tv series,the ark movie download,the ark movie free download,the ark movie download" />
 <meta property="og:locale" content="en_US" />   
 
@@ -95,104 +91,96 @@ function TheArkP7({ movie }) {
 <meta name="description" content="Watch The Ark Full Movie Online on Uwatchfree™, You can also download The Ark (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/TheArk-2023/" />  
-       </Head>
- 
-       <div className="bg-gray-600 shadow ">
-      <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - EPISODE 7</h1>
-      <div className={styles['iframe-container']}>
-      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-        src={movie['movie.watchP7']}
-        width="100%"
-        height="500px"
-        allowFullScreen
-      ></iframe>
-           </div>  
-           <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
+
+      </Head>
+
+      <div className="bg-gray-600 ">
+
+        
+    
+        
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch The Ark (2023) </h1>
+
+    <div className={styles['iframe-container']}>
+      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/54xkvzvk9iqq.html" />
+    </div>    
+    <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
 <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
 
 
-           <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
     
     <div className="flex justify-center">
-    <Link href="../../Hollywood/TheArk-2023/TheArkP1">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 1
-      </button></Link>
-    </div>
-    <div className="flex justify-center">
-    <Link href="../../Hollywood/TheArk-2023/TheArkP2">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 2
-      </button></Link>
-    </div>
-    <div className="flex justify-center">
-    <Link href="../../Hollywood/TheArk-2023/TheArkP3">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 3
-      </button></Link>
-      </div>
-      <div className="flex justify-center">
-      <Link href="../../Hollywood/TheArk-2023/TheArkP4">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 4
-      </button></Link>
-      </div>
-      <div className="flex justify-center">
-      <Link href="../../Hollywood/TheArk-2023/TheArkP5">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 5
-      </button></Link>
-      </div>
-      <div className="flex justify-center">
-      <Link href="../../Hollywood/TheArk-2023/TheArkP6">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 6
-      </button></Link>
-      </div>
-      <div className="flex justify-center">
-      <Link href="../../Hollywood/TheArk-2023/TheArkP7">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 7
-      </button></Link>
-      </div>
-      <div className="flex justify-center">
-      <Link href="../../Hollywood/TheArk-2023/TheArkP8">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 8
-      </button></Link>
-      </div>
-      <div className="flex justify-center">
-      <Link href="../../Hollywood/TheArk-2023/TheArkP9">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 9
-      </button></Link>
-      </div>
-      <div className="flex justify-center">
-      <Link href="../../Hollywood/TheArk-2023/TheArkP10">
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-  Episode 10
-      </button></Link>
-      </div>
-      </div>
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-           <a href="../TheArk-2023/ARKSR7" >  
-      <h2 > Watch {movie.name} (2023) Server 2</h2></a></button>
-      <Rating />
-      <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank">IMDb Rating: {movie.rating}</a>  
-      
-      <ul className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }}>
-        <li>Starring: {movie.starring.join(', ')}</li>
-        <li>Year of release: {movie.yearRelease}</li>
-        <li>Director: {movie.director}</li>
-        <li>Country: {movie.country}</li>
-        <li>Genre: {movie.genre}</li>
-        <p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
-      </ul>
-     
-           <img  src={movie.poster} alt={`Poster for ${movie.title}`} className="mx-auto my-10 rounded-3xl  " />
-       
-   
-      <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+  <Link href="../../Hollywood/TheArk-2023/TheArkP1">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    Episode 1
+    </button></Link>
+  </div>
+  <div className="flex justify-center">
+  <Link href="../../Hollywood/TheArk-2023/TheArkP2">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    Episode 2
+    </button></Link>
+  </div>
+  <div className="flex justify-center">
+  <Link href="../../Hollywood/TheArk-2023/TheArkP3">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    Episode 3
+    </button></Link>
+  </div>
+  <div className="flex justify-center">
+  <Link href="../../Hollywood/TheArk-2023/TheArkP4">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    Episode 4
+    </button></Link>
+  </div>
+  <div className="flex justify-center">
+  <Link href="../../Hollywood/TheArk-2023/TheArkP5">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    Episode 5
+    </button></Link>
+  </div>
+  <div className="flex justify-center">
+  <Link href="../../Hollywood/TheArk-2023/TheArkP6">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    Episode 6
+    </button></Link>
+  </div>
+  <div className="flex justify-center">
+  <Link href="../../Hollywood/TheArk-2023/TheArkP7">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    Episode 7
+    </button></Link>
+  </div>
+</div>
+ <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    <a href="../TheArk-2023/ARKSR7" > 
+      <h2 > Watch The Ark (2023) Server 2</h2></a></button>
+       <div className="flex flex-col space-y-4 m-8">
+ 
+    <Rating /></div>
+    <div className="flex flex-col space-y-4 ...">
+    <div className="flex items-center  justify-center">
+    <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+    <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Second star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+    <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Third star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+    <svg aria-hidden="true" className="w-10 h-10 text-gray-300 dark:text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fifth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+   <h2 className="text-white font-bold text-xl ">  3.8 Out of 10</h2>
+    
+</div>
+<div>
+      <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
+    <a href="https://www.imdb.com/title/tt17371078/" target="_blank" > 
+     <h2 >IDBM Ranking</h2></a></button></div>
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50"style={{ textShadow: "0px 0px 2px #000" }} >
+<h2 ><strong>Genre:</strong> Mystery, Drama, Sci-Fi.</h2>
+<h2 ><strong>Release year:</strong> 2023</h2>
+<h2 ><strong>Director:</strong>Dean Devlin</h2>
+<h2 ><strong>Country:</strong> USA</h2>
+<h2 ><strong>Starring:</strong> Christie Burke, Reece Ritchie, Richard Fleeshman, Stacey Read, Ryan Adams, Pavle Jerinic, Shalini Peiris, Christina Wolfe, Tiana Upcheva, Steven William Moore, Jelena Moore, Miles Barrow, Chris Leask, Michael Stokey, Cosmo Kay.</h2>
+<h2 ><strong>Description:</strong> Follows the remaining crew of a spacecraft known as Ark One, who must become the best versions of themselves to stay on course and survive after experiencing a catastrophic event that caused massive destruction and loss of life.</h2>
+</div>
+<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
 
@@ -206,9 +194,9 @@ function TheArkP7({ movie }) {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer {movie.name} (2023) </h2>
+          <h2 className="text-2xl font-bold" >Offical Trailer The Ark (2023) </h2>
            <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src={movie['movie.trailer']} />
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbbrisk.com/e/5parrcyd21vq.html" />
                    
              </div></div>
           </div>
@@ -247,50 +235,39 @@ function TheArkP7({ movie }) {
           }
         }
       `}</style>
-  <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+    </div>
+
+
+    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
- <h3  className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} (2023) </h3>
- <a href={movie.download1} >
+ <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">The Ark (2023) </h3>
+ <Link href="../../Hollywood/TheArk-2023/DownloadARK1">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
-</button></a>
+</button></Link>
 
-<h3 className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} (2023)</h3>
-<a href={movie.download2} >
+<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">The Ark (2023)</h3>
+<Link href="../../Hollywood/TheArk-2023/DownloadARK2">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
-</button></a>
+</button></Link>
 
 
 <Max />
 
-<Link href="../../BollywoodAds"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+<Link href="../../HollywoodAds"><button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
-  Back To Bollywood Section
+  Back To Hollywood Section
 
-</buton></Link>
+</button></Link>
  
 
 
-
-
- </div> 
+</div>
     </div> </div>
-  );
+  )
 }
 
-export async function getServerSideProps() {
-  const res = await fetch('http://uwatchfree.vercel.app/movies.json');
-
-  const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'ARK');
-  return {
-    props: {
-      movie: selectedMovie
-    }
-  };
-}
- 
-export default TheArkP7;
+export default TheArkP7 ;
