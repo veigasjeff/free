@@ -5,7 +5,9 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 ;
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import WorldClock from '@components/WorldClock';
 
 
@@ -63,7 +65,7 @@ const Ch01 = () => {
 
    </Head>
 
-<div className="bg-[#1a202c] ">
+<div className="bg-gray-600 shadow ">
 <WorldClock />
 
 
@@ -83,7 +85,8 @@ const Ch01 = () => {
    
 
     </div>
-    <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: In the Player Setting Pls Select  to <a className="mb-9 text-xl  text-black-500 text-blue-600 text-center xl:px-4 "> UNMUTE PLAYER </a> it Takes time  to Unmute.</h3>
+ <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: In the Player Setting Pls Select  to <a className="mb-9 text-xl  text-black-500 text-blue-600 text-center xl:px-4 "> UNMUTE PLAYER </a> it Takes time  to Unmute.</h3>
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
     </div>
   
     
@@ -97,7 +100,9 @@ const Ch01 = () => {
     
 </div>
 
-< ShareThis async defer />
+
+
+
     </div>
    
     

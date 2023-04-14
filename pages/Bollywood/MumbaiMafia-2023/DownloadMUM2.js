@@ -4,14 +4,16 @@
 import Head from "next/head"
 import Max from 'pages/Max';
 
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import Image from "next/image";
 
 
 const DownloadMUM2 = () => {
   return (
     <div>
-           <div className="bg-[#1a202c]">
+           <div className="bg-gray-600 shadow ">
   <Head>
    <script src="../../propler/ads.js" defer></script>  
  
@@ -20,6 +22,7 @@ const DownloadMUM2 = () => {
 
 
   <div className="flex flex-col items-center  justify-center space-y-12">
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
      DOWNLOAD MOVIE MUMBAI MAFIA (2023) LINK BELOW </h2>
   
@@ -43,7 +46,9 @@ Please Share the Link.</h2>
   Back
 
 </button></a>
- < ShareThis async defer />
+ 
+
+
 </div></div>
     </div> 
   )

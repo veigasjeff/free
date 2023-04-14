@@ -5,7 +5,9 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 ;
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import WorldClock from '@components/WorldClock';
 
 const scrollSearExtraCh = myKey => {
@@ -90,7 +92,9 @@ const ExtraCh01 = () => {
     
 </div>
 
-< ShareThis async defer />
+
+
+
     </div>
    
      </div>

@@ -8,7 +8,9 @@ import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
 import Max from 'pages/Max';
 
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 
 
 
@@ -106,6 +108,9 @@ function togglePopup() {
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://dood.yt/e/8p6zbt7u76o3" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+
+
     <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
     
     <div className="flex justify-center">
@@ -222,7 +227,9 @@ Download
   Back To Adult Section
 
 </button></Link>
-< ShareThis async defer />
+
+
+
 </div>
     </div> </div>
 

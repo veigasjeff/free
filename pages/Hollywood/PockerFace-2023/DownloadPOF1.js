@@ -1,18 +1,21 @@
 
 
 import Head from "next/head"
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 const DownloadPOF1 = () => {
   return (
     <div>
-           <div className="bg-[#1a202c]">
+           <div className="bg-gray-600 shadow ">
   <Head>
    <script src="../../propler/ads.js" defer></script>  
-  <meta name="robots" content="noindex" /> 
+   
 
   </Head>
 
   <div className="flex flex-col items-center  justify-center space-y-12">
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
      DOWNLOAD MOVIE Poker Face (2022) LINK BELOW </h2>
   
@@ -35,7 +38,9 @@ Please Share the Link.</h2>
 
 </button></a>
 </div>
-<ShareThis async defer />
+
+
+
 </div>
     </div> 
   )
