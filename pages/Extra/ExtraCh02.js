@@ -5,7 +5,9 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 ;
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import WorldClock from '@components/WorldClock';
 
 const scrollSearExtraCh = myKey => {
@@ -87,7 +89,9 @@ const ExtraCh02 = () => {
       <h1 > Watch Channel List</h1></a></button>
      
 </div>
-< ShareThis async defer />
+
+
+
     </div>
  
      </div>

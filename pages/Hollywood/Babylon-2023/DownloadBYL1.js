@@ -4,7 +4,9 @@
 import Head from "next/head"
 import Max from 'pages/Max';
 
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import Image from "next/image";
  
 
@@ -44,7 +46,9 @@ Please Share the Link.</h2>
   Back
 
 </button></a>
- < ShareThis async defer />
+ 
+
+
 </div></div>
     </div> 
   )

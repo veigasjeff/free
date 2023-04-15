@@ -5,7 +5,9 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 
 
 
@@ -107,6 +109,9 @@ function BDNSR3 ({ movie }) {
       ></iframe>
            </div>  
            <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+
+
            <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
     
     <div className="flex justify-center">
@@ -225,7 +230,9 @@ Download
   Back To Adult Section
 
 </buton></Link>
- < ShareThis async defer />
+ 
+
+
 
 
  </div> 
@@ -234,7 +241,8 @@ Download
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://uwatchfree.vercel.app/movies.json');
+  const res = await fetch('http://uwatchfree.vercel.app/movies.json');
+
   const data = await res.json();
   const selectedMovie = data.find(movie => movie.id === 'BDN');
   return {

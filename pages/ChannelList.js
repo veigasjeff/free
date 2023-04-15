@@ -2,7 +2,9 @@ import Table from '@components/Table '
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react';
 
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import WorldClock from '@components/WorldClock';
 
 const ChannelList = () => {
@@ -28,7 +30,9 @@ const ChannelList = () => {
           </button></Link>
           </div>
 <Table />
-< ShareThis async defer />
+
+
+
   </div>
 
   

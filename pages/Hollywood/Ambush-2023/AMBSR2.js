@@ -8,7 +8,9 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 
 const AMBSR2  = () => {
   useEffect(() => {
@@ -212,7 +214,9 @@ Download
   Back To Hollywood Section
 
 </button></Link>
- < ShareThis async defer />
+ 
+
+
 </div>
     </div> </div>
   )

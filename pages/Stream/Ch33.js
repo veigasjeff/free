@@ -5,7 +5,9 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 ;
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import WorldClock from '@components/WorldClock';
 
 const scrollSearch = myKey => {
@@ -61,7 +63,7 @@ const Ch33 = () => {
 <link rel="canonical" href="https://uwatchfree.vercel.app/" />
 
   </Head>
-    <div className="bg-[#1a202c] ">
+    <div className="bg-gray-600 shadow ">
 <WorldClock />
 
     <h1 className=" py-5 font-bold leading-none tracking-tight text-green-500  text-center text-3xl dark:text-white">
@@ -79,7 +81,8 @@ const Ch33 = () => {
    
 
     </div>
-    <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: In the Player Setting Pls Select  to <a className="mb-9 text-xl  text-black-500 text-blue-600 text-center xl:px-4 "> UNMUTE PLAYER </a> it Takes time  to Unmute.</h3>
+ <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: In the Player Setting Pls Select  to <a className="mb-9 text-xl  text-black-500 text-blue-600 text-center xl:px-4 "> UNMUTE PLAYER </a> it Takes time  to Unmute.</h3>
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
     </div>
     
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
@@ -90,7 +93,9 @@ const Ch33 = () => {
       <h1 > Watch Channel List</h1></a></button>
      
 </div>
-< ShareThis async defer />
+
+
+
     </div>
  
      </div>

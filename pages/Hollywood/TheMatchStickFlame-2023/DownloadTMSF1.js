@@ -4,7 +4,9 @@
 import Head from "next/head"
 import Max from 'pages/Max';
 
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import Image from "next/image";
 
 
@@ -21,6 +23,7 @@ const DownloadTMSF1 = () => {
 
 
   <div className="flex flex-col items-center  justify-center space-y-12">
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
      DOWNLOAD MOVIE THE MATCH-STICK FLAME 2 (2023) LINK BELOW </h2>
   
@@ -44,7 +47,9 @@ Please Share the Link.</h2>
   Back
 
 </button></a>
- < ShareThis async defer />
+ 
+
+
 </div></div>
     </div> 
   )
