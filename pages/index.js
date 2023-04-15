@@ -143,9 +143,9 @@ const schemaData   = {
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
                  <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
-  <img className="w-full h-full object-cover container rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417"  />
+  <img className=" object-cover container rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title} width="626" height="417"  />
 
-  <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center  "  >
+  <a href={movie['movie.watch']} className="absolute inset-0    "  >
    
   </a>
   <span className={`${movie.status === 'New Movie' || movie.badge === 'New Movie' ? 'bg-green-500 border border-white' : movie.status === 'New Series' || movie.badge === 'New Series' ? 'bg-yellow-500 border border-white' : movie.status === 'Updated' || movie.badge === 'Updated' ? 'bg-yellow-500 border border-white' : movie.status === 'Live Sports' || movie.badge === 'Live Sports' ? 'bg-red-500 border border-white' : movie.status === 'Tv Show' || movie.badge === 'Tv Show' ? movie.badge === 'blue' ? 'bg-blue-500 border border-white' : 'bg-blue-500 border border-white' : movie.status === 'Sports' || movie.badge === 'Sports' ? movie.badge === 'orange' ? 'bg-orange-500 border border-white' : 'bg-orange-500 border border-white' : ''} text-black font-bold py-2 px-4 rounded-3xl absolute top-0 right-0 m-2 animate-pulse ${movie.status === 'new' || movie.badge === 'new' ? '-slow' : ''}`}>
