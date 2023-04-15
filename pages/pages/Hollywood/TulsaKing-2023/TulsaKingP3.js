@@ -8,7 +8,9 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 
 const TulsaKingP3  = () => {
   useEffect(() => {
@@ -104,6 +106,9 @@ function togglePopup() {
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/5vceki6ilbly.html" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+
+
    
     <div className="grid grid-cols-2 sm:grid-cols-5 x:grid-cols-3 gap-4">
     
@@ -271,7 +276,9 @@ Download
   Back To Hollywood Section
 
 </button></Link>
- < ShareThis async defer />
+ 
+
+
 </div>
     </div> </div>
   )

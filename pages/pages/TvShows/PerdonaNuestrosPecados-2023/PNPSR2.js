@@ -6,7 +6,9 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 
-import ShareThis from '@components/ShareThis';
+import ShareButtons from '@components/ShareButtons';
+
+
 import WorldClock from '@components/WorldClock';
 
 const PNPSR2  = () => {
@@ -103,6 +105,9 @@ function togglePopup() {
     <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://daddylivehd.sx/embed/stream-132.php" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0" />
     </div>     
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
+<ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+
+
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
    
    <a href="../PerdonaNuestrosPecados-2023/PerdonaNuestrosPecados" > 
@@ -204,7 +209,9 @@ function togglePopup() {
   Back To Tv Show Section
 
 </button></Link>
- < ShareThis async defer />
+ 
+
+
 </div>
     </div> </div>
   )
