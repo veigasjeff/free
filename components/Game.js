@@ -1,12 +1,14 @@
 import React from 'react';
-import sports from '../public/sports.json';
+
 import WorldClock from '@components/WorldClock';
 
 const Game = () => {
   const now = new Date();
   
+
   // Set the timezone to UTC
   const options = { timeZone: 'UTC' };
+
   
   return (
     <div>
