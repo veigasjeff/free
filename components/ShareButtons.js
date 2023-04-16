@@ -17,7 +17,7 @@ import {
     
     return (
       <>
-       <div className="bg-gray-500 shadow container  flex gap-2 justify-center p-2 mx-auto " loading="lazy" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+       <div className="bg-gray-600 shadow container  flex gap-2 justify-center p-2  " style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
         <FacebookShareButton url={url} quote={title} hashtag="#drtrailer">
           <FacebookIcon size={48} round  />
         </FacebookShareButton>

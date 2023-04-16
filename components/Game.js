@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
+
 
 import WorldClock from '@components/WorldClock';
 
 const Game = () => {
+  const [sports, setSports] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('https://res.cloudinary.com/dezf3wemk/raw/upload/v1681643425/json/sports.json');
+      const data = await response.json();
+      setSports(data);
+    };
+    fetchData();
+  }, []);
+  
   const now = new Date();
   
-
   // Set the timezone to UTC
   const options = { timeZone: 'UTC' };
-
   
   return (
     <div>

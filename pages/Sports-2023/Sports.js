@@ -33,7 +33,7 @@ export default function Home () {
   );
 }
 export async function getServerSideProps() {
-  const res = await fetch('https://res.cloudinary.com/dezf3wemk/raw/upload/v1681643425/json/sports.json');
+  const res = await fetch('https://res.cloudinary.com/dezf3wemk/raw/upload/v1681645029/json/movies.json');
 
   const data = await res.json();
   const selectedMovie = data.find(movie => movie.id === 'WSL');

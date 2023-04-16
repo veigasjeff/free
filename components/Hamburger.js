@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <div>
     
-      <nav className="w-full bg-gray-500  shadow">
+      <nav className="w-full bg-gray-600 shadow">
         <div className=" px-4 justify-center mx-auto md:items-center md:flex md:px-8">
         <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
            
-          <img src='/logo.png' alt='Logo' width={750} height={121} className="rounded-3xl " loading="lazy"/>
+          <Image src='/logo.png' alt='Logo' width={750} height={121} className="rounded-3xl "/>
               <a href="/">
                 
               </a>
