@@ -5,6 +5,7 @@ import Head from "next/head"
 import Max from 'pages/Max';
 
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 import Image from "next/image";
@@ -20,6 +21,7 @@ const DownloadVKV2 = () => {
 
 
   </Head>
+<Script src="../../propler/ads.js" defer />
 
 
   <div className="flex flex-col items-center  justify-center space-y-12">

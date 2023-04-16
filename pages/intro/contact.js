@@ -35,7 +35,7 @@ const contact = () => {
 	<meta name="twitter:title" content="Uwatchfree™ " />
 	<meta name="twitter:description" content=" Watch Movies, TV-Series & Sports Live Online Free " />
 	<meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
-  <script src="../../propler/ads.js" defer></script> 
+  
   
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
   <link rel="alternate" hrefLang="en-us" 	href="https://uwatchfree.vercel.app/"/>
@@ -48,6 +48,7 @@ const contact = () => {
 	<link rel="alternate" hrefLang="en-no" 	href="https://uwatchfree.vercel.app/"/>
 	<link rel="alternate" hrefLang="x-default" 	href="https://uwatchfree.vercel.app/"/>
       </Head>
+<Script src="../../propler/ads.js" defer />
   
 <div className="container my-24 px-6 mx-auto">
 

@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -92,9 +93,10 @@ function TheWatchfulEyeP3({ movie }) {
 <meta name="twitter:title" content="Watch The Watchful Eye S1 (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/the-watchful-eye-2023.webp" />
 <meta name="description" content="Watch The Watchful Eye S1 Full Movie Online on Uwatchfree™, You can also download The Watchful Eye S1 (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/TheWatchfulEye-2023/" />
        </Head>
+<Script src="../../propler/ads.js" defer />
  
        <div className="bg-gray-600 shadow ">
       <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - EPISODE 3</h1>

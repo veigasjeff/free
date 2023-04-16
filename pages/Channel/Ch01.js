@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 ;
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 import WorldClock from '@components/WorldClock';
@@ -55,7 +56,7 @@ const Ch01 = () => {
 <link rel="alternate" hrefLang="en-no" 	href="https://uwatchfree.vercel.app/"/>
 <link rel="alternate" hrefLang="x-default" 	href="https://uwatchfree.vercel.app/"/>
 
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -64,6 +65,7 @@ const Ch01 = () => {
 <link rel="canonical" href="https://uwatchfree.vercel.app/" />
 
    </Head>
+<Script src="../../propler/ads.js" defer />
 
 <div className="bg-gray-600 shadow ">
 <WorldClock />

@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 ;
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 import WorldClock from '@components/WorldClock';
@@ -62,6 +63,7 @@ const ExtraCh67 = () => {
 <link rel="canonical" href="https://uwatchfree.vercel.app/" />
 
   </Head>
+<Script src="../../propler/ads.js" defer />
     <div className="bg-[#1a202c] ">
 <WorldClock />
     <h1 className=" py-5 font-bold leading-none tracking-tight text-white  text-center text-3xl dark:text-white">

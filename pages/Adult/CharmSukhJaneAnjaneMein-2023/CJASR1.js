@@ -7,6 +7,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -93,9 +94,10 @@ function CJASR1({ movie }) {
 <meta name="twitter:title" content="Watch CharmSukhJaneAnjaneMein (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/charmsukh-jane-anjane-mein-2023.webp" />
 <meta name="description" content="Watch CharmSukhJaneAnjaneMein Full Movie Online on Uwatchfree™, You can also download CharmSukhJaneAnjaneMein (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/Adult/CharmSukhJaneAnjaneMein-2023/" />
        </Head>
+<Script src="../../propler/ads.js" defer />
 
        <div className="bg-gray-600 shadow ">
        <AdultSkipAds/>

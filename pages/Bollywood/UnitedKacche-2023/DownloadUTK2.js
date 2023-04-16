@@ -3,6 +3,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -89,9 +90,10 @@ function DownloadUTK2({ movie }) {
 <meta name="twitter:title" content="Watch United Kacche (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/united-kacche-2023.webp" />
 <meta name="description" content="Watch United Kacche Full Movie Online on Uwatchfree™, You can also download United Kacche (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/UnitedKacche-2023/" />
        </Head>
+<Script src="../../propler/ads.js" defer />
 
        <div className="bg-gray-600 shadow ">
 

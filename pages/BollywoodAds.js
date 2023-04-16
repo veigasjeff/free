@@ -36,6 +36,7 @@ function Most() {
    
 
     </Head>
+<Script src="../../propler/ads.js" defer />
       {showAd && !isClosed && (
         // ,Add your ad component here
         <>

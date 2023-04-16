@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -92,9 +93,10 @@ function CrimesAajKal({ movie }) {
 <meta name="twitter:title" content="Watch Crimes Aaj Kal (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/crimes-aaj-kal-2023.webp" />
 <meta name="description" content="Watch Crimes Aaj Kal Full Movie Online on Uwatchfree™, You can also download Crimes Aaj Kal (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/CrimesAajKal-2023/" />
        </Head>
+<Script src="../../propler/ads.js" defer />
 
        <div className="bg-gray-600 shadow ">
 

@@ -7,6 +7,7 @@ import styles from '@styles/video-player.module.css'
 import IPLHighlights from 'pages/IPLHighlights';
 
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 import MatchInfo from '@components/MatchInfo';
@@ -105,6 +106,7 @@ const scrollSearch = myKey => {
  
 
       </Head>
+<Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 ">
 

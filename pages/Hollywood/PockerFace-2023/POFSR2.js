@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -90,6 +91,7 @@ function togglePopup() {
  
 
       </Head>
+<Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
      
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Poker Face (2022) </h1>

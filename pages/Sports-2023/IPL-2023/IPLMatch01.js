@@ -7,6 +7,7 @@ import styles from '@styles/video-player.module.css'
 import IPLHighlights from 'pages/IPLHighlights';
 
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 import MatchInfo from '@components/MatchInfo';
@@ -100,11 +101,12 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch IPL PBKS VS GT (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/ipl-2023-match18.webp" />
 <meta name="description" content="Watch IPL PBKS VS GT (2023) Sports Online on Uwatchfree™, You can also download IPL PBKS VS GT (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/TvShows/IPL-2023/" />
  
 
       </Head>
+<Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 ">
 

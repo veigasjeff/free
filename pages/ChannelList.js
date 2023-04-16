@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react';
 
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 import WorldClock from '@components/WorldClock';

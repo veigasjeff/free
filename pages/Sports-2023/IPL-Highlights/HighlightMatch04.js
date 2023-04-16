@@ -5,6 +5,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -84,11 +85,12 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch IPL MATCH 04 SRH VS RR (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/ipl-2023-highlight04.webp" />
 <meta name="description" content="Watch IPL MATCH 04 SRH VS RR (2023) Sports Online on Uwatchfree™, You can also download IPL MATCH 04 SRH VS RR (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/TvShows/IPL-Highlights/" />
  
 
       </Head>
+<Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 ">
 

@@ -7,6 +7,7 @@ import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 import WorldClock from '@components/WorldClock';
@@ -87,11 +88,12 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch La casa de los famosos S3 (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/La-casa-de-los-amosos.webp" />
 <meta name="description" content="Watch La casa de los famosos S3 Tv Show Online on Uwatchfree™, You can also download La casa de los famosos S3 (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/TvShows/Lacasadelosfamosos-2023/" />
  
 
       </Head>
+<Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 ">
 

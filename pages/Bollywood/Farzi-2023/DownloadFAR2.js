@@ -5,6 +5,7 @@ import Head from "next/head"
 import Max from 'pages/Max';
 
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 import Image from "next/image";
@@ -15,10 +16,11 @@ const DownloadFAR2 = () => {
   return (
     <div>
             <Head>
-   <script src="../../propler/ads.js" defer></script>  
+    
 
 
   </Head>
+<Script src="../../propler/ads.js" defer />
 
            <div className="bg-gray-600 ">
 

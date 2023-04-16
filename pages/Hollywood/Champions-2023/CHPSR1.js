@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -92,9 +93,10 @@ function CHPSR1({ movie }) {
 <meta name="twitter:title" content="Watch CHPSR1 (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/champions-2023.webp" />
 <meta name="description" content="Watch CHPSR1 Full Movie Online on Uwatchfree™, You can also download CHPSR1 (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/Champions-2023/" />
        </Head>
+<Script src="../../propler/ads.js" defer />
 
        <div className="bg-gray-600 shadow ">
 

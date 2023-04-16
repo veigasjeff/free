@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -92,6 +93,7 @@ function togglePopup() {
  
 
       </Head>
+<Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 ">
 

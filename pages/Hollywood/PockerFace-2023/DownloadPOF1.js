@@ -2,6 +2,7 @@
 
 import Head from "next/head"
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 const DownloadPOF1 = () => {
@@ -9,10 +10,11 @@ const DownloadPOF1 = () => {
     <div>
            <div className="bg-gray-600 shadow ">
   <Head>
-   <script src="../../propler/ads.js" defer></script>  
+    
    
 
   </Head>
+<Script src="../../propler/ads.js" defer />
 
   <div className="flex flex-col items-center  justify-center space-y-12">
 <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />

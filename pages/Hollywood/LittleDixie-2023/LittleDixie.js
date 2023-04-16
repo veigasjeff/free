@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
+import Script from 'next/script';
 
 
 
@@ -86,11 +87,12 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Little Dixie (2023) | uwatchfree™" />
 <meta name="twitter:image" content="https://uwatchfree.vercel.app/little-dixie-2023.webp" />
 <meta name="description" content="Watch Little Dixie Full Movie Online on uwatchfree™, You can also download Little Dixie (2023) in full HD quality to watch later offline." />
-<script src="../../propler/ads.js" defer></script> 
+
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/LittleDixie-2023/" />
  
 
       </Head>
+<Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
       
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Little Dixie (2023) </h1>
