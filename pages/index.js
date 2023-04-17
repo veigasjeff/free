@@ -14,7 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     async function fetchMovies() {
-      const response = await fetch('https://res.cloudinary.com/dezf3wemk/raw/upload/v1681645029/json/movies.json');
+      const response = await fetch('https://res.cloudinary.com/dezf3wemk/raw/upload/v1681743164/json/movies.json');
       
       const data = await response.json();
       setMovies(data);
@@ -157,7 +157,7 @@ const schemaData   = {
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
                  <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
-  <img className="w-full h-full object-cover  rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title}  width={1000}  height={562.5} />
+  <img className="w-full h-full object-cover  rounded-3xl border border-white shadow-md" loading="eager" src={movie.poster} alt={movie.title}  width={1000}  height={562.5} quality={80} />
 
   <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center  "  >
    
