@@ -10,6 +10,7 @@ const Game = () => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('https://res.cloudinary.com/dezf3wemk/raw/upload/v1681643425/json/sports.json');
+      
       const data = await response.json();
       setSports(data);
     };
