@@ -5,38 +5,28 @@ import { PageTransition } from "../components/PageTransition";
 import GoogleAnalytics from "@bradgarropy/next-google-analytics"
 import Maintenance from './maintenance';
 import Script from 'next/script';
-import React, { useState } from 'react';
-
 
 function Application({ Component, pageProps }) {
-  const [isMaintenanceMode, setIsMaintenanceMode] = useState(true); // true is on for 3 hours
+  // Check if maintenance mode is enabled
+    const isMaintenanceMode = false;
 
-  const renderContent = () => {
     if (isMaintenanceMode) {
-      return <Maintenance setIsMaintenanceMode={setIsMaintenanceMode} />;
-    } else {
-      return (
-        <>
-          <div className="center">
-            <GoogleAnalytics measurementId="G-K8QKRZ4B44" />
-            <Script async data-id="101405628" src="//static.getclicky.com/js"></Script>
-     
-            <PageTransition>  
-              <Hamburger />
-              <Component {...pageProps} />
-              <Footer />
-            </PageTransition>
-          </div>
-        </>
-      );
+      return <Maintenance />;
     }
-  };
-
-  return (
-    <div>
-      {renderContent()}
-    </div>
+  return ( 
+    <>
+     <div className="center">
+    <GoogleAnalytics measurementId="G-K8QKRZ4B44" />
+    <Script async data-id="101405628" src="//static.getclicky.com/js"></Script>
+     
+      <PageTransition>  
+        <Hamburger />
+        <Component {...pageProps} />
+        <Footer />
+      </PageTransition>
+   </div>
+   </>
   );
 }
 
-export default Application;
+export default Application
