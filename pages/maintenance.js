@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 const Maintenance = ({ setIsMaintenanceMode }) => {
- const [remainingTime, setRemainingTime] = useState(1800); // 30 minutes in seconds
+// const [remainingTime, setRemainingTime] = useState(1800); // 30 minutes in seconds
  //const [remainingTime, setRemainingTime] = useState(10800); // 3 hours in seconds
-  useEffect(() => {
+ const [remainingTime, setRemainingTime] = useState(7200); // 2 hours in seconds 
+ 
+ useEffect(() => {
     const timerId = setInterval(() => {
       setRemainingTime(prevTime => prevTime - 1);
     }, 1000);
@@ -21,11 +23,21 @@ const Maintenance = ({ setIsMaintenanceMode }) => {
 
 
   //30 min timer
-  const formatTime = time => {
- const minutes = Math.floor(time / 60);
-  const seconds = time % 60;
-  return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
- };
+ // const formatTime = time => {
+ //const minutes = Math.floor(time / 60);
+ // const seconds = time % 60;
+ // return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+ //};
+ 
+  //2 Hrs timer
+ const formatTime = time => {
+    const hours = Math.floor(time / 3600);
+    const minutes = Math.floor((time % 3600) / 60);
+    const seconds = time % 60;
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  };
+
+  //3 Hrs timer
   // const formatTime = time => {
    // const hours = Math.floor(time / 3600);
   //  const minutes = Math.floor((time % 3600) / 60);
