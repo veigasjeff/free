@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { Image } from 'cloudinary-react'
 
 
 import WorldClock from '@components/WorldClock';
@@ -58,7 +58,7 @@ const Game = () => {
           <WorldClock /> </div>
       
           <div className="text-center">
-  <h2 className="inline-flex items-center my-5 justify-center text-4xl font-bold text-orange-500/75">{sport.sname}  <img src={sport.simg} className="w-10 h-10 mr-2 " loading="lazy" alt={sport.sname} /></h2>
+  <h2 className="inline-flex items-center my-5 justify-center text-4xl font-bold text-orange-500/75">{sport.sname}  <Image src={sport.simg} className="w-10 h-10 mr-2 " loading="lazy" alt={sport.sname} /></h2>
 </div>
 
             

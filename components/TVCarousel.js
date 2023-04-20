@@ -1,7 +1,7 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import { Image } from 'cloudinary-react'
 
 export const Carousel = () => {
   const images = [
@@ -30,7 +30,7 @@ export const Carousel = () => {
       {images.map((image, index) => (
         <div key={index}>
           <div onClick={() => handleImageClick(image.link)}  style={{  display: "flex", justifyContent: "center", cursor: 'pointer' }} >
-            <img
+            <Image
               className=" scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl"
               src={image.src}
               alt={image.alt}

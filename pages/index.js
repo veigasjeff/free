@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import ShareButtons from '@components/ShareButtons';
 import Marquee from '@components/Marquee';
+import { Image } from 'cloudinary-react'
 
 import React, { useEffect, useState } from 'react';
 
@@ -172,7 +173,7 @@ const schemaData   = {
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
                  <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
-  <img className="w-full h-full object-cover  rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title}  width={1000}  height={562.5} />
+  <Image className="w-full h-full object-cover  rounded-3xl border border-white shadow-md" loading="lazy" src={movie.poster} alt={movie.title}  width={1000}  height={562.5} />
 
   <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center  "  >
    
