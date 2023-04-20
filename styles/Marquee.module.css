@@ -1,0 +1,19 @@
+.marquee {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .content {
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
