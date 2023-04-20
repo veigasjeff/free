@@ -188,7 +188,7 @@ const schemaData   = {
          
           
             <h1 className="text-center font-bold text-3xl  py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Uwatchfree™ - High Definition Movies Tv Series & Sports Live. </h1>
-            <Marquee text="Uwatchfree™ - Sports CRICKET Today @GMT+1 11:00 Indian Premier League : Kings XI Punjab vs Royal Challengers Bangalore Live. | @GMT+1 15:00 Indian Premier League : Delhi Capitals vs Kolkata Knight Riders Live. SOCCER Today @GMT+1 20:00 UEFA Europa League : Sevilla vs Manchester United. Movies Latest " color="#40D7BC" fontSize="32px" isBold={true} speed={10}  />
+            <Marquee text="Watch Uwatchfree™ - Sports CRICKET Today @GMT+1 15:00 Indian Premier League : Chennai Super Kings and Sunrisers Hyderabad Live.  " color="#40D7BC" fontSize="32px" isBold={true} speed={20}  />
             <div className="flex flex-wrap justify-center">
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
@@ -205,10 +205,11 @@ const schemaData   = {
                   <div className="mt-4">
                   <h2 className="text-2xl font-bold leading-normal mb-2" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
   {movie.title} 
-</h2>
+</h2> 
 
 
-                    <a href={movie.link} className="text-xl font-bold leading-normal mb-2 text-yellow-500 " target="_blank" style={{ textShadow: "2px 2px 4px #000" }}>IMDb Rating : {movie.rating}</a>     
+                    <a href={movie.link} className="text-xl font-bold leading-normal mb-2 text-yellow-500 " target="_blank" style={{ textShadow: "2px 2px 4px #000" }}>IMDb Rating : {movie.rating}</a> 
+                        
                     <p className={`${styles.yearRelease} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Year Release : {movie.yearRelease}</p>
                     <p className={`${styles.genre} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Genre : {movie.genre}</p>
                   </div> 

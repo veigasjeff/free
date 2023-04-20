@@ -10,20 +10,24 @@ const Ad = ({ onClose }) => {
   };
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
+    const displayAd = () => {
       setIsVisible(true);
-    }, 30000); // 5 seconds delay in milliseconds
-
-    const interval = setInterval(() => {
-      setIsVisible(true);
-    }, 300000); // 5 minutes in milliseconds
-
-    return () => {
-      clearInterval(interval);
-      clearTimeout(timeout);
     };
+  
+    const timeout = setTimeout(() => {
+      displayAd(); // display the first ad immediately
+      const interval = setInterval(() => {
+        displayAd(); // display subsequent ads every 10 minutes
+      }, 600000);
+      return () => clearInterval(interval);
+    }, 50000); // 5 seconds delay before displaying the first ad
+  
+    return () => clearTimeout(timeout);
   }, []);
-
+ 
+  
+  
+  
   return (
     <>
       {isVisible && (

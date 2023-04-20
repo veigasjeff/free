@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "../styles/Ad.module.css";
+import Script from 'next/script';
 
 const Ad = ({ onClose }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,7 +17,7 @@ const Ad = ({ onClose }) => {
 
     const interval = setInterval(() => {
       setIsVisible(true);
-    }, 300000); // 5 minutes in milliseconds
+    }, 600000); // 10 minutes in milliseconds
 
     return () => {
       clearInterval(interval);
@@ -32,13 +33,12 @@ const Ad = ({ onClose }) => {
             <span className={styles.closeButton} onClick={handleClose}>
               &times;
             </span>
-               <h1 className="text-center font-bold text-4xl  py-5" style={{ color: "#40D7BC", textShadow: "2px 2px 5px #000" }} > Uwatchfree Advertisment.</h1>
+            <h1 className="text-center font-bold text-4xl  py-5" style={{ color: "#40D7BC", textShadow: "2px 2px 5px #000" }} > Uwatchfree Advertisment.</h1>
             <video src="../../official-trailer.mp4" autoPlay controls muted loop width="640" height="360" />
-
-          
           </div>
         </div>
       )}
+      
     </>
   );
 };

@@ -35,7 +35,7 @@ export const Carousel = () => {
         <div key={index}>
           <div onClick={() => handleImageClick(image.link)} style={{  display: "flex", justifyContent: "center", cursor: 'pointer' }} >
             <Image
-              className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl"
+              className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl  drop-shadowrounded-3xl"
               src={image.src}
               alt={image.alt}
               width={600}

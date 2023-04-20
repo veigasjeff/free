@@ -34,8 +34,8 @@
 
   {
     "id": "IPL PBvsRR",
-    "title": "IPL RCB VS CSK",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610072/ipl-2023-match24_i4iios.webp",
+    "title": "IPL CSK VS SRH",
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610073/ipl-2023-match29_hef7dr.webp",
     "yearRelease": 2023,
     "genre": ["SPORTS "],
     "rating": 0,
@@ -49,8 +49,8 @@
   },
   {
     "id": "IPL PBvsRR",
-    "title": "IPL SRH VS MI",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610072/ipl-2023-match25_xts23b.webp",
+    "title": "IPL GT VS LSG",
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610073/ipl-2023-match30_flnzw6.webp",
     "yearRelease": 2023,
     "genre": ["SPORTS "],
     "rating": 0,
@@ -64,8 +64,38 @@
   },
   {
     "id": "IPLKKRvsRCB",
-    "title": "IPL RR VS LSG",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610072/ipl-2023-match26_sjldql.webp",
+    "title": "IPL MI VS PBKS",
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610073/ipl-2023-match31_aqkll9.webp",
+    "yearRelease": 2023,
+    "genre": ["SPORTS "],
+    "rating": 0,
+    "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
+    "director": "Peter Jackson",
+    "country": "INDIA",
+    "status": "Sports",
+    "link": "https://www.imdb.com/title/tt0167260/",
+    "movie.watch": "../../Sports-2023/IPL-2023/IPLMatch01"
+  },
+  {
+    "id": "IPLKKRvsRCB",
+    "title": "IPL RR VS RCB",
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610073/ipl-2023-match32_ldigms.webp",
+    "yearRelease": 2023,
+    "genre": ["SPORTS "],
+    "rating": 0,
+    "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
+    "director": "Peter Jackson",
+    "country": "INDIA",
+    "status": "Sports",
+    "link": "https://www.imdb.com/title/tt0167260/",
+    "movie.watch": "../../Sports-2023/IPL-2023/IPLMatch01"
+  },
+  {
+    "id": "IPLKKRvsRCB",
+    "title": "IPL CSK VS KKR",
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610073/ipl-2023-match33_n4jgyq.webp",
     "yearRelease": 2023,
     "genre": ["SPORTS "],
     "rating": 0,
@@ -155,6 +185,166 @@
     "movie.watch": "../TvShows/BasketballWives-2023/BasketballWives"
    },
    {
+    "id": "AUG",
+    "title": "AUGUST 16, 1947 ",
+    "name": "August 16, 1947", 
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682711/august-16-1947-2023_lynnqi.webp",
+    "yearRelease": 2023,
+    "genre": [ " ACTION,", " DRAMA,", " HISTORY" ],
+    "rating": 7.4,
+    "synopsis": "The tale of a remote village where one man battles British forces.",
+    "starring": ["Mark Rowley", "Pekka Strang", "Zoltan Andrasi" , "Ingrid García Jonsson" , "Agnes Born"  ],
+    "director": " N.S. Ponkumar ", 
+    "country": "INDIA",
+    "status": "New Movie",
+    "link": "https://www.imdb.com/title/tt21835934/",
+
+    "movie.watch": "../../Bollywood/August16-1947-2023/August16",
+
+ 
+    "movie.watchP1": "https://lvturbo.com/e/9030v8ffu56u.html",
+ 
+    "movie.watchSR1": "https://dood.yt/e/9hmtzjbrux9j",
+         
+    "download1": "../../Bollywood/August16-1947-2023/DownloadAUG1",
+    "down1link1": "https://lvturbo.com/d/9030v8ffu56u.html",
+      
+    "download2": "../../Bollywood/August16-1947-2023/DownloadAUG2",
+    "down2link1": "https://dood.yt/d/9hmtzjbrux9j",
+   
+
+    "movie.trailer": "https://lvturbo.com/e/jqfq7cd079q1.html"
+
+  },
+   {
+    "id": "TLK",
+    "title": "THE LAST KINGDOM SEVEN KINGS ",
+    "name": "The Last Kingdom Seven Kings Must Die", 
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682712/the-last-kingdom-2023_avjf6l.webp",
+    "yearRelease": 2023,
+    "genre": [ " ACTION,", " DRAMA,", " HISTORY" ],
+    "rating": 7.1,
+    "synopsis": "In the wake of King Edward's death, Uhtred of Bebbanburg and his comrades adventure across a fractured kingdom in the hopes of uniting England at last.",
+    "starring": ["Mark Rowley", "Pekka Strang", "Zoltan Andrasi" , "Ingrid García Jonsson" , "Agnes Born"  ],
+    "director": " Edward Bazalgette ", 
+    "country": "USA",
+    "status": "New Movie",
+    "link": "https://www.imdb.com/title/tt15767808/",
+
+    "movie.watch": "../../Hollywood/TheLastKingdom-2023/TheLastKingdom",
+
+ 
+    "movie.watchP1": "https://lvturbo.com/e/spgqbpu5shq1.html",
+ 
+    "movie.watchSR1": "https://dood.yt/e/c4zukk2i7dcg",
+         
+    "download1": "../../Hollywood/TheLastKingdom-2023/DownloadTLK1",
+    "down1link1": "https://lvturbo.com/d/6ffl0dzjmq6l.html",
+      
+    "download2": "../../Hollywood/TheLastKingdom-2023/DownloadTLK2",
+    "down2link1": "hhttps://dood.yt/d/c4zukk2i7dcg",
+   
+
+    "movie.trailer": "https://lvturbo.com/e/vtxdmvbhv1my.html"
+
+  },
+   {
+    "id": "RRG",
+    "title": "RIPPERS REVENGE",
+    "name": "Rippers Revenge", 
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682711/rippers-revenge-2023_nepdof.webp",
+    "yearRelease": 2023,
+    "genre": [ " HORROR,", " DRAMA,", " THRILLER" ],
+    "rating": 4.6,
+    "synopsis": "One year on from the notorious Jack The Ripper murders, the killings have stopped, but the identity of the killer remains a mystery. Down-at-heel newspaper reporter Sebastian Stubb has moved on to reporting on other scandals, but when a new Ripper letter appears on his desk and the killings start again.",
+    "starring": ["Chris Bell", "Rachel Warren", "Rafe Bird" , "Cassandra French" , "Vicki Glover"  ],
+    "director": " Steve Lawson ", 
+    "country": "USA",
+    "status": "New Movie",
+    "link": "https://www.imdb.com/title/tt22987848/",
+
+    "movie.watch": "../../Hollywood/RippersRevenge-2023/RippersRevenge",
+
+ 
+    "movie.watchP1": "https://lvturbo.com/e/6ffl0dzjmq6l.html",
+ 
+    "movie.watchSR1": "https://dood.yt/e/zcuz71nhm4hk",
+         
+    "download1": "../../Hollywood/RippersRevenge-2023/DownloadRRG1",
+    "down1link1": "https://lvturbo.com/d/6ffl0dzjmq6l.html",
+      
+    "download2": "../../Hollywood/RippersRevenge-2023/DownloadRRG2",
+    "down2link1": "https://dood.yt/d/zcuz71nhm4hk",
+   
+
+    "movie.trailer": "https://lvturbo.com/e/ce8w97gmjqu1.html"
+
+  },
+   {
+    "id": "NTD",
+    "title": "A NURSE TO DIE FOR",
+    "name": "A Nurse To Die For", 
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682710/a-nurse-to-die-for-2023_o2lbgk.webp",
+    "yearRelease": 2023,
+    "genre": [ " DRAMA,", " THRILLER" ],
+    "rating": 5.4,
+    "synopsis": "A father hires a live-in nurse to help care for his sick daughter, however, as she suffers a series of setbacks, he starts to wonder if the nurse might actually be the one keeping her sick.",
+    "starring": ["Allison McAtee", "Jeremy John Wells", "Hailey Gray" , "Caryn Richman" , "Alissa Filoramo"  ],
+    "director": " Peter Sullivan ", 
+    "country": "USA",
+    "status": "New Movie",
+    "link": "https://www.imdb.com/title/tt26742022/",
+
+    "movie.watch": "../../Hollywood/ANurseToDieFor-2023/ANurseToDieFor",
+
+ 
+    "movie.watchP1": "https://lvturbo.com/e/tpc5b5gvz6d8.html",
+ 
+    "movie.watchSR1": "https://dood.yt/e/o8z4pdx9acdv",
+         
+    "download1": "../../Hollywood/ANurseToDieFor-2023/DownloadNTD1",
+    "down1link1": "https://lvturbo.com/d/tpc5b5gvz6d8.html",
+      
+    "download2": "../../Hollywood/ANurseToDieFor-2023/DownloadNTD2",
+    "down2link1": "https://dood.yt/d/o8z4pdx9acdv",
+   
+
+    "movie.trailer": "https://lvturbo.com/e/ce8w97gmjqu1.html"
+
+  },
+   {
+    "id": "TPD",
+    "title": "THE PORTABLE DOOR",
+    "name": "The Portable Door", 
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682712/the-portable-door-2023_xy5ecp.webp",
+    "yearRelease": 2023,
+    "genre": [" FANTASY, ", " DRAMA,", " THRILLER" ],
+    "rating": 6.0,
+    "synopsis": "Paul Carpenter is an intern at a mysterious London firm with unconventional employers, including a CEO who wants to disrupt the ancient magical world with modern corporate practices.",
+    "starring": ["Christoph Waltz", "Patrick Gibson", "Damon Herriman" , "Sophie Wilde" , "Demi Harman"  ],
+    "director": " Jeffrey Walker ", 
+    "country": "USA",
+    "status": "New Movie",
+    "link": "https://www.imdb.com/title/tt11820950/",
+
+    "movie.watch": "../../Hollywood/ThePortableDoor-2023/ThePortableDoor",
+
+ 
+    "movie.watchP1": "https://lvturbo.com/e/buje49pvhc3n.html",
+ 
+    "movie.watchSR1": "https://dood.yt/e/olhhvtmm7jm1",
+         
+    "download1": "../../Hollywood/ThePortableDoor-2023/DownloadTPD1",
+    "down1link1": "https://lvturbo.com/d/buje49pvhc3n.html",
+      
+    "download2": "../../Hollywood/ThePortableDoor-2023/DownloadTPD2",
+    "down2link1": "https://dood.yt/d/olhhvtmm7jm1",
+   
+
+    "movie.trailer": "https://lvturbo.com/e/1cmn52xyxkkx.html"
+
+  },
+   {
     "id": "TPE",
     "title": "THE POPE'S EXORCIST",
     "name": "The Pope's Exorcist", 
@@ -163,7 +353,7 @@
     "genre": [" HORROR, ", " DRAMA,", " THRILLER" ],
     "rating": 6.2,
     "synopsis": "Follow Gabriele Amorth, the Vatican's leading exorcist, as he investigates the possession of a child and uncovers a conspiracy the Vatican has tried to keep secret.",
-    "starring": ["Russell Crowe", "Daniel Zovatto", "Alex Essoe" , "Franco Nero" , "Peter DeSouza-Feighoney" , "Laurel Marsden" , "Cornell John" , "Ryan O'Grady" , "Bianca Bardoe" , "Santi Bayón" , "Paloma Bloyd"  ],
+    "starring": ["Russell Crowe", "Daniel Zovatto", "Alex Essoe" , "Franco Nero" , "Peter DeSouza-Feighoney"  ],
     "director": "  Julius Avery ", 
     "country": "USA",
     "status": "New Movie",

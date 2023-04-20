@@ -25,10 +25,10 @@ const IPLMatch01  = () => {
 }, [ ])
 
 const match1 = {
-  date: "April 13, 2023",
+  date: "April 21, 2023",
   time: "07:30 PM IST",
-  venue: { name: "Punjab Cricket Association IS Bindra Stadium ,", city: "Mohali." },
-  umpires: { field: "Madanagopal Jayaraman & Akshay Totre.", third: "Bruce Oxenford." },
+  venue: { name: "MA Chidambaram Stadium ,", city: "Chennai." },
+  umpires: { field: "Virender Kumar Sharma & Khalid Saiyed.", third: "Nitin Menon." },
 };
 
 const match2 = {
@@ -113,9 +113,9 @@ const scrollSearch = myKey => {
         
     
         
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>IPL Punjab Kings vs Gujrat Titans </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>IPL CSK vs SRH </h1>
 
-    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Saturday 13th April 2023 - Schedule Time IST @ 07:30 </h2>
+    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Friday 21st April 2023 - Schedule Time IST @ 07:30 </h2>
     <div className={styles['iframe-container']}>
     <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://daddylivehd.sx/embed/stream-65.php" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0" />
     </div>     
