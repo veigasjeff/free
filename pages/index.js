@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 import ShareButtons from '@components/ShareButtons';
 import Marquee from '@components/Marquee';
 import { Image } from 'cloudinary-react'
-
+import Ad from '../components/Ad';
 import React, { useEffect, useState } from 'react';
 
 
@@ -14,6 +14,22 @@ const scrollSearch = myKey => {
 };
 
 export default function Home() {
+
+  
+  const [showAd, setShowAd] = useState(false);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setShowAd(true);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleAdClose = () => {
+    setShowAd(false);
+  };
+
+
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -109,7 +125,7 @@ const schemaData   = {
   ]
 };
   return (
-    
+  
     <div >
        <script
     type="application/ld+json"
@@ -162,18 +178,22 @@ const schemaData   = {
 
       </Head>
 
-
+     
       <main className={styles.main} >
           <section className={`${styles.movies} bg-gray-600  py-5`} >
-          <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+          {showAd && <Ad onClose={handleAdClose} />}
+         
     
+          <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+         
+          
             <h1 className="text-center font-bold text-3xl  py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Uwatchfree™ - High Definition Movies Tv Series & Sports Live. </h1>
-            <Marquee text="Uwatchfree™ - High Definition Movies Tv Series & Sports Live." color="white" fontSize="32px" isBold={true} speed={5}  />
+            <Marquee text="Uwatchfree™ - Sports CRICKET Today @GMT+1 11:00 Indian Premier League : Kings XI Punjab vs Royal Challengers Bangalore Live. | @GMT+1 15:00 Indian Premier League : Delhi Capitals vs Kolkata Knight Riders Live. SOCCER Today @GMT+1 20:00 UEFA Europa League : Sevilla vs Manchester United. Movies Latest " color="#40D7BC" fontSize="32px" isBold={true} speed={10}  />
             <div className="flex flex-wrap justify-center">
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
                  <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
-  <Image className="w-full h-full object-cover  rounded-3xl border border-white shadow-md"   src={movie.poster} alt={movie.title}  width={1000}  height={562.5} loading="eager" />
+  <Image className="w-full h-full object-cover  rounded-3xl border border-white shadow-md"  loading="eager" src={movie.poster} alt={movie.title}  width={1000}  height={562.5} />
 
   <a href={movie['movie.watch']} className="absolute inset-0 flex items-center justify-center  "  >
    

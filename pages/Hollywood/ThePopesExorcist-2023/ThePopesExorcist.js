@@ -7,13 +7,24 @@ import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
+import Ad from '@components/Ad1';
 
 
 
 
+function ThePopesExorcist({ movie }) {
+  const [showAd, setShowAd] = useState(false);
 
-function GOLSR1({ movie }) {
-  
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setShowAd(true);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleAdClose = () => {
+    setShowAd(false);
+  };
 
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
@@ -52,13 +63,13 @@ function GOLSR1({ movie }) {
       "target": [
         {
           "@type": "EntryPoint",
-          "name": "Gangs of Lagos (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/GangsofLagos-2023/GangsofLagos"
+          "name": "The Pope's Exorcist (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/ThePopesExorcist-2023/ThePopesExorcist"
         },
         {
           "@type": "EntryPoint",
-          "name": "Gangs of Lagos (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/GangsofLagos-2023/GOLSR1"
+          "name": "The Pope's Exorcist (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/ThePopesExorcist-2023/TPESR1"
         }
       ]
     },
@@ -102,38 +113,38 @@ function GOLSR1({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
     <Head>
-     <title>Watch Gangs of Lagos (2023) Full Movie Online Free | Uwatchfree™</title>
+     <title>Watch The Pope's Exorcist (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch gangs of lagos movie,index of gangs of lagos movie,gangs of lagos movie 2023,gangs of lagos movie online,watch gangs of lagos movie online free,gangs of lagos tv series,gangs of lagos movie download,gangs of lagos movie free download,gangs of lagos movie download" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch The Pope's Exorcist movie,index of The Pope's Exorcist movie,The Pope's Exorcist movie 2023,The Pope's Exorcist movie online,watch The Pope's Exorcist movie online free,The Pope's Exorcist tv series,The Pope's Exorcist movie download,The Pope's Exorcist movie free download,The Pope's Exorcist movie download" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Gangs of Lagos (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/GangsofLagos-2023/GangsofLagos" />
-<meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682711/gangs-of-lagos-2023_ppmnr0.webp" />
+<meta property="og:title" content="Watch The Pope's Exorcist (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/ThePopesExorcist-2023/ThePopesExorcist" />
+<meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682712/the-popes-exorcist-2023_eiwi5l.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Gangs of Lagos (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682711/gangs-of-lagos-2023_ppmnr0.webp" />
-<meta name="description" content="Watch GangsofLagos Full Movie Online on Uwatchfree™, You can also download Gangs of Lagos (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch The Pope's Exorcist (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682712/the-popes-exorcist-2023_eiwi5l.webp" />
+<meta name="description" content="Watch The Popes Exorcist Full Movie Online on Uwatchfree™, You can also download The Pope's Exorcist (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/GangsofLagos-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/ThePopesExorcist-2023/" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 
        <div className="bg-gray-600 shadow ">
 
-
+       {showAd && <Ad onClose={handleAdClose} />}
 
        <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - 2023</h1>
        <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-        src={movie['movie.watchSR1']}
+        src={movie['movie.watchP1']}
         width="100%"
         height="500px"
         allowFullScreen
@@ -145,8 +156,8 @@ function GOLSR1({ movie }) {
 
        
            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-           <a href="../GangsofLagos-2023/GangsofLagos" >  
-      <h2 > Watch {movie.name} (2023) Server 1</h2></a></button>
+           <a href="../ThePopesExorcist-2023/TPESR1" >  
+      <h2 > Watch {movie.name} (2023) Server 2</h2></a></button>
       <Rating />
       <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank">IMDb Rating: {movie.rating}</a>  
       
@@ -254,7 +265,7 @@ Download
 export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'GOL');
+  const selectedMovie = data.find(movie => movie.id === 'TPE');
   return {
     props: {
       movie: selectedMovie
@@ -262,4 +273,4 @@ export async function getServerSideProps() {
   };
 }
  
-export default GOLSR1;
+export default ThePopesExorcist;

@@ -154,7 +154,38 @@
     "link": "https://www.imdb.com/title/tt1637756/",
     "movie.watch": "../TvShows/BasketballWives-2023/BasketballWives"
    },
-  
+   {
+    "id": "TPE",
+    "title": "THE POPE'S EXORCIST",
+    "name": "The Pope's Exorcist", 
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682712/the-popes-exorcist-2023_eiwi5l.webp",
+    "yearRelease": 2023,
+    "genre": [" HORROR, ", " DRAMA,", " THRILLER" ],
+    "rating": 6.2,
+    "synopsis": "Follow Gabriele Amorth, the Vatican's leading exorcist, as he investigates the possession of a child and uncovers a conspiracy the Vatican has tried to keep secret.",
+    "starring": ["Russell Crowe", "Daniel Zovatto", "Alex Essoe" , "Franco Nero" , "Peter DeSouza-Feighoney" , "Laurel Marsden" , "Cornell John" , "Ryan O'Grady" , "Bianca Bardoe" , "Santi Bayón" , "Paloma Bloyd"  ],
+    "director": "  Julius Avery ", 
+    "country": "USA",
+    "status": "New Movie",
+    "link": "https://www.imdb.com/title/tt13375076/",
+
+    "movie.watch": "../../Hollywood/ThePopesExorcist-2023/ThePopesExorcist",
+
+ 
+    "movie.watchP1": "https://lvturbo.com/e/99m29eoemva1.html",
+ 
+    "movie.watchSR1": "https://dood.yt/e/pr4je4476hb7",
+         
+    "download1": "../../Hollywood/ThePopesExorcist-2023/DownloadTPE1",
+    "down1link1": "https://lvturbo.com/d/99m29eoemva1.html",
+      
+    "download2": "../../Hollywood/ThePopesExorcist-2023/DownloadTPE2",
+    "down2link1": "https://dood.yt/d/pr4je4476hb7",
+   
+
+    "movie.trailer": "https://lvturbo.com/e/e6z6qxt0qbg8.html"
+
+  },
    {
     "id": "GOL",
     "title": "GANGS OF LAGOS",

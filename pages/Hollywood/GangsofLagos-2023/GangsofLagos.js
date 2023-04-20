@@ -7,13 +7,24 @@ import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
-
+import Ad from '@components/Ad1';
 
 
 
 
 function GangsofLagos({ movie }) {
-  
+  const [showAd, setShowAd] = useState(false);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setShowAd(true);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleAdClose = () => {
+    setShowAd(false);
+  };
 
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
@@ -36,56 +47,47 @@ function GangsofLagos({ movie }) {
   function togglePopup() {
     setShowPopup(!showPopup);
   }
-  const schemaData = 
-  {
+  const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Movie",
-    "name": "Gangs of Lagos",
-    "image": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682711/gangs-of-lagos-2023_ppmnr0.webp",
-    "description": "A group of friends who each have to navigate their own destiny, growing up on the bustling streets and neighborhood of Isale Eko, Lagos.",
-    "genre": ["Crime", "Action", "Thriller"],
-    "datePublished": "2023",
-    "actor": [
+    "name": movie.name,
+    "description": movie.synopsis,
+    "image": movie.poster,
+    "genre": movie.genre,
+    "datePublished": movie.yearRelease,
+    "director": movie.director,
+    "actor": movie.starring,
+    "url": movie.link,
+    "potentialAction": {
+      "@type": "WatchAction",
+      "target": [
+        {
+          "@type": "EntryPoint",
+          "name": "Gangs of Lagos (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/GangsofLagos-2023/GangsofLagos"
+        },
+        {
+          "@type": "EntryPoint",
+          "name": "Gangs of Lagos (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/GangsofLagos-2023/GOLSR1"
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": movie.rating,
+      "bestRating": 10,
+      "worstRating": 0,
+      "ratingCount": 1
+    },
+    "author": [
       {
         "@type": "Person",
-        "name": "Tobi Bakre"
-      },
-      {
-        "@type": "Person",
-        "name": "Olarotimi Fakunle"
-      },
-      {
-        "@type": "Person",
-        "name": "Adesua Etomi-Wellington"
-      },
-      {
-        "@type": "Person",
-        "name": "Chike-Ezekpeazu Osebuka"
+        "name": "DrTrailer",
+        "url": "https://uwatchfree.vercel.app/DrTrailer.png"
       }
     ],
-    "director": {
-      "@type": "Person",
-      "name": "Jadesola Osiberu"
-    },
-    "countryOfOrigin": "USA",
-    "url": "https://www.imdb.com/title/tt19704612/",
-    "trailer": {
-      "@type": "VideoObject",
-      "name": "Gangs of Lagos Trailer",
-      "description": "Official trailer for Gangs of Lagos movie",
-      "thumbnailUrl": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682711/gangs-of-lagos-2023_ppmnr0.webp",
-      "embedUrl": "https://lvturbo.com/e/uf7wh3bgiy7g.html",
-      "uploadDate": "2023-01-01T00:00:00Z",
-      "contentUrl": "https://uwatchfree.vercel.app/Hollywood/GangsofLagos-2023/GangsofLagos"
-     },
-     
-    "author": [{
-      "@type": "Person",
-      "name": "DrTrailer",
-      "url": "https://uwatchfree.vercel.app/DrTrailer.png"
-    }],
-  
-  "publisher": {
+    "publisher": {
       "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
@@ -93,13 +95,23 @@ function GangsofLagos({ movie }) {
         "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
     },
-  } ;
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "Action Platform",
+      "value": [
+        "Desktop Web Platform",
+        "iOS Platform",
+        "Android Platform"
+      ]
+    }
+  });
+    
   return (
     <div>
         <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-  />
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: ldJsonData }}
+      />
     <Head>
      <title>Watch Gangs of Lagos (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -127,7 +139,7 @@ function GangsofLagos({ movie }) {
 
        <div className="bg-gray-600 shadow ">
 
-
+       {showAd && <Ad onClose={handleAdClose} />}
 
        <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - 2023</h1>
        <div className={styles['iframe-container']}>
