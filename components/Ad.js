@@ -48,3 +48,5 @@ const Ad = ({ onClose }) => {
 };
 
 export default Ad;
+//{showAd && <Ad onClose={handleAdClose} />}
+         
