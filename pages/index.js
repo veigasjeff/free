@@ -187,7 +187,7 @@ const schemaData   = {
          
           
             <h1 className="text-center font-bold text-3xl  py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Uwatchfree™ - High Definition Movies Tv Series & Sports Live. </h1>
-            <Marquee text="Watch Uwatchfree™   " color="#40D7BC" fontSize="32px" isBold={true} speed={20}  />
+          
             <div className="flex flex-wrap justify-center">
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2" key={movie.title}>
