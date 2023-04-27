@@ -21,7 +21,7 @@ const Ch112 = () => {
   return (
     <div>
        <Head>
-    <title>Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free</title>
+    <title>Uwatchfree™ | TSN2</title>
     <meta name="robots" content="index, follow" />  
     <meta name="revisit-after" content="1 days" />
    

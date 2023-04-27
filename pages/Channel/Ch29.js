@@ -21,7 +21,7 @@ const Ch29 = () => {
   return (
     <div>
        <Head>
-    <title>Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free</title>
+    <title>Uwatchfree™ | C More Mix </title>
     <meta name="robots" content="index, follow" />  
     <meta name="revisit-after" content="1 days" />
    

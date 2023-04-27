@@ -21,7 +21,7 @@ const Ch36 = () => {
   return (
     <div>
        <Head>
-    <title>Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free</title>
+    <title>Uwatchfree™ | Sky Sports Arena Live</title>
     <meta name="robots" content="index, follow" />  
     <meta name="revisit-after" content="1 days" />
    
