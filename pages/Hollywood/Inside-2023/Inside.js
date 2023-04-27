@@ -7,31 +7,20 @@ import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
-//import Ad from '@components/Ad1';
 
 
 
 
-function BreakingGirlCode({ movie }) {
-  const [showAd, setShowAd] = useState(false);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setShowAd(true);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const handleAdClose = () => {
-    setShowAd(false);
-  };
+function Inside({ movie }) {
+  
 
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveBGCefault()
+        e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -63,13 +52,13 @@ function BreakingGirlCode({ movie }) {
       "target": [
         {
           "@type": "EntryPoint",
-          "name": "Breaking Girl Code (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/BreakingGirlCode-2023/BreakingGirlCode"
+          "name": "Inside (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/Inside-2023/Inside"
         },
         {
           "@type": "EntryPoint",
-          "name": "Breaking Girl Code (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/BreakingGirlCode-2023/BGCSR1"
+          "name": "Inside (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/Inside-2023/INDSR1"
         }
       ]
     },
@@ -105,6 +94,7 @@ function BreakingGirlCode({ movie }) {
       ]
     }
   });
+  
     
   return (
     <div>
@@ -113,34 +103,33 @@ function BreakingGirlCode({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
     <Head>
-     <title>Watch Breaking Girl Code (2023) Full Movie Online Free | Uwatchfree™</title>
+     <title>Watch Inside (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch breaking girl code movie,index of breaking girl code movie,breaking girl code movie 2023,breaking girl code movie online,watch breaking girl code movie online free,breaking girl code tv series,breaking girl code movie download,breaking girl code movie free download,breaking girl code movie download" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch Inside movie,index of Inside movie,Inside movie 2023,Inside movie online,watch Inside movie online free,Inside tv series,Inside movie download,Inside movie free download,Inside movie download" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Breaking Girl Code (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/BreakingGirlCode-2023/BreakingGirlCode" />
-<meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682485021/breaking-girl-code-2023_tj68gt.webp" />
+<meta property="og:title" content="Watch Inside (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/Inside-2023/Inside" />
+<meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682204324/inside-2023_vvzcii.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Breaking Girl Code (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682485021/breaking-girl-code-2023_tj68gt.webp" />
-<meta name="description" content="Watch BreakingGirlCode Full Movie Online on Uwatchfree™, You can also download Breaking Girl Code (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Inside (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682204324/inside-2023_vvzcii.webp" />
+<meta name="description" content="Watch Am I Next Full Movie Online on Uwatchfree™, You can also download Inside (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/BreakingGirlCode-2023/" />
-
+<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/Inside-2023/" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 
        <div className="bg-gray-600 shadow ">
 
-     
+
 
        <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - 2023</h1>
        <div className={styles['iframe-container']}>
@@ -157,18 +146,18 @@ function BreakingGirlCode({ movie }) {
 
        
            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-           <a href="../BreakingGirlCode-2023/BGCSR1" >  
-      <h2 > Watch {movie.name}  Server 2</h2></a></button>
+           <a href="../Inside-2023/INDSR1" >  
+      <h2 > Watch {movie.name} (2023) Server 2</h2></a></button>
       <Rating />
       <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank">IMDb Rating: {movie.rating}</a>  
       
-      <ul className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"style={{ textShadow: "0px 0px 2px #000" }}>
+    <ul className="flex contINDer flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"style={{ textShadow: "0px 0px 2px #000" }}>
         <li>Starring: {movie.starring.join(', ')}</li>
         <li>Year of release: {movie.yearRelease}</li>
         <li>Director: {movie.director}</li>
         <li>Country: {movie.country}</li>
         <li>Genre: {movie.genre}</li>
-        <p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
+  <p className="flex contINDer flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
       </ul>
      
            <img  src={movie.poster} alt={`Poster for ${movie.title}`} className="mx-auto my-10 rounded-3xl  " />
@@ -189,10 +178,8 @@ function BreakingGirlCode({ movie }) {
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer {movie.name} (2023) </h2>
-          <video src={movie['movie.trailer']} autoPlay controls loop width="840" height="360" />
-                   
-             </div></div>
-        
+          <video src={movie['movie.trailer']} autoPlay controls loop width="840" height="360" /></div>
+          </div>
        
       )}
 
@@ -230,14 +217,14 @@ function BreakingGirlCode({ movie }) {
       `}</style>
   <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
- <h3  className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name}  </h3>
+ <h3  className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} (2023) </h3>
  <a href={movie.download1} >
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
 </button></a>
 
-<h3 className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} </h3>
+<h3 className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} (2023)</h3>
 <a href={movie.download2} >
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
@@ -265,7 +252,7 @@ Download
 export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'BGC');
+  const selectedMovie = data.find(movie => movie.id === 'IND');
   return {
     props: {
       movie: selectedMovie
@@ -273,4 +260,4 @@ export async function getServerSideProps() {
   };
 }
  
-export default BreakingGirlCode;
+export default Inside;

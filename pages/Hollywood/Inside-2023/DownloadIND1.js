@@ -9,7 +9,7 @@ import Script from 'next/script';
 
 
 
-function DownloadBGC2({ movie }) {
+function DownloadIND1({ movie }) {
   
 
   if (!movie) {
@@ -17,7 +17,7 @@ function DownloadBGC2({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveBGCefault()
+        e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -49,13 +49,13 @@ function DownloadBGC2({ movie }) {
       "target": [
         {
           "@type": "EntryPoint",
-          "name": "Breaking Girl Code (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/BreakingGirlCode-2023/BreakingGirlCode"
+          "name": "Inside (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/Inside-2023/Inside"
         },
         {
           "@type": "EntryPoint",
-          "name": "Breaking Girl Code (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/BreakingGirlCode-2023/BGCSR1"
+          "name": "Inside (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/Inside-2023/INDSR1"
         }
       ]
     },
@@ -91,6 +91,7 @@ function DownloadBGC2({ movie }) {
       ]
     }
   });
+  
     
   return (
     <div>
@@ -99,27 +100,28 @@ function DownloadBGC2({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
     <Head>
-     <title>Watch Breaking Girl Code (2023) Full Movie Online Free | Uwatchfree™</title>
+     <title>Watch Inside (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch breaking girl code movie,index of breaking girl code movie,breaking girl code movie 2023,breaking girl code movie online,watch breaking girl code movie online free,breaking girl code tv series,breaking girl code movie download,breaking girl code movie free download,breaking girl code movie download" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch Inside movie,index of Inside movie,Inside movie 2023,Inside movie online,watch Inside movie online free,Inside tv series,Inside movie download,Inside movie free download,Inside movie download" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Breaking Girl Code (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/BreakingGirlCode-2023/BreakingGirlCode" />
-<meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682485021/breaking-girl-code-2023_tj68gt.webp" />
+<meta property="og:title" content="Watch Inside (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/Inside-2023/Inside" />
+<meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682204324/inside-2023_vvzcii.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Breaking Girl Code (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682485021/breaking-girl-code-2023_tj68gt.webp" />
-<meta name="description" content="Watch One Day As A Lion Full Movie Online on Uwatchfree™, You can also download Breaking Girl Code (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Inside (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682204324/inside-2023_vvzcii.webp" />
+<meta name="description" content="Watch Inside 
+Full Movie Online on Uwatchfree™, You can also download Inside (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/BreakingGirlCode-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/Inside-2023/" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 
@@ -133,11 +135,10 @@ function DownloadBGC2({ movie }) {
 <img src={movie.poster} alt={`Poster for ${movie.title}`} loading="lazy" className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl " />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
      DOWNLOAD {movie.title} (2023) </h2>
-  
-  
+   
     
- 
-<a href={movie.down2link1} target={"_blamk"} id="download_link" > 
+   
+<a href={movie.down1link1} target={"_blamk"} id="download_link" > 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Download Now
  
@@ -151,7 +152,7 @@ Please Share the Link.</h2>
 
 
 
-<a href="../../Hollywood/BreakingGirlCode-2023/BGCSR1" >
+<a href="../../Hollywood/Inside-2023/Inside" >
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Back
 
@@ -170,7 +171,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'BGC');
+  const selectedMovie = data.find(movie => movie.id === 'IND');
   return {
     props: {
       movie: selectedMovie
@@ -178,4 +179,4 @@ export async function getServerSideProps() {
   };
 }
  
-export default DownloadBGC2;
+export default DownloadIND1;
