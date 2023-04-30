@@ -108,8 +108,16 @@ function DownloadMDS1({ movie }) {
           "https://uwatchfree.vercel.app/Hollywood/MrsDavis-2023/MrsDavisP1",
       },
     },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "Action Platform",
+      "value": [
+        "Desktop Web Platform",
+        "iOS Platform",
+        "Android Platform"
+      ]
+    }
   });
-
 
   return (
     <div>
@@ -183,6 +191,13 @@ function DownloadMDS1({ movie }) {
   Download Now
  
 </button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name}  Episode 5 (2023) </h2>
+<a href={movie.down1link5} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
 
 <h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
 Thank you for Dowloading and Enjoy. </h2>
@@ -208,7 +223,7 @@ Please Share the Link.</h2>
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://uwatchfree.vercel.app/movies.json');
+  const res = await fetch('http://localhost:3000/movies.json');
 
   const data = await res.json();
   const selectedMovie = data.find(movie => movie.id === 'MDS');

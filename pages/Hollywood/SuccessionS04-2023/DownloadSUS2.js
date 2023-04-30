@@ -33,113 +33,92 @@ function DownloadSUS2({ movie }) {
   function togglePopup() {
     setShowPopup(!showPopup);
   }
-  const schemaData   = {
-    "@context": "http://schema.org",
-  "@type": "TVSeries",
-  "name": "Succession S04",
-  "description": "The Roy family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.",
-  "genre": ["Comedy", "Drama", "Thriller"],
-  "url": "https://www.imdb.com/title/tt7660850/",
-  "image": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682711/succession-s04-2023_bhepcw.webp",
-  "datePublished": "2023",
-  "actor": [
-    {
-      "@type": "Person",
-      "name": "Nicholas Braun"
+  const ldJsonData = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TVSeries",
+    name: movie.name,
+    description: movie.synopsis,
+    image: movie.poster,
+    genre: movie.genre,
+    datePublished: movie.yearRelease,
+    director: movie.director,
+    actor: movie.starring,
+    url: movie.link,
+    
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: movie.rating,
+      bestRating: 10,
+      worstRating: 0,
+      ratingCount: 1,
     },
-    {
-      "@type": "Person",
-      "name": "Brian Cox"
-    },
-    {
-      "@type": "Person",
-      "name": "Kieran Culkin"
-    },
-    {
-      "@type": "Person",
-      "name": "Peter Friedman"
-    },
-    {
-      "@type": "Person",
-      "name": "Matthew Macfadyen"
-    },
-    {
-      "@type": "Person",
-      "name": "Alan Ruck"
-    },
-    {
-      "@type": "Person",
-      "name": "Sarah Snook"
-    },
-    {
-      "@type": "Person",
-      "name": "Jeremy Strong"
-    },
-    {
-      "@type": "Person",
-      "name": "J. Smith-Cameron"
-    },
-    {
-      "@type": "Person",
-      "name": "Dagmara Dominczyk"
-    },
-    {
-      "@type": "Person",
-      "name": "Justine Lupe"
-    },
-    {
-      "@type": "Person",
-      "name": "David Rasche"
-    },
-    {
-      "@type": "Person",
-      "name": "Scott Nicholson"
-    }
-  ],
-  "director": {
-    "@type": "Person",
-    "name": "Jesse Armstrong"
-  },
-  "countryOfOrigin": "USA",
-  "numberOfSeasons": "4",
-  "potentialAction": {
-    "@type": "WatchAction",
-    "target": [
+    "episode": [
       {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP1"
+        "@type": "TVEpisode",
+        "name": "Succession Episode 1",
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR1"
       },
       {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP2"
+        "@type": "TVEpisode",
+        "name": "Succession Episode 2",
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR2"
       },
       {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP3"
+        "@type": "TVEpisode",
+        "name": "Succession Episode 3",
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR3"
+      },
+      {
+        "@type": "TVEpisode",
+        "name": "Succession Episode 4",
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR4"
+      },
+      {
+        "@type": "TVEpisode",
+        "name": "Succession Episode 5",
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR5"
       }
-    ]
-  },
-  "author": [{
-    "@type": "Person",
-    "name": "DrTrailer",
-    "url": "https://uwatchfree.vercel.app/DrTrailer.png"
-  }],
+    ],
+    "author": [{
+      "@type": "Person",
+      "name": "DrTrailer",
+      "url": "https://uwatchfree.vercel.app/DrTrailer.png"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "Uwatchfree",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://uwatchfree.vercel.app/og_image.jpg"
+      }
+    },
+    potentialAction: {
+      "@type": "WatchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate:
+          "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP1",
+        },
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Action Platform",
+        "value": [
+          "Desktop Web Platform",
+          "iOS Platform",
+          "Android Platform"
+        ]
+      }
+    });
 
-"publisher": {
-    "@type": "Organization",
-    "name": "Uwatchfree",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://uwatchfree.vercel.app/og_image.jpg"
-    }
-  },
-};
+
   return (
     <div>
         <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-  />
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: ldJsonData }}
+      />
       <Head>
      <title>Watch Succession S04 (2023) Full Movie Online Free | Uwatchfree™</title>
      <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -200,7 +179,20 @@ function DownloadSUS2({ movie }) {
   Download Now
  
 </button></a>
-
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name} Episode 4 (2023) </h2>
+<a href={movie.down2link4} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dGTF:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dGTF:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dGTF:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+{movie.name} Episode 5 (2023) </h2>
+<a href={movie.down2link5} target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dGTF:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dGTF:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dGTF:bg-gray-900 group-hover:bg-opacity-0  ">
+  Download Now
+ 
+</button></a>
 
 
 <h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
@@ -227,7 +219,7 @@ Please Share the Link.</h2>
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://uwatchfree.vercel.app/movies.json');
+  const res = await fetch('http://localhost:3000/movies.json');
 
   const data = await res.json();
   const selectedMovie = data.find(movie => movie.id === 'SUS');

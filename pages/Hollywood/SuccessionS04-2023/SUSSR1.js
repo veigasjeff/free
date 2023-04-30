@@ -59,17 +59,27 @@ function SUSSR1({ movie }) {
       {
         "@type": "TVEpisode",
         "name": "Succession Episode 1",
-        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP1"
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR1"
       },
       {
         "@type": "TVEpisode",
         "name": "Succession Episode 2",
-        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP2"
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR2"
       },
       {
         "@type": "TVEpisode",
         "name": "Succession Episode 3",
-        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP3"
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR3"
+      },
+      {
+        "@type": "TVEpisode",
+        "name": "Succession Episode 4",
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR4"
+      },
+      {
+        "@type": "TVEpisode",
+        "name": "Succession Episode 5",
+        "url": "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR5"
       }
     ],
     "author": [{
@@ -92,10 +102,18 @@ function SUSSR1({ movie }) {
         "@type": "EntryPoint",
         urlTemplate:
           "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP1",
+        },
       },
-    },
-  });
- 
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Action Platform",
+        "value": [
+          "Desktop Web Platform",
+          "iOS Platform",
+          "Android Platform"
+        ]
+      }
+    });
 
 
   return (
@@ -164,7 +182,18 @@ function SUSSR1({ movie }) {
   Episode 3
       </button></Link>
       </div>
-  
+      <div className="flex justify-center">
+    <Link href="../../Hollywood/SuccessionS04-2023/SUSSR4">
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
+  Episode 4
+      </button></Link>
+      </div>
+      <div className="flex justify-center">
+    <Link href="../../Hollywood/SuccessionS04-2023/SUSSR5">
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
+  Episode 5
+      </button></Link>
+      </div>
       </div>
            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
            <a href="../SuccessionS04-2023/SuccessionP1" >  
@@ -199,10 +228,8 @@ function SUSSR1({ movie }) {
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer {movie.name} (2023) </h2>
-           <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src={movie['movie.trailer']} />
-                   
-             </div></div>
+          <video src={movie['movie.trailer']} autoPlay controls loop width="840" height="360" />
+          </div>
           </div>
        
       )}
@@ -274,7 +301,7 @@ Download
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://uwatchfree.vercel.app/movies.json');
+  const res = await fetch('http://localhost:3000/movies.json');
 
   const data = await res.json();
   const selectedMovie = data.find(movie => movie.id === 'SUS');
