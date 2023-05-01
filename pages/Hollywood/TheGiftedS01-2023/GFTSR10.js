@@ -5,6 +5,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
+import Ad from '@components/Ad';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
 
@@ -177,7 +178,10 @@ function GFTSR10({ movie }) {
  
        <div className="bg-gray-600 shadow ">
       <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - EPISODE 10</h1>
-      <div className={styles['iframe-container']}>
+       <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
+      <Ad />
+      </div>  
+<div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
         src={movie['movie.watchSR10']}
         width="100%"
@@ -282,7 +286,10 @@ function GFTSR10({ movie }) {
            <img  src={movie.poster} alt={`Poster for ${movie.title}`} className="mx-auto my-10 rounded-3xl  " />
        
    
-      <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+       <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
+      <Ad />
+      </div>  
+<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dGFT:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dGFT:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dGFT:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
 
@@ -297,7 +304,10 @@ function GFTSR10({ movie }) {
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dGFT:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dGFT:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dGFT:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer {movie.name} (2023) </h2>
-           <div className={styles['iframe-container']}>
+            <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
+      <Ad />
+      </div>  
+<div className={styles['iframe-container']}>
  <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src={movie['movie.trailer']} />
                    
              </div></div>
@@ -337,7 +347,10 @@ function GFTSR10({ movie }) {
           }
         }
       `}</style>
-  <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+   <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
+      <Ad />
+      </div>  
+<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-2xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">{movie.name} (2023) </h3>
  <a href={movie.download1} >
@@ -372,7 +385,7 @@ Download
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://uwatchfree.vercel.app/movies.json');
+  const res = await fetch('http://localhost:3000/movies.json');
 
   const data = await res.json();
   const selectedMovie = data.find(movie => movie.id === 'GFT');

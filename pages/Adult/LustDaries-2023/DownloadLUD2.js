@@ -1,6 +1,7 @@
 
 import AdultSkipAds from '@components/AdultSkipAds'
 import Max from 'pages/Max';
+import Ad from '@components/Ad';
 
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';

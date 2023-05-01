@@ -1,52 +1,26 @@
-import { useState, useEffect } from "react";
-import styles from "../styles/Ad.module.css";
+import React from 'react';
 
-const Ad = ({ onClose }) => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  const handleClose = () => {
-    setIsVisible(false);
-    onClose();
-  };
-
-  useEffect(() => {
-    const displayAd = () => {
-      setIsVisible(true);
-    };
-  
-    const timeout = setTimeout(() => {
-      displayAd(); // display the first ad immediately
-      const interval = setInterval(() => {
-        displayAd(); // display subsequent ads every 10 minutes
-      }, 600000);
-      return () => clearInterval(interval);
-    }, 50000); // 5 seconds delay before displaying the first ad
-  
-    return () => clearTimeout(timeout);
-  }, []);
- 
-  
-  
-  
-  return (
-    <>
-      {isVisible && (
-        <div className={styles.adContainer}>
-          <div className={styles.adContent}>
-            <span className={styles.closeButton} onClick={handleClose}>
-              &times;
-            </span>
-               <h1 className="text-center font-bold text-4xl  py-5" style={{ color: "#40D7BC", textShadow: "2px 2px 5px #000" }} > Uwatchfree Advertisment.</h1>
-            <video src="./official-trailer.mp4" autoPlay controls muted loop width="640" height="360" />
-
-          
-          </div>
-        </div>
-      )}
-    </>
-  );
-};
+const Ad = () => (
+  <div>
+    <iframe
+      srcDoc={`
+        <script type="text/javascript">
+          atOptions = {
+            'key' : '3206b5234ee04e5063f1635af3b2f8a4',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+          document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/3206b5234ee04e5063f1635af3b2f8a4/invoke.js"></scr' + 'ipt>');
+        </script>
+      `}
+      frameBorder="0"
+      scrolling="no"
+      width="728"
+      height="90"
+    />
+  </div>
+);
 
 export default Ad;
-//{showAd && <Ad onClose={handleAdClose} />}
-         

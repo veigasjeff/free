@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import Max from 'pages/Max';
+import Ad from '@components/Ad';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
 
@@ -166,7 +167,7 @@ Please Share the Link.</h2>
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://uwatchfree.vercel.app/movies.json');
+  const res = await fetch('http://localhost:3000/movies.json');
 
   const data = await res.json();
   const selectedMovie = data.find(movie => movie.id === 'TUT');

@@ -7,6 +7,7 @@ import React, { useEffect, useState } from 'react';
 ;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
+import Ad from '@components/Ad';
 
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
@@ -191,6 +192,9 @@ Emma Moran</h2>
 <h2 ><strong>Starring:</strong> Máiréad Tyers, Sofia Oxenham, Bilal Hasna, Luke Rollason, Shaun Mason, Sam Haygarth, Abraham Popoola, Ned Porteous, Ardal O'Hanlon, Robbie Gee, Safia Oakley-Green.</h2>
 <h2 ><strong>Description:</strong> Jen, a young, self-aware woman who lives in a world where everyone has a superpower except her.</h2>
 </div>
+ <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
+      <Ad />
+      </div>  
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
@@ -248,7 +252,10 @@ Emma Moran</h2>
     </div>
 
 
-    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
+      <Ad />
+      </div>  
+<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">ExtraOrdinary (2023) </h3>
  <Link href="../../Hollywood/ExtraOrdinary-2023/DownloadEXT1">

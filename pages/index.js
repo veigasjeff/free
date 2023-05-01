@@ -73,7 +73,7 @@ export default function Home({ movie }) {
 
   useEffect(() => {
     async function fetchMovies() {
-      const response = await fetch('https://uwatchfree.vercel.app/movies.json');
+      const response = await fetch('http://localhost:3000/movies.json');
       const data = await response.json();
       setMovies(data);
     }
