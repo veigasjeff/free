@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
-
+import Ad from '@components/Ad';
 
 
 

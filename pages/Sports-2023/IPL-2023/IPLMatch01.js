@@ -5,7 +5,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import IPLHighlights from 'pages/IPLHighlights';
-
+import Ad from '@components/Ad';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
 
