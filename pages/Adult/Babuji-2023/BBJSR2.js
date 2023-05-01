@@ -7,7 +7,6 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
 import Max from 'pages/Max';
-import Ad from '@components/Ad';
 
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
@@ -107,10 +106,7 @@ function togglePopup() {
          <AdultSkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch Babuji Episode 2 (2023) </h1>
 
-     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+    <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://dood.yt/d/65m3c84ms24k" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
@@ -163,9 +159,6 @@ function togglePopup() {
 <h2 ><strong>Starring:</strong> NA.</h2>
 <h2 ><strong>Description:</strong> A man has two sons and their two wives. One day, babu ji gets hurt and becomes sick. And unable to see anything. So, his two sons and two bahus start nursing him. In the meantime, one of his sons goes away from home due to office word. In the home, one bahu discovers that her sasur ji can see everything. So, she and other bahu start sedu-cing her sasur ji.</h2>
 </div>
- <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
@@ -181,10 +174,7 @@ function togglePopup() {
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Babuji Series (2023) </h2>
-            <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+           <div className={styles['iframe-container']}>
  <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/vfsy6r7px1yc.html" />
                    
              </div> </div>
@@ -226,10 +216,7 @@ function togglePopup() {
       `}</style>
     </div>
 
-     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">BABUJI SERIES (2023) </h3>
  <Link href="../../Adult/Babuji-2023/DownloadBBJ1">

@@ -7,7 +7,6 @@ import React, { useEffect, useState } from 'react';
 ;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Ad from '@components/Ad';
 
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
@@ -105,10 +104,7 @@ function togglePopup() {
         
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch The Rig  </h1>
 
-     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+    <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://dood.yt/e/sh0t365wewkp" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
@@ -158,10 +154,7 @@ function togglePopup() {
       <h2 > Watch The Rig  (2023) Server 1</h2></a></button>
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch The Rig Hindi Dubbed (2023) </h1>
 
-     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+    <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/d86dncrfd378.html" />
     </div>    
  
@@ -190,9 +183,6 @@ function togglePopup() {
 <h2 ><strong>Starring:</strong> Emily Hampshire, Iain Glen, Calvin Demba, Molly Vevers, Abraham Popoola, Rochenda Sandall, Richard Pepple, Martin Compston, Owen Teale, Stuart McQuarrie, Cameron Fulton.</h2>
 <h2 ><strong>Description:</strong> A group of workers on a remote Scottish oil rig are due to return to the mainland when a mysterious fog enshrouds them and supernatural forces take hold.</h2>
 </div>
- <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
@@ -208,10 +198,7 @@ function togglePopup() {
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer The Rig (2023) </h2>
-            <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+           <div className={styles['iframe-container']}>
  <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/3fymkp02idfq.html" />
                    
              </div>
@@ -253,10 +240,7 @@ function togglePopup() {
       `}</style>
     </div>
 
-     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">The Rig (2023) </h3>
  <Link href="../../Hollywood/TheRig-2023/DownloadTRG1">

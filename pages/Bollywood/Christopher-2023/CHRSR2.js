@@ -7,7 +7,6 @@ import React, { useEffect, useState } from 'react';
 ;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Ad from '@components/Ad';
 
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
@@ -110,10 +109,7 @@ function togglePopup() {
 
 
     
-         <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+        <div className={styles['iframe-container']}>
         <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src="https://dood.yt/e/6qw022lpy2gq" />
     </div>  
 
@@ -147,9 +143,6 @@ function togglePopup() {
 <h2 ><strong>Starring:</strong> Mammootty, Aishwarya Lekshmi, Amala Paul, R. Sarathkumar, Siddique, Sneha, Dileesh Pothan, Vinay Rai, Shine Tom Chacko, Remya Suresh, Kalesh Kalakkodu, Jinu Joseph, Deepak Parambol, Nitin Thomas.</h2>
 <h2 ><strong>Description:</strong> A maverick cop is forced to work outside the limits of law, when the system fails.The story weaves across the past and present while revealing the motives that shape his actions.</h2>
 </div>
- <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
@@ -165,10 +158,7 @@ function togglePopup() {
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Christopher (2023) </h2>
-           <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+          <div className={styles['iframe-container']}>
     <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src="https://sbhight.com/e/27fbczzhk8x7.html" />
                    
              </div> </div>
@@ -209,10 +199,7 @@ function togglePopup() {
       `}</style>
     </div>
 
-     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Christopher (2023) </h3>
  <Link href="../../Bollywood/Christopher-2023/DownloadCHR1">

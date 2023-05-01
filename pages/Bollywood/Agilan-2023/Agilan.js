@@ -6,7 +6,6 @@ import React, { useEffect, useState } from 'react';
 ;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Ad from '@components/Ad';
 
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
@@ -102,10 +101,7 @@ function togglePopup() {
         
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Watch Agilan (2023)</h1>
 
-     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+    <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/ar070dmo6ygn.html" />
     </div>     
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
@@ -138,9 +134,6 @@ function togglePopup() {
 <h2 ><strong>Starring:</strong> Tarun Arora, Boxer Dheena, Rachit Jadoun, Chirag Jani, Shaan Kakkar, Vetri Kiran, Kumaravel, Hardy Nation, Hareesh Peradi, Madhusudhan Rao, Jayam Ravi.</h2>
 <h2 ><strong>Description:</strong>When a crane operator starts controlling illegal trades at the harbor, he winds up clashing with another gangster.</h2>
 </div>
- <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
@@ -156,10 +149,7 @@ function togglePopup() {
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Agilan (2023)</h2>
-            <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className={styles['iframe-container']}>
+           <div className={styles['iframe-container']}>
  <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/r1letzuh7mhf.html" />
                    
              </div></div>
@@ -202,10 +192,7 @@ function togglePopup() {
     </div>
 
 
-     <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
-<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Agilan (2023)</h3>
  <Link href="../../Bollywood/Agilan-2023/DownloadAGL1">

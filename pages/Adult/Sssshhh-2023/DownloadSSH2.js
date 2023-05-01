@@ -2,7 +2,6 @@
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import Max from 'pages/Max';
-import Ad from '@components/Ad';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
 import AdultSkipAds from '@components/AdultSkipAds'

@@ -3,13 +3,13 @@
 import styles from '@styles/video-player.module.css'
 import Link from 'next/link'
 
-import Head from 'next/head';
+import Head from 'next/head'
+;
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
 
 
 import WorldClock from '@components/WorldClock';
-import Ad from '@components/Ad';
 
 
 const scrollSearch = myKey => {
@@ -82,9 +82,6 @@ const Ch01 = () => {
                <button className="close-button " >
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button></Link>
- <div className=" flex container flex-col items-center justify-center mx-5 my-5 ">
-      <Ad />
-      </div>  
 <div className={styles['iframe-container']}>
     <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://daddylivehd.sx/embed/stream-1.php" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0"></iframe>
    

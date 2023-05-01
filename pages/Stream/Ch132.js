@@ -10,7 +10,6 @@ import Script from 'next/script';
 
 
 import WorldClock from '@components/WorldClock';
-import Ad from '@components/Ad';
 
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
