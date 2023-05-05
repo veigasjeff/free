@@ -4,12 +4,12 @@ import React, { useEffect, useState } from 'react';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
+
+
 import AdultSkipAds from '@components/AdultSkipAds'
 
 
-
-
-function DownloadRKP1({ movie }) {
+function DownloadBHP2({ movie }) {
   
 
   if (!movie) {
@@ -49,13 +49,13 @@ function DownloadRKP1({ movie }) {
       "target": [
         {
           "@type": "EntryPoint",
-          "name": "Rikshawala Ullu Web Series (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Adult/RikshawalaPart1-2023/Rikshawala"
+          "name": "Behrupiya (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Adult/Behrupiya-2023/Behrupiya"
         },
         {
           "@type": "EntryPoint",
-          "name": "Rikshawala Ullu Web Series (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Adult/RikshawalaPart1-2023/RKPSR1"
+          "name": "Behrupiya (2023)",
+          "urlTemplate": "https://uwatchfree.vercel.app/Adult/Behrupiya-2023/BHPSR1"
         },
       
       ]
@@ -81,6 +81,15 @@ function DownloadRKP1({ movie }) {
         "@type": "ImageObject",
         "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "Action Platform",
+      "value": [
+        "Desktop Web Platform",
+        "iOS Platform",
+        "Android Platform"
+      ]
     }
   });
   
@@ -91,34 +100,33 @@ function DownloadRKP1({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
     <Head>
-     <title>Watch Rikshawala Part 1 (2023) Full Movie Online Free | Uwatchfree™</title>
+     <title>Watch Behrupiya (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch Rikshawala movie,index of Rikshawala movie,Rikshawala movie 2023,Rikshawala movie online,watch Rikshawala movie online free,Rikshawala tv series,Rikshawala movie download,Rikshawala movie free download,Rikshawala movie download" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch behrupiya movie,index of behrupiya movie,behrupiya movie 2023,behrupiya movie online,watch behrupiya movie online free,behrupiya tv series,behrupiya movie download,behrupiya movie free download,behrupiya movie download" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Rikshawala Part 1 (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Bollywood/RikshawalaPart1-2023/Rikshawala" />
-<meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682710/rikshawala-p1-2023_beewi9.webp" />
+<meta property="og:title" content="Watch Behrupiya (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Adult/Behrupiya-2023/Behrupiya" />
+<meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683197660/behrupiya-2023_nwjfo1.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Rikshawala Part 1 (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682710/rikshawala-p1-2023_beewi9.webp" />
-<meta name="description" content="Watch Rikshawala Full Movie Online on Uwatchfree™, You can also download Rikshawala Part 1 (2023)
- in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Behrupiya (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683197660/behrupiya-2023_nwjfo1.webp" />
+<meta name="description" content="Watch Behrupiya Full Movie Online on Uwatchfree™, You can also download Behrupiya (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/RikshawalaPart1-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Behrupiya-2023/" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 
        <div className="bg-gray-600 shadow ">
+       <AdultSkipAds/>
 
-<AdultSkipAds />
 
      
   <div className="flex flex-col items-center  justify-center space-y-12">
@@ -126,39 +134,27 @@ function DownloadRKP1({ movie }) {
 <img src={movie.banner} alt={`Banner for ${movie.title}`} loading="lazy" className=" rounded-3xl  mx-auto my-10 "  />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
      DOWNLOAD {movie.title} (2023) </h2>
-   
+  
+  
     
-     <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-     {movie.title} Episode 1 </h2>
-<a href={movie.down1link1} target={"_blamk"} id="download_link" > 
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
-  Download Now
- 
-</button></a>
-<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-{movie.title} Episode 2 </h2>
-<a href={movie.down1link2} target={"_blamk"} id="download_link" > 
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
-  Download Now
- 
-</button></a>
-<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-{movie.title} Episode 3 </h2>
-<a href={movie.down1link3} target={"_blamk"} id="download_link" > 
+    <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+    {movie.name} (2023) </h2>
+<a href={movie.down2link1} target={"_blamk"} id="download_link" > 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Download Now
  
 </button></a>
 
-<h2 className="text-blue-500 text-3xl title-font  mb-3 font-bold md:text-3xl">
+
+<h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
 Thank you for Dowloading and Enjoy. </h2>
-<h2 className="text-blue-500 text-3xl title-font  mb-3 font-bold md:text-3xl ">
+<h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
 Please Share the Link.</h2>
 <Max />
 
 
 
-<a href="../../Adult/Rikshawala-2023/RikshawalaP1" >
+<a href="../../Adult/Behrupiya-2023/BHPSR1" >
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Back
 
@@ -177,7 +173,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'RKP');
+  const selectedMovie = data.find(movie => movie.id === 'BHP');
   return {
     props: {
       movie: selectedMovie
@@ -185,4 +181,4 @@ export async function getServerSideProps() {
   };
 }
  
-export default DownloadRKP1;
+export default DownloadBHP2;

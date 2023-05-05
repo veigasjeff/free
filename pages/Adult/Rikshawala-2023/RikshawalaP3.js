@@ -7,12 +7,11 @@ import styles from '@styles/video-player.module.css';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
-import AdultSkipAds from '@components/AdultSkipAds'
 
 
 
 
-function RKPSR1({ movie }) {
+function RikshawalaP3({ movie }) {
   
 
   if (!movie) {
@@ -53,14 +52,14 @@ function RKPSR1({ movie }) {
         {
           "@type": "EntryPoint",
           "name": "Rikshawala Ullu Web Series (2023)",
-          "urlTemplate": "https://uwatchfree.vercel.app/Adult/RikshawalaPart1-2023/RikshawalaP1"
+          "urlTemplate": "https://uwatchfree.vercel.app/Adult/RikshawalaPart1-2023/RikshawalaP2"
         },
         {
           "@type": "EntryPoint",
           "name": "Rikshawala Ullu Web Series (2023)",
           "urlTemplate": "https://uwatchfree.vercel.app/Adult/RikshawalaPart1-2023/RKPSR1"
         },
-              
+             
       ]
     },
     "aggregateRating": {
@@ -103,25 +102,25 @@ function RKPSR1({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
     <Head>
-     <title>Watch Rikshawala Part 1 (2023) Full Movie Online Free | Uwatchfree™</title>
+     <title>Watch Rikshawala Part 3 (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch rikshawala part 1 movie,index of rikshawala part 1 movie,rikshawala part 1 movie 2023,rikshawala part 1 movie online,watch rikshawala part 1 movie online free,rikshawala part 1 tv series,rikshawala part 1 movie download,rikshawala part 1 movie free download,rikshawala part 1 movie download" />
+<meta name="keywords" content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch rikshawala Part 3 movie,index of rikshawala Part 3 movie,rikshawala Part 3 movie 2023,rikshawala Part 3 movie online,watch rikshawala Part 3 movie online free,rikshawala Part 3 tv series,rikshawala Part 3 movie download,rikshawala Part 3 movie free download,rikshawala Part 3 movie download" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Rikshawala Part 1 (2023) | Uwatchfree™" />
+<meta property="og:title" content="Watch Rikshawala Part 3 (2023) | Uwatchfree™" />
 <meta property="og:url" content="https://uwatchfree.vercel.app/Adult/RikshawalaPart1-2023/Rikshawala" />
 <meta property="og:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682710/rikshawala-p1-2023_beewi9.webp" />
 <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Rikshawala Part 1 (2023) | Uwatchfree™" />
+<meta name="twitter:title" content="Watch Rikshawala Part 3 (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682710/rikshawala-p1-2023_beewi9.webp" />
-<meta name="description" content="Watch Rikshawala Full Movie Online on Uwatchfree™, You can also download Rikshawala Part 1 (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Rikshawala Full Movie Online on Uwatchfree™, You can also download Rikshawala Part 3 (2023) in full HD quality to watch later offline." />
 
 <link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Rikshawala-2023/" />
        </Head>
@@ -129,12 +128,12 @@ function RKPSR1({ movie }) {
 
        <div className="bg-gray-600 shadow ">
 
-       <AdultSkipAds />
+     
 
-       <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} -  Episode 1</h1>
+       <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} -  Episode 3</h1>
        <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-        src={movie['movie.watchSR1']}
+        src={movie['movie.watchP3']}
         width="100%"
         height="500px"
         allowFullScreen
@@ -146,27 +145,27 @@ function RKPSR1({ movie }) {
 <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
     
     <div className="flex justify-center">
-    <Link href="../../Adult/Rikshawala-2023/RKPSR1">
+    <Link href="../../Adult/Rikshawala-2023/RikshawalaP1">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 1
       </button></Link>
     </div>
     <div className="flex justify-center">
-    <Link href="../../Adult/Rikshawala-2023/RKPSR2">
+    <Link href="../../Adult/Rikshawala-2023/RikshawalaP2">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 2
       </button></Link>
     </div>
     <div className="flex justify-center">
-    <Link href="../../Adult/Rikshawala-2023/RKPSR3">
+    <Link href="../../Adult/Rikshawala-2023/RikshawalaP3">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 3
       </button></Link>
     </div>
     </div>
            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-           <a href="../Rikshawala-2023/RikshawalaP1" >  
-      <h2 > Watch {movie.name} (2023) Server 1</h2></a></button>
+           <a href="../Rikshawala-2023/RKPSR3" >  
+      <h2 > Watch {movie.name} (2023) Server 2</h2></a></button>
       <Rating />
       <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank">IMDb Rating: {movie.rating}</a>  
       
@@ -280,4 +279,4 @@ export async function getServerSideProps() {
   };
 }
  
-export default RKPSR1;
+export default RikshawalaP3;
