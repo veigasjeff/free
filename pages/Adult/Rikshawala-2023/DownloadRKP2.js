@@ -4,13 +4,25 @@ import React, { useEffect, useState } from 'react';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
+import Ads from '@components/Ads';
 import AdultSkipAds from '@components/AdultSkipAds'
 
 
 
 
 function DownloadRKP2({ movie }) {
-  
+  const [showAd, setShowAd] = useState(false);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setShowAd(true);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleAdClose = () => {
+    setShowAd(false);
+  };
 
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
@@ -116,7 +128,8 @@ function DownloadRKP2({ movie }) {
        </Head>
 <Script src="../../propler/ads.js" defer />
 
-       <div className="bg-gray-600 shadow ">
+      <div className="bg-gray-600 shadow ">
+{showAd && <Ads onClose={handleAdClose} />}
 
 <AdultSkipAds />
 

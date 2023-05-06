@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
+import Ads from '@components/Ads';
 
 
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -124,7 +125,8 @@ function DownloadDEK2({ movie }) {
        </Head>
 <Script src="../../propler/ads.js" defer />
 
-       <div className="bg-gray-600 shadow ">
+      <div className="bg-gray-600 shadow ">
+{showAd && <Ads onClose={handleAdClose} />}
        <AdultSkipAds/>
 
 

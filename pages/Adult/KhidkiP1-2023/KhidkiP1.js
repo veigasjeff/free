@@ -10,12 +10,26 @@ import Max from 'pages/Max';
 
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
+import Ads from '@components/Ads';
 
 
 
 
 
 const KhidkiP1  = () => {
+  const [showAd, setShowAd] = useState(false);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setShowAd(true);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleAdClose = () => {
+    setShowAd(false);
+  };
+  
   useEffect(() => {
     const handleContextmenu = e => {
         e.preventDefault()
@@ -102,6 +116,7 @@ function togglePopup() {
 <Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 ">
+{showAd && <Ads onClose={handleAdClose} />}
 
         
         <AdultSkipAds />
