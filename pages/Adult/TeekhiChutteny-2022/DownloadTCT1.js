@@ -1,7 +1,7 @@
 
 import AdultSkipAds from '@components/AdultSkipAds'
 import Max from 'pages/Max';
-
+import React, { useEffect, useState } from 'react';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
 import Ads from '@components/Ads';
