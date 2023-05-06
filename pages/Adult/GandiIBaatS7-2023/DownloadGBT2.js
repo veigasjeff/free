@@ -28,7 +28,8 @@ const DownloadGBT2 = () => {
   return (
     <div>
            <div className="bg-gray-600 ">
-{showAd && <Ads onClose={handleAdClose} />}
+
+
   <Head>
     
 

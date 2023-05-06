@@ -142,7 +142,8 @@ function BHPSR1({ movie }) {
 <Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 shadow ">
-{showAd && <Ads onClose={handleAdClose} />}
+
+
        <AdultSkipAds/>
 
        <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - EPISODE 1</h1>

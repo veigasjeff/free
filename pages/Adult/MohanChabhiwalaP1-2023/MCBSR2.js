@@ -116,7 +116,8 @@ function togglePopup() {
 <Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 ">
-{showAd && <Ads onClose={handleAdClose} />}
+
+
 
         
         <AdultSkipAds />

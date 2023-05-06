@@ -140,7 +140,8 @@ function RikshawalaP3({ movie }) {
 <Script src="../../propler/ads.js" defer />
 
       <div className="bg-gray-600 shadow ">
-{showAd && <Ads onClose={handleAdClose} />}
+
+
 
      
 
