@@ -5,6 +5,7 @@ import Marquee from '@components/Marquee';
 import { Image } from 'cloudinary-react'
 //import Ad from '../components/Ad';
 import { useState, useRef, useEffect } from "react";
+import Script from 'next/script';
 
 
 
@@ -215,7 +216,15 @@ const schemaData   = {
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest"></link>
   <link rel="canonical" href="https://uwatchfree.vercel.app/" />
-
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" defer></script>
+<Script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "776a447b-de2b-4695-b4d6-6cceacd88b10",
+    });
+  });
+</Script>
       </Head>
 
      
