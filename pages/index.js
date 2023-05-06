@@ -89,6 +89,8 @@ export default function Home({ movie }) {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
+
+
 const schemaData   = {
   "@context":"https://schema.org",
   "@graph":[
@@ -229,13 +231,13 @@ const schemaData   = {
             <div className="flex flex-wrap justify-center">
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2 " key={movie.title}>
-                    
+                      <h1 className="text-xl font-bold leading-normal mb-2 text-white" >Click Image to Watch Trailer. </h1>
                  <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
   <Image className="w-full h-full object-cover  rounded-3xl border border-white shadow-md"  loading="eager" src={movie.poster} alt={movie.title}  width={1000}  height={562.5} />
  
   {hovered === index && (
   <div className="absolute inset-0 flex items-center justify-center">
-   
+ 
    <video
   className="w-full h-full object-cover rounded-3xl border border-white shadow-md"
   src={hovered === index && movie['movie.trailer'] ? movie['movie.trailer'] : movie.image}
@@ -250,7 +252,7 @@ const schemaData   = {
   </div>
 )}
 <a
-  href={movie['movie.watch']}
+ // href={movie['movie.watch']}
   id={movie.id}
   className="absolute inset-0 flex items-center justify-center"
   onMouseEnter={() => setHovered(index)}
@@ -274,6 +276,15 @@ const schemaData   = {
                     <p className={`${styles.yearRelease} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Year Release : {movie.yearRelease}</p>
                     <p className={`${styles.genre} text-xl font-bold leading-normal mb-2 text-white`} style={{ textShadow: "5px 5px 2px #000" }}>Genre : {movie.genre}</p>
                   </div> 
+                  <a
+  href={movie['movie.watch']}
+  id={movie.id}  
+>
+  <button className={`${styles['watch-now-button']} rounded-3xl border shadow-md`}>
+    Watch Now
+  </button>
+</a>
+
                 </div>
               ))}
             </div>
