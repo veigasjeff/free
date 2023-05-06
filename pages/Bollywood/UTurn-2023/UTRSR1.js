@@ -76,8 +76,8 @@ function UTRSR1({ movie }) {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": movie.rating,
-      "beUTRating": 10,
-      "worUTRating": 0,
+      "bestRating": 10,
+      "worstRating": 0,
       "ratingCount": 1
     },
     "author": [
