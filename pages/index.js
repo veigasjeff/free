@@ -90,14 +90,14 @@ const schemaData   = {
       "@type":"CollectionPage",
       "@id":"https://uwatchfree.vercel.app/",
       "url":"https://uwatchfree.vercel.app/",
-      "name":"1337x™ | Watch Movies, TV-Series & Sports Live Online Free",
+      "name":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free",
       "isPartOf":{
         "@id":"https://uwatchfree.vercel.app/#website"
       },
       "about":{
         "@id":"https://uwatchfree.vercel.app/#organization"
       },
-      "description":"1337x™ - Watch Movies, TV-Series & Sports Live Online Free",
+      "description":"Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free",
       "breadcrumb":{
         "@id":"https://uwatchfree.vercel.app/#breadcrumb"
       },
@@ -110,7 +110,7 @@ const schemaData   = {
         {
           "@type":"ListItem",
           "position":1,
-          "name":"1337x™ | Watch Movies, TV-Series & Sports Live Online Free"
+          "name":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
         }
       ]
     },
@@ -118,8 +118,8 @@ const schemaData   = {
       "@type":"WebSite",
       "@id":"https://uwatchfree.vercel.app/#website",
       "url":"https://uwatchfree.vercel.app/",
-      "name":"1337x™ | Watch Movies, TV-Series & Sports Live Online Free",
-      "description":"1337x™ - Watch Movies, TV-Series & Sports Live Online Free",
+      "name":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free",
+      "description":"Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free",
       "publisher":{
         "@id":"https://uwatchfree.vercel.app/#organization"
       },
@@ -138,7 +138,7 @@ const schemaData   = {
     {
       "@type":"Organization",
       "@id":"https://uwatchfree.vercel.app/#organization",
-      "name":"1337x™ | Watch Movies, TV-Series & Sports Live Online Free",
+      "name":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free",
       "url":"https://uwatchfree.vercel.app/",
       "logo":{
         "@type":"ImageObject",
@@ -148,7 +148,7 @@ const schemaData   = {
         "contentUrl":"https://uwatchfree.vercel.app/logo.png",
         "width":834,
         "height":135,
-        "caption":"1337x™ | Watch Movies, TV-Series & Sports Live Online Free"
+        "caption":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
       },
       "image":{
         "@id":"https://uwatchfree.vercel.app/#/schema/logo/image/"
@@ -167,7 +167,7 @@ const LandingPage = () => {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-        <title>1337x™ | Watch Movies, TV-Series & Sports Live Online Free</title>
+        <title>Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free</title>
         <meta name="robots" content="index, follow" />  
         <meta name="revisit-after" content="1 days" />
         <meta name="facebook-domain-verification" content="13auzwhblf4oo4jn5vl6gcmebugsqb" />
@@ -175,23 +175,23 @@ const LandingPage = () => {
         <meta name='dailymotion-domain-verification' content='dmv6sg06w9r5eji88' />
         <meta name="monetag" content="076afbb772da1a62ef6f43756dfa5f65"></meta>
       <meta name="google-site-verification" content="4dFu4PUk1pc1IYqU6Brt84akCwNxaoUpKSO3gDW0kJ0" />
-        <meta name="description" content="1337x™ - Watch Movies, TV-Series & Sports Live Online Free" />
+        <meta name="description" content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free" />
       <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       <meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online" />
 	     <meta property="og:locale" content="en_US" /> 
       <meta property="og:locale" content="en_US" />   
       <meta property=" Content-Security-Policy: frame-ancestors 'self' uwatchfree.vercel.app *.uwatchfree.vercel.app;" />
-      <meta property="og:site_name" content="1337x™ | Watch Movies, TV-Series & Sports Live Online Free " />
+      <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free " />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="1337x™ | Watch Movies, TV-Series & Sports Live Online Free " />
-      <meta property="og:description" content="1337x™ - Watch Movies, TV-Series & Sports Live Online Free " />
+      <meta property="og:title" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free " />
+      <meta property="og:description" content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free " />
       <meta property="og:url" content="https://uwatchfree.vercel.app/" />
       <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
       <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/og_image.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="1337x™ - Watch Movies, TV-Series & Sports Live Online Free " />
-      <meta name="twitter:description" content=" 1337x™ - Watch Movies, TV-Series & Sports Live Online Free " />
+      <meta name="twitter:title" content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free " />
+      <meta name="twitter:description" content=" Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free " />
       <meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
     
 
@@ -224,7 +224,7 @@ const LandingPage = () => {
 />
 </HeroBannerContainer>
 <PageContainer >
-        <Header className='container mx-5'   style={{textShadow: "5px 5px 2px #000" }}>Welcome to 1337x™ </Header>
+        <Header className='container mx-5'   style={{textShadow: "5px 5px 2px #000" }}>Welcome to Uwatchfree™ </Header>
         <Text className='container mx-5' style={{textShadow: "5px 5px 2px #000" }}>Watch Movies TV-Series & Sports Live Online Free </Text>
         <Link href="/page">
           <Button>Enter Free </Button>
