@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import HeroBanner from '../components/HeroBanner';
 import style from '../styles/styles.module.css';
+import BackgroundVideo from '../components/BackgroundVideo';
 
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
@@ -17,7 +18,7 @@ const PageContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
+
   background-image: url(${props => props.src});
   background-size: cover;
   background-position: center;
@@ -52,7 +53,7 @@ const VideoBackground = styled.video`
 const Header = styled.h1`
 position: absolute;  
 font-size: 24px;
-top: 45%;
+top: 40%;
   text-align: center;
   color: white;
  
@@ -63,7 +64,7 @@ const Text = styled.h2`
   position: absolute;
   font-size: 20px;
   text-align: center;
-  top: 50%;
+  top: 45%;
   color: white;
 `;
 
@@ -77,7 +78,7 @@ const Button = styled.button`
   cursor: pointer;
   position: absolute;
   left: 50%;
-  top: 63%;
+  top: 55%;
   transform: translate(-50%, -50%);
 `;
 
@@ -213,28 +214,13 @@ const LandingPage = () => {
   <link rel="canonical" href="https://uwatchfree.vercel.app/" />
 
       </Head>
-      <Link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
-    
-      <HeroBannerContainer >
-      <HeroBanner
-  src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
-  alt="Hero banner"
-  loading="lazy"
-  height={100}
-/>
-</HeroBannerContainer>
-<PageContainer >
-        <Header className='container mx-5'   style={{textShadow: "5px 5px 2px #000" }}>Welcome to Uwatchfree™ </Header>
-        <Text className='container mx-5' style={{textShadow: "5px 5px 2px #000" }}>Watch Movies TV-Series & Sports Live Online Free </Text>
-        <Link href="/page">
-          <Button>Enter Free </Button>
-        </Link> 
-        <VideoBackground autoPlay muted loop>
-          <source src="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866" type="video/mp4" />
-        </VideoBackground>
-      </PageContainer>
+   
+      <BackgroundVideo  
+        src="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
+        srcMobile="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
+      />
     </>
   );
-};
+}
 
 export default LandingPage;
