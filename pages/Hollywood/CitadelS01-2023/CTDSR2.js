@@ -77,7 +77,16 @@ function CTDSR2({ movie }) {
         "name": "Citadel S01 Episode 2",
         "url": "https://uwatchfree.vercel.app/Hollywood/CitadelS01-2023/CTDSR2"
       },
-     
+      {
+        "@type": "TVEpisode",
+        "name": "Citadel S01 Episode 3",
+        "url": "https://uwatchfree.vercel.app/Hollywood/CitadelS01-2023/CTDSR3"
+      },
+      {
+        "@type": "TVEpisode",
+        "name": "Citadel S01 Episode 4",
+        "url": "https://uwatchfree.vercel.app/Hollywood/CitadelS01-2023/CTDSR4"
+      },
     ],
     "author": [{
       "@type": "Person",
@@ -164,21 +173,33 @@ function CTDSR2({ movie }) {
 <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
     
     <div className="flex justify-center">
-    <Link href="../../Hollywood/CitadelS01-2023/CitadelP1">
+    <Link href="../../Hollywood/CitadelS01-2023/CTDSR1">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
   Episode 1
       </button></Link>
     </div>
     <div className="flex justify-center">
-    <Link href="../../Hollywood/CitadelS01-2023/CitadelP2">
+    <Link href="../../Hollywood/CitadelS01-2023/CTDSR2">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
   Episode 2
+      </button></Link>
+    </div>
+    <div className="flex justify-center">
+    <Link href="../../Hollywood/CitadelS01-2023/CTDSR3">
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+  Episode 3
+      </button></Link>
+    </div>
+    <div className="flex justify-center">
+    <Link href="../../Hollywood/CitadelS01-2023/CTDSR4">
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+  Episode 4
       </button></Link>
     </div>
     </div>
            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
            <a href="../CitadelS01-2023/CitadelP2" >  
-      <h2 > Watch {movie.name}  Server 2</h2></a></button>
+      <h2 > Watch {movie.name}  Server 1</h2></a></button>
       <Rating />
       <a href={movie.link} className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " target="_blank">IMDb Rating: {movie.rating}</a>  
       
@@ -186,7 +207,7 @@ function CTDSR2({ movie }) {
         <li>Starring: {movie.starring.join(', ')}</li>
         <li>Year of release: {movie.yearRelease}</li>
         <li>Director: {movie.director}</li>
-        <li>Country: {movie.country}</li>
+        <li>Country of origin: {movie.country}</li>
         <li>Genre: {movie.genre}</li>
         <p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
       </ul>
