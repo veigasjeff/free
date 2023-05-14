@@ -16,9 +16,7 @@ const BackgroundVideo = ({ src, srcMobile }) => {
         <source src={isMobile ? srcMobile : src} type="video/mp4" />
       </video>
       <div className={styles.overlay}>
-        <h1 className='mx-5 text-4xl font-bold' style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000", textAlign: "center" }}>
-          Welcome to Uwatchfree™ 
-        </h1>
+      
        
         <div className="text-center">
           <Link href="/page">
