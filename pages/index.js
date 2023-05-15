@@ -147,7 +147,12 @@ const LandingPage = () => {
       </Head>
       <div className="bg-gray-600 shadow ">
    
-    
+      <Image
+  src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
+  alt="Hero banner"
+  loading="lazy"
+  style={{ display: "block", width: "100%" }}
+/>
 
        <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
       
@@ -160,12 +165,7 @@ const LandingPage = () => {
         src="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
         srcMobile="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
       />
- <Image
-  src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
-  alt="Hero banner"
-  loading="lazy"
-  style={{ display: "block", width: "100%" }}
-/>
+
       </div>
    
 
