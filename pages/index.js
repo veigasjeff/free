@@ -2,85 +2,15 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import Head from 'next/head';
-import HeroBanner from '../components/HeroBanner';
+
 import style from '../styles/styles.module.css';
 import BackgroundVideo from '../components/BackgroundVideo';
+import ShareButtons from '@components/ShareButtons';
 
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
 };
-
-
-const PageContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-
-  background-image: url(${props => props.src});
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-`;
-
-const HeroBannerContainer = styled.div`
-  width: 100%;
-  height: 100px;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: -1;
-`;
-
-const HeroBannerImage = styled.img`
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-`;
-
-const VideoBackground = styled.video`
-  position: relative;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  object-fit: cover;
-`;
-
-const Header = styled.h1`
-position: absolute;  
-font-size: 24px;
-top: 40%;
-  text-align: center;
-  color: white;
- 
-`;
-
-const Text = styled.h2`
-  font-family: 'Roboto', sans-serif;
-  position: absolute;
-  font-size: 20px;
-  text-align: center;
-  top: 45%;
-  color: white;
-`;
-
-const Button = styled.button`
-  background-color: #0070f3;
-  color: white;
-  font-size: 20px;
-  padding: 16px 32px;
-  border-radius: 8px;
-  border: none; 
-  cursor: pointer;
-  position: absolute;
-  left: 50%;
-  top: 55%;
-  transform: translate(-50%, -50%);
-`;
 
 
 
@@ -214,11 +144,18 @@ const LandingPage = () => {
   <link rel="canonical" href="https://uwatchfree.vercel.app/" />
 
       </Head>
-   
+      <div className="bg-gray-600 shadow ">
+    
+       <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+      
+       
+         <h1 className="text-center font-bold text-3xl  py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Uwatchfree™ - Watch Movies Tv Series & Sports Live. </h1>  
+
       <BackgroundVideo  
         src="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
         srcMobile="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
       />
+      </div>
     </>
   );
 }
