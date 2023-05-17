@@ -32,7 +32,7 @@ const BackgroundVideo = ({ src, srcMobile }) => {
         <div className="text-center">
     
      
-          <Link href="/page">
+          <Link href="/Movies">
           <button
       className={`relative inline-flex items-center rounded-3xl  my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br ${
         isBlinking ? "from-red-600 to-blue-500" : "from-blue-500 to-red-600"
