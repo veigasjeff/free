@@ -31,7 +31,7 @@ function PNTSR1({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.prevePNTefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -48,10 +48,10 @@ function PNTSR1({ movie }) {
     setShowPopup(!showPopup);
   }
   const ldJsonData = JSON.stringify({
-    "@context": "https://schema.PNT",
+    "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopPNT,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -88,7 +88,7 @@ function PNTSR1({ movie }) {
       }
     ],
     "publisher": {
-      "@type": "PNTanization",
+      "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
@@ -115,7 +115,7 @@ function PNTSR1({ movie }) {
     <Head>
      <title>Watch Paint (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,paint movie,paint 2023,index of paint movie,paint cast,paint trailer,paint release date,paint plot,paint reviews,paint streaming,paint watch online,paint download,paint full movie,paint movie download,paint movie free download,paint movie online,paint movie watch online,owen wilson, elisabeth henry in Paint" />
+<meta name="keywords" content="uwatchfree,paint movie,paint 2023,index of paint movie,paint cast,paint trailer,paint release date,paint plot,paint reviews,paint streaming,paint watch online,paint download,paint full movie,paint movie download,paint movie free download,paint movie online,paint movie watch online" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
@@ -131,7 +131,7 @@ function PNTSR1({ movie }) {
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Paint (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683907530/Paint-2023_cnev1i.webp" />
-<meta name="description" content="Watch One Day As A Lion Full Movie Online on Uwatchfree™, You can also download Paint (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Paint Full Movie Online on Uwatchfree™, You can also download Paint (2023) in full HD quality to watch later offline." />
 
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/Paint-2023/" />
        </Head>
@@ -167,7 +167,8 @@ function PNTSR1({ movie }) {
         <li>Director: {movie.director}</li>
         <li>Country of origin: {movie.country}</li>
         <li>Genre: {movie.genre}</li>
-        <p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
+            <div  className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}> Synopsis:</div>
+<p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>{movie.synopsis}</p>
       </ul>
      
            
@@ -247,7 +248,7 @@ Download
 
 <Max />
 
-<Link href="../../HollywooPNTs"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+<Link href="../../HollywoodAds"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
   Back To Hollywood Section
 
@@ -265,7 +266,7 @@ Download
 export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'PNT');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX03');
   return {
     props: {
       movie: selectedMovie

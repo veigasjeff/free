@@ -17,7 +17,7 @@ function DownloadAWH2({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveAWHefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -170,7 +170,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'AWH');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX07');
   return {
     props: {
       movie: selectedMovie

@@ -17,7 +17,7 @@ function DownloadTMT1({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveTMTefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -34,10 +34,10 @@ function DownloadTMT1({ movie }) {
     setShowPopup(!showPopup);
   }
   const ldJsonData = JSON.stringify({
-    "@context": "https://schema.TMT",
+    "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopTMT,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -74,7 +74,7 @@ function DownloadTMT1({ movie }) {
       }
     ],
     "publisher": {
-      "@type": "TMTanization",
+      "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
@@ -101,7 +101,7 @@ function DownloadTMT1({ movie }) {
     <Head>
      <title>Watch The Mother (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,the mother movie,the mother 2023,index of the mother movie,the mother cast,the mother trailer,the mother release date,the mother plot,the mother reviews,the mother streaming,the mother watch online,the mother download,the mother full movie,the mother movie download,the mother movie free download,the mother movie online,the mother movie watch online,jennifer lopez, lucy paez in the mother" />
+<meta name="keywords" content="uwatchfree,the mother movie,the mother 2023,index of the mother movie,the mother cast,the mother trailer,the mother release date,the mother plot,the mother reviews,the mother streaming,the mother watch online,the mother download,the mother full movie,the mother movie download,the mother movie free download,the mother movie online,the mother movie watch online" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
@@ -117,7 +117,7 @@ function DownloadTMT1({ movie }) {
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch The Mother (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683907530/the-mother-2023_eldnzw.webp" />
-<meta name="description" content="Watch The Mother Full Movie Online on Uwatchfree™, You can also download The Mother (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch One Ranger Full Movie Online on Uwatchfree™, You can also download The Mother (2023) in full HD quality to watch later offline." />
 
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/TheMother-2023/" />
        </Head>
@@ -169,7 +169,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'TMT');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX04');
   return {
     props: {
       movie: selectedMovie

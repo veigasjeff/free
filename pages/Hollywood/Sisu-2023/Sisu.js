@@ -32,7 +32,7 @@ function Sisu({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveSISefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -116,7 +116,7 @@ function Sisu({ movie }) {
     <Head>
      <title>Watch Sisu (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,sisu movie,sisu 2023,index of sisu movie,sisu cast,sisu trailer,sisu release date,sisu plot,sisu reviews,sisu streaming,sisu watch online,sisu download,sisu full movie,sisu movie download,sisu movie free download,sisu movie online,sisu movie watch online,jorma tommila, aksel hennie sisu" />
+<meta name="keywords" content="uwatchfree,sisu movie,sisu 2023,index of sisu movie,sisu cast,sisu trailer,sisu release date,sisu plot,sisu reviews,sisu streaming,sisu watch online,sisu download,sisu full movie,sisu movie download,sisu movie free download,sisu movie online,sisu movie watch online" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
@@ -169,7 +169,8 @@ function Sisu({ movie }) {
         <li>Director: {movie.director}</li>
         <li>Country of origin: {movie.country}</li>
         <li>Genre: {movie.genre}</li>
-        <p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
+            <div  className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}> Synopsis:</div>
+<p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>{movie.synopsis}</p>
       </ul>
      
            
@@ -249,7 +250,7 @@ Download
 
 <Max />
 
-<Link href="../../HollywooSISs"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+<Link href="../../HollywoodAds"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
   Back To Hollywood Section
 
@@ -267,7 +268,7 @@ Download
 export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'SIS');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX20');
   return {
     props: {
       movie: selectedMovie

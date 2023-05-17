@@ -8,9 +8,10 @@ import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
 import { Image } from 'cloudinary-react'
+
 //import Ad from '@components/Ad1';
 
-
+ 
 
 
 function Simulant({ movie }) {
@@ -32,7 +33,7 @@ function Simulant({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveSIMefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -49,10 +50,10 @@ function Simulant({ movie }) {
     setShowPopup(!showPopup);
   }
   const ldJsonData = JSON.stringify({
-    "@context": "https://schema.SIM",
+    "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopSIM,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -89,7 +90,7 @@ function Simulant({ movie }) {
       }
     ],
     "publisher": {
-      "@type": "SIManization",
+      "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
@@ -144,6 +145,7 @@ function Simulant({ movie }) {
      
 
        <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - 2023</h1>
+     
        <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
         src={movie['movie.watchP1']}
@@ -169,7 +171,8 @@ function Simulant({ movie }) {
         <li>Director: {movie.director}</li>
         <li>Country of origin: {movie.country}</li>
         <li>Genre: {movie.genre}</li>
-        <p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
+            <div  className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}> Synopsis:</div>
+<p className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>{movie.synopsis}</p>
       </ul>
      
            
@@ -249,7 +252,7 @@ Download
 
 <Max />
 
-<Link href="../../HollywooSIMs"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+<Link href="../../HollywoodAds"><buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
   Back To Hollywood Section
 
@@ -267,7 +270,7 @@ Download
 export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'SIM');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX17');
   return {
     props: {
       movie: selectedMovie

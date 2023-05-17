@@ -17,7 +17,7 @@ function DownloadSIS2({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveSISefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -101,7 +101,7 @@ function DownloadSIS2({ movie }) {
     <Head>
      <title>Watch Sisu (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,sisu movie,sisu 2023,index of sisu movie,sisu cast,sisu trailer,sisu release date,sisu plot,sisu reviews,sisu streaming,sisu watch online,sisu download,sisu full movie,sisu movie download,sisu movie free download,sisu movie online,sisu movie watch online,jorma tommila, aksel hennie sisu" />
+<meta name="keywords" content="uwatchfree,sisu movie,sisu 2023,index of sisu movie,sisu cast,sisu trailer,sisu release date,sisu plot,sisu reviews,sisu streaming,sisu watch online,sisu download,sisu full movie,sisu movie download,sisu movie free download,sisu movie online,sisu movie watch online" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
@@ -170,7 +170,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'SIS');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX20');
   return {
     props: {
       movie: selectedMovie

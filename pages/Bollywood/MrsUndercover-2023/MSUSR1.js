@@ -155,7 +155,7 @@ function MSUSR1({ movie }) {
         <li>Starring: {movie.starring.join(', ')}</li>
         <li>Year of release: {movie.yearRelease}</li>
         <li>Director: {movie.director}</li>
-        <li>Country: {movie.country}</li>
+        <li>Country of origin: {movie.country}</li>
         <li>Genre: {movie.genre}</li>
   <p className="flex contMSUer flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Synopsis:{movie.synopsis}</p>
       </ul>

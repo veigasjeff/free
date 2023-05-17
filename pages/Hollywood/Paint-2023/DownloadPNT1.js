@@ -17,7 +17,7 @@ function DownloadPNT1({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.prevePNTefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -34,10 +34,10 @@ function DownloadPNT1({ movie }) {
     setShowPopup(!showPopup);
   }
   const ldJsonData = JSON.stringify({
-    "@context": "https://schema.PNT",
+    "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopPNT,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -74,7 +74,7 @@ function DownloadPNT1({ movie }) {
       }
     ],
     "publisher": {
-      "@type": "PNTanization",
+      "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
@@ -101,7 +101,7 @@ function DownloadPNT1({ movie }) {
     <Head>
      <title>Watch Paint (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,paint movie,paint 2023,index of paint movie,paint cast,paint trailer,paint release date,paint plot,paint reviews,paint streaming,paint watch online,paint download,paint full movie,paint movie download,paint movie free download,paint movie online,paint movie watch online,owen wilson, elisabeth henry in Paint" />
+<meta name="keywords" content="uwatchfree,paint movie,paint 2023,index of paint movie,paint cast,paint trailer,paint release date,paint plot,paint reviews,paint streaming,paint watch online,paint download,paint full movie,paint movie download,paint movie free download,paint movie online,paint movie watch online" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
@@ -117,7 +117,7 @@ function DownloadPNT1({ movie }) {
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Paint (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683907530/Paint-2023_cnev1i.webp" />
-<meta name="description" content="Watch Paint Full Movie Online on Uwatchfree™, You can also download Paint (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch One Ranger Full Movie Online on Uwatchfree™, You can also download Paint (2023) in full HD quality to watch later offline." />
 
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/Paint-2023/" />
        </Head>
@@ -169,7 +169,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'PNT');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX03');
   return {
     props: {
       movie: selectedMovie

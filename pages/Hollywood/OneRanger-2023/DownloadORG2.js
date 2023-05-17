@@ -17,7 +17,7 @@ function DownloadORG2({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveORGefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -37,7 +37,7 @@ function DownloadORG2({ movie }) {
     "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopORG,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -170,7 +170,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'ORG');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX01');
   return {
     props: {
       movie: selectedMovie

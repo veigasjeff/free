@@ -17,7 +17,7 @@ function DownloadSIM2({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveSIMefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -34,10 +34,10 @@ function DownloadSIM2({ movie }) {
     setShowPopup(!showPopup);
   }
   const ldJsonData = JSON.stringify({
-    "@context": "https://schema.SIM",
+    "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopSIM,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -74,7 +74,7 @@ function DownloadSIM2({ movie }) {
       }
     ],
     "publisher": {
-      "@type": "SIManization",
+      "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
@@ -170,7 +170,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'SIM');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX17');
   return {
     props: {
       movie: selectedMovie

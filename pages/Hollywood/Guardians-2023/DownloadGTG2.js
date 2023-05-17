@@ -17,7 +17,7 @@ function DownloadGTG2({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveGTGefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -34,10 +34,10 @@ function DownloadGTG2({ movie }) {
     setShowPopup(!showPopup);
   }
   const ldJsonData = JSON.stringify({
-    "@context": "https://schema.GTG",
+    "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopGTG,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -74,7 +74,7 @@ function DownloadGTG2({ movie }) {
       }
     ],
     "publisher": {
-      "@type": "GTGanization",
+      "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
@@ -170,7 +170,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'GTG');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX16');
   return {
     props: {
       movie: selectedMovie

@@ -17,7 +17,7 @@ function DownloadDST1({ movie }) {
   }
   useEffect(() => {
     const handleContextmenu = e => {
-        e.preveDSTefault()
+      e.preventDefault()
     }
     document.addEventListener('contextmenu', handleContextmenu)
     return function cleanup() {
@@ -34,10 +34,10 @@ function DownloadDST1({ movie }) {
     setShowPopup(!showPopup);
   }
   const ldJsonData = JSON.stringify({
-    "@context": "https://schema.DST",
+    "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopDST,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -74,7 +74,7 @@ function DownloadDST1({ movie }) {
       }
     ],
     "publisher": {
-      "@type": "DSTanization",
+      "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
@@ -101,7 +101,7 @@ function DownloadDST1({ movie }) {
     <Head>
      <title>Watch Dead Shot (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,dead shot movie,dead shot 2023,index of dead shot movie,dead shot cast,dead shot trailer,dead shot release date,dead shot plot,dead shot reviews,dead shot streaming,dead shot watch online,dead shot download,dead shot full movie,dead shot movie download,dead shot movie free download,dead shot movie online,dead shot movie watch online,m�ir�ad tyers, brian mccann in dead shot" />
+<meta name="keywords" content="uwatchfree,dead shot movie,dead shot 2023,index of dead shot movie,dead shot cast,dead shot trailer,dead shot release date,dead shot plot,dead shot reviews,dead shot streaming,dead shot watch online,dead shot download,dead shot full movie,dead shot movie download,dead shot movie free download,dead shot movie online,dead shot movie watch online" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
@@ -117,7 +117,7 @@ function DownloadDST1({ movie }) {
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Dead Shot (2023) | Uwatchfree™" />
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683913530/dead-shot-2023_ncwrby.webp" />
-<meta name="description" content="Watch Dead Shot Full Movie Online on Uwatchfree™, You can also download Dead Shot (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch One Ranger Full Movie Online on Uwatchfree™, You can also download Dead Shot (2023) in full HD quality to watch later offline." />
 
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/DeadShot-2023/" />
        </Head>
@@ -169,7 +169,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
 
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'DST');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX05');
   return {
     props: {
       movie: selectedMovie

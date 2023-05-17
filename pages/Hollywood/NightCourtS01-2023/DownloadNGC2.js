@@ -192,7 +192,7 @@ function DownloadNGC2({ movie }) {
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch  NightCourt S01   | Uwatchfree™" />
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682712/the-gifted-s02_ynhaoq.webp" />
-<meta name="description" content="Watch  NightCourt S01  Full Movie Online on Uwatchfree™, You can also download  NightCourt S01   in full HD quality to watch later offline." />
+<meta name="description" content="Watch NightCourt S01 Full Movie Online on Uwatchfree™, You can also download  NightCourt S01 in full HD quality to watch later offline." />
 
 <link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/NightCourtS01-2023/" />
        </Head>
