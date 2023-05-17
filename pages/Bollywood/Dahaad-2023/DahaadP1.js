@@ -298,7 +298,7 @@ Download
 export async function getServerSideProps() {
   const res = await fetch('https://uwatchfree.vercel.app/movies.json');
   const data = await res.json();
-  const selectedMovie = data.find(movie => movie.id === 'DHD');
+  const selectedMovie = data.find(movie => movie.id === 'INDEX13');
   return {
     props: {
       movie: selectedMovie
