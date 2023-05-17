@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import ShareButtons from '@components/ShareButtons';
-import Marquee from '@components/Marquee';
+
 import { Image } from 'cloudinary-react'
 //import Ad from '../components/Ad';
 import { useState, useRef, useEffect } from "react";
@@ -281,7 +281,7 @@ const schemaData   = {
   href={movie['movie.watch']}
   id={movie.id}  
 >
-  <button className={`${styles['watch-now-button']} rounded-3xl border shadow-md`}>
+  <button className={`${styles['watch-now-button']} rounded-3xl border shadow-md `}>
     Watch Now
   </button>
 </a>
