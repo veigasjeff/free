@@ -126,7 +126,7 @@ const LandingPage = () => {
       <meta name="twitter:description" content=" Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free " />
       <meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
     
-      <link rel="preload" href="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg" as="image">
+   
       <link rel="alternate" hrefLang="en-us" 	href="https://uwatchfree.vercel.app/"/>
   <link rel="alternate" hrefLang="en-gb" 	href="https://uwatchfree.vercel.app/"/>
   <link rel="alternate" hrefLang="en-ca" 	href="https://uwatchfree.vercel.app/"/>
@@ -142,6 +142,11 @@ const LandingPage = () => {
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest"></link>
+  <link
+        rel="preload"
+        href="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
+        as="image"
+      />
   <link rel="canonical" href="https://uwatchfree.vercel.app/" />
 
       </Head>
@@ -151,6 +156,7 @@ const LandingPage = () => {
   src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
   alt="Hero banner"
   loading="lazy"
+  priority={true}
   style={{ display: "block", width: "100%" }}
 />
 
