@@ -7,7 +7,7 @@ import style from '../styles/styles.module.css';
 import BackgroundVideo from '../components/BackgroundVideo';
 import ShareButtons from '@components/ShareButtons';
 import { Image } from 'cloudinary-react'
-  
+import { initGA, logPageView } from '@components/components/ga';
 
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
@@ -91,7 +91,10 @@ const schemaData   = {
 };
 
 const LandingPage = () => {
-
+  useEffect(() => {
+    initGA();
+    logPageView();
+  }, []);
 
   return (
     <>
@@ -149,12 +152,8 @@ const LandingPage = () => {
         as="image"
       />
   <link rel="canonical" href="https://uwatchfree.vercel.app/" />
- 
-
-
 
       </Head>
-    
       <div className="bg-gray-600 shadow ">
    
       <Image
