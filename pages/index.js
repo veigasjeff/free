@@ -7,7 +7,7 @@ import style from '../styles/styles.module.css';
 import BackgroundVideo from '../components/BackgroundVideo';
 import ShareButtons from '@components/ShareButtons';
 import { Image } from 'cloudinary-react'
-import { initGA, logPageView } from '@components/components/ga';
+import { initGA, logPageView } from '@components/ga';
 
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
