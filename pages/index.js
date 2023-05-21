@@ -7,6 +7,7 @@ import style from '../styles/styles.module.css';
 import BackgroundVideo from '../components/BackgroundVideo';
 import ShareButtons from '@components/ShareButtons';
 import { Image } from 'cloudinary-react'
+import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
@@ -148,8 +149,11 @@ const LandingPage = () => {
         as="image"
       />
   <link rel="canonical" href="https://uwatchfree.vercel.app/" />
+ 
+
 
       </Head>
+      <GoogleAnalytics measurementId="G-K8QKRZ4B44" />
       <div className="bg-gray-600 shadow ">
    
       <Image

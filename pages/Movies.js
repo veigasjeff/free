@@ -182,7 +182,7 @@ const schemaData   = {
         <meta name='dailymotion-domain-verification' content='dmv6sg06w9r5eji88' />
         <meta name="monetag" content="076afbb772da1a62ef6f43756dfa5f65"></meta>
 	  	 <meta name="google-site-verification" content="4dFu4PUk1pc1IYqU6Brt84akCwNxaoUpKSO3gDW0kJ0" />
-	      <meta name="description" content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free" />
+       <meta name="description" content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
        <meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online" />
 	     <meta property="og:locale" content="en_US" />   
