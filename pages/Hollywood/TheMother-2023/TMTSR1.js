@@ -48,10 +48,10 @@ function TMTSR1({ movie }) {
     setShowPopup(!showPopup);
   }
   const ldJsonData = JSON.stringify({
-    "@context": "https://schema.TMT",
+    "@context": "https://schema.org",
     "@type": "Movie",
     "name": movie.name,
-    "description": movie.synopTMT,
+    "description": movie.synopsis,
     "image": movie.poster,
     "genre": movie.genre,
     "datePublished": movie.yearRelease,
@@ -88,7 +88,7 @@ function TMTSR1({ movie }) {
       }
     ],
     "publisher": {
-      "@type": "TMTanization",
+      "@type": "Organization",
       "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
