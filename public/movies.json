@@ -4541,110 +4541,7 @@
 
     "movie.trailer": "https://ik.imagekit.io/lwkyvy5lo/Mrs._Davis_Official_Trailer_Peacock_Original.mp4?updatedAt=1682214230609"
   },
-  {
-    "id": "RID",
-    "title": "RIDE ",
-    "name": "Ride  ",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682204324/ride-2023_svnpm2.webp",
-    "yearRelease": 2023,
-    "genre": [" THRILLER,", " DRAMA"],
-    "rating": 6.4,
-    "synopsis": " Follows the lives of the McMurrays as they struggle to keep their beloved ranch afloat.",
-    "starring": [
-      "Nancy Travis",
-      "Beau Mirchoff",
-      "Tiera Skovbye",
-      "Sara Garcia",
-      "Jake Foy"
-    ],
-    "director": "Paolo Barzman, Rebecca Boss, Chris Masi",
-    "country": "USA",
-    "status": "Tv Series",
-    "link": "https://www.imdb.com/title/tt21043326/",
 
-    "movie.watch": "../../Hollywood/Ride-2023/RideP1",
-
-    "movie.watchP1": "https://lvturbo.com/e/qzwmm7nphkuk.html",
-    "movie.watchP2": "https://lvturbo.com/e/a2rgsgsopfj2.html",
-    "movie.watchP3": "https://lvturbo.com/e/wm2tgxogxc4a.html",
-    "movie.watchP4": "https://lvturbo.com/e/vmlf6v7gdydg.html",
-
-    "movie.watchSR1": "https://dood.yt/e/njppy0srjd6w",
-    "movie.watchSR2": "https://dood.yt/e/quf3wgyath11",
-    "movie.watchSR3": "https://dood.yt/e/10hy1m1enygb",
-    "movie.watchSR4": "https://dood.yt/e/cjwsd6vtyyox",
-
-    "download1": "../../Hollywood/Ride-2023/DownloadRID1",
-
-    "down1link1": "https://lvturbo.com/d/qzwmm7nphkuk.html",
-    "down1link2": "https://lvturbo.com/d/a2rgsgsopfj2.html",
-    "down1link3": "https://lvturbo.com/d/wm2tgxogxc4a.html",
-    "down1link4": "https://lvturbo.com/d/vmlf6v7gdydg.html",
-
-    "download2": "../../Hollywood/Ride-2023/DownloadRID2",
-    "down2link1": "https://dood.yt/d/njppy0srjd6w",
-    "down2link2": "https://dood.yt/d/quf3wgyath11",
-    "down2link3": "https://dood.yt/d/10hy1m1enygb",
-    "down2link4": "https://dood.yt/d/cjwsd6vtyyox",
-
-    "movie.trailer": "https://ik.imagekit.io/lwkyvy5lo/Ride_2023-Official_Trailer.mp4?updatedAt=1682208860282"
-  },
-  {
-    "id": "PLB",
-    "title": "PLAN B ",
-    "name": "Plan B ",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682204324/plan-b-2023_o00zph.webp",
-    "yearRelease": 2023,
-    "genre": [" SCI-FI, ", " THRILLER,", " DRAMA"],
-    "rating": 5.7,
-    "synopsis": " A controlling husband who wants a successful family goes back in time to try to change the course of events and the outcome of his failing marriage.",
-    "starring": [
-      "Patrick J. Adams",
-      "François Arnaud",
-      "Karine Vanasse",
-      "Alexandra Petrachuk",
-      "Joshua Close"
-    ],
-    "director": "Jean-François Asselin, Jacques Drolet",
-    "country": "USA",
-    "status": "Tv Series",
-    "link": "https://www.imdb.com/title/tt15475278/",
-
-    "movie.watch": "../../Hollywood/PlanB-2023/PlanBP1",
-
-    "movie.watchP1": "https://lvturbo.com/e/c96pctq2avd7.html",
-    "movie.watchP2": "https://lvturbo.com/e/ymfv8ee8l6qn.html",
-    "movie.watchP3": "https://lvturbo.com/e/c13v8ds27png.html",
-    "movie.watchP4": "https://lvturbo.com/e/z08568jjsr59.html",
-    "movie.watchP5": "https://lvturbo.com/e/aynh3ynbh2fs.html",
-    "movie.watchP6": "https://lvturbo.com/e/2zu78a01ne8g.html",
-
-    "movie.watchSR1": "https://dood.yt/e/eod470jjsu3b",
-    "movie.watchSR2": "https://dood.yt/e/v9okmkmjpyap",
-    "movie.watchSR3": "https://dood.yt/e/24w5fx78wykm",
-    "movie.watchSR4": "https://dood.yt/e/k0xvc1mcads4",
-    "movie.watchSR5": "https://dood.yt/e/tjns84p95drm",
-    "movie.watchSR6": "https://dood.yt/e/ce3y3fteeufr",
-
-    "download1": "../../Hollywood/PlanB-2023/DownloadPLB1",
-
-    "down1link1": "https://lvturbo.com/d/c96pctq2avd7.html",
-    "down1link2": "https://lvturbo.com/d/ymfv8ee8l6qn.html",
-    "down1link3": "https://lvturbo.com/d/c13v8ds27png.html",
-    "down1link4": "https://lvturbo.com/d/z08568jjsr59.html",
-    "down1link5": "https://lvturbo.com/d/aynh3ynbh2fs.html",
-    "down1link6": "https://lvturbo.com/d/2zu78a01ne8g.html",
-
-    "download2": "../../Hollywood/PlanB-2023/DownloadPLB2",
-    "down2link1": "https://dood.yt/d/eod470jjsu3b",
-    "down2link2": "https://dood.yt/d/v9okmkmjpyap",
-    "down2link3": "https://dood.yt/d/24w5fx78wykm",
-    "down2link4": "https://dood.yt/d/k0xvc1mcads4",
-    "down2link5": "https://dood.yt/d/tjns84p95drm",
-    "down2link6": "https://dood.yt/d/ce3y3fteeufr",
-
-    "movie.trailer": "https://ik.imagekit.io/lwkyvy5lo/Plan_B_2023_Official_Trailer.mp4?updatedAt=1682206570748"
-  },
   {
     "id": "AIN",
     "title": "Am I Next ",
@@ -7355,34 +7252,7 @@
     "link": "https://www.imdb.com/title/tt11859542/",
     "movie.watch": "../../Hollywood/Better-2023/BetterP1"
   },
-  {
-    "id": "SFG",
-    "title": "THE WEAPON",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610133/the-weapon-2023_uj1b76.webp",
-    "yearRelease": 2023,
-    "genre": [" ACTION, ", " DRAMA"],
-    "rating": 4.3,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt18228142/",
-    "movie.watch": "../../Hollywood/TheWeapon-2023/TheWeapon"
-  },
-  {
-    "id": "SFG",
-    "title": "CARNIVAL ROW",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681609995/carnival-row-2023_itn6pq.webp",
-    "yearRelease": 2023,
-    "genre": [" ACTION, ", " DRAMA"],
-    "rating": 7.4,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt0489974/",
-    "movie.watch": "../../Hollywood/CarnivalRow-2023/CarnivalRowP1"
-  },
+ 
   {
     "id": "SFG",
     "title": "ANT-MAN AND THE WASP..",
@@ -7412,20 +7282,7 @@
     "link": "https://www.imdb.com/title/tt15428778/",
     "movie.watch": "../../Hollywood/MayfairWitches-2023/MayfairWitchesP1"
   },
-  {
-    "id": "SFG",
-    "title": "IN FORM THE COLD",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610061/in-from-the-cold-2023_emvqyj.webp",
-    "yearRelease": 2023,
-    "genre": [" ACTION, ", " ADVENTURE"],
-    "rating": 6.9,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt11859542/",
-    "movie.watch": "../../Hollywood/InFormTheCold-2023/InFormTheColdP1"
-  },
+ 
   {
     "id": "SFG",
     "title": "BLACK PANTHER WAKANDA..",
@@ -7440,21 +7297,7 @@
     "link": "https://www.imdb.com/title/tt9114286/",
     "movie.watch": "../../Hollywood/BlackPantherWaka-2023/BlackPantherWaka"
   },
-  {
-    "id": "SFG",
-    "title": "EXTRAORDINARY",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610003/extraordinary-2023_kl2vho.webp",
-    "yearRelease": 2023,
-    "genre": [" ACTION, ", " DRAMA"],
-    "rating": 7.6,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt14531842/",
-    "movie.watch": "../../Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1"
-  },
-
+  
   {
     "id": "SFG",
     "title": "IMANI",
@@ -7469,20 +7312,7 @@
     "link": "https://www.imdb.com/title/tt21967864/",
     "movie.watch": "../../Hollywood/Imani-2023/Imani"
   },
-  {
-    "id": "SFG",
-    "title": "KALEIDOSCOPE",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610078/kaleidoscope-2022_bnahyy.webp",
-    "yearRelease": 2022,
-    "genre": [" DRAMA, ", " THRILLER"],
-    "rating": 5.3,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt15438246/",
-    "movie.watch": "../../Hollywood/Kaleidoscope-2023/KaleidoscopeP1"
-  },
+  
   {
     "id": "SFG",
     "title": "KNOCK AT THE CABIN",
@@ -7511,35 +7341,8 @@
     "link": "https://www.imdb.com/title/tt13802576/",
     "movie.watch": "../../Hollywood/LockwoodAndCo-2023/LockwoodAndCoP1"
   },
-  {
-    "id": "SFG",
-    "title": "NIGHT TRAIN",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610086/night-train-2023_zla4nz.webp",
-    "yearRelease": 2023,
-    "genre": [" ACTION, ", " THRILLER"],
-    "rating": 3.5,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt15727212/",
-    "movie.watch": "../../Hollywood/NightTrain-2023/NightTrain"
-  },
 
-  {
-    "id": "SFG",
-    "title": "TEEN WOLF THE MOVIE",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610129/teen-wolf-the-movie-2023_ltu66v.webp",
-    "yearRelease": 2023,
-    "genre": [" ACTION, ", " FANTASY"],
-    "rating": 5.6,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt15486810/",
-    "movie.watch": "../../Hollywood/TeenWolfTheMovie-2023/TeenWolfTheMovie"
-  },
+ 
   {
     "id": "SFG",
     "title": "THE RIG S1",
@@ -7569,48 +7372,7 @@
     "movie.watch": "../../Hollywood/TulsaKing-2023/TulsaKingP1"
   },
 
-  {
-    "id": "SFG",
-    "title": "TRANSFUSION",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610134/transfusion-2023_bfzi9x.webp",
-    "yearRelease": 2023,
-    "genre": [" THRILLER, ", " CRIME"],
-    "rating": 5.3,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt14873054/",
-    "movie.watch": "../../Hollywood/Transfusion-2023/Transfusion"
-  },
-  {
-    "id": "SFG",
-    "title": "PLANE",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610088/plane-2023_xnjqid.webp",
-    "yearRelease": 2023,
-    "genre": [" DRAMA, ", " WAR"],
-    "rating": 6.8,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt5884796/",
-    "movie.watch": "../../Hollywood/Plane-2023/Plane"
-  },
-  {
-    "id": "SFG",
-    "title": "NARVIK",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610084/narvik-2022_ignacv.webp",
-    "yearRelease": 2023,
-    "genre": [" DRAMA, ", " WAR"],
-    "rating": 6.8,
-    "synopsis": "An immigrant Indian mother's battle against the Norwegian foster care system and local legal machinery to win back the custody of her children.",
-    "starring": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
-    "director": "Peter Jackson",
-    "country": "USA",
-    "link": "https://www.imdb.com/title/tt5884796/",
-    "movie.watch": "../../Hollywood/Narvik-2023/Narvik"
-  },
+  
   {
     "id": "SFG",
     "title": "IMLI",
