@@ -8,6 +8,7 @@ import Max from 'pages/Max';
 import ShareButtons from '@components/ShareButtons';
 import Script from 'next/script';
 import { Image } from 'cloudinary-react'
+import BackVideo from '@components/BackVideo';
 //import Ad from '@components/Ad1';
 
 
@@ -144,14 +145,10 @@ function EightAMMetro({ movie }) {
      
 
        <h1 className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>{movie.title} - 2023</h1>
-       <div className={styles['iframe-container']}>
-      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
+       <BackVideo
         src={movie['movie.watchP1']}
-        width="100%"
-        height="500px"
-        allowFullScreen
-      ></iframe>
-           </div>  
+        srcMobile={movie['movie.watchP1']}
+      /> 
            <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
 <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
 
@@ -266,7 +263,7 @@ Download
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://uwatchfree.vercel.app/movies.json');
+  const res = await fetch('http://localhost:3000/movies.json');
   const data = await res.json();
   const selectedMovie = data.find(movie => movie.id === 'INDEX40');
   return {
