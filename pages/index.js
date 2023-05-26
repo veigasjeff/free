@@ -169,8 +169,8 @@ const LandingPage = () => {
      
 
       <BackgroundVideo  
-        src="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
-        srcMobile="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
+        src="https://ik.imagekit.io/elqupgg8r/trailer.mp4?updatedAt=1685079738271"
+        srcMobile="https://ik.imagekit.io/elqupgg8r/trailer.mp4?updatedAt=1685079738271"
       />
 
       </div>
