@@ -109,7 +109,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610127/suki-2023_h2k2yl.webp" />
 <meta name="description" content="Watch Suki  Full Movie Online on Uwatchfree™, You can also download Suki (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Suki-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Suki-2023/Suki" />
  
 
       </Head>

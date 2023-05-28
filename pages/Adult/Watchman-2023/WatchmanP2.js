@@ -109,7 +109,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610140/watchman-part1-2023_vyifz9.webp" />
 <meta name="description" content="Watch Watchman Episode 2 Full Movie Online on Uwatchfree™, You can also download Watchman Episode 2 (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Watchman-2023/" /> 
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Watchman-2023/WatchmanP2" /> 
 
       </Head>
 <Script src="../../propler/ads.js" defer />

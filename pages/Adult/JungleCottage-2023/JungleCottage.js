@@ -110,7 +110,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610078/jungle-cottage-2023_mxv3n6.webp" />
 <meta name="description" content="Watch Ishqiya Full Movie Online on Uwatchfree™, You can also download Jungle Cottage (2023)  in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/JungleCottage-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/JungleCottage-2023/JungleCottage" />
  
 
       </Head>

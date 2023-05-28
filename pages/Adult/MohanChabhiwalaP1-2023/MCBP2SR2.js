@@ -110,7 +110,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610082/mohan-chabhiwala-p1-2023_beslt3.webp" />
 <meta name="description" content="Watch Ishqiya Full Movie Online on Uwatchfree™, You can also download Mohan Chabhiwala  (2023)  in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/MohanChabhiwalaP1-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/MohanChabhiwalaP1-2023/MCBP2SR2" />
  
 
       </Head>

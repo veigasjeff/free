@@ -110,7 +110,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610139/virgin-bahus-2023_bpii0t.webp" />
 <meta name="description" content="Watch VirginBahus Full Movie Online on Uwatchfree™, You can also download Virgin Bahus (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/VirginBahus-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/VirginBahus-2023/VBASR2" />
  
 
       </Head>

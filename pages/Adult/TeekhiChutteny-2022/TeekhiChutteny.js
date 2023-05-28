@@ -108,7 +108,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610129/teekhi-chutney-part2-2022_whq09h.webp" />
 <meta name="description" content="Watch TeekhiChutteny Full Movie Online on Uwatchfree™, You can also download Teekhi Chutney Part 2 (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/TeekhiChutteny-2022/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/TeekhiChutteny-2022/TeekhiChutteny" />
  
 
       </Head>

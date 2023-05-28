@@ -133,7 +133,7 @@ function DownloadDJW2({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/v1681610000/devrani-jethani-aur-woh-2023_cljbpq.webp" />
 <meta name="description" content="Watch DevraniJethaniAurWoh Full Movie Online on Uwatchfree™, You can also download DevraniJethaniAurWoh (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/DevraniJethaniAurWoh-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/DevraniJethaniAurWoh-2023/DownloadDJW2" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

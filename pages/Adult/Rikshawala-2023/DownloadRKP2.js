@@ -124,7 +124,7 @@ function DownloadRKP2({ movie }) {
 <meta name="description" content="Watch Rikshawala Full Movie Online on Uwatchfree™, You can also download Rikshawala Part 1 (2023)
  in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/RikshawalaPart1-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/RikshawalaPart1-2023/DownloadRKP2" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

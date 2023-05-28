@@ -108,7 +108,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610088/plan-b-2023_myeygt.webp" />
 <meta name="description" content="Watch Plan B Full Movie Online on Uwatchfree™, You can also download  Plan B (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/PlanB-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/PlanB-2023/PlanB" />
  
 
       </Head>

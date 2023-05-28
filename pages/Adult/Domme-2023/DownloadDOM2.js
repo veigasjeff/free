@@ -133,7 +133,7 @@ function DownloadDOM2({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682464975/domme-2023_somfvi.webp" />
 <meta name="description" content="Watch Domme Full Movie Online on Uwatchfree™, You can also download Domme (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Domme-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Domme-2023/DownloadDOM2" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

@@ -107,7 +107,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610092/secretary-2023_vgspmz.webp" />
 <meta name="description" content="Watch Secretary Part 1 Full Movie Online on Uwatchfree™, You can also download  Secretary Part 1 (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/SecretaryPart1-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/SecretaryPart1-2023/SecretaryPart1" />
  
 
       </Head>

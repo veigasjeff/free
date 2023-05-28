@@ -111,7 +111,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610078/kaand-2023_ya4wr3.webp" />
 <meta name="description" content="Watch Kaand Episode 1 Full Movie Online on Uwatchfree™, You can also download Kaand Episode 1 (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Kaand-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Kaand-2023/KADSR1" />
  
 
       </Head>

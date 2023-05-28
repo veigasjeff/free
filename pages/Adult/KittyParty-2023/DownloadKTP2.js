@@ -133,7 +133,7 @@ function DownloadKTP2({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610079/kitty-party-2023_lmkggm.webp" />
 <meta name="description" content="Watch KittyParty Full Movie Online on Uwatchfree™, You can also download KittyParty (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/KittyParty-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/KittyParty-2023/DownloadKTP1" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

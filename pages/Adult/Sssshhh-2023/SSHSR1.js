@@ -136,7 +136,7 @@ function SSHSR1({ movie }) {
 <meta name="description" content="Watch Sssshhh Full Movie Online on Uwatchfree™, You can also download Sssshhh (2023)
  in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Sssshhh-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Sssshhh-2023/SSHSR1" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

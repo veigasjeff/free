@@ -135,7 +135,7 @@ function RikshawalaP3({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682710/rikshawala-p1-2023_beewi9.webp" />
 <meta name="description" content="Watch Rikshawala Full Movie Online on Uwatchfree™, You can also download Rikshawala Part 3 (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Rikshawala-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Rikshawala-2023/RikshawalaP3" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 
