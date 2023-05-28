@@ -91,7 +91,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681609946/anger-tales-2023_wbsgvj.webp" />
 <meta name="description" content="Watch Anger Tales Full Movie Online on Uwatchfree™, You can also download Anger Tales (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/AngerTales-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/AngerTales-2023/AngerTales" />
  
 
       </Head>

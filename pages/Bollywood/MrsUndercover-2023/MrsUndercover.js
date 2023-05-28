@@ -123,7 +123,7 @@ function MrsUndercover({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681688321/mrs-undercover-2023_rnshs5.webp" />
 <meta name="description" content="Watch Am I Next Full Movie Online on Uwatchfree™, You can also download Mrs Undercover (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/MrsUndercover-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/MrsUndercover-2023/MrsUndercover" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

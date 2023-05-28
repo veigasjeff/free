@@ -94,7 +94,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610088/pathan-2023_fmcvks.webp" />
 <meta name="description" content="Watch Pathaan Full Movie Online on Uwatchfree™, You can also download Pathaan (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Pathaan-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Pathaan-2023/Pathaan" />
  
 
       </Head>

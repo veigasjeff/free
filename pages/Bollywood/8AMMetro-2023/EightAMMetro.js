@@ -134,7 +134,7 @@ function EightAMMetro({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684696463/8_A_M_Metro_2023_yjb4by.webp" />
 <meta name="description" content="Watch 8 A M Metro Full Movie Online on Uwatchfree™, You can also download 8 A M Metro (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/8AMMetro-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/8AMMetro-2023/EightAMMetro" />
 
        </Head>
 <Script src="../../propler/ads.js" defer />

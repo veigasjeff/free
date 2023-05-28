@@ -119,7 +119,7 @@ function DownloadTKS2({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683907530/the-kerala-story-2023_fzrq9z.webp" />
 <meta name="description" content="Watch Corona Papers Full Movie Online on Uwatchfree™, You can also download The Kerala Story (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/TheKeralaStory-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/TheKeralaStory-2023/DownloadTKS2" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

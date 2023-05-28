@@ -94,7 +94,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610138/victoria-ek-rahasya-2023_ikkjwx.webp" />
 <meta name="description" content="Watch Victoria Ek Rahasya  Full Movie Online on Uwatchfree™, You can also download Victoria Ek Rahasya (2023) Full Movie Online Free in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/VictoriaEkRahasya-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/VictoriaEkRahasya-2023/VERSR2" />
  
 
       </Head>

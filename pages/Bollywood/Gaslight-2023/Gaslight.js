@@ -123,7 +123,7 @@ function Gaslight({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610057/gaslight-2023_gy7r6a.webp" />
 <meta name="description" content="Watch Gaslight Full Movie Online on Uwatchfree™, You can also download Gaslight (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Gaslight-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Gaslight-2023/Gaslight" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

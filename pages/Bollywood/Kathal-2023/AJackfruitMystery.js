@@ -134,7 +134,7 @@ function AJackfruitMystery({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684696482/Kathal_A_Jackfruit_Mystery_2023_dh6y6v.webp" />
 <meta name="description" content="Watch Kathal: A Jackfruit Mystery Full Movie Online on Uwatchfree™, You can also download Kathal: A Jackfruit Mystery (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Kathal-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Kathal-2023/AJackfruitMystery" />
 
        </Head>
 <Script src="../../propler/ads.js" defer />

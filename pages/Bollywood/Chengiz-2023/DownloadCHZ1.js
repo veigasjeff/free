@@ -121,7 +121,7 @@ function DownloadCHZ1({ movie }) {
 <meta name="description" content="Watch Chengiz 
 Full Movie Online on Uwatchfree™, You can also download Chengiz (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Chengiz-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Chengiz-2023/DownloadCHZ1" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

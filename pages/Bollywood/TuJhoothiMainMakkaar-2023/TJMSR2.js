@@ -94,7 +94,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610135/tu-jhoothi-main-makkaar-2023_cnmhmd.webp" />
 <meta name="description" content="Watch Tu Jhoothi Main Makkaar  Full Movie Online on Uwatchfree™, You can also download Tu Jhoothi Main Makkaar (2023) Full Movie Online Free in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/TuJhoothiMainMakkaar-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/TuJhoothiMainMakkaar-2023/TJMSR2" />
  
 
       </Head>

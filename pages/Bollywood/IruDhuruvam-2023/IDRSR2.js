@@ -96,7 +96,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610077/iru-dhuruvam-2023_a54ssm.webp" />
 <meta name="description" content="Watch IruDhuruvam Full Movie Online on Uwatchfree™, You can also download Iru Dhuruvam (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/IruDhuruvam-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/IruDhuruvam-2023/IDRSR2" />
  
 
       </Head>

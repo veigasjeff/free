@@ -117,7 +117,7 @@ function DownloadCAK1({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681609998/crimes-aaj-kal-2023_h5neh5.webp" />
 <meta name="description" content="Watch Crimes Aaj Kal Full Movie Online on Uwatchfree™, You can also download Crimes Aaj Kal (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/CrimesAajKal-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/CrimesAajKal-2023/DownloadCAK1" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

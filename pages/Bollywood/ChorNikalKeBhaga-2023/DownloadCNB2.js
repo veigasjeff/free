@@ -121,7 +121,7 @@ function DownloadCNB2({ movie }) {
 <meta name="description" content="Watch ChorNikalKeBhaga 
 Full Movie Online on Uwatchfree™, You can also download Chor Nikal Ke Bhaga in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/ChorNikalKeBhaga-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/ChorNikalKeBhaga-2023/DownloadCNB2" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

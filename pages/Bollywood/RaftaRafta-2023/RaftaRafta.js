@@ -93,7 +93,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610090/rafta-rafta-2023_bwiqyu.webp" />
 <meta name="description" content="Watch Rafta Rafta Full Movie Online on Uwatchfree™, You can also download Rafta Rafta (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/RaftaRafta-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/RaftaRafta-2023/RaftaRafta" />
  
 
       </Head>

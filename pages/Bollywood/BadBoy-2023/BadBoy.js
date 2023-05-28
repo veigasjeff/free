@@ -134,7 +134,7 @@ function BadBoy({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683197660/bad-boy-2023_ex4sqt.webp" />
 <meta name="description" content="Watch BadBoy Full Movie Online on Uwatchfree™, You can also download Bad Boy (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/BadBoy-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/BadBoy-2023/BadBoy" />
 
        </Head>
 <Script src="../../propler/ads.js" defer />

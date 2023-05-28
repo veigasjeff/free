@@ -119,7 +119,7 @@ function DownloadGTG2({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610058/gutar-gu-2023_ztheoz.webp" />
 <meta name="description" content="Watch Gutar Gu Full Movie Online on Uwatchfree™, You can also download Gutar Gu (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/GutarGu-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/GutarGu-2023/DownloadGTG2" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

@@ -92,7 +92,7 @@ function DownloadGRM1({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682712/the-gifted-s02_ynhaoq.webp" />
 <meta name="description" content="Watch  Garmi  Full Movie Online on Uwatchfree™, You can also download  Garmi  (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Garmi-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Garmi-2023/DownloadGRM1" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

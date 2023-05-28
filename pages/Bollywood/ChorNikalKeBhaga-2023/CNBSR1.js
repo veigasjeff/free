@@ -123,7 +123,7 @@ function CNBSR1({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681609997/chor-nikal-ke-bhaga-2023_t9ia1t.webp" />
 <meta name="description" content="Watch ChorNikalKeBhaga Full Movie Online on Uwatchfree™, You can also download Chor Nikal Ke Bhaga in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/ChorNikalKeBhaga-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/ChorNikalKeBhaga-2023/CNBSR1" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

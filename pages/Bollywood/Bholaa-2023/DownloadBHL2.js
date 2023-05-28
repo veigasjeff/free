@@ -117,7 +117,7 @@ function DownloadBHL2({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/v1681609993/bholaa-2023_kktlh7.webp" />
 <meta name="description" content="Watch Bholaa Full Movie Online on Uwatchfree™, You can also download Bholaa (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Bholaa-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Bholaa-2023/DownloadBHL2" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 
@@ -128,7 +128,7 @@ function DownloadBHL2({ movie }) {
      
   <div className="flex flex-col items-center  justify-center space-y-12">
 <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
-<img src={movie.poster} alt={`Poster for ${movie.title}`} loading="lazy" className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl drop-shadow rounded-3xl" />
+<img src={movie.poster} alt={`Poster for ${movie.title}`} loading="lazy" className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl drop-shadow " />
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
      DOWNLOAD {movie.title} (2023) </h2>
   

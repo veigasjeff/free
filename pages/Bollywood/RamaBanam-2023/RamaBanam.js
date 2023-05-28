@@ -134,7 +134,7 @@ function RamaBanam({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683907529/Ramabanam-2023_jcv1fw.webp" />
 <meta name="description" content="Watch Rama Banam Full Movie Online on Uwatchfree™, You can also download Rama Banam (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/RamaBanam-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/RamaBanam-2023/RamaBanam" />
 
        </Head>
 <Script src="../../propler/ads.js" defer />

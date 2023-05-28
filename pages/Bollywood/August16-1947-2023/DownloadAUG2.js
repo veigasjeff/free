@@ -121,7 +121,7 @@ function DownloadAUG2({ movie }) {
 <meta name="description" content="Watch August16-1947 
 Full Movie Online on Uwatchfree™, You can also download August 16, 1947 (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/August16-1947-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/August16-1947-2023/DownloadAUG2" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

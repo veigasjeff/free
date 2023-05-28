@@ -140,7 +140,7 @@ function SBLSR2({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683907530/saas-bahu-aur-flamingo-2023_fvwuhe.webp" />
 <meta name="description" content="Watch The Boarding School: Las CumbresFull Movie Online on Uwatchfree™, You can also download Saas Bahu Aur Flamingo (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/SaasBahuAurFlamingo-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/SaasBahuAurFlamingo-2023/SBLSR2" />
 
        </Head>
 <Script src="../../propler/ads.js" defer />

@@ -96,7 +96,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610134/Triptych-2023_qnbn2v.webp" />
 <meta name="description" content="Watch Amigos Full Movie Online on Uwatchfree™, You can also download Triptych (2023) in full HD quality to watch later offline." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Triptych-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Triptych-2023/Triptych" />
 <script src="../../propler/ads.js" defer></script>
 
       </Head>

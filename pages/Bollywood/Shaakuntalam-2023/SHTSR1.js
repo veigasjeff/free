@@ -123,7 +123,7 @@ function SHTSR1({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682711/shaakuntalam-2023_ablwxo.webp" />
 <meta name="description" content="Watch Shaakuntalam Full Movie Online on Uwatchfree™, You can also download Shaakuntalam (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Shaakuntalam-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Shaakuntalam-2023/SHTSR1" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

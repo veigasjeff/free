@@ -134,7 +134,7 @@ function Farhana({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684183588/Farhana-2023_s2czpe.webp" />
 <meta name="description" content="Watch Farhana Full Movie Online on Uwatchfree™, You can also download Farhana (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Farhana-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Farhana-2023/Farhana" />
 
        </Head>
 <Script src="../../propler/ads.js" defer />

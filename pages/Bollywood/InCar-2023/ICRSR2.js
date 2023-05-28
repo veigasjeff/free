@@ -94,7 +94,7 @@ function togglePopup() {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610061/incar-2023_zk2nrj.webp" />
 <meta name="description" content="Watch InCar Full Movie Online on Uwatchfree™, You can also download InCar (2023) Full Movie Online Free in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/InCar-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/InCar-2023/ICRSR2" />
  
 
       </Head>

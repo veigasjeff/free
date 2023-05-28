@@ -120,7 +120,7 @@ function BHLSR1({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/v1681609993/bholaa-2023_kktlh7.webp" />
 <meta name="description" content="Watch Bholaa Full Movie Online on Uwatchfree™, You can also download Bholaa (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Bholaa-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/Bholaa-2023/BHLSR1" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

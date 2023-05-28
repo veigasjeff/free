@@ -161,7 +161,7 @@ function JubileeP8({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681682712/jubilee-2023_nfn3yw.webp" />
 <meta name="description" content="Watch Jubilee S01 Full Movie Online on Uwatchfree™, You can also download Jubilee S01 (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/JubileeS01-2023/" />  
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/JubileeS01-2023/JubileeP1" /> 
        </Head>
 <Script src="../../propler/ads.js" defer />
  
