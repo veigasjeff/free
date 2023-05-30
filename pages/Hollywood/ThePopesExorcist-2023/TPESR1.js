@@ -317,7 +317,7 @@ function TPESR1({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("http://localhost:3000/movies.json");
+  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "TPE");
   return {
