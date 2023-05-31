@@ -1,14 +1,13 @@
 import Link from "next/link";
 import Rating from "pages/Rating";
 import Head from "next/head";
-import AdultSkipAds from "@components/AdultSkipAds";
 import React, { useEffect, useState } from "react";
 import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 
-function PTLSR1({ movie }) {
+function PTLSR5({ movie }) {
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
@@ -169,18 +168,17 @@ function PTLSR1({ movie }) {
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
-        <AdultSkipAds />
-
+      
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - EPISODE 1
+          {movie.title} - EPISODE 5
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
+            src={movie["movie.watchSR5"]}
             width="100%"
             height="500px"
             allowFullScreen
@@ -240,7 +238,7 @@ function PTLSR1({ movie }) {
           </div>
         </div>
         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../PantaxaLaiya-2023/PantaxaLaiyaP1">
+          <a href="../PantaxaLaiya-2023/PantaxaLaiyaP5">
             <h2> Watch {movie.name} Server 1</h2>
           </a>
         </button>
@@ -353,13 +351,14 @@ function PTLSR1({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link 2 {movie.name}
           </h3>
-          <a href={movie.down2link1} target="_blank">
+          <a href={movie.down2link5} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
-              Download Episode 1
+              Download Episode 5
             </button>
           </a>
 
           <Max />
+          
 
           <Link href="../../AdultAds">
             <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
@@ -384,4 +383,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default PTLSR1;
+export default PTLSR5;

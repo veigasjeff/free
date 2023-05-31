@@ -8,7 +8,7 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 
-function PTLSR1({ movie }) {
+function TaakJhank({ movie }) {
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
@@ -62,15 +62,15 @@ function PTLSR1({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Pantaxa Laiya (2023)",
+          name: "Taak Jhank (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PantaxaLaiya",
+            "https://uwatchfree.vercel.app/Adult/TaakJhank-2023/TaakJhank",
         },
         {
           "@type": "EntryPoint",
-          name: "Pantaxa Laiya (2023)",
+          name: "Taak Jhank (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PTLSR1",
+            "https://uwatchfree.vercel.app/Adult/TaakJhank-2023/TAJSR1",
         },
       ],
     },
@@ -111,7 +111,7 @@ function PTLSR1({ movie }) {
       />
       <Head>
         <title>
-          Watch Pantaxa Laiya (2023) Full Movie Online Free | Uwatchfree™
+          Watch Taak Jhank (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -119,7 +119,7 @@ function PTLSR1({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch pantaxa laiya movie,index of pantaxa laiya movie,pantaxa laiya movie 2023,pantaxa laiya movie online,watch pantaxa laiya movie online free,pantaxa laiya tv series,pantaxa laiya movie download,pantaxa laiya movie free download,pantaxa laiya movie download"
+          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch taak jhank movie,index of taak jhank movie,taak jhank movie 2023,taak jhank movie online,watch taak jhank movie online free,taak jhank tv series,taak jhank movie download,taak jhank movie free download,taak jhank movie download"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -132,15 +132,15 @@ function PTLSR1({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Pantaxa Laiya (2023) | Uwatchfree™"
+          content="Watch Taak Jhank (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PTLSR1"
+          content="https://uwatchfree.vercel.app/Adult/TaakJhank-2023/TaakJhank"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683197661/pantaxa-laiya-2023_ypemfs.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685262881/Taak-Jhank-2023_wqqndq.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -151,20 +151,20 @@ function PTLSR1({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Pantaxa Laiya (2023) | Uwatchfree™"
+          content="Watch Taak Jhank (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683197661/pantaxa-laiya-2023_ypemfs.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685262881/Taak-Jhank-2023_wqqndq.webp"
         />
         <meta
           name="description"
-          content="Watch PantaxaLaiya Full Movie Online on Uwatchfree™, You can also download Pantaxa Laiya (2023) in full HD quality to watch later offline."
+          content="Watch Taak Jhank Full Movie Online on Uwatchfree™, You can also download Taak Jhank (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PTLSR1"
+          href="https://uwatchfree.vercel.app/Adult/TaakJhank-2023/TaakJhank"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -175,12 +175,12 @@ function PTLSR1({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - EPISODE 1
+          {movie.title} 
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
+            src={movie["movie.watchP1"]}
             width="100%"
             height="500px"
             allowFullScreen
@@ -195,53 +195,10 @@ function PTLSR1({ movie }) {
           title="Watch Movies, TV-Series & Sports Live Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
- <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
-          <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR1">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 1
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR2">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 2
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR3">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 3
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR4">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 4
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR5">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 5
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR6">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 6
-              </button>
-            </Link>
-          </div>
-        </div>
+ 
         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../PantaxaLaiya-2023/PantaxaLaiyaP1">
-            <h2> Watch {movie.name} Server 1</h2>
+          <a href="../TaakJhank-2023/TAJSR1">
+            <h2> Watch {movie.name} Server 2</h2>
           </a>
         </button>
         <Rating />
@@ -272,10 +229,9 @@ function PTLSR1({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
           >
-            In the movie Pantaxa Laiya (2023){" "}
+            In the movie Taak Jhank (2023){" "}
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
-         
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -297,7 +253,7 @@ function PTLSR1({ movie }) {
                 </h2>
               </button>
               <h2 className="text-2xl font-bold">
-                Offical Trailer {movie.name}{" "}
+                Offical Trailer {movie.name}
               </h2>
               <div className={styles["iframe-container"]}>
                 <iframe
@@ -351,11 +307,11 @@ function PTLSR1({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 2 {movie.name}
+            Link 1 {movie.name}
           </h3>
-          <a href={movie.down2link1} target="_blank">
+          <a href={movie.down1link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
-              Download Episode 1
+              Download 
             </button>
           </a>
 
@@ -374,9 +330,8 @@ function PTLSR1({ movie }) {
 
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
-
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "PTL");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX49");
   return {
     props: {
       movie: selectedMovie,
@@ -384,4 +339,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default PTLSR1;
+export default TaakJhank;

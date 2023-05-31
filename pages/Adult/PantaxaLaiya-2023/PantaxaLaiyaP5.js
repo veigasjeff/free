@@ -1,14 +1,13 @@
 import Link from "next/link";
 import Rating from "pages/Rating";
 import Head from "next/head";
-import AdultSkipAds from "@components/AdultSkipAds";
 import React, { useEffect, useState } from "react";
 import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 
-function PTLSR1({ movie }) {
+function PantaxaLaiyaP5({ movie }) {
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
@@ -136,7 +135,7 @@ function PTLSR1({ movie }) {
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PTLSR1"
+          content="https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PantaxaLaiyaP1"
         />
         <meta
           property="og:image"
@@ -164,23 +163,23 @@ function PTLSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PTLSR1"
+          href="https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PantaxaLaiya"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
-        <AdultSkipAds />
+     
 
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - EPISODE 1
+          {movie.title} - EPISODE 5
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
+            src={movie["movie.watchP5"]}
             width="100%"
             height="500px"
             allowFullScreen
@@ -195,44 +194,44 @@ function PTLSR1({ movie }) {
           title="Watch Movies, TV-Series & Sports Live Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
- <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+  <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR1">
+            <Link href="../../Adult/PantaxaLaiya-2023/PantaxaLaiyaP1">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 1
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR2">
+            <Link href="../../Adult/PantaxaLaiya-2023/PantaxaLaiyaP2">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 2
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR3">
+            <Link href="../../Adult/PantaxaLaiya-2023/PantaxaLaiyaP3">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 3
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR4">
+            <Link href="../../Adult/PantaxaLaiya-2023/PantaxaLaiyaP4">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 4
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR5">
+            <Link href="../../Adult/PantaxaLaiya-2023/PantaxaLaiyaP5">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 5
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Adult/PantaxaLaiya-2023/PTLSR6">
+            <Link href="../../Adult/PantaxaLaiya-2023/PantaxaLaiyaP6">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 6
               </button>
@@ -240,8 +239,8 @@ function PTLSR1({ movie }) {
           </div>
         </div>
         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../PantaxaLaiya-2023/PantaxaLaiyaP1">
-            <h2> Watch {movie.name} Server 1</h2>
+          <a href="../PantaxaLaiya-2023/PTLSR5">
+            <h2> Watch {movie.name} Server 2</h2>
           </a>
         </button>
         <Rating />
@@ -275,7 +274,6 @@ function PTLSR1({ movie }) {
             In the movie Pantaxa Laiya (2023){" "}
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
-         
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -297,7 +295,7 @@ function PTLSR1({ movie }) {
                 </h2>
               </button>
               <h2 className="text-2xl font-bold">
-                Offical Trailer {movie.name}{" "}
+                Offical Trailer {movie.name}
               </h2>
               <div className={styles["iframe-container"]}>
                 <iframe
@@ -351,11 +349,11 @@ function PTLSR1({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 2 {movie.name}
+            Link 1 {movie.name}
           </h3>
-          <a href={movie.down2link1} target="_blank">
+          <a href={movie.down1link5} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
-              Download Episode 1
+              Download Episode 5
             </button>
           </a>
 
@@ -374,7 +372,6 @@ function PTLSR1({ movie }) {
 
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
-
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "PTL");
   return {
@@ -384,4 +381,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default PTLSR1;
+export default PantaxaLaiyaP5;
