@@ -30,6 +30,75 @@
     "movie.watch": "../../Sports-2023/Sports"
   },
   {
+    "id": "INDEX50",
+    "title": "TULSA KING ",
+    "name": "Tulsa King (2023)",
+    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610135/tulsa-king-2023_dxehze.webp",
+    "banner": "https://res.cloudinary.com/dezf3wemk/image/upload/c_fill,g_auto,e_sharpen,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.10/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Download%20Now,w_0.3,y_0.35/v1681610135/tulsa-king-2023_dxehze.webp",
+    "yearRelease": 2023,
+    "genre": [" ACTION,", " CRIME,", " DRAMA"],
+    "rating": 8.1,
+    "synopsis": "The story follows the intriguing journey of Dwight The General Manfredi, a formidable Mafia capo, after his release from prison. Unexpectedly, Dwight is exiled to the unlikely location of Tulsa, Oklahoma. Determined to reclaim his power and influence, he embarks on a mission to build a new criminal empire with a group of unconventional characters who become his trusted allies. At the center of the series is Sylvester Stallone's portrayal of Dwight The General Manfredi, a seasoned and cunning mobster known for his strategic thinking and unwavering determination. Stallone brings his trademark intensity and charisma to the role, capturing the essence of a man seeking redemption and dominance in an unfamiliar environment. Andrea Savage joins the cast as Stacy Beale, a street-smart and resourceful individual who quickly becomes a vital asset to Dwight's plans. Her sharp wit and ability to adapt to challenging situations make her an invaluable member of the team. Martin Starr portrays Bodhi, a quirky and eccentric character with a unique set of skills that prove essential in Tulsa's criminal underworld. The series also features Jay Will as Tyson, a feared enforcer known for his ruthlessness, and Max Casella as Armand Truisi, a loyal associate with deep ties to the criminal world. Together, this eclectic group forms the backbone of Dwight's operation, navigating the complex dynamics of power, alliances, and rivalries. Tulsa King combines elements of crime and drama, presenting a character-driven narrative that delves into the intricacies of Dwight's mission to establish a new criminal empire in an unfamiliar territory. As the story unfolds over the course of nine episodes, viewers can expect suspenseful twists, intense confrontations, and the exploration of themes such as loyalty, ambition, and the price of power.",
+
+    "starring": [
+      "Sylvester Stallone",
+      "Andrea Savage ",
+      "Martin Starr",
+      "Jay Will",
+      "Max Casella"
+    ],
+    "director": "Taylor Sheridan",
+    "country": "USA",
+    "status": "Tv Series",
+    "link": "https://www.imdb.com/title/tt16358384/",
+
+    "movie.watch": "../../Hollywood/TulsaKing-2023/TulsaKingP1",
+
+    "movie.watchP1": "https://sbrapid.com/e/j7a6j4chmrwm.html",
+    "movie.watchP2": "https://sbrapid.com/e/0gyy0mrquhnm.html",
+    "movie.watchP3": "https://sbrapid.com/e/cj3lhs0cocmq.html",
+    "movie.watchP4": "https://sbrapid.com/e/hmvu71mdbe8b.html",
+    "movie.watchP5": "https://sbrapid.com/e/ff6ekqcyq590.html",
+    "movie.watchP6": "https://sbrapid.com/e/w6zfbyd0k7vm.html",
+    "movie.watchP7": "https://sbrapid.com/e/nrvho2p5n6m6.html",
+    "movie.watchP8": "https://sbrapid.com/e/vhsj2okdgewv.html",
+    "movie.watchP9": "https://sbrapid.com/e/2ykihquqpylt.html",
+
+    "movie.watchSR1": "https://dooood.com/e/jojqp0e946gj",
+    "movie.watchSR2": "https://dooood.com/e/zy4t0n3drinb",
+    "movie.watchSR3": "https://dooood.com/e/dqmkfmsl0uvx",
+    "movie.watchSR4": "https://dooood.com/e/wgnuvs1va9l0",
+    "movie.watchSR5": "https://dooood.com/e/9t95faj22v4p",
+    "movie.watchSR6": "https://dooood.com/e/q6rpxb38ffyl",
+    "movie.watchSR7": "https://dooood.com/e/cnkw2gb6ufzv",
+    "movie.watchSR8": "https://dooood.com/e/y0le8dn7ie5h",
+    "movie.watchSR9": "https://dooood.com/e/wh2am9e54fi4",
+
+    "down1link1": "https://sbrapid.com/d/j7a6j4chmrwm.html",
+    "down1link2": "https://sbrapid.com/d/0gyy0mrquhnm.html",
+    "down1link3": "https://sbrapid.com/d/cj3lhs0cocmq.html",
+    "down1link4": "https://sbrapid.com/d/hmvu71mdbe8b.html",
+    "down1link5": "https://sbrapid.com/d/ff6ekqcyq590.html",
+    "down1link6": "https://sbrapid.com/d/w6zfbyd0k7vm.html",
+    "down1link7": "https://sbrapid.com/d/nrvho2p5n6m6.html",
+    "down1link8": "https://sbrapid.com/d/vhsj2okdgewv.html",
+    "down1link9": "https://sbrapid.com/d/2ykihquqpylt.html",
+
+    "down2link1": "https://dooood.com/d/jojqp0e946gj",
+    "down2link2": "https://dooood.com/d/zy4t0n3drinb",
+    "down2link3": "https://dooood.com/d/dqmkfmsl0uvx",
+    "down2link4": "https://dooood.com/d/wgnuvs1va9l0",
+    "down2link5": "https://dooood.com/d/9t95faj22v4p",
+    "down2link6": "https://dooood.com/d/q6rpxb38ffyl",
+    "down2link7": "https://dooood.com/d/cnkw2gb6ufzv",
+    "down2link8": "https://dooood.com/d/y0le8dn7ie5h",
+    "down2link9": "https://dooood.com/d/wh2am9e54fi4",
+  
+  
+
+    "movie.trailer": "https://ik.imagekit.io/elqupgg8r/Tulsa_King___Official_Trailer.mp4?updatedAt=1685607784513"
+  },
+  {
     "id": "INDEX55",
     "title": "BLACK LOTUS  ",
     "name": "Black Lotus (2023)",
@@ -38,7 +107,7 @@
     "yearRelease": 2023,
     "genre": [" ACTION,",  " THRILLER"],
     "rating": 4.1,
-    "synopsis": "An ex-special forces operative takes center stage in a gripping action-thriller set in the streets of Amsterdam. The protagonist, Matteo, embarks on a perilous mission to rescue his friend's daughter from the clutches of the local crime syndicate. Rico Verhoeven portrays Matteo, the skilled and determined ex-special forces operative. As he navigates the dangerous underworld of Amsterdam, Matteo utilizes his training, combat expertise, and resourcefulness to confront and overcome various obstacles in his path. His mission becomes personal as he risks everything to save the life of his friend's daughter. Frank Grillo takes on the role of Saban, a character who may serve as a valuable ally or a potential adversary in Matteo's quest. Marie Dompnier portrays Helene, a key figure who might be connected to the criminal organization or play a pivotal role in the rescue mission. Peter Franzén appears as Paul, potentially providing additional layers of complexity and conflict to the storyline. Pippi Casey plays Angie, a character whose involvement might bring a unique dynamic or perspective to the narrative. Black Lotus promises high-octane action sequences, intense suspense, and a thrilling storyline as Matteo wages a one-man war against the local crime syndicate. The movie delves into themes of loyalty, redemption, and the lengths one will go to protect their loved ones. Please note that as an AI, the information provided is based on fictional characters and may not accurately reflect the content of an actual movie.",
+    "synopsis": "Following his release from prison, Mafia capo Dwight The General Manfredi is exiled to Tulsa, Oklahoma, where he builds a new criminal empire with a group of unlikely characters. An ex-special forces operative takes center stage in a gripping action-thriller set in the streets of Amsterdam. The protagonist, Matteo, embarks on a perilous mission to rescue his friend's daughter from the clutches of the local crime syndicate. Rico Verhoeven portrays Matteo, the skilled and determined ex-special forces operative. As he navigates the dangerous underworld of Amsterdam, Matteo utilizes his training, combat expertise, and resourcefulness to confront and overcome various obstacles in his path. His mission becomes personal as he risks everything to save the life of his friend's daughter. Frank Grillo takes on the role of Saban, a character who may serve as a valuable ally or a potential adversary in Matteo's quest. Marie Dompnier portrays Helene, a key figure who might be connected to the criminal organization or play a pivotal role in the rescue mission. Peter Franzén appears as Paul, potentially providing additional layers of complexity and conflict to the storyline. Pippi Casey plays Angie, a character whose involvement might bring a unique dynamic or perspective to the narrative. Black Lotus promises high-octane action sequences, intense suspense, and a thrilling storyline as Matteo wages a one-man war against the local crime syndicate. The movie delves into themes of loyalty, redemption, and the lengths one will go to protect their loved ones. Please note that as an AI, the information provided is based on fictional characters and may not accurately reflect the content of an actual movie.",
 
     "starring": [
       "Rico Verhoeven",
