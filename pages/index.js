@@ -74,7 +74,7 @@ export default function Home({ movie }) {
 
   useEffect(() => {
     async function fetchMovies() {
-      const response = await fetch('https://uwatchfree.vercel.app/movies.json');
+      const response = await fetch('http://localhost:3000/movies.json');
       const data = await response.json();
       setMovies(data);
     }
@@ -99,14 +99,14 @@ const schemaData   = {
       "@type":"CollectionPage",
       "@id":"https://uwatchfree.vercel.app/",
       "url":"https://uwatchfree.vercel.app/",
-      "name":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free",
+      "name":"Uwatchfree™ | Watch Movies & TV-Series Online Free",
       "isPartOf":{
         "@id":"https://uwatchfree.vercel.app/#website"
       },
       "about":{
         "@id":"https://uwatchfree.vercel.app/#organization"
       },
-      "description":"Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free",
+      "description":"Uwatchfree™ - Watch Movies & TV-Series Online Free",
       "breadcrumb":{
         "@id":"https://uwatchfree.vercel.app/#breadcrumb"
       },
@@ -119,7 +119,7 @@ const schemaData   = {
         {
           "@type":"ListItem",
           "position":1,
-          "name":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
+          "name":"Uwatchfree™ | Watch Movies & TV-Series Online Free"
         }
       ]
     },
@@ -127,8 +127,8 @@ const schemaData   = {
       "@type":"WebSite",
       "@id":"https://uwatchfree.vercel.app/#website",
       "url":"https://uwatchfree.vercel.app/",
-      "name":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free",
-      "description":"Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free",
+      "name":"Uwatchfree™ | Watch Movies & TV-Series Online Free",
+      "description":"Uwatchfree™ - Watch Movies & TV-Series Online Free",
       "publisher":{
         "@id":"https://uwatchfree.vercel.app/#organization"
       },
@@ -147,7 +147,7 @@ const schemaData   = {
     {
       "@type":"Organization",
       "@id":"https://uwatchfree.vercel.app/#organization",
-      "name":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free",
+      "name":"Uwatchfree™ | Watch Movies & TV-Series Online Free",
       "url":"https://uwatchfree.vercel.app/",
       "logo":{
         "@type":"ImageObject",
@@ -157,7 +157,7 @@ const schemaData   = {
         "contentUrl":"https://uwatchfree.vercel.app/logo.png",
         "width":834,
         "height":135,
-        "caption":"Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
+        "caption":"Uwatchfree™ | Watch Movies & TV-Series Online Free"
       },
       "image":{
         "@id":"https://uwatchfree.vercel.app/#/schema/logo/image/"
@@ -174,30 +174,30 @@ const schemaData   = {
   />
       <div className={styles.container}>
       <Head>
-        <title>Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free</title>
+        <title>Uwatchfree™ | Watch Movies & TV-Series Online Free</title>
         <meta name="robots" content="index, follow" />  
         <meta name="revisit-after" content="1 days" />
-        <meta name="google-site-verification" content="4dFu4PUk1pc1IYqU6Brt84akCwNxaoUpKSO3gDW0kJ0" />
+        <meta name="facebook-domain-verification" content="13auzwhblf4oo4jn5vl6gcmebugsqb" />
         <meta property="fb:app_id" content="602176271414602" />
         <meta name='dailymotion-domain-verification' content='dmv6sg06w9r5eji88' />
         <meta name="monetag" content="076afbb772da1a62ef6f43756dfa5f65"></meta>
 	  	 <meta name="google-site-verification" content="4dFu4PUk1pc1IYqU6Brt84akCwNxaoUpKSO3gDW0kJ0" />
-       <meta name="description" content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free" />
+       <meta name="description" content="Uwatchfree™ - Watch Movies & TV-Series Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
        <meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online" />
 	     <meta property="og:locale" content="en_US" />   
        <meta property=" Content-Security-Policy: frame-ancestors 'self' uwatchfree.vercel.app *.uwatchfree.vercel.app;" />
-       <meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free " />
+       <meta property="og:site_name" content="Uwatchfree™ | Watch Movies & TV-Series Online Free " />
 	     <meta property="og:type" content="website" />
-	     <meta property="og:title" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free " />
-	     <meta property="og:description" content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free " />
+	     <meta property="og:title" content="Uwatchfree™ | Watch Movies & TV-Series Online Free " />
+	     <meta property="og:description" content="Uwatchfree™ - Watch Movies & TV-Series Online Free " />
 	     <meta property="og:url" content="https://uwatchfree.vercel.app/" />
 	     <meta property="og:image:type" content="image/jpeg" />
 	     <meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
 	     <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/og_image.jpg" />
 	     <meta name="twitter:card" content="summary_large_image" />
-	     <meta name="twitter:title" content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free " />
-	     <meta name="twitter:description" content=" Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free " />
+	     <meta name="twitter:title" content="Uwatchfree™ - Watch Movies & TV-Series Online Free " />
+	     <meta name="twitter:description" content=" Uwatchfree™ - Watch Movies & TV-Series Online Free " />
 	     <meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
      
        <link rel="alternate" hrefLang="en-us" 	href="https://uwatchfree.vercel.app/"/>
@@ -224,10 +224,10 @@ const schemaData   = {
           <section className={`${styles.movies} bg-gray-600  py-5`} >
        
     
-          <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+          <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies & TV-Series Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
          
           
-            <h1 className="text-center font-bold text-3xl  py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Uwatchfree™ - High Definition Movies Tv Series & Sports Live. </h1>
+            <h1 className="text-center font-bold text-3xl  py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Uwatchfree™ - High Definition Movies & TV-Series Online Free. </h1>
           
             <div className="flex flex-wrap justify-center">
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (

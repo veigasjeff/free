@@ -14,21 +14,7 @@
     "link": "https://www.imdb.com/title/tt0111161/",
     "movie.watch": "../../Sports-2023/Sports"
   },
-  {
-    "id": "WSL",
-    "title": "WORLD SPORTS LIVE ",
-    "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681642944/sports_rz92d1.webp",
-    "yearRelease": 2023,
-    "genre": ["SPORTS"],
-    "rating": 0.0,
-    "synopsis": "Two imprisoned men bond over a number of yearReleases, finding solace and eventual redemption through acts of common decency.",
-    "starring": ["Tim Robbins", "Morgan Freeman"],
-    "director": "Frank Darabont",
-    "country": "USA",
-    "status": "Live Sports",
-    "link": "https://www.imdb.com/title/tt0111161/",
-    "movie.watch": "../../Sports-2023/Sports"
-  },
+  
   {
     "id": "INDEX50",
     "title": "TULSA KING ",
