@@ -232,7 +232,7 @@ const schemaData   = {
             <div className="flex flex-wrap justify-center">
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
                 <div className="w-full md:w-1/2 lg:w-1/3 p-2 " key={movie.title}>
-                      <h1 className="text-xl font-bold leading-normal mb-2 text-white" >Click Image to Watch Trailer. </h1>
+                      <h1 className="text-xl font-bold leading-normal mb-2 text-white"  style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}  >Click Image to Watch Trailer. </h1>
                  <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
   <Image className="w-full h-full object-cover  rounded-3xl border border-white shadow-md"  loading="eager" src={movie.poster} alt={movie.title}  width={1000}  height={562.5} />
  
