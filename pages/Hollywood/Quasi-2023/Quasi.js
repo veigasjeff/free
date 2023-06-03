@@ -153,7 +153,7 @@ function Quasi({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Quasi-2023/Quasi"
+          href="https://uwatchfree.vercel.app/Hollywood/Quasi-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

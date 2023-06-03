@@ -200,7 +200,7 @@ function SUSSR4({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SUSSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

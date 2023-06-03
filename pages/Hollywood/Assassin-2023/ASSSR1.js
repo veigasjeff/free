@@ -147,7 +147,7 @@ function ASSSR1({ movie }) {
         <script src="../../propler/ads.js" defer></script>
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Assassin-2023/ASSSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/Assassin-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

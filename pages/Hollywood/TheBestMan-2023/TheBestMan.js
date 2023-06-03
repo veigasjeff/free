@@ -163,7 +163,7 @@ function TheBestMan({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/TheBestMan-2023/TheBestMan"
+          href="https://uwatchfree.vercel.app/Hollywood/TheBestMan-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -161,7 +161,7 @@ function Breakout({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Breakout-2023/Breakout"
+          href="https://uwatchfree.vercel.app/Hollywood/Breakout-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

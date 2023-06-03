@@ -161,7 +161,7 @@ function TLKSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/TheLastKingdom-2023/TLKSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/TheLastKingdom-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

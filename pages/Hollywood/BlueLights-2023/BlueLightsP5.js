@@ -168,7 +168,7 @@ function BlueLightsP5({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/BlueLights-2023/BlueLightsP1"
+          href="https://uwatchfree.vercel.app/Hollywood/BlueLights-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

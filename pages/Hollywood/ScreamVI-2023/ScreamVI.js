@@ -161,7 +161,7 @@ function ScreamVI({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/ScreamVI-2023/ScreamVI"
+          href="https://uwatchfree.vercel.app/Hollywood/ScreamVI-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

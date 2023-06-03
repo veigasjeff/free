@@ -161,7 +161,7 @@ function PeterPanandWendy({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/PeterPanandWendy-2023/PeterPanandWendy"
+          href="https://uwatchfree.vercel.app/Hollywood/PeterPanandWendy-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

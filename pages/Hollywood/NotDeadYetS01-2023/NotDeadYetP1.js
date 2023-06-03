@@ -220,7 +220,7 @@ contentRating: movie.contentRating,
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/NotDeadYetS01-2023/NotDeadYetP1"
+          href="https://uwatchfree.vercel.app/Hollywood/NotDeadYetS01-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -163,7 +163,7 @@ function Guardians({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Guardians-2023/Guardians"
+          href="https://uwatchfree.vercel.app/Hollywood/Guardians-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -182,7 +182,7 @@ function CTDSR4({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/CitadelS01-2023/CTDSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/CitadelS01-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -42,7 +42,6 @@ function FubarP1({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
-contentRating: movie.contentRating,
     contentRating: movie.contentRating,
     url: movie.link,
 
@@ -192,7 +191,7 @@ contentRating: movie.contentRating,
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Fubar-2023/FubarP1"
+          href="https://uwatchfree.vercel.app/Hollywood/Fubar-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

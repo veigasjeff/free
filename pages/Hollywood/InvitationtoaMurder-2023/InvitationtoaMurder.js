@@ -163,7 +163,7 @@ function InvitationtoaMurder({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/InvitationtoaMurder-2023/InvitationtoaMurder"
+          href="https://uwatchfree.vercel.app/Hollywood/InvitationtoaMurder-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

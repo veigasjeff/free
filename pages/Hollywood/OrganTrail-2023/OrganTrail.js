@@ -172,7 +172,7 @@ function OrganTrail({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/OrganTrail-2023/OrganTrail"
+          href="https://uwatchfree.vercel.app/Hollywood/OrganTrail-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

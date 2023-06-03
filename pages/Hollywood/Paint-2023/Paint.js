@@ -154,7 +154,7 @@ function Paint({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Paint-2023/Paint"
+          href="https://uwatchfree.vercel.app/Hollywood/Paint-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

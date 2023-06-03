@@ -161,7 +161,7 @@ function SIMSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Simulant-2023/SIMSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/Simulant-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

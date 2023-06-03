@@ -161,7 +161,7 @@ function GRCSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/TheCovenant-2023/GRCSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/TheCovenant-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

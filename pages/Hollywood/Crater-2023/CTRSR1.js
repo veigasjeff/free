@@ -156,7 +156,7 @@ function CTRSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Crater-2023/CTRSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/Crater-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

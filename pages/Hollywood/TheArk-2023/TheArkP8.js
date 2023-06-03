@@ -192,7 +192,7 @@ function TheArkP8({ movie }) {
         <script src="../../propler/ads.js" defer></script>
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/TheArk-2023/TheArkP1"
+          href="https://uwatchfree.vercel.app/Hollywood/TheArk-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

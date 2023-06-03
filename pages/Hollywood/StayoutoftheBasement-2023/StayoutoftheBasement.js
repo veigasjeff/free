@@ -164,7 +164,7 @@ function StayoutoftheBasement({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/StayoutoftheBasement-2023/StayoutoftheBasement"
+          href="https://uwatchfree.vercel.app/Hollywood/StayoutoftheBasement-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

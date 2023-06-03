@@ -153,7 +153,7 @@ function Sisu({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Sisu-2023/Sisu"
+          href="https://uwatchfree.vercel.app/Hollywood/Sisu-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

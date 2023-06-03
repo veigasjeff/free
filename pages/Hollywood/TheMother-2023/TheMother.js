@@ -162,7 +162,7 @@ function TheMother({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/TheMother-2023/TheMother"
+          href="https://uwatchfree.vercel.app/Hollywood/TheMother-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

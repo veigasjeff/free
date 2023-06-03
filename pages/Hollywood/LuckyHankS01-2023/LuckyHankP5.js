@@ -188,7 +188,7 @@ function LuckyHankP5({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/LuckyHankS01-2023/LuckyHankP1"
+          href="https://uwatchfree.vercel.app/Hollywood/LuckyHankS01-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

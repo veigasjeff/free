@@ -161,7 +161,7 @@ function EvilDeadRise({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/EvilDeadRise-2023/EvilDeadRise"
+          href="https://uwatchfree.vercel.app/Hollywood/EvilDeadRise-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

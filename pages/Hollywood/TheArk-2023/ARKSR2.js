@@ -188,7 +188,7 @@ function ARKSR2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/TheArk-2023/ARKSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/TheArk-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

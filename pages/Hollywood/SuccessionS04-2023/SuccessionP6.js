@@ -201,7 +201,7 @@ function SuccessionP7({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP1"
+          href="https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

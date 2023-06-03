@@ -133,7 +133,7 @@ function OneDayAsALion({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1682204324/one-day-as-a-lion2023_vouqg9.webp" />
 <meta name="description" content="Watch One Day As A Lion Full Movie Online on Uwatchfree™, You can also download One Day As A Lion (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/OneDayAsALion-2023/OneDayAsALion" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/OneDayAsALion-2023/" />
 
        </Head>
 <Script src="../../propler/ads.js" defer />

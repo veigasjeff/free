@@ -161,7 +161,7 @@ function SRSSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/ScreamVI-2023/SRSSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/ScreamVI-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

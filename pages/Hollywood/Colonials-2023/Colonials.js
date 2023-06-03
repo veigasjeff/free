@@ -163,7 +163,7 @@ function Colonials({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Colonials-2023/Colonials"
+          href="https://uwatchfree.vercel.app/Hollywood/Colonials-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

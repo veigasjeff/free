@@ -161,7 +161,7 @@ function PPWSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/PeterPanandWendy-2023/PPWSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/PeterPanandWendy-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

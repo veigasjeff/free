@@ -162,7 +162,7 @@ function DeadShot({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/DeadShot-2023/DeadShot"
+          href="https://uwatchfree.vercel.app/Hollywood/DeadShot-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

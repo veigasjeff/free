@@ -170,7 +170,7 @@ function MalpracticeP3({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/MalpracticeS01-2023/MalpracticeP1"
+          href="https://uwatchfree.vercel.app/Hollywood/MalpracticeS01-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

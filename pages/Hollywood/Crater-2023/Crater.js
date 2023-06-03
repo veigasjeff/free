@@ -157,7 +157,7 @@ function Crater({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Crater-2023/Crater"
+          href="https://uwatchfree.vercel.app/Hollywood/Crater-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

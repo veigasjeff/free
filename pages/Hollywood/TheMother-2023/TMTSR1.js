@@ -161,7 +161,7 @@ function TMTSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/TheMother-2023/TMTSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/TheMother-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

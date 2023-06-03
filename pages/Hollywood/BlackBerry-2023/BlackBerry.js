@@ -163,7 +163,7 @@ function BlackBerry({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/BlackBerry-2023/BlackBerry"
+          href="https://uwatchfree.vercel.app/Hollywood/BlackBerry-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

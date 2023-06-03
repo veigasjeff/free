@@ -192,7 +192,7 @@ contentRating: movie.contentRating,
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Fubar-2023/FUBSR1"
+          href="https://uwatchfree.vercel.app/Hollywood/Fubar-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
