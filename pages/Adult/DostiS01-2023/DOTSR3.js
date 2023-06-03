@@ -161,7 +161,7 @@ function DOTSR3({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/DostiS01-2023/DOTSR3"
+          href="https://uwatchfree.vercel.app/Adult/DostiS01-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -149,7 +149,7 @@ function DEKSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Desikisse-2023/DEKSR1"
+          href="https://uwatchfree.vercel.app/Adult/Desikisse-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

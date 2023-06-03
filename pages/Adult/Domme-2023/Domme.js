@@ -151,7 +151,7 @@ function Domme({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Domme-2023/Domme"
+          href="https://uwatchfree.vercel.app/Adult/Domme-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

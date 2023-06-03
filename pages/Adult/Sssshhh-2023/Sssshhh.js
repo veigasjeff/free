@@ -161,7 +161,7 @@ function Sssshhh({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Sssshhh-2023/Sssshhh"
+          href="https://uwatchfree.vercel.app/Adult/Sssshhh-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

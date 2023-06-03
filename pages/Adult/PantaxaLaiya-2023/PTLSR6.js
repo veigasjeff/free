@@ -163,7 +163,7 @@ function PTLSR6({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/PTLSR1"
+          href="https://uwatchfree.vercel.app/Adult/PantaxaLaiya-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

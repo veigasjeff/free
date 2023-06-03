@@ -162,7 +162,7 @@ function CharmSukhJaneAnjaneMein({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/CharmSukhJaneAnjaneMein-2023/CharmSukhJaneAnjaneMein"
+          href="https://uwatchfree.vercel.app/Adult/CharmSukhJaneAnjaneMein-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

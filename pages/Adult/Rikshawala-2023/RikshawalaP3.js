@@ -160,7 +160,7 @@ function RikshawalaP3({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Rikshawala-2023/RikshawalaP3"
+          href="https://uwatchfree.vercel.app/Adult/Rikshawala-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

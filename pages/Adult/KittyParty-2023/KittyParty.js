@@ -161,7 +161,7 @@ function KittyParty({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/KittyParty-2023/KittyParty"
+          href="https://uwatchfree.vercel.app/Adult/KittyParty-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -155,7 +155,7 @@ function DostiP2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Hawash-2023/HawashP2"
+          href="https://uwatchfree.vercel.app/Adult/Hawash-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

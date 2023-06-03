@@ -164,7 +164,7 @@ function StarDancer({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/StarDancer-2023/StarDancer"
+          href="https://uwatchfree.vercel.app/Adult/StarDancer-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

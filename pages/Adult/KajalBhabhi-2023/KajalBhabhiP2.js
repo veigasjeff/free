@@ -161,7 +161,7 @@ function KajalBhabhiP2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/KajalBhabhi-2023/KajalBhabhiP2"
+          href="https://uwatchfree.vercel.app/Adult/KajalBhabhi-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

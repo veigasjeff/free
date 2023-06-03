@@ -137,7 +137,7 @@ function Behrupiya({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1683197660/behrupiya-2023_nwjfo1.webp" />
 <meta name="description" content="Watch Behrupiya Full Movie Online on Uwatchfree™, You can also download Behrupiya (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Behrupiya-2023/Behrupiya" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/Behrupiya-2023/" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

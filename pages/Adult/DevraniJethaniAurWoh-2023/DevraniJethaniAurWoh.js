@@ -162,7 +162,7 @@ function DevraniJethaniAurWoh({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/DevraniJethaniAurWoh-2023/DevraniJethaniAurWoh"
+          href="https://uwatchfree.vercel.app/Adult/DevraniJethaniAurWoh-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

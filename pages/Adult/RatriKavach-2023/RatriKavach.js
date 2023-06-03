@@ -161,7 +161,7 @@ function RatriKavach({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/RatriKavach-2023/RatriKavach"
+          href="https://uwatchfree.vercel.app/Adult/RatriKavach-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

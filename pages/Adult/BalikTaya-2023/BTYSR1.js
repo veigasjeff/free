@@ -137,7 +137,7 @@ function BTYSR1({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681609990/balik-taya-2023_bzjewc.webp" />
 <meta name="description" content="Watch Balik Taya Full Movie Online on Uwatchfree™, You can also download Balik Taya (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/BalikTaya-2023/BTYSR1" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Adult/BalikTaya-2023/" />
        </Head>
 <Script src="../../propler/ads.js" defer />
 

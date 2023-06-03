@@ -161,7 +161,7 @@ function NUKSR2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Naukri-2023/NUKSR2"
+          href="https://uwatchfree.vercel.app/Adult/Naukri-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

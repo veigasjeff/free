@@ -157,7 +157,7 @@ function AAMSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Aamras-2023/AAMSR1"
+          href="https://uwatchfree.vercel.app/Adult/Aamras-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

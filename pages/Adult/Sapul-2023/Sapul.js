@@ -154,7 +154,7 @@ function Sapul({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Sapul-2023/Sapul"
+          href="https://uwatchfree.vercel.app/Adult/Sapul-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -161,7 +161,7 @@ function DreamGirl({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/DreamGirlP1-2023/DreamGirl"
+          href="https://uwatchfree.vercel.app/Adult/DreamGirlP1-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

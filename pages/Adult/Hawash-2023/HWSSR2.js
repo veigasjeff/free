@@ -155,7 +155,7 @@ function HWSSR2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Hawash-2023/HWSSR2"
+          href="https://uwatchfree.vercel.app/Adult/Hawash-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
