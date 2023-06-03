@@ -42,8 +42,6 @@ function NDYSR1({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
-contentRating: movie.contentRating,
-contentRating: movie.contentRating,
     url: movie.link,
 
     aggregateRating: {
@@ -350,6 +348,10 @@ contentRating: movie.contentRating,
           IMDb Rating: {movie.rating}
         </a>
 
+        <ul
+          className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
+          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }} 
+        >
         <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
