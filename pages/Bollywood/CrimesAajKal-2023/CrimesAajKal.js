@@ -145,7 +145,7 @@ function CrimesAajKal({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/CrimesAajKal-2023/CrimesAajKal"
+          href="https://uwatchfree.vercel.app/Bollywood/CrimesAajKal-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -162,7 +162,7 @@ function CoronaPapers({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/CoronaPapers-2023/CoronaPapers"
+          href="https://uwatchfree.vercel.app/Bollywood/CoronaPapers-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

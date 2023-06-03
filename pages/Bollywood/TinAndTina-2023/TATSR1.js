@@ -164,7 +164,7 @@ function TATSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/TinAndTina-2023/TATSR1"
+          href="https://uwatchfree.vercel.app/Bollywood/TinAndTina-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

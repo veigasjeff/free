@@ -147,7 +147,7 @@ function GutarGu({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/GutarGu-2023/GutarGu"
+          href="https://uwatchfree.vercel.app/Bollywood/GutarGu-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

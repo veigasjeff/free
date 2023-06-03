@@ -140,7 +140,7 @@ function Faraaz({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Faraaz-2022/Faraaz"
+          href="https://uwatchfree.vercel.app/Bollywood/Faraaz-2022/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

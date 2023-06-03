@@ -168,7 +168,7 @@ function FPJSR2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Fireflies-2023/FPJSR2"
+          href="https://uwatchfree.vercel.app/Bollywood/Fireflies-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

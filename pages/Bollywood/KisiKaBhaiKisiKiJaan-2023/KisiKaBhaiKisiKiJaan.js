@@ -148,7 +148,7 @@ function KisiKaBhaiKisiKiJaan({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/KisiKaBhaiKisiKiJaan-2023/KisiKaBhaiKisiKiJaan"
+          href="https://uwatchfree.vercel.app/Bollywood/KisiKaBhaiKisiKiJaan-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

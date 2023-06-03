@@ -162,7 +162,7 @@ function STRSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/StaffRoom-2023/STRSR1"
+          href="https://uwatchfree.vercel.app/Bollywood/StaffRoom-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

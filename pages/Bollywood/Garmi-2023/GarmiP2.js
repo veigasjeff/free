@@ -147,7 +147,7 @@ function GarmiP2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Garmi-2023/GarmiP2"
+          href="https://uwatchfree.vercel.app/Bollywood/Garmi-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -162,7 +162,7 @@ function BhraantiAnillusion({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/BhraantiAnillusion-2023/BhraantiAnillusion"
+          href="https://uwatchfree.vercel.app/Bollywood/BhraantiAnillusion-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -162,7 +162,7 @@ function BarotHouse({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/BarotHouse-2023/BarotHouse"
+          href="https://uwatchfree.vercel.app/Bollywood/BarotHouse-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

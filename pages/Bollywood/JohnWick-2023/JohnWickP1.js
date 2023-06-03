@@ -122,7 +122,7 @@ function JohnWickP1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/JohnWick-2023/JohnWickP1"
+          href="https://uwatchfree.vercel.app/Bollywood/JohnWick-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

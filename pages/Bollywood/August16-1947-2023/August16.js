@@ -147,7 +147,7 @@ function August16({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/August16-1947-2023/August16"
+          href="https://uwatchfree.vercel.app/Bollywood/August16-1947-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -162,7 +162,7 @@ function Phulrani({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Phulrani-2023/Phulrani"
+          href="https://uwatchfree.vercel.app/Bollywood/Phulrani-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -145,7 +145,7 @@ function MurderMystery2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/MurderMystery2-2023/Murder2Mystery"
+          href="https://uwatchfree.vercel.app/Bollywood/MurderMystery2-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

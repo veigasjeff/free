@@ -162,7 +162,7 @@ function YehMeriFamily({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/YehMeriFamily-2023/YehMeriFamily"
+          href="https://uwatchfree.vercel.app/Bollywood/YehMeriFamily-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

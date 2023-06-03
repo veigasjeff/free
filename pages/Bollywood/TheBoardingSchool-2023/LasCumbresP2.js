@@ -168,7 +168,7 @@ function LasCumbresP2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/TheBoardingSchool-2023/LasCumbresP2"
+          href="https://uwatchfree.vercel.app/Bollywood/TheBoardingSchool-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

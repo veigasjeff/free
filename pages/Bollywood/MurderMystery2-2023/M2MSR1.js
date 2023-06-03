@@ -145,7 +145,7 @@ function M2MSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/MurderMystery2-2023/M2MSR1"
+          href="https://uwatchfree.vercel.app/Bollywood/MurderMystery2-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

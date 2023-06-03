@@ -162,7 +162,7 @@ function EightAMMetro({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/8AMMetro-2023/EightAMMetro"
+          href="https://uwatchfree.vercel.app/Bollywood/8AMMetro-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

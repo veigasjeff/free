@@ -162,7 +162,7 @@ function SoppanaSundari({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/SoppanaSundari-2023/SoppanaSundari"
+          href="https://uwatchfree.vercel.app/Bollywood/SoppanaSundari-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

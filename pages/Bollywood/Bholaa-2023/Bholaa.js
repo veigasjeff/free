@@ -140,7 +140,7 @@ function Bholaa({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Bholaa-2023/Bholaa"
+          href="https://uwatchfree.vercel.app/Bollywood/Bholaa-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -148,7 +148,7 @@ function KBKSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/KisiKaBhaiKisiKiJaan-2023/KBKSR1"
+          href="https://uwatchfree.vercel.app/Bollywood/KisiKaBhaiKisiKiJaan-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -146,7 +146,7 @@ function GRMSR2({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Garmi-2023/GRMSR2"
+          href="https://uwatchfree.vercel.app/Bollywood/Garmi-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

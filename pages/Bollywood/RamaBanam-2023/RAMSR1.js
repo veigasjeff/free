@@ -161,7 +161,7 @@ function RAMSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/RamaBanam-2023/RAMSR1"
+          href="https://uwatchfree.vercel.app/Bollywood/RamaBanam-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

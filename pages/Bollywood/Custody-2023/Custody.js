@@ -160,7 +160,7 @@ function Custody({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Custody-2023/Custody"
+          href="https://uwatchfree.vercel.app/Bollywood/Custody-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

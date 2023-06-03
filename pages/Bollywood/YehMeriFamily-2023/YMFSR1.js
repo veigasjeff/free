@@ -161,7 +161,7 @@ function YMFSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/YehMeriFamily-2023/YMFSR1"
+          href="https://uwatchfree.vercel.app/Bollywood/YehMeriFamily-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

@@ -137,7 +137,7 @@ function SirfEkBandaaKaafiHai({ movie }) {
 <meta name="twitter:image" content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685262881/Sirf_Ek_Bandaa_Kaafi_Hai_2023_ye9acd.webp" />
 <meta name="description" content="Watch Sirf Ek Bandaa Kaafi Hai Full Movie Online on Uwatchfree™, You can also download Sirf Ek Bandaa Kaafi Hai (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/SirfEkBandaaKaafiHai-2023/SirfEkBandaaKaafiHai" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/SirfEkBandaaKaafiHai-2023/" />
 
        </Head>
 <Script src="../../propler/ads.js" defer />

@@ -145,7 +145,7 @@ function UnitedKacche({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/UnitedKacche-2023/UnitedKacche"
+          href="https://uwatchfree.vercel.app/Bollywood/UnitedKacche-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

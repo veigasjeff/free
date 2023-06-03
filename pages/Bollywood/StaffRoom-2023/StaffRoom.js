@@ -163,7 +163,7 @@ function StaffRoom({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/StaffRoom-2023/StaffRoom"
+          href="https://uwatchfree.vercel.app/Bollywood/StaffRoom-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

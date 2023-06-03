@@ -162,7 +162,7 @@ function AssassinClub({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/AssassinClub-2023/AssassinClub"
+          href="https://uwatchfree.vercel.app/Bollywood/AssassinClub-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

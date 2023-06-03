@@ -160,7 +160,7 @@ function BadBoy({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/BadBoy-2023/BadBoy"
+          href="https://uwatchfree.vercel.app/Bollywood/BadBoy-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

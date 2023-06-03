@@ -122,7 +122,7 @@ function JHWSR3({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/JohnWick-2023/JHWSR3"
+          href="https://uwatchfree.vercel.app/Bollywood/JohnWick-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

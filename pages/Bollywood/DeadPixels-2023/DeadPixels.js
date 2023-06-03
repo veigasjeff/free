@@ -162,7 +162,7 @@ function DeadPixels({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/DeadPixels-2023/DeadPixels"
+          href="https://uwatchfree.vercel.app/Bollywood/DeadPixels-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
