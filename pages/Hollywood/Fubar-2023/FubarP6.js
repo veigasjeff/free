@@ -7,7 +7,7 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 
-function FubarP7({ movie }) {
+function FubarP6({ movie }) {
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
@@ -42,6 +42,7 @@ function FubarP7({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
+contentRating: movie.contentRating,
     url: movie.link,
 
     aggregateRating: {
@@ -200,12 +201,12 @@ function FubarP7({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - EPISODE 7
+          {movie.title} - EPISODE 6
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP7"]}
+            src={movie["movie.watchP6"]}
             width="100%"
             height="500px"
             allowFullScreen
@@ -258,29 +259,21 @@ function FubarP7({ movie }) {
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Hollywood/Fubar-2023/FubarP6">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 6
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
             <Link href="../../Hollywood/Fubar-2023/FubarP7">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 7
               </button>
             </Link>
-          </div>
-          <div className="flex justify-center">
+            </div>  </div>
+          <div className="flex justify-center items-center">
             <Link href="../../Hollywood/Fubar-2023/FubarP8">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 8
               </button>
             </Link>
           </div>
-           </div>
         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../Fubar-2023/FUBSR7">
+          <a href="../Fubar-2023/FUBSR6">
             <h2> Watch {movie.name} Server 2</h2>
           </a>
         </button>
@@ -384,9 +377,9 @@ function FubarP7({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 " style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
             Link 1 {movie.name}
           </h3>
-          <a href={movie.down1link7} target="_blank">
+          <a href={movie.down1link6} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
-              Download Episode 7
+              Download Episode 6
             </button>
           </a>
 
@@ -415,4 +408,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default FubarP7;
+export default FubarP6;

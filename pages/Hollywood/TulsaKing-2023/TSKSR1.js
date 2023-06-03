@@ -30,8 +30,8 @@ function TSKSR1({ movie }) {
     setShowPopup(!showPopup);
   }
   const paragraphStyle = {
-    whiteSpace: 'pre-line',
-  }
+    whiteSpace: "pre-line",
+  };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "TVSeries",
@@ -42,6 +42,7 @@ function TSKSR1({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
+    contentRating: movie.contentRating,
     url: movie.link,
 
     aggregateRating: {
@@ -83,7 +84,7 @@ function TSKSR1({ movie }) {
         name: "Tulsa King S01 Episode 6",
         url: "https://uwatchfree.vercel.app/Hollywood/TulsaKing-2023/TSKSR6",
       },
-      
+
       {
         "@type": "TVEpisode",
         name: "Tulsa King S01 Episode 7",
@@ -226,13 +227,6 @@ function TSKSR1({ movie }) {
 
         <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
-            <Link href="../../Hollywood/TulsaKing-2023/TSKSR1">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 1
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TSKSR2">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 2
@@ -288,7 +282,7 @@ function TSKSR1({ movie }) {
               </button>
             </Link>
           </div>
-           </div>
+        </div>
         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
           <a href="../TulsaKing-2023/TulsaKingP1">
             <h2> Watch {movie.name} Server 1</h2>
@@ -315,10 +309,21 @@ function TSKSR1({ movie }) {
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
-          <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-          <Link href="https://en.wikipedia.org/wiki/Tulsa_King" >
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>TV series Tulsa King (2023)</h2></Link>
-      <p style={paragraphStyle}>{movie.synopsis}</p>
+          <h1
+            className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
+            style={{ textShadow: "0px 0px 2px #000" }}
+          >
+            Movie Synopsis:{" "}
+          </h1>
+          <Link href="https://en.wikipedia.org/wiki/Tulsa_King">
+            <h2
+              className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+              style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+            >
+              TV series Tulsa King (2023)
+            </h2>
+          </Link>
+          <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">

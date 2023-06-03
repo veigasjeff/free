@@ -29,6 +29,9 @@ function SuccessionP3({ movie }) {
   function togglePopup() {
     setShowPopup(!showPopup);
   }
+  const paragraphStyle = {
+    whiteSpace: "pre-line",
+  };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "TVSeries",
@@ -39,6 +42,7 @@ function SuccessionP3({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
+    contentRating: movie.contentRating,
     url: movie.link,
 
     aggregateRating: {
@@ -51,28 +55,55 @@ function SuccessionP3({ movie }) {
     episode: [
       {
         "@type": "TVEpisode",
-        name: "Succession Episode 1",
+        name: "Succession S04 Episode 1",
         url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP1",
       },
       {
         "@type": "TVEpisode",
-        name: "Succession Episode 2",
+        name: "Succession S04 Episode 2",
         url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP2",
       },
       {
         "@type": "TVEpisode",
-        name: "Succession Episode 3",
+        name: "Succession S04 Episode 3",
         url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP3",
       },
       {
         "@type": "TVEpisode",
-        name: "Succession Episode 4",
+        name: "Succession S04 Episode 4",
         url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP4",
       },
       {
         "@type": "TVEpisode",
-        name: "Succession Episode 5",
+        name: "Succession S04 Episode 5",
         url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP5",
+      },
+
+      {
+        "@type": "TVEpisode",
+        name: "Succession S04 Episode 6",
+        url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP6",
+      },
+
+      {
+        "@type": "TVEpisode",
+        name: "Succession S04 Episode 7",
+        url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP7",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "Succession S04 Episode 8",
+        url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP8",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "Succession S04 Episode 9",
+        url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP9",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "Succession S04 Episode 10",
+        url: "https://uwatchfree.vercel.app/Hollywood/SuccessionS04-2023/SuccessionP10",
       },
     ],
     author: [
@@ -93,6 +124,7 @@ function SuccessionP3({ movie }) {
     },
     potentialAction: {
       "@type": "WatchAction",
+      name: "Succession S04 (2023)",
       target: {
         "@type": "EntryPoint",
         urlTemplate:
@@ -111,6 +143,7 @@ function SuccessionP3({ movie }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
+        Succession
       />
       <Head>
         <title>
@@ -122,7 +155,7 @@ function SuccessionP3({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch succession s04 movie,index of succession s04 movie,the giftedS01 movie 2023,succession s04 movie online,watch succession s04 movie online free,succession s04 tv series,succession s04 movie download,succession s04 movie free download,succession s04 movie download"
+          content="uwatchfree,Succession tv show,succession 2023,index of succession tv series,succession cast,succession reboot,succession trailer,succession release date,succession episodes,succession streaming,succession watch online,succession tv series download,succession tv series free download,succession tv series online,succession tv series watch online,succession tv series season 1,succession tV series full episodes"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -201,50 +234,76 @@ function SuccessionP3({ movie }) {
         <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
             <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP1">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 1
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP2">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 2
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP3">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 3
-              </button>
-            </Link>
-          </div>
-
-          <div className="flex justify-center">
             <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP4">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 4
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP5">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                 Episode 5
               </button>
             </Link>
           </div>
-        </div>
-        <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP6">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 6
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP7">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 7
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP8">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 8
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP9">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 9
+              </button>
+            </Link>
+            </div>  </div>
+          <div className="flex justify-center items-center">
+            <Link href="../../Hollywood/SuccessionS04-2023/SuccessionP10">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 10
+              </button>
+            </Link>
+          </div>
+        <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
           <a href="../SuccessionS04-2023/SUSSR3">
-            <h2> Watch {movie.name} (2023) Server 2</h2>
+            <h2> Watch {movie.name} Server 2</h2>
           </a>
         </button>
         <Rating />
         <a
           href={movie.link}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 "
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
           target="_blank"
         >
           IMDb Rating: {movie.rating}
@@ -252,31 +311,36 @@ function SuccessionP3({ movie }) {
 
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
-          style={{ textShadow: "0px 0px 2px #000" }}
+          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
-          <li>Country: {movie.country}</li>
+          <li>Country of origin: {movie.country}</li>
+          <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
-          <h2>Synopsis :</h2>
-          <h2
-            className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"
+          <li>Content Rating: {movie.contentRating}</li>
+          <li>Original Network: {movie.Originalnetwork}</li>
+          <h1
+            className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
           >
-            {movie.synopsis}
-          </h2>
+            Movie Synopsis:{" "}
+          </h1>
+          <Link href="https://en.wikipedia.org/wiki/Tulsa_King">
+            <h2
+              className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+              style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+            >
+              TV series Succession S04 (2023)
+            </h2>
+          </Link>
+          <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
-
-        <img
-          src={movie.poster}
-          alt={`Poster for ${movie.title}`}
-          className="mx-auto my-10 rounded-3xl  "
-        />
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
-            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 "
+            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
             onClick={togglePopup}
           >
             <h2>Watch Offical Trailer</h2>
@@ -287,13 +351,13 @@ function SuccessionP3({ movie }) {
           <div className="popup-overlay">
             <div className="popup ">
               <button className="close-button" onClick={togglePopup}>
-                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
+                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
                   {" "}
                   Close
                 </h2>
               </button>
               <h2 className="text-2xl font-bold">
-                Offical Trailer {movie.name} (2023){" "}
+                Offical Trailer {movie.name}{" "}
               </h2>
               <video
                 src={movie["movie.trailer"]}
@@ -338,9 +402,15 @@ function SuccessionP3({ movie }) {
             }
           }
         `}</style>
+        <img
+          src={movie.banner}
+          alt={`Banner for ${movie.title}`}
+          loading="lazy"
+          className=" rounded-3xl  mx-auto my-10 "
+        />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 1 {movie.name} (2023)
+            Link 1 {movie.name}
           </h3>
           <a href={movie.down1link3} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
@@ -350,9 +420,9 @@ function SuccessionP3({ movie }) {
 
           <Max />
 
-          <Link href="../../BollywoodAds">
-            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dSUS:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dSUS:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dSUS:bg-gray-900 group-hover:bg-opacity-0 ">
-              Back To Bollywood Section
+          <Link href="../../HollywoodAds">
+            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              Back To Hollywood Section
             </buton>
           </Link>
         </div>
@@ -365,7 +435,7 @@ export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
 
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "SUS");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX57");
   return {
     props: {
       movie: selectedMovie,

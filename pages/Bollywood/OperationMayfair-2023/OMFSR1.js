@@ -56,6 +56,7 @@ function OMFSR1({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
+    contentRating: movie.contentRating,
     url: movie.link,
     potentialAction: {
       "@type": "WatchAction",
@@ -210,13 +211,16 @@ function OMFSR1({ movie }) {
 
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
-          style={{ textShadow: "0px 0px 2px #000" }}
+          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
           <li>Country of origin: {movie.country}</li>
+          <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
+          <li>Content Rating: {movie.contentRating}</li>
+          <li>Original Network: {movie.Originalnetwork}</li>
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -225,7 +229,7 @@ function OMFSR1({ movie }) {
           </h1>
           <h2
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
-            style={{ textShadow: "0px 0px 2px #000" }}
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
             In the movie Operation Mayfair (2023){" "}
           </h2>
