@@ -211,7 +211,7 @@ function TinAndTina({ movie }) {
 
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
-          style={{ textShadow: "0px 0px 2px #000" }}
+          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }} 
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
@@ -226,7 +226,7 @@ function TinAndTina({ movie }) {
           </h1>
           <h2
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
-            style={{ textShadow: "0px 0px 2px #000" }}
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }} 
           >
             In the movie Tin & Tina (2023){" "}
           </h2>

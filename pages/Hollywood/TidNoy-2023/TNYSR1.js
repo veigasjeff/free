@@ -6,11 +6,9 @@ import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
-import { Image } from "cloudinary-react";
-
 //import Ad from '@components/Ad1';
 
-function FastX({ movie }) {
+function TNYSR1({ movie }) {
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
@@ -65,15 +63,15 @@ function FastX({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Fast X (2023)",
+          name: "Tid Noy (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX",
+            "https://uwatchfree.vercel.app/Hollywood/TidNoy-2023/TidNoy",
         },
         {
           "@type": "EntryPoint",
-          name: "Fast X (2023)",
+          name: "Tid Noy (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/FastX-2023/FTXSR1",
+            "https://uwatchfree.vercel.app/Hollywood/TidNoy-2023/TNYSR1",
         },
       ],
     },
@@ -113,14 +111,14 @@ function FastX({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
       <Head>
-        <title>Watch Fast X (2023) Full Movie Online Free | Uwatchfree™</title>
+        <title>Watch Tid Noy (2023) Full Movie Online Free | Uwatchfree™</title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
         <meta
           name="keywords"
-          content="uwatchfree,fast x movie,fast x 2023,index of fast x movie,fast x cast,fast x trailer,fast x release date,fast x plot,fast x reviews,fast x streaming,fast x watch online,fast x download,fast x full movie,fast x movie download,fast x movie free download,fast x movie online,fast x movie watch online"
+          content="uwatchfree,tid noy movie,tid noy 2023,index of tid noy movie,tid noy cast,tid noy trailer,tid noy release date,tid noy plot,tid noy reviews,tid noy streaming,tid noy watch online,tid noy download,tid noy full movie,tid noy movie download,tid noy movie free download,tid noy movie online,tid noy movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -131,14 +129,14 @@ function FastX({ movie }) {
           content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
         />
         <meta property="og:type" content="movie" />
-        <meta property="og:title" content="Watch Fast X (2023) | Uwatchfree™" />
+        <meta property="og:title" content="Watch Tid Noy (2023) | Uwatchfree™" />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX"
+          content="https://uwatchfree.vercel.app/Hollywood/TidNoy-2023/TidNoy"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684696475/fast-x-2023_ljbfkt.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685827659/Tid-Noy-2023_dbzxhv.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -149,20 +147,20 @@ function FastX({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Fast X (2023) | Uwatchfree™"
+          content="Watch Tid Noy (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684696475/fast-x-2023_ljbfkt.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685827659/Tid-Noy-2023_dbzxhv.webp"
         />
         <meta
           name="description"
-          content="Watch FastX Full Movie Online on Uwatchfree™, You can also download Fast X (2023) in full HD quality to watch later offline."
+          content="Watch Tid Noy Full Movie Online on Uwatchfree™, You can also download Tid Noy (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX"
+          href="https://uwatchfree.vercel.app/Hollywood/TidNoy-2023/TNYSR1"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -171,13 +169,12 @@ function FastX({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Fast X - 2023
+          Tid Noy - 2023
         </h1>
-
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
+            src={movie["movie.watchSR1"]}
             width="100%"
             height="500px"
             allowFullScreen
@@ -194,8 +191,8 @@ function FastX({ movie }) {
         />
 
         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../FastX-2023/FTXSR1">
-            <h2> Watch {movie.name} Server 2</h2>
+          <a href="../TidNoy-2023/TidNoy">
+            <h2> Watch {movie.name} Server 1</h2>
           </a>
         </button>
         <Rating />
@@ -220,11 +217,10 @@ function FastX({ movie }) {
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
           <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the Movie Fast X (2023)</h2>
+      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the Movie Tid Noy (2023)</h2>
       <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
-    
-
+     
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
             className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
@@ -297,9 +293,9 @@ function FastX({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 1 {movie.name}
+            Link 2 {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
               Download
             </button>
@@ -321,7 +317,7 @@ function FastX({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX36");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX62");
   return {
     props: {
       movie: selectedMovie,
@@ -329,4 +325,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default FastX;
+export default TNYSR1;

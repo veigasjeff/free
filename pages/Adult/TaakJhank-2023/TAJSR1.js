@@ -164,7 +164,7 @@ function TAJSR1({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/TaakJhank-2023/"
+          href="https://uwatchfree.vercel.app/Adult/TaakJhank-2023/TAJSR1"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

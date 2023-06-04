@@ -164,7 +164,7 @@ function TereJaisaYaarKaha({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/TereJaisaYaarKaha-2023/"
+          href="https://uwatchfree.vercel.app/Adult/TereJaisaYaarKaha-2023/TereJaisaYaarKaha"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

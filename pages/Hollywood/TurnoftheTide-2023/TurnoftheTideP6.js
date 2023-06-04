@@ -6,24 +6,8 @@ import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
-import { Image } from "cloudinary-react";
 
-//import Ad from '@components/Ad1';
-
-function FastX({ movie }) {
-  const [showAd, setShowAd] = useState(false);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setShowAd(true);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const handleAdClose = () => {
-    setShowAd(false);
-  };
-
+function TurnoftheTideP6({ movie }) {
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
@@ -50,7 +34,7 @@ function FastX({ movie }) {
   }
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Movie",
+    "@type": "TVSeries",
     name: movie.name,
     description: movie.synopsis,
     image: movie.poster,
@@ -58,25 +42,9 @@ function FastX({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
-    contentRating: movie.contentRating,
+contentRating: movie.contentRating,
     url: movie.link,
-    potentialAction: {
-      "@type": "WatchAction",
-      target: [
-        {
-          "@type": "EntryPoint",
-          name: "Fast X (2023)",
-          urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX",
-        },
-        {
-          "@type": "EntryPoint",
-          name: "Fast X (2023)",
-          urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/FastX-2023/FTXSR1",
-        },
-      ],
-    },
+
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -84,6 +52,47 @@ function FastX({ movie }) {
       worstRating: 0,
       ratingCount: 1,
     },
+    episode: [
+      {
+        "@type": "TVEpisode",
+        name: "Turn Of the Tide S01 Episode 1",
+        url: "https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP1",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "Turn Of the Tide S01 Episode 2",
+        url: "https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP2",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "Turn Of the Tide S01 Episode 3",
+        url: "https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP3",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "Turn Of the Tide S01 Episode 4",
+        url: "https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP4",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "Turn Of the Tide S01 Episode 5",
+        url: "https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP5",
+      },
+
+      {
+        "@type": "TVEpisode",
+        name: "Turn Of the Tide S01 Episode 6",
+        url: "https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP6",
+      },
+      
+      {
+        "@type": "TVEpisode",
+        name: "Turn Of the Tide S01 Episode 7",
+        url: "https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP7",
+      },
+     
+
+    ],
     author: [
       {
         "@type": "Person",
@@ -91,12 +100,22 @@ function FastX({ movie }) {
         url: "https://uwatchfree.vercel.app/DrTrailer.png",
       },
     ],
+
     publisher: {
       "@type": "Organization",
       name: "Uwatchfree",
       logo: {
         "@type": "ImageObject",
         url: "https://uwatchfree.vercel.app/og_image.jpg",
+      },
+    },
+    potentialAction: {
+      "@type": "WatchAction",
+      name: "Turn Of the Tide S01 (2023)",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate:
+          "https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP1",
       },
     },
     additionalProperty: {
@@ -111,16 +130,19 @@ function FastX({ movie }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
+        TurnoftheTide
       />
       <Head>
-        <title>Watch Fast X (2023) Full Movie Online Free | Uwatchfree™</title>
+        <title>
+          Watch Turn of the Tide S01 (2023) Full Movie Online Free | Uwatchfree™
+        </title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
         <meta
           name="keywords"
-          content="uwatchfree,fast x movie,fast x 2023,index of fast x movie,fast x cast,fast x trailer,fast x release date,fast x plot,fast x reviews,fast x streaming,fast x watch online,fast x download,fast x full movie,fast x movie download,fast x movie free download,fast x movie online,fast x movie watch online"
+          content="uwatchfree,turn of the tide tv show,turn of the tide 2023,index of turn of the tide tv series,turn of the tide cast,turn of the tide reboot,turn of the tide trailer,turn of the tide release date,turn of the tide episodes,turn of the tide streaming,turn of the tide watch online,turn of the tide tv series download,turn of the tide tv series free download,turn of the tide tv series online,turn of the tide tv series watch online,turn of the tide tv series season 1,turn of the tide tV series full episodes"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -131,14 +153,18 @@ function FastX({ movie }) {
           content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
         />
         <meta property="og:type" content="movie" />
-        <meta property="og:title" content="Watch Fast X (2023) | Uwatchfree™" />
+
+        <meta
+          property="og:title"
+          content="Watch Turn of the Tide S01 (2023) | Uwatchfree™"
+        />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX"
+          content="https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/TurnoftheTideP1"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684696475/fast-x-2023_ljbfkt.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685813108/Turn-of-the_-tide_-2023_hcbvb2.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -149,20 +175,20 @@ function FastX({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Fast X (2023) | Uwatchfree™"
+          content="Watch Turn of the Tide S01 (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684696475/fast-x-2023_ljbfkt.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685813108/Turn-of-the_-tide_-2023_hcbvb2.webp"
         />
         <meta
           name="description"
-          content="Watch FastX Full Movie Online on Uwatchfree™, You can also download Fast X (2023) in full HD quality to watch later offline."
+          content="Watch Turn Of the Tide S01 Full Movie Online on Uwatchfree™, You can also download Turn of the Tide S01 (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX"
+          href="https://uwatchfree.vercel.app/Hollywood/TurnoftheTide-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -171,13 +197,12 @@ function FastX({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Fast X - 2023
+          {movie.title} - EPISODE 6
         </h1>
-
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
+            src={movie["movie.watchP6"]}
             width="100%"
             height="500px"
             allowFullScreen
@@ -193,8 +218,52 @@ function FastX({ movie }) {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TurnoftheTide-2023/TurnoftheTideP1">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 1
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TurnoftheTide-2023/TurnoftheTideP2">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 2
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TurnoftheTide-2023/TurnoftheTideP3">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 3
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TurnoftheTide-2023/TurnoftheTideP4">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 4
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TurnoftheTide-2023/TurnoftheTideP5">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 5
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TurnoftheTide-2023/TurnoftheTideP7">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                Episode 7
+              </button>
+            </Link>
+            </div>  </div>
+      
         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../FastX-2023/FTXSR1">
+          <a href="../TurnoftheTide-2023/TOTSR6">
             <h2> Watch {movie.name} Server 2</h2>
           </a>
         </button>
@@ -220,10 +289,9 @@ function FastX({ movie }) {
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
           <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the Movie Fast X (2023)</h2>
+      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>TV Series Turn of the Tide S01 (2023)</h2>
       <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
-    
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
@@ -296,12 +364,12 @@ function FastX({ movie }) {
           className=" rounded-3xl  mx-auto my-10 "
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
+          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 " style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
             Link 1 {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down1link6} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
-              Download
+              Download Episode 6
             </button>
           </a>
 
@@ -320,8 +388,9 @@ function FastX({ movie }) {
 
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX36");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX59");
   return {
     props: {
       movie: selectedMovie,
@@ -329,4 +398,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default FastX;
+export default TurnoftheTideP6;

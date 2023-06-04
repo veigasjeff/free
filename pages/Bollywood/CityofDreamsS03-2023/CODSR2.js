@@ -6,11 +6,9 @@ import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
-import { Image } from "cloudinary-react";
-
 //import Ad from '@components/Ad1';
 
-function FastX({ movie }) {
+function CODSR2({ movie }) {
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
@@ -46,8 +44,8 @@ function FastX({ movie }) {
     setShowPopup(!showPopup);
   }
   const paragraphStyle = {
-    whiteSpace: 'pre-line',
-  }
+    whiteSpace: "pre-line",
+  };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Movie",
@@ -65,15 +63,15 @@ function FastX({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Fast X (2023)",
+          name: "City of Dreams S03 (2023) ",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX",
+            "https://uwatchfree.vercel.app/Bollywood/CityofDreamsS03-2023/CityofDreams",
         },
         {
           "@type": "EntryPoint",
-          name: "Fast X (2023)",
+          name: "City of Dreams S03 (2023) ",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/FastX-2023/FTXSR1",
+            "https://uwatchfree.vercel.app/Bollywood/CityofDreamsS03-2023/CODSR1",
         },
       ],
     },
@@ -113,14 +111,16 @@ function FastX({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
       <Head>
-        <title>Watch Fast X (2023) Full Movie Online Free | Uwatchfree™</title>
+        <title>
+          Watch City of Dreams S03 (2023) Full Movie Online Free | Uwatchfree™
+        </title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-        <meta
+         <meta
           name="keywords"
-          content="uwatchfree,fast x movie,fast x 2023,index of fast x movie,fast x cast,fast x trailer,fast x release date,fast x plot,fast x reviews,fast x streaming,fast x watch online,fast x download,fast x full movie,fast x movie download,fast x movie free download,fast x movie online,fast x movie watch online"
+          content="uwatchfree,City of dreams s03 movie,City of dreams s03 2023,index of City of dreams s03 movie,City of dreams s03 cast,City of dreams s03 trailer,City of dreams s03 release date,City of dreams s03 plot,City of dreams s03 reviews,City of dreams s03 streaming,City of dreams s03 watch online,City of dreams s03 download,City of dreams s03 full movie,City of dreams s03 movie download,City of dreams s03 movie free download,City of dreams s03 movie online,City of dreams s03 movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -131,14 +131,17 @@ function FastX({ movie }) {
           content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
         />
         <meta property="og:type" content="movie" />
-        <meta property="og:title" content="Watch Fast X (2023) | Uwatchfree™" />
+        <meta
+          property="og:title"
+          content="Watch City of Dreams S03 (2023)  | Uwatchfree™"
+        />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX"
+          content="https://uwatchfree.vercel.app/Bollywood/CityofDreamsS03-2023/CityofDreams"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684696475/fast-x-2023_ljbfkt.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685827616/City-of-Dreams-S3-2023_bfd3ac.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -149,20 +152,20 @@ function FastX({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Fast X (2023) | Uwatchfree™"
+          content="Watch City of Dreams S03 (2023)  | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684696475/fast-x-2023_ljbfkt.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685827616/City-of-Dreams-S3-2023_bfd3ac.webp"
         />
         <meta
           name="description"
-          content="Watch FastX Full Movie Online on Uwatchfree™, You can also download Fast X (2023) in full HD quality to watch later offline."
+          content="Watch City of dreams s03 Full Movie Online on Uwatchfree™, You can also download City of Dreams S03 (2023)  in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/FastX-2023/FastX"
+          href="https://uwatchfree.vercel.app/Bollywood/CityofDreamsS03-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -171,13 +174,12 @@ function FastX({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Fast X - 2023
+          City of Dreams S03 Part 2 - 2023
         </h1>
-
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
+            src={movie["movie.watchSR2"]}
             width="100%"
             height="500px"
             allowFullScreen
@@ -192,10 +194,18 @@ function FastX({ movie }) {
           title="Watch Movies, TV-Series & Sports Live Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-
+       
+       <div className="flex justify-center">
+         <Link href="../../Bollywood/CityofDreamsS03-2023/CODSR1">
+           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+             Part 1
+           </button>
+         </Link>
+       </div>
+     
         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../FastX-2023/FTXSR1">
-            <h2> Watch {movie.name} Server 2</h2>
+          <a href="../CityofDreamsS03-2023/CityofDreamsP2">
+            <h2> Watch {movie.name} Server 1</h2>
           </a>
         </button>
         <Rating />
@@ -220,11 +230,9 @@ function FastX({ movie }) {
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
           <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the Movie Fast X (2023)</h2>
+      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the movie City of Dreams (2023)</h2>
       <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
-    
-
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
             className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
@@ -297,19 +305,19 @@ function FastX({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 1 {movie.name}
+            Link 2 {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down2link2} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
-              Download
+              Download Part 2
             </button>
           </a>
 
           <Max />
 
-          <Link href="../../HollywoodAds">
+          <Link href="../../BollywoodAds">
             <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-              Back To Hollywood Section
+              Back To Bollywood Section
             </buton>
           </Link>
         </div>
@@ -321,7 +329,7 @@ function FastX({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX36");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX66");
   return {
     props: {
       movie: selectedMovie,
@@ -329,4 +337,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default FastX;
+export default CODSR2;
