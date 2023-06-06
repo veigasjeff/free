@@ -124,7 +124,7 @@ function Behrupiya({ movie }) {
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free" />
+<meta property="og:site_name" content="Uwatchfree™ | Watch Movies & TV-Series Online Free" />
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch Behrupiya (2023) | Uwatchfree™" />
 <meta property="og:url" content="https://uwatchfree.vercel.app/Adult/Behrupiya-2023/Behrupiya" />
@@ -156,7 +156,7 @@ function Behrupiya({ movie }) {
       ></iframe>
            </div>  
            <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-           <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
+           <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies & TV-Series Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
 
 
      

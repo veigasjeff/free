@@ -21,19 +21,19 @@ const Dmca = () => {
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free " />
+	<meta property="og:site_name" content="Uwatchfree™ | Watch Movies & TV-Series Online Free " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free " />
-	<meta property="og:description" content="Watch Movies, TV-Series & Sports Live Online Free " />
+	<meta property="og:title" content="Uwatchfree™ | Watch Movies & TV-Series Online Free " />
+	<meta property="og:description" content="Watch Movies & TV-Series Online Free " />
 	<meta property="og:url" content="https://uwatchfree.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Uwatchfree™ " />
-	<meta name="twitter:description" content=" Watch Movies, TV-Series & Sports Live Online Free " />
+	<meta name="twitter:description" content=" Watch Movies & TV-Series Online Free " />
 	<meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
 	
   

@@ -126,7 +126,7 @@ function PantaxaLaiyaP3({ movie }) {
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
-          content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
+          content="Uwatchfree™ | Watch Movies & TV-Series Online Free"
         />
         <meta property="og:type" content="movie" />
         <meta
@@ -191,7 +191,7 @@ function PantaxaLaiyaP3({ movie }) {
         </h3>
         <ShareButtons
           url="https://uwatchfree.vercel.app"
-          title="Watch Movies, TV-Series & Sports Live Online Free"
+          title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
   <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">

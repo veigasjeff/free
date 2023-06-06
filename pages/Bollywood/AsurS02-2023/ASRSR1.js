@@ -65,7 +65,7 @@ function ASRSR1({ movie }) {
           "@type": "EntryPoint",
           name: "Asur S02 (2023) ",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/Asur",
+            "https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/AsurP1",
         },
         {
           "@type": "EntryPoint",
@@ -128,7 +128,7 @@ function ASRSR1({ movie }) {
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
-          content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
+          content="Uwatchfree™ | Watch Movies & TV-Series Online Free"
         />
         <meta property="og:type" content="movie" />
         <meta
@@ -137,7 +137,7 @@ function ASRSR1({ movie }) {
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/Asur"
+          content="https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/ASRSR1"
         />
         <meta
           property="og:image"
@@ -191,7 +191,7 @@ function ASRSR1({ movie }) {
         </h3>
         <ShareButtons
           url="https://uwatchfree.vercel.app"
-          title="Watch Movies, TV-Series & Sports Live Online Free"
+          title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
@@ -231,7 +231,7 @@ function ASRSR1({ movie }) {
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
           <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the movie City of Dreams (2023)</h2>
+      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the Tv Series Asur S02 (2023)</h2>
       <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -306,7 +306,7 @@ function ASRSR1({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 2 {movie.name}
+            Link 1 {movie.name}
           </h3>
           <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">

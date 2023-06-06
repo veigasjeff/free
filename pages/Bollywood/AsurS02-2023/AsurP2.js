@@ -66,7 +66,7 @@ function AsurP2({ movie }) {
           "@type": "EntryPoint",
           name: "Asur S02 (2023) ",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/Asur",
+            "https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/AsurP1",
         },
         {
           "@type": "EntryPoint",
@@ -129,7 +129,7 @@ function AsurP2({ movie }) {
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
-          content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free"
+          content="Uwatchfree™ | Watch Movies & TV-Series Online Free"
         />
         <meta property="og:type" content="movie" />
         <meta
@@ -138,7 +138,7 @@ function AsurP2({ movie }) {
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/Asur"
+          content="https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/AsurP2"
         />
         <meta
           property="og:image"
@@ -192,7 +192,7 @@ function AsurP2({ movie }) {
         </h3>
         <ShareButtons
           url="https://uwatchfree.vercel.app"
-          title="Watch Movies, TV-Series & Sports Live Online Free"
+          title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
         
@@ -231,7 +231,7 @@ function AsurP2({ movie }) {
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
           <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the movie City of Dreams (2023)</h2>
+      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the Tv Series Asur S02 (2023)</h2>
       <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
