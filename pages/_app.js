@@ -14,11 +14,7 @@ function Application({ Component, pageProps }) {
       
       
      <div className="center">
-     <Script
-        src="https://js.wpadmngr.com/static/adManager.js"
-        data-admpid="82683"
-        strategy="afterInteractive"
-      />
+     
         <GoogleAnalytics measurementId="G-K8QKRZ4B44" />
         <Script async data-id="101405628" src="//static.getclicky.com/js"></Script>
      
