@@ -184,7 +184,7 @@ const schemaData   = {
 	  	 <meta name="google-site-verification" content="4dFu4PUk1pc1IYqU6Brt84akCwNxaoUpKSO3gDW0kJ0" />
        <meta name="description" content="Uwatchfree™ - Watch Movies & TV-Series Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-       <meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online" />
+       <meta name="keywords" content="uwatchfree,new movies 2023,movies 2023,streaming,latest movies,online tv,latest free movies,watch latest movies online" />
 	     <meta property="og:locale" content="en_US" />   
        <meta property=" Content-Security-Policy: frame-ancestors 'self' uwatchfree.vercel.app *.uwatchfree.vercel.app;" />
        <meta property="og:site_name" content="Uwatchfree™ | Watch Movies & TV-Series Online Free " />
