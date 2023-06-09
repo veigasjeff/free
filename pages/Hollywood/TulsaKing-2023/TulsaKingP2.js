@@ -30,8 +30,8 @@ function TulsaKingP2({ movie }) {
     setShowPopup(!showPopup);
   }
   const paragraphStyle = {
-    whiteSpace: 'pre-line',
-  }
+    whiteSpace: "pre-line",
+  };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "TVSeries",
@@ -42,7 +42,7 @@ function TulsaKingP2({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
-contentRating: movie.contentRating,
+    contentRating: movie.contentRating,
     url: movie.link,
 
     aggregateRating: {
@@ -84,7 +84,7 @@ contentRating: movie.contentRating,
         name: "Tulsa King S01 Episode 6",
         url: "https://uwatchfree.vercel.app/Hollywood/TulsaKing-2023/TulsaKingP6",
       },
-      
+
       {
         "@type": "TVEpisode",
         name: "Tulsa King S01 Episode 7",
@@ -119,7 +119,7 @@ contentRating: movie.contentRating,
     },
     potentialAction: {
       "@type": "WatchAction",
-      name: "Tulsa King S01 (2023)",
+      name: "Tulsa King  S01 (2023)",
       target: {
         "@type": "EntryPoint",
         urlTemplate:
@@ -225,74 +225,100 @@ contentRating: movie.contentRating,
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-
+        <img
+          src={movie.poster}
+          alt={`Banner for ${movie.title}`}
+          loading="lazy"
+          className=" animate-pulse rounded-3xl  mx-auto my-10 "
+          style={{ height: "300px", width: "900px" }}
+        />
+        <h1
+          className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
+          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+        >
+          {movie.title} - EPISODE 2
+        </h1>
+        <div className={styles["iframe-container"]}>
+          <iframe
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
+            src={movie["movie.watchSR2"]}
+            width="100%"
+            height="500px"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
+          *Note: Pls Select the in the Player to Change your Language of your
+          Choice and Setting to Change the Quality of Video.
+        </h3>
+        <ShareButtons
+          url="https://uwatchfree.vercel.app"
+          title="Watch Movies & TV-Series Online Free"
+          image="https://uwatchfree.vercel.app/og_image.jpg"
+        />
         <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP1">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 1
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP3">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 3
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP4">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 4
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP5">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 5
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP6">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 6
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP7">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 7
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP8">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 8
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP9">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 9
               </button>
             </Link>
           </div>
-           </div>
-        <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../TulsaKing-2023/TSKSR2">
-            <h2> Watch {movie.name} Server 2</h2>
-          </a>
-        </button>
+        </div>
+
         <Rating />
         <a
           href={movie.link}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
           target="_blank"
         >
           IMDb Rating: {movie.rating}
@@ -310,15 +336,26 @@ contentRating: movie.contentRating,
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
-          <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-          <Link href="https://en.wikipedia.org/wiki/Tulsa_King" >
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>TV series Tulsa King (2023)</h2></Link>
-      <p style={paragraphStyle}>{movie.synopsis}</p>
+          <h1
+            className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
+            style={{ textShadow: "0px 0px 2px #000" }}
+          >
+            Movie Synopsis:{" "}
+          </h1>
+          <Link href="https://en.wikipedia.org/wiki/Tulsa_King">
+            <h2
+              className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+              style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+            >
+              TV series Tulsa King (2023)
+            </h2>
+          </Link>
+          <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
-            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
+            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
             onClick={togglePopup}
           >
             <h2>Watch Offical Trailer</h2>
@@ -384,23 +421,36 @@ contentRating: movie.contentRating,
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
-          className=" rounded-3xl  mx-auto my-10 "
+          className=" rounded-3xl animate-pulse mx-auto my-10 "
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
+          <h3
+            className="text-3xl font-bold leading-normal mt-0 mb-2"
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
             Link 1 {movie.name}
           </h3>
           <a href={movie.down1link2} target="_blank">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download Episode 2
             </button>
           </a>
-
+          <h3
+            className="text-3xl font-bold leading-normal mt-0 mb-2"
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
+            Link 2 {movie.name}
+          </h3>
+          <a href={movie.down2link2} target="_blank">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Download Episode 2
+            </button>
+          </a>
           <Max />
 
           <Link href="../../HollywoodAds">
-            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-              Back To Hollywood Section
+            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Back To Movie Selection
             </buton>
           </Link>
         </div>

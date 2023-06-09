@@ -43,6 +43,9 @@ function CitadelP3({ movie }) {
   function togglePopup() {
     setShowPopup(!showPopup);
   }
+  const paragraphStyle = {
+    whiteSpace: "pre-line",
+  };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "TVSeries",
@@ -87,6 +90,11 @@ function CitadelP3({ movie }) {
         "@type": "TVEpisode",
         name: "Citadel S01 Episode 5",
         url: "https://uwatchfree.vercel.app/Hollywood/CitadelS01-2023/CitadelP5",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "Citadel S01 Episode 6",
+        url: "https://uwatchfree.vercel.app/Hollywood/CitadelS01-2023/CitadelP6",
       },
     ],
     author: [
@@ -211,53 +219,79 @@ function CitadelP3({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
+        <img
+          src={movie.poster}
+          alt={`Banner for ${movie.title}`}
+          loading="lazy"
+          className=" animate-pulse rounded-3xl  mx-auto my-10 "
+          style={{ height: "300px", width: "900px" }}
+        />
 
+        <h1
+          className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
+          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+        >
+          {movie.title} - Episode 3{" "}
+        </h1>
+        <div className={styles["iframe-container"]}>
+          <iframe
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
+            src={movie["movie.watchSR3"]}
+            width="100%"
+            height="500px"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
+          *Note: Pls Select the in the Player to Change your Language of your
+          Choice and Setting to Change the Quality of Video.
+        </h3>
+        <ShareButtons
+          url="https://uwatchfree.vercel.app"
+          title="Watch Movies & TV-Series Online Free"
+          image="https://uwatchfree.vercel.app/og_image.jpg"
+        />
         <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
             <Link href="../../Hollywood/CitadelS01-2023/CitadelP1">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 1
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/CitadelS01-2023/CitadelP2">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 2
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Hollywood/CitadelS01-2023/CitadelP3">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                Episode 3
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
             <Link href="../../Hollywood/CitadelS01-2023/CitadelP4">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 4
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/CitadelS01-2023/CitadelP5">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 5
               </button>
             </Link>
           </div>
         </div>
-        <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../CitadelS01-2023/CTDSR3">
-            <h2> Watch {movie.name} Server 2</h2>
-          </a>
-        </button>
+        <div className="flex justify-center">
+          <Link href="../../Hollywood/CitadelS01-2023/CitadelP6">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Episode 6
+            </button>
+          </Link>
+        </div>
         <Rating />
         <a
           href={movie.link}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
           target="_blank"
         >
           IMDb Rating: {movie.rating}
@@ -265,25 +299,31 @@ function CitadelP3({ movie }) {
 
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
-          style={{ textShadow: "0px 0px 2px #000" }}
+          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
           <li>Country of origin: {movie.country}</li>
           <li>Genre: {movie.genre}</li>
-          <h2>Synopsis :</h2>
-          <h2
-            className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"
+          <h1
+            className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
           >
-            {movie.synopsis}
+            Movie Synopsis:{" "}
+          </h1>
+          <h2
+            className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
+            In The Tv Series Citadel S01 (2023)
           </h2>
+          <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
-            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
+            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 "
             onClick={togglePopup}
           >
             <h2>Watch Offical Trailer</h2>
@@ -349,23 +389,30 @@ function CitadelP3({ movie }) {
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
-          className=" rounded-3xl  mx-auto my-10 "
+          className=" rounded-3xl animate-pulse mx-auto my-10 "
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link 1 {movie.name}
           </h3>
           <a href={movie.down1link3} target="_blank">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download Episode 3
             </button>
           </a>
-
+          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
+            Link 2 {movie.name}
+          </h3>
+          <a href={movie.down2link3} target="_blank">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Download Episode 3
+            </button>
+          </a>
           <Max />
 
           <Link href="../../HollywoodAds">
-            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-              Back To Hollywood Section
+            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Back To Movie Selection
             </buton>
           </Link>
         </div>

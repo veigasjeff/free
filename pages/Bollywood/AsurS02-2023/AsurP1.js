@@ -68,12 +68,6 @@ function AsurP1({ movie }) {
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/AsurP1",
         },
-        {
-          "@type": "EntryPoint",
-          name: "Asur S02 (2023) ",
-          urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/AsurS02-2023/ASRSR1",
-        },
       ],
     },
     aggregateRating: {
@@ -195,25 +189,50 @@ function AsurP1({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-  
-       
-       <div className="flex justify-center">
-         <Link href="../../Bollywood/AsurS02-2023/AsurP2">
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-             Part 2
-           </button>
-         </Link>
-       </div>
-       
-        <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-          <a href="../AsurS02-2023/ASRSR1">
-            <h2> Watch {movie.name} Server 2</h2>
-          </a>
-        </button>
+        <img
+          src={movie.poster}
+          alt={`Banner for ${movie.title}`}
+          loading="lazy"
+          className=" animate-pulse rounded-3xl  mx-auto my-10 "
+          style={{ height: "300px", width: "900px" }}
+        />
+        <h1
+          className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
+          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+        >
+          Asur S02 Part 1 - 2023
+        </h1>
+        <div className={styles["iframe-container"]}>
+          <iframe
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
+            src={movie["movie.watchSR1"]}
+            width="100%"
+            height="500px"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
+          *Note: Pls Select the in the Player to Change your Language of your
+          Choice and Setting to Change the Quality of Video.
+        </h3>
+        <ShareButtons
+          url="https://uwatchfree.vercel.app"
+          title="Watch Movies & TV-Series Online Free"
+          image="https://uwatchfree.vercel.app/og_image.jpg"
+        />
+
+        <div className="flex justify-center">
+          <Link href="../../Bollywood/AsurS02-2023/AsurP2">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Part 2
+            </button>
+          </Link>
+        </div>
+
         <Rating />
         <a
           href={movie.link}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
           target="_blank"
         >
           IMDb Rating: {movie.rating}
@@ -221,7 +240,7 @@ function AsurP1({ movie }) {
 
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
-          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }} 
+          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
@@ -231,14 +250,24 @@ function AsurP1({ movie }) {
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
-          <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>In the Tv Series Asur S02 (2023)</h2>
-      <p style={paragraphStyle}>{movie.synopsis}</p>
+          <h1
+            className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
+            style={{ textShadow: "0px 0px 2px #000" }}
+          >
+            Movie Synopsis:{" "}
+          </h1>
+          <h2
+            className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
+            In the Tv Series Asur S02 (2023)
+          </h2>
+          <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
-            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
+            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 "
             onClick={togglePopup}
           >
             <h2>Watch Offical Trailer</h2>
@@ -304,23 +333,30 @@ function AsurP1({ movie }) {
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
-          className=" rounded-3xl  mx-auto my-10 "
+          className=" rounded-3xl animate-pulse mx-auto my-10 "
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link 1 {movie.name}
           </h3>
           <a href={movie.down1link1} target="_blank">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download Part 1
             </button>
           </a>
-
+          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
+            Link 2 {movie.name}
+          </h3>
+          <a href={movie.down2link1} target="_blank">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Download Part 1
+            </button>
+          </a>
           <Max />
 
           <Link href="../../BollywoodAds">
-            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-              Back To Bollywood Section
+            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Back To Movie Selection
             </buton>
           </Link>
         </div>

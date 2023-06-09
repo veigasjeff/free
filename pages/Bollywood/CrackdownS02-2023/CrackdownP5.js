@@ -30,8 +30,8 @@ function CrackdownP5({ movie }) {
     setShowPopup(!showPopup);
   }
   const paragraphStyle = {
-    whiteSpace: 'pre-line',
-  }
+    whiteSpace: "pre-line",
+  };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "TVSeries",
@@ -84,7 +84,7 @@ function CrackdownP5({ movie }) {
         name: "Crackdown S02 Episode 6",
         url: "https://uwatchfree.vercel.app/Bollywood/CrackdownS02-2023/CrackdownP6",
       },
-      
+
       {
         "@type": "TVEpisode",
         name: "Crackdown S02 Episode 7",
@@ -221,16 +221,14 @@ function CrackdownP5({ movie }) {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
-       
-            
-            <img
+        <img
           src={movie.poster}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
           className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width:"900px" }}
+          style={{ height: "300px", width: "900px" }}
         />
-            <h1
+        <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
@@ -255,57 +253,57 @@ function CrackdownP5({ movie }) {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
-<div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
-       
-       <div className="flex justify-center">
-         <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP1">
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-             Episode 1
-           </button>
-         </Link>
-       </div>
-       <div className="flex justify-center">
-         <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP2">
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
-             Episode 2
-           </button>
-         </Link>
-       </div>
-       <div className="flex justify-center">
-         <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP3">
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-             Episode 3
-           </button>
-         </Link>
-       </div>
-       <div className="flex justify-center">
-         <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP4">
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-             Episode 4
-           </button>
-         </Link>
-       </div>
-       <div className="flex justify-center">
-         <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP6">
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
-             Episode 6
-           </button>
-         </Link>
-       </div>
-       <div className="flex justify-center">
-         <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP7">
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
-             Episode 7
-           </button>
-         </Link>
-         </div>  </div>
-         <div className="flex justify-center">
-         <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP8">
-           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-             Episode 8
-           </button>
-         </Link>
-         </div>
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+          <div className="flex justify-center">
+            <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP1">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 1
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP2">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
+                Episode 2
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP3">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 3
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP4">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 4
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP6">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
+                Episode 6
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP7">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
+                Episode 7
+              </button>
+            </Link>
+          </div>{" "}
+        </div>
+        <div className="flex justify-center">
+          <Link href="../../Bollywood/CrackdownS02-2023/CrackdownP8">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Episode 8
+            </button>
+          </Link>
+        </div>
         <Rating />
         <a
           href={movie.link}
@@ -317,7 +315,7 @@ function CrackdownP5({ movie }) {
 
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
-          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }} 
+          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
@@ -327,9 +325,19 @@ function CrackdownP5({ movie }) {
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
           <li>Original Network: {movie.Originalnetwork}</li>
-          <h1 className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"style={{ textShadow: "0px 0px 2px #000" }}>Movie Synopsis: </h1>
-      <h2 className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>TV Series Crackdown S02 (2023)</h2>
-      <p style={paragraphStyle}>{movie.synopsis}</p>
+          <h1
+            className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
+            style={{ textShadow: "0px 0px 2px #000" }}
+          >
+            Movie Synopsis:{" "}
+          </h1>
+          <h2
+            className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
+            TV Series Crackdown S02 (2023)
+          </h2>
+          <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -403,7 +411,10 @@ function CrackdownP5({ movie }) {
           className=" rounded-3xl  mx-auto my-10 animate-pulse border-white border-2"
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 " style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
+          <h3
+            className="text-3xl font-bold leading-normal mt-0 mb-2 "
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
             Link 1 {movie.name}
           </h3>
           <a href={movie.down1link5} target="_blank">
@@ -411,7 +422,10 @@ function CrackdownP5({ movie }) {
               Download Episode 5
             </button>
           </a>
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2  " style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>
+          <h3
+            className="text-3xl font-bold leading-normal mt-0 mb-2  "
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
             Link 2 {movie.name}
           </h3>
           <a href={movie.down2link5} target="_blank">
@@ -423,7 +437,7 @@ function CrackdownP5({ movie }) {
 
           <Link href="../../BollywoodAds">
             <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-            Back To Movie Selection
+              Back To Movie Selection
             </buton>
           </Link>
         </div>
