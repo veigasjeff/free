@@ -1,27 +1,13 @@
 import Link from "next/link";
 import Rating from "pages/Rating";
 import Head from "next/head";
-import AdultSkipAds from "@components/AdultSkipAds";
 import React, { useEffect, useState } from "react";
 import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 
-function SexHub({ movie }) {
-  const [showAd, setShowAd] = useState(false);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setShowAd(true);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const handleAdClose = () => {
-    setShowAd(false);
-  };
-
+function TheChemistryOfDeathE1({ movie }) {
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
@@ -48,7 +34,7 @@ function SexHub({ movie }) {
   };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Movie",
+    "@type": "TVSeries",
     name: movie.name,
     description: movie.synopsis,
     image: movie.poster,
@@ -56,17 +42,9 @@ function SexHub({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
+    contentRating: movie.contentRating,
     url: movie.link,
-    potentialAction: {
-      "@type": "WatchAction",
-      target: [
-        {
-          "@type": "EntryPoint",
-          name: "Sex Hub (2023)",
-          urlTemplate: "https://uwatchfree.vercel.app/Adult/SexHub-2023/SexHub",
-        },
-      ],
-    },
+
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -74,6 +52,40 @@ function SexHub({ movie }) {
       worstRating: 0,
       ratingCount: 1,
     },
+    episode: [
+      {
+        "@type": "TVEpisode",
+        name: "The Chemistry Of Death Episode 1",
+        url: "https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE1",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "The Chemistry Of Death Episode 2",
+        url: "https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE2",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "The Chemistry Of Death Episode 3",
+        url: "https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE3",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "The Chemistry Of Death Episode 4",
+        url: "https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE4",
+      },
+      {
+        "@type": "TVEpisode",
+        name: "The Chemistry Of Death Episode 5",
+        url: "https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE5",
+      },
+
+      {
+        "@type": "TVEpisode",
+        name: "The Chemistry Of Death Episode 6",
+        url: "https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE6",
+      },
+
+      ],
     author: [
       {
         "@type": "Person",
@@ -81,12 +93,22 @@ function SexHub({ movie }) {
         url: "https://uwatchfree.vercel.app/DrTrailer.png",
       },
     ],
+
     publisher: {
       "@type": "Organization",
       name: "Uwatchfree",
       logo: {
         "@type": "ImageObject",
         url: "https://uwatchfree.vercel.app/og_image.jpg",
+      },
+    },
+    potentialAction: {
+      "@type": "WatchAction",
+      name: "The Chemistry Of Death (2023)",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate:
+          "https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE1",
       },
     },
     additionalProperty: {
@@ -101,16 +123,19 @@ function SexHub({ movie }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
+        TheChemistryOfDeath
       />
       <Head>
-        <title>Watch Sex Hub (2023) Full Movie Online Free | Uwatchfree™</title>
+        <title>
+          Watch The Chemistry Of Death (2023) Full Movie Online Free | Uwatchfree™
+        </title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch sex hub movie,index of sex hub movie,sex hub movie 2023,sex hub movie online,watch sex hub movie online free,sex hub tv series,sex hub movie download,sex hub movie free download,sex hub movie download"
+          content="uwatchfree,the chemistry of death tv show,the chemistry of death 2023,index of the chemistry of death,the chemistry of death cast,the chemistry of death reboot,the chemistry of death trailer,the chemistry of death release date,the chemistry of death episodes,the chemistry of death streaming,the chemistry of death watch online,the chemistry of death tv series download,the chemistry of death tv series free download,the chemistry of death tv series online,the chemistry of death tv series watch online,the chemistry of death tv series season 1,the chemistry of death tv series full episodes"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -121,17 +146,18 @@ function SexHub({ movie }) {
           content="Uwatchfree™ | Watch Movies & TV-Series Online Free"
         />
         <meta property="og:type" content="movie" />
+
         <meta
           property="og:title"
-          content="Watch Sex Hub (2023) | Uwatchfree™"
+          content="Watch The Chemistry Of Death (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Adult/SexHub-2023/SexHub"
+          content="https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE1"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685980394/SexHub-2023_mv1wek.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515499/The-Chemistry-Of-Death-2023_sbvcox.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -142,31 +168,29 @@ function SexHub({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Sex Hub (2023) | Uwatchfree™"
+          content="Watch The Chemistry Of Death (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1685980394/SexHub-2023_mv1wek.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515499/The-Chemistry-Of-Death-2023_sbvcox.webp"
         />
         <meta
           name="description"
-          content="Watch sex hub Full Movie Online on Uwatchfree™, You can also download Sex Hub (2023) in full HD quality to watch later offline."
+          content="Watch TheChemistryOfDeath Full Movie Online on Uwatchfree™, You can also download The Chemistry Of Death (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/SexHub-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
-        <AdultSkipAds />
-
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - 2023 - Episode 1
+          {movie.title} - EPISODE 1
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
@@ -186,12 +210,19 @@ function SexHub({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
+        <img
+          src={movie.poster}
+          alt={`Banner for ${movie.title}`}
+          loading="lazy"
+          className=" animate-pulse rounded-3xl  mx-auto my-10 border-white border-2"
+          style={{ height: "300px", width: "900px" }}
+        />
 
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - 2023 - Episode 1
+          {movie.title} - EPISODE 1
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
@@ -202,18 +233,54 @@ function SexHub({ movie }) {
             allowFullScreen
           ></iframe>
         </div>
+        <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
+          *Note: Pls Select the in the Player to Change your Language of your
+          Choice and Setting to Change the Quality of Video.
+        </h3>
         <ShareButtons
           url="https://uwatchfree.vercel.app"
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
+
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
-          <Link href="../../Adult/SexHub-2023/SexHubE2">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Episode 2
-            </button>
-          </Link>
-        </div>
+            <Link href="../../Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE2">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 2
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE3">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 3
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE4">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 4
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE5">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 5
+              </button>
+            </Link>
+          </div>     </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/TheChemistryOfDeath-2023/TheChemistryOfDeathE6">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 6
+              </button>
+            </Link>
+          </div>
+     
+
         <Rating />
         <a
           href={movie.link}
@@ -230,19 +297,22 @@ function SexHub({ movie }) {
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
-          <li>Country: {movie.country}</li>
+          <li>Country of origin: {movie.country}</li>
+          <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
+          <li>Content Rating: {movie.contentRating}</li>
+          <li>Original Network: {movie.Originalnetwork}</li>
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
-            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+            style={{ textShadow: "0px 0px 2px #000" }}
           >
             Movie Synopsis:{" "}
           </h1>
           <h2
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
-            style={{ textShadow: "5px 5px 2px #000" }}
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the movie Sex Hub (2023){" "}
+            TV Series The Chemistry Of Death (2023)
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -260,23 +330,22 @@ function SexHub({ movie }) {
           <div className="popup-overlay">
             <div className="popup ">
               <button className="close-button" onClick={togglePopup}>
-                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                   {" "}
                   Close
                 </h2>
               </button>
               <h2 className="text-2xl font-bold">
-                Offical Trailer {movie.name}
+                Offical Trailer {movie.name}{" "}
               </h2>
-              <div className={styles["iframe-container"]}>
-                <iframe
-                  className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-                  webkitallowFullScreen
-                  mozallowFullScreen
-                  allowFullScreen
-                  src={movie["movie.trailer"]}
-                />
-              </div>
+              <video
+                src={movie["movie.trailer"]}
+                autoPlay
+                controls
+                loop
+                width="840"
+                height="360"
+              />
             </div>
           </div>
         )}
@@ -316,30 +385,35 @@ function SexHub({ movie }) {
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
-          className=" rounded-3xl  mx-auto my-10 "
+          className=" rounded-3xl  mx-auto my-10 animate-pulse border-white border-2"
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
+          <h3
+            className="text-3xl font-bold leading-normal mt-0 mb-2 "
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
             Link 1 {movie.name}
           </h3>
           <a href={movie.down1link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Download
+              Download Episode 1
             </button>
           </a>
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
+          <h3
+            className="text-3xl font-bold leading-normal mt-0 mb-2 "
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
             Link 2 {movie.name}
           </h3>
           <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Download
+              Download Episode 1
             </button>
           </a>
-
           <Max />
 
-          <Link href="../../AdultAds">
-            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+          <Link href="../../HollywoodAds">
+            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
               Back To Movie Selection
             </buton>
           </Link>
@@ -351,8 +425,9 @@ function SexHub({ movie }) {
 
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX73");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX83");
   return {
     props: {
       movie: selectedMovie,
@@ -360,4 +435,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default SexHub;
+export default TheChemistryOfDeathE1;
