@@ -67,7 +67,7 @@ function BloodyDaddy({ movie }) {
           "@type": "EntryPoint",
           name: "Bloody Daddy (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BloodyDaddy",
+            "https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/Watch-Movie-BloodyDaddy",
         },
       ],
     },
@@ -133,7 +133,7 @@ function BloodyDaddy({ movie }) {
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BloodyDaddy"
+          content="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/Watch-Movie-BloodyDaddy"
         />
         <meta
           property="og:image"
@@ -161,7 +161,7 @@ function BloodyDaddy({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BloodyDaddy"
+          href="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

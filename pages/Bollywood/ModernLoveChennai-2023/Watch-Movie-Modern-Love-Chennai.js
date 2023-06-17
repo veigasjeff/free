@@ -8,63 +8,11 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 
-
 //import Ad from '@components/Ad1';
 
-
-function WatchMovieBloodyDaddy({ movie }) {
-  useEffect(() => {
-    // Load the YouTube IFrame Player API code asynchronously
-    const tag = document.createElement('script');
-    tag.src = 'https://www.youtube.com/iframe_api';
-    const firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-  
-    // Clean up the script tag when the component unmounts
-    return () => {
-      firstScriptTag.parentNode.removeChild(tag);
-    };
-  }, []);
-  
-  useEffect(() => {
-    // Function to create an iframe (and YouTube player)
-    const onYouTubeIframeAPIReady = () => {
-      const player = new YT.Player('player', {
-        height: '500',
-        width: '640',
-        videoId: 'O1vDPCGygkQ',
-        playerVars: {
-          playsinline: 1,
-          loop: 1,
-          // mute: 1, // Add mute property if needed
-          autoplay: 0, // Set autoplay to 0 to disable auto play
-        },
-        events: {
-          onReady: onPlayerReady,
-          onStateChange: onPlayerStateChange,
-        },
-      });
-    };
-  
-    // The API will call this function when the YouTube player is ready
-    const onPlayerReady = (event) => {
-      // Player is ready
-    };
-  
-    // The API calls this function when the player's state changes
-    const onPlayerStateChange = (event) => {
-      // Handle player state changes if needed
-    };
-  
-    // Expose the function globally as it's required by the YouTube API
-    window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
-  }, []);
-
-
-
+function ModernLoveChennai({ movie }) {
   const [showAd, setShowAd] = useState(false);
 
-  
   useEffect(() => {
     const timer = setInterval(() => {
       setShowAd(true);
@@ -117,9 +65,9 @@ function WatchMovieBloodyDaddy({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Bloody Daddy (2023)",
+          name: "Modern Love Chennai (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BloodyDaddy",
+            "https://uwatchfree.vercel.app/Bollywood/ModernLoveChennai-2023/Watch-Movie-Modern-Love-Chennai",
         },
       ],
     },
@@ -160,7 +108,7 @@ function WatchMovieBloodyDaddy({ movie }) {
       />
       <Head>
         <title>
-          Watch Bloody Daddy (2023) Full Movie Online Free | Uwatchfree™
+          Watch Modern Love Chennai (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -168,7 +116,7 @@ function WatchMovieBloodyDaddy({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,bloody daddy movie,bloody daddy 2023,index of bloody daddy movie,bloody daddy cast,bloody daddy trailer,bloody daddy release date,bloody daddy plot,bloody daddy reviews,bloody daddy streaming,bloody daddy watch online,bloody daddy download,bloody daddy full movie,bloody daddy movie download,bloody daddy movie free download,bloody daddy movie online,bloody daddy movie watch online"
+          content="uwatchfree,modern love chennai movie,modern love chennai 2023,index of modern love chennai movie,modern love chennai cast,modern love chennai trailer,modern love chennai release date,modern love chennai plot,modern love chennai reviews,modern love chennai streaming,modern love chennai watch online,modern love chennai download,modern love chennai full movie,modern love chennai movie download,modern love chennai movie free download,modern love chennai movie online,modern love chennai movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -181,15 +129,15 @@ function WatchMovieBloodyDaddy({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Bloody Daddy (2023) | Uwatchfree™"
+          content="Watch Modern Love Chennai (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BloodyDaddy"
+          content="https://uwatchfree.vercel.app/Bollywood/ModernLoveChennai-2023/Watch-Movie-Modern-Love-Chennai"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515490/Modern-Love-Chennai-2023_nwaheo.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -200,20 +148,20 @@ function WatchMovieBloodyDaddy({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Bloody Daddy (2023) | Uwatchfree™"
+          content="Watch Modern Love Chennai (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515490/Modern-Love-Chennai-2023_nwaheo.webp"
         />
         <meta
           name="description"
-          content="Watch BloodyDaddy Full Movie Online on Uwatchfree™, You can also download Bloody Daddy (2023) in full HD quality to watch later offline."
+          content="Watch Modern Love Chennai Full Movie Online on Uwatchfree™, You can also download Modern Love Chennai (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BloodyDaddy"
+          href="https://uwatchfree.vercel.app/Bollywood/ModernLoveChennai-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -222,7 +170,7 @@ function WatchMovieBloodyDaddy({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Bloody Daddy - 2023
+          Modern Love Chennai - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -254,7 +202,7 @@ function WatchMovieBloodyDaddy({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Bloody Daddy - 2023
+          Modern Love Chennai - 2023
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
@@ -305,12 +253,11 @@ function WatchMovieBloodyDaddy({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie Bloody Daddy (2023)
+            In the Movie Modern Love Chennai (2023)
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
-        
-        
+
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
             className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
@@ -319,19 +266,62 @@ function WatchMovieBloodyDaddy({ movie }) {
             <h2>Watch Offical Trailer</h2>
           </button>
         </div>
-       
-              <div
-        id="player"
-        className="relative inline-flex py-10 text-center items-center justify-center rounded-3xl"
-       
-      >  </div>
-        
-      <div
-        id="player"
-        className="relative inline-flex py-10 text-center items-center justify-center rounded-3xl"
-       
-      >  </div>
-        
+
+        {showPopup && (
+          <div className="popup-overlay">
+            <div className="popup ">
+              <button className="close-button" onClick={togglePopup}>
+                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                  {" "}
+                  Close
+                </h2>
+              </button>
+              <h2 className="text-2xl font-bold">
+                Offical Trailer {movie.name}{" "}
+              </h2>
+              <video
+                src={movie["movie.trailer"]}
+                autoPlay
+                controls
+                loop
+                width="840"
+                height="360"
+              />
+            </div>
+          </div>
+        )}
+
+        <style jsx>{`
+          .popup-overlay {
+            position: relative;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .popup {
+            width: 800px;
+            background-color: gray;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            animation: slide-down 0.5s ease;
+          }
+
+          @keyframes slide-down {
+            from {
+              transform: translateY(-100%);
+            }
+            to {
+              transform: translateY(0);
+            }
+          }
+        `}</style>
         <img
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
@@ -371,7 +361,7 @@ function WatchMovieBloodyDaddy({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX84");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX85");
   return {
     props: {
       movie: selectedMovie,
@@ -379,4 +369,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default WatchMovieBloodyDaddy;
+export default ModernLoveChennai;
