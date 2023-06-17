@@ -163,6 +163,11 @@ function BloodyDaddy({ movie }) {
           rel="canonical"
           href="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/"
         />
+        <link
+          href="https://vjs.zencdn.net/7.15.4/video-js.css"
+          rel="stylesheet"
+        />
+        <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
@@ -172,14 +177,32 @@ function BloodyDaddy({ movie }) {
         >
           Bloody Daddy - 2023
         </h1>
+        <style jsx>{`
+          .video-container {
+            max-width: 100%;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+            height: 0;
+            overflow: hidden;
+          }
 
-        <div className={styles["iframe-container"]}>
+          .video-container iframe,
+          .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+        `}</style>
+
+        <div className="video-container  rounded-3xl">
           <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
-            width="100%"
-            height="500px"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            frameBorder="0"
+            src={movie["movie.watchP1"]}
+            title="Video Player"
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -204,13 +227,32 @@ function BloodyDaddy({ movie }) {
         >
           Bloody Daddy - 2023
         </h1>
-        <div className={styles["iframe-container"]}>
+        <style jsx>{`
+          .video-container {
+            max-width: 100%;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+            height: 0;
+            overflow: hidden;
+          }
+
+          .video-container iframe,
+          .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+        `}</style>
+
+        <div className="video-container  rounded-3xl">
           <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
-            width="100%"
-            height="500px"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            frameBorder="0"
+            src={movie["movie.watchSR1"]}
+            title="Video Player"
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -359,7 +401,7 @@ function BloodyDaddy({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX84");
   return {
