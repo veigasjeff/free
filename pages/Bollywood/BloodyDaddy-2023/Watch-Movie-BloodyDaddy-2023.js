@@ -8,40 +8,60 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 
+
 //import Ad from '@components/Ad1';
 
-function WatchMovieBloodyDaddy({ movie }) {
 
+function WatchMovieBloodyDaddy({ movie }) {
   useEffect(() => {
+    // Load the YouTube IFrame Player API code asynchronously
     const tag = document.createElement('script');
     tag.src = 'https://www.youtube.com/iframe_api';
     const firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-    window.onYouTubeIframeAPIReady = () => {
-      new YT.Player('player', {
-        width: '100%',
-        height: '100%',
+  
+    // Clean up the script tag when the component unmounts
+    return () => {
+      firstScriptTag.parentNode.removeChild(tag);
+    };
+  }, []);
+  
+  useEffect(() => {
+    // Function to create an iframe (and YouTube player)
+    const onYouTubeIframeAPIReady = () => {
+      const player = new YT.Player('player', {
+        height: '500',
+        width: '640',
         videoId: 'O1vDPCGygkQ',
         playerVars: {
-          autoplay: 1,
           playsinline: 1,
+          loop: 1,
+          // mute: 1, // Add mute property if needed
+          autoplay: 0, // Set autoplay to 0 to disable auto play
         },
         events: {
           onReady: onPlayerReady,
+          onStateChange: onPlayerStateChange,
         },
       });
     };
-
-    function onPlayerReady(event) {
-      event.target.playVideo();
-    }
-
-    return () => {
-      delete window.onYouTubeIframeAPIReady;
-    };
-  }, [movie.trailer]);
   
+    // The API will call this function when the YouTube player is ready
+    const onPlayerReady = (event) => {
+      // Player is ready
+    };
+  
+    // The API calls this function when the player's state changes
+    const onPlayerStateChange = (event) => {
+      // Handle player state changes if needed
+    };
+  
+    // Expose the function globally as it's required by the YouTube API
+    window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+  }, []);
+
+
+
   const [showAd, setShowAd] = useState(false);
 
   
@@ -289,76 +309,29 @@ function WatchMovieBloodyDaddy({ movie }) {
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
-
-        <div className="flex flex-col py-10 text-blue-600 text-center items-center justify-center">
-      <button
-        className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
-        onClick={togglePopup}
-      >
-        <h2>Watch Official Trailer</h2>
-      </button>
-
-      {showPopup && (
-        <div className="popup-overlay">
-          <div className="popup">
-          <button className="close-button" onClick={togglePopup}>
-                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-                  {" "}
-                  Close
-                </h2>
-              </button>
-              <h2 className="text-2xl font-bold">
-                Offical Trailer {movie.name}{" "}
-              </h2>
-            <div className="iframe-container">
-            <iframe
-  id="ytplayer"
-  type="text/html"
-  width="780"
-  height="360"
-  src={`https://www.youtube.com/embed/O1vDPCGygkQ?autoplay=1&mute=1&controls=1&origin=http://example.com`}
-
-
-  frameBorder="0"
-></iframe>
-            </div>
-          </div>
+        
+        
+        <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+          <button
+            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+            onClick={togglePopup}
+          >
+            <h2>Watch Offical Trailer</h2>
+          </button>
         </div>
-      )}
-
-      <style jsx>{`
-    .popup-overlay {
-      position: relative;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .popup {
-      width: 800px;
-      background-color: gray;
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      animation: slide-down 0.5s ease;
-    }
-
-    @keyframes slide-down {
-      from {
-        transform: translateY(-100%);
-      }
-      to {
-        transform: translateY(0);
-      }
-    }
-
-      `}</style>
-    </div>
+       
+              <div
+        id="player"
+        className="relative inline-flex py-10 text-center items-center justify-center rounded-3xl"
+       
+      >  </div>
+        
+      <div
+        id="player"
+        className="relative inline-flex py-10 text-center items-center justify-center rounded-3xl"
+       
+      >  </div>
+        
         <img
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
@@ -396,7 +369,7 @@ function WatchMovieBloodyDaddy({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX84");
   return {
