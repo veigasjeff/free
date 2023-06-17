@@ -177,32 +177,13 @@ function BloodyDaddy({ movie }) {
         >
           Bloody Daddy - 2023
         </h1>
-        <style jsx>{`
-          .video-container {
-            max-width: 100%;
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
-            height: 0;
-            overflow: hidden;
-          }
-
-          .video-container iframe,
-          .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          }
-        `}</style>
-
-        <div className="video-container  rounded-3xl">
+        <div className={styles["iframe-container"]}>
           <iframe
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            frameBorder="0"
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchP1"]}
-            title="Video Player"
+            width="100%"
+            height="500px"
+            allowFullScreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -227,32 +208,13 @@ function BloodyDaddy({ movie }) {
         >
           Bloody Daddy - 2023
         </h1>
-        <style jsx>{`
-          .video-container {
-            max-width: 100%;
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
-            height: 0;
-            overflow: hidden;
-          }
-
-          .video-container iframe,
-          .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          }
-        `}</style>
-
-        <div className="video-container  rounded-3xl">
+        <div className={styles["iframe-container"]}>
           <iframe
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            frameBorder="0"
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchSR1"]}
-            title="Video Player"
+            width="100%"
+            height="500px"
+            allowFullScreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
