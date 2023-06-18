@@ -187,7 +187,7 @@ function DropsofGodE1({ movie }) {
         />
         <meta
           name="description"
-          content="Watch DropsofGod Full Movie Online on Uwatchfree™, You can also download Drops of God (2023) in full HD quality to watch later offline."
+          content="Watch Drops of God Full Movie Online on Uwatchfree™, You can also download Drops of God (2023) in full HD quality to watch later offline."
         />
 
         <link
@@ -228,7 +228,17 @@ function DropsofGodE1({ movie }) {
           className=" animate-pulse rounded-3xl  mx-auto my-10 border-white border-2"
           style={{ height: "300px", width: "900px" }}
         />
-
+            <h2
+            className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
+              Listen to Audio Summary The Tv Series Drops of God (2023)
+          </h2>
+          <div style={{ display: 'flex', justifyContent: 'center' }} className="py-10">
+  <audio controls preload="metadata" playsInline crossOrigin="anonymous" controlsList="nodownload">
+    <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687094036/BLOODY_DADDY_yynlmx.mp3" />
+  </audio>
+</div>
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}

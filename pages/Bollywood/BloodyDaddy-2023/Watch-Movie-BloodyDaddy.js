@@ -202,6 +202,17 @@ function BloodyDaddy({ movie }) {
           className=" animate-pulse rounded-3xl  mx-auto my-10 "
           style={{ height: "300px", width: "900px" }}
         />
+             <h2
+            className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
+              Listen to Audio Summary The Movie Bloody Daddy (2023)
+          </h2>
+          <div style={{ display: 'flex', justifyContent: 'center' }} className="py-10">
+  <audio controls preload="metadata" playsInline crossOrigin="anonymous" controlsList="nodownload">
+    <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687094036/BLOODY_DADDY_yynlmx.mp3" />
+  </audio>
+</div>
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
@@ -261,7 +272,7 @@ function BloodyDaddy({ movie }) {
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
-
+   
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
             className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
