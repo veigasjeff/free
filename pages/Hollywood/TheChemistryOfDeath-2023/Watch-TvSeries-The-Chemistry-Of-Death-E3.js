@@ -6,8 +6,17 @@ import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
+import { Image } from "cloudinary-react";
+import videojs from 'video.js';
 
 function TheChemistryOfDeathE3({ movie }) {
+  useEffect(() => {
+    document.addEventListener('DOMContentLoaded', function() {
+      var player = videojs(document.querySelector('iframe').querySelector('video'));
+      player.fluid(true);
+    });
+  }, []);
+  
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
@@ -183,7 +192,9 @@ function TheChemistryOfDeathE3({ movie }) {
           rel="canonical"
           href="https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/"
         />
-      </Head>
+      <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet"/>
+<script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+</Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
         <h1
@@ -197,8 +208,10 @@ function TheChemistryOfDeathE3({ movie }) {
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchP3"]}
             width="100%"
-            height="500px"
+            height="700"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -210,7 +223,7 @@ function TheChemistryOfDeathE3({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <img
+        <Image
           src={movie.poster}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
@@ -239,8 +252,10 @@ function TheChemistryOfDeathE3({ movie }) {
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchSR3"]}
             width="100%"
-            height="500px"
+            height="700"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -391,7 +406,7 @@ function TheChemistryOfDeathE3({ movie }) {
             }
           }
         `}</style>
-        <img
+        <Image
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"

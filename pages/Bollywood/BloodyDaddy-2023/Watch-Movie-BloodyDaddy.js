@@ -7,10 +7,18 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
+import videojs from 'video.js';
 
 //import Ad from '@components/Ad1';
 
 function BloodyDaddy({ movie }) {
+  useEffect(() => {
+    document.addEventListener('DOMContentLoaded', function() {
+      var player = videojs(document.querySelector('iframe').querySelector('video'));
+      player.fluid(true);
+    });
+  }, []);
+
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
@@ -182,8 +190,10 @@ function BloodyDaddy({ movie }) {
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchP1"]}
             width="100%"
-            height="500px"
+            height="700"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -195,7 +205,7 @@ function BloodyDaddy({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <img
+        <Image
           src={movie.poster}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
@@ -223,9 +233,11 @@ function BloodyDaddy({ movie }) {
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchSR1"]}
-            width="100%"
-            height="500px"
-            allowFullScreen
+          width="100%"
+          height="700"
+          allowFullScreen
+          webkitallowfullscreen
+          mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -337,7 +349,7 @@ function BloodyDaddy({ movie }) {
             }
           }
         `}</style>
-        <img
+        <Image
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"

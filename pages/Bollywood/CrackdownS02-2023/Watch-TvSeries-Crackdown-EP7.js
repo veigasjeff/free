@@ -6,8 +6,18 @@ import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
+import { Image } from "cloudinary-react";
+import videojs from "video.js";
 
 function CrackdownP7({ movie }) {
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var player = videojs(
+        document.querySelector("iframe").querySelector("video")
+      );
+      player.fluid(true);
+    });
+  }, []);
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
@@ -193,6 +203,12 @@ function CrackdownP7({ movie }) {
           rel="canonical"
           href="https://uwatchfree.vercel.app/Bollywood/CrackdownS02-2023/"
         />
+        <link
+          href="https://vjs.zencdn.net/7.15.4/video-js.css"
+          rel="stylesheet"
+        />
+
+        <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
@@ -204,11 +220,13 @@ function CrackdownP7({ movie }) {
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchP7"]}
             width="100%"
-            height="500px"
+            height="700"
+            frameBorder="0"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -221,7 +239,7 @@ function CrackdownP7({ movie }) {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
-        <img
+        <Image
           src={movie.poster}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
@@ -236,11 +254,13 @@ function CrackdownP7({ movie }) {
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchSR7"]}
             width="100%"
-            height="500px"
+            height="700"
+            frameBorder="0"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -404,7 +424,7 @@ function CrackdownP7({ movie }) {
             }
           }
         `}</style>
-        <img
+        <Image
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"

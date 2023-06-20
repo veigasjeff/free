@@ -6,8 +6,18 @@ import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
+import { Image } from "cloudinary-react";
+import videojs from "video.js";
 
 function CrackdownP8({ movie }) {
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var player = videojs(
+        document.querySelector("iframe").querySelector("video")
+      );
+      player.fluid(true);
+    });
+  }, []);
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
@@ -193,6 +203,12 @@ function CrackdownP8({ movie }) {
           rel="canonical"
           href="https://uwatchfree.vercel.app/Bollywood/CrackdownS02-2023/"
         />
+        <link
+          href="https://vjs.zencdn.net/7.15.4/video-js.css"
+          rel="stylesheet"
+        />
+
+        <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
@@ -204,11 +220,13 @@ function CrackdownP8({ movie }) {
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchP8"]}
             width="100%"
-            height="500px"
+            height="700"
+            frameBorder="0"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -221,7 +239,7 @@ function CrackdownP8({ movie }) {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
-        <img
+        <Image
           src={movie.poster}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
@@ -236,11 +254,13 @@ function CrackdownP8({ movie }) {
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchSR8"]}
             width="100%"
-            height="500px"
+            height="700"
+            frameBorder="0"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -253,7 +273,7 @@ function CrackdownP8({ movie }) {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
-<div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
             <Link href="../../Bollywood/CrackdownS02-2023/Watch-TvSeries-Crackdown-EP1">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
@@ -404,7 +424,7 @@ function CrackdownP8({ movie }) {
             }
           }
         `}</style>
-        <img
+        <Image
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"

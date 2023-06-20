@@ -6,8 +6,19 @@ import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
+import { Image } from "cloudinary-react";
+import videojs from "video.js";
 
 function TheChemistryOfDeathE1({ movie }) {
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var player = videojs(
+        document.querySelector("iframe").querySelector("video")
+      );
+      player.fluid(true);
+    });
+  }, []);
+
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
@@ -84,8 +95,7 @@ function TheChemistryOfDeathE1({ movie }) {
         name: "The Chemistry Of Death Episode 6",
         url: "https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/Watch-TvSeries-The-Chemistry-Of-Death-E6",
       },
-
-      ],
+    ],
     author: [
       {
         "@type": "Person",
@@ -127,7 +137,8 @@ function TheChemistryOfDeathE1({ movie }) {
       />
       <Head>
         <title>
-          Watch The Chemistry Of Death (2023) Full Movie Online Free | Uwatchfree™
+          Watch The Chemistry Of Death (2023) Full Movie Online Free |
+          Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -183,6 +194,11 @@ function TheChemistryOfDeathE1({ movie }) {
           rel="canonical"
           href="https://uwatchfree.vercel.app/Hollywood/TheChemistryOfDeath-2023/"
         />
+        <link
+          href="https://vjs.zencdn.net/7.15.4/video-js.css"
+          rel="stylesheet"
+        />
+        <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
@@ -197,8 +213,10 @@ function TheChemistryOfDeathE1({ movie }) {
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchP1"]}
             width="100%"
-            height="500px"
-            allowFullScreen
+          height="700"
+          allowFullScreen
+          webkitallowfullscreen
+          mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -210,24 +228,33 @@ function TheChemistryOfDeathE1({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <img
+        <Image
           src={movie.poster}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
           className=" animate-pulse rounded-3xl  mx-auto my-10 border-white border-2"
           style={{ height: "300px", width: "900px" }}
         />
-            <h2
-            className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
-            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+        <h2
+          className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+        >
+          Listen to Audio Summary Tv Series The Chemistry Of Death (2023)
+        </h2>
+        <div
+          style={{ display: "flex", justifyContent: "center" }}
+          className="py-10"
+        >
+          <audio
+            controls
+            preload="metadata"
+            playsInline
+            crossOrigin="anonymous"
+            controlsList="nodownload"
           >
-              Listen to Audio Summary Tv Series The Chemistry Of Death (2023)
-          </h2>
-          <div style={{ display: 'flex', justifyContent: 'center' }} className="py-10">
-  <audio controls preload="metadata" playsInline crossOrigin="anonymous" controlsList="nodownload">
-    <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687100340/CHEM_rlh5uu.mp3" />
-  </audio>
-</div>
+            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687100340/CHEM_rlh5uu.mp3" />
+          </audio>
+        </div>
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
@@ -239,8 +266,10 @@ function TheChemistryOfDeathE1({ movie }) {
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchSR1"]}
             width="100%"
-            height="500px"
+            height="700"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowfullscreen
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -281,15 +310,15 @@ function TheChemistryOfDeathE1({ movie }) {
                 Episode 5
               </button>
             </Link>
-          </div>     </div>
-          <div className="flex justify-center">
-            <Link href="../../Hollywood/TheChemistryOfDeath-2023/Watch-TvSeries-The-Chemistry-Of-Death-E6">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-                Episode 6
-              </button>
-            </Link>
-          </div>
-     
+          </div>{" "}
+        </div>
+        <div className="flex justify-center">
+          <Link href="../../Hollywood/TheChemistryOfDeath-2023/Watch-TvSeries-The-Chemistry-Of-Death-E6">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Episode 6
+            </button>
+          </Link>
+        </div>
 
         <Rating />
         <a
@@ -391,7 +420,7 @@ function TheChemistryOfDeathE1({ movie }) {
             }
           }
         `}</style>
-        <img
+        <Image
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
