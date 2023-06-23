@@ -1,6 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import videojs from "video.js";
-import "video.js/dist/video-js.css";
 import styles from "../styles/BackgroundVideo.module.css";
 
 const BackgroundVideo = ({ movie }) => {
@@ -8,33 +6,17 @@ const BackgroundVideo = ({ movie }) => {
   const [clientRendered, setClientRendered] = useState(false);
 
   useEffect(() => {
-    let player;
-  
-    if (clientRendered && iframeRef.current) {
-      const video = document.createElement("video");
-      iframeRef.current.appendChild(video);
-  
-      player = videojs(video, {}, () => {
-        // Player ready callback
-      });
-      player.fluid(true);
-    }
-  
-    return () => {
-      if (player) {
-        player.dispose();
-      }
-    };
-  }, [clientRendered]);
-  
+    setClientRendered(true);
+  }, []);
+
   return (
     <div className={styles.container}>
       <div className={styles.iframeContainer}>
-        {movie && (
+        {clientRendered && (
           <iframe
             ref={iframeRef}
-            className={`${styles.backgroundIframe} video-js`}
-            src={movie[0]}
+            className={styles.backgroundIframe}
+            src={movie}
             allowFullScreen
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
