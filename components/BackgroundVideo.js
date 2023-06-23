@@ -4,23 +4,23 @@ import "video.js/dist/video-js.css";
 import styles from "../styles/BackgroundVideo.module.css";
 
 const BackgroundVideo = ({ movie }) => {
-  const iframeRef = useRef(null);
-  const [clientRendered, setClientRendered] = useState(false);
+  const containerRef = useRef(null);
+  const playerRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    setClientRendered(true);
+    setIsMobile(window.innerWidth <= 768);
   }, []);
 
   useEffect(() => {
     let player;
 
-    if (clientRendered && iframeRef.current) {
-      const video = iframeRef.current.querySelector("video");
-
-      player = videojs(video, {}, () => {
+    if (containerRef.current) {
+      player = videojs(containerRef.current, {}, () => {
         // Player ready callback
+        player.fluid(true);
       });
-      player.fluid(true);
+      playerRef.current = player;
     }
 
     return () => {
@@ -28,11 +28,17 @@ const BackgroundVideo = ({ movie }) => {
         player.dispose();
       }
     };
-  }, [clientRendered]);
+  }, []);
 
   useEffect(() => {
     const handleOrientationChange = () => {
-      window.location.reload();
+      if (playerRef.current) {
+        playerRef.current.dispose();
+        playerRef.current = videojs(containerRef.current, {}, () => {
+          // Player ready callback
+          playerRef.current.fluid(true);
+        });
+      }
     };
 
     window.addEventListener("orientationchange", handleOrientationChange);
@@ -44,17 +50,10 @@ const BackgroundVideo = ({ movie }) => {
 
   return (
     <div className={`background-video ${styles.container}`}>
-      <div className={styles.iframeContainer}>
-        <iframe
-          ref={iframeRef}
-          className={`${styles.backgroundIframe} video-js`}
-          src={movie[0]}
-          allowFullScreen
-          webkitallowfullscreen="true"
-          mozallowfullscreen="true"
-        >
-          {clientRendered && <video className="video-js"></video>}
-        </iframe>
+      <div ref={containerRef} className={`video-js ${styles.videoPlayer}`}>
+        <video className={`video-js ${styles.videoPlayer}`} ref={containerRef}>
+          <source src={movie[0]} type="video/mp4" />
+        </video>
       </div>
       <div className={styles.overlay}></div>
       <style jsx>{`
@@ -64,17 +63,7 @@ const BackgroundVideo = ({ movie }) => {
           height: 100vh;
         }
 
-        .iframeContainer {
-          position: relative;
-          padding-bottom: 56.25%; /* 16:9 aspect ratio (modify as per your iframe aspect ratio) */
-          height: 0;
-          overflow: hidden;
-        }
-
-        .iframeContainer iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
+        .video-player {
           width: 100%;
           height: 100%;
         }
