@@ -2,23 +2,16 @@ import Link from "next/link";
 import Rating from "pages/Rating";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
-import styles from "@styles/video-player.module.css";
+//
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
-import BackgroundVideo from '@components/BackgroundVideo';
+import BackgroundVideo from "@components/BackgroundVideo";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
-import videojs from "video.js";
+
 
 function BloodyDaddy({ movie }) {
-  useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      var player = videojs(
-        document.querySelector("iframe").querySelector("video")
-      );
-      player.fluid(true);
-    });
-  }, []);
+
 
   const [showAd, setShowAd] = useState(false);
 
@@ -181,11 +174,10 @@ function BloodyDaddy({ movie }) {
         >
           Bloody Daddy - 2023
         </h1>
-           
-        <BackgroundVideo movie={[movie["movie.watchP1"]]} />
+        <div>
+          <BackgroundVideo movie={[movie["movie.watchP1"]]} />
+        </div>
 
-
-      
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
           Choice and Setting to Change the Quality of Video.
@@ -228,9 +220,9 @@ function BloodyDaddy({ movie }) {
         >
           Bloody Daddy - 2023
         </h1>
-        
-        <BackgroundVideo movie={[movie["movie.watchSR1"]]} />
-
+        <div>
+          <BackgroundVideo movie={[movie["movie.watchSR1"]]} />
+        </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
           Choice and Setting to Change the Quality of Video.
@@ -377,7 +369,7 @@ function BloodyDaddy({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX84");
   return {

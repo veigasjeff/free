@@ -2,23 +2,16 @@ import Link from "next/link";
 import Rating from "pages/Rating";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
-import styles from "@styles/video-player.module.css";
+
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import BackgroundVideo from '@components/BackgroundVideo';
 import Script from "next/script";
 import { Image } from "cloudinary-react";
-import videojs from "video.js";
+
 
 function ModernLoveChennai({ movie }) {
-  useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      var player = videojs(
-        document.querySelector("iframe").querySelector("video")
-      );
-      player.fluid(true);
-    });
-  }, []);
+
 
   const [showAd, setShowAd] = useState(false);
 
