@@ -4,7 +4,7 @@ import "video.js/dist/video-js.css";
 import styles from "../styles/BackgroundVideo.module.css";
 
 const BackgroundVideo = ({ movie }) => {
-  const containerRef = useRef(null);
+  const iframeRef = useRef(null);
   const playerRef = useRef(null);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -15,8 +15,8 @@ const BackgroundVideo = ({ movie }) => {
   useEffect(() => {
     let player;
 
-    if (containerRef.current) {
-      player = videojs(containerRef.current, {}, () => {
+    if (iframeRef.current) {
+      player = videojs(iframeRef.current.querySelector("video"), {}, () => {
         // Player ready callback
         player.fluid(true);
       });
@@ -24,8 +24,9 @@ const BackgroundVideo = ({ movie }) => {
     }
 
     return () => {
-      if (player) {
-        player.dispose();
+      if (playerRef.current) {
+        playerRef.current.dispose();
+        playerRef.current = null;
       }
     };
   }, []);
@@ -34,7 +35,7 @@ const BackgroundVideo = ({ movie }) => {
     const handleOrientationChange = () => {
       if (playerRef.current) {
         playerRef.current.dispose();
-        playerRef.current = videojs(containerRef.current, {}, () => {
+        playerRef.current = videojs(iframeRef.current.querySelector("video"), {}, () => {
           // Player ready callback
           playerRef.current.fluid(true);
         });
@@ -50,12 +51,15 @@ const BackgroundVideo = ({ movie }) => {
 
   return (
     <div className={`background-video ${styles.container}`}>
-      <div ref={containerRef} className={`video-js ${styles.videoPlayer}`}>
-        <video className={`video-js ${styles.videoPlayer}`} ref={containerRef}>
-          <source src={movie[0]} type="video/mp4" />
-        </video>
-      </div>
       <div className={styles.overlay}></div>
+      <iframe
+        ref={iframeRef}
+        className={styles.backgroundIframe}
+        src={movie[0]}
+        allowFullScreen
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+      ></iframe>
       <style jsx>{`
         .background-video {
           position: relative;
@@ -63,7 +67,7 @@ const BackgroundVideo = ({ movie }) => {
           height: 100vh;
         }
 
-        .video-player {
+        .backgroundIframe {
           width: 100%;
           height: 100%;
         }
