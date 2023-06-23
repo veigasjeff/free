@@ -263,7 +263,7 @@ function BloodyDaddy({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie Modern Love Chennai (2023)
+            In the Movie  Bloody Daddy - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -371,7 +371,7 @@ function BloodyDaddy({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX85");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX84");
   return {
     props: {
       movie: selectedMovie,
