@@ -9,26 +9,6 @@ const BackgroundVideo = ({ movie }) => {
     setClientRendered(true);
   }, []);
 
-  useEffect(() => {
-    const handleOrientationChange = () => {
-      const iframe = iframeRef.current;
-      if (iframe) {
-        const isPortrait = window.matchMedia("(orientation: portrait)").matches;
-        if (isPortrait) {
-          iframe.classList.add(styles.portraitMode);
-        } else {
-          iframe.classList.remove(styles.portraitMode);
-        }
-      }
-    };
-
-    window.addEventListener("orientationchange", handleOrientationChange);
-
-    return () => {
-      window.removeEventListener("orientationchange", handleOrientationChange);
-    };
-  }, []);
-
   return (
     <div className={`background-video ${styles.container}`}>
       <div className={styles.iframeContainer}>
@@ -82,12 +62,7 @@ const BackgroundVideo = ({ movie }) => {
 
         /* Styles for portrait orientation */
         @media screen and (orientation: portrait) {
-          .background-video {
-            height: 100vw; /* Adjust the height as needed */
-          }
-          .iframeContainer {
-            padding-bottom: 177.77%; /* Adjust the aspect ratio for portrait mode */
-          }
+          /* Add your portrait styles here */
         }
       `}</style>
     </div>
