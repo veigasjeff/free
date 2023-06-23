@@ -33,3 +33,12 @@
   transform: translateX(-50%);
   text-align: center;
 }
+/* Styles for landscape orientation */
+@media screen and (orientation: landscape) {
+  /* Add your landscape styles here */
+}
+
+/* Styles for portrait orientation */
+@media screen and (orientation: portrait) {
+  /* Add your portrait styles here */
+}
