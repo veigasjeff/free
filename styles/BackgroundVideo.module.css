@@ -16,6 +16,7 @@
   height: 650px;
   object-fit: cover; /* Ensure the iframe covers its container without distortion */
   position: relative;
+  border-radius: 15px; /* Add rounded corners */
 }
 .backgroundIframe iframe {
   position: absolute;
