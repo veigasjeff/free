@@ -1,18 +1,25 @@
-import React, { useEffect, useRef } from "react";
-import styles from "../styles/BackgroundVideo.module.css";
+import React, { useEffect, useRef, useState } from "react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
+import styles from "../styles/BackgroundVideo.module.css";
 
 const BackgroundVideo = ({ movie }) => {
-  const videoRef = useRef(null);
+  const iframeRef = useRef(null);
+  const [clientRendered, setClientRendered] = useState(false);
 
   useEffect(() => {
-    const videoNode = videoRef.current;
+    setClientRendered(true);
+  }, []);
+
+  useEffect(() => {
     let player;
 
-    if (videoNode) {
-      player = videojs(videoNode);
+    if (clientRendered && iframeRef.current) {
+      const video = iframeRef.current.querySelector("video");
 
-      // Make the player fluid
+      player = videojs(video, {}, () => {
+        // Player ready callback
+      });
       player.fluid(true);
     }
 
@@ -21,26 +28,22 @@ const BackgroundVideo = ({ movie }) => {
         player.dispose();
       }
     };
-  }, []);
+  }, [clientRendered]);
 
   return (
     <div className={`background-video ${styles.container}`}>
-      <iframe
-        ref={videoRef}
-        className={styles.backgroundIframe}
-        src={movie[0]}
-        allowFullScreen
-        webkitallowfullscreen="true"
-        mozallowfullscreen="true"
-      ></iframe>
-      <iframe
-        ref={videoRef}
-        className={styles.backgroundIframe}
-        src={movie[1]}
-        allowFullScreen
-        webkitallowfullscreen="true"
-        mozallowfullscreen="true"
-      ></iframe>
+      <div className={styles.iframeContainer}>
+        <iframe
+          ref={iframeRef}
+          className={`${styles.backgroundIframe} video-js`}
+          src={movie[0]}
+          allowFullScreen
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
+        >
+          {clientRendered && <video className="video-js"></video>}
+        </iframe>
+      </div>
       <div className={styles.overlay}></div>
       <style jsx>{`
         .background-video {
@@ -49,10 +52,28 @@ const BackgroundVideo = ({ movie }) => {
           height: 100vh;
         }
 
-        .background-video iframe {
+        .iframeContainer {
+          position: relative;
+          padding-bottom: 56.25%; /* 16:9 aspect ratio (modify as per your iframe aspect ratio) */
+          height: 0;
+          overflow: hidden;
+        }
+
+        .iframeContainer iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
           width: 100%;
           height: 100%;
-          border-radius: 15px;
+        }
+
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5); /* Change the background color and opacity as needed */
         }
       `}</style>
     </div>
