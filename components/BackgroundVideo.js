@@ -25,7 +25,21 @@ const BackgroundVideo = ({ movie }) => {
         mozallowfullscreen="true"
       ></iframe>
       <div className={styles.overlay}></div>
+      <style jsx>{`
+        .background-video {
+          position: relative;
+          width: 100%;
+          height: 100vh;
+        }
+
+        .video {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      `}</style>
     </div>
+
   );
 };
 
