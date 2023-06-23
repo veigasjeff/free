@@ -30,18 +30,6 @@ const BackgroundVideo = ({ movie }) => {
     };
   }, [clientRendered]);
 
-  useEffect(() => {
-    const handleOrientationChange = () => {
-      // Add your code or logic here to handle the orientation change event
-    };
-
-    window.addEventListener("orientationchange", handleOrientationChange);
-
-    return () => {
-      window.removeEventListener("orientationchange", handleOrientationChange);
-    };
-  }, []);
-
   return (
     <div className={`background-video ${styles.container}`}>
       <div className={styles.iframeContainer}>
@@ -87,7 +75,6 @@ const BackgroundVideo = ({ movie }) => {
           height: 100%;
           background-color: rgba(0, 0, 0, 0.5); /* Change the background color and opacity as needed */
         }
-
         /* Styles for landscape orientation */
         @media screen and (orientation: landscape) {
           /* Add your landscape styles here */
