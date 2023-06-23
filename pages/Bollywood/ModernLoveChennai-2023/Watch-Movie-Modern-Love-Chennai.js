@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
+import BackgroundVideo from '@components/BackgroundVideo';
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
@@ -187,15 +188,8 @@ function ModernLoveChennai({ movie }) {
           Modern Love Chennai - 2023
         </h1>
 
-        <div className={styles["iframe-container"]}>
-          <iframe
-            src={movie["movie.watchP1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
+        <div > 
+        <BackgroundVideo movie={[movie["movie.watchP1"]]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -239,15 +233,8 @@ function ModernLoveChennai({ movie }) {
         >
           Modern Love Chennai - 2023
         </h1>
-        <div className={styles["iframe-container"]}>
-          <iframe
-            src={movie["movie.watchSR1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
+        <div > 
+        <BackgroundVideo movie={[movie["movie.watchSR1"]]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -395,7 +382,7 @@ function ModernLoveChennai({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX85");
   return {
