@@ -1,20 +1,30 @@
 .backgroundVideo {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* Adjust alignment to top */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
+  overflow: hidden; /* Hide overflowing content */
 }
 
 .backgroundIframe {
   width: 100%;
-  height: 900px;
+  height: 750px;
+  object-fit: cover; /* Ensure the iframe covers its container without distortion */
+  position: relative;
 }
-
+.backgroundIframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  height: 750px;
+  object-fit: cover; /* Ensure the iframe covers its container without distortion */
+}
 .overlay {
   position: absolute;
   bottom: 5%;
