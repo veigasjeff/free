@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import styles from '../styles/BackgroundVideo.module.css';
+import React, { useState, useEffect } from "react";
+import styles from "../styles/BackgroundVideo.module.css";
 
 const BackgroundVideo = ({ movie }) => {
   const [isMobile, setIsMobile] = useState(false);
@@ -14,14 +14,14 @@ const BackgroundVideo = ({ movie }) => {
         className={styles.backgroundIframe}
         src={movie[0]}
         allowFullScreen
-        webkitallowfullscreen
+        webkitallowfullscreen="true"
         mozallowfullscreen="true"
       ></iframe>
       <iframe
         className={styles.backgroundIframe}
         src={movie[1]}
         allowFullScreen
-        webkitallowfullscreen
+        webkitallowfullscreen="true"
         mozallowfullscreen="true"
       ></iframe>
       <div className={styles.overlay}></div>
@@ -36,11 +36,10 @@ const BackgroundVideo = ({ movie }) => {
           object-fit: cover;
           width: 100%;
           height: 100%;
-          border-radius: 15px; 
+          border-radius: 15px;
         }
       `}</style>
     </div>
-
   );
 };
 
