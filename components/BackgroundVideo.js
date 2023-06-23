@@ -7,11 +7,6 @@ const BackgroundVideo = ({ movie }) => {
   const iframeRef = useRef(null);
   const [clientRendered, setClientRendered] = useState(false);
 
-  const handleOrientationChange = () => {
-    // Perform actions based on orientation change
-    // For example, you can update the video player or handle layout changes
-  };
-
   useEffect(() => {
     setClientRendered(true);
   }, []);
@@ -34,14 +29,6 @@ const BackgroundVideo = ({ movie }) => {
       }
     };
   }, [clientRendered]);
-
-  useEffect(() => {
-    window.addEventListener("orientationchange", handleOrientationChange);
-
-    return () => {
-      window.removeEventListener("orientationchange", handleOrientationChange);
-    };
-  }, []);
 
   return (
     <div className={`background-video ${styles.container}`}>
@@ -87,6 +74,16 @@ const BackgroundVideo = ({ movie }) => {
           width: 100%;
           height: 100%;
           background-color: rgba(0, 0, 0, 0.5); /* Change the background color and opacity as needed */
+        }
+
+        /* Styles for landscape orientation */
+        @media screen and (orientation: landscape) {
+          /* Add your landscape styles here */
+        }
+
+        /* Styles for portrait orientation */
+        @media screen and (orientation: portrait) {
+          /* Add your portrait styles here */
         }
       `}</style>
     </div>
