@@ -32,7 +32,7 @@ const BackgroundVideo = ({ movie }) => {
 
   useEffect(() => {
     const handleOrientationChange = () => {
-      window.location.reload();
+      // Add your code or logic here to handle the orientation change event
     };
 
     window.addEventListener("orientationchange", handleOrientationChange);
