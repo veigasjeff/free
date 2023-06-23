@@ -32,15 +32,7 @@ const BackgroundVideo = ({ movie }) => {
 
   useEffect(() => {
     const handleOrientationChange = () => {
-      if (player) {
-        player.dispose();
-      }
-      
-      const video = iframeRef.current.querySelector("video");
-      player = videojs(video, {}, () => {
-        // Player ready callback
-      });
-      player.fluid(true);
+      window.location.reload();
     };
 
     window.addEventListener("orientationchange", handleOrientationChange);
@@ -49,8 +41,6 @@ const BackgroundVideo = ({ movie }) => {
       window.removeEventListener("orientationchange", handleOrientationChange);
     };
   }, []);
-
-  let player; // Declare player variable outside useEffect to make it accessible
 
   return (
     <div className={`background-video ${styles.container}`}>
