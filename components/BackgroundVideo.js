@@ -87,6 +87,16 @@ const BackgroundVideo = ({ movie }) => {
           height: 100%;
           background-color: rgba(0, 0, 0, 0.5); /* Change the background color and opacity as needed */
         }
+
+        /* Styles for landscape orientation */
+        @media screen and (orientation: landscape) {
+          /* Add your landscape styles here */
+        }
+
+        /* Styles for portrait orientation */
+        @media screen and (orientation: portrait) {
+          /* Add your portrait styles here */
+        }
       `}</style>
     </div>
   );
