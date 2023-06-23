@@ -29,18 +29,7 @@ const BackgroundVideo = ({ movie }) => {
       }
     };
   }, [clientRendered]);
-  
-  useEffect(() => {
-    const handleOrientationChange = () => {
-      // Add your code or logic here to handle the orientation change event
-    };
 
-    window.addEventListener("orientationchange", handleOrientationChange);
-
-    return () => {
-      window.removeEventListener("orientationchange", handleOrientationChange);
-    };
-  }, []);
 
   return (
     <div className={`background-video ${styles.container}`}>
