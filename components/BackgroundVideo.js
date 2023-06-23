@@ -30,17 +30,6 @@ const BackgroundVideo = ({ movie }) => {
     };
   }, [clientRendered]);
 
-  useEffect(() => {
-    const handleOrientationChange = () => {
-      window.location.reload();
-    };
-
-    window.addEventListener("orientationchange", handleOrientationChange);
-
-    return () => {
-      window.removeEventListener("orientationchange", handleOrientationChange);
-    };
-  }, []);
 
   return (
     <div className={`background-video ${styles.container}`}>
