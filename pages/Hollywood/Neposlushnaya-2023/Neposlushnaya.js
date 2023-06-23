@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
+import BackgroundVideo from '@components/BackgroundVideo';
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
@@ -373,7 +374,7 @@ function Neposlushnaya({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX64");
   return {
