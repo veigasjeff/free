@@ -1,16 +1,32 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "../styles/BackgroundVideo.module.css";
+import videojs from "video.js";
 
 const BackgroundVideo = ({ movie }) => {
-  const [isMobile, setIsMobile] = useState(false);
+  const videoRef = useRef(null);
 
   useEffect(() => {
-    setIsMobile(window.innerWidth <= 768);
+    const videoNode = videoRef.current;
+    let player;
+
+    if (videoNode) {
+      player = videojs(videoNode);
+
+      // Make the player fluid
+      player.fluid(true);
+    }
+
+    return () => {
+      if (player) {
+        player.dispose();
+      }
+    };
   }, []);
 
   return (
     <div className={`background-video ${styles.container}`}>
       <iframe
+        ref={videoRef}
         className={styles.backgroundIframe}
         src={movie[0]}
         allowFullScreen
@@ -18,6 +34,7 @@ const BackgroundVideo = ({ movie }) => {
         mozallowfullscreen="true"
       ></iframe>
       <iframe
+        ref={videoRef}
         className={styles.backgroundIframe}
         src={movie[1]}
         allowFullScreen
@@ -32,8 +49,7 @@ const BackgroundVideo = ({ movie }) => {
           height: 100vh;
         }
 
-        .video {
-          object-fit: cover;
+        .background-video iframe {
           width: 100%;
           height: 100%;
           border-radius: 15px;
