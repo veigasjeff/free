@@ -8,6 +8,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function JubileeP10({ movie }) {
   useEffect(() => {
@@ -252,7 +253,8 @@ function JubileeP10({ movie }) {
             height="700"
             allowFullScreen
             webkitallowfullscreen
-            mozallowFullScreen="true"></iframe>
+            mozallowFullScreen="true"
+          ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your

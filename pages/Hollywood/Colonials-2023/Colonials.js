@@ -8,6 +8,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function Colonials({ movie }) {
   useEffect(() => {
@@ -176,7 +177,6 @@ function Colonials({ movie }) {
         >
           {movie.title} - 2023
         </h1>
-
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "

@@ -10,6 +10,7 @@ import { Image } from "cloudinary-react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 
+
 function BloodyDaddy({ movie }) {
   useEffect(() => {
     document.addEventListener("DOMContentLoaded", function () {
@@ -19,6 +20,11 @@ function BloodyDaddy({ movie }) {
       player.fluid(true);
     });
   }, []);
+  
+  const scrollSearch = (myKey) => {
+    window.scrollTo(0, 0);
+    frontMatter.handleSearch(myKey);
+  };
 
   const [showAd, setShowAd] = useState(false);
 
@@ -45,10 +51,7 @@ function BloodyDaddy({ movie }) {
       document.removeEventListener("contextmenu", handleContextmenu);
     };
   }, []);
-  const scrollSearch = (myKey) => {
-    window.scrollTo(0, 0);
-    frontMatter.handleSearch(myKey);
-  };
+
   const [showPopup, setShowPopup] = useState(false);
 
   function togglePopup() {

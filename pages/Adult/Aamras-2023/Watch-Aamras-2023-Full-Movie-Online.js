@@ -9,6 +9,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function Aamras({ movie }) {
   useEffect(() => {
@@ -181,7 +182,7 @@ function Aamras({ movie }) {
             height="700"
             allowFullScreen
             webkitallowfullscreen
-            mozallowfullscreen="true"
+            mozallowFullScreen="true"
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">

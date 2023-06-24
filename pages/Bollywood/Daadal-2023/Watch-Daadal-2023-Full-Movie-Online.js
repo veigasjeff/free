@@ -8,6 +8,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function Daadal({ movie }) {
   useEffect(() => {
@@ -175,7 +176,7 @@ function Daadal({ movie }) {
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchP1"]}
-              width="100%"
+            width="100%"
             height="700"
             allowFullScreen
             webkitallowfullscreen

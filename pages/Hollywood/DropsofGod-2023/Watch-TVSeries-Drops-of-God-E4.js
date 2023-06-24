@@ -8,6 +8,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function DropsofGodE4({ movie }) {
   useEffect(() => {

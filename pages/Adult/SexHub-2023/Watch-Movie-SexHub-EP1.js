@@ -9,6 +9,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function SexHub({ movie }) {
   useEffect(() => {
@@ -184,36 +185,18 @@ function SexHub({ movie }) {
         >
           {movie.title} - 2023 - Episode 1
         </h1>
-        <style jsx>{`
-      .video-container {
-        max-width: 100%;
-        position: relative;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
-        height: 0;
-        overflow: hidden;
-      }
-
-      .video-container iframe,
-      .video-container video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-   
-    `}</style>
-
-    <div className="video-container">
-      <iframe
-        width="100%"
-        height="700"
-        allowFullScreen
-        webkitallowfullscreen
-        mozallowFullScreen="true"
-        src={movie["movie.watchP1"]}
-        title="Video Player"
-      ></iframe>
+     
+        <div className={styles["iframe-container"]}>
+          <iframe
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
+            src={movie["movie.watchP1"]}
+            width="100%"
+            height="700"
+            allowFullScreen
+            webkitallowfullscreen
+            mozallowFullScreen="true"
+          ></iframe>
+        </div>
     </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -237,35 +220,18 @@ function SexHub({ movie }) {
         >
           {movie.title} - 2023 - Episode 1
         </h1>
-        <style jsx>{`
-      .video-container {
-        max-width: 100%;
-        position: relative;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
-        height: 0;
-        overflow: hidden;
-      }
-
-      .video-container iframe,
-      .video-container video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
    
-    `}</style>
-
-    <div className="video-container">
-      <iframe
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        frameBorder="0"
-        src={movie["movie.watchSR1"]}
-        title="Video Player"
-      ></iframe>
-    </div>
+        <div className={styles["iframe-container"]}>
+          <iframe
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
+            src={movie["movie.watchSR1"]}
+            width="100%"
+            height="700"
+            allowFullScreen
+            webkitallowfullscreen
+            mozallowFullScreen="true"
+          ></iframe>
+        </div>
         <ShareButtons
           url="https://uwatchfree.vercel.app"
           title="Watch Movies & TV-Series Online Free"
@@ -408,7 +374,7 @@ function SexHub({ movie }) {
             </buton>
           </Link>
         </div>
-      </div>{" "}
+     
     </div>
   );
 }

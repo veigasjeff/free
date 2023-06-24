@@ -9,6 +9,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function Desikisse({ movie }) {
   useEffect(() => {
@@ -203,7 +204,7 @@ function Desikisse({ movie }) {
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
+            src={movie["movie.watchPSR1"]}
             width="100%"
             height="700"
             allowFullScreen

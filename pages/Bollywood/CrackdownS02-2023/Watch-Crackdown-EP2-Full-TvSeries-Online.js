@@ -8,6 +8,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function CrackdownP2({ movie }) {
   useEffect(() => {
@@ -220,6 +221,7 @@ function CrackdownP2({ movie }) {
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchP2"]}
             width="100%"
             height="700"
@@ -253,12 +255,13 @@ function CrackdownP2({ movie }) {
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
-           src={movie["movie.watchS2"]}
-           width="100%"
-           height="700"
-           allowFullScreen
-           webkitallowfullscreen
-           mozallowFullScreen="true"
+            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
+            src={movie["movie.watchSR2"]}
+            width="100%"
+            height="700"
+            allowFullScreen
+            webkitallowfullscreen
+            mozallowFullScreen="true"
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">

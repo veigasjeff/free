@@ -2,12 +2,15 @@ import Link from "next/link";
 import Rating from "pages/Rating";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
+
 import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
+
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function TurnoftheTideP4({ movie }) {
   useEffect(() => {

@@ -8,6 +8,7 @@ import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function JubileeP4({ movie }) {
   useEffect(() => {
@@ -214,10 +215,12 @@ function JubileeP4({ movie }) {
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP4"]}
+            src={movie["movie.watchP5"]}
             width="100%"
-            height="500px"
+            height="700"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowFullScreen="true"
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
@@ -247,8 +250,10 @@ function JubileeP4({ movie }) {
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
             src={movie["movie.watchSR4"]}
             width="100%"
-            height="500px"
+            height="700"
             allowFullScreen
+            webkitallowfullscreen
+            mozallowFullScreen="true"
           ></iframe>
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">

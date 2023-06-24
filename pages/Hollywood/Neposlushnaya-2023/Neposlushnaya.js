@@ -5,10 +5,10 @@ import React, { useEffect, useState } from "react";
 import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
-import BackgroundVideo from '@components/BackgroundVideo';
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 //import Ad from '@components/Ad1';
 
