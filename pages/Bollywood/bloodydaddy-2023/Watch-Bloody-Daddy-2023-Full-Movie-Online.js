@@ -7,9 +7,38 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
-
+import videojs from "video.js";
+import "video.js/dist/video-js.css";
 
 function BloodyDaddy({ movie }) {
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var player = videojs(
+        document.querySelector("iframe").querySelector("video")
+      );
+      player.fluid(true);
+    });
+  }, []);
+
+  useEffect(() => {
+    const handleOrientationChange = () => {
+      const iframe = iframeRef.current;
+      if (iframe) {
+        const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+        if (isPortrait) {
+          iframe.classList.add(styles.portraitMode);
+        } else {
+          iframe.classList.remove(styles.portraitMode);
+        }
+      }
+    };
+
+    window.addEventListener("orientationchange", handleOrientationChange);
+
+    return () => {
+      window.removeEventListener("orientationchange", handleOrientationChange);
+    };
+  }, []);
 
 
   const [showAd, setShowAd] = useState(false);
