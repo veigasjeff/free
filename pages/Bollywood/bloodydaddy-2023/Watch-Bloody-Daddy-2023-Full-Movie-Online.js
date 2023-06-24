@@ -20,27 +20,6 @@ function BloodyDaddy({ movie }) {
     });
   }, []);
 
-  useEffect(() => {
-    const handleOrientationChange = () => {
-      const iframe = iframeRef.current;
-      if (iframe) {
-        const isPortrait = window.matchMedia("(orientation: portrait)").matches;
-        if (isPortrait) {
-          iframe.classList.add(styles.portraitMode);
-        } else {
-          iframe.classList.remove(styles.portraitMode);
-        }
-      }
-    };
-
-    window.addEventListener("orientationchange", handleOrientationChange);
-
-    return () => {
-      window.removeEventListener("orientationchange", handleOrientationChange);
-    };
-  }, []);
-
-
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
