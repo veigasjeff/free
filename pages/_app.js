@@ -7,87 +7,10 @@ import Script from 'next/script';
 import Head from 'next/head';
 
 function Application({ Component, pageProps }) {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "CollectionPage",
-        "@id": "https://uwatchfree.vercel.app/",
-        url: "https://uwatchfree.vercel.app/",
-        name: "Uwatchfree™ | Watch Movies & TV-Series Online Free",
-        isPartOf: {
-          "@id": "https://uwatchfree.vercel.app/#website",
-        },
-        about: {
-          "@id": "https://uwatchfree.vercel.app/#organization",
-        },
-        description: "Uwatchfree™ - Watch Movies & TV-Series Online Free",
-        breadcrumb: {
-          "@id": "https://uwatchfree.vercel.app/#breadcrumb",
-        },
-        inLanguage: "en-US",
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://uwatchfree.vercel.app/#breadcrumb",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "Uwatchfree™ | Watch Movies & TV-Series Online Free",
-          },
-        ],
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://uwatchfree.vercel.app/#website",
-        url: "https://uwatchfree.vercel.app/",
-        name: "Uwatchfree™ | Watch Movies & TV-Series Online Free",
-        description: "Uwatchfree™ - Watch Movies & TV-Series Online Free",
-        publisher: {
-          "@id": "https://uwatchfree.vercel.app/#organization",
-        },
-        potentialAction: [
-          {
-            "@type": "SearchAction",
-            target: {
-              "@type": "EntryPoint",
-              urlTemplate:
-                "https://uwatchfree.vercel.app/?s={search_term_string}",
-            },
-            "query-input": "required name=search_term_string",
-          },
-        ],
-        inLanguage: "en-US",
-      },
-      {
-        "@type": "Organization",
-        "@id": "https://uwatchfree.vercel.app/#organization",
-        name: "Uwatchfree™ | Watch Movies & TV-Series Online Free",
-        url: "https://uwatchfree.vercel.app/",
-        logo: {
-          "@type": "ImageObject",
-          inLanguage: "en-US",
-          "@id": "https://uwatchfree.vercel.app/#/schema/logo/image/",
-          url: "https://uwatchfree.vercel.app/logo.png",
-          contentUrl: "https://uwatchfree.vercel.app/logo.png",
-          width: 834,
-          height: 135,
-          caption: "Uwatchfree™ | Watch Movies & TV-Series Online Free",
-        },
-        image: {
-          "@id": "https://uwatchfree.vercel.app/#/schema/logo/image/",
-        },
-      },
-    ],
-  };
-
+  
   return ( 
     <>
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+      
           <Head>
       
       <meta name="robots" content="index, follow" />
