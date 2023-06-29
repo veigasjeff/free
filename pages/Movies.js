@@ -227,7 +227,7 @@ const schemaData   = {
           <ShareButtons url="https://uwatchfree.vercel.app" title="Watch Movies, TV-Series & Sports Live Online Free" image="https://uwatchfree.vercel.app/og_image.jpg" />
          
           
-            <h1 className="text-center font-bold text-3xl  py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Uwatchfree™ - High Definition Movies Tv Series & Sports Live. </h1>
+            <h1 className="text-center font-bold text-3xl  py-5" style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}>Uwatchfree™ - HD Movies Tv Series & Sports Live. </h1>
           
             <div className="flex flex-wrap justify-center">
               {Array.isArray(movies) && movies.slice(1).map((movie, index) => (
