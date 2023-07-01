@@ -11,7 +11,7 @@ import videojs from "video.js";
 import "video.js/dist/video-js.css";
 
 
-function Extraction ({ movie }) {
+function TheMachine({ movie }) {
   useEffect(() => {
     document.addEventListener("DOMContentLoaded", function () {
       var player = videojs(
@@ -77,9 +77,9 @@ function Extraction ({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Extraction 2 (2023)",
+          name: " The Machine (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/Watch-Extraction-2-2023-Full-Movie-Online",
+            "https://uwatchfree.vercel.app/Hollywood/TheMachine-2023/Watch-The-Machine-Movie",
         },
       ],
     },
@@ -120,7 +120,7 @@ function Extraction ({ movie }) {
       />
     <Head>
         <title>
-          Watch  Extraction 2 (2023) Full Movie Online Free | Uwatchfree™
+          Watch  The Machine (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -128,7 +128,7 @@ function Extraction ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,extraction 2 movie,extraction 2 2023,index of extraction 2 movie,extraction 2 cast,extraction 2 trailer,extraction 2 release date,extraction 2 plot,extraction 2 reviews,extraction 2 streaming,extraction 2 watch online,extraction 2 download,extraction 2 full movie,extraction 2 movie download,extraction 2 movie free download,extraction 2 movie online,extraction 2 movie watch online"
+          content="uwatchfree,the machine movie,the machine 2023,index of the machine movie,the machine cast,the machine trailer,the machine release date,the machine plot,the machine reviews,the machine streaming,the machine watch online,the machine download,the machine full movie,the machine movie download,the machine movie free download,the machine movie online,the machine movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -141,15 +141,15 @@ function Extraction ({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Extraction 2 (2023) | Uwatchfree™"
+          content="Watch The Machine (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/Watch-Extraction-2-2023-Full-Movie-Online"
+          content="https://uwatchfree.vercel.app/Hollywood/TheMachine-2023/Watch-The-Machine-Movie"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612166/Extraction-2-2023_bjjpad.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612249/THE-MACHINE-2023_fk9iqh.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -160,20 +160,20 @@ function Extraction ({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Extraction 2 (2023) | Uwatchfree™"
+          content="Watch The Machine (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612166/Extraction-2-2023_bjjpad.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612249/THE-MACHINE-2023_fk9iqh.webp"
         />
         <meta
           name="description"
-          content="Watch Extraction 2 Full Movie Online on Uwatchfree™, You can also download  Extraction 2 (2023) in full HD quality to watch later offline."
+          content="Watch The Machine Full Movie Online on Uwatchfree™, You can also download  The Machine (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/TheMachine-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -182,7 +182,7 @@ function Extraction ({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Extraction 2 - 2023
+            The Machine - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -216,7 +216,7 @@ function Extraction ({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Extraction 2 (2023)
+          Listen to Audio Summary The Movie  The Machine (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -229,14 +229,14 @@ function Extraction ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687762749/Extraction2_ccmnmh.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687776516/The_Machine_phtgw6.mp3" />
           </audio>
         </div>
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-           Extraction 2 - 2023
+           The Machine - 2023
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
@@ -289,7 +289,7 @@ function Extraction ({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie Extraction 2 - 2023
+            In the Movie   The Machine - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -397,7 +397,7 @@ function Extraction ({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX85");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX86");
   return {
     props: {
       movie: selectedMovie,
@@ -405,4 +405,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default Extraction;
+export default TheMachine;

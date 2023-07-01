@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Rating from "pages/Rating";
 import Head from "next/head";
-import AdultSkipAds from "@components/AdultSkipAds";
 import React, { useEffect, useState } from "react";
 import styles from "@styles/video-player.module.css";
 import Max from "pages/Max";
@@ -11,7 +10,7 @@ import { Image } from "cloudinary-react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 
-function LadiesTailor({ movie }) {
+function TohfaEP2 ({ movie }) {
   useEffect(() => {
     document.addEventListener("DOMContentLoaded", function () {
       var player = videojs(
@@ -71,8 +70,8 @@ function LadiesTailor({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Ladies Tailor (2023) ",
-          urlTemplate: "https://uwatchfree.vercel.app/Adult/LadiesTailor-2023/Watch-Ladies-Tailor-2023-Full-Movie-Online",
+          name: "Tohfa  (2023) ",
+          urlTemplate: "https://uwatchfree.vercel.app/Adult/Tohfa-2023/Watch-Tohfa-EP2-Movie",
         },
       ],
     },
@@ -112,14 +111,14 @@ function LadiesTailor({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
       <Head>
-        <title>Watch Ladies Tailor (2023) Full Movie Online Free | Uwatchfree™</title>
+        <title>Watch Tohfa Complete Series (2023) Full Movie Online Free | Uwatchfree™</title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch ladies tailor movie,index of ladies tailor movie,ladies tailor movie 2023,ladies tailor movie online,watch ladies tailor movie online free,ladies tailor tv series,ladies tailor movie download,ladies tailor movie free download,ladies tailor movie download"
+          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch tohfa webseries,index of tohfa movie,tohfa movie 2023,tohfa movie online,watch tohfa movie online free,tohfa web series,tohfa movie download,tohfa movie free download,tohfa movie download"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -130,14 +129,14 @@ function LadiesTailor({ movie }) {
           content="Uwatchfree™ | Watch Movies & TV-Series Online Free"
         />
         <meta property="og:type" content="movie" />
-        <meta property="og:title" content="Watch Ladies Tailor (2023) | Uwatchfree™" />
+        <meta property="og:title" content="Watch Tohfa (2023) | Uwatchfree™" />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Adult/LadiesTailor-2023/Watch-Ladies-Tailor-2023-Full-Movie-Online"
+          content="https://uwatchfree.vercel.app/Adult/Tohfa-2023/Watch-Tohfa-EP2-Movie"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612185/LADIES_TAILOR_Part_1-2023_vf13tg.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612261/Tohfa-Part_-1-2023_wtuqbm.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -148,36 +147,36 @@ function LadiesTailor({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Ladies Tailor (2023) | Uwatchfree™"
+          content="Watch Tohfa  (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612185/LADIES_TAILOR_Part_1-2023_vf13tg.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612261/Tohfa-Part_-1-2023_wtuqbm.webp"
         />
         <meta
           name="description"
-          content="Watch Ladies Tailor Full Movie Online on Uwatchfree™, You can also download Ladies Tailor (2023) in full HD quality to watch later offline."
+          content="Watch Tohfa  Full Movie Online on Uwatchfree™, You can also download Tohfa  (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/LadiesTailor-2023/"
+          href="https://uwatchfree.vercel.app/Adult/Tohfa-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
-        <AdultSkipAds />
-     
+    
+
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - 2023
+          {movie.title} - 2023 Episode 2
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
+            src={movie["movie.watchP2"]}
             width="100%"
             height="700"
             allowFullScreen
@@ -205,7 +204,7 @@ function LadiesTailor({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie Ladies Tailor (2023)
+          Listen to Audio Summary The Movie Tohfa  (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -218,21 +217,19 @@ function LadiesTailor({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688048502/Ladies-Tailor-body_taf4gq.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687971981/Tohfa-u-body_zzcom2.mp3" />
           </audio>
         </div>
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - 2023
+          {movie.title} - 2023 Episode 2
         </h1>
-
-
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
+            src={movie["movie.watchSR2"]}
             width="100%"
             height="700"
             allowFullScreen
@@ -244,11 +241,19 @@ function LadiesTailor({ movie }) {
           *Note: Pls Select the in the Player to Change your Language of your
           Choice and Setting to Change the Quality of Video.
         </h3>
+        <div className="flex justify-center">
+          <Link href="../../Adult/Tohfa-2023/Watch-Tohfa-EP1-Movie">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Episode 1
+            </button>
+          </Link>
+        </div>
         <ShareButtons
           url="https://uwatchfree.vercel.app"
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
+
         <Rating />
         <a
           href={movie.link}
@@ -352,7 +357,7 @@ function LadiesTailor({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link 1 {movie.name} (2023){" "}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down1link2} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
@@ -360,7 +365,7 @@ function LadiesTailor({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link 2 {movie.name} (2023){" "}
           </h3>
-          <a href={movie.down2link1} target="_blank">
+          <a href={movie.down2link2} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
@@ -381,7 +386,7 @@ function LadiesTailor({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX92");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX91");
   return {
     props: {
       movie: selectedMovie,
@@ -389,4 +394,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default LadiesTailor;
+export default TohfaEP2 ;
