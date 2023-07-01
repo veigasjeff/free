@@ -11,7 +11,7 @@ import videojs from "video.js";
 import "video.js/dist/video-js.css";
 
 
-function Adipurush({ movie }) {
+function MaukaYaDhoka({ movie }) {
   useEffect(() => {
     document.addEventListener("DOMContentLoaded", function () {
       var player = videojs(
@@ -77,9 +77,9 @@ function Adipurush({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Adipurush (2023)",
+          name: "Mauka Ya Dhoka (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/Watch-Adipurush-Movie",
+            "https://uwatchfree.vercel.app/Bollywood/MaukaYaDhoka-2023/Watch-Mauka-Ya-Dhoka-2023-Movie",
         },
       ],
     },
@@ -120,7 +120,7 @@ function Adipurush({ movie }) {
       />
     <Head>
         <title>
-          Watch Adipurush (2023) Full Movie Online Free | Uwatchfree™
+          Watch Mauka Ya Dhoka (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -128,7 +128,7 @@ function Adipurush({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,adipurush movie,adipurush 2023,index of adipurush movie,adipurush cast,adipurush trailer,adipurush release date,adipurush plot,adipurush reviews,adipurush streaming,adipurush watch online,adipurush download,adipurush full movie,adipurush movie download,adipurush movie free download,adipurush movie online,adipurush movie watch online"
+          content="uwatchfree,mauka ya dhoka movie,mauka ya dhoka 2023,index of mauka ya dhoka movie,mauka ya dhoka cast,mauka ya dhoka trailer,mauka ya dhoka release date,mauka ya dhoka plot,mauka ya dhoka reviews,mauka ya dhoka streaming,mauka ya dhoka watch online,mauka ya dhoka download,mauka ya dhoka full movie,mauka ya dhoka movie download,mauka ya dhoka movie free download,mauka ya dhoka movie online,mauka ya dhoka movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -141,15 +141,15 @@ function Adipurush({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Adipurush (2023) | Uwatchfree™"
+          content="Watch Mauka Ya Dhoka (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/Watch-Adipurush-Movie"
+          content="https://uwatchfree.vercel.app/Bollywood/MaukaYaDhoka-2023/Watch-Mauka-Ya-Dhoka-2023-Movie"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612157/Adipurush-2023_jbhtko.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Mauka-Ya-Dhoka-2023_dacw49.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -160,20 +160,20 @@ function Adipurush({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Adipurush (2023) | Uwatchfree™"
+          content="Watch Mauka Ya Dhoka (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612157/Adipurush-2023_jbhtko.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Mauka-Ya-Dhoka-2023_dacw49.webp"
         />
         <meta
           name="description"
-          content="Watch Adipurush Full Movie Online on Uwatchfree™, You can also download Adipurush (2023) in full HD quality to watch later offline."
+          content="Watch MaukaYaDhoka Full Movie Online on Uwatchfree™, You can also download Mauka Ya Dhoka (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/"
+          href="https://uwatchfree.vercel.app/Bollywood/MaukaYaDhoka-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -182,7 +182,7 @@ function Adipurush({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-           Adipurush - 2023
+           Mauka Ya Dhoka - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -216,7 +216,7 @@ function Adipurush({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie Adipurush (2023)
+          Listen to Audio Summary The Movie Mauka Ya Dhoka (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -229,14 +229,14 @@ function Adipurush({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/Adipurush-Final-Trailer.mp4?updatedAt=1687612128868" />
+           <source src="https://ik.imagekit.io/gmcl6xvq6/Mauka-Ya-Dhoka-2023.mp4?updatedAt=1687612132480" />
           </audio>
         </div>
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Adipurush - 2023
+          Mauka Ya Dhoka - 2023
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
@@ -289,7 +289,7 @@ function Adipurush({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie  Adipurush - 2023
+            In the Movie  Mauka Ya Dhoka - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -397,7 +397,7 @@ function Adipurush({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX94");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX93");
   return {
     props: {
       movie: selectedMovie,
@@ -405,4 +405,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default Adipurush;
+export default MaukaYaDhoka;

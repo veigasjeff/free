@@ -79,7 +79,7 @@ function Adipurush({ movie }) {
           "@type": "EntryPoint",
           name: "Adipurush (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/Watch-Adipurush-Movie",
+            "https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/Watch-Adipurush-2023-Movie",
         },
       ],
     },
@@ -145,7 +145,7 @@ function Adipurush({ movie }) {
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/Watch-Adipurush-Movie"
+          content="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/Watch-Adipurush-2023-Movie"
         />
         <meta
           property="og:image"
@@ -395,7 +395,7 @@ function Adipurush({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("http://localhost:3000/movies.json");
+  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX94");
   return {
