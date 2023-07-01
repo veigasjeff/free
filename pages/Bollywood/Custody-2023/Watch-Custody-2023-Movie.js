@@ -10,7 +10,7 @@ import { Image } from "cloudinary-react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 
-function CrimesAajKal({ movie }) {
+function Custody({ movie }) {
   useEffect(() => {
     document.addEventListener("DOMContentLoaded", function () {
       var player = videojs(
@@ -19,7 +19,20 @@ function CrimesAajKal({ movie }) {
       player.fluid(true);
     });
   }, []);
-  
+
+  const [showAd, setShowAd] = useState(false);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setShowAd(true);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleAdClose = () => {
+    setShowAd(false);
+  };
+
   if (!movie) {
     return <div className="text-3xl text-red-600 text-center">Loading...</div>;
   }
@@ -57,9 +70,11 @@ function CrimesAajKal({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
+          name: "Custody (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/CrimesAajKal-2023/Watch-Crimes-Aaj-Kal-2023-Full-Movie-Online",
+            "https://uwatchfree.vercel.app/Bollywood/Custody-2023/Watch-Custody-2023-Movie",
         },
+     
       ],
     },
     aggregateRating: {
@@ -98,16 +113,14 @@ function CrimesAajKal({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
       <Head>
-        <title>
-          Watch Crimes Aaj Kal (2023) Full Movie Online Free | Uwatchfree™
-        </title>
+        <title>Watch Custody (2023) Full Movie Online Free | Uwatchfree™</title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch crimes aaj kal movie,index of crimes aaj kal movie,crimes aaj kal movie 2023,crimes aaj kal movie online,watch crimes aaj kal movie online free,crimes aaj kal tv series,crimes aaj kal movie download,crimes aaj kal movie free download,crimes aaj kal movie download"
+          content="uwatchfree,custody movie,custody 2023,index of custody movie,custody cast,custody trailer,custody release date,custody plot,custody reviews,custody streaming,custody watch online,custody download,custody full movie,custody movie download,custody movie free download,custody movie online,custody movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -120,15 +133,15 @@ function CrimesAajKal({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Crimes Aaj Kal (2023) | Uwatchfree™"
+          content="Watch Custody (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/CrimesAajKal-2023/Watch-Crimes-Aaj-Kal-2023-Full-Movie-Online"
+          content="https://uwatchfree.vercel.app/Bollywood/Custody-2023/Watch-Custody-2023-Movie"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681609998/crimes-aaj-kal-2023_h5neh5.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684278815/custody-2023_zz5gdx.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -139,20 +152,20 @@ function CrimesAajKal({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Crimes Aaj Kal (2023) | Uwatchfree™"
+          content="Watch Custody (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681609998/crimes-aaj-kal-2023_h5neh5.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1684278815/custody-2023_zz5gdx.webp"
         />
         <meta
           name="description"
-          content="Watch Crimes Aaj Kal Full Movie Online on Uwatchfree™, You can also download Crimes Aaj Kal (2023) in full HD quality to watch later offline."
+          content="Watch Custody Full Movie Online on Uwatchfree™, You can also download Custody (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/CrimesAajKal-2023/"
+          href="https://uwatchfree.vercel.app/Bollywood/Custody-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -183,19 +196,6 @@ function CrimesAajKal({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
-        <h1
-          className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
-          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
-        >
-          {movie.title} - 2023
-        </h1>
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
@@ -219,7 +219,7 @@ function CrimesAajKal({ movie }) {
         <Rating />
         <a
           href={movie.link}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
           target="_blank"
         >
           IMDb Rating: {movie.rating}
@@ -227,31 +227,31 @@ function CrimesAajKal({ movie }) {
 
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
-          style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
+          style={{ textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
-          <li>Country: {movie.country}</li>
+          <li>Country of origin: {movie.country}</li>
           <li>Genre: {movie.genre}</li>
-          <h2>Synopsis :</h2>
-          <h2
+          <div
+            className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"
+            style={{ textShadow: "0px 0px 2px #000" }}
+          >
+            {" "}
+            Synopsis:
+          </div>
+          <p
             className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
           >
             {movie.synopsis}
-          </h2>
+          </p>
         </ul>
-
-        <Image
-          src={movie.poster}
-          alt={`Poster for ${movie.title}`}
-          className="mx-auto my-10 rounded-3xl  "
-        />
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <button
-            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 "
+            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "
             onClick={togglePopup}
           >
             <h2>Watch Offical Trailer</h2>
@@ -268,17 +268,16 @@ function CrimesAajKal({ movie }) {
                 </h2>
               </button>
               <h2 className="text-2xl font-bold">
-                Offical Trailer {movie.name} (2023){" "}
+                Offical Trailer {movie.name}{" "}
               </h2>
-              <div className={styles["iframe-container"]}>
-                <iframe
-                  className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-                  webkitallowFullScreen
-                mozallowFullScreen
-                  allowFullScreen
-                  src={movie["movie.trailer"]}
-                />
-              </div>
+              <video
+                src={movie["movie.trailer"]}
+                autoPlay
+                controls
+                loop
+                width="840"
+                height="360"
+              />
             </div>
           </div>
         )}
@@ -314,20 +313,20 @@ function CrimesAajKal({ movie }) {
             }
           }
         `}</style>
+        <Image
+          src={movie.banner}
+          alt={`Banner for ${movie.title}`}
+          loading="lazy"
+          className=" rounded-3xl  mx-auto my-10 "
+        />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 1 {movie.name} (2023)
+            {" "}
+            Link 1{movie.name}
           </h3>
+
           <a href={movie.down1link1} target="_blank">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Download
-            </button>
-          </a>
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 2 {movie.name} (2023)
-          </h3>
-          <a href={movie.down2link1} target="_blank">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">
               Download
             </button>
           </a>
@@ -335,8 +334,8 @@ function CrimesAajKal({ movie }) {
           <Max />
 
           <Link href="../../BollywoodAds">
-            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Back To Movie Selection
+            <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              Back To Bollywood Section
             </buton>
           </Link>
         </div>
@@ -347,9 +346,8 @@ function CrimesAajKal({ movie }) {
 
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
-
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "CAK");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX27");
   return {
     props: {
       movie: selectedMovie,
@@ -357,4 +355,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default CrimesAajKal;
+export default Custody;
