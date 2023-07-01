@@ -12,7 +12,7 @@ import { Image } from "cloudinary-react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 
-function SupermanAndLoisP1({ movie }) {
+function SupermanAndLoisP10({ movie }) {
   useEffect(() => {
     document.addEventListener("DOMContentLoaded", function () {
       var player = videojs(
@@ -119,21 +119,6 @@ function SupermanAndLoisP1({ movie }) {
         name: "Superman And Lois S03 Episode 10",
         url: "https://uwatchfree.vercel.app/Hollywood/SupermanAndLois-2023/SupermanAndLoisP10",
       },
-      {
-        "@type": "TVEpisode",
-        name: "Superman And Lois S03 Episode 11",
-        url: "https://uwatchfree.vercel.app/Hollywood/SupermanAndLois-2023/SupermanAndLoisP11",
-      },
-      {
-        "@type": "TVEpisode",
-        name: "Superman And Lois S03 Episode 12",
-        url: "https://uwatchfree.vercel.app/Hollywood/SupermanAndLois-2023/SupermanAndLoisP12",
-      },
-      {
-        "@type": "TVEpisode",
-        name: "Superman And Lois S03 Episode 13",
-        url: "https://uwatchfree.vercel.app/Hollywood/SupermanAndLois-2023/SupermanAndLoisP13",
-      },
     ],
     author: [
       {
@@ -239,12 +224,12 @@ function SupermanAndLoisP1({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - EPISODE 1
+          {movie.title} - EPISODE 10
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
+            src={movie["movie.watchP10"]}
             width="100%"
             height="700"
             allowFullScreen
@@ -272,12 +257,12 @@ function SupermanAndLoisP1({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - EPISODE 1
+          {movie.title} - EPISODE 10
         </h1>
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
+            src={movie["movie.watchSR10"]}
             width="100%"
             height="700"
             allowFullScreen
@@ -296,8 +281,15 @@ function SupermanAndLoisP1({ movie }) {
         />
         <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
-            <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP2">
+            <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP1">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
+                Episode 1
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP2">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 2
               </button>
             </Link>
@@ -318,14 +310,14 @@ function SupermanAndLoisP1({ movie }) {
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP5">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
                 Episode 5
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
             <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP6">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2 ">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 6
               </button>
             </Link>
@@ -343,48 +335,15 @@ function SupermanAndLoisP1({ movie }) {
                 Episode 8
               </button>
             </Link>
-          </div>
-          <div className="flex justify-center">
-            <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP9">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-                Episode 9
-              </button>
-            </Link>
-          </div>
-      
+          </div>{" "}
+        </div>
         <div className="flex justify-center">
-          <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP10">
+          <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP9">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Episode 10
+              Episode 9
             </button>
           </Link>
         </div>
-        <div className="flex justify-center">
-          <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP11">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Episode 11
-            </button>
-          </Link>
-          
-          </div>{" "}
-          <div className="flex justify-center">
-          <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP12">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Episode 12
-            </button>
-          </Link>
-          
-          </div>{" "}
-          <div className="flex justify-center">
-          <Link href="../../Hollywood/SupermanAndLois-2023/SupermanAndLoisP13">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Episode 13
-            </button>
-          </Link>
-          
-          </div>{" "}
-        </div>
-
 
         <Rating />
         <a
@@ -493,17 +452,17 @@ function SupermanAndLoisP1({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link 1 {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down1link10} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Download Episode 1
+              Download Episode 10
             </button>
           </a>
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link 2 {movie.name}
           </h3>
-          <a href={movie.down2link1} target="_blank">
+          <a href={movie.down2link10} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Download Episode 1
+              Download Episode 10
             </button>
           </a>
           <Max />
@@ -531,4 +490,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default SupermanAndLoisP1;
+export default SupermanAndLoisP10;
