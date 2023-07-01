@@ -333,11 +333,11 @@ export default function Home({ movie }) {
                     className="w-full md:w-1/2 lg:w-1/3 p-2 "
                     key={movie.title}
                   >
-                   
+                    <a href={movie["movie.A1"]} id={movie.id}>
                     <h2 className="text-xl font-bold leading-normal mb-2 text-white">
                       Click Image to Watch Trailer.{" "}
                     </h2>
-                  
+                    </a> 
                     <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
                   
                       <Image
@@ -450,13 +450,13 @@ export default function Home({ movie }) {
                       >
                         Year Release : {movie.yearRelease}
                       </p>
-                      <a href={movie["movie.A1"]} id={movie.id}>
+                  
                       <p
                         className={`${styles.genre} text-xl font-bold leading-normal mb-2 text-white`}
                         style={{ textShadow: "5px 5px 2px #000" }}
                       >
                         Genre : {movie.genre}
-                      </p></a>
+                      </p>
                     </div>
                     <a href={movie["movie.watch"]} id={movie.id}>
                       <button
