@@ -176,6 +176,7 @@ function Adipurush({ movie }) {
           href="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/"
         />
       </Head>
+     
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
         <h1

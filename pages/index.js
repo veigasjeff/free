@@ -1,9 +1,5 @@
 import React, { useEffect } from 'react';
-import styled from 'styled-components';
-import Link from 'next/link';
 import Head from 'next/head';
-import HeroBanner from '../components/HeroBanner';
-import style from '../styles/styles.module.css';
 import BackgroundVideo from '../components/BackgroundVideo';
 import ShareButtons from '@components/ShareButtons';
 import { Image } from 'cloudinary-react'

@@ -1,7 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import ShareButtons from "@components/ShareButtons";
-
+//import BackgroundMusic from '@components//BackgroundMusic';
+//<BackgroundMusic />
 import { Image } from "cloudinary-react";
 //import Ad from '../components/Ad';
 import { useState, useRef, useEffect } from "react";
@@ -310,7 +311,7 @@ export default function Home({ movie }) {
           <link rel="manifest" href="/site.webmanifest"></link>
           <link rel="canonical" href="https://uwatchfree.vercel.app/Movies" />
         </Head>
-
+ 
         <main className={styles.main}>
           <section className={`${styles.movies} bg-gray-600  py-5`}>
             <ShareButtons

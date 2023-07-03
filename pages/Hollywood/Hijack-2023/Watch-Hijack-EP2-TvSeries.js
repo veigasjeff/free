@@ -10,7 +10,6 @@ import { Image } from "cloudinary-react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 
-
 function ThePerfectFind({ movie }) {
   useEffect(() => {
     document.addEventListener("DOMContentLoaded", function () {
@@ -20,7 +19,7 @@ function ThePerfectFind({ movie }) {
       player.fluid(true);
     });
   }, []);
-  
+
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
     frontMatter.handleSearch(myKey);
@@ -77,9 +76,9 @@ function ThePerfectFind({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Pocket Dial Murder (2023)",
+          name: " Hijack (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/PocketDialMurder-2023/Watch-Pocket-Dial-Murder-2023-Full-Movie-Online",
+            "https://uwatchfree.vercel.app/Hollywood/Hijack-2023/Watch-Hijack-EP2-TvSeries",
         },
       ],
     },
@@ -118,17 +117,15 @@ function ThePerfectFind({ movie }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
-    <Head>
-        <title>
-          Watch Pocket Dial Murder (2023) Full Movie Online Free | Uwatchfree™
-        </title>
+      <Head>
+        <title>Watch Hijack (2023) Full Movie Online Free | Uwatchfree™</title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-        <meta
+       <meta
           name="keywords"
-          content="uwatchfree,pocket dial murder movie,pocket dial murder 2023,index of pocket dial murder movie,pocket dial murder cast,pocket dial murder trailer,pocket dial murder release date,pocket dial murder plot,pocket dial murder reviews,pocket dial murder streaming,pocket dial murder watch online,pocket dial murder download,pocket dial murder full movie,pocket dial murder movie download,pocket dial murder movie free download,pocket dial murder movie online,pocket dial murder movie watch online"
+          content="uwatchfree,hijack movie,hijack 2023,index of hijack movie,hijack cast,hijack trailer,hijack release date,hijack plot,hijack reviews,hijack streaming,hijack watch online,hijack download,hijack full movie,hijack movie download,hijack movie free download,hijack movie online,hijack movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -139,17 +136,14 @@ function ThePerfectFind({ movie }) {
           content="Uwatchfree™ | Watch Movies & TV-Series Online Free"
         />
         <meta property="og:type" content="movie" />
-        <meta
-          property="og:title"
-          content="Watch Pocket Dial Murder (2023) | Uwatchfree™"
-        />
+        <meta property="og:title" content="Watch Hijack (2023) | Uwatchfree™" />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/PocketDialMurder-2023/Watch-Pocket-Dial-Murder-2023-Full-Movie-Online"
+          content="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/Watch-Hijack-EP2-TvSeries"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Pocket-Dial-Murder-2023_gh5dfm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -160,21 +154,21 @@ function ThePerfectFind({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Pocket Dial Murder (2023) | Uwatchfree™"
+          content="Watch Hijack (2023) | Uwatchfree™"
         />
-        
+
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Pocket-Dial-Murder-2023_gh5dfm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
         />
         <meta
           name="description"
-          content="Watch Pocket Dial Murder Full Movie Online on Uwatchfree™, You can also download  Pocket Dial Murder (2023) in full HD quality to watch later offline."
+          content="Watch Hijack Full Movie Online on Uwatchfree™, You can also download  Hijack (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/PocketDialMurder-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -183,13 +177,13 @@ function ThePerfectFind({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Pocket Dial Murder - 2023
+          Hijack - Episode 2 ( 2023 )
         </h1>
 
         <div className={styles["iframe-container"]}>
           <iframe
             className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
+            src={movie["movie.watchP2"]}
             width="100%"
             height="700"
             allowFullScreen
@@ -217,7 +211,7 @@ function ThePerfectFind({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Pocket Dial Murder (2023)
+          Listen to Audio Summary The Movie Hijack (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -230,35 +224,18 @@ function ThePerfectFind({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687891071/u-pdm_ufygpq.mp3" />
+            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687891071/u-pdm_ufygpq.mp3" />
           </audio>
         </div>
-        <h1
-          className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
-          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
-        >
-           Pocket Dial Murder - 2023
-        </h1>
-        <div className={styles["iframe-container"]}>
-          <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
+
+        <div className="flex justify-center">
+          <Link href="../../Hollywood/Hijack-2023/Watch-Hijack-EP1-TvSeries">
+            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+              Episode 1
+            </button>
+          </Link>
         </div>
-        <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
-          *Note: Pls Select the in the Player to Change your Language of your
-          Choice and Setting to Change the Quality of Video.
-        </h3>
-        <ShareButtons
-          url="https://uwatchfree.vercel.app"
-          title="Watch Movies & TV-Series Online Free"
-          image="https://uwatchfree.vercel.app/og_image.jpg"
-        />
+
         <Rating />
         <a
           href={movie.link}
@@ -290,7 +267,7 @@ function ThePerfectFind({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie   Pocket Dial Murder - 2023
+            In the Movie Hijack - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -367,21 +344,14 @@ function ThePerfectFind({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 1 {movie.name}
+            Link  {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down1link2} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 2 {movie.name}
-          </h3>
-          <a href={movie.down2link1} target="_blank">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Download
-            </button>
-          </a>
+
           <Max />
 
           <Link href="../../HollywoodAds">
@@ -398,7 +368,7 @@ function ThePerfectFind({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX88");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX95");
   return {
     props: {
       movie: selectedMovie,
