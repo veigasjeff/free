@@ -7,19 +7,11 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
-import videojs from "video.js";
-import "video.js/dist/video-js.css";
+import Player from "@components/Player";
 
 
 function Adipurush({ movie }) {
-  useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      var player = videojs(
-        document.querySelector("iframe").querySelector("video")
-      );
-      player.fluid(true);
-    });
-  }, []);
+
   
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -176,6 +168,7 @@ function Adipurush({ movie }) {
           href="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/"
         />
       </Head>
+     
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
         <h1
@@ -184,17 +177,10 @@ function Adipurush({ movie }) {
         >
            Adipurush - 2023
         </h1>
-
-        <div className={styles["iframe-container"]}>
-          <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
+        
+         <div className={styles["iframe-container"]}>
+         <Player src={movie["movie.watchP1"]} />
+     
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -232,32 +218,7 @@ function Adipurush({ movie }) {
            <source src="https://ik.imagekit.io/gmcl6xvq6/Adipurush-Final-Trailer.mp4?updatedAt=1687612128868" />
           </audio>
         </div>
-        <h1
-          className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
-          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
-        >
-          Adipurush - 2023
-        </h1>
-        <div className={styles["iframe-container"]}>
-          <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
-        </div>
-        <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
-          *Note: Pls Select the in the Player to Change your Language of your
-          Choice and Setting to Change the Quality of Video.
-        </h3>
-        <ShareButtons
-          url="https://uwatchfree.vercel.app"
-          title="Watch Movies & TV-Series Online Free"
-          image="https://uwatchfree.vercel.app/og_image.jpg"
-        />
+      
         <Rating />
         <a
           href={movie.link}
