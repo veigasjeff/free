@@ -4,9 +4,7 @@ const Player = ({ src }) => {
 
   return (
     <div className="wrapper">
-      <iframe id="main-video" src={src} allowFullScreen   webkitallowfullscreen
-            mozallowFullScreen="true"/>
-    
+      <iframe id="main-video" src={src} allowFullScreen webkitallowfullscreen mozallowFullScreen="true" />
 
       <style jsx>{`
         .wrapper {
@@ -18,7 +16,6 @@ const Player = ({ src }) => {
           display: flex;
           justify-content: center;
           align-items: center;
-          height: 700px; /* Set the desired height for the video */
         }
 
         iframe {
@@ -53,6 +50,12 @@ const Player = ({ src }) => {
         input[type="range"] {
           width: 200px;
           margin: 0 8px;
+        }
+
+        @media (max-width: 768px) {
+          .wrapper {
+            padding-bottom: 75%; /* Adjust the aspect ratio for smaller screens */
+          }
         }
       `}</style>
     </div>
