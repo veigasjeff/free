@@ -7,8 +7,8 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
-import videojs from "video.js";
-import "video.js/dist/video-js.css";
+import Player from "@components/Player";
+
 
 
 function BloodyDaddy({ movie }) {
@@ -186,15 +186,7 @@ function BloodyDaddy({ movie }) {
         </h1>
 
         <div className={styles["iframe-container"]}>
-          <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
+        <Player src={movie["movie.watchP1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -239,15 +231,7 @@ function BloodyDaddy({ movie }) {
           Bloody Daddy - 2023
         </h1>
         <div className={styles["iframe-container"]}>
-          <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
+        <Player src={movie["movie.watchSR1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
