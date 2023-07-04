@@ -1,12 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const BackgroundMusic = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const handleButtonClick = () => {
-    setIsPlaying((prevIsPlaying) => !prevIsPlaying);
-  };
-
   useEffect(() => {
     const audio = new Audio(
       "https://res.cloudinary.com/db36kfuq3/video/upload/v1688484639/background-music-1_fc5ool.mp3"
@@ -26,27 +20,14 @@ const BackgroundMusic = () => {
       audio.currentTime = 0; // Reset the audio to the beginning
     };
 
-    if (isPlaying) {
-      playMusic(); // Start playing the music when isPlaying is true
-    } else {
-      stopMusic(); // Stop the music when isPlaying is false
-    }
+    playMusic(); // Start playing the music when the component mounts
 
     return () => {
       stopMusic(); // Stop the music when the component unmounts
     };
-  }, [isPlaying]);
-
-  useEffect(() => {
-    // Autoplay the music when the component mounts
-    setIsPlaying(true);
   }, []);
 
-  return (
-    <button onClick={handleButtonClick}>
-      {isPlaying ? "Stop Music" : "Play Music"}
-    </button>
-  );
+  return null;
 };
 
 export default BackgroundMusic;
