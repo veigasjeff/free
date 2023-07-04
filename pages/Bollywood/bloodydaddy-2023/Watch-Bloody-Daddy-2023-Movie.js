@@ -7,19 +7,12 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
-import videojs from "video.js";
-import "video.js/dist/video-js.css";
+import Player from "@components/Player";
+
 
 
 function BloodyDaddy({ movie }) {
-  useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      var player = videojs(
-        document.querySelector("iframe").querySelector("video")
-      );
-      player.fluid(true);
-    });
-  }, []);
+
   
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -186,15 +179,7 @@ function BloodyDaddy({ movie }) {
         </h1>
 
         <div className={styles["iframe-container"]}>
-          <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
+        <Player src={movie["movie.watchP1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -232,32 +217,7 @@ function BloodyDaddy({ movie }) {
            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687094036/BLOODY_DADDY_yynlmx.mp3" />
           </audio>
         </div>
-        <h1
-          className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
-          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
-        >
-          Bloody Daddy - 2023
-        </h1>
-        <div className={styles["iframe-container"]}>
-          <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchSR1"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
-        </div>
-        <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
-          *Note: Pls Select the in the Player to Change your Language of your
-          Choice and Setting to Change the Quality of Video.
-        </h3>
-        <ShareButtons
-          url="https://uwatchfree.vercel.app"
-          title="Watch Movies & TV-Series Online Free"
-          image="https://uwatchfree.vercel.app/og_image.jpg"
-        />
+     
         <Rating />
         <a
           href={movie.link}
@@ -366,21 +326,14 @@ function BloodyDaddy({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 1 {movie.name}
+            Link  {movie.name}
           </h3>
           <a href={movie.down1link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-          <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link 2 {movie.name}
-          </h3>
-          <a href={movie.down2link1} target="_blank">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Download
-            </button>
-          </a>
+       
           <Max />
 
           <Link href="../../BollywoodAds">
@@ -397,7 +350,7 @@ function BloodyDaddy({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX84");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX02");
   return {
     props: {
       movie: selectedMovie,

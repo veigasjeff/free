@@ -7,18 +7,10 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
-import videojs from "video.js";
-import "video.js/dist/video-js.css";
+import Player from "@components/Player";
 
 function ThePerfectFind({ movie }) {
-  useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      var player = videojs(
-        document.querySelector("iframe").querySelector("video")
-      );
-      player.fluid(true);
-    });
-  }, []);
+  
 
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -181,15 +173,7 @@ function ThePerfectFind({ movie }) {
         </h1>
 
         <div className={styles["iframe-container"]}>
-          <iframe
-            className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-            src={movie["movie.watchP2"]}
-            width="100%"
-            height="700"
-            allowFullScreen
-            webkitallowfullscreen
-            mozallowFullScreen="true"
-          ></iframe>
+        <Player src={movie["movie.watchP2"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -368,7 +352,7 @@ function ThePerfectFind({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX95");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX13");
   return {
     props: {
       movie: selectedMovie,

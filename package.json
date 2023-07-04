@@ -40,8 +40,7 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.0.0-rc.1",
     "tw-elements": "^1.0.0-alpha13",
-    "uuid": "^9.0.0",
-    "video.js": "^8.3.0"
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
