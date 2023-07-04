@@ -3,26 +3,18 @@ import { useEffect, useState } from "react";
 const BackgroundMusic = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
+  const handleButtonClick = () => {
+    setIsPlaying((prevIsPlaying) => !prevIsPlaying);
+  };
+
   useEffect(() => {
     const audio = new Audio(
       "https://res.cloudinary.com/db36kfuq3/video/upload/v1688484639/background-music-1_fc5ool.mp3"
     );
 
-    const handleClick = () => {
-      setIsPlaying((prevIsPlaying) => !prevIsPlaying);
-    };
-
-    const handleButtonClick = () => {
-      setIsPlaying(false);
-    };
-
-    document.addEventListener("click", handleClick);
-    document.querySelectorAll("button").forEach((button) => {
-      button.addEventListener("click", handleButtonClick);
-    });
+    audio.loop = true; // Enable looping
 
     if (isPlaying) {
-      audio.loop = true; // Enable looping
       audio.play().catch((error) => {
         // Autoplay was prevented, handle the error here
         console.error("Autoplay was prevented:", error);
@@ -34,37 +26,15 @@ const BackgroundMusic = () => {
 
     return () => {
       audio.pause();
-      document.removeEventListener("click", handleClick);
-      document.querySelectorAll("button").forEach((button) => {
-        button.removeEventListener("click", handleButtonClick);
-      });
+      audio.currentTime = 0; // Reset the audio to the beginning
     };
   }, [isPlaying]);
 
-  useEffect(() => {
-    setIsPlaying(true); // Autoplay the music when the component mounts
-  }, []);
-
-  useEffect(() => {
-    const handleLocalClick = (event) => {
-      const clickedElement = event.target;
-      if (clickedElement.tagName === "BUTTON") {
-        setIsPlaying(false);
-      }
-    };
-
-    document.querySelectorAll("button").forEach((button) => {
-      button.addEventListener("click", handleLocalClick);
-    });
-
-    return () => {
-      document.querySelectorAll("button").forEach((button) => {
-        button.removeEventListener("click", handleLocalClick);
-      });
-    };
-  }, []);
-
-  return null;
+  return (
+    <button onClick={handleButtonClick}>
+      {isPlaying ? "Stop Music" : "Play Music"}
+    </button>
+  );
 };
 
 export default BackgroundMusic;
