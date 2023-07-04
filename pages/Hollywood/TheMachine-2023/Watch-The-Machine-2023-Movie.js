@@ -125,6 +125,7 @@ function TheMachine({ movie }) {
         <meta property="og:locale" content="en_US" />
 
         <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index,follow"/>
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"

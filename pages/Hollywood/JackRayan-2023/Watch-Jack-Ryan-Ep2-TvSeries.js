@@ -13,7 +13,18 @@ import Player from "@components/Player";
 
 function JackRyan ({ movie }) {
   
-  
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+    // Additional logic for mouse enter event
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+    // Additional logic for mouse leave event
+  };
+
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
     frontMatter.handleSearch(myKey);
@@ -126,6 +137,7 @@ function JackRyan ({ movie }) {
         <meta property="og:locale" content="en_US" />
 
         <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index,follow"/>
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
@@ -243,12 +255,40 @@ function JackRyan ({ movie }) {
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
+       
           <li>Director: {movie.director}</li>
+
+          <div style={{ display: 'flex', gap: '10px' }}>
+      <img
+        src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688511568/Carlton_Cuse_bu5frp.webp"
+        alt="ali selim Image"
+        style={{ width: '200px', height: 'auto' }}
+      />
+      <img
+        src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688511569/Graham_Roland_rzkdcn.webp"
+        alt="ali selim Image"
+        style={{ width: '200px', height: 'auto' }}
+      />
+    </div>
+    
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
+          <span
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        style={{ cursor: 'pointer' }}
+      >
           <li>Original Network: {movie.Originalnetwork}</li>
+          </span>
+      {isHovered && (
+        <img
+          src="https://images.news18.com/ibnlive/uploads/2021/10/amazon-prime.jpg" // Replace with the actual path or URL of the hover image
+          alt="Disney+ Hover Image"
+          style={{ width: '200px', height: 'auto' }}
+        />
+      )}
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -262,6 +302,7 @@ function JackRyan ({ movie }) {
             In the Movie Jack Ryan Season 4 - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
+          
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -338,7 +379,7 @@ function JackRyan ({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link  {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down1link2} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>

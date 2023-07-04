@@ -9,9 +9,21 @@ import Script from "next/script";
 import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
-function ThePerfectFind({ movie }) {
-  
 
+function Hijack({ movie }) {
+ 
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+    // Additional logic for mouse enter event
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+    // Additional logic for mouse leave event
+  };
+  
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
     frontMatter.handleSearch(myKey);
@@ -109,26 +121,32 @@ function ThePerfectFind({ movie }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
-      <Head>
-        <title>Watch Hijack (2023) Full Movie Online Free | Uwatchfree™</title>
+    <Head>
+        <title>
+          Watch Hijack (2023) Full Movie Online Free | Uwatchfree™
+        </title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-       <meta
+        <meta
           name="keywords"
           content="uwatchfree,hijack movie,hijack 2023,index of hijack movie,hijack cast,hijack trailer,hijack release date,hijack plot,hijack reviews,hijack streaming,hijack watch online,hijack download,hijack full movie,hijack movie download,hijack movie free download,hijack movie online,hijack movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
         <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index,follow"/>
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
           content="Uwatchfree™ | Watch Movies & TV-Series Online Free"
         />
         <meta property="og:type" content="movie" />
-        <meta property="og:title" content="Watch Hijack (2023) | Uwatchfree™" />
+        <meta
+          property="og:title"
+          content="Watch Hijack (2023) | Uwatchfree™"
+        />
         <meta
           property="og:url"
           content="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/Watch-Hijack-EP2-TvSeries"
@@ -148,7 +166,7 @@ function ThePerfectFind({ movie }) {
           name="twitter:title"
           content="Watch Hijack (2023) | Uwatchfree™"
         />
-
+        
         <meta
           name="twitter:image"
           content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
@@ -169,7 +187,7 @@ function ThePerfectFind({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Hijack - Episode 2 ( 2023 )
+            Hijack - Episode 2 ( 2023 ) 
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -195,7 +213,7 @@ function ThePerfectFind({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie Hijack (2023)
+          Listen to Audio Summary The Movie  Hijack (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -208,18 +226,25 @@ function ThePerfectFind({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687891071/u-pdm_ufygpq.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687891071/u-pdm_ufygpq.mp3" />
           </audio>
         </div>
-
-        <div className="flex justify-center">
-          <Link href="../../Hollywood/Hijack-2023/Watch-Hijack-EP1-TvSeries">
-            <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-              Episode 1
-            </button>
-          </Link>
-        </div>
-
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/Hijack-2023/Watch-Hijack-EP2-TvSeries">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 1
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/Hijack-2023/Watch-Hijack-EP3-TvSeries">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 3
+              </button>
+            </Link>
+          </div>
+          </div>
         <Rating />
         <a
           href={movie.link}
@@ -236,11 +261,36 @@ function ThePerfectFind({ movie }) {
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <div style={{ display: 'flex', gap: '10px' }}>
+      <img
+        src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688513222/Jim_Field_Smith_xjpyrm.webp"
+        alt="Jim Field Smith Image"
+        style={{ width: '200px', height: 'auto' }}
+      />
+      <img
+        src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688513222/George_Kay_un5we9.webp"
+        alt="George Kay Image"
+        style={{ width: '200px', height: 'auto' }}
+      />
+    </div>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
+          <span
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        style={{ cursor: 'pointer' }}
+      >
           <li>Original Network: {movie.Originalnetwork}</li>
+          </span>
+      {isHovered && (
+        <img
+          src="https://www.tvguide.com/a/img/resize/3f6b2b975ba12d1456d32768c427c8e86294839d/hub/2020/04/01/ba03581d-400c-4eb7-bb74-23fd1126f941/200331-apple-tv-plus-news.jpg?auto=webp&width=1092" // Replace with the actual path or URL of the hover image
+          alt="Disney+ Hover Image"
+          style={{ width: '200px', height: 'auto' }}
+        />
+      )}
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -251,7 +301,7 @@ function ThePerfectFind({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie Hijack - 2023
+            In the Movie   Hijack - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -335,7 +385,7 @@ function ThePerfectFind({ movie }) {
               Download
             </button>
           </a>
-
+       
           <Max />
 
           <Link href="../../HollywoodAds">
@@ -360,4 +410,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default ThePerfectFind;
+export default Hijack;

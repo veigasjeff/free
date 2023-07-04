@@ -10,9 +10,16 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
+function RideOn ({ movie }) {
+  const [isHovered, setIsHovered] = useState(false);
 
-function TheMachine({ movie }) {
- 
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
   
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -70,9 +77,9 @@ function TheMachine({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " The Machine (2023)",
+          name: " Ride On (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/TheMachine-2023/Watch-The-Machine-Movie",
+            "https://uwatchfree.vercel.app/Hollywood/Raid-On-2023/Watch-Raid-On-2023-Movie",
         },
       ],
     },
@@ -113,7 +120,7 @@ function TheMachine({ movie }) {
       />
     <Head>
         <title>
-          Watch  The Machine (2023) Full Movie Online Free | Uwatchfree™
+          Watch  Ride On (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -121,7 +128,7 @@ function TheMachine({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,the machine movie,the machine 2023,index of the machine movie,the machine cast,the machine trailer,the machine release date,the machine plot,the machine reviews,the machine streaming,the machine watch online,the machine download,the machine full movie,the machine movie download,the machine movie free download,the machine movie online,the machine movie watch online"
+          content="uwatchfree,ride on movie,ride on 2023,index of ride on movie,ride on cast,ride on trailer,ride on release date,ride on plot,ride on reviews,ride on streaming,ride on watch online,ride on download,Ride On full movie,ride on movie download,ride on movie free download,ride on movie online,ride on movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -135,15 +142,15 @@ function TheMachine({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch The Machine (2023) | Uwatchfree™"
+          content="Watch Ride On (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/TheMachine-2023/Watch-The-Machine-Movie"
+          content="https://uwatchfree.vercel.app/Hollywood/Raid-On-2023/Watch-Raid-On-2023-Movie"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612249/THE-MACHINE-2023_fk9iqh.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/v1688158915/Ride-On-2023_qboeqz.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -154,20 +161,20 @@ function TheMachine({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch The Machine (2023) | Uwatchfree™"
+          content="Watch Ride On (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612249/THE-MACHINE-2023_fk9iqh.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/v1688158915/Ride-On-2023_qboeqz.webp"
         />
         <meta
           name="description"
-          content="Watch The Machine Full Movie Online on Uwatchfree™, You can also download  The Machine (2023) in full HD quality to watch later offline."
+          content="Watch Ride On Full Movie Online on Uwatchfree™, You can also download  Ride On (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/TheMachine-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Raid-On-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -176,7 +183,7 @@ function TheMachine({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            The Machine - 2023
+            Ride On - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -202,7 +209,7 @@ function TheMachine({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  The Machine (2023)
+          Listen to Audio Summary The Movie  Ride On (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -215,11 +222,12 @@ function TheMachine({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687776516/The_Machine_phtgw6.mp3" />
+           <source src="https://ik.imagekit.io/gmcl6xvq6/RIDE_ON_Trailer.mp4?updatedAt=1688158872009" />
           </audio>
         </div>
      
         <Rating />
+        <div className="flex justify-center space-x-4 ">
         <a
           href={movie.link}
           className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
@@ -227,19 +235,54 @@ function TheMachine({ movie }) {
         >
           IMDb Rating: {movie.rating}
         </a>
+        <a
+          href={movie.link2}
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+          target="_blank"
+        >
+          Wikipedia
+        </a>
+     
 
+        </div>
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
           <li>Year of release: {movie.yearRelease}</li>
+
           <li>Director: {movie.director}</li>
+     
+          <Image
+          src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688508800/larry_yang_rlyddt.webp" // Replace with the actual path or URL of the hover image
+          alt="Dlarry yang Image"
+          className="smoke-image"
+          style={{ width: '200px', height: 'auto' }}
+        />
+        
+     
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
+        
+      <span
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        style={{ cursor: 'pointer' }}
+      >
           <li>Original Network: {movie.Originalnetwork}</li>
+          
+      </span>
+      {isHovered && (
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/5/51/ShanghaiFilmGroup.jpg" // Replace with the actual path or URL of the hover image
+          alt="Disney+ Hover Image"
+          style={{ width: '200px', height: 'auto' }}
+        />
+      )}
+ 
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -250,7 +293,7 @@ function TheMachine({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie   The Machine - 2023
+            In the Movie Ride On - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -327,14 +370,14 @@ function TheMachine({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link  {movie.name}
+            Link {movie.name}
           </h3>
           <a href={movie.down1link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-    
+       
           <Max />
 
           <Link href="../../HollywoodAds">
@@ -351,7 +394,7 @@ function TheMachine({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX04");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX15");
   return {
     props: {
       movie: selectedMovie,
@@ -359,4 +402,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default TheMachine;
+export default RideOn;
