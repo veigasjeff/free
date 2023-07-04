@@ -247,12 +247,7 @@ const LandingPage = () => {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
-        <h1
-          className="text-center font-bold text-3xl  py-5"
-          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
-        >
-          Uwatchfree™ - Watch Movies Tv Series & Sports Live.{" "}
-        </h1>
+       
 
         <section className="box">
         <BackgroundVideo  
