@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Head from "next/head";
 import BackgroundVideo from "../components/BackgroundVideo";
 import ShareButtons from "@components/ShareButtons";
-import { Image } from "cloudinary-react";
+import BackgroundMusic from "@components/BackgroundMusic";
 
 const scrollSearch = (myKey) => {
   window.scrollTo(0, 0);
@@ -95,6 +95,7 @@ const LandingPage = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <Head>
+       
         <title>
           Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free
         </title>
@@ -240,14 +241,19 @@ const LandingPage = () => {
       </Head>
       <div className="bg-gray-600 shadow ">
       
-
+      <BackgroundMusic />
         <ShareButtons
           url="https://uwatchfree.vercel.app"
           title="Watch Movies, TV-Series & Sports Live Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
-       
+        <h1
+          className="text-center font-bold text-3xl  py-5"
+          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+        >
+          Uwatchfree™ - Watch Movies Tv Series & Sports Live.{" "}
+        </h1>
 
         <section className="box">
         <BackgroundVideo  
