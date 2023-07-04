@@ -15,11 +15,11 @@ const BackgroundMusic = () => {
     document.addEventListener("click", handleClick);
 
     if (isPlaying) {
+      audio.loop = true; // Enable looping
       audio.play().catch((error) => {
         // Autoplay was prevented, handle the error here
         console.error("Autoplay was prevented:", error);
       });
-      audio.loop = true; // Enable looping
     } else {
       audio.pause();
       audio.currentTime = 0; // Reset the audio to the beginning
