@@ -38,8 +38,8 @@
     "link": "https://www.imdb.com/title/tt6528290/",
     "link2": "https://en.wikipedia.org/wiki/Knights_of_the_Zodiac_(film)",
 
-    "movie.watch": "../../Hollywood/Knights-of-the-Zodiac-2023/Watch-Knights-of-the-Zodiac-Movie",
-    "movie.A1": "../../Hollywood/Knights-of-the-Zodiac-2023/Watch-Knights-of-the-Zodiac-2023-Movie",
+    "movie.watch": "../../Hollywood/Knights-of-the-Zodiac-2023/Knights-of-the-Zodiac",
+    "movie.A1": "../../Hollywood/Knights-of-the-Zodiac-2023/DownloadKnights-of-the-Zodiac",
 
     "movie.watchP1": "https://sblona.com/e/uwscqk2fvzl0.html",
  
@@ -74,8 +74,8 @@
     "link": "https://www.imdb.com/title/tt15340206/",
     "link2": "#",
 
-    "movie.watch": "../../Hollywood/Resurrected-2023/Watch-Resurrected-Movie",
-    "movie.A1": "../../Hollywood/Resurrected-2023/Watch-Resurrected-2023-Movie",
+    "movie.watch": "../../Hollywood/Resurrected-2023/Resurrected",
+    "movie.A1": "../../Hollywood/Resurrected-2023/DownloadResurrected",
 
     "movie.watchP1": "https://sblona.com/e/3vl2wcqngr0r.html",
  
@@ -110,8 +110,8 @@
     "link": "https://www.imdb.com/title/tt16970906/",
     "link2": "#",
 
-    "movie.watch": "../../Hollywood/Sheroes-2023/Watch-Sheroes-Movie",
-    "movie.A1": "../../Hollywood/Sheroes-2023/Watch-Sheroes-2023-Movie",
+    "movie.watch": "../../Hollywood/Sheroes-2023/Sheroes",
+    "movie.A1": "../../Hollywood/Sheroes-2023/DownloadSheroes",
 
     "movie.watchP1": "https://sblona.com/e/6nb5zz9v3ea0.html",
  
@@ -146,8 +146,8 @@
     "link": "https://www.imdb.com/title/tt21106970/",
     "link2": "https://en.wikipedia.org/wiki/Daughter_of_the_Bride",
 
-    "movie.watch": "../../Hollywood/Daughter-of-the-Bride-2023/Watch-Daughter-of-the-Bride-Movie",
-    "movie.A1": "../../Hollywood/Daughter-of-the-Bride-2023/Watch-Daughter-of-the-Bride-2023-Movie",
+    "movie.watch": "../../Hollywood/Daughter-of-the-Bride-2023/DaughteroftheBride",
+    "movie.A1": "../../Hollywood/Daughter-of-the-Bride-2023/DownloadDaughteroftheBride",
 
     "movie.watchP1": "https://sblona.com/e/z9kygx108uvj.html",
  
@@ -182,8 +182,8 @@
     "link": "https://www.imdb.com/title/tt21391242/",
     "link2": "#",
 
-    "movie.watch": "../../Hollywood/Confidential-Informant-2023/Watch-Confidential-Informant-Movie",
-    "movie.A1": "../../Hollywood/Confidential-Informant-2023/Watch-Confidential-Informant-2023-Movie",
+    "movie.watch": "../../Hollywood/Confidential-Informant-2023/Confidential-Informant",
+    "movie.A1": "../../Hollywood/Confidential-Informant-2023/DownloadConfidential-Informant",
 
     "movie.watchP1": "https://sblona.com/e/jg1qgcf7jbrj.html",
  
@@ -218,8 +218,8 @@
     "link": "https://www.imdb.com/title/tt13157618/",
     "link2": "https://en.wikipedia.org/wiki/Secret_Invasion_(TV_series)",
 
-    "movie.watch": "../../Hollywood/Secret-Invasion-2023/Watch-Secret-Invasion-S1-TvSeries",
-    "movie.A1": "../../Hollywood/Secret-Invasion-2023/Watch-Secret-Invasion-S1-2023-TvSeries",
+    "movie.watch": "../../Hollywood/Secret-Invasion-2023/Secret-Invasion-S1-EP1",
+    "movie.A1": "../../Hollywood/Secret-Invasion-2023/DownloadSecret-Invasion-S1-EP1",
 
     "movie.watchP1": "https://sblona.com/e/2vwv6qqymqgj.html",
     "movie.watchP2": "https://sblona.com/e/5z4vbimbhxg9.html",
@@ -256,8 +256,8 @@
     "link": "https://www.imdb.com/title/tt15430628/",
     "link2": "https://en.wikipedia.org/wiki/Ride_On_(film)",
 
-    "movie.watch": "../../Hollywood/Raid-On-2023/Watch-Raid-On-Movie",
-    "movie.A1": "../../Hollywood/Raid-On-2023/Watch-Raid-On-2023-Movie",
+    "movie.watch": "../../Hollywood/Raid-On-2023/Raid-On",
+    "movie.A1": "../../Hollywood/Raid-On-2023/DownloadRaid-On",
 
     "movie.watchP1": "https://sblona.com/e/iozd6ycpsnp2.html",
   
@@ -291,8 +291,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt5057054/",
 
-    "movie.watch": "../../Hollywood/JackRayan-2023/Watch-Jack-Ryan-Ep1-TvSeries",
-    "movie.A1": "../../Hollywood/JackRayan-2023/Watch-Jack-Ryan-Ep1-2023-TvSeries",
+    "movie.watch": "../../Hollywood/JackRayan-2023/JackRyan-EP1",
+    "movie.A1": "../../Hollywood/JackRayan-2023/DownloadJackRyan-EP1",
 
     "movie.watchP1": "https://sblona.com/e/q8g2qiko70m6.html",
     "movie.watchP2": "https://sblona.com/e/vmkki8xgbm9j.html",
@@ -308,7 +308,7 @@
   {
     "id": "INDEX13",
     "title": "HIJACK  ",
-    "name": "Download Hijack  (2023)",
+    "name": "Download Hijack (2023)",
     "poster": "https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp",
     "banner": "https://res.cloudinary.com/dezf3wemk/image/upload/c_fill,g_auto,e_sharpen,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.10/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Download%20Now,w_0.3,y_0.35/v1688158914/Hijack-2023_parekf.webp",
     "yearRelease": 2023,
@@ -328,8 +328,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt19854762/",
 
-    "movie.watch": "../../Hollywood/Hijack-2023/Watch-Hijack-EP1-TvSeries",
-    "movie.A1": "../../Hollywood/Hijack-2023/Watch-Watch-Hijack-EP1-2023-TvSeries",
+    "movie.watch": "../../Hollywood/Hijack-2023/Hijack-EP1",
+    "movie.A1": "../../Hollywood/Hijack-2023/DownloadHijack-EP1",
 
     "movie.watchP1": "https://sblona.com/e/tn7z3aynwn50.html",
     "movie.watchP2": "https://sblona.com/e/s885p45s7b7p.html",
@@ -368,8 +368,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt12915716/",
 
-    "movie.watch": "../../Bollywood/Adipurush-2023/Watch-Adipurush-Movie",
-    "movie.A1": "../../Bollywood/Adipurush-2023/Watch-Adipurush-2023-Movie",
+    "movie.watch": "../../Bollywood/Adipurush-2023/Adipurush",
+    "movie.A1": "../../Bollywood/Adipurush-2023/DownloadAdipurush",
     "movie.watchP1": "https://sblona.com/e/9frhaytzwukv.html",
    
     "down1link1": "https://sblona.com/d/9frhaytzwukv.html",
@@ -402,8 +402,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt28100421/",
 
-    "movie.watch": "../../Bollywood/MaukaYaDhoka-2023/Watch-Mauka-Ya-Dhoka-Movie",
-    "movie.A1": "../../Bollywood/MaukaYaDhoka-2023/Watch-Mauka-Ya-Dhoka-2023-Movie",
+    "movie.watch": "../../Bollywood/MaukaYaDhoka-2023/MaukaYaDhoka",
+    "movie.A1": "../../Bollywood/MaukaYaDhoka-2023/DownloadMaukaYaDhoka",
     "movie.watchP1": "https://sblona.com/e/hqwpkdgpgroe.html",
    
     "down1link1": "https://sblona.com/d/hqwpkdgpgroe.html",
@@ -437,8 +437,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt28096139/",
 
-    "movie.watch": "../../Adult/LadiesTailor-2023/Watch-Ladies-Tailor-Movie",
-    "movie.A1": "../../Adult/LadiesTailor-2023/Watch-Ladies-Tailor-2023-Movie",
+    "movie.watch": "../../Adult/LadiesTailor-2023/LadiesTailor",
+    "movie.A1": "../../Adult/LadiesTailor-2023/DowmloadLadiesTailor",
    
     "movie.watchP1": "https://sblona.com/e/cukkf79g36nb.html",
    
@@ -472,8 +472,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt28057495/",
 
-    "movie.watch": "../../Adult/Tohfa-2023/Watch-Tohfa-EP1-Movie",
-    "movie.A1": "../../Adult/Tohfa-2023/Watch-Tohfa-EP1-2023-Movie",
+    "movie.watch": "../../Adult/Tohfa-2023/Tohfa-EP1",
+    "movie.A1": "../../Adult/Tohfa-2023/DownloadTohfa-EP1",
     "movie.watchP1": "https://sblona.com/e/sbha2n27daqg.html",
     "movie.watchP2": "https://sblona.com/e/obf5x3wksj10.html",
    
@@ -509,8 +509,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt27912053/",
 
-    "movie.watch": "../../Adult/Hosto-2023/Watch-Hosto-Movie",
-    "movie.A1": "../../Adult/Hosto-2023/Watch-Hosto-2023-Movie",
+    "movie.watch": "../../Adult/Hosto-2023/Hosto",
+    "movie.A1": "../../Adult/Hosto-2023/DownloadHosto",
     "movie.watchP1": "https://sblona.com/e/w2g1dk1pn41z.html",
    
     "movie.watchSR1": "https://dooood.com/e/6la5sy6mkiee",
@@ -544,8 +544,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt27925161/",
 
-    "movie.watch": "../../Adult/Hilom-2023/Watch-Hilom-Movie",
-    "movie.A1": "../../Adult/Hilom-2023/Watch-Hilom-2023-Movie",
+    "movie.watch": "../../Adult/Hilom-2023/Hilom",
+    "movie.A1": "../../Adult/Hilom-2023/DownloadHilom",
     "movie.watchP1": "https://sblona.com/e/koudq3kor3h7.html",
    
     "down1link1": "https://sblona.com/d/koudq3kor3h7.html",
@@ -578,8 +578,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt24072236/",
 
-    "movie.watch": "../../Hollywood/PocketDialMurder-2023/Watch-Pocket-Dial-Murder-Movie",
-    "movie.A1": "../../Hollywood/PocketDialMurder-2023/Watch-Pocket-Dial-Murder-2023-Full-Movie-Online",
+    "movie.watch": "../../Hollywood/PocketDialMurder-2023/Pocket-Dial-Murder",
+    "movie.A1": "../../Hollywood/PocketDialMurder-2023/DownloadPocket-Dial-Murder",
     "movie.watchP1": "https://sblona.com/e/cgiqapgj9l3p.html",
 
     "down1link1": "https://sblona.com/d/cgiqapgj9l3p.html",
@@ -612,8 +612,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt8400584/",
 
-    "movie.watch": "../../Hollywood/ThePerfectFind-2023/Watch-The-Perfect-Find-Movie",
-    "movie.A1": "../../Hollywood/ThePerfectFind-2023/Watch-The-Perfect-Find-2023-Movie",
+    "movie.watch": "../../Hollywood/ThePerfectFind-2023/The-Perfect-Find",
+    "movie.A1": "../../Hollywood/ThePerfectFind-2023/DownloadThe-Perfect-Find",
     "movie.watchP1": "https://sblona.com/e/svg9r4zymqt1.html",
 
     "down1link1": "https://sblona.com/d/svg9r4zymqt1.html",
@@ -646,8 +646,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt11040844/",
 
-    "movie.watch": "../../Hollywood/TheMachine-2023/Watch-The-Machine-Movie",
-    "movie.A1": "../../Hollywood/TheMachine-2023/Watch-The-Machine-2023-Movie",
+    "movie.watch": "../../Hollywood/TheMachine-2023/The-Machine",
+    "movie.A1": "../../Hollywood/TheMachine-2023/DownloadThe-Machine",
     "movie.watchP1": "https://sblona.com/e/bwud2zqr9lg5.html",
 
     "down1link1": "https://sblona.com/d/bwud2zqr9lg5.html",
@@ -680,8 +680,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt12263384/",
 
-    "movie.watch": "../../Hollywood/Extraction2-2023/Watch-Extraction-2-Movie",
-    "movie.A1": "../../Hollywood/Extraction2-2023/Watch-Extraction-2-2023-Movie",
+    "movie.watch": "../../Hollywood/Extraction2-2023/Extraction-2",
+    "movie.A1": "../../Hollywood/Extraction2-2023/DownloadExtraction-2",
     "movie.watchP1": "https://sblona.com/e/pewadmz8f98a.html",
 
     "down1link1": "https://sblona.com/d/pewadmz8f98a.html",
@@ -714,8 +714,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt27501039/",
 
-    "movie.watch": "../../Bollywood/bloodydaddy-2023/Watch-Bloody-Daddy-2023-Full-Movie-Online",
-    "movie.A1": "../../Bollywood/bloodydaddy-2023/Watch-Bloody-Daddy-2023-Movie",
+    "movie.watch": "../../Bollywood/bloodydaddy-2023/Bloody-Daddy",
+    "movie.A1": "../../Bollywood/bloodydaddy-2023/DownloadBloody-Daddy",
     "movie.watchP1": "https://sblona.com/e/rqu66x7m461t.html",
 
     "down1link1": "https://sblona.com/d/rqu66x7m461t.html",
@@ -748,8 +748,8 @@
     "status": "New Movie",
     "link": "https://www.imdb.com/title/tt21883062/",
 
-    "movie.watch": "../../Bollywood/ModernLoveChennai-2023/Watch-Movie-Modern-Love-Chennai",
-    "movie.A1": "../../Bollywood/ModernLoveChennai-2023/Watch-Movie-Modern-Love-Chennai-2023",
+    "movie.watch": "../../Bollywood/ModernLoveChennai-2023/ModernLoveChennai",
+    "movie.A1": "../../Bollywood/ModernLoveChennai-2023/DownloadModernLoveChennai",
     "movie.watchP1": "https://sblona.com/e/cdx839wxmpd1.html",
 
     "down1link1": "https://sblona.com/d/cdx839wxmpd1.html",
