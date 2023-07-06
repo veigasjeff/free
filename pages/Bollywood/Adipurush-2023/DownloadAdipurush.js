@@ -233,9 +233,73 @@ function Adipurush({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+              <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://static.joonsite.com/seelatest/topic/kirti-sanon.jpg"
+                alt="Kriti Sanon Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Kriti Sanon."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://static.joonsite.com/seelatest/topic/saif-ali-khan.jpg"
+                alt="Saif Ali Khan Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Saif Ali Khan."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://raaga.gumlet.io/raagaimg/r_img/catalog/a/%7B955414c1-f67b-41c0-b5ac-dd4fbb0c1152%7D.jpg?w=200&dpr=2.6"
+                alt="Prabhas Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Prabhas."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/serialimages/03-11-2018/devdatta-nage.jpg"
+                alt="Devdutta Nage Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Devdutta Nage."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/15-03-2017/vatsal-sheth.jpg"
+                alt="Vatsal Sheth Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Vatsal Sheth."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BYjlmYTZkNTUtOWU5ZC00ODMzLThkNGYtMTQ2Nzg0ZWY1M2M5XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg"
+                alt="Om Raut Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Om Raut."
+              />
+            </div>
+          </a>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -317,6 +381,33 @@ function Adipurush({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

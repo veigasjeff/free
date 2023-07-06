@@ -222,7 +222,7 @@ function DaughteroftheBride ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/Resurrected___Trailer___Movie__2023.mp4?updatedAt=1688158874512" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688680294/Resurrected_vts1or.mp3" />
           </audio>
         </div>
      
@@ -249,16 +249,75 @@ function DaughteroftheBride ({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+       <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://phillyjfm.org/wp-content/uploads/2021/05/Dave-Davis-scaled-1.jpeg"
+                alt="Dave Davis Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Dave Davis."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BOWM3YWU2NjgtOTE5Ni00YjBiLWEzYmUtZDdjMTUzYmQ4NDVmXkEyXkFqcGdeQXVyNTYyNjExOTY@._V1_FMjpg_UX1000_.jpg"
+                alt="Luke Adams Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Luke Adams."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.weaudition.com/upload/userprofiles/thumbnail/wr_12081.jpeg"
+                alt="Carolyn Alise Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Carolyn Alise."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BMTQ3NzEyODMxOV5BMl5BanBnXkFtZTYwODM4MDAz._V1_.jpg"
+                alt="Steven Lee Allen Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Steven Lee Allen."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BOTYxODA0ZWMtOTdkMi00NjVlLTljNjktYjMyMGVkOTJjNTkzXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg"
+                alt="Ilca Andrade Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ilca Andrade."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
 
           <li>Director: {movie.director}</li>
      
-          <Image
-          src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688521528/Egor_Baranov_llcsof.webp" // Replace with the actual path or URL of the hover image
-          alt="Egor Baranov Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
+            <a href="https://en.wikipedia.org/wiki/Egor_Baranov">
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w235_and_h235_face/yErbByP5EtLVlHFUnNax0aWQAYt.jpg"
+                alt="Egor Baranov Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Egor Baranov."
+              />
+            </div>
+          </a>
         
      
           <li>Country of origin: {movie.country}</li>
@@ -358,6 +417,33 @@ function DaughteroftheBride ({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

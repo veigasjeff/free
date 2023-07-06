@@ -258,20 +258,87 @@ function Hijack({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+               <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://multifiles.pressherald.com/uploads/sites/4/2018/11/1657234_People_Sexiest_Man_Alive_81-e1541545774238-250x250.jpg"
+                alt="Idris Elba Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Idris Elba."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Neil_Maskell_2022.png"
+                alt="Neil Maskell Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Neil Maskell."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://ntvb.tmsimg.com/assets/assets/81959_v9_bb.jpg"
+                alt="Max Beesley Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Max Beesley."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://cdn-media.backstage.com/files/media/edit/image/41605/original.jpg"
+                alt="Ben Miles Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ben Miles."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://babblevoices.com/wp-content/uploads/2019/02/hammarlund-1.png"
+                alt="Kaisa Hammarlund Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Kaisa Hammarlund."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
           <div style={{ display: 'flex', gap: '10px' }}>
-      <img
-        src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688513222/Jim_Field_Smith_xjpyrm.webp"
-        alt="Jim Field Smith Image"
-        style={{ width: '200px', height: 'auto' }}
-      />
-      <img
-        src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688513222/George_Kay_un5we9.webp"
-        alt="George Kay Image"
-        style={{ width: '200px', height: 'auto' }}
-      />
+
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/jim-field-smith.png"
+                alt="Jim Field Smith Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Jim Field Smith."
+              />
+            </div>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/George_Kay_(writer)">
+            <div className="circle">
+              <Image
+                src="https://api.curtisbrown.co.uk/media/60937/show/square"
+                alt="George Kay Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="George Kay."
+              />
+            </div>
+          </a>
     </div>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
@@ -367,6 +434,33 @@ function Hijack({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

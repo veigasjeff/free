@@ -222,7 +222,7 @@ function DaughteroftheBride ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/Sheroes_Trailer__2023_.mp4?updatedAt=1688158873375" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688676657/Sheroes_wkqq2z.mp3" />
           </audio>
         </div>
      
@@ -249,17 +249,75 @@ function DaughteroftheBride ({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+       <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://i.pinimg.com/originals/b8/f2/77/b8f277c3b29a9d11b72121a02ff15993.jpg"
+                alt="Isabelle Fuhrman Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Isabelle Fuhrman."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://worldfilmgeek.files.wordpress.com/2017/10/luss-1.jpg?w=816"
+                alt="Sasha Luss Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Sasha Luss."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://ntvb.tmsimg.com/assets/assets/911215_v9_bb.jpg"
+                alt="Wallis Day Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Wallis Day."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/08-08-2020/skai-jackson.jpg"
+                alt="Skai Jackson Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Skai Jackson."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://celebrityxyz.com/i/p/33.jpg"
+                alt="Jack Kesy Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Jack Kesy."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
 
           <li>Director: {movie.director}</li>
      
-          <Image
-          src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688519990/Jordan_Gertner_upvwcg.webp" // Replace with the actual path or URL of the hover image
-          alt="Michael Oblowitz Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
-        
+            <a href="https://www.imdb.com/name/nm0314976/">
+            <div className="circle">
+              <Image
+                src="https://images.mubicdn.net/images/cast_member/134398/cache-102498-1416744178/image-w856.jpg?size=800x"
+                alt="Jordan Gertner Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Jordan Gertner."
+              />
+            </div>
+          </a>
      
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
@@ -358,6 +416,33 @@ function DaughteroftheBride ({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

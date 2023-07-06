@@ -232,8 +232,72 @@ function TheMachine({ movie }) {
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://photos.bandsintown.com/thumb/8824640.jpeg"
+                alt="Bert Kreischer Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Bert Kreischer."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/6/68/Mark_Hamill_by_Gage_Skidmore_2.jpg"
+                alt="Mark Hamill Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Mark Hamill."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BNzQwOWQ0ODUtNjJlNC00OTE4LThjNjAtZDIzZWM0ZGY2ZWRlXkEyXkFqcGdeQXVyNDA4NzYyNTc@._V1_FMjpg_UX1000_.jpg"
+                alt="Jimmy Tatro Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Jimmy Tatro."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BZWIxZmU5MWItNGMzNi00NTdhLTlkZWEtN2QwZTAxYTUxMDgyXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL75_UY207_CR25,0,140,207_.jpg"
+                alt="Iva Babic Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Iva Babic."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4n63pldKSqNUGtMgDBdxKphUGkGOBbfsmI1xFd8OqtFslyLbS0_lrWa4zNnU_-yS8BNWHBF1KgX-l6GdzJXLDFJkSB-AuI_Cf8uKDGPwox3cbaC38MtI0917SeRAGe4apczeEgR-TB47PPp_snB6TWuHSzzzvjfdfQWjHJ0m8Ar2Dp4yB71Zg68bsIA/s887/Robert%20Maaser.png"
+                alt="Robert Maaser Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Robert Maaser."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <a href="https://en.wikipedia.org/wiki/Peter_Atencio">
+            <div className="circle">
+              <Image
+                src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/peter-atencio-1061106-24-03-2017-16-20-54.jpg"
+                alt="Peter Atencio Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Peter Atencio."
+              />
+            </div>
+          </a>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -315,6 +379,33 @@ function TheMachine({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

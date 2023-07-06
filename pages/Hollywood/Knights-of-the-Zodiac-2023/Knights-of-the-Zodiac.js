@@ -222,7 +222,7 @@ function DaughteroftheBride ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/KNIGHTS_OF_THE_ZODIAC__2023__Official_Trailer.mp4?updatedAt=1688158872615" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688682700/Knights_of_the_Zodiac_wyi6d6.mp3" />
           </audio>
         </div>
      
@@ -250,16 +250,74 @@ function DaughteroftheBride ({ movie }) {
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://asianwiki.com/images/2/20/Mackenyu_Arata-1996-p1.jpg"
+                alt="Mackenyu Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Mackenyu."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/famke-janssen.jpg"
+                alt="Famke Janssen Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Famke Janssen."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.fromthemovie.com/wp-content/uploads/2017/07/Madison-Iseman.jpg"
+                alt="Madison Iseman Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Madison Iseman."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Diego_Tinoco_by_Gage_Skidmore.jpg/1200px-Diego_Tinoco_by_Gage_Skidmore.jpg"
+                alt="Diego Tinoco Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Diego Tinoco."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Mark_Dacascos_cropped.jpg/440px-Mark_Dacascos_cropped.jpg"
+                alt="Mark Dacascos Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Mark Dacascos."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
 
           <li>Director: {movie.director}</li>
      
-          <Image
-          src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688523096/Adam_Werth_zg48ip.webp" // Replace with the actual path or URL of the hover image
-          alt="Adam Werth Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
-        
+                 <a href="https://en.wikipedia.org/wiki/Tomasz_Bagi%C5%84ski">
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Tomasz_Bagi%C5%84ski_2016.jpg/800px-Tomasz_Bagi%C5%84ski_2016.jpg"
+                alt="Tomasz Baginski Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Tomasz Baginski."
+              />
+            </div>
+          </a>
      
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
@@ -358,6 +416,33 @@ function DaughteroftheBride ({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

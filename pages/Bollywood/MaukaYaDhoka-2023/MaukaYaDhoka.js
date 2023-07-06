@@ -232,8 +232,72 @@ function MaukaYaDhoka({ movie }) {
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/24-06-2017/gunjan-walia.jpg?w=250"
+                alt="Samiksha Bhatnagar Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Samiksha Bhatnagar."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/serialimages/23-03-2017/himmanshoo-a.-malhotra.jpg"
+                alt="Himanshu Malhotra Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Himanshu Malhotra."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/serialimages/26-03-2017/abhaas-mehta.jpg"
+                alt="Abhaas Mehta Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Abhaas Mehta."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/17-08-2022/sapna-choubisa.png"
+                alt="Sapna Choubisa Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Sapna Choubisa."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/02-03-2017/narendra-gupta.jpg"
+                alt="Narendra Gupta Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Narendra Gupta."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w235_and_h235_face/e9ylFgYG5vREAL1sQG7sZbjcKsh.jpg"
+                alt="Deepakk Sunil Prasadh Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Deepakk Sunil Prasadh."
+              />
+            </div>
+          </a>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -315,6 +379,33 @@ function MaukaYaDhoka({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

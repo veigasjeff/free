@@ -204,7 +204,7 @@ function ModernLoveChennai({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie Bloody Daddy (2023)
+          Listen to Audio Summary Modern Love Chennai (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -234,9 +234,73 @@ function ModernLoveChennai({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+              <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://cdn.filmytoday.com/attachments/albums/dps/27762.jpg"
+                alt="Wamiqa Gabbi Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Wamiqa Gabbi."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/22-07-2019/ritu-varma.jpg"
+                alt="Ritu Varma Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ritu Varma."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://static.joonsite.com/seelatest/topic/ashok-selvan.jpg"
+                alt="Ashok Selvan Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ashok Selvan."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://labuwiki.com/wp-content/uploads/2021/01/34-9.jpg"
+                alt="Vijayalakshmi Ahathian Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Vijayalakshmi Ahathian."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w500/wELDWbkz4esndy1ZTe82vcNOV4U.jpg"
+                alt="Sri Gouri Priya Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Sri Gouri Priya."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w235_and_h235_face/1Q827qAGjW4OL8v1F5XcOZyvKry.jpg"
+                alt="Thiagarajan Kumararaja Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Thiagarajan Kumararaja."
+              />
+            </div>
+          </a>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -318,6 +382,33 @@ function ModernLoveChennai({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

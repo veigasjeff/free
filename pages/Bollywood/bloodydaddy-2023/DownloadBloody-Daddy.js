@@ -232,9 +232,73 @@ function BloodyDaddy({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+    <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://qt.azureedge.net/resources/authors-images-large/shahid-kapoor.jpg"
+                alt="Shahid Kapoor Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Shahid Kapoor."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.filmibeat.com/img/162x203/popcorn/profile_photos/amy-aela-20221116123602-52695.jpg"
+                alt="Amy Aela Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Amy Aela."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BMWUzNGNlYzMtM2E3NC00NjE0LWEwYTYtMTZhY2ZkOTk3YTM2XkEyXkFqcGdeQXVyMjIwMDc1Mzk@._V1_.jpg"
+                alt="Ankur Bhatia Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ankur Bhatia."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/05-07-2017/diana-penty.jpg"
+                alt="Diana Penty Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Diana Penty."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://cdn.riffre.com/filmbees/wallpapers/2014/12/15/5106/mobile/Ronit-Roy-5106.jpg"
+                alt="Ronit Roy Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ronit Roy."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle">
+              <Image
+                src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ali-abbas-zafar-21198-26-10-2018-11-53-38.jpg"
+                alt="Ali Abbas Zafar Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ali Abbas Zafar."
+              />
+            </div>
+          </a>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -316,6 +380,33 @@ function BloodyDaddy({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

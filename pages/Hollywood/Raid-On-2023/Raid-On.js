@@ -222,7 +222,7 @@ function RideOn ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/RIDE_ON_Trailer.mp4?updatedAt=1688158872009" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688666187/RaidOn_xb2hax.mp3" />
           </audio>
         </div>
      
@@ -250,17 +250,76 @@ function RideOn ({ movie }) {
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://static.joonsite.com/seelatest/topic/jackie-chan.jpg"
+                alt="Jackie Chan Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Jackie Chan."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://i.mydramalist.com/Xm8jp_5f.jpg"
+                alt="Haocun Liu Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Haocun Liu."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w500/oyxYBdzbbWl7xPVRH0rhMZoWmqa.jpg"
+                alt="Kevin Guo Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Kevin Guo."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w500/1Cb35zqOHyfwaqljbSJo3Fi6Jdo.jpg"
+                alt="Yueting Lang Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Yueting Lang."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BMjIzMTlhMTAtMTRjNi00NDI3LWJjZGMtMzcyNGJhODQ0OTEyXkEyXkFqcGdeQXVyNjk1MjYyNTA@._V1_.jpg"
+                alt="Andy On Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Andy On."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
-
           <li>Director: {movie.director}</li>
-     
-          <Image
-          src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688508800/larry_yang_rlyddt.webp" // Replace with the actual path or URL of the hover image
-          alt="Dlarry yang Image"
-          className="smoke-image"
-          style={{ width: '200px', height: 'auto' }}
-        />
+          <div style={{ display: 'flex', gap: '10px' }}>
+
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle">
+              <Image
+                src="https://wisdomexperience.org/wp-content/uploads/2018/10/Larry-Yang-1.jpg"
+                alt="Larry Yang Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Larry Yang."
+              />
+            </div>
+          </a>
         
+    </div>       
      
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
@@ -359,6 +418,33 @@ function RideOn ({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

@@ -222,7 +222,7 @@ function RideOn ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/Secret_Invasion___Official_Trailer.mp4?updatedAt=1688158871955" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688668483/Secret_Invasion_snchpq.mp3" />
           </audio>
         </div>
         <div className="flex justify-center">
@@ -255,15 +255,76 @@ function RideOn ({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+     <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://cdn.riffre.com/filmbees/wallpapers/2014/12/16/5120/mobile/Samuel-L.-Jackson-5120.jpg"
+                alt="Samuel L. Jackson Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Samuel L. Jackson."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://static.joonsite.com/seelatest/topic/ben-mendelsohn.jpg"
+                alt="Ben Mendelsohn Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ben Mendelsohn."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-avengers/6/64/CS.jpg"
+                alt="Cobie Smulders Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Cobie Smulders."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://hips.hearstapps.com/hmg-prod/images/olivia-colman-attends-a-screening-of-the-lobster-during-the-bfi-london-film-festival-at-vue-west-end-on-october-13-2015-in-london-england-photo-by-mike-marsland_wireimage-2.jpg"
+                alt="Olivia Colman Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Olivia Colman."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Emilia_Clarke_Dior_Rose_des_Vents.jpg/640px-Emilia_Clarke_Dior_Rose_des_Vents.jpg"
+                alt="Emilia Clarke Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Emilia Clarke."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
+          
           <li>Director: {movie.director}</li>
-        
-        <img
-          src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688508428/ali_selim_director_no5nyh.webp" // Replace with the actual path or URL of the hover image
-          alt="ali selim Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
+     
+     
+          <a href="https://en.wikipedia.org/wiki/Ali_Selim">
+            <div className="circle">
+              <Image
+                src="https://images.mubicdn.net/images/cast_member/106368/cache-524256-1584555866/image-w856.jpg"
+                alt="Ali Selim Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ali Selim."
+              />
+            </div>
+          </a>
     
 
           <li>Country of origin: {movie.country}</li>
@@ -363,6 +424,33 @@ function RideOn ({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

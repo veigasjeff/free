@@ -233,9 +233,75 @@ function ThePerfectFind({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+       <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://cps-static.rovicorp.com/2/Open/Getty/Gabrielle%20Union/_derived_jpg_q90_310x470_m0/91080873.jpg"
+                alt="Gabrielle Union Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Gabrielle Union."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/15-04-2021/keith-powers.jpg"
+                alt="Keith Powers Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Keith Powers."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://qt.azureedge.net/resources/authors-images-large/gina-torres.jpg"
+                alt="Gina Torres Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Gina Torres."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BNTA1MDA3NTUxM15BMl5BanBnXkFtZTcwMzU5Njc4OQ@@._V1_.jpg"
+                alt="La La Anthony Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="La La Anthony."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.tvguide.com/a/img/resize/eed8a8d4ab268863656dd2eef37b4af9234843a7/catalog/provider/10/9/10-159A3AC7-ED2D-4724-A954-1B72CB29F119.png?auto=webp&fit=crop&height=300&width=200"
+                alt="Aisha Hinds Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Aisha Hinds."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <div style={{ display: 'flex', gap: '10px' }}>
+          <a href="https://en.wikipedia.org/wiki/George_Kay_(writer)">
+            <div className="circle">
+              <Image
+                src="https://miro.medium.com/v2/resize:fit:750/1*W87dbhuZUIKhTQYmhIWIhA.jpeg"
+                alt="Numa Perrier Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Numa Perrier."
+              />
+            </div>
+          </a>
+    </div>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -317,6 +383,33 @@ function ThePerfectFind({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

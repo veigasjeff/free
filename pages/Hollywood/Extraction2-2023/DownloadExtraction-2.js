@@ -231,9 +231,73 @@ function Extraction ({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+                 <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="http://www.celebrityscentsation.com/celebrity-perfumes/actors/chris-hemsworth/celebrity-images/chris-hemsworth.jpg"
+                alt="Chris Hemsworth Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Chris Hemsworth."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Golshifteh_Farahani_at_Berlinale_2023.jpg/1200px-Golshifteh_Farahani_at_Berlinale_2023.jpg"
+                alt="Golshifteh Farahani Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Golshifteh Farahani."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Adam_Bessa_C%C3%A9sar_2018.jpg"
+                alt="Adam Bessa Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Adam Bessa."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w500/rUEoEqVC5EFNgOGyYPWSTdwvwu.jpg"
+                alt="Tornike Gogrichiani Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Tornike Gogrichiani."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.thedailybiography.com/wp-content/uploads/2023/06/Actor-Demetre-Kavelashvili-Image.jpg"
+                alt="Demetre Kavelashvili Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Demetre Kavelashvili."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <a href="https://en.wikipedia.org/wiki/Sam_Hargrave">
+            <div className="circle">
+              <Image
+                src="https://flxt.tmsimg.com/assets/578092_v9_ba.jpg"
+                alt="Sam Hargrave Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Sam Hargrave."
+              />
+            </div>
+          </a>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -315,6 +379,33 @@ function Extraction ({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+             <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

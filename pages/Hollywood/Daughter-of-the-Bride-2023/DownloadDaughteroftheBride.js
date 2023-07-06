@@ -222,7 +222,7 @@ function DaughteroftheBride ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/Daughter_of_the_Bride_-_Official_Trailer__2023_.mp4?updatedAt=1688518402059" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688673861/Daughter_of_the_Bride_opl8va.mp3" />
           </audio>
         </div>
      
@@ -249,17 +249,50 @@ function DaughteroftheBride ({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
+               <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://wallpapercave.com/wp/wp5382552.jpg"
+                alt="Halston Sage Image" layout="responsive" width={250} height={250} title="Halston Sage."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://cdn.britannica.com/84/234484-050-2C176128/Marcia-Gay-Harden-2017.jpg"
+                alt="Marcia Gay Harden Image" layout="responsive" width={250} height={250} title="Marcia Gay Harden."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://independenttalent-63a2.kxcdn.com/wp-content/uploads/2022/09/ANDREW-2-3-230x265.jpeg"
+                alt="Andrew Richardson Image" layout="responsive" width={250} height={250} title="Andrew Richardson."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BMTYwNTI3NzI5OV5BMl5BanBnXkFtZTcwMDE1NTk0NA@@._V1_.jpg"
+                alt="Aidan Quinn Image" layout="responsive" width={250} height={250} title="Aidan Quinn." 
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://assets-myneworleans-com.s3-accelerate.amazonaws.com/2021/12/Persona-15.jpg"
+                alt="Mel Gibson Image" layout="responsive" width={250} height={250} title="Brenda Currin." 
+              />
+                  
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
 
           <li>Director: {movie.director}</li>
-     
-          <Image
-          src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688518413/Annette_Haywood-Carter_uqtp8i.webp" // Replace with the actual path or URL of the hover image
-          alt="Michael Oblowitz Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
-        
+
+      <a href="https://www.wikidata.org/wiki/Q24255227">
+      <div className="circle">
+        <Image src="https://dd8thtkc05n1s.cloudfront.net/uploads/member/member_image/65/Annette_Headshot_2023.jpeg" alt="Annette Haywood-Carter Image" layout="responsive" width={250} height={250} title="Annette Haywood-Carter." />
+      </div>
+      
+    </a>
      
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
@@ -360,6 +393,34 @@ function DaughteroftheBride ({ movie }) {
               transform: translateY(0);
             }
           }
+        `}</style>
+            <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
+            }
+          }
+     
         `}</style>
         <Image
           src={movie.banner}

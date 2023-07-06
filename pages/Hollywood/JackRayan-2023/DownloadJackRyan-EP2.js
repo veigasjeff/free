@@ -227,7 +227,7 @@ function JackRyan ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/Tom_Clancy_s_Jack_Ryan_-_The_Final_Season___Official_Trailer.mp4?updatedAt=1688158871663" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688660140/JackRyan_jbet0p.mp3" />
           </audio>
         </div>
       
@@ -254,22 +254,90 @@ function JackRyan ({ movie }) {
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://hips.hearstapps.com/hmg-prod/images/john-krasinski-GettyImages-517027236_1600.jpg?resize=1200:*"
+                alt="John Krasinski Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="John Krasinski."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://ntvb.tmsimg.com/assets/assets/65671_v9_bc.jpg?w=270&h=360"
+                alt="Wendell Pierce Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Wendell Pierce."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://ntvb.tmsimg.com/assets/assets/166378_v9_bb.jpg?w=270&h=360"
+                alt="Michael Kelly Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Michael Kelly."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/0/03/Abbie_Cornish_TIFF_4%2C_2012.jpg"
+                alt="Abbie Cornish Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Abbie Cornish."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://media1.popsugar-assets.com/files/thumbor/jiCXrMy8HG_qlSW9qY95gdhrP4c/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/01/11/118/n/1922153/571717195e6ee62d_GettyImages-903990898/i/Betty-Gabriel.jpg"
+                alt="Betty Gabriel Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Betty Gabriel."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
        
           <li>Director: {movie.director}</li>
 
           <div style={{ display: 'flex', gap: '10px' }}>
-      <img
-        src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688511568/Carlton_Cuse_bu5frp.webp"
-        alt="ali selim Image"
-        style={{ width: '200px', height: 'auto' }}
-      />
-      <img
-        src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688511569/Graham_Roland_rzkdcn.webp"
-        alt="ali selim Image"
-        style={{ width: '200px', height: 'auto' }}
-      />
+     
+       <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle">
+              <Image
+                src="https://assets.fxnetworks.com/cms-next/production/cms/2017/06/05/web_crew_carltoncuse_the-strain_570x698.jpg"
+                alt="Carlton Cuse Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Carlton Cuse."
+              />
+            </div>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/George_Kay_(writer)">
+            <div className="circle">
+              <Image
+                src="https://tribalbusinessnews.com/images/Graham_Roland.jpeg"
+                alt="Graham Roland Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Graham Roland."
+              />
+            </div>
+          </a>
     </div>
+    
     
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
@@ -366,6 +434,33 @@ function JackRyan ({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>

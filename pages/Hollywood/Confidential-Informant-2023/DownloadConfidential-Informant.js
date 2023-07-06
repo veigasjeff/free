@@ -222,7 +222,7 @@ function ConfidentialInformant ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/Confidential_Informant__2023__Official_Trailer.mp4?updatedAt=1688158874169" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688671925/Confidential_Informant_vg8hkj.mp3" />
           </audio>
         </div>
      
@@ -249,16 +249,36 @@ function ConfidentialInformant ({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-          <li>Starring: {movie.starring.join(", ")}</li>
-          <li>Year of release: {movie.yearRelease}</li>
-
-          <li>Director: {movie.director}</li>
-     
-          <Image
-          src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,/v1688516154/Michael_Oblowitz_a6f5bo.webp" // Replace with the actual path or URL of the hover image
-          alt="Michael Oblowitz Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
+              <li>Starring: {movie.starring.join(", ")}</li>
+       
+       <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+        
+       <div className="circle">
+         <Image src="https://astrapublishinghouse.com/wp-content/uploads/2022/06/2268933.jpg" alt="Andrea Abreu Image" layout="responsive" width={250} height={250} title="Andrea Abreu." />
+       </div>
+       <div className="circle">
+         <Image src="https://flxt.tmsimg.com/assets/173408_v9_bc.jpg" alt="Kate Bosworth Image" layout="responsive" width={250} height={250} title="Kate Bosworth." />
+       </div>
+       <div className="circle">
+         <Image src="https://m.media-amazon.com/images/M/MV5BNTg3OTc1NmMtYTY2OC00N2EzLTg2MDktY2M2MDA4NDYwNTNhXkEyXkFqcGdeQXVyMTkzMjE4Nw@@._V1_.jpg" alt="Dianna Camacho Image" layout="responsive" width={250} height={250} title="Dianna Camacho." />
+       </div>
+       <div className="circle">
+       <Image src="https://nettv4u.com/imagine/john-cassini.png" alt="John Cassini Image"  layout="responsive" width={250} height={250} title="John Cassini." />
+       </div>
+       <div className="circle">
+         <Image src="https://cloudfront-us-east-1.images.arcpublishing.com/gray/KIQTYEVCHRBNXATD5OY2ISIF24.jpg" alt="Mel Gibson Image" layout="responsive" width={250} height={250} title="Mel Gibson." />
+       </div>
+       </div>
+           <li>Year of release: {movie.yearRelease}</li>
+ 
+           <li>Director: {movie.director}</li>
+      
+        <a href="https://en.wikipedia.org/wiki/Michael_Oblowitz">
+       <div className="circle">
+         <Image src="https://resizing.flixster.com/LI2yrcuSp346tcoY4jaaHlLkzBg=/218x280/v2/https://flxt.tmsimg.com/assets/226152_v9_aa.jpg" alt="Michael Oblowitz Image" layout="responsive" width={250} height={250} title="Michael Oblowitz." />
+       </div>
+       
+     </a>
         
      
           <li>Country of origin: {movie.country}</li>
@@ -360,6 +380,34 @@ function ConfidentialInformant ({ movie }) {
               transform: translateY(0);
             }
           }
+        `}</style>
+              <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
+            }
+          }
+     
         `}</style>
         <Image
           src={movie.banner}

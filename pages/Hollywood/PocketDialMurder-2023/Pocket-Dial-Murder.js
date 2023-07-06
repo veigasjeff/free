@@ -233,8 +233,72 @@ function ThePerfectFind({ movie }) {
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BMDZjZWY5OWQtMTg3MS00OWRhLWJhN2YtZGM1NDA3YWY4MzE0XkEyXkFqcGdeQXVyNDE3ODc4NTQ@._V1_.jpg"
+                alt="Kirsten Comerford Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Kirsten Comerford."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w500/aR74mrGsq57Y15Z9i9xejaBzErm.jpg"
+                alt="Steve Byers Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Steve Byers."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://qt.azureedge.net/resources/authors-images-large/gina-torres.jpg"
+                alt="Gina Torres Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Gina Torres."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.themoviedb.org/t/p/w500/uD3dC1ZqfDRUmmK076LBtzHwF7C.jpg"
+                alt="Mathieu Bourassa Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Mathieu Bourassa."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BNjE1MTJlZWItMWU1Mi00YmI5LWI3MzAtZGFjNDczZDg5NGZjXkEyXkFqcGdeQXVyMzEyNTgyNg@@._V1_.jpg"
+                alt="Dawn Lambing Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Dawn Lambing."
+              />
+            </div>
+          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
+          <a href="https://www.imdb.com/name/nm7587300/">
+            <div className="circle">
+              <Image
+                src="https://media.licdn.com/dms/image/C4D03AQE48JXjW-tJtA/profile-displayphoto-shrink_800_800/0/1636125167968?e=2147483647&v=beta&t=dftE-VT-g5a-bQYs0GfoDy_lk_1eriCLHUnvUdR2hRU"
+                alt="Roxanne Boisvert Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Roxanne Boisvert."
+              />
+            </div>
+          </a>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -316,6 +380,33 @@ function ThePerfectFind({ movie }) {
             }
             to {
               transform: translateY(0);
+            }
+          }
+        `}</style>
+          <style jsx>{`
+          .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #40d7bc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          .circle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            filter: contrast(1.2) saturate(1.2);
+          }
+
+          @media (max-width: 600px) {
+            .circle {
+              width: 120px;
+              height: 120px;
             }
           }
         `}</style>
