@@ -198,13 +198,10 @@ function BloodyDaddy({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+           <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+           <a href="../../Bollywood/bloodydaddy-2023/BOD" >  
+      <h2 > Change {movie.name}  Server </h2></a></button>
+      
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}

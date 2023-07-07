@@ -10,8 +10,7 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-
-function BloodyDaddy({ movie }) {
+function Adipurush({ movie }) {
 
   
   const scrollSearch = (myKey) => {
@@ -70,9 +69,9 @@ function BloodyDaddy({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Bloody Daddy (2023)",
+          name: "Adipurush (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/DownloadBloody-Daddy",
+            "https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/ADP",
         },
       ],
     },
@@ -113,7 +112,7 @@ function BloodyDaddy({ movie }) {
       />
     <Head>
         <title>
-          Watch Bloody Daddy (2023) Full Movie Online Free | Uwatchfree™
+          Watch Adipurush (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -121,7 +120,7 @@ function BloodyDaddy({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,bloody daddy movie,bloody daddy 2023,index of bloody daddy movie,bloody daddy cast,bloody daddy trailer,bloody daddy release date,bloody daddy plot,bloody daddy reviews,bloody daddy streaming,bloody daddy watch online,bloody daddy download,bloody daddy full movie,bloody daddy movie download,bloody daddy movie free download,bloody daddy movie online,bloody daddy movie watch online"
+          content="uwatchfree,adipurush movie,adipurush 2023,index of adipurush movie,adipurush cast,adipurush trailer,adipurush release date,adipurush plot,adipurush reviews,adipurush streaming,adipurush watch online,adipurush download,adipurush full movie,adipurush movie download,adipurush movie free download,adipurush movie online,adipurush movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -135,15 +134,15 @@ function BloodyDaddy({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Bloody Daddy (2023) | Uwatchfree™"
+          content="Watch Adipurush (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/DownloadBloody-Daddy"
+          content="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/ADP"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612157/Adipurush-2023_jbhtko.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -154,33 +153,35 @@ function BloodyDaddy({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Bloody Daddy (2023) | Uwatchfree™"
+          content="Watch Adipurush (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612157/Adipurush-2023_jbhtko.webp"
         />
         <meta
           name="description"
-          content="Watch BloodyDaddy Full Movie Online on Uwatchfree™, You can also download Bloody Daddy (2023) in full HD quality to watch later offline."
+          content="Watch Adipurush Full Movie Online on Uwatchfree™, You can also download Adipurush (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/"
+          href="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/"
         />
       </Head>
+     
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-           Bloody Daddy - 2023
+           Adipurush - 2023
         </h1>
-
-        <div className={styles["iframe-container"]}>
-        <Player src={movie["movie.watchP1"]} />
+        
+         <div className={styles["iframe-container"]}>
+         <Player src={movie["movie.watchSR1"]} />
+     
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -191,18 +192,14 @@ function BloodyDaddy({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+           <a href="../../Bollywood/Adipurush-2023/Adipurush" >  
+      <h2 > Change {movie.name}  Server </h2></a></button>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie Bloody Daddy (2023)
+          Listen to Audio Summary The Movie Adipurush (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -215,10 +212,10 @@ function BloodyDaddy({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687094036/BLOODY_DADDY_yynlmx.mp3" />
+           <source src="https://ik.imagekit.io/gmcl6xvq6/Adipurush-Final-Trailer.mp4?updatedAt=1687612128868" />
           </audio>
         </div>
-     
+      
         <Rating />
         <a
           href={movie.link}
@@ -232,56 +229,56 @@ function BloodyDaddy({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-    <li>Starring: {movie.starring.join(", ")}</li>
+              <li>Starring: {movie.starring.join(", ")}</li>
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
             <div className="circle">
               <Image
-                src="https://qt.azureedge.net/resources/authors-images-large/shahid-kapoor.jpg"
-                alt="Shahid Kapoor Image"
+                src="https://static.joonsite.com/seelatest/topic/kirti-sanon.jpg"
+                alt="Kriti Sanon Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Shahid Kapoor."
+                title="Kriti Sanon."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://www.filmibeat.com/img/162x203/popcorn/profile_photos/amy-aela-20221116123602-52695.jpg"
-                alt="Amy Aela Image"
+                src="https://static.joonsite.com/seelatest/topic/saif-ali-khan.jpg"
+                alt="Saif Ali Khan Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Amy Aela."
+                title="Saif Ali Khan."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://m.media-amazon.com/images/M/MV5BMWUzNGNlYzMtM2E3NC00NjE0LWEwYTYtMTZhY2ZkOTk3YTM2XkEyXkFqcGdeQXVyMjIwMDc1Mzk@._V1_.jpg"
-                alt="Ankur Bhatia Image"
+                src="https://raaga.gumlet.io/raagaimg/r_img/catalog/a/%7B955414c1-f67b-41c0-b5ac-dd4fbb0c1152%7D.jpg?w=200&dpr=2.6"
+                alt="Prabhas Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ankur Bhatia."
+                title="Prabhas."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://nettv4u.com/imagine/05-07-2017/diana-penty.jpg"
-                alt="Diana Penty Image"
+                src="https://nettv4u.com/serialimages/03-11-2018/devdatta-nage.jpg"
+                alt="Devdutta Nage Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Diana Penty."
+                title="Devdutta Nage."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://cdn.riffre.com/filmbees/wallpapers/2014/12/15/5106/mobile/Ronit-Roy-5106.jpg"
-                alt="Ronit Roy Image"
+                src="https://nettv4u.com/imagine/15-03-2017/vatsal-sheth.jpg"
+                alt="Vatsal Sheth Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ronit Roy."
+                title="Vatsal Sheth."
               />
             </div>
           </div>
@@ -290,12 +287,12 @@ function BloodyDaddy({ movie }) {
           <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
             <div className="circle">
               <Image
-                src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ali-abbas-zafar-21198-26-10-2018-11-53-38.jpg"
-                alt="Ali Abbas Zafar Image"
+                src="https://m.media-amazon.com/images/M/MV5BYjlmYTZkNTUtOWU5ZC00ODMzLThkNGYtMTQ2Nzg0ZWY1M2M5XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg"
+                alt="Om Raut Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ali Abbas Zafar."
+                title="Om Raut."
               />
             </div>
           </a>
@@ -314,7 +311,7 @@ function BloodyDaddy({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie  Bloody Daddy - 2023
+            In the Movie  Adipurush - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -420,12 +417,12 @@ function BloodyDaddy({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link  {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-       
+         
           <Max />
 
           <Link href="../../BollywoodAds">
@@ -442,7 +439,7 @@ function BloodyDaddy({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX02");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX12");
   return {
     props: {
       movie: selectedMovie,
@@ -450,4 +447,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default BloodyDaddy;
+export default Adipurush;
