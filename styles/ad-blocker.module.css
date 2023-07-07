@@ -216,3 +216,8 @@ iframe[src*="zedo."] {
 @media only screen and (max-width: 767px) {
   /* Hide additional elements on mobile devices if necessary */
 }
+
+/* Media query for desktop and laptop devices */
+@media only screen and (min-width: 768px) {
+  /* Hide elements specific to desktop and laptop devices if necessary */
+}
