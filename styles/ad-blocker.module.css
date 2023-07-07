@@ -212,3 +212,7 @@ iframe[src*="zedo."] {
 [class*="ad-banner-sidebar-hybrid"] {
   display: none !important;
 }
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Hide additional elements on mobile devices if necessary */
+}
