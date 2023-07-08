@@ -9,18 +9,7 @@ import Script from "next/script";
 import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
-
-function DaughteroftheBride ({ movie }) {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-  
+function Extraction({ movie }) {
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
     frontMatter.handleSearch(myKey);
@@ -77,9 +66,9 @@ function DaughteroftheBride ({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Knights of the Zodiac (2023)",
+          name: " Extraction 2 (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/Knights-of-the-Zodiac-2023/DownloadKnights-of-the-Zodiac",
+            "https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/EXTR",
         },
       ],
     },
@@ -118,22 +107,22 @@ function DaughteroftheBride ({ movie }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
-    <Head>
+      <Head>
         <title>
-          Watch  Knights of the Zodiac (2023) Full Movie Online Free | Uwatchfree™
+          Watch Extraction 2 (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-      <meta
+        <meta
           name="keywords"
-          content="uwatchfree,Knights of the Zodiac movie,Knights of the Zodiac 2023,index of Knights of the Zodiac movie,Knights of the Zodiac cast,Knights of the Zodiac trailer,Knights of the Zodiac release date,Knights of the Zodiac plot,Knights of the Zodiac reviews,Knights of the Zodiac streaming,Knights of the Zodiac watch online,Knights of the Zodiac download,Knights of the Zodiac full movie,Knights of the Zodiac movie download,Knights of the Zodiac movie free download,Knights of the Zodiac movie online,Knights of the Zodiac movie watch online"
+          content="uwatchfree,extraction 2 movie,extraction 2 2023,index of extraction 2 movie,extraction 2 cast,extraction 2 trailer,extraction 2 release date,extraction 2 plot,extraction 2 reviews,extraction 2 streaming,extraction 2 watch online,extraction 2 download,extraction 2 full movie,extraction 2 movie download,extraction 2 movie free download,extraction 2 movie online,extraction 2 movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
         <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index,follow"/>
+        <meta name="googlebot" content="index,follow" />
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
@@ -142,15 +131,15 @@ function DaughteroftheBride ({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Knights of the Zodiac (2023) | Uwatchfree™"
+          content="Watch Extraction 2 (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/Knights-of-the-Zodiac-2023/DownloadKnights-of-the-Zodiac"
+          content="https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/EXTR"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158926/Knights-of-the-Zodiac-2023_iyuh6b.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612166/Extraction-2-2023_bjjpad.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -161,20 +150,20 @@ function DaughteroftheBride ({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Knights of the Zodiac (2023) | Uwatchfree™"
+          content="Watch Extraction 2 (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158926/Knights-of-the-Zodiac-2023_iyuh6b.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612166/Extraction-2-2023_bjjpad.webp"
         />
         <meta
           name="description"
-          content="Watch Knights of the Zodiac Full Movie Online on Uwatchfree™, You can also download  Knights of the Zodiac (2023) in full HD quality to watch later offline."
+          content="Watch Extraction 2 Full Movie Online on Uwatchfree™, You can also download  Extraction 2 (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Knights-of-the-Zodiac-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -183,11 +172,11 @@ function DaughteroftheBride ({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Knights of the Zodiac - 2023
+          Extraction 2 - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
-        <Player src={movie["movie.watchP1"]} />
+          <Player src={movie["movie.watchSR1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -198,18 +187,17 @@ function DaughteroftheBride ({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+               <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+           <a href="../../Hollywood/Extraction2-2023/Extraction-2" >  
+      <h2 > Change Server {movie.name}   </h2></a>  </button>
+    
+      <h3 className="mb-9 text-bg  text-black-500 text-blue-600 text-center xl:px-4 ">
+        If Player Stops Playing Change Server</h3>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Knights of the Zodiac (2023)
+          Listen to Audio Summary The Movie Extraction 2 (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -222,12 +210,11 @@ function DaughteroftheBride ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688682700/Knights_of_the_Zodiac_wyi6d6.mp3" />
+            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687762749/Extraction2_ccmnmh.mp3" />
           </audio>
         </div>
-     
+
         <Rating />
-        <div className="flex justify-center space-x-4 ">
         <a
           href={movie.link}
           className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
@@ -235,112 +222,83 @@ function DaughteroftheBride ({ movie }) {
         >
           IMDb Rating: {movie.rating}
         </a>
-        <a
-          href={movie.link2}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
-          target="_blank"
-        >
-          Wikipedia
-        </a>
-     
 
-        </div>
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-        <li>Starring: {movie.starring.join(", ")}</li>
+          <li>Starring: {movie.starring.join(", ")}</li>
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
             <div className="circle">
               <Image
-                src="https://asianwiki.com/images/2/20/Mackenyu_Arata-1996-p1.jpg"
-                alt="Mackenyu Image"
+                src="http://www.celebrityscentsation.com/celebrity-perfumes/actors/chris-hemsworth/celebrity-images/chris-hemsworth.jpg"
+                alt="Chris Hemsworth Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Mackenyu."
+                title="Chris Hemsworth."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://nettv4u.com/imagine/famke-janssen.jpg"
-                alt="Famke Janssen Image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Golshifteh_Farahani_at_Berlinale_2023.jpg/1200px-Golshifteh_Farahani_at_Berlinale_2023.jpg"
+                alt="Golshifteh Farahani Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Famke Janssen."
+                title="Golshifteh Farahani."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://www.fromthemovie.com/wp-content/uploads/2017/07/Madison-Iseman.jpg"
-                alt="Madison Iseman Image"
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Adam_Bessa_C%C3%A9sar_2018.jpg"
+                alt="Adam Bessa Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Madison Iseman."
+                title="Adam Bessa."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Diego_Tinoco_by_Gage_Skidmore.jpg/1200px-Diego_Tinoco_by_Gage_Skidmore.jpg"
-                alt="Diego Tinoco Image"
+                src="https://www.themoviedb.org/t/p/w500/rUEoEqVC5EFNgOGyYPWSTdwvwu.jpg"
+                alt="Tornike Gogrichiani Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Diego Tinoco."
+                title="Tornike Gogrichiani."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Mark_Dacascos_cropped.jpg/440px-Mark_Dacascos_cropped.jpg"
-                alt="Mark Dacascos Image"
+                src="https://www.thedailybiography.com/wp-content/uploads/2023/06/Actor-Demetre-Kavelashvili-Image.jpg"
+                alt="Demetre Kavelashvili Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Mark Dacascos."
+                title="Demetre Kavelashvili."
               />
             </div>
           </div>
           <li>Year of release: {movie.yearRelease}</li>
-
           <li>Director: {movie.director}</li>
-     
-                 <a href="https://en.wikipedia.org/wiki/Tomasz_Bagi%C5%84ski">
-            <div className="circle">
+          <a href="https://en.wikipedia.org/wiki/Sam_Hargrave">
+            <div className="circle  animate-pulse style={{ animationDelay: '12s' }}">
               <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Tomasz_Bagi%C5%84ski_2016.jpg/800px-Tomasz_Bagi%C5%84ski_2016.jpg"
-                alt="Tomasz Baginski Image"
+                src="https://flxt.tmsimg.com/assets/578092_v9_ba.jpg"
+                alt="Sam Hargrave Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Tomasz Baginski."
+                title="Sam Hargrave."
               />
             </div>
           </a>
-        
-     
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
-        
-      <span
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        style={{ cursor: 'pointer' }}
-      >
           <li>Original Network: {movie.Originalnetwork}</li>
-          
-      </span>
-      {isHovered && (
-        <img
-          src="https://yt3.googleusercontent.com/ytc/AGIKgqNXFKYC6jpVjB36KOwUddfQWLzFVkuP-2SigQXE=s900-c-k-c0x00ffffff-no-rj" // Replace with the actual path or URL of the hover image
-          alt="XYZ Films Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
-      )}
- 
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -351,7 +309,7 @@ function DaughteroftheBride ({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie Knights of the Zodiac - 2023
+            In the Movie Extraction 2 - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -420,7 +378,7 @@ function DaughteroftheBride ({ movie }) {
             }
           }
         `}</style>
-          <style jsx>{`
+        <style jsx>{`
           .circle {
             width: 200px;
             height: 200px;
@@ -457,12 +415,12 @@ function DaughteroftheBride ({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-       
+
           <Max />
 
           <Link href="../../HollywoodAds">
@@ -479,7 +437,7 @@ function DaughteroftheBride ({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX21");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX03");
   return {
     props: {
       movie: selectedMovie,
@@ -487,4 +445,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default DaughteroftheBride ;
+export default Extraction;

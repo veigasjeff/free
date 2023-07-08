@@ -10,8 +10,17 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-function Adipurush({ movie }) {
+function TheWitcher ({ movie }) {
+  const [isHovered, setIsHovered] = useState(false);
 
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+  
   
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -69,9 +78,9 @@ function Adipurush({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Adipurush (2023)",
+          name: "The Witcher S3 (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/ADP",
+            "https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/TWH-EP2",
         },
       ],
     },
@@ -112,15 +121,15 @@ function Adipurush({ movie }) {
       />
     <Head>
         <title>
-          Watch Adipurush (2023) Full Movie Online Free | Uwatchfree™
+          Watch The Witcher S3 (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-        <meta
+      <meta
           name="keywords"
-          content="uwatchfree,adipurush movie,adipurush 2023,index of adipurush movie,adipurush cast,adipurush trailer,adipurush release date,adipurush plot,adipurush reviews,adipurush streaming,adipurush watch online,adipurush download,adipurush full movie,adipurush movie download,adipurush movie free download,adipurush movie online,adipurush movie watch online"
+          content="uwatchfree,the witcher s3 movie,the witcher s3 2023,index ofThe Witcher S3 movie,the witcher s3 cast,the witcher s3 trailer,the witcher s3 release date,the witcher s3 plot,the witcher s3 reviews,the witcher s3 streaming,the witcher s3 watch online,the witcher s3 download,the witcher s3 full movie,the witcher s3 movie download,the witcher s3 movie free download,the witcher s3 movie online,the witcher s3 movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -134,15 +143,15 @@ function Adipurush({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Adipurush (2023) | Uwatchfree™"
+          content="Watch The Witcher S3 (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/ADP"
+          content="https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/TWH-EP2"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612157/Adipurush-2023_jbhtko.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158916/the-witcher-3-2023_ppd2ea.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -153,35 +162,33 @@ function Adipurush({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Adipurush (2023) | Uwatchfree™"
+          content="Watch The Witcher S3 (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612157/Adipurush-2023_jbhtko.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158916/the-witcher-3-2023_ppd2ea.webp"
         />
         <meta
           name="description"
-          content="Watch Adipurush Full Movie Online on Uwatchfree™, You can also download Adipurush (2023) in full HD quality to watch later offline."
+          content="Watch The Witcher S3 Full Movie Online on Uwatchfree™, You can also download The Witcher S3 (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Adipurush-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/"
         />
       </Head>
-     
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-           Adipurush - 2023
+           The Witcher S3 Episode 2 - 2023
         </h1>
-        
-         <div className={styles["iframe-container"]}>
-         <Player src={movie["movie.watchSR1"]} />
-     
+
+        <div className={styles["iframe-container"]}>
+        <Player src={movie["movie.watchSR2"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -192,14 +199,16 @@ function Adipurush({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-         <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-           <a href="../../Bollywood/Adipurush-2023/Adipurush" >  
-      <h2 > Change {movie.name}  Server </h2></a></button>
+        <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-blue-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+           <a href="../../Hollywood/The-Witcher-2023/The-Witcher-EP2" >  
+      <h2 > Change Server {movie.name}   </h2></a></button>
+      <h3 className="mb-9 text-bg  text-black-500 text-blue-600 text-center xl:px-4 ">
+        If Player Stops Playing Change Server</h3>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie Adipurush (2023)
+          Listen to Audio Summary The Movie The Witcher S3 (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -212,11 +221,41 @@ function Adipurush({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://ik.imagekit.io/gmcl6xvq6/Adipurush-Final-Trailer.mp4?updatedAt=1687612128868" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688682700/Knights_of_the_Zodiac_wyi6d6.mp3" />
           </audio>
         </div>
-      
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/TWH-EP1">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 1
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/TWH-EP3">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 3
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/TWH-EP4">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 4
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/TWH-EP5">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 5
+              </button>
+            </Link>
+          </div>
+          </div>
         <Rating />
+        <div className="flex justify-center space-x-4 ">
         <a
           href={movie.link}
           className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
@@ -224,83 +263,119 @@ function Adipurush({ movie }) {
         >
           IMDb Rating: {movie.rating}
         </a>
+        <a
+          href={movie.link2}
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+          target="_blank"
+        >
+          Wikipedia
+        </a>
+     
 
+        </div>
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-              <li>Starring: {movie.starring.join(", ")}</li>
+          <li>Starring: {movie.starring.join(", ")}</li>
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
-            <div className="circle">
+        
+          <div className="circle  ">
               <Image
-                src="https://static.joonsite.com/seelatest/topic/kirti-sanon.jpg"
-                alt="Kriti Sanon Image"
+                src="https://qt.azureedge.net/resources/authors-images-large/henry-cavill.jpg"
+                alt="Henry Cavill Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Kriti Sanon."
+                title="Henry Cavill."
               />
+          
             </div>
-            <div className="circle">
+            <div className="circle  ">
               <Image
-                src="https://static.joonsite.com/seelatest/topic/saif-ali-khan.jpg"
-                alt="Saif Ali Khan Image"
+                src="https://i.pinimg.com/474x/c1/37/b5/c137b583ae373ae9b29c99ba20f2e362.jpg"
+                alt="Freya Allan Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Saif Ali Khan."
+                title="Freya Allan."
               />
+            
             </div>
-            <div className="circle">
+            <div className="circle  ">
               <Image
-                src="https://raaga.gumlet.io/raagaimg/r_img/catalog/a/%7B955414c1-f67b-41c0-b5ac-dd4fbb0c1152%7D.jpg?w=200&dpr=2.6"
-                alt="Prabhas Image"
+                src="https://upload.wikimedia.org/wikipedia/commons/8/88/Anya_Chalotra_by_Gage_Skidmore.jpg"
+                alt="Anya Chalotra Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Prabhas."
+                title="Anya Chalotra."
               />
             </div>
-            <div className="circle">
+          
+            <div className="circle   ">
               <Image
-                src="https://nettv4u.com/serialimages/03-11-2018/devdatta-nage.jpg"
-                alt="Devdutta Nage Image"
+                src="https://www.rightrasta.com/wp-content/uploads/2022/02/Eamon-Farren-Wiki-Biography.jpg"
+                alt="Eamon Farren Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Devdutta Nage."
+                title="Eamon Farren."
               />
+           
             </div>
-            <div className="circle">
+            <div className="circle  ">
               <Image
-                src="https://nettv4u.com/imagine/15-03-2017/vatsal-sheth.jpg"
-                alt="Vatsal Sheth Image"
+                src="https://www.femalefirst.co.uk/image-library/square/250/m/myanna-buring-2-fp03-15.jpg"
+                alt="MyAnna Buring Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Vatsal Sheth."
+                title="MyAnna Buring."
               />
-            </div>
+          
+          </div>
           </div>
           <li>Year of release: {movie.yearRelease}</li>
+
           <li>Director: {movie.director}</li>
-          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
-            <div className="circle">
+     
+                 <a href="https://en.wikipedia.org/wiki/Tomasz_Bagi%C5%84ski">
+                
+            <div className="circle  animate-pulse style={{ animationDelay: '12s' }}  ">
               <Image
-                src="https://m.media-amazon.com/images/M/MV5BYjlmYTZkNTUtOWU5ZC00ODMzLThkNGYtMTQ2Nzg0ZWY1M2M5XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg"
-                alt="Om Raut Image"
+                src="https://www.tvinsider.com/wp-content/uploads/2021/09/Lauren_Schmidt_Hissrich.jpg"
+                alt="Lauren Schmidt Hissrich Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Om Raut."
+                title="Lauren Schmidt Hissrich."
               />
             </div>
+           
           </a>
+     
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
+        
+      <span
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        style={{ cursor: 'pointer' }}
+      >
           <li>Original Network: {movie.Originalnetwork}</li>
+          
+      </span>
+      {isHovered && (
+        <Image
+          src="https://www.citypng.com/public/uploads/preview/-11594687246vzsjesy7bd.png" // Replace with the actual path or URL of the hover image
+          alt="XYZ Films Image"
+          style={{ width: '200px', height: 'auto' }}
+        />
+      )}
+ 
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -311,7 +386,7 @@ function Adipurush({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie  Adipurush - 2023
+            In the MovieThe Witcher S3 - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -391,6 +466,7 @@ function Adipurush({ movie }) {
             align-items: center;
             justify-content: center;
             cursor: pointer;
+           
           }
 
           .circle img {
@@ -406,8 +482,22 @@ function Adipurush({ movie }) {
               height: 120px;
             }
           }
+          @keyframes pulseAnimation {
+            0% {
+              opacity: 0.5;
+            }
+            33.33% {
+              opacity: 1;
+            }
+            66.66% {
+              opacity: 0.5;
+            }
+            100% {
+              opacity: 0.5;
+            }
+          }
         `}</style>
-        <Image
+       <Image
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
@@ -415,17 +505,17 @@ function Adipurush({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link  {movie.name}
+            Link {movie.name}
           </h3>
-          <a href={movie.down2link1} target="_blank">
+          <a href={movie.down2link2} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-         
+       
           <Max />
 
-          <Link href="../../BollywoodAds">
+          <Link href="../../HollywoodAds">
             <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Back To Movie Selection
             </buton>
@@ -439,7 +529,7 @@ function Adipurush({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX12");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX22");
   return {
     props: {
       movie: selectedMovie,
@@ -447,4 +537,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default Adipurush;
+export default TheWitcher ;

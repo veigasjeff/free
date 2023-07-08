@@ -9,8 +9,7 @@ import Script from "next/script";
 import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
-
-function DaughteroftheBride ({ movie }) {
+function DaughteroftheBride({ movie }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -20,7 +19,7 @@ function DaughteroftheBride ({ movie }) {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
-  
+
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
     frontMatter.handleSearch(myKey);
@@ -118,9 +117,9 @@ function DaughteroftheBride ({ movie }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
-    <Head>
+      <Head>
         <title>
-          Watch  Resurrected (2023) Full Movie Online Free | Uwatchfree™
+          Watch Resurrected (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -133,7 +132,7 @@ function DaughteroftheBride ({ movie }) {
         <meta property="og:locale" content="en_US" />
 
         <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index,follow"/>
+        <meta name="googlebot" content="index,follow" />
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
@@ -183,11 +182,11 @@ function DaughteroftheBride ({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Resurrected - 2023
+          Resurrected - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
-        <Player src={movie["movie.watchP1"]} />
+          <Player src={movie["movie.watchP1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -198,18 +197,16 @@ function DaughteroftheBride ({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+        <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+          <a href="../../Hollywood/Resurrected-2023/RETD">
+            <h2> Change Server {movie.name} </h2>
+          </a>{" "}
+        </button>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Resurrected (2023)
+          Listen to Audio Summary The Movie Resurrected (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -222,28 +219,26 @@ function DaughteroftheBride ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688680294/Resurrected_vts1or.mp3" />
+            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688680294/Resurrected_vts1or.mp3" />
           </audio>
         </div>
-     
+
         <Rating />
         <div className="flex justify-center space-x-4 ">
-        <a
-          href={movie.link}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
-          target="_blank"
-        >
-          IMDb Rating: {movie.rating}
-        </a>
-        <a
-          href={movie.link2}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
-          target="_blank"
-        >
-          Wikipedia
-        </a>
-     
-
+          <a
+            href={movie.link}
+            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+            target="_blank"
+          >
+            IMDb Rating: {movie.rating}
+          </a>
+          <a
+            href={movie.link2}
+            className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+            target="_blank"
+          >
+            Wikipedia
+          </a>
         </div>
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
@@ -305,9 +300,9 @@ function DaughteroftheBride ({ movie }) {
           <li>Year of release: {movie.yearRelease}</li>
 
           <li>Director: {movie.director}</li>
-     
-            <a href="https://en.wikipedia.org/wiki/Egor_Baranov">
-            <div className="circle">
+
+          <a href="https://en.wikipedia.org/wiki/Egor_Baranov">
+            <div className="circle animate-pulse style={{ animationDelay: '12s' }} ">
               <Image
                 src="https://www.themoviedb.org/t/p/w235_and_h235_face/yErbByP5EtLVlHFUnNax0aWQAYt.jpg"
                 alt="Egor Baranov Image"
@@ -318,28 +313,27 @@ function DaughteroftheBride ({ movie }) {
               />
             </div>
           </a>
-     
+
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
-        
-      <span
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        style={{ cursor: 'pointer' }}
-      >
-          <li>Original Network: {movie.Originalnetwork}</li>
-          
-      </span>
-      {isHovered && (
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/a/a8/XYZ_Films_logo.png" // Replace with the actual path or URL of the hover image
-          alt="XYZ Films Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
-      )}
- 
+
+          <span
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            style={{ cursor: "pointer" }}
+          >
+            <li>Original Network: {movie.Originalnetwork}</li>
+          </span>
+          {isHovered && (
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a8/XYZ_Films_logo.png" // Replace with the actual path or URL of the hover image
+              alt="XYZ Films Image"
+              style={{ width: "200px", height: "auto" }}
+            />
+          )}
+
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -419,7 +413,7 @@ function DaughteroftheBride ({ movie }) {
             }
           }
         `}</style>
-          <style jsx>{`
+        <style jsx>{`
           .circle {
             width: 200px;
             height: 200px;
@@ -461,7 +455,7 @@ function DaughteroftheBride ({ movie }) {
               Download
             </button>
           </a>
-       
+
           <Max />
 
           <Link href="../../HollywoodAds">
@@ -486,4 +480,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default DaughteroftheBride ;
+export default DaughteroftheBride;

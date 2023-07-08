@@ -7,12 +7,11 @@ import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
-import ComingPop from "@components/ComingPop";
 import Player from "@components/Player";
 
 
-function JackRyan ({ movie }) {
-  
+function Hijack({ movie }) {
+ 
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -24,7 +23,7 @@ function JackRyan ({ movie }) {
     setIsHovered(false);
     // Additional logic for mouse leave event
   };
-
+  
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
     frontMatter.handleSearch(myKey);
@@ -81,9 +80,9 @@ function JackRyan ({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Jack Ryan Season 4 (2023)",
+          name: " Hijack (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/JackRayan-2023/JackRyan-EP2",
+            "https://uwatchfree.vercel.app/Hollywood/Hijack-2023/HIJK-EP1",
         },
       ],
     },
@@ -124,7 +123,7 @@ function JackRyan ({ movie }) {
       />
     <Head>
         <title>
-          Watch  Jack Ryan Season 4 (2023) Full Movie Online Free | Uwatchfree™
+          Watch Hijack (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -132,7 +131,7 @@ function JackRyan ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,Jack Ryan Season 4 movie,Jack Ryan Season 4 2023,index of Jack Ryan Season 4 movie,Jack Ryan Season 4 cast,Jack Ryan Season 4 trailer,Jack Ryan Season 4 release date,Jack Ryan Season 4 plot,Jack Ryan Season 4 reviews,Jack Ryan Season 4 streaming,Jack Ryan Season 4 watch online,Jack Ryan Season 4 download,Jack Ryan Season 4 full movie,Jack Ryan Season 4 movie download,Jack Ryan Season 4 movie free download,Jack Ryan Season 4 movie online,Jack Ryan Season 4 movie watch online"
+          content="uwatchfree,hijack movie,hijack 2023,index of hijack movie,hijack cast,hijack trailer,hijack release date,hijack plot,hijack reviews,hijack streaming,hijack watch online,hijack download,hijack full movie,hijack movie download,hijack movie free download,hijack movie online,hijack movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -146,15 +145,15 @@ function JackRyan ({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Jack Ryan Season 4 (2023) | Uwatchfree™"
+          content="Watch Hijack (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/JackRayan-2023/JackRyan-EP2"
+          content="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/HIJK-EP1"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Tom-Clancys-Jack-Ryan-S04_rxnbdt.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -165,34 +164,34 @@ function JackRyan ({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Jack Ryan Season 4 (2023) | Uwatchfree™"
+          content="Watch Hijack (2023) | Uwatchfree™"
         />
+        
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Tom-Clancys-Jack-Ryan-S04_rxnbdt.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
         />
         <meta
           name="description"
-          content="Watch Jack Ryan Season 4 Full Movie Online on Uwatchfree™, You can also download  Jack Ryan Season 4 (2023) in full HD quality to watch later offline."
+          content="Watch Hijack Full Movie Online on Uwatchfree™, You can also download  Hijack (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/JackRayan-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
-    
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-             Jack Ryan Season 4 Episode 2 - 2023
+            Hijack - Episode 1 ( 2023 ) 
         </h1>
 
         <div className={styles["iframe-container"]}>
-          <Player src={movie["movie.watchP2"]} />
+        <Player src={movie["movie.watchSR1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -203,14 +202,16 @@ function JackRyan ({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-          <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-           <a href="../../Hollywood/JackRayan-2023/JKRY-EP2" >  
+        <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+           <a href="../../Hollywood/Hijack-2023/Hijack-EP1" >  
       <h2 > Change Server {movie.name}   </h2></a>  </button>
+      <h3 className="mb-9 text-bg  text-black-500 text-blue-600 text-center xl:px-4 ">
+        If Player Stops Playing Change Server</h3>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Jack Ryan Season 4 (2023)
+          Listen to Audio Summary The Movie  Hijack (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -223,19 +224,25 @@ function JackRyan ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688660140/JackRyan_jbet0p.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688252568/hijack_qmadkj.mp3" />
           </audio>
         </div>
-      
-        
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
-            <Link href="../../Hollywood/JackRayan-2023/JackRyan-EP1">
+            <Link href="../../Hollywood/Hijack-2023/HIJK-EP2">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-                Episode 1
+                Episode 2
               </button>
             </Link>
           </div>
-        
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/Hijack-2023/HIJK-EP3">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 3
+              </button>
+            </Link>
+          </div>
+          </div>
         <Rating />
         <a
           href={movie.link}
@@ -253,87 +260,84 @@ function JackRyan ({ movie }) {
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
             <div className="circle">
               <Image
-                src="https://hips.hearstapps.com/hmg-prod/images/john-krasinski-GettyImages-517027236_1600.jpg?resize=1200:*"
-                alt="John Krasinski Image"
+                src="https://multifiles.pressherald.com/uploads/sites/4/2018/11/1657234_People_Sexiest_Man_Alive_81-e1541545774238-250x250.jpg"
+                alt="Idris Elba Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="John Krasinski."
+                title="Idris Elba."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://ntvb.tmsimg.com/assets/assets/65671_v9_bc.jpg?w=270&h=360"
-                alt="Wendell Pierce Image"
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Neil_Maskell_2022.png"
+                alt="Neil Maskell Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Wendell Pierce."
+                title="Neil Maskell."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://ntvb.tmsimg.com/assets/assets/166378_v9_bb.jpg?w=270&h=360"
-                alt="Michael Kelly Image"
+                src="https://ntvb.tmsimg.com/assets/assets/81959_v9_bb.jpg"
+                alt="Max Beesley Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Michael Kelly."
+                title="Max Beesley."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/0/03/Abbie_Cornish_TIFF_4%2C_2012.jpg"
-                alt="Abbie Cornish Image"
+                src="https://cdn-media.backstage.com/files/media/edit/image/41605/original.jpg"
+                alt="Ben Miles Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Abbie Cornish."
+                title="Ben Miles."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://media1.popsugar-assets.com/files/thumbor/jiCXrMy8HG_qlSW9qY95gdhrP4c/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/01/11/118/n/1922153/571717195e6ee62d_GettyImages-903990898/i/Betty-Gabriel.jpg"
-                alt="Betty Gabriel Image"
+                src="https://babblevoices.com/wp-content/uploads/2019/02/hammarlund-1.png"
+                alt="Kaisa Hammarlund Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Betty Gabriel."
+                title="Kaisa Hammarlund."
               />
             </div>
           </div>
           <li>Year of release: {movie.yearRelease}</li>
-       
           <li>Director: {movie.director}</li>
-
           <div style={{ display: 'flex', gap: '10px' }}>
-     
-       <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
             <div className="circle animate-pulse style={{ animationDelay: '12s' }}">
               <Image
-                src="https://assets.fxnetworks.com/cms-next/production/cms/2017/06/05/web_crew_carltoncuse_the-strain_570x698.jpg"
-                alt="Carlton Cuse Image"
+                src="https://nettv4u.com/imagine/jim-field-smith.png"
+                alt="Jim Field Smith Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Carlton Cuse."
+                title="Jim Field Smith."
               />
             </div>
           </a>
           <a href="https://en.wikipedia.org/wiki/George_Kay_(writer)">
             <div className="circle animate-pulse style={{ animationDelay: '12s' }}">
               <Image
-                src="https://tribalbusinessnews.com/images/Graham_Roland.jpeg"
-                alt="Graham Roland Image"
+                src="https://api.curtisbrown.co.uk/media/60937/show/square"
+                alt="George Kay Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Graham Roland."
+                title="George Kay."
               />
             </div>
           </a>
     </div>
-    
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
@@ -347,7 +351,7 @@ function JackRyan ({ movie }) {
           </span>
       {isHovered && (
         <img
-          src="https://images.news18.com/ibnlive/uploads/2021/10/amazon-prime.jpg" // Replace with the actual path or URL of the hover image
+          src="https://www.tvguide.com/a/img/resize/3f6b2b975ba12d1456d32768c427c8e86294839d/hub/2020/04/01/ba03581d-400c-4eb7-bb74-23fd1126f941/200331-apple-tv-plus-news.jpg?auto=webp&width=1092" // Replace with the actual path or URL of the hover image
           alt="Disney+ Hover Image"
           style={{ width: '200px', height: 'auto' }}
         />
@@ -362,10 +366,9 @@ function JackRyan ({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie Jack Ryan Season 4 - 2023
+            In the Movie   Hijack - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
-          
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -432,7 +435,7 @@ function JackRyan ({ movie }) {
             }
           }
         `}</style>
-          <style jsx>{`
+             <style jsx>{`
           .circle {
             width: 200px;
             height: 200px;
@@ -469,13 +472,12 @@ function JackRyan ({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link  {movie.name}
           </h3>
-          <a href={movie.down1link2} target="_blank">
+          <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-        
-        
+       
           <Max />
 
           <Link href="../../HollywoodAds">
@@ -492,7 +494,7 @@ function JackRyan ({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX14");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX13");
   return {
     props: {
       movie: selectedMovie,
@@ -500,4 +502,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default JackRyan;
+export default Hijack;

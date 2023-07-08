@@ -10,8 +10,16 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-function ThePerfectFind({ movie }) {
-  
+function RideOn ({ movie }) {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
   
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -69,9 +77,9 @@ function ThePerfectFind({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Pocket Dial Murder (2023)",
+          name: " Ride On (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/PocketDialMurder-2023/DownloadPocket-Dial-Murder",
+            "https://uwatchfree.vercel.app/Hollywood/Raid-On-2023/RAID",
         },
       ],
     },
@@ -112,7 +120,7 @@ function ThePerfectFind({ movie }) {
       />
     <Head>
         <title>
-          Watch Pocket Dial Murder (2023) Full Movie Online Free | Uwatchfree™
+          Watch  Ride On (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -120,7 +128,7 @@ function ThePerfectFind({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,pocket dial murder movie,pocket dial murder 2023,index of pocket dial murder movie,pocket dial murder cast,pocket dial murder trailer,pocket dial murder release date,pocket dial murder plot,pocket dial murder reviews,pocket dial murder streaming,pocket dial murder watch online,pocket dial murder download,pocket dial murder full movie,pocket dial murder movie download,pocket dial murder movie free download,pocket dial murder movie online,pocket dial murder movie watch online"
+          content="uwatchfree,ride on movie,ride on 2023,index of ride on movie,ride on cast,ride on trailer,ride on release date,ride on plot,ride on reviews,ride on streaming,ride on watch online,ride on download,Ride On full movie,ride on movie download,ride on movie free download,ride on movie online,ride on movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -134,15 +142,15 @@ function ThePerfectFind({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Pocket Dial Murder (2023) | Uwatchfree™"
+          content="Watch Ride On (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/PocketDialMurder-2023/DownloadPocket-Dial-Murder"
+          content="https://uwatchfree.vercel.app/Hollywood/Raid-On-2023/RAID"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Pocket-Dial-Murder-2023_gh5dfm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/v1688158915/Ride-On-2023_qboeqz.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -153,21 +161,20 @@ function ThePerfectFind({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Pocket Dial Murder (2023) | Uwatchfree™"
+          content="Watch Ride On (2023) | Uwatchfree™"
         />
-        
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Pocket-Dial-Murder-2023_gh5dfm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/v1688158915/Ride-On-2023_qboeqz.webp"
         />
         <meta
           name="description"
-          content="Watch Pocket Dial Murder Full Movie Online on Uwatchfree™, You can also download  Pocket Dial Murder (2023) in full HD quality to watch later offline."
+          content="Watch Ride On Full Movie Online on Uwatchfree™, You can also download  Ride On (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/PocketDialMurder-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Raid-On-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -176,11 +183,11 @@ function ThePerfectFind({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Pocket Dial Murder - 2023
+            Ride On - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
-        <Player src={movie["movie.watchP1"]} />
+        <Player src={movie["movie.watchSR1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -191,18 +198,14 @@ function ThePerfectFind({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+            <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+           <a href="../../Hollywood/Raid-On-2023/Raid-On" >  
+      <h2 > Change Server {movie.name}   </h2></a>  </button>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Pocket Dial Murder (2023)
+          Listen to Audio Summary The Movie  Ride On (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -215,11 +218,12 @@ function ThePerfectFind({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687891071/u-pdm_ufygpq.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688666187/RaidOn_xb2hax.mp3" />
           </audio>
         </div>
-      
+     
         <Rating />
+        <div className="flex justify-center space-x-4 ">
         <a
           href={movie.link}
           className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
@@ -227,83 +231,113 @@ function ThePerfectFind({ movie }) {
         >
           IMDb Rating: {movie.rating}
         </a>
+        <a
+          href={movie.link2}
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+          target="_blank"
+        >
+          Wikipedia
+        </a>
+     
 
+        </div>
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-            <li>Starring: {movie.starring.join(", ")}</li>
+          <li>Starring: {movie.starring.join(", ")}</li>
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
             <div className="circle">
               <Image
-                src="https://m.media-amazon.com/images/M/MV5BMDZjZWY5OWQtMTg3MS00OWRhLWJhN2YtZGM1NDA3YWY4MzE0XkEyXkFqcGdeQXVyNDE3ODc4NTQ@._V1_.jpg"
-                alt="Kirsten Comerford Image"
+                src="https://static.joonsite.com/seelatest/topic/jackie-chan.jpg"
+                alt="Jackie Chan Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Kirsten Comerford."
+                title="Jackie Chan."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://www.themoviedb.org/t/p/w500/aR74mrGsq57Y15Z9i9xejaBzErm.jpg"
-                alt="Steve Byers Image"
+                src="https://i.mydramalist.com/Xm8jp_5f.jpg"
+                alt="Haocun Liu Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Steve Byers."
+                title="Haocun Liu."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://qt.azureedge.net/resources/authors-images-large/gina-torres.jpg"
-                alt="Gina Torres Image"
+                src="https://www.themoviedb.org/t/p/w500/oyxYBdzbbWl7xPVRH0rhMZoWmqa.jpg"
+                alt="Kevin Guo Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Gina Torres."
+                title="Kevin Guo."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://www.themoviedb.org/t/p/w500/uD3dC1ZqfDRUmmK076LBtzHwF7C.jpg"
-                alt="Mathieu Bourassa Image"
+                src="https://www.themoviedb.org/t/p/w500/1Cb35zqOHyfwaqljbSJo3Fi6Jdo.jpg"
+                alt="Yueting Lang Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Mathieu Bourassa."
+                title="Yueting Lang."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://m.media-amazon.com/images/M/MV5BNjE1MTJlZWItMWU1Mi00YmI5LWI3MzAtZGFjNDczZDg5NGZjXkEyXkFqcGdeQXVyMzEyNTgyNg@@._V1_.jpg"
-                alt="Dawn Lambing Image"
+                src="https://m.media-amazon.com/images/M/MV5BMjIzMTlhMTAtMTRjNi00NDI3LWJjZGMtMzcyNGJhODQ0OTEyXkEyXkFqcGdeQXVyNjk1MjYyNTA@._V1_.jpg"
+                alt="Andy On Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Dawn Lambing."
+                title="Andy On."
               />
             </div>
           </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
-          <a href="https://www.imdb.com/name/nm7587300/">
-            <div className="circle">
+          <div style={{ display: 'flex', gap: '10px' }}>
+
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle animate-pulse style={{ animationDelay: '12s' }}">
               <Image
-                src="https://media.licdn.com/dms/image/C4D03AQE48JXjW-tJtA/profile-displayphoto-shrink_800_800/0/1636125167968?e=2147483647&v=beta&t=dftE-VT-g5a-bQYs0GfoDy_lk_1eriCLHUnvUdR2hRU"
-                alt="Roxanne Boisvert Image"
+                src="https://wisdomexperience.org/wp-content/uploads/2018/10/Larry-Yang-1.jpg"
+                alt="Larry Yang Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Roxanne Boisvert."
+                title="Larry Yang."
               />
             </div>
           </a>
+        
+    </div>       
+     
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
+        
+      <span
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        style={{ cursor: 'pointer' }}
+      >
           <li>Original Network: {movie.Originalnetwork}</li>
+          
+      </span>
+      {isHovered && (
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/5/51/ShanghaiFilmGroup.jpg" // Replace with the actual path or URL of the hover image
+          alt="Disney+ Hover Image"
+          style={{ width: '200px', height: 'auto' }}
+        />
+      )}
+ 
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -314,7 +348,7 @@ function ThePerfectFind({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie   Pocket Dial Murder - 2023
+            In the Movie Ride On - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -418,9 +452,9 @@ function ThePerfectFind({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link  {movie.name}
+            Link {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
@@ -442,7 +476,7 @@ function ThePerfectFind({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX06");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX15");
   return {
     props: {
       movie: selectedMovie,
@@ -450,4 +484,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default ThePerfectFind;
+export default RideOn;

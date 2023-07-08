@@ -9,9 +9,7 @@ import Script from "next/script";
 import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
-function ModernLoveChennai({ movie }) {
-
-
+function LYTR({ movie }) {
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
@@ -46,9 +44,6 @@ function ModernLoveChennai({ movie }) {
   function togglePopup() {
     setShowPopup(!showPopup);
   }
-  const paragraphStyle = {
-    whiteSpace: "pre-line",
-  };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Movie",
@@ -59,16 +54,15 @@ function ModernLoveChennai({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
-    contentRating: movie.contentRating,
     url: movie.link,
     potentialAction: {
       "@type": "WatchAction",
       target: [
         {
           "@type": "EntryPoint",
-          name: "Modern Love Chennai (2023)",
+          name: "Ladies Tailor (2023) ",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/ModernLoveChennai-2023/DownloadModernLoveChennai",
+            "https://uwatchfree.vercel.app/Adult/LYTR-2023/LYTR",
         },
       ],
     },
@@ -109,7 +103,7 @@ function ModernLoveChennai({ movie }) {
       />
       <Head>
         <title>
-          Watch Modern Love Chennai (2023) Full Movie Online Free | Uwatchfree™
+          Watch Ladies Tailor (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -117,12 +111,12 @@ function ModernLoveChennai({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,modern love chennai movie,modern love chennai 2023,index of modern love chennai movie,modern love chennai cast,modern love chennai trailer,modern love chennai release date,modern love chennai plot,modern love chennai reviews,modern love chennai streaming,modern love chennai watch online,modern love chennai download,modern love chennai full movie,modern love chennai movie download,modern love chennai movie free download,modern love chennai movie online,modern love chennai movie watch online"
+          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch ladies tailor movie,index of ladies tailor movie,ladies tailor movie 2023,ladies tailor movie online,watch ladies tailor movie online free,ladies tailor tv series,ladies tailor movie download,ladies tailor movie free download,ladies tailor movie download"
         />
         <meta property="og:locale" content="en_US" />
 
         <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index,follow"/>
+        <meta name="googlebot" content="index,follow" />
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
@@ -131,15 +125,15 @@ function ModernLoveChennai({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Modern Love Chennai (2023) | Uwatchfree™"
+          content="Watch Ladies Tailor (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/ModernLoveChennai-2023/DownloadModernLoveChennai"
+          content="https://uwatchfree.vercel.app/Adult/LYTR-2023/LYTR"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515490/Modern-Love-Chennai-2023_nwaheo.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612185/LADIES_TAILOR_Part_1-2023_vf13tg.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -150,39 +144,34 @@ function ModernLoveChennai({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Modern Love Chennai (2023) | Uwatchfree™"
+          content="Watch Ladies Tailor (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515490/Modern-Love-Chennai-2023_nwaheo.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612185/LADIES_TAILOR_Part_1-2023_vf13tg.webp"
         />
         <meta
           name="description"
-          content="Watch Modern Love Chennai Full Movie Online on Uwatchfree™, You can also download Modern Love Chennai (2023) in full HD quality to watch later offline."
+          content="Watch Ladies Tailor Full Movie Online on Uwatchfree™, You can also download Ladies Tailor (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/ModernLoveChennai-2023/"
+          href="https://uwatchfree.vercel.app/Adult/LYTR-2023/"
         />
-        <link
-          href="https://vjs.zencdn.net/7.15.4/video-js.css"
-          rel="stylesheet"
-        />
-
-        <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
+   
+
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Modern Love Chennai - 2023
+          {movie.title} - 2023
         </h1>
-
         <div className={styles["iframe-container"]}>
-        <Player src={movie["movie.watchP1"]} />
+          <Player src={movie["movie.watchSR1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -193,18 +182,16 @@ function ModernLoveChennai({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+        <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+          <a href="../../Adult/LadiesTailor-2023/LadiesTailor">
+            <h2> Change Server {movie.name} </h2>
+          </a>{" "}
+        </button>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary Modern Love Chennai (2023)
+          Listen to Audio Summary The Movie Ladies Tailor (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -217,10 +204,10 @@ function ModernLoveChennai({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687096368/MLC_chwff7.mp3" />
+            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688048502/Ladies-Tailor-body_taf4gq.mp3" />
           </audio>
         </div>
-     
+
         <Rating />
         <a
           href={movie.link}
@@ -234,91 +221,82 @@ function ModernLoveChennai({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-              <li>Starring: {movie.starring.join(", ")}</li>
+          <li>Starring: {movie.starring.join(", ")}</li>
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
             <div className="circle">
               <Image
-                src="https://cdn.filmytoday.com/attachments/albums/dps/27762.jpg"
-                alt="Wamiqa Gabbi Image"
+                src="https://bioofy.com/wp-content/uploads/2020/12/sana-asundi-hot-pic-819x1024.jpg"
+                alt="Sana Asundi Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Wamiqa Gabbi."
+                title="Sana Asundi."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://nettv4u.com/imagine/22-07-2019/ritu-varma.jpg"
-                alt="Ritu Varma Image"
+                src="https://i0.wp.com/globalzonetoday.com/wp-content/uploads/2023/01/Leena-Singh.jpg"
+                alt="Leena Singh Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ritu Varma."
+                title="Leena Singh."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://static.joonsite.com/seelatest/topic/ashok-selvan.jpg"
-                alt="Ashok Selvan Image"
+                src="https://celebsunfolded.in/wp-content/uploads/2020/09/imgonline-com-ua-compressed-rd1FnniOLY2D.jpg"
+                alt="Mahi Kaur Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ashok Selvan."
+                title="Mahi Kaur."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://labuwiki.com/wp-content/uploads/2021/01/34-9.jpg"
-                alt="Vijayalakshmi Ahathian Image"
+                src="https://www.filmfare.com/awards/filmfare-awards-2019/images/nominations/pankaj_kumar.jpg?v=0.1"
+                alt="Pankaj Kumar Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Vijayalakshmi Ahathian."
+                title="Pankaj Kumar."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://www.themoviedb.org/t/p/w500/wELDWbkz4esndy1ZTe82vcNOV4U.jpg"
-                alt="Sri Gouri Priya Image"
+                src="https://nettv4u.com/serialimages/22-09-2017/vivian-dsena.jpg"
+                alt="Vivan Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Sri Gouri Priya."
+                title="Vivan."
               />
             </div>
           </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
-          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
-            <div className="circle">
+          <a href="https://en.wikipedia.org/wiki/Michael_Oblowitz">
+            <div className="circle animate-pulse style={{ animationDelay: '12s' }}">
               <Image
-                src="https://www.themoviedb.org/t/p/w235_and_h235_face/1Q827qAGjW4OL8v1F5XcOZyvKry.jpg"
-                alt="Thiagarajan Kumararaja Image"
+                src="https://scontent.fbom23-1.fna.fbcdn.net/v/t39.30808-1/277809734_343458977809427_3954334441440291614_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=106&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=6k2bi9JfF6EAX9IuVjg&_nc_ht=scontent.fbom23-1.fna&oh=00_AfAms08TqaCq-c7Xda9G0VYAg7H15VFAXgMSjjEyki4s5g&oe=64ACCC63"
+                alt="Michael Oblowitz Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Thiagarajan Kumararaja."
+                title="Michael Oblowitz."
               />
             </div>
           </a>
-          <li>Country of origin: {movie.country}</li>
-          <li>Language: {movie.language}</li>
+          <li>Country: {movie.country}</li>
           <li>Genre: {movie.genre}</li>
-          <li>Content Rating: {movie.contentRating}</li>
-          <li>Original Network: {movie.Originalnetwork}</li>
-          <h1
-            className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
+          <h2>Synopsis :</h2>
+          <h2
+            className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
           >
-            Movie Synopsis:{" "}
-          </h1>
-          <h2
-            className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
-            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
-          >
-            In the Movie Modern Love Chennai (2023)
+            {movie.synopsis}
           </h2>
-          <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -340,16 +318,17 @@ function ModernLoveChennai({ movie }) {
                 </h2>
               </button>
               <h2 className="text-2xl font-bold">
-                Offical Trailer {movie.name}{" "}
+                Offical Trailer {movie.name} (2023){" "}
               </h2>
-              <video
-                src={movie["movie.trailer"]}
-                autoPlay
-                controls
-                loop
-                width="840"
-                height="360"
-              />
+              <div className={styles["iframe-container"]}>
+                <iframe
+                  className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
+                  webkitallowFullScreen
+                  mozallowFullScreen
+                  allowFullScreen
+                  src={movie["movie.trailer"]}
+                />
+              </div>
             </div>
           </div>
         )}
@@ -385,7 +364,7 @@ function ModernLoveChennai({ movie }) {
             }
           }
         `}</style>
-          <style jsx>{`
+        <style jsx>{`
           .circle {
             width: 200px;
             height: 200px;
@@ -413,24 +392,25 @@ function ModernLoveChennai({ movie }) {
           }
         `}</style>
         <Image
-          src={movie.banner}
+          src={movie.poster}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
-          className=" rounded-3xl animate-pulse mx-auto my-10 "
+          className=" animate-pulse rounded-3xl  mx-auto my-10 "
+          style={{ height: "300px", width: "900px" }}
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link  {movie.name}
+            Link {movie.name} (2023){" "}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-       
+
           <Max />
 
-          <Link href="../../BollywoodAds">
+          <Link href="../../AdultAds">
             <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Back To Movie Selection
             </buton>
@@ -444,7 +424,7 @@ function ModernLoveChennai({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX01");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX10");
   return {
     props: {
       movie: selectedMovie,
@@ -452,4 +432,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default ModernLoveChennai;
+export default LYTR;

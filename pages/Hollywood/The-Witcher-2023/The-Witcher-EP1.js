@@ -10,18 +10,15 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-function Hijack({ movie }) {
- 
+function TheWitcher ({ movie }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-    // Additional logic for mouse enter event
   };
 
   const handleMouseLeave = () => {
     setIsHovered(false);
-    // Additional logic for mouse leave event
   };
   
   const scrollSearch = (myKey) => {
@@ -80,9 +77,9 @@ function Hijack({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Hijack (2023)",
+          name: "The Witcher S3 (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/Hijack-2023/DownloadHijack-EP1",
+            "https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/The-Witcher-EP1",
         },
       ],
     },
@@ -123,15 +120,15 @@ function Hijack({ movie }) {
       />
     <Head>
         <title>
-          Watch Hijack (2023) Full Movie Online Free | Uwatchfree™
+          Watch The Witcher S3 (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-        <meta
+      <meta
           name="keywords"
-          content="uwatchfree,hijack movie,hijack 2023,index of hijack movie,hijack cast,hijack trailer,hijack release date,hijack plot,hijack reviews,hijack streaming,hijack watch online,hijack download,hijack full movie,hijack movie download,hijack movie free download,hijack movie online,hijack movie watch online"
+          content="uwatchfree,the witcher s3 movie,the witcher s3 2023,index ofThe Witcher S3 movie,the witcher s3 cast,the witcher s3 trailer,the witcher s3 release date,the witcher s3 plot,the witcher s3 reviews,the witcher s3 streaming,the witcher s3 watch online,the witcher s3 download,the witcher s3 full movie,the witcher s3 movie download,the witcher s3 movie free download,the witcher s3 movie online,the witcher s3 movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -145,15 +142,15 @@ function Hijack({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Hijack (2023) | Uwatchfree™"
+          content="Watch The Witcher S3 (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/DownloadHijack-EP1"
+          content="https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/The-Witcher-EP1"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158916/the-witcher-3-2023_ppd2ea.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -164,21 +161,20 @@ function Hijack({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Hijack (2023) | Uwatchfree™"
+          content="Watch The Witcher S3 (2023) | Uwatchfree™"
         />
-        
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158916/the-witcher-3-2023_ppd2ea.webp"
         />
         <meta
           name="description"
-          content="Watch Hijack Full Movie Online on Uwatchfree™, You can also download  Hijack (2023) in full HD quality to watch later offline."
+          content="Watch The Witcher S3 Full Movie Online on Uwatchfree™, You can also download The Witcher S3 (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -187,7 +183,7 @@ function Hijack({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Hijack - Episode 1 ( 2023 ) 
+           The Witcher S3 Episode 1 - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -202,18 +198,18 @@ function Hijack({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+          <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-blue-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+           <a href="../../Hollywood/The-Witcher-2023/TWH-EP1" >  
+      <h2 > Change Server {movie.name}   </h2></a>  </button>
+    
+      <h3 className="mb-9 text-bg  text-black-500 text-blue-600 text-center xl:px-4 ">
+        If Player Stops Playing Change Server</h3>
+    
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Hijack (2023)
+          Listen to Audio Summary The Movie The Witcher S3 (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -226,26 +222,41 @@ function Hijack({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688252568/hijack_qmadkj.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688682700/Knights_of_the_Zodiac_wyi6d6.mp3" />
           </audio>
         </div>
         <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
-            <Link href="../../Hollywood/Hijack-2023/DownloadHijack-EP2">
+            <Link href="../../Hollywood/The-Witcher-2023/The-Witcher-EP2">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 2
               </button>
             </Link>
           </div>
           <div className="flex justify-center">
-            <Link href="../../Hollywood/Hijack-2023/DownloadHijack-EP3">
+            <Link href="../../Hollywood/The-Witcher-2023/The-Witcher-EP3">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
                 Episode 3
               </button>
             </Link>
           </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/The-Witcher-EP4">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 4
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/The-Witcher-EP5">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 5
+              </button>
+            </Link>
+          </div>
           </div>
         <Rating />
+        <div className="flex justify-center space-x-4 ">
         <a
           href={movie.link}
           className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
@@ -253,111 +264,119 @@ function Hijack({ movie }) {
         >
           IMDb Rating: {movie.rating}
         </a>
+        <a
+          href={movie.link2}
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+          target="_blank"
+        >
+          Wikipedia
+        </a>
+     
 
+        </div>
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-               <li>Starring: {movie.starring.join(", ")}</li>
+       <li>Starring: {movie.starring.join(", ")}</li>
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
-            <div className="circle">
+        
+          <div className="circle  ">
               <Image
-                src="https://multifiles.pressherald.com/uploads/sites/4/2018/11/1657234_People_Sexiest_Man_Alive_81-e1541545774238-250x250.jpg"
-                alt="Idris Elba Image"
+                src="https://qt.azureedge.net/resources/authors-images-large/henry-cavill.jpg"
+                alt="Henry Cavill Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Idris Elba."
+                title="Henry Cavill."
               />
+          
             </div>
-            <div className="circle">
+            <div className="circle  ">
               <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Neil_Maskell_2022.png"
-                alt="Neil Maskell Image"
+                src="https://i.pinimg.com/474x/c1/37/b5/c137b583ae373ae9b29c99ba20f2e362.jpg"
+                alt="Freya Allan Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Neil Maskell."
+                title="Freya Allan."
               />
+            
             </div>
-            <div className="circle">
+            <div className="circle  ">
               <Image
-                src="https://ntvb.tmsimg.com/assets/assets/81959_v9_bb.jpg"
-                alt="Max Beesley Image"
+                src="https://upload.wikimedia.org/wikipedia/commons/8/88/Anya_Chalotra_by_Gage_Skidmore.jpg"
+                alt="Anya Chalotra Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Max Beesley."
+                title="Anya Chalotra."
               />
             </div>
-            <div className="circle">
+          
+            <div className="circle   ">
               <Image
-                src="https://cdn-media.backstage.com/files/media/edit/image/41605/original.jpg"
-                alt="Ben Miles Image"
+                src="https://www.rightrasta.com/wp-content/uploads/2022/02/Eamon-Farren-Wiki-Biography.jpg"
+                alt="Eamon Farren Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ben Miles."
+                title="Eamon Farren."
               />
+           
             </div>
-            <div className="circle">
+            <div className="circle  ">
               <Image
-                src="https://babblevoices.com/wp-content/uploads/2019/02/hammarlund-1.png"
-                alt="Kaisa Hammarlund Image"
+                src="https://www.femalefirst.co.uk/image-library/square/250/m/myanna-buring-2-fp03-15.jpg"
+                alt="MyAnna Buring Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Kaisa Hammarlund."
+                title="MyAnna Buring."
               />
-            </div>
+          
+          </div>
           </div>
           <li>Year of release: {movie.yearRelease}</li>
-          <li>Director: {movie.director}</li>
-          <div style={{ display: 'flex', gap: '10px' }}>
 
-          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
-            <div className="circle">
+          <li>Director: {movie.director}</li>
+     
+                 <a href="https://en.wikipedia.org/wiki/Tomasz_Bagi%C5%84ski">
+                
+            <div className="circle animate-pulse style={{ animationDelay: '12s' }} ">
               <Image
-                src="https://nettv4u.com/imagine/jim-field-smith.png"
-                alt="Jim Field Smith Image"
+                src="https://www.tvinsider.com/wp-content/uploads/2021/09/Lauren_Schmidt_Hissrich.jpg"
+                alt="Lauren Schmidt Hissrich Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Jim Field Smith."
+                title="Lauren Schmidt Hissrich."
               />
             </div>
+           
           </a>
-          <a href="https://en.wikipedia.org/wiki/George_Kay_(writer)">
-            <div className="circle">
-              <Image
-                src="https://api.curtisbrown.co.uk/media/60937/show/square"
-                alt="George Kay Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="George Kay."
-              />
-            </div>
-          </a>
-    </div>
+     
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
-          <span
+        
+      <span
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={{ cursor: 'pointer' }}
       >
           <li>Original Network: {movie.Originalnetwork}</li>
-          </span>
+          
+      </span>
       {isHovered && (
         <img
-          src="https://www.tvguide.com/a/img/resize/3f6b2b975ba12d1456d32768c427c8e86294839d/hub/2020/04/01/ba03581d-400c-4eb7-bb74-23fd1126f941/200331-apple-tv-plus-news.jpg?auto=webp&width=1092" // Replace with the actual path or URL of the hover image
-          alt="Disney+ Hover Image"
+          src="https://www.citypng.com/public/uploads/preview/-11594687246vzsjesy7bd.png" // Replace with the actual path or URL of the hover image
+          alt="XYZ Films Image"
           style={{ width: '200px', height: 'auto' }}
         />
       )}
+ 
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -368,7 +387,7 @@ function Hijack({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie   Hijack - 2023
+            In the MovieThe Witcher S3 - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -464,7 +483,7 @@ function Hijack({ movie }) {
             }
           }
         `}</style>
-        <Image
+      <Image
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
@@ -472,7 +491,7 @@ function Hijack({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link  {movie.name}
+            Link {movie.name}
           </h3>
           <a href={movie.down1link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
@@ -496,7 +515,7 @@ function Hijack({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX13");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX22");
   return {
     props: {
       movie: selectedMovie,
@@ -504,4 +523,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default Hijack;
+export default TheWitcher ;

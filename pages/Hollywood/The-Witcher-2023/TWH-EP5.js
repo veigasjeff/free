@@ -10,7 +10,7 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-function DaughteroftheBride ({ movie }) {
+function TheWitcher ({ movie }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -20,6 +20,7 @@ function DaughteroftheBride ({ movie }) {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
+  
   
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -77,9 +78,9 @@ function DaughteroftheBride ({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Daughter of the Bride (2023)",
+          name: "The Witcher S3 (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/Daughter-of-the-Bride-2023/DownloadDaughteroftheBride",
+            "https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/TWH-EP5",
         },
       ],
     },
@@ -120,15 +121,15 @@ function DaughteroftheBride ({ movie }) {
       />
     <Head>
         <title>
-          Watch  Daughter of the Bride (2023) Full Movie Online Free | Uwatchfree™
+          Watch The Witcher S3 (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-        <meta
+      <meta
           name="keywords"
-          content="uwatchfree,daughter of the bride movie,daughter of the bride 2023,index of daughter of the bride movie,daughter of the bride cast,daughter of the bride trailer,daughter of the bride release date,daughter of the bride plot,daughter of the bride reviews,daughter of the bride streaming,daughter of the bride watch online,daughter of the bride download,daughter of the bride full movie,daughter of the bride movie download,daughter of the bride movie free download,daughter of the bride movie online,daughter of the bride movie watch online"
+          content="uwatchfree,the witcher s3 movie,the witcher s3 2023,index ofThe Witcher S3 movie,the witcher s3 cast,the witcher s3 trailer,the witcher s3 release date,the witcher s3 plot,the witcher s3 reviews,the witcher s3 streaming,the witcher s3 watch online,the witcher s3 download,the witcher s3 full movie,the witcher s3 movie download,the witcher s3 movie free download,the witcher s3 movie online,the witcher s3 movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -142,15 +143,15 @@ function DaughteroftheBride ({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Daughter of the Bride (2023) | Uwatchfree™"
+          content="Watch The Witcher S3 (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/Daughter-of-the-Bride-2023/DownloadDaughteroftheBride"
+          content="https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/TWH-EP5"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Daughter-of-the-Bride-2023_p8yt6x.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158916/the-witcher-3-2023_ppd2ea.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -161,20 +162,20 @@ function DaughteroftheBride ({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Daughter of the Bride (2023) | Uwatchfree™"
+          content="Watch The Witcher S3 (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Daughter-of-the-Bride-2023_p8yt6x.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158916/the-witcher-3-2023_ppd2ea.webp"
         />
         <meta
           name="description"
-          content="Watch Daughter of the Bride Full Movie Online on Uwatchfree™, You can also download  Daughter of the Bride (2023) in full HD quality to watch later offline."
+          content="Watch The Witcher S3 Full Movie Online on Uwatchfree™, You can also download The Witcher S3 (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Daughter-of-the-Bride-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -183,11 +184,11 @@ function DaughteroftheBride ({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Daughter of the Bride - 2023
+           The Witcher S3 Episode 5 - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
-        <Player src={movie["movie.watchP1"]} />
+        <Player src={movie["movie.watchSR5"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -198,18 +199,16 @@ function DaughteroftheBride ({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+        <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-blue-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+           <a href="../../Hollywood/The-Witcher-2023/The-Witcher-EP5" >  
+      <h2 > Change Server {movie.name}   </h2></a></button>
+      <h3 className="mb-9 text-bg  text-black-500 text-blue-600 text-center xl:px-4 ">
+        If Player Stops Playing Change Server</h3>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Daughter of the Bride (2023)
+          Listen to Audio Summary The Movie The Witcher S3 (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -222,10 +221,39 @@ function DaughteroftheBride ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688673861/Daughter_of_the_Bride_opl8va.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688682700/Knights_of_the_Zodiac_wyi6d6.mp3" />
           </audio>
         </div>
-     
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/TWH-EP1">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 1
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/TWH-EP2">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 2
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/TWH-EP3">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 3
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/The-Witcher-2023/TWH-EP4">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 4
+              </button>
+            </Link>
+          </div>
+          </div>
         <Rating />
         <div className="flex justify-center space-x-4 ">
         <a
@@ -249,50 +277,83 @@ function DaughteroftheBride ({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-               <li>Starring: {movie.starring.join(", ")}</li>
+          <li>Starring: {movie.starring.join(", ")}</li>
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
-            <div className="circle">
+        
+          <div className="circle  ">
               <Image
-                src="https://wallpapercave.com/wp/wp5382552.jpg"
-                alt="Halston Sage Image" layout="responsive" width={250} height={250} title="Halston Sage."
+                src="https://qt.azureedge.net/resources/authors-images-large/henry-cavill.jpg"
+                alt="Henry Cavill Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Henry Cavill."
+              />
+          
+            </div>
+            <div className="circle  ">
+              <Image
+                src="https://i.pinimg.com/474x/c1/37/b5/c137b583ae373ae9b29c99ba20f2e362.jpg"
+                alt="Freya Allan Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Freya Allan."
+              />
+            
+            </div>
+            <div className="circle  ">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/8/88/Anya_Chalotra_by_Gage_Skidmore.jpg"
+                alt="Anya Chalotra Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Anya Chalotra."
               />
             </div>
-            <div className="circle">
+          
+            <div className="circle   ">
               <Image
-                src="https://cdn.britannica.com/84/234484-050-2C176128/Marcia-Gay-Harden-2017.jpg"
-                alt="Marcia Gay Harden Image" layout="responsive" width={250} height={250} title="Marcia Gay Harden."
+                src="https://www.rightrasta.com/wp-content/uploads/2022/02/Eamon-Farren-Wiki-Biography.jpg"
+                alt="Eamon Farren Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Eamon Farren."
               />
+           
             </div>
-            <div className="circle">
+            <div className="circle  ">
               <Image
-                src="https://independenttalent-63a2.kxcdn.com/wp-content/uploads/2022/09/ANDREW-2-3-230x265.jpeg"
-                alt="Andrew Richardson Image" layout="responsive" width={250} height={250} title="Andrew Richardson."
+                src="https://www.femalefirst.co.uk/image-library/square/250/m/myanna-buring-2-fp03-15.jpg"
+                alt="MyAnna Buring Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="MyAnna Buring."
               />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://m.media-amazon.com/images/M/MV5BMTYwNTI3NzI5OV5BMl5BanBnXkFtZTcwMDE1NTk0NA@@._V1_.jpg"
-                alt="Aidan Quinn Image" layout="responsive" width={250} height={250} title="Aidan Quinn." 
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://assets-myneworleans-com.s3-accelerate.amazonaws.com/2021/12/Persona-15.jpg"
-                alt="Mel Gibson Image" layout="responsive" width={250} height={250} title="Brenda Currin." 
-              />
-                  
-            </div>
+          
+          </div>
           </div>
           <li>Year of release: {movie.yearRelease}</li>
 
           <li>Director: {movie.director}</li>
-
-      <a href="https://www.wikidata.org/wiki/Q24255227">
-      <div className="circle">
-        <Image src="https://dd8thtkc05n1s.cloudfront.net/uploads/member/member_image/65/Annette_Headshot_2023.jpeg" alt="Annette Haywood-Carter Image" layout="responsive" width={250} height={250} title="Annette Haywood-Carter." />
-      </div>
-      
-    </a>
+     
+                 <a href="https://en.wikipedia.org/wiki/Tomasz_Bagi%C5%84ski">
+                
+            <div className="circle  animate-pulse style={{ animationDelay: '12s' }}  ">
+              <Image
+                src="https://www.tvinsider.com/wp-content/uploads/2021/09/Lauren_Schmidt_Hissrich.jpg"
+                alt="Lauren Schmidt Hissrich Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Lauren Schmidt Hissrich."
+              />
+            </div>
+           
+          </a>
      
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
@@ -308,9 +369,9 @@ function DaughteroftheBride ({ movie }) {
           
       </span>
       {isHovered && (
-        <img
-          src="https://upload.wikimedia.org/wikipedia/en/6/60/Marvista-entertainment-logo.jpg" // Replace with the actual path or URL of the hover image
-          alt="Disney+ Hover Image"
+        <Image
+          src="https://www.citypng.com/public/uploads/preview/-11594687246vzsjesy7bd.png" // Replace with the actual path or URL of the hover image
+          alt="XYZ Films Image"
           style={{ width: '200px', height: 'auto' }}
         />
       )}
@@ -325,7 +386,7 @@ function DaughteroftheBride ({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie Daughter of the Bride - 2023
+            In the MovieThe Witcher S3 - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -394,7 +455,7 @@ function DaughteroftheBride ({ movie }) {
             }
           }
         `}</style>
-            <style jsx>{`
+          <style jsx>{`
           .circle {
             width: 200px;
             height: 200px;
@@ -405,6 +466,7 @@ function DaughteroftheBride ({ movie }) {
             align-items: center;
             justify-content: center;
             cursor: pointer;
+           
           }
 
           .circle img {
@@ -420,9 +482,22 @@ function DaughteroftheBride ({ movie }) {
               height: 120px;
             }
           }
-     
+          @keyframes pulseAnimation {
+            0% {
+              opacity: 0.5;
+            }
+            33.33% {
+              opacity: 1;
+            }
+            66.66% {
+              opacity: 0.5;
+            }
+            100% {
+              opacity: 0.5;
+            }
+          }
         `}</style>
-        <Image
+       <Image
           src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
@@ -432,7 +507,7 @@ function DaughteroftheBride ({ movie }) {
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
             Link {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down2link5} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
@@ -454,7 +529,7 @@ function DaughteroftheBride ({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX18");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX22");
   return {
     props: {
       movie: selectedMovie,
@@ -462,4 +537,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default DaughteroftheBride ;
+export default TheWitcher ;

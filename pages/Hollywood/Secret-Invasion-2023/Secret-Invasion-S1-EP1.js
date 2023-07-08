@@ -10,7 +10,7 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-function RideOn ({ movie }) {
+function SecretInvasion ({ movie }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -183,7 +183,7 @@ function RideOn ({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Secret Invasion S1 Ep1 - 2023
+            Secret Invasion S1 EP1 - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -198,13 +198,9 @@ function RideOn ({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+        <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+           <a href="../../Hollywood/Secret-Invasion-2023/SEIN-S1-EP1" >  
+      <h2 > Change Server {movie.name}   </h2></a>  </button>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
@@ -316,7 +312,7 @@ function RideOn ({ movie }) {
      
      
           <a href="https://en.wikipedia.org/wiki/Ali_Selim">
-            <div className="circle">
+            <div className="circle animate-pulse style={{ animationDelay: '12s' }}">
               <Image
                 src="https://images.mubicdn.net/images/cast_member/106368/cache-524256-1584555866/image-w856.jpg"
                 alt="Ali Selim Image"
@@ -495,4 +491,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default RideOn;
+export default SecretInvasion;

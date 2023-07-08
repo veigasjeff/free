@@ -10,16 +10,9 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-function ConfidentialInformant ({ movie }) {
-  const [isHovered, setIsHovered] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
+function BloodyDaddy({ movie }) {
 
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
   
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -77,9 +70,9 @@ function ConfidentialInformant ({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Confidential Informant (2023)",
+          name: "Bloody Daddy (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/Confidential-Informant-2023/DownloadConfidential-Informant",
+            "https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BODY",
         },
       ],
     },
@@ -120,7 +113,7 @@ function ConfidentialInformant ({ movie }) {
       />
     <Head>
         <title>
-          Watch  Confidential Informant (2023) Full Movie Online Free | Uwatchfree™
+          Watch Bloody Daddy (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -128,7 +121,7 @@ function ConfidentialInformant ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,confidential informant movie,confidential informant 2023,index of confidential informant movie,confidential informant cast,confidential informant trailer,confidential informant release date,confidential informant plot,confidential informant reviews,confidential informant streaming,confidential informant watch online,confidential informant download,confidential informant full movie,confidential informant movie download,confidential informant movie free download,confidential informant movie online,confidential informant movie watch online"
+          content="uwatchfree,bloody daddy movie,bloody daddy 2023,index of bloody daddy movie,bloody daddy cast,bloody daddy trailer,bloody daddy release date,bloody daddy plot,bloody daddy reviews,bloody daddy streaming,bloody daddy watch online,bloody daddy download,bloody daddy full movie,bloody daddy movie download,bloody daddy movie free download,bloody daddy movie online,bloody daddy movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -142,15 +135,15 @@ function ConfidentialInformant ({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Confidential Informant (2023) | Uwatchfree™"
+          content="Watch Bloody Daddy (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/Confidential-Informant-2023/DownloadConfidential-Informant"
+          content="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BODY"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Confidential-Informant-2023_edefpc.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -161,20 +154,20 @@ function ConfidentialInformant ({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Confidential Informant (2023) | Uwatchfree™"
+          content="Watch Bloody Daddy (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Confidential-Informant-2023_edefpc.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
         />
         <meta
           name="description"
-          content="Watch Confidential Informant Full Movie Online on Uwatchfree™, You can also download  Confidential Informant (2023) in full HD quality to watch later offline."
+          content="Watch BloodyDaddy Full Movie Online on Uwatchfree™, You can also download Bloody Daddy (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Confidential-Informant-2023/"
+          href="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -183,11 +176,11 @@ function ConfidentialInformant ({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Confidential Informant - 2023
+           Bloody Daddy - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
-        <Player src={movie["movie.watchP1"]} />
+        <Player src={movie["movie.watchSR1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -198,18 +191,15 @@ function ConfidentialInformant ({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+           <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+           <a href="../../Bollywood/bloodydaddy-2023/Bloody-Daddy" >  
+      <h2 > Change Server {movie.name}   </h2></a></button>
+     
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Confidential Informant (2023)
+          Listen to Audio Summary The Movie Bloody Daddy (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -222,12 +212,11 @@ function ConfidentialInformant ({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688671925/Confidential_Informant_vg8hkj.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687094036/BLOODY_DADDY_yynlmx.mp3" />
           </audio>
         </div>
      
         <Rating />
-        <div className="flex justify-center space-x-4 ">
         <a
           href={movie.link}
           className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
@@ -235,73 +224,83 @@ function ConfidentialInformant ({ movie }) {
         >
           IMDb Rating: {movie.rating}
         </a>
-        <a
-          href={movie.link2}
-          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
-          target="_blank"
-        >
-          Wikipedia
-        </a>
-     
 
-        </div>
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-              <li>Starring: {movie.starring.join(", ")}</li>
-       
-       <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
-        
-       <div className="circle">
-         <Image src="https://astrapublishinghouse.com/wp-content/uploads/2022/06/2268933.jpg" alt="Andrea Abreu Image" layout="responsive" width={250} height={250} title="Andrea Abreu." />
-       </div>
-       <div className="circle">
-         <Image src="https://flxt.tmsimg.com/assets/173408_v9_bc.jpg" alt="Kate Bosworth Image" layout="responsive" width={250} height={250} title="Kate Bosworth." />
-       </div>
-       <div className="circle">
-         <Image src="https://m.media-amazon.com/images/M/MV5BNTg3OTc1NmMtYTY2OC00N2EzLTg2MDktY2M2MDA4NDYwNTNhXkEyXkFqcGdeQXVyMTkzMjE4Nw@@._V1_.jpg" alt="Dianna Camacho Image" layout="responsive" width={250} height={250} title="Dianna Camacho." />
-       </div>
-       <div className="circle">
-       <Image src="https://nettv4u.com/imagine/john-cassini.png" alt="John Cassini Image"  layout="responsive" width={250} height={250} title="John Cassini." />
-       </div>
-       <div className="circle">
-         <Image src="https://cloudfront-us-east-1.images.arcpublishing.com/gray/KIQTYEVCHRBNXATD5OY2ISIF24.jpg" alt="Mel Gibson Image" layout="responsive" width={250} height={250} title="Mel Gibson." />
-       </div>
-       </div>
-           <li>Year of release: {movie.yearRelease}</li>
- 
-           <li>Director: {movie.director}</li>
-      
-        <a href="https://en.wikipedia.org/wiki/Michael_Oblowitz">
-       <div className="circle">
-         <Image src="https://resizing.flixster.com/LI2yrcuSp346tcoY4jaaHlLkzBg=/218x280/v2/https://flxt.tmsimg.com/assets/226152_v9_aa.jpg" alt="Michael Oblowitz Image" layout="responsive" width={250} height={250} title="Michael Oblowitz." />
-       </div>
-       
-     </a>
-        
-     
+    <li>Starring: {movie.starring.join(", ")}</li>
+          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+            <div className="circle">
+              <Image
+                src="https://qt.azureedge.net/resources/authors-images-large/shahid-kapoor.jpg"
+                alt="Shahid Kapoor Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Shahid Kapoor."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://www.filmibeat.com/img/162x203/popcorn/profile_photos/amy-aela-20221116123602-52695.jpg"
+                alt="Amy Aela Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Amy Aela."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://m.media-amazon.com/images/M/MV5BMWUzNGNlYzMtM2E3NC00NjE0LWEwYTYtMTZhY2ZkOTk3YTM2XkEyXkFqcGdeQXVyMjIwMDc1Mzk@._V1_.jpg"
+                alt="Ankur Bhatia Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ankur Bhatia."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://nettv4u.com/imagine/05-07-2017/diana-penty.jpg"
+                alt="Diana Penty Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Diana Penty."
+              />
+            </div>
+            <div className="circle">
+              <Image
+                src="https://cdn.riffre.com/filmbees/wallpapers/2014/12/15/5106/mobile/Ronit-Roy-5106.jpg"
+                alt="Ronit Roy Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ronit Roy."
+              />
+            </div>
+          </div>
+          <li>Year of release: {movie.yearRelease}</li>
+          <li>Director: {movie.director}</li>
+          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
+            <div className="circle  animate-pulse style={{ animationDelay: '12s' }} ">
+              <Image
+                src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ali-abbas-zafar-21198-26-10-2018-11-53-38.jpg"
+                alt="Ali Abbas Zafar Image"
+                layout="responsive"
+                width={250}
+                height={250}
+                title="Ali Abbas Zafar."
+              />
+            </div>
+          </a>
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
-        
-      <span
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        style={{ cursor: 'pointer' }}
-      >
           <li>Original Network: {movie.Originalnetwork}</li>
-          
-      </span>
-      {isHovered && (
-        <img
-          src="https://pbs.twimg.com/profile_images/2264785046/Untitled_400x400.jpg" // Replace with the actual path or URL of the hover image
-          alt="Disney+ Hover Image"
-          style={{ width: '200px', height: 'auto' }}
-        />
-      )}
- 
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -312,7 +311,7 @@ function ConfidentialInformant ({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie Confidential Informant - 2023
+            In the Movie  Bloody Daddy - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -381,7 +380,7 @@ function ConfidentialInformant ({ movie }) {
             }
           }
         `}</style>
-              <style jsx>{`
+          <style jsx>{`
           .circle {
             width: 200px;
             height: 200px;
@@ -407,7 +406,6 @@ function ConfidentialInformant ({ movie }) {
               height: 120px;
             }
           }
-     
         `}</style>
         <Image
           src={movie.banner}
@@ -417,9 +415,9 @@ function ConfidentialInformant ({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link {movie.name}
+            Link  {movie.name}
           </h3>
-          <a href={movie.down1link1} target="_blank">
+          <a href={movie.down2link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
@@ -427,7 +425,7 @@ function ConfidentialInformant ({ movie }) {
        
           <Max />
 
-          <Link href="../../HollywoodAds">
+          <Link href="../../BollywoodAds">
             <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Back To Movie Selection
             </buton>
@@ -441,7 +439,7 @@ function ConfidentialInformant ({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX17");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX02");
   return {
     props: {
       movie: selectedMovie,
@@ -449,4 +447,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default ConfidentialInformant;
+export default BloodyDaddy;

@@ -10,18 +10,15 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-function Hijack({ movie }) {
- 
+function ConfidentialInformant ({ movie }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-    // Additional logic for mouse enter event
   };
 
   const handleMouseLeave = () => {
     setIsHovered(false);
-    // Additional logic for mouse leave event
   };
   
   const scrollSearch = (myKey) => {
@@ -80,9 +77,9 @@ function Hijack({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: " Hijack (2023)",
+          name: " Confidential Informant (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Hollywood/Hijack-2023/DownloadHijack-EP3",
+            "https://uwatchfree.vercel.app/Hollywood/Confidential-Informant-2023/COIF",
         },
       ],
     },
@@ -123,7 +120,7 @@ function Hijack({ movie }) {
       />
     <Head>
         <title>
-          Watch Hijack (2023) Full Movie Online Free | Uwatchfree™
+          Watch  Confidential Informant (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -131,7 +128,7 @@ function Hijack({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,hijack movie,hijack 2023,index of hijack movie,hijack cast,hijack trailer,hijack release date,hijack plot,hijack reviews,hijack streaming,hijack watch online,hijack download,hijack full movie,hijack movie download,hijack movie free download,hijack movie online,hijack movie watch online"
+          content="uwatchfree,confidential informant movie,confidential informant 2023,index of confidential informant movie,confidential informant cast,confidential informant trailer,confidential informant release date,confidential informant plot,confidential informant reviews,confidential informant streaming,confidential informant watch online,confidential informant download,confidential informant full movie,confidential informant movie download,confidential informant movie free download,confidential informant movie online,confidential informant movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -145,15 +142,15 @@ function Hijack({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Hijack (2023) | Uwatchfree™"
+          content="Watch Confidential Informant (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/DownloadHijack-EP3"
+          content="https://uwatchfree.vercel.app/Hollywood/Confidential-Informant-2023/COIF"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Confidential-Informant-2023_edefpc.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -164,21 +161,20 @@ function Hijack({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Hijack (2023) | Uwatchfree™"
+          content="Watch Confidential Informant (2023) | Uwatchfree™"
         />
-        
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hijack-2023_parekf.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Confidential-Informant-2023_edefpc.webp"
         />
         <meta
           name="description"
-          content="Watch Hijack Full Movie Online on Uwatchfree™, You can also download  Hijack (2023) in full HD quality to watch later offline."
+          content="Watch Confidential Informant Full Movie Online on Uwatchfree™, You can also download  Confidential Informant (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Hijack-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Confidential-Informant-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -187,11 +183,11 @@ function Hijack({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-            Hijack - Episode 3 ( 2023 ) 
+            Confidential Informant - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
-        <Player src={movie["movie.watchP3"]} />
+        <Player src={movie["movie.watchSR1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -202,18 +198,14 @@ function Hijack({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-        <Image
-          src={movie.poster}
-          alt={`Banner for ${movie.title}`}
-          loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
-        />
+          <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+           <a href="../../Hollywood/Confidential-Informant-2023/Confidential-Informant" >  
+      <h2 > Change Server {movie.name}   </h2></a>  </button>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie  Hijack (2023)
+          Listen to Audio Summary The Movie  Confidential Informant (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -226,26 +218,12 @@ function Hijack({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688252568/hijack_qmadkj.mp3" />
+           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688671925/Confidential_Informant_vg8hkj.mp3" />
           </audio>
         </div>
-        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
-          <div className="flex justify-center">
-            <Link href="../../Hollywood/Hijack-2023/DownloadHijack-EP1">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-                Episode 1
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center">
-            <Link href="../../Hollywood/Hijack-2023/DownloadHijack-EP2">
-              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-                Episode 2
-              </button>
-            </Link>
-          </div>
-          </div>
+     
         <Rating />
+        <div className="flex justify-center space-x-4 ">
         <a
           href={movie.link}
           className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
@@ -253,111 +231,73 @@ function Hijack({ movie }) {
         >
           IMDb Rating: {movie.rating}
         </a>
+        <a
+          href={movie.link2}
+          className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2"
+          target="_blank"
+        >
+          Wikipedia
+        </a>
+     
 
+        </div>
         <ul
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-                   <li>Starring: {movie.starring.join(", ")}</li>
-          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
-            <div className="circle">
-              <Image
-                src="https://multifiles.pressherald.com/uploads/sites/4/2018/11/1657234_People_Sexiest_Man_Alive_81-e1541545774238-250x250.jpg"
-                alt="Idris Elba Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Idris Elba."
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Neil_Maskell_2022.png"
-                alt="Neil Maskell Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Neil Maskell."
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://ntvb.tmsimg.com/assets/assets/81959_v9_bb.jpg"
-                alt="Max Beesley Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Max Beesley."
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://cdn-media.backstage.com/files/media/edit/image/41605/original.jpg"
-                alt="Ben Miles Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Ben Miles."
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://babblevoices.com/wp-content/uploads/2019/02/hammarlund-1.png"
-                alt="Kaisa Hammarlund Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Kaisa Hammarlund."
-              />
-            </div>
-          </div>
+          <li>Starring: {movie.starring.join(", ")}</li>
+       
+      <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
+       
+      <div className="circle">
+        <Image src="https://astrapublishinghouse.com/wp-content/uploads/2022/06/2268933.jpg" alt="Andrea Abreu Image" layout="responsive" width={250} height={250} title="Andrea Abreu." />
+      </div>
+      <div className="circle">
+        <Image src="https://flxt.tmsimg.com/assets/173408_v9_bc.jpg" alt="Kate Bosworth Image" layout="responsive" width={250} height={250} title="Kate Bosworth." />
+      </div>
+      <div className="circle">
+        <Image src="https://m.media-amazon.com/images/M/MV5BNTg3OTc1NmMtYTY2OC00N2EzLTg2MDktY2M2MDA4NDYwNTNhXkEyXkFqcGdeQXVyMTkzMjE4Nw@@._V1_.jpg" alt="Dianna Camacho Image" layout="responsive" width={250} height={250} title="Dianna Camacho." />
+      </div>
+      <div className="circle">
+        <Image src="https://nettv4u.com/imagine/john-cassini.png" alt="John Cassini Image"  layout="responsive" width={250} height={250} title="John Cassini." />
+      </div>
+      <div className="circle">
+        <Image src="https://cloudfront-us-east-1.images.arcpublishing.com/gray/KIQTYEVCHRBNXATD5OY2ISIF24.jpg" alt="Mel Gibson Image" layout="responsive" width={250} height={250} title="Mel Gibson." />
+      </div>
+      </div>
           <li>Year of release: {movie.yearRelease}</li>
-          <li>Director: {movie.director}</li>
-          <div style={{ display: 'flex', gap: '10px' }}>
 
-          <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
-            <div className="circle">
-              <Image
-                src="https://nettv4u.com/imagine/jim-field-smith.png"
-                alt="Jim Field Smith Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Jim Field Smith."
-              />
-            </div>
-          </a>
-          <a href="https://en.wikipedia.org/wiki/George_Kay_(writer)">
-            <div className="circle">
-              <Image
-                src="https://api.curtisbrown.co.uk/media/60937/show/square"
-                alt="George Kay Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="George Kay."
-              />
-            </div>
-          </a>
-    </div>
+          <li>Director: {movie.director}</li>
+     
+       <a href="https://en.wikipedia.org/wiki/Michael_Oblowitz">
+      <div className="circle animate-pulse style={{ animationDelay: '12s' }}">
+        <Image src="https://resizing.flixster.com/LI2yrcuSp346tcoY4jaaHlLkzBg=/218x280/v2/https://flxt.tmsimg.com/assets/226152_v9_aa.jpg" alt="Michael Oblowitz Image" layout="responsive" width={250} height={250} title="Michael Oblowitz." />
+      </div>
+      
+    </a>
+     
           <li>Country of origin: {movie.country}</li>
           <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
           <li>Content Rating: {movie.contentRating}</li>
-          <span
+        
+      <span
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={{ cursor: 'pointer' }}
       >
           <li>Original Network: {movie.Originalnetwork}</li>
-          </span>
+          
+      </span>
       {isHovered && (
         <img
-          src="https://www.tvguide.com/a/img/resize/3f6b2b975ba12d1456d32768c427c8e86294839d/hub/2020/04/01/ba03581d-400c-4eb7-bb74-23fd1126f941/200331-apple-tv-plus-news.jpg?auto=webp&width=1092" // Replace with the actual path or URL of the hover image
+          src="https://pbs.twimg.com/profile_images/2264785046/Untitled_400x400.jpg" // Replace with the actual path or URL of the hover image
           alt="Disney+ Hover Image"
           style={{ width: '200px', height: 'auto' }}
         />
       )}
+ 
+ 
           <h1
             className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
@@ -368,7 +308,7 @@ function Hijack({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie   Hijack - 2023
+            In the Movie Confidential Informant - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -437,7 +377,7 @@ function Hijack({ movie }) {
             }
           }
         `}</style>
-          <style jsx>{`
+     <style jsx>{`
           .circle {
             width: 200px;
             height: 200px;
@@ -463,6 +403,7 @@ function Hijack({ movie }) {
               height: 120px;
             }
           }
+     
         `}</style>
         <Image
           src={movie.banner}
@@ -472,9 +413,9 @@ function Hijack({ movie }) {
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link  {movie.name}
+            Link {movie.name}
           </h3>
-          <a href={movie.down1link3} target="_blank">
+          <a href={movie.down1link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
@@ -496,7 +437,7 @@ function Hijack({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX13");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX17");
   return {
     props: {
       movie: selectedMovie,
@@ -504,4 +445,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default Hijack;
+export default ConfidentialInformant;

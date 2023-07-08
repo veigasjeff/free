@@ -10,9 +10,8 @@ import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
 
-
-function BloodyDaddy({ movie }) {
-
+function MaukaYaDhoka({ movie }) {
+ 
   
   const scrollSearch = (myKey) => {
     window.scrollTo(0, 0);
@@ -70,9 +69,9 @@ function BloodyDaddy({ movie }) {
       target: [
         {
           "@type": "EntryPoint",
-          name: "Bloody Daddy (2023)",
+          name: "Mauka Ya Dhoka (2023)",
           urlTemplate:
-            "https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BOD",
+            "https://uwatchfree.vercel.app/Bollywood/MaukaYaDhoka-2023/MYAD",
         },
       ],
     },
@@ -113,7 +112,7 @@ function BloodyDaddy({ movie }) {
       />
     <Head>
         <title>
-          Watch Bloody Daddy (2023) Full Movie Online Free | Uwatchfree™
+          Watch Mauka Ya Dhoka (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -121,7 +120,7 @@ function BloodyDaddy({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,bloody daddy movie,bloody daddy 2023,index of bloody daddy movie,bloody daddy cast,bloody daddy trailer,bloody daddy release date,bloody daddy plot,bloody daddy reviews,bloody daddy streaming,bloody daddy watch online,bloody daddy download,bloody daddy full movie,bloody daddy movie download,bloody daddy movie free download,bloody daddy movie online,bloody daddy movie watch online"
+          content="uwatchfree,mauka ya dhoka movie,mauka ya dhoka 2023,index of mauka ya dhoka movie,mauka ya dhoka cast,mauka ya dhoka trailer,mauka ya dhoka release date,mauka ya dhoka plot,mauka ya dhoka reviews,mauka ya dhoka streaming,mauka ya dhoka watch online,mauka ya dhoka download,mauka ya dhoka full movie,mauka ya dhoka movie download,mauka ya dhoka movie free download,mauka ya dhoka movie online,mauka ya dhoka movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -135,15 +134,15 @@ function BloodyDaddy({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Bloody Daddy (2023) | Uwatchfree™"
+          content="Watch Mauka Ya Dhoka (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
-          content="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BOD"
+          content="https://uwatchfree.vercel.app/Bollywood/MaukaYaDhoka-2023/MYAD"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Mauka-Ya-Dhoka-2023_dacw49.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -154,20 +153,20 @@ function BloodyDaddy({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Bloody Daddy (2023) | Uwatchfree™"
+          content="Watch Mauka Ya Dhoka (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Mauka-Ya-Dhoka-2023_dacw49.webp"
         />
         <meta
           name="description"
-          content="Watch BloodyDaddy Full Movie Online on Uwatchfree™, You can also download Bloody Daddy (2023) in full HD quality to watch later offline."
+          content="Watch MaukaYaDhoka Full Movie Online on Uwatchfree™, You can also download Mauka Ya Dhoka (2023) in full HD quality to watch later offline."
         />
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/"
+          href="https://uwatchfree.vercel.app/Bollywood/MaukaYaDhoka-2023/"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -176,7 +175,7 @@ function BloodyDaddy({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-           Bloody Daddy - 2023
+           Mauka Ya Dhoka - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -191,15 +190,14 @@ function BloodyDaddy({ movie }) {
           title="Watch Movies & TV-Series Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-          <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-           <a href="../../Bollywood/bloodydaddy-2023/Bloody-Daddy" >  
-      <h2 > Change {movie.name}  Server </h2></a></button>
-     
+            <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+           <a href="../../Bollywood/MaukaYaDhoka-2023/MaukaYaDhoka" >  
+      <h2 > Change Server {movie.name}   </h2></a>  </button>
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie Bloody Daddy (2023)
+          Listen to Audio Summary The Movie Mauka Ya Dhoka (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -212,10 +210,10 @@ function BloodyDaddy({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-           <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1687094036/BLOODY_DADDY_yynlmx.mp3" />
+           <source src="https://ik.imagekit.io/gmcl6xvq6/Mauka-Ya-Dhoka-2023.mp4?updatedAt=1687612132480" />
           </audio>
         </div>
-     
+       
         <Rating />
         <a
           href={movie.link}
@@ -229,70 +227,70 @@ function BloodyDaddy({ movie }) {
           className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-white"
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
-    <li>Starring: {movie.starring.join(", ")}</li>
+          <li>Starring: {movie.starring.join(", ")}</li>
           <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
             <div className="circle">
               <Image
-                src="https://qt.azureedge.net/resources/authors-images-large/shahid-kapoor.jpg"
-                alt="Shahid Kapoor Image"
+                src="https://nettv4u.com/imagine/24-06-2017/gunjan-walia.jpg?w=250"
+                alt="Samiksha Bhatnagar Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Shahid Kapoor."
+                title="Samiksha Bhatnagar."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://www.filmibeat.com/img/162x203/popcorn/profile_photos/amy-aela-20221116123602-52695.jpg"
-                alt="Amy Aela Image"
+                src="https://nettv4u.com/serialimages/23-03-2017/himmanshoo-a.-malhotra.jpg"
+                alt="Himanshu Malhotra Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Amy Aela."
+                title="Himanshu Malhotra."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://m.media-amazon.com/images/M/MV5BMWUzNGNlYzMtM2E3NC00NjE0LWEwYTYtMTZhY2ZkOTk3YTM2XkEyXkFqcGdeQXVyMjIwMDc1Mzk@._V1_.jpg"
-                alt="Ankur Bhatia Image"
+                src="https://nettv4u.com/serialimages/26-03-2017/abhaas-mehta.jpg"
+                alt="Abhaas Mehta Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ankur Bhatia."
+                title="Abhaas Mehta."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://nettv4u.com/imagine/05-07-2017/diana-penty.jpg"
-                alt="Diana Penty Image"
+                src="https://nettv4u.com/imagine/17-08-2022/sapna-choubisa.png"
+                alt="Sapna Choubisa Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Diana Penty."
+                title="Sapna Choubisa."
               />
             </div>
             <div className="circle">
               <Image
-                src="https://cdn.riffre.com/filmbees/wallpapers/2014/12/15/5106/mobile/Ronit-Roy-5106.jpg"
-                alt="Ronit Roy Image"
+                src="https://nettv4u.com/imagine/02-03-2017/narendra-gupta.jpg"
+                alt="Narendra Gupta Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ronit Roy."
+                title="Narendra Gupta."
               />
             </div>
           </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
           <a href="https://en.wikipedia.org/wiki/Jim_Field_Smith">
-            <div className="circle">
+            <div className="circle animate-pulse style={{ animationDelay: '12s' }}">
               <Image
-                src="https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ali-abbas-zafar-21198-26-10-2018-11-53-38.jpg"
-                alt="Ali Abbas Zafar Image"
+                src="https://www.themoviedb.org/t/p/w235_and_h235_face/e9ylFgYG5vREAL1sQG7sZbjcKsh.jpg"
+                alt="Deepakk Sunil Prasadh Image"
                 layout="responsive"
                 width={250}
                 height={250}
-                title="Ali Abbas Zafar."
+                title="Deepakk Sunil Prasadh."
               />
             </div>
           </a>
@@ -311,7 +309,7 @@ function BloodyDaddy({ movie }) {
             className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
             style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
           >
-            In the Movie  Bloody Daddy - 2023
+            In the Movie  Mauka Ya Dhoka - 2023
           </h2>
           <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
@@ -422,7 +420,7 @@ function BloodyDaddy({ movie }) {
               Download
             </button>
           </a>
-       
+         
           <Max />
 
           <Link href="../../BollywoodAds">
@@ -439,7 +437,7 @@ function BloodyDaddy({ movie }) {
 export async function getServerSideProps() {
   const res = await fetch("https://uwatchfree.vercel.app/movies.json");
   const data = await res.json();
-  const selectedMovie = data.find((movie) => movie.id === "INDEX02");
+  const selectedMovie = data.find((movie) => movie.id === "INDEX11");
   return {
     props: {
       movie: selectedMovie,
@@ -447,4 +445,4 @@ export async function getServerSideProps() {
   };
 }
 
-export default BloodyDaddy;
+export default MaukaYaDhoka;
