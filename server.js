@@ -1,7 +1,11 @@
+
+
 const express = require('express');
 const next = require('next');
 const path = require('path');
-const fs = require('fs');
+const compression = require('compression'); // import the compression package
+
+
 
 const port = process.env.PORT || 3000;
 const dev = process.env.NODE_ENV !== 'production';
@@ -17,18 +21,16 @@ app.prepare().then(() => {
     immutable: true
   }));
 
-  // Set cache-control headers for specific routes
-  server.get('/api/analytics', (req, res) => {
-    res.set('Cache-Control', 'public, max-age=3600');
-    // Handle the API logic
-    // ...
-  });
+  // Compress static files with gzip
+  server.use(compression());
 
   // Serve Next.js pages
   server.get('*', (req, res) => handle(req, res));
 
   server.listen(port, (err) => {
     if (err) throw err;
-    console.log(`> Ready on https://uwatch4free.netlify.app/:${port}`);
+    console.log(`> Ready on http://localhost:${port}`);
   });
 });
+
+
