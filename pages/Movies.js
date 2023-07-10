@@ -6,7 +6,7 @@ import ShareButtons from "@components/ShareButtons";
 import { Image } from "cloudinary-react";
 //import Ad from '../components/Ad';
 import { useState, useRef, useEffect } from "react";
-import Script from "next/script";
+
 
 const scrollSearch = (myKey) => {
   window.scrollTo(0, 0);
@@ -69,7 +69,7 @@ export default function Home({ movie }) {
 
   useEffect(() => {
     async function fetchMovies() {
-      const response = await fetch("https://uwatchfree.vercel.app/movies.json");
+      const response = await fetch("http://localhost:3000/movies.json");
       const data = await response.json();
       setMovies(data);
     }
@@ -175,6 +175,7 @@ export default function Home({ movie }) {
             Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free
           </title>
           <meta name="robots" content="index, follow" />
+          <meta name="googlebot" content="index,follow"/>
           <meta name="revisit-after" content="1 days" />
           <meta
             name="facebook-domain-verification"
@@ -334,11 +335,7 @@ export default function Home({ movie }) {
                     className="w-full md:w-1/2 lg:w-1/3 p-2 "
                     key={movie.title}
                   >
-                    <a href={movie["movie.A1"]} id={movie.id}>
-                    <h2 className="text-xl font-bold leading-normal mb-2 text-white">
-                      Click Image to Watch Trailer.{" "}
-                    </h2>
-                    </a> 
+                   
                     <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
                   
                       <Image
@@ -354,7 +351,7 @@ export default function Home({ movie }) {
                         <div className="absolute inset-0 flex items-center justify-center">
                           
                           <video
-                            className="w-full h-full object-cover rounded-3xl border border-white shadow-md"
+                            className="w-full h-full  object-cover rounded-3xl border border-white shadow-md"
                             src={
                               hovered === index && movie["movie.trailer"]
                                 ? movie["movie.trailer"]
@@ -362,7 +359,7 @@ export default function Home({ movie }) {
                             }
                             controls
                             autoPlay
-                            // muted
+                            muted
                             playsInline
                             onClick={handleVideoClick}
                           ></video>
@@ -376,20 +373,7 @@ export default function Home({ movie }) {
                         onMouseLeave={() => setHovered(null)}
                       ></a>
                       
-                      <div className="flex flex-wrap justify-center py-5">
-               
-                        <audio
-                          controls
-                          preload="metadata"
-                          playsInline
-                          loop
-                          crossOrigin="anonymous"
-                          controlsList="nodownload"
-                        >
-                       
-                          <source src={movie.audio} id={movie.id} /> 
-                        </audio>
-                      </div>
+                     
 
                       <span
                         className={`${
@@ -435,7 +419,20 @@ export default function Home({ movie }) {
                       >
                         {movie.title}
                       </h2>
-
+                      <div className="flex flex-wrap justify-center py-5">
+               
+               <audio
+                 controls
+                 preload="metadata"
+                 playsInline
+                 loop
+                 crossOrigin="anonymous"
+                 controlsList="nodownload"
+               >
+              
+                 <source src={movie.audio} id={movie.id} /> 
+               </audio>
+             </div>
                       <a
                         href={movie.link}
                         className="text-xl font-bold leading-normal mb-2 text-yellow-500 "

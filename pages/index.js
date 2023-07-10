@@ -100,6 +100,7 @@ const LandingPage = () => {
           Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free
         </title>
         <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index,follow"/>
         <meta name="revisit-after" content="1 days" />
         <meta
           name="facebook-domain-verification"
@@ -111,7 +112,10 @@ const LandingPage = () => {
           content="dmv6sg06w9r5eji88"
         />
         <meta name="monetag" content="076afbb772da1a62ef6f43756dfa5f65"></meta>
-        
+        <meta
+          name="google-site-verification"
+          content="4dFu4PUk1pc1IYqU6Brt84akCwNxaoUpKSO3gDW0kJ0"
+        />
         <meta
           name="description"
           content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free"
@@ -245,7 +249,13 @@ const LandingPage = () => {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
 
-     
+        <h1
+          className="text-center font-bold text-3xl  py-5"
+          style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+        >
+          Uwatchfree™ - Watch Movies Tv Series & Sports Live.{" "}
+        </h1>
+
         <section className="box">
         <BackgroundVideo  
         src="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"

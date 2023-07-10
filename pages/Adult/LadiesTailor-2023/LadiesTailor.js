@@ -1,16 +1,32 @@
 import Link from "next/link";
 import Rating from "pages/Rating";
 import Head from "next/head";
-import AdultSkipAds from "@components/AdultSkipAds";
 import React, { useEffect, useState } from "react";
 import styles from "@styles/video-player.module.css";
+import AdultSkipAds from "@components/AdultSkipAds";
 import Max from "pages/Max";
 import ShareButtons from "@components/ShareButtons";
 import Script from "next/script";
 import { Image } from "cloudinary-react";
 import Player from "@components/Player";
 
+
+
 function LadiesTailor({ movie }) {
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var player = videojs(
+        document.querySelector("iframe").querySelector("video")
+      );
+      player.fluid(true);
+    });
+  }, []);
+  
+  const scrollSearch = (myKey) => {
+    window.scrollTo(0, 0);
+    frontMatter.handleSearch(myKey);
+  };
+
   const [showAd, setShowAd] = useState(false);
 
   useEffect(() => {
@@ -36,15 +52,15 @@ function LadiesTailor({ movie }) {
       document.removeEventListener("contextmenu", handleContextmenu);
     };
   }, []);
-  const scrollSearch = (myKey) => {
-    window.scrollTo(0, 0);
-    frontMatter.handleSearch(myKey);
-  };
+
   const [showPopup, setShowPopup] = useState(false);
 
   function togglePopup() {
     setShowPopup(!showPopup);
   }
+  const paragraphStyle = {
+    whiteSpace: "pre-line",
+  };
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Movie",
@@ -55,15 +71,15 @@ function LadiesTailor({ movie }) {
     datePublished: movie.yearRelease,
     director: movie.director,
     actor: movie.starring,
+    contentRating: movie.contentRating,
     url: movie.link,
     potentialAction: {
       "@type": "WatchAction",
       target: [
         {
           "@type": "EntryPoint",
-          name: "Ladies Tailor (2023) ",
-          urlTemplate:
-            "https://uwatchfree.vercel.app/Adult/LadiesTailor-2023/LadiesTailor",
+          name: "LadiesTailor (2023) ",
+          urlTemplate: "https://uwatchfree.vercel.app/Adult/LadiesTailor-2023/LadiesTailor",
         },
       ],
     },
@@ -96,6 +112,7 @@ function LadiesTailor({ movie }) {
     },
   });
 
+
   return (
     <div>
       <script
@@ -103,31 +120,26 @@ function LadiesTailor({ movie }) {
         dangerouslySetInnerHTML={{ __html: ldJsonData }}
       />
       <Head>
-        <title>
-          Watch Ladies Tailor (2023) Full Movie Online Free | Uwatchfree™
-        </title>
+        <title>Watch Ladies Tailor (2023) Full Movie Online Free | Uwatchfree™</title>
         <meta
           name="robots"
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch ladies tailor movie,index of ladies tailor movie,ladies tailor movie 2023,ladies tailor movie online,watch ladies tailor movie online free,ladies tailor tv series,ladies tailor movie download,ladies tailor movie free download,ladies tailor movie download"
+          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,Watch ladies tailor movie,index of ladies tailor movie,ladies tailor movie 2023,ladies tailor movie online,Watch ladies tailor movie online free,ladies tailor tv series,ladies tailor movie download,ladies tailor movie free download,ladies tailor movie download"
         />
         <meta property="og:locale" content="en_US" />
 
         <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index,follow" />
+        <meta name="googlebot" content="index,follow"/>
         <meta name="revisit-after" content="1 days" />
         <meta
           property="og:site_name"
           content="Uwatchfree™ | Watch Movies & TV-Series Online Free"
         />
         <meta property="og:type" content="movie" />
-        <meta
-          property="og:title"
-          content="Watch Ladies Tailor (2023) | Uwatchfree™"
-        />
+        <meta property="og:title" content="Watch Ladies Tailor (2023) | Uwatchfree™" />
         <meta
           property="og:url"
           content="https://uwatchfree.vercel.app/Adult/LadiesTailor-2023/LadiesTailor"
@@ -163,16 +175,16 @@ function LadiesTailor({ movie }) {
       </Head>
       <Script src="../../propler/ads.js" defer />
       <div className="bg-gray-600 shadow ">
-        <AdultSkipAds />
-
+      <AdultSkipAds />
         <h1
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          {movie.title} - 2023
+             LadiesTailor (2023)
         </h1>
+
         <div className={styles["iframe-container"]}>
-          <Player src={movie["movie.watchP1"]} />
+        <Player src={movie["movie.watchP1"]} />
         </div>
         <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">
           *Note: Pls Select the in the Player to Change your Language of your
@@ -184,15 +196,14 @@ function LadiesTailor({ movie }) {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
         <button className="relative inline-flex items-center animate-pulse rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
-          <a href="../../Adult/LadiesTailor-2023/LYTR">
-            <h2> Change Server {movie.name} </h2>
-          </a>{" "}
-        </button>
+           <a href="../../Adult/LadiesTailor-2023/LYTR" >  
+      <h2 > Change Server {movie.name}   </h2></a></button>
+      
         <h2
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie Ladies Tailor (2023)
+          Listen to Audio Summary LadiesTailor (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -205,10 +216,10 @@ function LadiesTailor({ movie }) {
             crossOrigin="anonymous"
             controlsList="nodownload"
           >
-            <source src="https://res.cloudinary.com/db36kfuq3/video/upload/v1688048502/Ladies-Tailor-body_taf4gq.mp3" />
+           <source src="https://ik.imagekit.io/gmcl6xvq6/Love_Guru_-_Season_3___Part_2___Official_Trailer.mp4?updatedAt=1688789627463" />
           </audio>
         </div>
-
+     
         <Rating />
         <a
           href={movie.link}
@@ -223,81 +234,26 @@ function LadiesTailor({ movie }) {
           style={{ color: "#40D7BC", textShadow: "0px 0px 2px #000" }}
         >
           <li>Starring: {movie.starring.join(", ")}</li>
-          <div className="grid grid-cols-1 mx-20 sm:grid-cols-5  x:grid-cols-5 gap-4">
-            <div className="circle">
-              <Image
-                src="https://bioofy.com/wp-content/uploads/2020/12/sana-asundi-hot-pic-819x1024.jpg"
-                alt="Sana Asundi Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Sana Asundi."
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://i0.wp.com/globalzonetoday.com/wp-content/uploads/2023/01/Leena-Singh.jpg"
-                alt="Leena Singh Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Leena Singh."
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://celebsunfolded.in/wp-content/uploads/2020/09/imgonline-com-ua-compressed-rd1FnniOLY2D.jpg"
-                alt="Mahi Kaur Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Mahi Kaur."
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://www.filmfare.com/awards/filmfare-awards-2019/images/nominations/pankaj_kumar.jpg?v=0.1"
-                alt="Pankaj Kumar Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Pankaj Kumar."
-              />
-            </div>
-            <div className="circle">
-              <Image
-                src="https://nettv4u.com/serialimages/22-09-2017/vivian-dsena.jpg"
-                alt="Vivan Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Vivan."
-              />
-            </div>
-          </div>
           <li>Year of release: {movie.yearRelease}</li>
           <li>Director: {movie.director}</li>
-          <a href="https://en.wikipedia.org/wiki/Michael_Oblowitz">
-            <div className="circle animate-pulse style={{ animationDelay: '12s' }}">
-              <Image
-                src="https://scontent.fbom23-1.fna.fbcdn.net/v/t39.30808-1/277809734_343458977809427_3954334441440291614_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=106&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=6k2bi9JfF6EAX9IuVjg&_nc_ht=scontent.fbom23-1.fna&oh=00_AfAms08TqaCq-c7Xda9G0VYAg7H15VFAXgMSjjEyki4s5g&oe=64ACCC63"
-                alt="Michael Oblowitz Image"
-                layout="responsive"
-                width={250}
-                height={250}
-                title="Michael Oblowitz."
-              />
-            </div>
-          </a>
-          <li>Country: {movie.country}</li>
+          <li>Country of origin: {movie.country}</li>
+          <li>Language: {movie.language}</li>
           <li>Genre: {movie.genre}</li>
-          <h2>Synopsis :</h2>
-          <h2
-            className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-text-white"
+          <li>Content Rating: {movie.contentRating}</li>
+          <li>Original Network: {movie.Originalnetwork}</li>
+          <h1
+            className="flex container flex-col items-center justify-center space-y-3 text-2xl font-bold text-center text-text-white"
             style={{ textShadow: "0px 0px 2px #000" }}
           >
-            {movie.synopsis}
+            Movie Synopsis:{" "}
+          </h1>
+          <h2
+            className="flex container flex-col items-center justify-center space-y-3 text-3xl font-bold text-center text-text-white"
+            style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
+          >
+            In the Movie LadiesTailor (2023)
           </h2>
+          <p style={paragraphStyle}>{movie.synopsis}</p>
         </ul>
 
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -319,17 +275,16 @@ function LadiesTailor({ movie }) {
                 </h2>
               </button>
               <h2 className="text-2xl font-bold">
-                Offical Trailer {movie.name} (2023){" "}
+                Offical Trailer {movie.name}{" "}
               </h2>
-              <div className={styles["iframe-container"]}>
-                <iframe
-                  className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "
-                  webkitallowFullScreen
-                  mozallowFullScreen
-                  allowFullScreen
-                  src={movie["movie.trailer"]}
-                />
-              </div>
+              <video
+                src={movie["movie.trailer"]}
+                autoPlay
+                controls
+                loop
+                width="840"
+                height="360"
+              />
             </div>
           </div>
         )}
@@ -365,7 +320,7 @@ function LadiesTailor({ movie }) {
             }
           }
         `}</style>
-        <style jsx>{`
+          <style jsx>{`
           .circle {
             width: 200px;
             height: 200px;
@@ -393,25 +348,24 @@ function LadiesTailor({ movie }) {
           }
         `}</style>
         <Image
-          src={movie.poster}
+          src={movie.banner}
           alt={`Banner for ${movie.title}`}
           loading="lazy"
-          className=" animate-pulse rounded-3xl  mx-auto my-10 "
-          style={{ height: "300px", width: "900px" }}
+          className=" rounded-3xl animate-pulse mx-auto my-10 "
         />
         <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
           <h3 className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600">
-            Link {movie.name} (2023){" "}
+            Link  {movie.name}
           </h3>
           <a href={movie.down1link1} target="_blank">
             <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Download
             </button>
           </a>
-
+        
           <Max />
 
-          <Link href="../../AdultAds">
+          <Link href="../../BollywoodAds">
             <buton className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
               Back To Movie Selection
             </buton>
@@ -423,7 +377,7 @@ function LadiesTailor({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX10");
   return {
