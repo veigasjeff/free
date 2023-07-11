@@ -96,12 +96,11 @@ const LandingPage = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <Head>
-       
         <title>
           Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free
         </title>
         <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index,follow"/>
+        <meta name="googlebot" content="index,follow" />
         <meta name="revisit-after" content="1 days" />
         <meta
           name="facebook-domain-verification"
@@ -239,113 +238,106 @@ const LandingPage = () => {
           href="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
           as="image"
         />
-        
+
         <link rel="canonical" href="https://uwatchfree.vercel.app/" />
       </Head>
       <div className="bg-gray-600 shadow ">
-      
-      <BackgroundMusic />
+        <BackgroundMusic />
         <ShareButtons
           url="https://uwatchfree.vercel.app"
           title="Watch Movies, TV-Series & Sports Live Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-   <Image
-                 src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
-                alt=" Uwatchfree Image"
-                layout="responsive"
-                width={1350}
-                height="auto"
-            
-              />
+     <Image
+  src="/image.jpg" // Update the file name and extension accordingly
+  alt="Uwatchfree Image"
+  layout="responsive"
+  width={1350}
+  height="auto"
+/>
         <h1
           className="text-center font-bold text-3xl  py-5"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
-        >
-       
-        </h1>
+        ></h1>
 
         <section className="box">
-        <BackgroundVideo  
-        src="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
-        srcMobile="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
-      />
+          <BackgroundVideo
+            src="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
+            srcMobile="https://ik.imagekit.io/lwkyvy5lo/trailer.mp4?updatedAt=1683813651866"
+          />
 
-
-<style jsx>{`
-          * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-          }
-          body {
-            font-family: nexa;
-          }
-          ul {
-            list-style: none;
-          }
-          a {
-            text-decoration: none;
-            color: inherit;
-            cursor: pointer;
-          }
-          .box {
-            position: relative;
-            justify-content: center;
-            min-height: 100vh;
-            color: #fff;
-            text-align: center;
-          }
-          .box video {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-          }
-          .box h1 {
-            margin-bottom: 15px;
-            font-size: 65px;
-            text-transform: uppercase;
-            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-          }
-          .box h3 {
-            margin-bottom: 40px;
-            font-size: 25px;
-          }
-          .box a.boxBtn {
-            padding: 15px 35px;
-            background: transparent;
-            border-radius: 50px;
-            color: #fff;
-            text-transform: uppercase;
-            border: 4px solid #fff;
-            transition: all 0.5s;
-          }
-          .box a.boxBtn:hover {
-            background: #fff;
-            color: #000;
-          }
-          @media (max-width: 800px) {
+          <style jsx>{`
+            * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+            }
+            body {
+              font-family: nexa;
+            }
+            ul {
+              list-style: none;
+            }
+            a {
+              text-decoration: none;
+              color: inherit;
+              cursor: pointer;
+            }
             .box {
-              min-height: 600px;
+              position: relative;
+              justify-content: center;
+              min-height: 100vh;
+              color: #fff;
+              text-align: center;
+            }
+            .box video {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              z-index: -1;
             }
             .box h1 {
-              font-size: 32px;
+              margin-bottom: 15px;
+              font-size: 65px;
+              text-transform: uppercase;
+              text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
             }
             .box h3 {
-              font-size: 20px;
+              margin-bottom: 40px;
+              font-size: 25px;
             }
             .box a.boxBtn {
-              padding: 15px 40px;
+              padding: 15px 35px;
+              background: transparent;
+              border-radius: 50px;
+              color: #fff;
+              text-transform: uppercase;
+              border: 4px solid #fff;
+              transition: all 0.5s;
             }
-          }
-        `}</style>
-
-    
-      </section>
+            .box a.boxBtn:hover {
+              background: #fff;
+              color: #000;
+            }
+            @media (max-width: 800px) {
+              .box {
+                min-height: 600px;
+              }
+              .box h1 {
+                font-size: 32px;
+              }
+              .box h3 {
+                font-size: 20px;
+              }
+              .box a.boxBtn {
+                padding: 15px 40px;
+              }
+            }
+          `}</style>
+        </section>
       </div>
     </>
   );
