@@ -2,13 +2,38 @@ import React, { useEffect } from "react";
 import Head from "next/head";
 import BackgroundVideo from "../components/BackgroundVideo";
 import ShareButtons from "@components/ShareButtons";
+import styled from 'styled-components';
+import HeroBanner from '../components/HeroBanner';
 import BackgroundMusic from "@components/BackgroundMusic";
-import { Image } from "cloudinary-react";
 
-const scrollSearch = (myKey) => {
+const scrollSearch = myKey => {
   window.scrollTo(0, 0);
-  frontMatter.handleSearch(myKey);
+  frontMatter.handleSearch(myKey)
 };
+
+
+const PageContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(${props => props.src});
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+`;
+
+const HeroBannerContainer = styled.div`
+  width={1350}
+  height="auto"
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+`;
+
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -90,7 +115,7 @@ const schemaData = {
 
 const LandingPage = () => {
   return (
-    <>
+    <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -248,14 +273,18 @@ const LandingPage = () => {
           title="Watch Movies, TV-Series & Sports Live Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-     <Image
-  src="/image.jpg" // Update the file name and extension accordingly
-  alt="Uwatchfree Image"
-  layout="responsive"
-  width={1350}
-  height="auto"
+    
+      <HeroBannerContainer >
+      <HeroBanner
+ src="/image.jpg" // Update the file name and extension accordingly
+ alt="Uwatchfree Image"
+ layout="responsive"
+ width={1350}
+ height="auto"
 />
-        <h1
+</HeroBannerContainer>
+
+<h1
           className="text-center font-bold text-3xl  py-5"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         ></h1>
@@ -338,8 +367,8 @@ const LandingPage = () => {
             }
           `}</style>
         </section>
-      </div>
-    </>
+    </div>
+    </div>
   );
 };
 
