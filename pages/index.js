@@ -39,10 +39,7 @@ const HeroBannerContainer = styled.div`
 const LandingPage = () => {
   return (
     <div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+     
       <Head>
         <title>
           Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free
