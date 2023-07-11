@@ -152,7 +152,7 @@ const LandingPage = () => {
         <link rel="manifest" href="/site.webmanifest"></link>
         <link
           rel="preload"
-          href="/image.jpg" 
+          href="/Image.jpg" 
           as="image"
         />
 
@@ -168,7 +168,7 @@ const LandingPage = () => {
     
     
       <Image
- src="/image.jpg" // Update the file name and extension accordingly
+ src="/Image.jpg" // Update the file name and extension accordingly
  alt="Uwatchfree Image"
  layout="responsive"
  width={1350}
