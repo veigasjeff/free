@@ -238,6 +238,7 @@ const LandingPage = () => {
           href="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
           as="image"
         />
+        
         <link rel="canonical" href="https://uwatchfree.vercel.app/" />
       </Head>
       <div className="bg-gray-600 shadow ">
