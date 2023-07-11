@@ -14,8 +14,6 @@ module.exports = {
   },
 }
 
-
-
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
@@ -64,6 +62,31 @@ module.exports = {
     return config;
   },
   // ...
+};
+
+module.exports = {
+  async headers() {
+    return [
+      {
+        source: '/_next/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable', // 1 year
+          },
+        ],
+      },
+      {
+        source: '/static/(.*)', // Replace with the appropriate static assets path
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=2592000, immutable', // 30 days
+          },
+        ],
+      },
+    ];
+  },
 };
 
 

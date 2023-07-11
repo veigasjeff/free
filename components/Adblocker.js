@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Head from 'next/head';
 
 const AdBlocker = () => {
   useEffect(() => {
@@ -11,9 +10,10 @@ const AdBlocker = () => {
   }, []);
 
   return (
-    <Head>
-      <link rel="stylesheet" href="../styles/ad-blocker.module.css" />
-    </Head>
+    // Rest of your component's content
+    <div>
+      {/* Your component's content here */}
+    </div>
   );
 };
 

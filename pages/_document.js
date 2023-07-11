@@ -152,6 +152,10 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <link
+            rel="stylesheet"
+            href="../styles/ad-blocker.module.css" // Adjust the path as needed
+          />
         </body>
       </Html>
     );
