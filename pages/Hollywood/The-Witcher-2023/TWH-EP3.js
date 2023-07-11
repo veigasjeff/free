@@ -208,7 +208,7 @@ function TheWitcher ({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary The Movie The Witcher S3 (2023)
+          Listen to Audio Summary  The Witcher S3 (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
