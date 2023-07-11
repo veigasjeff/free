@@ -11,15 +11,11 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-const Title = styled.h1`
-  font-size: 48px;
-  color: white;
-`;
 
-const HeroBanner = ({ src, title }) => {
+const HeroBanner = ({ src, alt }) => {
   return (
-    <Container src={src}>
-      <Title>{title}</Title>
+    <Container src={src} alt={alt}>
+      
     </Container>
   );
 };

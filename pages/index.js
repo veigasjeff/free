@@ -176,9 +176,10 @@ const LandingPage = () => {
         <link rel="manifest" href="/site.webmanifest"></link>
         <link
           rel="preload"
-          href="https://uwatchfree.vercel.app/image.jpg" 
+          href="/image.jpg" 
           as="image"
         />
+
 
         <link rel="canonical" href="https://uwatchfree.vercel.app/" />
       </Head>
@@ -191,13 +192,13 @@ const LandingPage = () => {
         />
 
         <HeroBannerContainer>
-          <HeroBanner
-            src="https://uwatchfree.vercel.app/image.jpg" // Update the file name and extension accordingly
-            alt="Uwatchfree Image"
-            layout="responsive"
-            width={1350}
-            height="auto"
-          />
+        <HeroBanner
+  src="/image.jpg" // Update the file name and extension accordingly
+  alt="Uwatchfree Image"
+  layout="responsive"
+  width={1350}
+  height="auto"
+/>
         </HeroBannerContainer>
 
         <h1
