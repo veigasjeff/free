@@ -3,6 +3,7 @@ import Head from "next/head";
 import BackgroundVideo from "../components/BackgroundVideo";
 import ShareButtons from "@components/ShareButtons";
 import BackgroundMusic from "@components/BackgroundMusic";
+import { Image } from "cloudinary-react";
 
 const scrollSearch = (myKey) => {
   window.scrollTo(0, 0);
@@ -249,12 +250,19 @@ const LandingPage = () => {
           title="Watch Movies, TV-Series & Sports Live Online Free"
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
-
+   <Image
+                 src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681610087/og_image_okmgde.jpg"
+                alt=" Uwatchfree Image"
+                layout="responsive"
+                width={1350}
+                height="auto"
+            
+              />
         <h1
           className="text-center font-bold text-3xl  py-5"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Uwatchfree™ - Watch Movies Tv Series & Sports Live.{" "}
+       
         </h1>
 
         <section className="box">
