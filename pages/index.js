@@ -196,11 +196,8 @@ const LandingPage = () => {
     
       <HeroBannerContainer >
       <HeroBanner
- src="/Image.jpg" // Update the file name and extension accordingly
- alt="Uwatchfree Image"
- layout="responsive"
- width="auto"
- height="auto"
+  src="/image.jpg" // Update the file name and extension accordingly
+  alt="Uwatchfree Image"
 />
 </HeroBannerContainer>
 
