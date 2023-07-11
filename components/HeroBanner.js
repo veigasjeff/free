@@ -21,3 +21,4 @@ const HeroBanner = ({ src, alt }) => {
 };
 
 export default HeroBanner;
+
