@@ -7,7 +7,7 @@ const schemaData = {
       "@type": "CollectionPage",
       "@id": "https://uwatchfree.vercel.app/",
       "url": "https://uwatchfree.vercel.app/",
-      "name": "UWatchFree | Watch Movies and TV-Series Online Free",
+      "name": "UWatchFree | Watch Latest Movies & TV-Series Online Free",
       "isPartOf": {
         "@id": "https://uwatchfree.vercel.app/#website"
       },
