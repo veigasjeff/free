@@ -12,26 +12,9 @@ const scrollSearch = myKey => {
 };
 
 
-const PageContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  background-image: url(${props => props.src});
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-`;
-
 const HeroBannerContainer = styled.div`
-  width={1350}
-  height="auto"
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  width: 100%;
+  height: auto;
 `;
 
 
@@ -194,12 +177,12 @@ const LandingPage = () => {
           image="https://uwatchfree.vercel.app/og_image.jpg"
         />
     
-      <HeroBannerContainer >
-      <HeroBanner
-  src="/Image.jpg" // Update the file name and extension accordingly
-  alt="Uwatchfree Image"
-/>
-</HeroBannerContainer>
+    <HeroBannerContainer>
+        <HeroBanner
+          src="/image.jpg" // Update the file name and extension accordingly
+          alt="Uwatchfree Image"
+        />
+      </HeroBannerContainer>
 
 <h1
           className="text-center font-bold text-3xl  py-5"
