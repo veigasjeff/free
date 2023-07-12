@@ -93,7 +93,7 @@ export default function Home({ movie }) {
       <div className={styles.container}>
         <Head>
           <title>
-            Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free
+            Uwatchfree™ | Watch Latest Movies & TV-Series Online Free
           </title>
           <meta name="robots" content="index, follow" />
           <meta name="googlebot" content="index,follow"/>
@@ -117,7 +117,7 @@ export default function Home({ movie }) {
           />
           <meta
             name="description"
-            content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free"
+            content="Uwatchfree™ - Watch Latest Movies & TV-Series Online Free"
           />
           <meta
             name="robots"
@@ -131,16 +131,16 @@ export default function Home({ movie }) {
           <meta property=" Content-Security-Policy: frame-ancestors 'self' uwatchfree.vercel.app *.uwatchfree.vercel.app;" />
           <meta
             property="og:site_name"
-            content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free "
+            content="Uwatchfree™ | Watch Latest Movies & TV-Series Online Free "
           />
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Uwatchfree™ | Watch Movies, TV-Series & Sports Live Online Free "
+            content="Uwatchfree™ | Watch Latest Movies & TV-Series Online Free "
           />
           <meta
             property="og:description"
-            content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free "
+            content="Uwatchfree™ - Watch Latest Movies & TV-Series Online Free "
           />
           <meta property="og:url" content="https://uwatchfree.vercel.app/" />
           <meta property="og:image:type" content="image/jpeg" />
@@ -155,11 +155,11 @@ export default function Home({ movie }) {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content="Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free "
+            content="Uwatchfree™ - Watch Latest Movies & TV-Series Online Free "
           />
           <meta
             name="twitter:description"
-            content=" Uwatchfree™ - Watch Movies, TV-Series & Sports Live Online Free "
+            content=" Uwatchfree™ - Watch Latest Movies & TV-Series Online Free "
           />
           <meta
             name="twitter:image"
@@ -238,7 +238,7 @@ export default function Home({ movie }) {
           <section className={`${styles.movies} bg-gray-600  py-5`}>
             <ShareButtons
               url="https://uwatchfree.vercel.app"
-              title="Watch Movies, TV-Series & Sports Live Online Free"
+              title="Watch Latest Movies & TV-Series Online Free"
               image="https://uwatchfree.vercel.app/og_image.jpg"
             />
 
@@ -246,7 +246,7 @@ export default function Home({ movie }) {
               className="text-center font-bold text-3xl  py-5"
               style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
             >
-              Uwatchfree™ - HD Movies Tv Series & Sports Live.{" "}
+              Uwatchfree™ - HD Latest Movies & TV-Series Online Free.{" "}
             </h1>
 
             <div className="flex flex-wrap justify-center">
