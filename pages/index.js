@@ -266,7 +266,6 @@ export default function Home({ movie }) {
                         alt={movie.title}
                         width={1000}
                         height={562.5}
-                        priority 
                         effect="blur" 
                       />
                       {hovered === index && (
