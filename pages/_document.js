@@ -78,6 +78,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
+        <meta name="facebook-domain-verification" content="13auzwhblf4oo4jn5vl6gcmebugsqb" />
+        <link rel="preconnect" href="https://uwatchfree.vercel.app/" />
+        <link rel="dns-prefetch" href="https://uwatchfree.vercel.app/" />
         <Head>
         <script
             type="application/ld+json"
