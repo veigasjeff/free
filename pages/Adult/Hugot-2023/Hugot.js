@@ -150,7 +150,7 @@ function Hugot({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158914/Hugot_2023_ucrszf.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />

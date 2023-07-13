@@ -149,7 +149,7 @@ function LadiesTailor({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612185/LADIES_TAILOR_Part_1-2023_vf13tg.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
