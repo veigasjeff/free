@@ -163,7 +163,7 @@ function ModernLoveChennai({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/ModernLoveChennai-2023/"
+          href="https://uwatchfree.vercel.app/Bollywood/ModernLoveChennai-2023/ModernLoveChennai"
         />
         <link
           href="https://vjs.zencdn.net/7.15.4/video-js.css"
@@ -441,7 +441,7 @@ function ModernLoveChennai({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX01");
   return {

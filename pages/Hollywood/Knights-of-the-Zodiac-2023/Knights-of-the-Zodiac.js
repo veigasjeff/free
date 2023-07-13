@@ -174,7 +174,7 @@ function KnightsoftheZodiac ({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Knights-of-the-Zodiac-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Knights-of-the-Zodiac-2023/Knights-of-the-Zodiac"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -475,7 +475,7 @@ function KnightsoftheZodiac ({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX21");
   return {

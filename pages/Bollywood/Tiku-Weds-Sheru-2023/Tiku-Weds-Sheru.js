@@ -174,7 +174,7 @@ function TikuWedsSheru ({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Bollywood/Tiku-Weds-Sheru-2023/"
+          href="https://uwatchfree.vercel.app/Bollywood/Tiku-Weds-Sheru-2023/Tiku-Weds-Sheru"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -484,7 +484,7 @@ function TikuWedsSheru ({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX34");
   return {

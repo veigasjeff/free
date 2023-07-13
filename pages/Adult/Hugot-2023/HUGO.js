@@ -169,7 +169,7 @@ function Hugot({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Hugot-2023/"
+          href="https://uwatchfree.vercel.app/Adult/Hugot-2023/Hugot"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />

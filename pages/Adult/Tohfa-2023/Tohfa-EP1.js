@@ -170,7 +170,7 @@ function Tohfa({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Adult/Tohfa-2023/"
+          href="https://uwatchfree.vercel.app/Adult/Tohfa-2023/Tohfa-EP1"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -383,7 +383,7 @@ function Tohfa({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX09");
   return {

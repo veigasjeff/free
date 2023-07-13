@@ -174,7 +174,7 @@ function WarhorseOne ({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Warhorse-One-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Warhorse-One-2023/WarhorseOne"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -480,7 +480,7 @@ function WarhorseOne ({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX28");
   return {

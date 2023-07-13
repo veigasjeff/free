@@ -163,7 +163,7 @@ function Extraction({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/Extraction-2"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -435,7 +435,7 @@ function Extraction({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX03");
   return {

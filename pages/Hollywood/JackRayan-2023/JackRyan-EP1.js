@@ -132,7 +132,7 @@ function JackRyan ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,Jack Ryan Season 4 movie,Jack Ryan Season 4 2023,index of Jack Ryan Season 4 movie,Jack Ryan Season 4 cast,Jack Ryan Season 4 trailer,Jack Ryan Season 4 release date,Jack Ryan Season 4 plot,Jack Ryan Season 4 reviews,Jack Ryan Season 4 streaming,Jack Ryan Season 4 watch online,Jack Ryan Season 4 download,Jack Ryan Season 4 full movie,Jack Ryan Season 4 movie download,Jack Ryan Season 4 movie free download,Jack Ryan Season 4 movie online,Jack Ryan Season 4 movie watch online"
+          content="uwatchfree,tom clancys jack ryan season 4 movie,tom clancys jack ryan season 4 2023,index of tom clancys jack ryan season 4 movie,tom clancys jack ryan season 4 cast,tom clancys jack ryan season 4 trailer,tom clancys jack ryan season 4 release date,tom clancys jack ryan season 4 plot,tom clancys jack ryan season 4 reviews,tom clancys jack ryan season 4 streaming,tom clancys jack ryan season 4 watch online,tom clancys jack ryan season 4 download,tom clancys jack ryan season 4 full movie,tom clancys jack ryan season 4 movie download,tom clancys jack ryan season 4 movie free download,tom clancys jack ryan season 4 movie online,tom clancys jack ryan season 4 movie watch online"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -178,7 +178,7 @@ function JackRyan ({ movie }) {
 
         <link
           rel="canonical"
-          href="https://uwatchfree.vercel.app/Hollywood/JackRayan-2023/"
+          href="https://uwatchfree.vercel.app/Hollywood/JackRayan-2023/JackRyan-EP1"
         />
       </Head>
       <Script src="../../propler/ads.js" defer />
@@ -210,7 +210,7 @@ function JackRyan ({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary   Jack Ryan Season 4 (2023)
+          Listen to Audio Summary Jack Ryan Season 4 (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}
@@ -227,7 +227,7 @@ function JackRyan ({ movie }) {
           </audio>
         </div>
       
-        
+        <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
           <div className="flex justify-center">
             <Link href="../../Hollywood/JackRayan-2023/JackRyan-EP2">
               <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
@@ -235,7 +235,20 @@ function JackRyan ({ movie }) {
               </button>
             </Link>
           </div>
-        
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/JackRayan-2023/JackRyan-EP3">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 3
+              </button>
+            </Link>
+          </div>    </div>
+          <div className="flex justify-center">
+            <Link href="../../Hollywood/JackRayan-2023/JackRyan-EP4">
+              <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 border-white-500 border-2">
+                Episode 4
+              </button>
+            </Link>
+          </div>
         <Rating />
         <a
           href={movie.link}
@@ -490,7 +503,7 @@ function JackRyan ({ movie }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch("https://uwatchfree.vercel.app/movies.json");
+  const res = await fetch("http://localhost:3000/movies.json");
   const data = await res.json();
   const selectedMovie = data.find((movie) => movie.id === "INDEX14");
   return {
