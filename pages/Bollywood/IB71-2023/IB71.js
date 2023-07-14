@@ -80,9 +80,22 @@ function IB71 ({ movie }) {
           name: " IB71 (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/IB71-2023/IB71",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function IB71 ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,ib 71 movie,ib 71 2023,index of ib 71 movie,ib 71 cast,ib 71 trailer,ib 71 release date,ib 71 plot,ib 71 reviews,ib 71 streaming,ib 71 watch online,ib 71 download,ib 71 full movie,ib 71 movie download,ib 71 movie free download,ib 71 movie online,ib 71 movie watch online"
+          content="ib 71, ib 71 2023 online, watch hindi movie ib 71 online, index of ib 71 movie, watch ib 71 2023, ib 71 hd streaming online, ib 71 videos, action, drama, ib 71 cast, hindi movie, ib 71 action movie, ib 71 movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -150,7 +163,7 @@ function IB71 ({ movie }) {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789873/IB_71_2023_ja3fp9.webp"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
         />
         <meta
           property="og:image:secure_url"
@@ -169,7 +182,7 @@ function IB71 ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch IB 71 Full Movie Online on Uwatchfree™, You can also download IB 71 (2023) in full HD quality to watch later offline."
+          content="Watch IB 71 Full Movie Online on Uwatchfree™, You can also Watch Now IB 71 (2023) Or Download To Watch Later!"
         />
 
         <link

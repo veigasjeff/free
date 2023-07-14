@@ -79,8 +79,21 @@ function Hosto({ movie }) {
           "@type": "EntryPoint",
           name: "Hosto (2023) ",
           urlTemplate: "https://uwatchfree.vercel.app/Adult/Hosto-2023/Hosto",
-        },
-      ],
+          inLanguage: movie.language,
+          actionPlatform: [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      ]
+    },
+    releasedEvent: {
+      "@type": "PublicationEvent",
+      startDate: movie.date,
+      location: {
+        "@type": "Country",
+        name: movie.country,
+      }
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -126,7 +139,7 @@ function Hosto({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,Watch hosto movie,index of hosto movie,hosto movie 2023,hosto movie online,Watch hosto movie online free,hosto tv series,hosto movie download,hosto movie free download,hosto movie download"
+          content="hosto, hosto 2023 online, watch english movie hosto online, watch hosto 2023, hosto hd streaming online, hosto videos, hot, romance, hosto cast, english movie, hosto 18+ movie, hosto movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies, adult movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -164,7 +177,7 @@ function Hosto({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Hosto Full Movie Online on Uwatchfree™, You can also download Hosto (2023) in full HD quality to watch later offline."
+          content="Watch Hosto Full Movie Online on Uwatchfree™, You can also Watch Now Or Download To Watch Later!"
         />
 
         <link

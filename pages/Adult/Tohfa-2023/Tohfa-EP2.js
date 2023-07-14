@@ -79,8 +79,21 @@ function Tohfa({ movie }) {
           "@type": "EntryPoint",
           name: "Tohfa-EP2 (2023) ",
           urlTemplate: "https://uwatchfree.vercel.app/Adult/Tohfa-2023/Tohfa-EP2",
-        },
-      ],
+          inLanguage: movie.language,
+          actionPlatform: [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      ]
+    },
+    releasedEvent: {
+      "@type": "PublicationEvent",
+      startDate: movie.date,
+      location: {
+        "@type": "Country",
+        name: movie.country,
+      }
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -126,7 +139,7 @@ function Tohfa({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,Watch tohfa ep-2 movie,index of tohfa ep-2 movie,tohfa ep-2 movie 2023,tohfa ep-2 movie online,Watch tohfa ep-2 movie online free,tohfa ep-2 tv series,tohfa ep-2 movie download,tohfa ep-2 movie free download,tohfa ep-2 movie download"
+          content="tohfa, tohfa 2023 online, watch hindi movie tohfa online, watch tohfa 2023, tohfa hd streaming online, tohfa videos, hot, romance, tohfa cast, hindi movie, tohfa 18+ movie, tohfa movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies, adult movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -164,7 +177,7 @@ function Tohfa({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Tohfa-EP2 Full Movie Online on Uwatchfree™, You can also download Tohfa-EP2 (2023) in full HD quality to watch later offline."
+          content="Watch Tohfa-EP2 Full Movie Online on Uwatchfree™, You can also Watch Now Tohfa-EP2 (2023) Or Download To Watch Later!"
         />
 
         <link

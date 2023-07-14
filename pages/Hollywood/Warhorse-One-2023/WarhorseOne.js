@@ -80,9 +80,22 @@ function WarhorseOne ({ movie }) {
           name: " Warhorse One (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Warhorse-One-2023/WarhorseOne",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function WarhorseOne ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,Warhorse One movie,Warhorse One 2023,index of Warhorse One movie,Warhorse One cast,Warhorse One trailer,Warhorse One release date,Warhorse One plot,Warhorse One reviews,Warhorse One streaming,Warhorse One watch online,Warhorse One download,Warhorse One full movie,Warhorse One movie download,Warhorse One movie free download,Warhorse One movie online,Warhorse One movie watch online"
+          content="warhorse one, warhorse one 2023 online, watch english movie warhorse one online, index of warhorse one movie, watch warhorse one 2023, warhorse one hd streaming online, warhorse one videos, action, drama, warhorse one cast, english movie, warhorse one action movie, warhorse one movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function WarhorseOne ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789945/Warhorse_One_2023_klj5c9.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function WarhorseOne ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Warhorse One Full Movie Online on Uwatchfree™, You can also download  Warhorse One (2023) in full HD quality to watch later offline."
+          content="Watch Warhorse One Full Movie Online on Uwatchfree™, You can also Watch Now  Warhorse One (2023) Or Download To Watch Later!"
         />
 
         <link

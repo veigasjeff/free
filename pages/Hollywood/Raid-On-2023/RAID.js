@@ -80,9 +80,22 @@ function RideOn ({ movie }) {
           name: " Ride On (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Raid-On-2023/RAID",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function RideOn ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,ride on movie,ride on 2023,index of ride on movie,ride on cast,ride on trailer,ride on release date,ride on plot,ride on reviews,ride on streaming,ride on watch online,ride on download,Ride On full movie,ride on movie download,ride on movie free download,ride on movie online,ride on movie watch online"
+          content="ride on, ride on 2023 online, watch english movie ride on online, index of ride on movie, watch ride on 2023, ride on hd streaming online, ride on videos, action, drama, ride on cast, english movie, ride on action movie, ride on movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -169,7 +182,7 @@ function RideOn ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Ride On Full Movie Online on Uwatchfree™, You can also download  Ride On (2023) in full HD quality to watch later offline."
+          content="Watch Ride On Full Movie Online on Uwatchfree™, You can also Watch Now  Ride On (2023) in full HD quality to watch later offline."
         />
 
         <link

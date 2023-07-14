@@ -80,9 +80,22 @@ function Blind ({ movie }) {
           name: " Blind (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/Blind-2023/BLND",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function Blind ({ movie }) {
         />
          <meta
           name="keywords"
-          content="uwatchfree,blind movie,blind 2023,index of blind movie,blind cast,blind trailer,blind release date,blind plot,blind reviews,blind streaming,blind watch online,blind download,blind full movie,blind movie download,blind movie free download,blind movie online,blind movie watch online"
+          content="blind, blind 2023 online, watch hindi movie blind online, index of blind movie, watch blind 2023, blind hd streaming online, blind videos, action, drama, blind cast, hindi movie, blind action movie, blind movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function Blind ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789860/Blind_2023_ife8k8.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function Blind ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Blind Full Movie Online on Uwatchfree™, You can also download  Blind (2023) in full HD quality to watch later offline."
+          content="Watch Blind Full Movie Online on Uwatchfree™, You can also Watch Now  Blind (2023) Or Download To Watch Later!"
         />
 
         <link

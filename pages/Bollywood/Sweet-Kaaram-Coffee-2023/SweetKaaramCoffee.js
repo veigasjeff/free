@@ -79,9 +79,22 @@ function SweetKaaramCoffee({ movie }) {
           name: " Sweet Kaaram Coffee (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/Sweet-Kaaram-Coffee-2023/SweetKaaramCoffee",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -127,7 +140,7 @@ function SweetKaaramCoffee({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,sweet kaaram coffee movie,sweet kaaram coffee 2023,index of sweet kaaram coffee movie,sweet kaaram coffee cast,sweet kaaram coffee trailer,sweet kaaram coffee release date,sweet kaaram coffee plot,sweet kaaram coffee reviews,sweet kaaram coffee streaming,sweet kaaram coffee watch online,sweet kaaram coffee download,sweet kaaram coffee full movie,sweet kaaram coffee movie download,sweet kaaram coffee movie free download,sweet kaaram coffee movie online,sweet kaaram coffee movie watch online"
+          content="sweet kaaram coffee, sweet kaaram coffee 2023 online, watch hindi movie sweet kaaram coffee online, index of sweet kaaram coffee movie, watch sweet kaaram coffee 2023, sweet kaaram coffee hd streaming online, sweet kaaram coffee videos, action, drama, sweet kaaram coffee cast, hindi movie, sweet kaaram coffee action movie, sweet kaaram coffee movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -153,7 +166,7 @@ function SweetKaaramCoffee({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789933/Sweet_Kaaram_Coffee_2023_bpwurw.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -168,7 +181,7 @@ function SweetKaaramCoffee({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Sweet Kaaram Coffee Full Movie Online on Uwatchfree™, You can also download  Sweet Kaaram Coffee (2023) in full HD quality to watch later offline."
+          content="Watch Sweet Kaaram Coffee Full Movie Online on Uwatchfree™, You can also Watch Now  Sweet Kaaram Coffee (2023) Or Download To Watch Later!"
         />
 
         <link

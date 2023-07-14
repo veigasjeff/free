@@ -79,8 +79,21 @@ function Hugot({ movie }) {
           "@type": "EntryPoint",
           name: "Hugot (2023) ",
           urlTemplate: "https://uwatchfree.vercel.app/Adult/Hugot-2023/HUGO",
-        },
-      ],
+          inLanguage: movie.language,
+          actionPlatform: [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      ]
+    },
+    releasedEvent: {
+      "@type": "PublicationEvent",
+      startDate: movie.date,
+      location: {
+        "@type": "Country",
+        name: movie.country,
+      }
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -126,7 +139,7 @@ function Hugot({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch hugot movie,index of hugot movie,hugot movie 2023,hugot movie online,watch hugot movie online free,hugot tv series,hugot movie download,hugot movie free download,hugot movie download"
+          content="hugot, hugot 2023 online, watch english movie hugot online, watch hugot 2023, hugot hd streaming online, hugot videos, hot, romance, hugot cast, english movie, hugot 18+ movie, hugot movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies, adult movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -164,7 +177,7 @@ function Hugot({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Hugot Full Movie Online on Uwatchfree™, You can also download Hugot (2023) in full HD quality to watch later offline."
+          content="Watch Hugot Full Movie Online on Uwatchfree™, You can also Watch Now Or Download To Watch Later!"
         />
 
         <link

@@ -72,9 +72,22 @@ function MaukaYaDhoka({ movie }) {
           name: "Mauka Ya Dhoka (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/MaukaYaDhoka-2023/MaukaYaDhoka",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -120,7 +133,7 @@ function MaukaYaDhoka({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,mauka ya dhoka movie,mauka ya dhoka 2023,index of mauka ya dhoka movie,mauka ya dhoka cast,mauka ya dhoka trailer,mauka ya dhoka release date,mauka ya dhoka plot,mauka ya dhoka reviews,mauka ya dhoka streaming,mauka ya dhoka watch online,mauka ya dhoka download,mauka ya dhoka full movie,mauka ya dhoka movie download,mauka ya dhoka movie free download,mauka ya dhoka movie online,mauka ya dhoka movie watch online"
+          content="mauka ya dhoka, mauka ya dhoka 2023 online, watch hindi movie mauka ya dhoka online, index of mauka ya dhoka movie, watch mauka ya dhoka 2023, mauka ya dhoka hd streaming online, mauka ya dhoka videos, action, drama, mauka ya dhoka cast, hindi movie, mauka ya dhoka action movie, mauka ya dhoka movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -146,7 +159,7 @@ function MaukaYaDhoka({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687612200/Mauka-Ya-Dhoka-2023_dacw49.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -161,7 +174,7 @@ function MaukaYaDhoka({ movie }) {
         />
         <meta
           name="description"
-          content="Watch MaukaYaDhoka Full Movie Online on Uwatchfree™, You can also download Mauka Ya Dhoka (2023) in full HD quality to watch later offline."
+          content="Watch MaukaYaDhoka Full Movie Online on Uwatchfree™, You can also Watch Now Mauka Ya Dhoka (2023) Or Download To Watch Later!"
         />
 
         <link

@@ -80,9 +80,22 @@ function BermudaIsland ({ movie }) {
           name: " Bermuda Island (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Bermuda-Island-2023/Bermuda-Island",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function BermudaIsland ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,bermuda island movie,bermuda island 2023,index of bermuda island movie,bermuda island cast,bermuda island trailer,bermuda island release date,bermuda island plot,bermuda island reviews,bermuda island streaming,bermuda island watch online,bermuda island download,bermuda island full movie,bermuda island movie download,bermuda island movie free download,bermuda island movie online,bermuda island movie watch online"
+          content="bermuda island, bermuda island 2023 online, watch english movie bermuda island online, index of bermuda island movie, watch bermuda island 2023, bermuda island hd streaming online, bermuda island videos, action, drama, bermuda island cast, english movie, bermuda island action movie, bermuda island movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function BermudaIsland ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789849/Bermuda_Island_2023_mcfpwf.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function BermudaIsland ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Bermuda Island Full Movie Online on Uwatchfree™, You can also download  Bermuda Island (2023) in full HD quality to watch later offline."
+          content="Watch Bermuda Island Full Movie Online on Uwatchfree™, You can also Watch Now  Bermuda Island (2023) Or Download To Watch Later!"
         />
 
         <link

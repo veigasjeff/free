@@ -80,9 +80,22 @@ function LustStories2 ({ movie }) {
           name: " Lust Stories 2 (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/Lust-Stories2-2023/LUST",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function LustStories2 ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,lust stories 2 movie,lust stories 2 2023,index of lust stories 2 movie,lust stories 2 cast,lust stories 2 trailer,lust stories 2 release date,lust stories 2 plot,lust stories 2 reviews,lust stories 2 streaming,lust stories 2 watch online,lust stories 2 download,lust stories 2 full movie,lust stories 2 movie download,lust stories 2 movie free download,lust stories 2 movie online,lust stories 2 movie watch online"
+          content="lust stories 2, lust stories 2 2023 online, watch hindi movie lust stories 2 online, index of lust stories 2 movie, watch lust stories 2 2023, lust stories 2 hd streaming online, lust stories 2 videos, action, drama, lust stories 2 cast, hindi movie, lust stories 2 action movie, lust stories 2 movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function LustStories2 ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function LustStories2 ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Lust Stories 2 Full Movie Online on Uwatchfree™, You can also download  Lust Stories 2 (2023) in full HD quality to watch later offline."
+          content="Watch Lust Stories 2 Full Movie Online on Uwatchfree™, You can also Watch Now  Lust Stories 2 (2023) Or Download To Watch Later!"
         />
 
         <link

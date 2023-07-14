@@ -80,9 +80,22 @@ function TheWitcher ({ movie }) {
           name: "The Witcher S3 (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/The-Witcher-2023/The-Witcher-EP2",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function TheWitcher ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,the witcher s3 movie,the witcher s3 2023,index ofThe Witcher S3 movie,the witcher s3 cast,the witcher s3 trailer,the witcher s3 release date,the witcher s3 plot,the witcher s3 reviews,the witcher s3 streaming,the witcher s3 watch online,the witcher s3 download,the witcher s3 full movie,the witcher s3 movie download,the witcher s3 movie free download,the witcher s3 movie online,the witcher s3 movie watch online"
+          content="the witcher season 3, the witcher season 3 2023 online, watch english tv series the witcher season 3 online, index of the witcher season 3 tv series, watch the witcher season 3 2023, the witcher season 3 hd streaming online, the witcher season 3 videos, action, drama, the witcher season 3 cast, english tv series, the witcher season 3 action tv series, the witcher season 3 tv series download, new release, new english tv series, uwatchfree, blockbuster tv series, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -169,7 +182,7 @@ function TheWitcher ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch The Witcher S3 Full Movie Online on Uwatchfree™, You can also download The Witcher S3 (2023) in full HD quality to watch later offline."
+          content="Watch The Witcher S3 Full Movie Online on Uwatchfree™, You can also Watch Now The Witcher S3 (2023) Or Download To Watch Later!"
         />
 
         <link

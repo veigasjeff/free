@@ -79,9 +79,22 @@ function DaughteroftheBride({ movie }) {
           name: " Daughter of the Bride (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Daughter-of-the-Bride-2023/DOTB",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function DaughteroftheBride({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,daughter of the bride movie,daughter of the bride 2023,index of daughter of the bride movie,daughter of the bride cast,daughter of the bride trailer,daughter of the bride release date,daughter of the bride plot,daughter of the bride reviews,daughter of the bride streaming,daughter of the bride watch online,daughter of the bride download,daughter of the bride full movie,daughter of the bride movie download,daughter of the bride movie free download,daughter of the bride movie online,daughter of the bride movie watch online"
+          content="daughter of the bride, daughter of the bride 2023 online, watch english movie daughter of the bride online, index of daughter of the bride movie, watch daughter of the bride 2023, daughter of the bride hd streaming online, daughter of the bride videos, action, drama, daughter of the bride cast, english movie, daughter of the bride action movie, daughter of the bride movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -169,7 +182,7 @@ function DaughteroftheBride({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Daughter of the Bride Full Movie Online on Uwatchfree™, You can also download  Daughter of the Bride (2023) in full HD quality to watch later offline."
+          content="Watch Daughter of the Bride Full Movie Online on Uwatchfree™, You can also Watch Now  Daughter of the Bride (2023) Or Download To Watch Later!"
         />
 
         <link

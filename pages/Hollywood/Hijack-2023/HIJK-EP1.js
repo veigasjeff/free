@@ -83,9 +83,22 @@ function Hijack({ movie }) {
           name: " Hijack (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Hijack-2023/HIJK-EP1",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -131,7 +144,7 @@ function Hijack({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,hijack movie,hijack 2023,index of hijack movie,hijack cast,hijack trailer,hijack release date,hijack plot,hijack reviews,hijack streaming,hijack watch online,hijack download,hijack full movie,hijack movie download,hijack movie free download,hijack movie online,hijack movie watch online"
+          content="hijack, hijack 2023 online, watch english tv series hijack online, index of hijack tv series, watch hijack 2023, hijack hd streaming online, hijack videos, action, drama, hijack cast, english tv series, hijack action tv series, hijack tv series download, new release, new english tv series, uwatchfree, blockbuster tv series, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -173,7 +186,7 @@ function Hijack({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Hijack Full Movie Online on Uwatchfree™, You can also download  Hijack (2023) in full HD quality to watch later offline."
+          content="Watch Hijack Full Movie Online on Uwatchfree™, You can also Watch Now  Hijack (2023) Or Download To Watch Later!"
         />
 
         <link

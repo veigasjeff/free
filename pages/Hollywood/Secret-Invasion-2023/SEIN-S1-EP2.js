@@ -80,9 +80,22 @@ function SecretInvasion ({ movie }) {
           name: " Secret Invasion S1  (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Secret-Invasion-2023/SEIN-S1-EP2",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function SecretInvasion ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,secret invasion s1 movie,secret invasion s1 2023,index of secret invasion s1 movie,secret invasion s1 cast,secret invasion s1 trailer,secret invasion s1 release date,secret invasion s1 plot,secret invasion s1 reviews,secret invasion s1 streaming,secret invasion s1  watch online,secret invasion s1 download,secret invasion s1 full movie,secret invasion s1 movie download,secret invasion s1 movie free download,secret invasion s1 movie online,secret invasion s1 movie watch online"
+          content="secret invasion season 1, secret invasion season 1 2023 online, watch english tv series secret invasion season 1 online, index of secret invasion season 1 tv series, watch secret invasion season 1 2023, secret invasion season 1 hd streaming online, secret invasion season 1 videos, action, drama, secret invasion season 1 cast, english tv series, secret invasion season 1 action tv series, secret invasion season 1 tv series download, new release, new english tv series, uwatchfree, blockbuster tv series, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -169,7 +182,7 @@ function SecretInvasion ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Secret Invasion S1  Full Movie Online on Uwatchfree™, You can also download  Secret Invasion S1 (2023) in full HD quality to watch later offline."
+          content="Watch Secret Invasion S1  Full Movie Online on Uwatchfree™, You can also Watch Now  Secret Invasion S1 (2023) Or Download To Watch Later!"
         />
 
         <link

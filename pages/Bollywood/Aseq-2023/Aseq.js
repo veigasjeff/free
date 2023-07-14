@@ -80,9 +80,22 @@ function Aseq ({ movie }) {
           name: " Aseq (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/Aseq-2023/Aseq",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function Aseq ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,aseq movie,aseq 2023,index of aseq movie,Aseq cast,aseq trailer,aseq release date,aseq plot,aseq reviews,aseq streaming,aseq watch online,aseq download,aseq full movie,aseq movie download,aseq movie free download,aseq movie online,aseq movie watch online"
+          content="aseq, aseq 2023 online, watch hindi movie aseq online, index of aseq movie, watch aseq 2023, aseq hd streaming online, aseq videos, action, drama, aseq cast, hindi movie, aseq action movie, aseq movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function Aseq ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789839/Aseq_2023_vnerlt.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function Aseq ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Aseq Full Movie Online on Uwatchfree™, You can also download  Aseq (2023) in full HD quality to watch later offline."
+          content="Watch Aseq Full Movie Online on Uwatchfree™, You can also Watch Now  Aseq (2023) Or Download To Watch Later!"
         />
 
         <link

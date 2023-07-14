@@ -80,8 +80,21 @@ function LoveGuruS03P2({ movie }) {
           "@type": "EntryPoint",
           name: "Love-Guru-S03-P2 (2023) ",
           urlTemplate: "https://uwatchfree.vercel.app/Adult/LoveGuruS03P2-2023/Love-Guru-S03-P2",
-        },
-      ],
+          inLanguage: movie.language,
+          actionPlatform: [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      ]
+    },
+    releasedEvent: {
+      "@type": "PublicationEvent",
+      startDate: movie.date,
+      location: {
+        "@type": "Country",
+        name: movie.country,
+      }
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -127,7 +140,7 @@ function LoveGuruS03P2({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch love guru s03 part 2 movie,index of love guru s03 part 2 movie,love guru s03 part 2 movie 2023,love guru s03 part 2 movie online,watch love guru s03 part 2 movie online free,love guru s03 part 2 tv series,love guru s03 part 2 movie download,love guru s03 part 2 movie free download,love guru s03 part 2 movie download"
+          content="love guru, love guru 2023 online, watch hindi movie love guru online, watch love guru 2023, love guru hd streaming online, love guru videos, hot, romance, love guru cast, hindi movie, love guru 18+ movie, love guru movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies, adult movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -165,7 +178,7 @@ function LoveGuruS03P2({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Love-Guru-S03-P2 Full Movie Online on Uwatchfree™, You can also download Love Guru S03 P2 (2023) in full HD quality to watch later offline."
+          content="Watch Love Guru S03 P2 Full Movie Online on Uwatchfree™, You can also Watch Now Love Guru S03 P2 (2023) Or Download To Watch Later!"
         />
 
         <link

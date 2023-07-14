@@ -72,9 +72,22 @@ function PocketDialMurder({ movie }) {
           name: " Pocket Dial Murder (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/PocketDialMurder-2023/PODM",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -120,7 +133,7 @@ function PocketDialMurder({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,pocket dial murder movie,pocket dial murder 2023,index of pocket dial murder movie,pocket dial murder cast,pocket dial murder trailer,pocket dial murder release date,pocket dial murder plot,pocket dial murder reviews,pocket dial murder streaming,pocket dial murder watch online,pocket dial murder download,pocket dial murder full movie,pocket dial murder movie download,pocket dial murder movie free download,pocket dial murder movie online,pocket dial murder movie watch online"
+          content="pocket dial murder, pocket dial murder 2023 online, watch english movie pocket dial murder online, index of pocket dial murder movie, watch pocket dial murder 2023, pocket dial murder hd streaming online, pocket dial murder videos, action, drama, pocket dial murder cast, english movie, pocket dial murder action movie, pocket dial murder movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -162,7 +175,7 @@ function PocketDialMurder({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Pocket Dial Murder Full Movie Online on Uwatchfree™, You can also download  Pocket Dial Murder (2023) in full HD quality to watch later offline."
+          content="Watch Pocket Dial Murder Full Movie Online on Uwatchfree™, You can also Watch Now  Pocket Dial Murder (2023) Or Download To Watch Later!"
         />
 
         <link

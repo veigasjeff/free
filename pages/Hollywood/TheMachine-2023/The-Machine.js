@@ -72,9 +72,22 @@ function TheMachine({ movie }) {
           name: " The Machine (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/TheMachine-2023/The-Machine",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -120,7 +133,7 @@ function TheMachine({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,the machine movie,the machine 2023,index of the machine movie,the machine cast,the machine trailer,the machine release date,the machine plot,the machine reviews,the machine streaming,the machine watch online,the machine download,the machine full movie,the machine movie download,the machine movie free download,the machine movie online,the machine movie watch online"
+          content="the machine, the machine 2023 online, watch english movie the machine online, index of the machine movie, watch the machine 2023, the machine hd streaming online, the machine videos, action, drama, the machine cast, english movie, the machine action movie, the machine movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -161,7 +174,7 @@ function TheMachine({ movie }) {
         />
         <meta
           name="description"
-          content="Watch The Machine Full Movie Online on Uwatchfree™, You can also download  The Machine (2023) in full HD quality to watch later offline."
+          content="Watch The Machine Full Movie Online on Uwatchfree™, You can also Watch Now  The Machine (2023) Or Download To Watch Later!"
         />
 
         <link

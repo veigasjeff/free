@@ -80,9 +80,22 @@ function DaughteroftheBride ({ movie }) {
           name: " Resurrected (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Resurrected-2023/RETD",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function DaughteroftheBride ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,resurrected movie,resurrected 2023,index of resurrected movie,resurrected cast,resurrected trailer,resurrected release date,resurrected plot,resurrected reviews,resurrected streaming,resurrected watch online,resurrected download,resurrected full movie,resurrected movie download,resurrected movie free download,resurrected movie online,resurrected movie watch online"
+          content="resurrected, resurrected 2023 online, watch english movie resurrected online, index of resurrected movie, watch resurrected 2023, resurrected hd streaming online, resurrected videos, action, drama, resurrected cast, english movie, resurrected action movie, resurrected movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -169,7 +182,7 @@ function DaughteroftheBride ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Resurrected Full Movie Online on Uwatchfree™, You can also download  Resurrected (2023) in full HD quality to watch later offline."
+          content="Watch Resurrected Full Movie Online on Uwatchfree™, You can also Watch Now  Resurrected (2023) Or Download To Watch Later!"
         />
 
         <link

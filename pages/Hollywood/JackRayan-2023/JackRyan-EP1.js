@@ -84,9 +84,22 @@ function JackRyan ({ movie }) {
           name: " Jack Ryan Season 4 (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/JackRayan-2023/JackRyan-EP1",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -124,7 +137,7 @@ function JackRyan ({ movie }) {
       />
     <Head>
         <title>
-          Watch  Jack Ryan Season 4 (2023) Full Movie Online Free | Uwatchfree™
+          Watch  Tom Clancys Jack Ryan Season 4 (2023) Full Movie Online Free | Uwatchfree™
         </title>
         <meta
           name="robots"
@@ -132,7 +145,7 @@ function JackRyan ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,tom clancys jack ryan season 4 movie,tom clancys jack ryan season 4 2023,index of tom clancys jack ryan season 4 movie,tom clancys jack ryan season 4 cast,tom clancys jack ryan season 4 trailer,tom clancys jack ryan season 4 release date,tom clancys jack ryan season 4 plot,tom clancys jack ryan season 4 reviews,tom clancys jack ryan season 4 streaming,tom clancys jack ryan season 4 watch online,tom clancys jack ryan season 4 download,tom clancys jack ryan season 4 full movie,tom clancys jack ryan season 4 movie download,tom clancys jack ryan season 4 movie free download,tom clancys jack ryan season 4 movie online,tom clancys jack ryan season 4 movie watch online"
+          content="tom clancys jack ryan season 4, tom clancys jack ryan season 4 2023 online, watch english tv series tom clancys jack ryan season 4 online, index of tom clancys jack ryan season 4 tv series, watch tom clancys jack ryan season 4 2023, tom clancys jack ryan season 4 hd streaming online, tom clancys jack ryan season 4 videos, action, drama, tom clancys jack ryan season 4 cast, english tv series, tom clancys jack ryan season 4 action tv series, tom clancys jack ryan season 4 tv series download, new release, new english tv series, uwatchfree, blockbuster tv series, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -146,7 +159,7 @@ function JackRyan ({ movie }) {
         <meta property="og:type" content="movie" />
         <meta
           property="og:title"
-          content="Watch Jack Ryan Season 4 (2023) | Uwatchfree™"
+          content="Watch Tom Clancys Jack Ryan Season 4 (2023) | Uwatchfree™"
         />
         <meta
           property="og:url"
@@ -165,7 +178,7 @@ function JackRyan ({ movie }) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="Watch Jack Ryan Season 4 (2023) | Uwatchfree™"
+          content="Watch Tom Clancys Jack Ryan Season 4 (2023) | Uwatchfree™"
         />
         <meta
           name="twitter:image"
@@ -173,7 +186,7 @@ function JackRyan ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Jack Ryan Season 4 Full Movie Online on Uwatchfree™, You can also download  Jack Ryan Season 4 (2023) in full HD quality to watch later offline."
+          content="Watch Jack Ryan Season 4 Full Movie Online on Uwatchfree™, You can also Watch Now  Jack Ryan Season 4 (2023) Or Download To Watch Later!"
         />
 
         <link
@@ -188,7 +201,7 @@ function JackRyan ({ movie }) {
           className="flex flex-col text-center py-5 font-bold text-3xl items-center justify-center"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-             Jack Ryan Season 4 Episode 1 - 2023
+             Tom Clancys Jack Ryan Season 4 Episode 1 - 2023
         </h1>
 
         <div className={styles["iframe-container"]}>
@@ -210,7 +223,7 @@ function JackRyan ({ movie }) {
           className="flex container flex-col items-center py-5 justify-center space-y-3 text-3xl font-bold text-center text-text-white"
           style={{ color: "#40D7BC", textShadow: "5px 5px 2px #000" }}
         >
-          Listen to Audio Summary Jack Ryan Season 4 (2023)
+          Listen to Audio Summary Tom Clancys Jack Ryan Season 4 (2023)
         </h2>
         <div
           style={{ display: "flex", justifyContent: "center" }}

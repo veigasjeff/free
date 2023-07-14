@@ -80,9 +80,22 @@ function Neeyat ({ movie }) {
           name: " Neeyat (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/Neeyat-2023/Neeyat",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function Neeyat ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,Neeyat movie,Neeyat 2023,index of Neeyat movie,Neeyat cast,Neeyat trailer,Neeyat release date,Neeyat plot,Neeyat reviews,Neeyat streaming,Neeyat watch online,Neeyat download,Neeyat full movie,Neeyat movie download,Neeyat movie free download,Neeyat movie online,Neeyat movie watch online"
+          content="neeyat, neeyat 2023 online, watch hindi movie neeyat online, index of neeyat movie, watch neeyat 2023, neeyat hd streaming online, neeyat videos, action, drama, neeyat cast, hindi movie, neeyat action movie, neeyat movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function Neeyat ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789901/Neeyat_2023_wdibvz.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function Neeyat ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Neeyat Full Movie Online on Uwatchfree™, You can also download  Neeyat (2023) in full HD quality to watch later offline."
+          content="Watch Neeyat Full Movie Online on Uwatchfree™, You can also Watch Now  Neeyat (2023) Or Download To Watch Later!"
         />
 
         <link

@@ -80,9 +80,22 @@ function Sheroes ({ movie }) {
           name: " Sheroes (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Sheroes-2023/SHRS",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function Sheroes ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,sheroes movie,sheroes 2023,index of sheroes movie,sheroes cast,sheroes trailer,sheroes release date,sheroes plot,sheroes reviews,sheroes streaming,sheroes watch online,sheroes download,sheroes full movie,sheroes movie download,sheroes movie free download,sheroes movie online,sheroes movie watch online"
+          content="sheroes, sheroes 2023 online, watch english movie sheroes online, index of sheroes movie, watch sheroes 2023, sheroes hd streaming online, sheroes videos, action, drama, sheroes cast, english movie, sheroes action movie, sheroes movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -169,7 +182,7 @@ function Sheroes ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Sheroes Full Movie Online on Uwatchfree™, You can also download  Sheroes (2023) in full HD quality to watch later offline."
+          content="Watch Sheroes Full Movie Online on Uwatchfree™, You can also Watch Now  Sheroes (2023) Or Download To Watch Later!"
         />
 
         <link

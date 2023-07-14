@@ -80,9 +80,22 @@ function TikuWedsSheru ({ movie }) {
           name: " Tiku Weds Sheru (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/Tiku-Weds-Sheru-2023/TWDS",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function TikuWedsSheru ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,tiku weds sheru movie,tiku weds sheru 2023,index of tiku weds sheru movie,tiku weds sheru cast,tiku weds sheru trailer,tiku weds sheru release date,tiku weds sheru plot,tiku weds sheru reviews,tiku weds sheru streaming,tiku weds sheru watch online,tiku weds sheru download,tiku weds sheru full movie,tiku weds sheru movie download,tiku weds sheru movie free download,tiku weds sheru movie online,tiku weds sheru movie watch online"
+          content="tiku weds sheru, tiku weds sheru 2023 online, watch hindi movie tiku weds sheru online, index of tiku weds sheru movie, watch tiku weds sheru 2023, tiku weds sheru hd streaming online, tiku weds sheru videos, action, drama, tiku weds sheru cast, hindi movie, tiku weds sheru action movie, tiku weds sheru movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function TikuWedsSheru ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688791126/Tiku_Weds_Sheru_2023_h6loie.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function TikuWedsSheru ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Tiku-Weds-Sheru Full Movie Online on Uwatchfree™, You can also download  Tiku Weds Sheru (2023) in full HD quality to watch later offline."
+          content="Watch Tiku-Weds-Sheru Full Movie Online on Uwatchfree™, You can also Watch Now  Tiku Weds Sheru (2023) Or Download To Watch Later!"
         />
 
         <link

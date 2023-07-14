@@ -79,8 +79,21 @@ function LadiesTailor({ movie }) {
           "@type": "EntryPoint",
           name: "LadiesTailor (2023) ",
           urlTemplate: "https://uwatchfree.vercel.app/Adult/LadiesTailor-2023/LYTR",
-        },
-      ],
+          inLanguage: movie.language,
+          actionPlatform: [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      ]
+    },
+    releasedEvent: {
+      "@type": "PublicationEvent",
+      startDate: movie.date,
+      location: {
+        "@type": "Country",
+        name: movie.country,
+      }
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -126,7 +139,7 @@ function LadiesTailor({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,Watch ladies tailor movie,index of ladies tailor movie,ladies tailor movie 2023,ladies tailor movie online,Watch ladies tailor movie online free,ladies tailor tv series,ladies tailor movie download,ladies tailor movie free download,ladies tailor movie download"
+          content="ladies tailor, ladies tailor 2023 online, watch hindi movie ladies tailor online, watch ladies tailor 2023, ladies tailor hd streaming online, ladies tailor videos, hot, romance, ladies tailor cast, hindi movie, ladies tailor 18+ movie, ladies tailor movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies, adult movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -164,7 +177,7 @@ function LadiesTailor({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Ladies Tailor Full Movie Online on Uwatchfree™, You can also download Ladies Tailor (2023) in full HD quality to watch later offline."
+          content="Watch Ladies Tailor Full Movie Online on Uwatchfree™, You can also Watch Now Or Download To Watch Later!"
         />
 
         <link

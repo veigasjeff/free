@@ -80,9 +80,22 @@ function Adhura ({ movie }) {
           name: " Adhura (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/Adhura-S01-2023/Adhura",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function Adhura ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,adhura movie,adhura 2023,index of adhura movie,adhura cast,adhura trailer,adhura release date,adhura plot,adhura reviews,adhura streaming,adhura watch online,adhura download,adhura full movie,adhura movie download,adhura movie free download,adhura movie online,adhura movie watch online"
+          content="adhura, adhura 2023 online, watch hindi movie adhura online, index of adhura movie, watch adhura 2023, adhura hd streaming online, adhura videos, action, drama, adhura cast, hindi movie, adhura action movie, adhura movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function Adhura ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789839/Adhura_S01_2023_placm5.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function Adhura ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Adhura Full Movie Online on Uwatchfree™, You can also download  Adhura (2023) in full HD quality to watch later offline."
+          content="Watch Adhura Full Movie Online on Uwatchfree™, You can also Watch Now Or Download To Watch Later!"
         />
 
         <link

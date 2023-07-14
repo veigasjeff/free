@@ -80,9 +80,22 @@ function ConfidentialInformant ({ movie }) {
           name: " Confidential Informant (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Confidential-Informant-2023/COIF",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function ConfidentialInformant ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,confidential informant movie,confidential informant 2023,index of confidential informant movie,confidential informant cast,confidential informant trailer,confidential informant release date,confidential informant plot,confidential informant reviews,confidential informant streaming,confidential informant watch online,confidential informant download,confidential informant full movie,confidential informant movie download,confidential informant movie free download,confidential informant movie online,confidential informant movie watch online"
+          content="confidential informant, confidential informant 2023 online, watch english movie confidential informant online, index of confidential informant movie, watch confidential informant 2023, confidential informant hd streaming online, confidential informant videos, action, drama, confidential informant cast, english movie, confidential informant action movie, confidential informant movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function ConfidentialInformant ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688158915/Confidential-Informant-2023_edefpc.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function ConfidentialInformant ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Confidential Informant Full Movie Online on Uwatchfree™, You can also download  Confidential Informant (2023) in full HD quality to watch later offline."
+          content="Watch Confidential Informant Full Movie Online on Uwatchfree™, You can also Watch Now  Confidential Informant (2023) Or Download To Watch Later!"
         />
 
         <link

@@ -80,9 +80,22 @@ function Sergeant ({ movie }) {
           name: " Sergeant (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/Sergeant-2023/SEGT",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function Sergeant ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,sergeant movie,sergeant 2023,index of sergeant movie,sergeant cast,sergeant trailer,sergeant release date,sergeant plot,sergeant reviews,sergeant streaming,sergeant watch online,sergeant download,sergeant full movie,sergeant movie download,sergeant movie free download,sergeant movie online,sergeant movie watch online"
+          content="sergeant, sergeant 2023 online, watch hindi movie sergeant online, index of sergeant movie, watch sergeant 2023, sergeant hd streaming online, sergeant videos, action, drama, sergeant cast, hindi movie, sergeant action movie, sergeant movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -154,7 +167,7 @@ function Sergeant ({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1688789919/Sergeant_2023_loplfl.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -169,7 +182,7 @@ function Sergeant ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Sergeant Full Movie Online on Uwatchfree™, You can also download  Sergeant (2023) in full HD quality to watch later offline."
+          content="Watch Sergeant Full Movie Online on Uwatchfree™, You can also Watch Now  Sergeant (2023) Or Download To Watch Later!"
         />
 
         <link

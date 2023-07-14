@@ -80,9 +80,22 @@ function KnightsoftheZodiac ({ movie }) {
           name: " Knights of the Zodiac (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Knights-of-the-Zodiac-2023/KOTZ",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function KnightsoftheZodiac ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,Knights of the Zodiac movie,Knights of the Zodiac 2023,index of Knights of the Zodiac movie,Knights of the Zodiac cast,Knights of the Zodiac trailer,Knights of the Zodiac release date,Knights of the Zodiac plot,Knights of the Zodiac reviews,Knights of the Zodiac streaming,Knights of the Zodiac watch online,Knights of the Zodiac download,Knights of the Zodiac full movie,Knights of the Zodiac movie download,Knights of the Zodiac movie free download,Knights of the Zodiac movie online,Knights of the Zodiac movie watch online"
+          content="knights of the zodiac, knights of the zodiac 2023 online, watch english movie knights of the zodiac online, index of knights of the zodiac movie, watch knights of the zodiac 2023, knights of the zodiac hd streaming online, knights of the zodiac videos, action, drama, knights of the zodiac cast, english movie, knights of the zodiac action movie, knights of the zodiac movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -169,7 +182,7 @@ function KnightsoftheZodiac ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Knights of the Zodiac Full Movie Online on Uwatchfree™, You can also download  Knights of the Zodiac (2023) in full HD quality to watch later offline."
+          content="Watch Knights of the Zodiac Full Movie Online on Uwatchfree™, You can also Watch Now  Knights of the Zodiac (2023) Or Download To Watch Later!"
         />
 
         <link

@@ -69,9 +69,22 @@ function Extraction({ movie }) {
           name: " Extraction 2 (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Extraction2-2023/EXTR",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -117,7 +130,7 @@ function Extraction({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,extraction 2 movie,extraction 2 2023,index of extraction 2 movie,extraction 2 cast,extraction 2 trailer,extraction 2 release date,extraction 2 plot,extraction 2 reviews,extraction 2 streaming,extraction 2 watch online,extraction 2 download,extraction 2 full movie,extraction 2 movie download,extraction 2 movie free download,extraction 2 movie online,extraction 2 movie watch online"
+          content="extraction 2, extraction 2 2023 online, watch english movie extraction 2 online, index of extraction 2 movie, watch extraction 2 2023, extraction 2 hd streaming online, extraction 2 videos, action, drama, extraction 2 cast, english movie, extraction 2 action movie, extraction 2 movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -158,7 +171,7 @@ function Extraction({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Extraction 2 Full Movie Online on Uwatchfree™, You can also download  Extraction 2 (2023) in full HD quality to watch later offline."
+          content="Watch Extraction 2 Full Movie Online on Uwatchfree™, You can also Watch Now  Extraction 2 (2023) Or Download To Watch Later!"
         />
 
         <link

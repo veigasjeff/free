@@ -84,9 +84,22 @@ function JackRyan ({ movie }) {
           name: " Jack Ryan Season 4 (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/JackRayan-2023/JKRY-EP2",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -132,7 +145,7 @@ function JackRyan ({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,tom clancys jack ryan season 4 movie,tom clancys jack ryan season 4 2023,index of tom clancys jack ryan season 4 movie,tom clancys jack ryan season 4 cast,tom clancys jack ryan season 4 trailer,tom clancys jack ryan season 4 release date,tom clancys jack ryan season 4 plot,tom clancys jack ryan season 4 reviews,tom clancys jack ryan season 4 streaming,tom clancys jack ryan season 4 watch online,tom clancys jack ryan season 4 download,tom clancys jack ryan season 4 full movie,tom clancys jack ryan season 4 movie download,tom clancys jack ryan season 4 movie free download,tom clancys jack ryan season 4 movie online,tom clancys jack ryan season 4 movie watch online"
+          content="tom clancys jack ryan season 4, tom clancys jack ryan season 4 2023 online, watch english tv series tom clancys jack ryan season 4 online, index of tom clancys jack ryan season 4 tv series, watch tom clancys jack ryan season 4 2023, tom clancys jack ryan season 4 hd streaming online, tom clancys jack ryan season 4 videos, action, drama, tom clancys jack ryan season 4 cast, english tv series, tom clancys jack ryan season 4 action tv series, tom clancys jack ryan season 4 tv series download, new release, new english tv series, uwatchfree, blockbuster tv series, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -173,7 +186,7 @@ function JackRyan ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Jack Ryan Season 4 Full Movie Online on Uwatchfree™, You can also download  Jack Ryan Season 4 (2023) in full HD quality to watch later offline."
+          content="Watch Jack Ryan Season 4 Full Movie Online on Uwatchfree™, You can also Watch Now  Jack Ryan Season 4 (2023) Or Download To Watch Later!"
         />
 
         <link

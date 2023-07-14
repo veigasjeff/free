@@ -80,9 +80,22 @@ function HuntClub ({ movie }) {
           name: " Hunt Club (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/Hunt-Club-2023/HUCB",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -128,7 +141,7 @@ function HuntClub ({ movie }) {
         />
       <meta
           name="keywords"
-          content="uwatchfree,hunt club movie,hunt club 2023,index of hunt club movie,hunt club cast,hunt club trailer,hunt club release date,hunt club plot,hunt club reviews,hunt club streaming,hunt club watch online,hunt club download,hunt club full movie,hunt club movie download,hunt club movie free download,hunt club movie online,hunt club movie watch online"
+          content="hunt club, hunt club 2023 online, watch english movie hunt club online, index of hunt club movie, watch hunt club 2023, hunt club hd streaming online, hunt club videos, action, drama, hunt club cast, english movie, hunt club action movie, hunt club movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -169,7 +182,7 @@ function HuntClub ({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Hunt Club Full Movie Online on Uwatchfree™, You can also download  Hunt Club (2023) in full HD quality to watch later offline."
+          content="Watch Hunt Club Full Movie Online on Uwatchfree™, You can also Watch Now  Hunt Club (2023) Or Download To Watch Later!"
         />
 
         <link

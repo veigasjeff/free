@@ -72,9 +72,22 @@ function ThePerfectFind({ movie }) {
           name: " The Perfect Find (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Hollywood/ThePerfectFind-2023/TPFD ",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -119,8 +132,7 @@ function ThePerfectFind({ movie }) {
           content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
         <meta
-          name="keywords"
-          content="uwatchfree,the perfect find movie,the perfect find 2023,index of the perfect find movie,the perfect find cast,the perfect find trailer,the perfect find release date,the perfect find plot,the perfect find reviews,the perfect find streaming,the perfect find watch online,the perfect find download,the perfect find full movie,the perfect find movie download,the perfect find movie free download,the perfect find movie online,the perfect find movie watch online"
+      content="the perfect find, the perfect find 2023 online, watch english movie the perfect find online, index of the perfect find movie, watch the perfect find 2023, the perfect find hd streaming online, the perfect find videos, action, drama, the perfect find cast, english movie, the perfect find action movie, the perfect find movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -162,7 +174,7 @@ function ThePerfectFind({ movie }) {
         />
         <meta
           name="description"
-          content="Watch The Perfect Find Full Movie Online on Uwatchfree™, You can also download  The Perfect Find (2023) in full HD quality to watch later offline."
+          content="Watch The Perfect Find Full Movie Online on Uwatchfree™, You can also Watch Now  The Perfect Find (2023) Or Download To Watch Later!"
         />
 
         <link

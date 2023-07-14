@@ -73,9 +73,22 @@ function BloodyDaddy({ movie }) {
           name: "Bloody Daddy (2023)",
           urlTemplate:
             "https://uwatchfree.vercel.app/Bollywood/BloodyDaddy-2023/BODY",
-        },
-      ],
-    },
+            inLanguage: movie.language,
+            actionPlatform: [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        ]
+      },
+      releasedEvent: {
+        "@type": "PublicationEvent",
+        startDate: movie.date,
+        location: {
+          "@type": "Country",
+          name: movie.country,
+        }
+      },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: movie.rating,
@@ -121,7 +134,7 @@ function BloodyDaddy({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,bloody daddy movie,bloody daddy 2023,index of bloody daddy movie,bloody daddy cast,bloody daddy trailer,bloody daddy release date,bloody daddy plot,bloody daddy reviews,bloody daddy streaming,bloody daddy watch online,bloody daddy download,bloody daddy full movie,bloody daddy movie download,bloody daddy movie free download,bloody daddy movie online,bloody daddy movie watch online"
+          content="bloody daddy, bloody daddy 2023 online, watch hindi movie bloody daddy online, index of bloody daddy movie, watch bloody daddy 2023, bloody daddy hd streaming online, bloody daddy videos, action, drama, bloody daddy cast, hindi movie, bloody daddy action movie, bloody daddy movie download, new release, new hindi movie, uwatchfree, blockbuster movie, uwatchfree movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -147,7 +160,7 @@ function BloodyDaddy({ movie }) {
         />
         <meta
           property="og:image:secure_url"
-          content="https://uwatchfree.vercel.app/"
+          content="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686515465/Bloody-Daddy-2023_kywtrm.webp"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -162,7 +175,7 @@ function BloodyDaddy({ movie }) {
         />
         <meta
           name="description"
-          content="Watch BloodyDaddy Full Movie Online on Uwatchfree™, You can also download Bloody Daddy (2023) in full HD quality to watch later offline."
+          content="Watch BloodyDaddy Full Movie Online on Uwatchfree™, You can also Watch Now Or Download To Watch Later!"
         />
 
         <link

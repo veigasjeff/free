@@ -79,8 +79,21 @@ function Hilom({ movie }) {
           "@type": "EntryPoint",
           name: "Hilom (2023) ",
           urlTemplate: "https://uwatchfree.vercel.app/Adult/Hilom-2023/Hilom",
-        },
-      ],
+          inLanguage: movie.language,
+          actionPlatform: [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      ]
+    },
+    releasedEvent: {
+      "@type": "PublicationEvent",
+      startDate: movie.date,
+      location: {
+        "@type": "Country",
+        name: movie.country,
+      }
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -126,7 +139,7 @@ function Hilom({ movie }) {
         />
         <meta
           name="keywords"
-          content="uwatchfree,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,Watch hilom movie,index of hilom movie,hilom movie 2023,hilom movie online,Watch hilom movie online free,hilom tv series,hilom movie download,hilom movie free download,hilom movie download"
+          content="hilom, hilom 2023 online, watch english movie hilom online, watch hilom 2023, hilom hd streaming online, hilom videos, hot, romance, hilom cast, english movie, hilom 18+ movie, hilom movie download, new release, new english movie, uwatchfree, blockbuster movie, uwatchfree movies, adult movies"
         />
         <meta property="og:locale" content="en_US" />
 
@@ -164,7 +177,7 @@ function Hilom({ movie }) {
         />
         <meta
           name="description"
-          content="Watch Hilom Full Movie Online on Uwatchfree™, You can also download Hilom (2023) in full HD quality to watch later offline."
+          content="Watch Hilom Full Movie Online on Uwatchfree™, You can also Watch Now Or Download To Watch Later!"
         />
 
         <link
