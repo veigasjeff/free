@@ -125,7 +125,7 @@ export default function Home({ movie }) {
           />
           <meta
             name="keywords"
-            content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online"
+            content="uwatchfree,uwatchfree tv,uwatchfree.world,uwatchfree.movie,uwatchfree.bar,uwatchfree.mx,streaming,latest movies,online tv,latest free movies,watch latest movies online"
           />
           <meta property="og:locale" content="en_US" />
           <meta property=" Content-Security-Policy: frame-ancestors 'self' uwatchfree.vercel.app *.uwatchfree.vercel.app;" />
