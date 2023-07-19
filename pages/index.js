@@ -163,7 +163,7 @@ export default function Home({ movie }) {
                       {hovered === index && (
                        <iframe
                        id={`player-${index}`}
-                       className="absolute inset-0 w-full h-full"
+                       className="absolute inset-0 w-half h-half"
                        src={`https://www.youtube.com/embed/${movie["movie.trailer"]}?enablejsapi=1&origin=https://uwatchfree.vercel.app&autoplay=1&mute=1`}
                        frameBorder="0"
                        allowFullScreen
