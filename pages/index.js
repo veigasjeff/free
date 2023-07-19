@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import ShareButtons from "@components/ShareButtons";
 import { Image } from "cloudinary-react";
 import { useState, useRef, useEffect } from "react";
-import YoutubePlayer from "@components/YoutubePlayer";
 
 export default function Home({ movie }) {
   const [hovered, setHovered] = useState(false);
@@ -78,9 +77,49 @@ export default function Home({ movie }) {
     };
   }, []);
 
+  useEffect(() => {
+    const tag = document.createElement("script");
+    tag.src = "https://www.youtube.com/iframe_api";
+    const firstScriptTag = document.getElementsByTagName("script")[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+    let newPlayer;
+    window.onYouTubeIframeAPIReady = () => {
+      newPlayer = new window.YT.Player("player", {
+        width: "100%",
+        height: "100%",
+        videoId: movie?.trailer || "",
+        playerVars: { autoplay: 1, playsinline: 1, mute: 1 },
+        events: {
+          onReady: onPlayerReady,
+        },
+      });
+      setPlayer(newPlayer);
+    };
 
+    const onPlayerReady = (event) => {
+      event.target.mute();
+      event.target.playVideo();
+    };
 
+    return () => {
+      if (player) {
+        player.destroy();
+      }
+      window.onYouTubeIframeAPIReady = null;
+    };
+  }, [movie?.trailer]);
+
+  const handleMouseEnter = (index) => {
+    setHovered(index);
+    player.loadVideoById(movies[index + 1]?.trailer || "");
+  };
+
+  const handleMouseLeave = () => {
+    setHovered(null);
+    player.stopVideo();
+  };
+  
   return (
     <div>
       <div className={styles.container}>
@@ -122,28 +161,16 @@ export default function Home({ movie }) {
                       />
                       <div>
                       {hovered === index && (
-                          <div className="iframe-container">
-                            <YoutubePlayer videoId={movie["movie.trailer"]} />
-                          </div>
+                          <iframe
+                            id={`player-${index}`}
+                            className="absolute inset-0 w-full h-full"
+                    
+                            src={`https://www.youtube.com/embed/${movie["movie.trailer"]}?enablejsapi=1&autoplay=1&mute=1`}
+                            frameBorder="0"
+                            allowFullScreen
+                          ></iframe>
                         )}
-                         <style>
-          {`
-          /* Make the youtube video responsive */
-          .iframe-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-          }
-          .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          }
-          `}
-        </style>
+                        
                       </div>
 
                       <a
@@ -238,13 +265,41 @@ export default function Home({ movie }) {
                         className={`${styles["watch-now-button"]} rounded-3xl border shadow-md `}
                       >
                         Watch Now
-                        </button>
+                      </button>
                     </a>
                   </div>
                 ))}
             </div>
           </section>
         </main>
+      </div>
+
+      <div>
+        <Head>
+          <title>YouTube Player</title>
+          <style>
+            {`
+          /* Make the YouTube video responsive */
+          .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+          }
+          .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+          `}
+          </style>
+        </Head>
+
+        <div className="iframe-container">
+          <div id="player" />
+        </div>
       </div>
     </div>
   );
