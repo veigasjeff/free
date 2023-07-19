@@ -1,16 +1,25 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import ShareButtons from "@components/ShareButtons";
+//import BackgroundMusic from '@components//BackgroundMusic';
+//<BackgroundMusic />
 import { Image } from "cloudinary-react";
+//import Ad from '../components/Ad';
 import { useState, useRef, useEffect } from "react";
+
+
+const scrollSearch = (myKey) => {
+  window.scrollTo(0, 0);
+  frontMatter.handleSearch(myKey);
+};
 
 export default function Home({ movie }) {
   const [hovered, setHovered] = useState(false);
+
   const [isMobile, setIsMobile] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const videoRef = useRef(null);
-  const [player, setPlayer] = useState(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 768px)");
@@ -29,7 +38,7 @@ export default function Home({ movie }) {
     return () => {
       observer.disconnect();
     };
-  }, []);
+  }, [videoRef.current]);
 
   useEffect(() => {
     if (isMobile && isVisible && isPlaying) {
@@ -77,56 +86,154 @@ export default function Home({ movie }) {
     };
   }, []);
 
-  useEffect(() => {
-    const tag = document.createElement("script");
-    tag.src = "https://www.youtube.com/iframe_api";
-    const firstScriptTag = document.getElementsByTagName("script")[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-    let newPlayer;
-    window.onYouTubeIframeAPIReady = () => {
-      newPlayer = new window.YT.Player("player", {
-        width: "100%",
-        height: "100%",
-        videoId: movie?.trailer || "",
-        playerVars: { autoplay: 1, playsinline: 1, mute: 1 },
-        events: {
-          onReady: onPlayerReady,
-        },
-      });
-      setPlayer(newPlayer);
-    };
-
-    const onPlayerReady = (event) => {
-      event.target.mute();
-      event.target.playVideo();
-    };
-
-    return () => {
-      if (player) {
-        player.destroy();
-      }
-      window.onYouTubeIframeAPIReady = null;
-    };
-  }, [movie?.trailer]);
-
-  const handleMouseEnter = (index) => {
-    setHovered(index);
-    player.loadVideoById(movies[index + 1]?.trailer || "");
-  };
-
-  const handleMouseLeave = () => {
-    setHovered(null);
-    player.stopVideo();
-  };
-  
-  return (
+  return (  
     <div>
+    
       <div className={styles.container}>
         <Head>
-          {/* Head content here */}
-        </Head>
+          <title>
+            Uwatchfree™ | Watch Latest Movies & TV-Series Online Free
+          </title>
+          <meta name="robots" content="index, follow" />
+          <meta name="googlebot" content="index,follow"/>
+          <meta name="revisit-after" content="1 days" />
+          <meta
+            name="facebook-domain-verification"
+            content="13auzwhblf4oo4jn5vl6gcmebugsqb"
+          />
+          <meta property="fb:app_id" content="602176271414602" />
+          <meta
+            name="dailymotion-domain-verification"
+            content="dmv6sg06w9r5eji88"
+          />
+          <meta
+            name="monetag"
+            content="076afbb772da1a62ef6f43756dfa5f65"
+          ></meta>
+          <meta
+            name="google-site-verification"
+            content="4dFu4PUk1pc1IYqU6Brt84akCwNxaoUpKSO3gDW0kJ0"
+          />
+          <meta
+            name="description"
+            content="Uwatchfree™ - Watch Latest Movies & TV-Series Online Free"
+          />
+          <meta
+            name="robots"
+            content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+          />
+          <meta
+            name="keywords"
+            content="uwatchfree,uwatchfree tv,streaming,latest movies,online tv,latest free movies,watch latest movies online"
+          />
+          <meta property="og:locale" content="en_US" />
+          <meta property=" Content-Security-Policy: frame-ancestors 'self' uwatchfree.vercel.app *.uwatchfree.vercel.app;" />
+          <meta
+            property="og:site_name"
+            content="Uwatchfree™ | Watch Latest Movies & TV-Series Online Free "
+          />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="Uwatchfree™ | Watch Latest Movies & TV-Series Online Free "
+          />
+          <meta
+            property="og:description"
+            content="Uwatchfree™ - Watch Latest Movies & TV-Series Online Free "
+          />
+          <meta property="og:url" content="https://uwatchfree.vercel.app/" />
+          <meta property="og:image:type" content="image/jpeg" />
+          <meta
+            property="og:image"
+            content="https://uwatchfree.vercel.app/og_image.jpg"
+          />
+          <meta
+            property="og:image:secure_url"
+            content="https://uwatchfree.vercel.app/og_image.jpg"
+          />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta
+            name="twitter:title"
+            content="Uwatchfree™ - Watch Latest Movies & TV-Series Online Free "
+          />
+          <meta
+            name="twitter:description"
+            content=" Uwatchfree™ - Watch Latest Movies & TV-Series Online Free "
+          />
+          <meta
+            name="twitter:image"
+            content="https://uwatchfree.vercel.app/og_image.jpg"
+          />
 
+          <link
+            rel="alternate"
+            hrefLang="en-us"
+            href="https://uwatchfree.vercel.app/"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en-gb"
+            href="https://uwatchfree.vercel.app/"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en-ca"
+            href="https://uwatchfree.vercel.app/"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en-au"
+            href="https://uwatchfree.vercel.app/"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en-se"
+            href="https://uwatchfree.vercel.app/"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en-fr"
+            href="https://uwatchfree.vercel.app/"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en-dk"
+            href="https://uwatchfree.vercel.app/"
+          />
+          <link
+            rel="alternate"
+            hrefLang="en-no"
+            href="https://uwatchfree.vercel.app/"
+          />
+          <link
+            rel="alternate"
+            hrefLang="x-default"
+            href="https://uwatchfree.vercel.app/"
+          />
+
+          <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/site.webmanifest"></link>
+          <link rel="canonical" href="https://uwatchfree.vercel.app/Movies" />
+        </Head>
+ 
         <main className={styles.main}>
           <section className={`${styles.movies} bg-gray-600  py-5`}>
             <ShareButtons
@@ -149,7 +256,9 @@ export default function Home({ movie }) {
                     className="w-full md:w-1/2 lg:w-1/3 p-2 "
                     key={movie.title}
                   >
+                   
                     <div className="relative overflow-hidden rounded-3xl border border-white shadow-md">
+                  
                       <Image
                         className="w-full h-full object-cover  rounded-3xl border border-white shadow-md"
                         loading="eager"
@@ -157,29 +266,36 @@ export default function Home({ movie }) {
                         alt={movie.title}
                         width={1000}
                         height={562.5}
-                        effect="blur"
+                        effect="blur" 
                       />
-                      <div>
                       {hovered === index && (
-                       <iframe
-                       id={`player-${index}`}
-                       className="absolute inset-0 w-half h-half"
-                       src={`https://www.youtube.com/embed/${movie["movie.trailer"]}?enablejsapi=1&origin=https://uwatchfree.vercel.app&autoplay=1&mute=1`}
-                       frameBorder="0"
-                       allowFullScreen
-                     ></iframe>
-                     
-                        )}
-                        
-                      </div>
-
+                         
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          
+                          <video
+                            className="w-full h-full  object-cover rounded-3xl border border-white shadow-md"
+                            src={
+                              hovered === index && movie["movie.trailer"]
+                                ? movie["movie.trailer"]
+                                : movie.image
+                            }
+                            controls
+                            autoPlay
+                            muted
+                            playsInline
+                            onClick={handleVideoClick}
+                          ></video>
+                        </div>
+                      )}
                       <a
-                        href={movie["movie.watch"]}
+                        // href={movie['movie.watch']}
                         id={movie.id}
                         className="absolute inset-0 flex items-center justify-center"
                         onMouseEnter={() => setHovered(index)}
                         onMouseLeave={() => setHovered(null)}
                       ></a>
+                      
+                     
 
                       <span
                         className={`${
@@ -226,17 +342,19 @@ export default function Home({ movie }) {
                         {movie.title}
                       </h2>
                       <div className="flex flex-wrap justify-center py-5">
-                        <audio
-                          controls
-                          preload="metadata"
-                          playsInline
-                          loop
-                          crossOrigin="anonymous"
-                          controlsList="nodownload"
-                        >
-                          <source src={movie.audio} id={movie.id} />
-                        </audio>
-                      </div>
+               
+               <audio
+                 controls
+                 preload="metadata"
+                 playsInline
+                 loop
+                 crossOrigin="anonymous"
+                 controlsList="nodownload"
+               >
+              
+                 <source src={movie.audio} id={movie.id} /> 
+               </audio>
+             </div>
                       <a
                         href={movie.link}
                         className="text-xl font-bold leading-normal mb-2 text-yellow-500 "
@@ -252,7 +370,7 @@ export default function Home({ movie }) {
                       >
                         Year Release : {movie.yearRelease}
                       </p>
-
+                  
                       <p
                         className={`${styles.genre} text-xl font-bold leading-normal mb-2 text-white`}
                         style={{ textShadow: "5px 5px 2px #000" }}
@@ -272,34 +390,6 @@ export default function Home({ movie }) {
             </div>
           </section>
         </main>
-      </div>
-
-      <div>
-        <Head>
-          <title>YouTube Player</title>
-          <style>
-            {`
-          /* Make the YouTube video responsive */
-          .iframe-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-          }
-          .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          }
-          `}
-          </style>
-        </Head>
-
-        <div className="iframe-container">
-          <div id="player" />
-        </div>
       </div>
     </div>
   );
