@@ -161,14 +161,14 @@ export default function Home({ movie }) {
                       />
                       <div>
                       {hovered === index && (
-                          <iframe
-                            id={`player-${index}`}
-                            className="absolute inset-0 w-full h-full"
-                           
-                            src={`https://www.youtube.com/embed/${movie["movie.trailer"]}?enablejsapi=1&origin=https://uwatchfree.vercel.app"&autoplay=1&mute=1`}
-                            frameBorder="0"
-                            allowFullScreen
-                          ></iframe>
+                       <iframe
+                       id={`player-${index}`}
+                       className="absolute inset-0 w-full h-full"
+                       src={`https://www.youtube.com/embed/${movie["movie.trailer"]}?enablejsapi=1&origin=https://uwatchfree.vercel.app&autoplay=1&mute=1`}
+                       frameBorder="0"
+                       allowFullScreen
+                     ></iframe>
+                     
                         )}
                         
                       </div>
