@@ -1219,9 +1219,9 @@
     "ads2link": "https://www.amazon.in/dp/B09N3XMZ5F/ref=as_sl_pc_as_ss_li_til?tag=drtrl-21&linkCode=w00&linkId=71a57058a18fc06640e3b3a5537af625&creativeASIN=B09N3XMZ5F",
 
     "amzads1":"https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/fa90c248-72ac-4639-ac21-e4f3a5e17f99/default.jobtemplate.hls1080.m3u8",
-    "amzlink1": "https://www.amazon.in/dp/B09DYXXDT6/ref=as_sl_pc_as_ss_li_til?tag=drtrl-21&linkCode=w00&linkId=32b7ebea65f60a1d9507b4fe99e3c475&creativeASIN=B09DYXXDT6",
+    "amz1link": "https://www.amazon.in/dp/B09DYXXDT6/ref=as_sl_pc_as_ss_li_til?tag=drtrl-21&linkCode=w00&linkId=32b7ebea65f60a1d9507b4fe99e3c475&creativeASIN=B09DYXXDT6",
     "amzads2":"https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/986a0d4b-93dc-4085-847f-2cb8ce081eac/default.jobtemplate.hls1080.m3u8",
-    "amzlink2": "https://www.amazon.in/dp/B09DYXXDT6/ref=as_sl_pc_as_ss_li_til?tag=drtrl-21&linkCode=w00&linkId=32b7ebea65f60a1d9507b4fe99e3c475&creativeASIN=B09DYXXDT6",
+    "amz2link": "https://www.amazon.in/dp/B09DYXXDT6/ref=as_sl_pc_as_ss_li_til?tag=drtrl-21&linkCode=w00&linkId=32b7ebea65f60a1d9507b4fe99e3c475&creativeASIN=B09DYXXDT6",
 
 
     "movie.watch": "/movies/lust-stories2/index.html",
