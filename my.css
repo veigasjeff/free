@@ -243,5 +243,9 @@
       opacity: 0;
     }
   }
-  
+  .playlist_scrol {
+    height: 700px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  }
+
   
