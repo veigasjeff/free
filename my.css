@@ -243,6 +243,50 @@
       opacity: 0;
     }
   }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+    flex-wrap: wrap;
+  }
+  .button {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 1rem; /* Add margin-right for gaps between buttons */
+  }
+
+
+  .button a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .button a:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+  }
+  .text-center {
+    text-align: center;
+    color: #585656;
+    text-shadow: 3px 5px 5px #000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 768px) {
+    .button-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
   
 
   
