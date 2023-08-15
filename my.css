@@ -1,4 +1,3 @@
-
 /* Add CSS styles for the ad container */
 .ad-container {
   position: relative;
@@ -14,7 +13,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .buy-button1 {
@@ -28,7 +26,7 @@
   position: absolute;
   transform: translateX(-50%);
   color: #ffffff;
-  text-shadow: 5px 5px 2px #000;
+  text-shadow: 3px 2px 3px #000;
   z-index: 2;
   /* Ensure the button is on top of the video */
 }
@@ -44,11 +42,10 @@
   position: absolute;
   transform: translateX(-50%);
   color: #ffffff;
-  text-shadow: 5px 5px 2px #000;
+  text-shadow: 3px 2px 3px #000;
   z-index: 2;
   /* Ensure the button is on top of the video */
 }
-
 
 .container1 {
   display: flex;
@@ -87,66 +84,66 @@
   background-color: #000;
   color: #fff;
 }
- /* Styling for the video popup container */
- .video-popup {
-        display: none;
-        position: fixed;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 9999;
-        background-color: #000;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        padding: 20px;
-        border: 5px solid black; /* Add a border to the popup */
-        max-width: 100%;
-        width: 90%;
-        height: 60%;
-    }
+/* Styling for the video popup container */
+.video-popup {
+  display: none;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border: 5px solid black; /* Add a border to the popup */
+  max-width: 100%;
+  width: 90%;
+  height: 60%;
+}
 
-    /* Styling for the close button */
-    .close-button {
-        position: absolute;
-        top: -50px; /* Adjust the top value to position the close button above the video */
-        left: 50%;
-        transform: translateX(-50%);
-        cursor: pointer;
-        color: #fff;
-        font-size: 18px;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 5px 10px;
-        border-radius: 10%;
-        z-index: 10000; /* Increase the z-index for the close button */
-    }
-      /* Styling for the text in the center of the video */
-      .video-popup-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        font-size: 24px;
-        z-index: 1000; /* Make sure the text is visible above the video */
-    }
-      /* Responsive styles for the video player */
-      .video-js.vjs-default-skin {
-        width: 100% !important;
-        height: 100% !important;
-    }
-           /* Media queries for centering the video popup on smaller screens */
-           @media only screen and (max-width: 768px) {
-        .video-popup {
-            width: 90%;
-            height: 60%;
-        }
-    }
+/* Styling for the close button */
+.close-button {
+  position: absolute;
+  top: -50px; /* Adjust the top value to position the close button above the video */
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 10%;
+  z-index: 10000; /* Increase the z-index for the close button */
+}
+/* Styling for the text in the center of the video */
+.video-popup-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  z-index: 1000; /* Make sure the text is visible above the video */
+}
+/* Responsive styles for the video player */
+.video-js.vjs-default-skin {
+  width: 100% !important;
+  height: 100% !important;
+}
+/* Media queries for centering the video popup on smaller screens */
+@media only screen and (max-width: 768px) {
+  .video-popup {
+    width: 90%;
+    height: 60%;
+  }
+}
 
-    @media only screen and (max-width: 576px) {
-        .video-popup {
-            width: 90%;
-            height: 60%;
-        }
-    }
+@media only screen and (max-width: 576px) {
+  .video-popup {
+    width: 90%;
+    height: 60%;
+  }
+}
 /* Styles for the age restriction popup */
 .age-popup {
   display: none;
@@ -206,87 +203,121 @@
   align-items: center;
   justify-content: center;
 }
-  /* Ripple effect on button click */
-  .ripple {
-    position: relative;
-    overflow: hidden;
+/* Ripple effect on button click */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ripple:focus::before {
+  width: 200%;
+  height: 200%;
+  opacity: 1;
+  animation: ripple-animation 0.4s ease-out;
+}
+
+@keyframes ripple-animation {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.6;
   }
-  
-  .ripple::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.6);
+  to {
+    transform: translate(-50%, -50%) scale(1);
     opacity: 0;
-    pointer-events: none;
   }
-  
-  .ripple:focus::before {
-    width: 200%;
-    height: 200%;
-    opacity: 1;
-    animation: ripple-animation 0.4s ease-out;
-  }
-  
-  @keyframes ripple-animation {
-    from {
-      transform: translate(-50%, -50%) scale(0);
-      opacity: 0.6;
-    }
-    to {
-      transform: translate(-50%, -50%) scale(1);
-      opacity: 0;
-    }
-  }
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 20px;
+  flex-wrap: wrap;
+}
+.button {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-right: 1rem; /* Add margin-right for gaps between buttons */
+}
+
+.button a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border: 10px solid #40d7bc;
+  /* border: 2px solid #000000; */
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button a:hover {
+  background-color: darkblue;
+  transform: scale(1.05);
+}
+.text-center {
+  text-align: center;
+  color: #585656;
+  text-shadow: 3px 2px 3px #000;
+  font-size: 25px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
   .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0 20px;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
-  .button {
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-right: 1rem; /* Add margin-right for gaps between buttons */
+}
+/* Media query for all mobile devices */
+@media screen and (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+  body {
+    font-size: 14px; /* Example: reducing font size for mobile devices */
   }
+  /* Add more rules as needed */
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center vertically on the viewport */
+}
+.heading {
+  color: #40D7BC;
+  text-shadow: 3px 5px 5px #000;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 24px;
+  }
+}
 
-  .button a {
-    display: block;
-    padding: 10px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background-color: blue;
-    border: none;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: background-color 0.3s, transform 0.3s;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .heading {
+    font-size: 28px;
   }
-
-  .button a:hover {
-    background-color: darkblue;
-    transform: scale(1.05);
-  }
-  .text-center {
-    text-align: center;
-    color: #585656;
-    text-shadow: 3px 5px 5px #000;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  @media screen and (max-width: 768px) {
-    .button-container {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
-  }
-  
-
-  
+}
