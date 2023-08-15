@@ -321,3 +321,47 @@ body {
     font-size: 28px;
   }
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slide {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+ 
+
+  /* background-color: #f0f0f0; */
+}
+
+.slide {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+
+
+.slide img {
+  width: 500px;
+  height: auto;
+  border: 2px solid grey;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+  
+
+
+

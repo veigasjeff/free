@@ -11,25 +11,139 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-   <url>
+  <url>
     <loc>https://uwatchfree.vercel.app/movies/index.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-     <url>
+  <url>
     <loc>https://uwatchfree.vercel.app/tv-shows/index.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-       <url>
+  <url>
     <loc>https://uwatchfree.vercel.app/adult/index.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
+    <loc>https://uwatchfree.vercel.app/movies/blindspot/index.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://uwatchfree.vercel.app/movies/blindspot/blindspot-episode-2.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://uwatchfree.vercel.app/movies/blindspot/blindspot-episode-3.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://uwatchfree.vercel.app/movies/blindspot/blindspot-episode-4.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/the-trial-pyaar-kaanoon-dhokha/index.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/the-trial-pyaar-kaanoon-dhokha/the-trial-episode-2.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/the-trial-pyaar-kaanoon-dhokha/the-trial-episode-3.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/the-trial-pyaar-kaanoon-dhokha/the-trial-episode-4.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/the-trial-pyaar-kaanoon-dhokha/the-trial-episode-5.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/the-trial-pyaar-kaanoon-dhokha/the-trial-episode-6.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/the-trial-pyaar-kaanoon-dhokha/the-trial-episode-7.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/the-trial-pyaar-kaanoon-dhokha/the-trial-episode-8.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/commando-season-01/index.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/commando-season-01/commando-episode-2.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/commando-season-01/commando-episode-3.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/commando-season-01/commando-episode-4.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/ilaaj/index.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/home-service/index.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uwatchfree.vercel.app/movies/taong-grasa/index.html</loc>
+    <lastmod>2023-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://uwatchfree.vercel.app/movies/the-channel.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
@@ -48,7 +162,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-  <loc>https://uwatchfree.vercel.app/movies/litsoneras.html</loc>
+    <loc>https://uwatchfree.vercel.app/movies/litsoneras.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -65,7 +179,7 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
+  <url>
     <loc>https://uwatchfree.vercel.app/movies/anari-part1.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
@@ -77,7 +191,7 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
+  <url>
     <loc>https://uwatchfree.vercel.app/movies/neeyat.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
@@ -113,7 +227,7 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
+  <url>
     <loc>https://uwatchfree.vercel.app/dmca/index.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
@@ -137,13 +251,13 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
+  <url>
     <loc>https://uwatchfree.vercel.app/content-removal-policy/index.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
+  <url>
     <loc>https://uwatchfree.vercel.app/terms-and-conditions/index.html</loc>
     <lastmod>2023-08-11</lastmod>
     <changefreq>daily</changefreq>

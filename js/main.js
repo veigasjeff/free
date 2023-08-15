@@ -68,14 +68,6 @@ fetch("/movies.json")
 //     console.error("Error fetching movie data:", error);
 //   });
 
-
-
-
-  
-
-
-
-
 const modeToggleBtn = document.getElementById("modeToggleBtn");
 const body = document.body;
 
@@ -172,3 +164,67 @@ document.addEventListener("DOMContentLoaded", function () {
     // For example, redirecting the user to a safe page
   });
 });
+
+const slider = document.querySelector('.slider');
+const image = document.getElementById('image');
+let slideIndex = 0;
+let timer;
+const slideGap = 5000; // 3 seconds
+
+fetch('/movies.json') // Update the path to your movies.json file
+  .then(response => response.json())
+  .then(data => {
+    const movies = data;
+    startAutoSlider(movies);
+  })
+  .catch(error => {
+    console.error('Error fetching movies:', error);
+  });
+
+function startAutoSlider(movies) {
+  timer = setInterval(() => {
+    slideIndex = (slideIndex + 1) % movies.length;
+    updateSlider(movies);
+  }, slideGap);
+}
+
+function updateSlider(movies) {
+  const currentMovie = movies[slideIndex];
+  image.src = currentMovie.image;
+  image.alt = 'Slide';
+  image.parentElement.href = currentMovie['movie.watch'];
+}
+
+
+
+
+
+
+
+
+
+
+
+function updateCarouselPosition() {
+  carousel.style.transition = 'transform 0.5s ease-in-out';
+  carousel.style.transform = `translateX(-${slideIndex * imageWidth}px)`;
+
+  if (slideIndex >= images.length) {
+    slideIndex = 0;
+    setTimeout(() => {
+      carousel.style.transition = 'none'; // Disable transition for instant loop
+      carousel.style.transform = 'translateX(0)';
+    }, 500); // Wait for transition before resetting
+  }
+}
+
+carousel.addEventListener('transitionend', () => {
+  if (slideIndex >= images.length) {
+    slideIndex = 0;
+    carousel.style.transition = 'none'; // Disable transition for instant loop
+    carousel.style.transform = 'translateX(0)';
+  }
+});
+
+
+
