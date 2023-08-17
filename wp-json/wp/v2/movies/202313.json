@@ -1,0 +1,84 @@
+{
+  "@type": "Movie",
+  "id": 202313,
+  "date": "2023-08-02T13:56:30",
+  "date_gmt": "2023-08-02T13:56:30",
+  "guid": {
+      "@type": "URL",
+      "rendered": "https://uwatchfree.vercel.app/?post_type=movies&p=202313"
+    },
+  "modified": "2023-08-19T01:31:07",
+  "modified_gmt": "2023-08-19T01:31:07",
+  "slug": "the-flash",
+  "status": "publish",
+  "type": "Movie",
+  "link": "https://uwatchfree.vercel.app/movies/the-flash/",
+  "title": {
+    "@type": "Text",
+    "rendered": "The Flash"
+  },
+  "content": {
+    "@type": "CreativeWork",
+    "rendered": "<p><strong>Directed by<\/strong> Andy Muschietti.<\/p>\r\n<p><strong>Cast <\/strong>Ezra Miller. Michael Keaton. Sasha Calle. Michael Shannon. Ron Livingston. (credit only)) . (0)<\/p>\r\n<p><strong>Language <\/strong>English.<\/p>\r\n<p><strong>Content Rating <\/strong>United States: R.<\/p>\r\n<p><strong>Original Network <\/strong>Liongate Movies.<\/p>\r\n",
+    "protected": false
+  },
+  "contentRating": "United States: UA ",
+  "OriginalNetwork": " Liongate Movies.",
+  "releasedEvent": {
+    "@type": "PublicationEvent",
+    "startDate": "2023-06-16",
+    "location": {
+      "@type": "Country",
+      "name": "United States."
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 7.0,
+    "bestRating": 10,
+    "worstRating": 0,
+    "ratingCount": 5
+  },
+  "additionalProperty": {
+    "@type": "PropertyValue",
+    "name": "Action Platform",
+    "value": [
+      "Desktop Web Platform",
+      "iOS Platform",
+      "Android Platform"
+    ]
+  },
+  "parent": 0,
+  "menu_order": 0,
+  "template": "",
+  "movies_categories": [35],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v20.9 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Flash - Uwatchfree™ Movies<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/uwatchfree.vercel.app\/movies\/the-flash\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<!-- ... rest of Yoast SEO metadata ... -->",
+  "_links": {
+    "@type": "HyperMediaLink",
+    "self": {
+      "@type": "HyperMediaLink",
+      "href": "https://uwatchfree.vercel.app/wp-json/wp/v2/movies/202313"
+    },
+    "collection": {
+      "@type": "HyperMediaLink",
+      "href": "https://uwatchfree.vercel.app/wp-json/wp/v2/movies"
+    },
+    "about": {
+      "@type": "HyperMediaLink",
+      "href": "https://uwatchfree.vercel.app/wp-json/wp/v2/types/movies"
+    },
+    "wp:term": {
+      "@type": "HyperMediaLink",
+      "taxonomy": "movies_categories",
+      "embeddable": true,
+      "href": "https://uwatchfree.vercel.app/wp-json/wp/v2/movies_categories?post=202313"
+    },
+    "curies": {
+      "@type": "HyperMediaLink",
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+    }
+  }
+  }
