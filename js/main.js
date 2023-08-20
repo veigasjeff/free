@@ -12,7 +12,7 @@ fetch("/movies.json")
       link.href = `/movies/${folderName}/index.html`; // Append "index.html" at the end
 
       const img = document.createElement("img");
-      img.src = `../../wp-content/uploads/2023/06/${movie.poster}`;
+      img.src = `https://uwatchfree.vercel.app/wp-content/uploads/2023/06/${movie.poster}`;
       img.style.borderRadius = "10%";
       img.style.border = "2px solid #40D7BC";
       img.alt = movie.title;
@@ -51,7 +51,7 @@ fetch("/movies.json")
 //       productThumb.className = "product__thumb";
 
 //       const img = document.createElement("img");
-//       img.src = `../../wp-content/uploads/2023/06/${movie.poster}`;
+//       img.src = `https://uwatchfree.vercel.app/wp-content/uploads/2023/06/${movie.poster}`;
 //       img.style.borderRadius = "10%";
 //       img.style.border = "2px solid #40D7BC"; // Add border style
 //       img.alt = movie.title;
@@ -84,11 +84,11 @@ function toggleMode() {
   body.classList.toggle("night-mode");
   if (body.classList.contains("night-mode")) {
     modeToggleBtn.innerHTML =
-      '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
+      '<img src="https://uwatchfree.vercel.app/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
       '<span class="text-2xl font-bold" style="text-shadow: 2px 5px 5px #fff;">Night Mode</span>';
   } else {
     modeToggleBtn.innerHTML =
-      '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
+      '<img src="https://uwatchfree.vercel.app/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
       '<span class="text-2xl font-bold" style="text-shadow: 2px 5px 5px #000;">Day Mode</span>';
   }
 }
