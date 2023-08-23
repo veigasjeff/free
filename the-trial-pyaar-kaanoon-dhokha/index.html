@@ -3693,43 +3693,46 @@
     href='https://uwatchfree.vercel.app/wp-content/plugins/catch-infinite-scroll/public/css/catch-infinite-scroll-public1c12.css?ver=2.0.4'
     media='all' />
   <link rel='stylesheet' id='preloader-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/preloader4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/preloader4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='bootstrap-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/bootstrap.min4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/bootstrap.min4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='slick-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/slick4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/slick4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='metismenu-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/metisMenu4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/metisMenu4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='owl-carousel-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/owl.carousel.min4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/owl.carousel.min4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='animate-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/animate.min4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/animate.min4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='fancybox-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/jquery.fancybox.min4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/jquery.fancybox.min4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='fontAwesome5Pro-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/fontAwesome5Pro4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/fontAwesome5Pro4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='ionicons-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/ionicons.min4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/ionicons.min4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='default-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/css/default4963.css?ver=1.1'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/css/default4963.css?ver=1.1'
     media='all' />
   <link rel='stylesheet' id='style-css'
-    href='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/style3781.css?ver=6.2.2'
+    href='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/style3781.css?ver=6.2.2'
+
     media='all' />
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/wp-includes/js/jquery/jquery.min5aed.js?ver=3.6.4'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/wp-includes/js/jquery/jquery.min5aed.js?ver=3.6.4'
+
     id='jquery-core-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/wp-includes/js/jquery/jquery-migrate.min6b00.js?ver=3.4.0'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/wp-includes/js/jquery/jquery-migrate.min6b00.js?ver=3.4.0'
+
     id='jquery-migrate-js'></script>
   <!-- <link rel="https://api.w.org/" href="../../wp-json/index.html" /> -->
   <!-- <link rel="alternate" type="application/json" href="../../wp-json/wp/v2/movies/202303.json" />
@@ -4635,46 +4638,44 @@
       });
     });
   </script>
+ <script>
+  const slider = document.querySelector('.slider');
+  const image = document.getElementById('image');
+  let slideIndex = 0;
+  let timer;
+  const slideGap = 5000; // 5 seconds
 
-  <script>
-    const slider = document.querySelector('.slider');
-    const image = document.getElementById('image');
-    let slideIndex = 0;
-    let timer;
-    const slideGap = 5000; // 5 seconds
+  function startAutoSlider(movies) {
+    timer = setInterval(() => {
+      slideIndex = (slideIndex + 1) % movies.length;
+      updateSlider(movies);
+    }, slideGap);
+  }
 
-    function startAutoSlider(movies) {
-      timer = setInterval(() => {
-        slideIndex = (slideIndex + 1) % movies.length;
-        updateSlider(movies);
-      }, slideGap);
-    }
+  function updateSlider(movies) {
+    const currentMovie = movies[slideIndex];
+    image.src = currentMovie.image;
+    image.alt = 'Slide';
 
-    function updateSlider(movies) {
-      const currentMovie = movies[slideIndex];
-      image.src = currentMovie.image;
-      image.alt = 'Slide';
+    const link = document.createElement('a');
+    link.href = `/www.uwatchfreemovies.com/${currentMovie['movie.watch']}`;
 
-      const link = document.createElement('a');
-      link.href = `/www.uwatchfreemovies.com/${currentMovie['movie.watch']}`;
+    // Clear existing child nodes and append the image wrapped in the link
+    slider.innerHTML = '';
+    link.appendChild(image);
+    slider.appendChild(link);
+  }
 
-      // Clear existing child nodes and append the image wrapped in the link
-      slider.innerHTML = '';
-      link.appendChild(image);
-      slider.appendChild(link);
-    }
-
-    fetch("https://uwatchfree.vercel.app/movies.json") // Update the path to your movies.json file
-      .then(response => response.json())
-      .then(data => {
-        const movies = data;
-        startAutoSlider(movies);
-      })
-      .catch(error => {
-        console.error('Error fetching movies:', error);
-      });
-  </script>
-
+  fetch("https://uwatchfree.vercel.app/movies.json") // Update the path to your movies.json file
+    .then(response => response.json())
+    .then(data => {
+      const movies = data;
+      startAutoSlider(movies);
+    })
+    .catch(error => {
+      console.error('Error fetching movies:', error);
+    });
+</script>
 
   <script>
     const modeToggleBtn = document.getElementById("modeToggleBtn");
@@ -4867,39 +4868,39 @@
       });
   </script>
   <script
-    src="https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/js/main.js"></script>
+    src="https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/js/main.js"></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/disableCopy.js'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/disableCopy.js'
     id='disablecopy.js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/vendor/modernizr-3.5.0.min4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/vendor/modernizr-3.5.0.min4963.js?ver=1.1'
     id='modernizr-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/vendor/waypoints.min4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/vendor/waypoints.min4963.js?ver=1.1'
     id='waypoints-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/bootstrap.bundle.min4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/bootstrap.bundle.min4963.js?ver=1.1'
     id='bootstrap-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/metisMenu.min4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/metisMenu.min4963.js?ver=1.1'
     id='metisMenu-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/slick.min4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/slick.min4963.js?ver=1.1'
     id='slick-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/owl.carousel.min4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/owl.carousel.min4963.js?ver=1.1'
     id='carousel-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/wow.min4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/wow.min4963.js?ver=1.1'
     id='wow-js'></script>
   <script
     src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4'
     id='imagesloaded-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/smoth-scrolling4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/smoth-scrolling4963.js?ver=1.1'
     id='smoothscroller-js'></script>
   <script
-    src='https://uwatchfree.vercel.app/wp-content/themes/www.uwatchfreemovies.com/assets/js/main4963.js?ver=1.1'
+    src='https://uwatchfree.vercel.app/wp-content/themes/uwatchfree/assets/js/main4963.js?ver=1.1'
     id='main-js'></script>
 </body>
 
