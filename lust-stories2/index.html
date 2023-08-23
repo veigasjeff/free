@@ -4472,7 +4472,7 @@ fetch("https://uwatchfree.vercel.app/movies.json")
       link.className = "w-img";
       const urlParts = movie["movie.watch"].split("/");
       const folderName = urlParts[urlParts.length - 2];
-      link.href = `/uwatchfree/${folderName}/index.html`; // Append "index.html" at the end
+      link.href = `${folderName}/index.html`; // Append "index.html" at the end
       // const urlParts = movie["movie.watch"];
       // const folderName = urlParts;
       // link.href = `${folderName}`; // Append "index.html" at the end
@@ -4566,7 +4566,7 @@ document.addEventListener("DOMContentLoaded", function () {
     image.alt = 'Slide';
 
     const link = document.createElement('a');
-    link.href = `/uwatchfree/${currentMovie['movie.watch']}`;
+    link.href = `${currentMovie['movie.watch']}`;
 
     // Clear existing child nodes and append the image wrapped in the link
     slider.innerHTML = '';
