@@ -76,41 +76,231 @@ function shareSocialMedia(platform) {
   }
 }
 
-// playlist_scrol.json
+// // playlist_scrol.json
+// fetch("/movies.json")
+//   .then((response) => response.json())
+//   .then((data) => {
+//     const playlistScrol = document.querySelector(".playlist_scrol");
+
+//     data.forEach((movie) => {
+//       const link = document.createElement("a");
+//       link.className = "w-img";
+//       const urlParts = movie["movie.watch"];
+//       // const folderName = movie["movie.watch"];
+//       link.href = `/${urlParts}`; // Append "index.html" at the end
+//       // link.href = `/adult/${folderName}`; // Append "index.html" at the end
+//       // link.href = `/movies/${folderName}`; // Append "index.html" at the end
+//       // const urlParts = movie["movie.watch"].split("/");
+//       // const folderName = urlParts;
+//       // link.href = `${folderName}`; // Append "index.html" at the end
+
+//       const img = document.createElement("img");
+//       img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
+//       img.style.borderRadius = "10%";
+//       img.style.border = "2px solid #40D7BC";
+//       img.alt = movie.title;
+
+//       const listItem = document.createElement("li");
+//       listItem.className = "palylist-video";
+
+//       link.appendChild(img);
+//       listItem.appendChild(link);
+//       playlistScrol.appendChild(listItem);
+//     });
+//   })
+//   .catch((error) => {
+//     console.error("Error fetching movie data:", error);
+//   });
+
+
+// // Define a function to display movies from a given JSON file
+// function displayMovies(jsonFile, containerSelector) {
+//   fetch(jsonFile)
+//     .then((response) => response.json())
+//     .then((data) => {
+//       const container = document.querySelector(containerSelector);
+
+//       data.forEach((movie) => {
+//         const link = document.createElement("a");
+//         link.className = "w-img";
+//         const urlParts = movie["movie.watch"];
+//         link.href = `/${urlParts}`; // Append "index.html" at the end
+
+//         const img = document.createElement("img");
+//         img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
+//         img.style.borderRadius = "10%";
+//         img.style.border = "2px solid #40D7BC";
+//         img.alt = movie.title;
+
+//         const listItem = document.createElement("li");
+//         listItem.className = "palylist-video";
+
+//         link.appendChild(img);
+//         listItem.appendChild(link);
+//         container.appendChild(listItem);
+//       });
+//     })
+//     .catch((error) => {
+//       console.error("Error fetching movie data:", error);
+//     });
+// }
+
+// // Display movies from both JSON files
+// displayMovies("/movies.json", ".playlist_scrol");
+// displayMovies("/playlist_scrol.json", ".playlist_scrol");
+
+
+
+// // Define a function to display movies from a given JSON file
+// function displayMovies(jsonFile, containerSelector) {
+//   fetch(jsonFile)
+//     .then((response) => response.json())
+//     .then((data) => {
+//       const container = document.querySelector(containerSelector);
+
+//       data.forEach((movie) => {
+//         const link = document.createElement("a");
+//         link.className = "w-img";
+//         const urlParts = movie["movie.watch"];
+//         link.href = `/${urlParts}`; // Append "index.html" at the end
+
+//         const img = document.createElement("img");
+//         img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
+//         img.style.borderRadius = "10%";
+//         img.style.border = "2px solid #40D7BC";
+//         img.alt = movie.title;
+
+//         const listItem = document.createElement("li");
+//         listItem.className = "palylist-video";
+
+//         link.appendChild(img);
+//         listItem.appendChild(link);
+//         container.appendChild(listItem);
+//       });
+//     })
+//     .catch((error) => {
+//       console.error("Error fetching movie data:", error);
+//     });
+// }
+
+// // Display movies from both JSON files
+// displayMovies("/movies.json", ".playlist_scrol");
+// displayMovies("/playlist_scrol.json", ".playlist_scrol");
+
+// // Fetch data from movies.json and populate schema data
+// fetch("/movies.json")
+//   .then((response) => response.json())
+//   .then((data) => {
+//     data.forEach((movieData, index) => {
+//       const movieLink = document.querySelector(`.post-title[itemprop='url']:nth-child(${index + 1})`);
+//       const movieName = document.querySelector(`[itemprop='name']:nth-child(${index + 1})`);
+
+//       movieLink.href = movieData.url; // Replace with the actual URL property from movieData
+//       movieLink.title = movieData.title; // Replace with the actual title property from movieData
+//       movieName.textContent = movieData.name; // Replace with the actual name property from movieData
+//     });
+//   })
+//   .catch((error) => {
+//     console.error("Error fetching movie data:", error);
+//   });
+
+
+
+
+
+// Define a function to display movies from a given JSON file
+function displayMovies(jsonFile, containerSelector) {
+  fetch(jsonFile)
+    .then((response) => response.json())
+    .then((data) => {
+      const container = document.querySelector(containerSelector);
+
+      data.forEach((movie) => {
+        const link = document.createElement("a");
+        link.className = "w-img";
+        const urlParts = movie["movie.watch"];
+        link.href = `/${urlParts}`; // Append "index.html" at the end
+
+        const img = document.createElement("img");
+        img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
+        img.style.borderRadius = "10%";
+        img.style.border = "2px solid #40D7BC";
+        img.alt = movie.title;
+
+        const listItem = document.createElement("li");
+        listItem.className = "palylist-video";
+
+        link.appendChild(img);
+        listItem.appendChild(link);
+        container.appendChild(listItem);
+
+        // Create schema.org structured data (JSON-LD)
+        const schemaData = {
+          "@context": "https://schema.org",
+          "@type": "Movie",
+          "name": movie.title,
+          // Add other schema.org properties as needed
+          "image": `/wp-content/uploads/2023/06/${movie.poster}`,
+          "url": `/${urlParts}`,
+          "description": movie.synopsis,
+          "image": movie.image,
+          "director": {
+            "@type": "Person",
+            "name": movie.director
+          },
+          "actor": movie.starring.map((actor) => ({
+            "@type": "Person",
+            "name": actor
+          })),
+          "datePublished": movie.startDate,
+          "locationCreated": movie.country, 
+          "contentRating": movie.contentRating, 
+          "duration": movie.time, 
+          "inLanguage": movie.language, 
+        };
+
+        // Create a script element for JSON-LD
+        const scriptElement = document.createElement("script");
+        scriptElement.type = "application/ld+json";
+        scriptElement.textContent = JSON.stringify(schemaData);
+
+        // Append the script element to the head of the document
+        document.head.appendChild(scriptElement);
+      });
+    })
+    .catch((error) => {
+      console.error("Error fetching movie data:", error);
+    });
+}
+
+// Display movies from both JSON files
+displayMovies("/movies.json", ".playlist_scrol");
+displayMovies("/playlist_scrol.json", ".playlist_scrol");
+
+// Fetch data from movies.json and populate schema data
 fetch("/movies.json")
   .then((response) => response.json())
   .then((data) => {
-    const playlistScrol = document.querySelector(".playlist_scrol");
+    data.forEach((movieData, index) => {
+      const movieLink = document.querySelector(`.post-title[itemprop='url']:nth-child(${index + 1})`);
+      const movieName = document.querySelector(`[itemprop='name']:nth-child(${index + 1})`);
 
-    data.forEach((movie) => {
-      const link = document.createElement("a");
-      link.className = "w-img";
-      const urlParts = movie["movie.watch"];
-      // const folderName = movie["movie.watch"];
-      link.href = `/${urlParts}`; // Append "index.html" at the end
-      // link.href = `/adult/${folderName}`; // Append "index.html" at the end
-      // link.href = `/movies/${folderName}`; // Append "index.html" at the end
-      // const urlParts = movie["movie.watch"].split("/");
-      // const folderName = urlParts;
-      // link.href = `${folderName}`; // Append "index.html" at the end
-
-      const img = document.createElement("img");
-      img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
-      img.style.borderRadius = "10%";
-      img.style.border = "2px solid #40D7BC";
-      img.alt = movie.title;
-
-      const listItem = document.createElement("li");
-      listItem.className = "palylist-video";
-
-      link.appendChild(img);
-      listItem.appendChild(link);
-      playlistScrol.appendChild(listItem);
+      movieLink.href = movieData.url; // Replace with the actual URL property from movieData
+      movieLink.title = movieData.title; // Replace with the actual title property from movieData
+      movieName.textContent = movieData.name; // Replace with the actual name property from movieData
     });
   })
   .catch((error) => {
     console.error("Error fetching movie data:", error);
   });
+
+
+
+
+
+
+
+
 
 
 
