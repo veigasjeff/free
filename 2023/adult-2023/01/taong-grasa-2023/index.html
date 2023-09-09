@@ -150,7 +150,114 @@
     }
   
     </script> -->
-  <script type="application/ld+json" class="yoast-schema-graph"> const jsonLdScript = document.createElement('script'); jsonLdScript.type = 'application/ld+json'; fetch("/movies.json") .then((response) => response.json()) .then((data) => { const movieId = "INDEX16"; const movieData = data.find((movie) => movie.id === movieId); if (!movieData) { console.error(`Movie with ID "${movieId}" not found.`); return; } const structuredData = { "@context": "https://schema.org", "@type": "Movie", "name": movieData.name, "description": movieData.synopsis, "image": movieData.image, "director": { "@type": "Person", "name": movieData.director }, "actor": movieData.starring.map((actor) => ({ "@type": "Person", "name": actor })), "datePublished": movieData.startDate, "country": movieData.country, "contentRating": movieData.contentRating, "duration": movieData.time, "inLanguage": movieData.language, "potentialAction": { "@type": "WatchAction", "target": [ { "@type": "EntryPoint", "name": "Taong Grasa (2023)", "urlTemplate": "https://uwatchfree.vercel.app/2023/adult-2023/01/taong-grasa-2023/index.html", "inLanguage": "Filipino", "actionPlatform": [ "http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform" ] } ] }, "aggregateRating": { "@type": "AggregateRating", "ratingValue": 5.5, "bestRating": "10", "worstRating": "0", "ratingCount": "1" }, "author": { "@type": "Person", "name": "DrTrailer", "url": "https://uwatchfree.vercel.app/DrTrailer.png" }, "publisher": { "@type": "Organization", "name": "UWatchfree", "logo": { "@type": "ImageObject", "url": "https://uwatchfree.vercel.app/og_image.jpg" } }, "additionalProperty": { "@type": "PropertyValue", "name": "Action Platform", "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"] } }; // Create a BreadcrumbList for the movie const breadcrumbList = { "@type": "BreadcrumbList", "@id": "https://uwatchfree.vercel.app/2023/adult-2023/01/taong-grasa-2023#breadcrumb", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://uwatchfree.vercel.app/" }, { "@type": "ListItem", "position": 2, "name": "Taong Grasa (2023)", "item": "https://uwatchfree.vercel.app/2023/adult-2023/01/taong-grasa-2023/index.html" } ] }; structuredData["@graph"].push(breadcrumbList); jsonLdScript.textContent = JSON.stringify(structuredData); document.head.appendChild(jsonLdScript); }) .catch((error) => { console.error("Error fetching movie data:", error); }); </script>
+    const jsonLdScript = document.createElement('script');
+    jsonLdScript.type = 'application/ld+json';
+    
+    fetch("/movies.json")
+      .then((response) => response.json())
+      .then((data) => {
+        const movieId = "INDEX16"; 
+    
+        const movieData = data.find((movie) => movie.id === movieId);
+    
+        if (!movieData) {
+          console.error(`Movie with ID "${movieId}" not found.`);
+          return;
+        }
+    
+        const structuredData = {
+          "@context": "https://schema.org",
+          "@type": "Movie",
+          "name": movieData.name,
+          "description": movieData.synopsis,
+          "image": movieData.image,
+          "director": {
+            "@type": "Person",
+            "name": movieData.director
+          },
+          "actor": movieData.starring.map((actor) => ({
+            "@type": "Person",
+            "name": actor
+          })),
+          "datePublished": movieData.startDate,
+          "country": movieData.country, 
+          "contentRating": movieData.contentRating, 
+          "duration": movieData.time, 
+          "inLanguage": movieData.language, 
+          "potentialAction": {
+            "@type": "WatchAction",
+            "target": [
+              {
+                "@type": "EntryPoint",
+                "name": "Taong Grasa (2023)",
+                "urlTemplate": "https://uwatchfree.vercel.app/2023/adult-2023/01/taong-grasa-2023/index.html",
+                "inLanguage": "Filipino",
+                "actionPlatform": [
+                  "http://schema.org/DesktopWebPlatform",
+                  "http://schema.org/MobileWebPlatform"
+                ]
+              }
+            ]
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 5.5,
+            "bestRating": "10",
+            "worstRating": "0",
+            "ratingCount": "1"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "DrTrailer",
+            "url": "https://uwatchfree.vercel.app/DrTrailer.png"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "UWatchfree",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://uwatchfree.vercel.app/og_image.jpg"
+            }
+          },
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "Action Platform",
+            "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"]
+          },
+          "@graph": [] // Initialize with an empty array for adding BreadcrumbList
+        };
+    
+        // Create a BreadcrumbList for the movie
+        const breadcrumbList = {
+          "@type": "BreadcrumbList",
+          "@id": "https://uwatchfree.vercel.app/2023/adult-2023/01/taong-grasa-2023#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://uwatchfree.vercel.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Taong Grasa (2023)",
+              "item": "https://uwatchfree.vercel.app/2023/adult-2023/01/taong-grasa-2023/index.html"
+            }
+          ]
+        };
+    
+        structuredData["@graph"].push(breadcrumbList);
+    
+        jsonLdScript.textContent = JSON.stringify(structuredData);
+    
+        document.head.appendChild(jsonLdScript);
+      })
+      .catch((error) => {
+        console.error("Error fetching movie data:", error);
+      });
+    </script> 
+    
 
 </head>
 
