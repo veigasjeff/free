@@ -23,6 +23,10 @@
         content="Uwatchfree™ is a movie streaming site. Where you can find free movies in full HD quality updated on daily basis." />
     <meta property="og:url" content="https://uwatchfree.vercel.app/" />
     <meta property="og:site_name" content="Movies" />
+    <meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" style=" border-radius: 10%;" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta property="article:modified_time" content="2023-05-18T11:34:33+00:00" />
     <meta name="twitter:card" content="summary_large_image" />
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -1579,6 +1583,50 @@
             z-index: 1000;
         }
     </style>
+    <script>
+// shareSocialMedia.json
+function shareSocialMedia(platform) {
+  const parentURL = window.location.href;
+
+  switch (platform) {
+    case "facebook":
+      window.open(
+        `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+          parentURL
+        )}`
+      );
+      break;
+    case "twitter":
+      window.open(
+        `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+          parentURL
+        )}&text=Check%20out%20this%20awesome%20movie%20content!`
+      );
+      break;
+    case "linkedin":
+      window.open(
+        `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(
+          parentURL
+        )}`
+      );
+      break;
+    case "whatsapp":
+      window.open(
+        `whatsapp://send?text=Check%20out%20this%20awesome%20movie%20content!%20${encodeURIComponent(
+          parentURL
+        )}`
+      );
+      break;
+    case "email":
+      window.location.href = `mailto:?subject=Check%20out%20this%20awesome%20movie%20content!&body=Check%20out%20this%20awesome%20content!%20${encodeURIComponent(
+        parentURL
+      )}`;
+      break;
+    default:
+      console.log("Unsupported platform.");
+  }
+}
+    </script>
     <script>
         // disableCopy.js
         document.addEventListener('contextmenu', function (event) {
