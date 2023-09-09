@@ -275,8 +275,27 @@ function displayMovies(jsonFile, containerSelector) {
             "@type": "PropertyValue",
             "name": "Action Platform",
             "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"]
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "@id": `https://uwatchfree.vercel.app/${movie.part}#breadcrumb`,
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://uwatchfree.vercel.app/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": movie.title,
+                "item": `https://uwatchfree.vercel.app/${movie.part}`
+              }
+            ]
           }
         };
+
 
         // Create a script element for JSON-LD
         const scriptElement = document.createElement("script");
