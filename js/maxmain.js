@@ -209,6 +209,7 @@ function shareSocialMedia(platform) {
 
 
 // Define a function to display movies from a given JSON file
+// Define a function to display movies from a given JSON file
 function displayMovies(jsonFile, containerSelector) {
   fetch(jsonFile)
     .then((response) => response.json())
@@ -243,7 +244,6 @@ function displayMovies(jsonFile, containerSelector) {
           "image": `/wp-content/uploads/2023/06/${movie.poster}`,
           "url": `/${urlParts}`,
           "description": movie.synopsis,
-          "image": movie.image,
           "director": {
             "@type": "Person",
             "name": movie.director
@@ -257,6 +257,25 @@ function displayMovies(jsonFile, containerSelector) {
           "contentRating": movie.contentRating, 
           "duration": movie.time, 
           "inLanguage": movie.language, 
+          "aggregateRating": movie.aggregateRating,
+          "author": {
+            "@type": "Person",
+            "name": "DrTrailer",
+            "url": "https://uwatchfree.vercel.app/DrTrailer.png"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "UWatchfree",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://uwatchfree.vercel.app/og_image.jpg"
+            }
+          },
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "Action Platform",
+            "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"]
+          }
         };
 
         // Create a script element for JSON-LD
@@ -293,9 +312,6 @@ fetch("/movies.json")
   .catch((error) => {
     console.error("Error fetching movie data:", error);
   });
-
-
-
 
 
 
