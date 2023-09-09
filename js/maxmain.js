@@ -278,7 +278,7 @@ function displayMovies(jsonFile, containerSelector) {
           },
           "breadcrumb": {
             "@type": "BreadcrumbList",
-            "@id": `https://uwatchfree.vercel.app/${movie.part}/${urlParts}#breadcrumb`,
+            "@id": `https://uwatchfree.vercel.app/${urlParts}#breadcrumb`,
             "itemListElement": [
               {
                 "@type": "ListItem",
@@ -290,7 +290,7 @@ function displayMovies(jsonFile, containerSelector) {
                 "@type": "ListItem",
                 "position": 2,
                 "name": movie.title,
-                "item": `https://uwatchfree.vercel.app/${movie.part}/${urlParts}`
+                "item": `https://uwatchfree.vercel.app/${urlParts}`
               }
             ]
           }
