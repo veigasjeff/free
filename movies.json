@@ -2446,12 +2446,6 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/love-guru-2023/",
-      "reviewRating": {
-        "@type": "Rating",
-        "worstRating": 1,
-        "bestRating": 10,
-        "ratingValue": 3
-      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.4,
