@@ -2446,6 +2446,12 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/love-guru-2023/",
+      "reviewRating": {
+        "@type": "Rating",
+        "worstRating": 1,
+        "bestRating": 10,
+        "ratingValue": 3
+      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.4,
@@ -2453,6 +2459,7 @@
         "worstRating": "0",
         "ratingCount": "1"
       },
+      
       "synopsis": "Love Guru is back with another season. People are curious to know more about the release startDate of the Ullu web series Season 3 Part 2. You will get complete details about Love Guru Season 3 Part 2 in this article. Keep reading for more information.The trailer of Love Guru Season 3 Part 2 starts with a disclaimer. It further shows the logo of the Ullu app. This was all about Love Guru Season 3 Part 2 release startDate. We keep bringing such details on our website.",
       "synopsis2": "Love Guru is back with another season. People are curious to know more about the release startDate of the Ullu web series Season 3 Part 2. You will get complete details about Love Guru Season 3 Part 2 in this article. Keep reading for more information.The trailer of Love Guru Season 3 Part 2 starts with a disclaimer. It further shows the logo of the Ullu app. The trailer proceeds with the girl drinking water and her tuition teacher is sitting in front of her whom she loves. While the boy who like Mini is looking at her secretly. The next scene shows her tuition teacher sitting in a room when she hugs him from the back. She says sir, while he replies that he loves her a lot. His expression shows that he was not saying it out of love but was saying it out of fear. While the guy who loves Mini saw her with her tuition sir whom she loves. He tells Minis friend that Mini is so much crazy for her.She invites him to her home for studying. They are doing romance more than studying. While we saw that Mini is doing what her love guru asks. She wears the clothes her love guru asks her to wear. She says to her love guru that she wore the clothes he said. Her tuition teacher says that she looks beautiful. They both have drinks. After having drinks, she nervously says bye and wishes him a happy birthday. Its his birthday occasion. He stops her and says, Mini. They both have romance. The trailer ends here. People are curious to know about the release startDate of Love Guru Season 3 Part 2.Love Guru Season 3 Part 2 will release on 7th July 2023, Friday. The makers have announced the release startDate of Love Guru season 3 part 2. The excitement among the fans is real. The curiosity can be seen clearly. Fans are showing love for the series. It will be interesting to have reviews about the series. We will upstartDate you with the reviews of the new part after its release. This was all about Love Guru Season 3 Part 2 release startDate. We keep bringing such details on our website.",
       "starring": [
@@ -2465,6 +2472,20 @@
       "startDate": "2023-07-07",
       "contentRating": " India: 18+ ",
       "Originalnetwork": " Ullu Originals.",
-      "language": " Hindi."
+      "language": " Hindi.",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Watch Full Movie",
+        "embedUrl": "https://uwatchfree.vercel.app/2023/adult-2023/01/love-guru-2023/",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Love_Guru_S03_Part_2_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Love_Guru_S03_Part_2_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/love-guru-2023/",
+        "description": "Love Guru is back with another season. People are curious to know more about the release startDate of the Ullu web series Season 3 Part 2. You will get complete details about Love Guru Season 3 Part 2 in this article. Keep reading for more information.The trailer of Love Guru Season 3 Part 2 starts with a disclaimer.",
+        "duration": "PT2M19S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }
     }
   ]

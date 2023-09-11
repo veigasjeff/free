@@ -259,6 +259,8 @@ function displayMovies(jsonFile, containerSelector) {
           "inLanguage": movie.language, 
           "genre": movie.genre, 
           "aggregateRating": movie.aggregateRating,
+          "reviewRating": movie.reviewRating,
+          "trailer": movie.trailer,
           "author": {
             "@type": "Person",
             "name": "DrTrailer",
