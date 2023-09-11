@@ -46,6 +46,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/shaitan-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1k5v2IZxLoEpv9thf27ZZ-m399AcdM6aL",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Shaitan_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Shaitan_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/shaitan-2023/",
+        "description": "Shaitan (2023), a Telugu crime drama web series helmed by Mahi V Raghav, paints a gripping narrative canvas that unravels the journey of Baali, a young man ensnared in the clutches of a fabricated crime. Portrayed by Rishi, Baali becomes the centerpiece of a harrowing tale that delves into corruption, injustice, and the dark spirals of violence. Alongside Shelly Kishore, Ravi Kale, Deviyyani Sharma, Jaffer Sadiq, and Lenaa, the series fashions a compelling ensemble cast that brings this intense narrative to life. If you seek a suspense-laden and contemplative crime drama, Shaitan (2023) stands ready to captivate your attention and take you on a journey into the darker corners of human experience.",
+        "duration": "PT1M17S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.8,
@@ -88,6 +102,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/ruined-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1KTRcBiPq-I3iIF5E7Xgf0rdTLyJXenYl",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Ruined_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Ruined_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/ruined-2023/",
+        "description": "Ruined, the 2023 American psychological thriller, directed by Tamara Bass and penned by Michelle Valentine, delves into a web of suspense and betrayal. With a cast featuring Keri Hilson, Tami Roman, and Wendy Raquel Robinson, the film immerses viewers in a story where trust becomes a precious commodity and revenge fuels a sinister agenda.",
+        "duration": "PT1M00S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 3.8,
@@ -129,6 +157,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/past-lives-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1Nocmw0oCVHwwq3sqGHwg_ZJxEnFqNmZO",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Past_Lives_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Past_Lives_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/past-lives-2023/",
+        "description": "Past Lives, a 2023 American romantic drama, marks Celine Song's debut as a feature director, offering a poignant exploration of love, choices, and the intricate tapestry of fate. With a cast featuring Greta Lee, Teo Yoo, and John Magaro, the film delicately weaves together a narrative of reconnection and introspection. Centering around Nora (Greta Lee) and Hae Sung (Teo Yoo), Past Lives embarks on a journey that spans continents and decades.",
+        "duration": "PT2M24S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 8.2,
@@ -170,6 +212,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/the-list-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=13dXIOWtbdvin0Eu1T-Glzh6LPKshYHDv",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_List_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_List_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/the-list-2023/",
+        "description": "The List, a 2023 American romantic comedy directed by Melissa Miller Costanzo, presents a lighthearted narrative that revolves around love, choices, and unexpected twists. Starring Halston Sage, Christian Navarro, and Lucy DeVito, the film follows Abby Meyers as she embarks on an adventurous journey to Los Angeles, driven by an unconventional motive.",
+        "duration": "PT1M59S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.2,
@@ -211,6 +267,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/garam-masala-part02-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1N9k9ZvYzijAqr9JcelVzRrjTP6sLLWR9",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Garam_Masala_Part02_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Garam_Masala_Part02_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/garam-masala-part02-2023/",
+        "description": "Garam Masala | Part  02 is a new Indian erotic web series released on 18 August 2023 on the Ullu OTT Platform. The plot of the series revolves around the life of a new girl entering as the daughter-in-law. A lady does black magic to execute her plan. Pihu Kanojia and Alina Sen play the lead role in the series along with other characters.",
+        "duration": "PT2M59S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.7,
@@ -223,7 +293,7 @@
         "Hot",
         "18+"
       ],
-      "synopsis": "Garam Masala | Part  01 is a new Indian erotic web series released on 18 August 2023 on the Ullu OTT Platform. The plot of the series revolves around the life of a new girl entering as the daughter-in-law. A lady does black magic to execute her plan. Pihu Kanojia and Alina Sen play the lead role in the series along with other characters. Lets have a glance at the Garam Masala | Part  01 casts & crew, release date, where to watch, actress names, and other necessary details related to the web series. In a mesmerizing blend of intrigue and sensuality, the newly unveiled trailer offers a glimpse into a captivating narrative. This tale weaves around an enigmatic elderly couple whose sinister designs involve ensnaring youthful newlyweds, thus absorbing both their vitality and youth in a mysterious ritual. Brace yourself for a journey into the unknown, where the lines between desire and darkness blur, leaving you on the edge of anticipation. In this article, we are giving a complete overview of Garam Masala Part 1 Ullu web series",
+      "synopsis": "Garam Masala | Part  02 is a new Indian erotic web series released on 18 August 2023 on the Ullu OTT Platform. The plot of the series revolves around the life of a new girl entering as the daughter-in-law. A lady does black magic to execute her plan. Pihu Kanojia and Alina Sen play the lead role in the series along with other characters. Lets have a glance at the Garam Masala | Part  01 casts & crew, release date, where to watch, actress names, and other necessary details related to the web series. In a mesmerizing blend of intrigue and sensuality, the newly unveiled trailer offers a glimpse into a captivating narrative. This tale weaves around an enigmatic elderly couple whose sinister designs involve ensnaring youthful newlyweds, thus absorbing both their vitality and youth in a mysterious ritual. Brace yourself for a journey into the unknown, where the lines between desire and darkness blur, leaving you on the edge of anticipation. In this article, we are giving a complete overview of Garam Masala Part 1 Ullu web series",
       "starring": [
         "Pihu Kanojia",
         "Alina Sen."
@@ -249,6 +319,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/garam-masala-part01-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1CzE6QRjJt5iiPvpvnxyzvtYqjDKA7OGY",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Garam_Masala_Part01_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Garam_Masala_Part01_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/garam-masala-part01-2023/",
+        "description": "Garam Masala | Part  01 is a new Indian erotic web series released on 18 August 2023 on the Ullu OTT Platform. The plot of the series revolves around the life of a new girl entering as the daughter-in-law. A lady does black magic to execute her plan. Pihu Kanojia and Alina Sen play the lead role in the series along with other characters.",
+        "duration": "PT1M45S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.5,
@@ -287,6 +371,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/call-me-alma-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1PTslBMmb78U1aFFjjDyfLlAtIweHadbn",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Call_Me_Alma_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Call_Me_Alma_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/call-me-alma-2023/",
+        "description": "Call Me Alma, a 2023 Filipino drama directed by Adolfo Alix Jr., weaves a poignant narrative that delves into the intricate tapestry of family dynamics, redemption, and the enduring power of love. With Azi Acosta and Jaclyn Jose at the helm, the film takes audiences on an emotional journey as Alma, a successful high-end bar girl, confronts her past upon the sudden reappearance of her long-lost mother, Sheila.",
+        "duration": "PT3M06S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.7,
@@ -329,6 +427,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/sugapa-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1z88sFHp5nmYFNwvN8ePvjcYKcMJ5OWWP",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Sugapa_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Sugapa_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/sugapa-2023/",
+        "description": "Sugapa (2023), a Filipino drama film directed by Roman Perez Jr., unfurls as a gritty narrative capturing the tumultuous journey of two young lovers pursuing their aspirations amidst the urban landscape. The film stars AJ Raval and Aljur Abrenica in the lead roles, painting a vivid picture of dreams, desires, and the harsh realities that lie beneath.",
+        "duration": "PT2M30S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.7,
@@ -371,6 +483,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/akelli-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1IidQ3StxYpqigA6onp6tZBkr4aEvuPx0",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Akelli_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Akelli_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/akelli-2023/",
+        "description": "Akelli (2023) emerges as a riveting Hindi-language thriller film directed by Pranay Meshram and produced by a collaborative effort led by Ninad Vaidya, Nitin Vaidya, Aparna Padgaonkar, Shashant Shah, and Vicky Sidana. Released in India on August 25, 2023, the film boasts a dynamic ensemble cast including Nushrratt Bharuccha, Tsahi Halevi, Amir Boutrous, and Nishant Dahiya. The heart of the narrative revolves around Anya, an ordinary Indian girl thrust into the harrowing throes of a war-torn land.",
+        "duration": "PT2M20S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 8.8,
@@ -412,6 +538,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/the-kashmir-files-unreported-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1ORlftMSwckK5aEyXmfhL-NY-lySd2KmE",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Kashmir_Files_Unreported_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Kashmir_Files_Unreported_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/the-kashmir-files-unreported-2023/",
+        "description": "The Kashmir Files Unreported, a thought-provoking and impactful 7-part documentary series, made its debut on ZEE5 on August 11, 2023. Helmed by director Vivek Agnihotri, known for his work on the 2022 film The Kashmir Files, this series serves as a comprehensive exploration of the untold realities and concealed truths surrounding the tragic massacre and displacement of the Kashmiri Pandit community. The series serves as an opportunity for audiences to engage with a significant chapter of human history, fostering empathy and understanding.",
+        "duration": "PT1M51S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 8.8,
@@ -451,6 +591,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/kerala-crime-files-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1ckvzfPnpL9BFZKivpLr3nAfbbKlQfJxL",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Kerala_Crime_Files_Season01_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Kerala_Crime_Files_Season01_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/kerala-crime-files-2023/",
+        "description": "Kerala Crime Files Season 1, the highly anticipated 2023 Indian Malayalam-language crime drama web television series, has taken the streaming world by storm with its compelling narrative and exceptional craftsmanship. Created by Arun Vaidyanathan and directed by Anil Radhakrishnan Menon, the series boasts an ensemble cast featuring Asif Ali, Aditi Rao Hydari, and Tovino Thomas.",
+        "duration": "PT2M17S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 7.2,
@@ -493,6 +647,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/gunsandgulaabs-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1ejIcT6SO6KMzXMG9uxqSninw_4A0JKZu",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Guns&Gulaabs_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Guns&Gulaabs_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/gunsandgulaabs-2023/",
+        "description": "Guns & Gulaabs, the gripping 2023 Indian Hindi-language crime drama web series, crafted by the creative minds of Raj Nidimoru and Krishna D.K., has emerged as a standout in the realm of streaming entertainment. With a stellar ensemble cast that includes Rajkummar Rao, Dulquer Salmaan, Adarsh Gourav, Gulshan Devaiah, T.J. Bhanu, Pooja Gor, Satish Kaushik, Vipin Sharma, Manuj Sharma, and Nilesh Diwekar, this series takes viewers on a thrilling journey through the underbelly of crime. Whether you're a fan of crime dramas, Indian cinema, or simply in search of quality entertainment, Guns & Gulaabs promises an enthralling experience that will leave a lasting impression.",
+        "duration": "PT2M51S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 7.8,
@@ -535,6 +703,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/ghoomer-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1Kw1GRLlrxgR9ITRC8YX_1Z3SkIIIpv-A",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Ghoomer_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Ghoomer_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/ghoomer-2023/",
+        "description": "Ghoomer, the highly anticipated Indian Hindi-language sports drama set to release on Aug 18, 2023, is poised to offer audiences a powerful narration of resilience, determination, and inspiration. orientated by R. Balki and produced by desire shoot Makers and Saraswati Entertainment, the film boasts an ensemble cast featuring Abhishek Bachchan, Saiyami Kher, Shabana Azmi, and Angad Bedi, ensuring a captivating cinematic experience that transcends genres.",
+        "duration": "PT2M27S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 9.0,
@@ -576,6 +758,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/maaveeran-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1r6B6zxYeWgkylgd9bM-h3D23SyqjxnFT",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Maaveeran_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Maaveeran_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/maaveeran-2023/",
+        "description": "In the film Maaveeran (2023), the story revolves around a cowardly cartoonist who unexpectedly finds himself in the midst of a thrilling and surreal adventure. Initially leading an unremarkable life, the cartoonist's world is turned upside down when he starts experiencing an unusual phenomenon. One day, he discovers that he is inexplicably being controlled by a cartoon action figure. It prompts viewers to reflect on the complexities of morality and the choices that define a hero's path.",
+        "duration": "PT2M38S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 7.4,
@@ -618,6 +814,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/taali-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1t4OCDiVKHSMNig1aHG78GZUKIlVAwuif",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Taali_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Taali_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/taali-2023/",
+        "description": "Taali (2023) unfolds as a poignant tale of two sisters navigating divergent paths in life. Directed by debutante filmmaker Siddhartha Anand and released on August 15, 2023, this cinematic journey weaves together the complexities of love, choices, and familial bonds. Amidst the tapestry of contrasting lives, the film delves into the dynamics of relationships and the power of individual aspirations.",
+        "duration": "PT2M09S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 8.6,
@@ -658,6 +868,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/gadar-2-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1SUtRTzTWroCiqD5aITydE92gWsWA9dou",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Gadar_2_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Gadar_2_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/gadar-2-2023/",
+        "description": "Gadar 2 marks a poignant return to India's treasured family - Tara, Sakeena, and Jeete - two decades after their captivating journey in the prequel. This forthcoming sequel, set against the tumultuous backdrop of the Indo-Pakistan war of 1971, promises to reignite the flames of courage, love, and sacrifice that defined its predecessor.  Directed by Anil Sharma, who helmed the original film, Gadar 2 brings back the stellar trio of actors: Sunny Deol, Ameesha Patel, and Utkarsh Sharma.",
+        "duration": "PT3M02S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.3,
@@ -700,6 +924,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/bawaal-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1UawK2dX3aglGcVBoMM4d_smUiXkT8hz2",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Bawaal_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Bawaal_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/bawaal-2023/",
+        "description": "Bawaal (2023), an Indian Hindi-language romantic drama film, unfolds as a captivating tale of love and separation, directed by Nitesh Tiwari and brought to life by the creative forces of Sajid Nadiadwala and Ashwiny Iyer Tiwari under Nadiadwala Grandson Entertainment and Earthsky Pictures. As Bawaal continues to captivate audiences and secure its place as a box office success, its enduring appeal lies in its relatable portrayal of love's multifaceted nature. With its performances, direction, and thematic depth, the film stands as a resonant addition to the world of Indian cinema, providing a poignant narrative that reflects the journey of love, healing, and rediscovery.",
+        "duration": "PT3M03S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.7,
@@ -742,6 +980,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/adipurush-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1GGRM1fXgv2Oa-wpzgOxLRLTIbXnDvvNu",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Adipurush_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Adipurush_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/adipurush-2023/",
+        "description": "Adipurush (2023), an Indian Hindi-language epic action film directed by Om Raut, stands as a monumental cinematic adaptation of the revered Hindu epic, Ramayana. Produced by Bhushan Kumar, Krishan Kumar, Om Raut, and Prasad Sutar, the film takes audiences on an epic journey through the timeless tale, featuring a star-studded cast that includes Prabhas, Saif Ali Khan, Kriti Sanon, Sunny Singh, Devdatta Nage, Siddhant Karnick, and Vatsal Sheth.",
+        "duration": "PT3M20S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 3.1,
@@ -784,6 +1036,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/manyak-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1esBoBSsypvF99CICHjDbvQ9yLZ7lYo9a",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Manyak_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Manyak_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/manyak-2023/",
+        "description": "Manyak (2023), a Filipino thriller directed by Roman Perez, Jr., offers an unsettling narrative that plunges viewers into a world of suspense, fear, and twisted psychological dynamics. The film, starring Christine Bermas, Nico Locco, and Sheree, weaves a chilling tale that explores the boundaries of terror and the horrors of the human psyche.",
+        "duration": "PT2M24S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.8,
@@ -826,6 +1092,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/kahalili-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1OSO5RPE9nRFRT7gpQ8s0MNIuRZzkkHCq",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Kahalili_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Kahalili_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/kahalili-2023/",
+        "description": "Kahalili, a poignant drama film directed by Bobby Bonifacio Jr. and written by Bonifacio Jr. and Jerry Gracio, delves into a compelling narrative that revolves around complex relationships, personal sacrifices, and the human capacity to navigate emotional challenges. Set against the backdrop of a wealthy couple's farm, the film captures the profound emotional journey of a young woman who becomes entangled in a web of intricate connections.",
+        "duration": "PT1M13S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.5,
@@ -868,6 +1148,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/painkiller-s01-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1J_mjyCRsPKefkywIwOary3O_flUGccRh",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Painkiller_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Painkiller_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/painkiller-s01-2023/",
+        "description": "Painkiller is an American medical drama television series that has captured the attention of audiences since its debut on September 15, 2023, on The CW network. Crafted by the creative talents of John Ridley, Patrick Massett, and John Zinman, the show delves deep into the life of Dr. Will Shingler, a skilled surgeon grappling with a harrowing addiction to painkillers.",
+        "duration": "PT2M42S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 7.5,
@@ -910,6 +1204,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/the-island-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1N1uXb9Xmq26yxMsepCG2D-E4Cejyy5HU",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Island_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Island_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/the-island-2023/",
+        "description": "The Island (2023) delivers an action-packed thrill ride that revolves around themes of justice, revenge, and the fight against corruption. Directed by Shaun Paul Piccinino and featuring a stellar cast including Michael Jai White, Jackson Rathbone, Gillian White, and Lochlyn Munro, the film propels viewers into a world of high-stakes conflict and relentless action. If you're a fan of action-packed movies that explore themes of justice and retribution, The Island is worth a watch. While it may not break new ground in terms of originality, it certainly delivers on its promise of entertainment and adrenaline-charged sequences.",
+        "duration": "PT1M47S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.1,
@@ -952,6 +1260,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/miguel-wants-to-fight-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1annSWvD66aR98hqaZZcuJth3antF8TCI",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Miguel_Wants_to_Fight_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Miguel_Wants_to_Fight_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/miguel-wants-to-fight-2023/",
+        "description": "Miguel Wants to Fight (2023) is a heartfelt coming-of-age tale that delves into the life of Miguel, a 17-year-old boy on the brink of a significant change. Directed by an exceptional storyteller, the film navigates the uncharted waters of adolescence, self-discovery, and the power of companionship. The narrative opens with Miguel on the cusp of a life-altering move to a new city. Overwhelmed by uncertainty and feeling adrift, he grapples with the challenges of beginning anew. Miguel Wants to Fight (2023) is a heartfelt exploration of youth, friendship, and self-discovery. It celebrates the resilience of the human spirit and the power of embracing change, making it a relatable and inspiring cinematic experience.",
+        "duration": "PT1M57S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.7,
@@ -993,6 +1315,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/ghost-station-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1h_pLd1wAJ5BqCvuMMEd4T1okJFIDeJGC",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Ghost_Station_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Ghost_Station_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/ghost-station-2023/",
+        "description": "Ghost Station (2023) is a captivating South Korean supernatural mystery that takes audiences on a chilling journey into the unknown. Directed by Jeong Yong-ki and featuring a talented cast including Bo-ra Kim, Jae Hyun Kim, and Shin So-yul, the film promises a spine-tingling exploration of the supernatural and the mysteries it holds. The story revolves around a young journalist, played by Bo-ra Kim, and her partner, portrayed by Jae Hyun Kim. While opinions on the film may vary, its atmospheric qualities and spine-chilling sequences promise an engaging cinematic experience for those seeking a supernatural mystery that defies the conventional boundaries of reality.",
+        "duration": "PT1M20S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.2,
@@ -1035,6 +1371,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/god-is-a-bullet-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1BigDV-X1-qGn8SaX8OHFGrDSwkqZsdFt",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/God_is_a_Bullet_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/God_is_a_Bullet_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/god-is-a-bullet-2023/",
+        "description": "God is a Bullet (2023) is a gripping and intense thriller that delves into the depths of religious fanaticism and a father's unwavering determination to save his daughter from its clutches. Directed by [Director's Name] and featuring a talented cast including Nikolaj Coster-Waldau, January Jones, Maika Monroe, and Karl Glusman, the film promises to keep audiences on the edge of their seats from start to finish. The movie opens with Detective Bob Hightower, portrayed by Nikolaj Coster-Waldau, grappling with a devastating crime scene.",
+        "duration": "PT2M43S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.5,
@@ -1077,6 +1427,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/wonderwell-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1yup9Mz0JsR98jijFHmOLVH8gPhrtqxsC",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Wonderwell_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Wonderwell_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/wonderwell-2023/",
+        "description": "Wonderwell is a captivating and imaginative fantasy drama that invites audiences into a world where the boundaries of reality and imagination blur. Directed by Vlad Marsavin and boasting a star-studded cast including the iconic Carrie Fisher, the film promises to be a delightful journey for viewers of all ages. Set against the picturesque backdrop of modern-day Italy, Wonderwell follows the enchanting tale of Violet, a curious 12-year-old girl.",
+        "duration": "PT1M54S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.5,
@@ -1119,6 +1483,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/kill-shot-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1i-8AJ_YoDNbFZ-oWCxWigEs9OmpzU0h5",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Kill_Shot_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Kill_Shot_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/kill-shot-2023/",
+        "description": "Kill Shot opens with a thunderous gunshot as former CIA assassin Thomas Roberts executes a high-stakes mission to eliminate a notorious Russian arms dealer. His precision and lethal skill are evident as the target falls. However, the triumph is short-lived as the plot takes a sharp turn into a treacherous labyrinth of conspiracy and deceit. Immediately after the successful hit, Roberts becomes embroiled in a shocking turn of events  the brutal murder of a federal agent, an act he adamantly denies committing. Kill Shot is a riveting tale of espionage, redemption, and the unwavering human spirit.",
+        "duration": "PT1M24S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.4,
@@ -1161,6 +1539,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/fear-the-night-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1Pr7aeruAA21cWosk09NKXt6XO7dxK6-_",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Fear_the_Night_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Fear_the_Night_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/fear-the-night-2023/",
+        "description": "In the pulse-pounding thriller Fear the Night (2023), the audience is thrust into a heart-stopping battle for survival as the protagonist, Tess, an Iraqi war veteran, finds herself facing a relentless onslaught after a group of intruders disrupts her sister's bachelorette party. Directed with unyielding tension, the film unfurls a nightmarish ordeal that tests Tess's courage, combat skills, and resilience in the face of overwhelming danger.",
+        "duration": "PT1M52S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.6,
@@ -1203,6 +1595,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/the-last-voyage-of-the-demeter-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1N7S5z5ASCeCTHIi4v6B3FbBDnv81LfzB",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Last_Voyage_of_the_Demeter_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Last_Voyage_of_the_Demeter_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/the-last-voyage-of-the-demeter-2023/",
+        "description": "The Last Voyage of the Demeter (2023) takes audiences on a chilling journey into the heart of terror, drawing inspiration from Bram Stoker's timeless classic Dracula. Directed by Andr?? ??vredal and penned by Bragi F. Schut, this American horror film transports viewers to a realm of darkness and fear. The movie unfolds with the crew of the Russian schooner Demeter embarking on a voyage that will forever haunt their nightmares.",
+        "duration": "PT2M34S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.5,
@@ -1245,6 +1651,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/mob-land-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1uZfbgmfHoAlcJWVahX2a4K3LHDgJQ7qO",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Mob_Land_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Mob_Land_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/mob-land-2023/",
+        "description": "Mob Land (2023) is a gripping crime drama that thrusts viewers into the dark underbelly of organized crime in rural Louisiana. The film opens with a harrowing robbery at a pill mill, a crime that sets off a chain of events that will forever alter the lives of those involved. The central characters of the story are Sean, a desperate family man, and his brother-in-law, Tommy. ",
+        "duration": "PT2M16S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.1,
@@ -1287,6 +1707,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/heart-of-stone-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1PzfM-0aLxpwFh-ARfXKzIL8kukauHVN6",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Heart_Of_Stone_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Heart_Of_Stone_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/heart-of-stone-2023/",
+        "description": "Heart of Stone is a gripping American spy action thriller that showcases the intricate world of intelligence operatives and dangerous missions. Directed by Tom Harper and penned by Greg Rucka and Allison Schroeder, with a story by Rucka, the film boasts a stellar ensemble cast including Gal Gadot, Jamie Dornan, Alia Bhatt, Sophie Okonedo, and Matthias Schweigh??fer.",
+        "duration": "PT2M42S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.7,
@@ -1329,6 +1763,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/double-life-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=123SX9PQnRMK2HYJx8ecHfJrjAj6QEHjs",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/double_life_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/double_life_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/double-life-2023/",
+        "description": "Double Life is a compelling Canadian crime thriller film directed by Martin Wood and featuring a talented ensemble cast including Javicia Leslie, Pascale Hutton, and Vincent Gale. With its intricate narrative, the film delves into the gripping tale of a grieving widow thrust into a world of deception and danger as she uncovers the shocking truth behind her husband's untimely demise.",
+        "duration": "PT2M06S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.5,
@@ -1371,6 +1819,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/the-collective-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1Ymy1lrtzFlTjS4gcQUY1OQFEegWMhNwo",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Collective_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Collective_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/the-collective-2023/",
+        "description": "he Collective is an upcoming American action thriller film directed by Tom DeNucci and written by Jason James and Matthew Rogers. Set to be released on August 4, 2023, by Quiver Distribution, the film boasts a star-studded cast featuring Lucas Till, Ruby Rose, Mercedes Varnado, Tyrese Gibson, and Don Johnson, promising an electrifying cinematic experience.",
+        "duration": "PT1M49S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 3.1,
@@ -1413,6 +1875,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/cobweb-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1l8C4F3N81TvHgVCF05ApWC9dXJQImKbV",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Cobweb_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Cobweb_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/cobweb-2023/",
+        "description": "Cobweb, the 2023 American horror thriller, emerges as a promising plus to the genre, showcasing the directorial debut of Samuel Bodin. Written by Chris St. Thomas Devlin, a script that once graced the prestigious 2018 The Black List, the shoot boasts an ensemble cast featuring Lizzy Caplan, Woody Norman, Cleopatra Coleman, and Marcus Antoniu Starr.",
+        "duration": "PT2M09S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.9,
@@ -1455,6 +1931,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/commando-season-01-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1uiIPEm9bfrUh1EwyTPZsdm3BQkMfu658",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Commando_Season_01_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Commando_Season_01_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/commando-season-01-2023/",
+        "description": "Commando Season 01(2023) emerges as a compelling Indian action thriller web series that serves as both a tribute to its film franchise predecessor and a captivating addition to the genre. Created, directed, and produced by Vipul Amrutlal Shah, the series takes viewers on a heart-pounding journey that skillfully blends adrenaline-pumping action with a narrative charged with suspense. Premiering on Disney+ Hotstar on August 11, 2023, this series is poised to cement its place as a formidable contender in the realm of Indian web content.",
+        "duration": "PT0M50S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.6,
@@ -1462,7 +1952,7 @@
         "worstRating": "0",
         "ratingCount": "1"
       },
-      "synopsis": "Commando Season 01(2023) emerges as a compelling Indian action thriller web series that serves as both a tribute to its film franchise predecessor and a captivating addition to the genre. Created, directed, and produced by Vipul Amrutlal Shah, the series takes viewers on a heart-pounding journey that skillfully blends adrenaline-pumping action with a narrative charged with suspense. Premiering on Disney+ Hotstar on August 11, 2023, this series is poised to cement its place as a formidable contender in the realm of Indian web content. ",
+      "synopsis": "Commando Season 01(2023) emerges as a compelling Indian action thriller web series that serves as both a tribute to its film franchise predecessor and a captivating addition to the genre. Created, directed, and produced by Vipul Amrutlal Shah, the series takes viewers on a heart-pounding journey that skillfully blends adrenaline-pumping action with a narrative charged with suspense. Premiering on Disney+ Hotstar on August 11, 2023, this series is poised to cement its place as a formidable contender in the realm of Indian web content.",
          "synopsis2": "Commando Season 01(2023) emerges as a compelling Indian action thriller web series that serves as both a tribute to its film franchise predecessor and a captivating addition to the genre. Created, directed, and produced by Vipul Amrutlal Shah, the series takes viewers on a heart-pounding journey that skillfully blends adrenaline-pumping action with a narrative charged with suspense. Premiering on Disney+ Hotstar on August 11, 2023, this series is poised to cement its place as a formidable contender in the realm of Indian web content.      At the core of Commando Season 01 is Commando Virat, portrayed with finesse by newcomer Prem. A seasoned Indian commando, Virat's mettle is tested when he is thrust into a high-stakes mission to rescue his brother Commando from enemy territory. Yet, the stakes escalate dramatically as Virat unearths a sinister plot aimed at unleashing a bio-warfare threat against India. With time ticking relentlessly, Virat finds himself in a race against the clock to thwart this ominous scheme. The ensemble cast lends depth and charisma to the series, with Adah Sharma, Shreya Chaudhary, Vaibhav Tatwawadi, Amit Sial, Tigmanshu Dhulia, Hiren Rathod, and others complementing Prem's riveting performance. The chemistry between the cast members adds authenticity to the characters and infuses the narrative with emotional resonance. Commando Season 01 doesn't hold back in delivering on its promise of action-packed sequences that keep viewers at the edge of their seats. The carefully choreographed scenes, accentuated by the series' strong production values, resonate with authenticity. This amalgamation of deft direction and top-tier action sequences stands as a testament to the creators' commitment to delivering a high-quality viewing experience.T he series also doesn't falter in the suspense department. As Virat's mission unfurls, viewers are drawn into a web of intrigue and peril that heightens with each passing episode. The pacing is deliberate, ensuring that every twist and revelation holds the audience's attention while allowing for character development.",
       "starring": [
         "Prem Parija",
@@ -1492,6 +1982,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/meg-2-the-trench-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1WAfRH0mWwQ00F1lTB6EOBwF5JPlnyVMQ",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Meg2_The_Trench_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Meg2_The_Trench_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/meg-2-the-trench-2023/",
+        "description": "Meg 2: The Trench (2023) plunges audiences back into the heart-pounding world of monstrous marine creatures. Directed by Ben Wheatley and written by Dean Georgaris, Jon Hoeber, and Erich Hoeber, the film serves as a gripping sequel to the 2018 hit The Meg. The star-studded cast includes Jason Statham, Wu Jing, Cliff Curtis, Shuya Sophia Cai, Sergio Peris-Mencheta, Jessica McNamee, and Rainn Wilson. Set against the backdrop of the ocean's abyssal depths, the movie centers around Jonas Taylor's (Jason Statham) harrowing journey as he leads a research expedition into uncharted territory, only to encounter an even more formidable menace  the terrifying prehistoric creatures known as The Trench.",
+        "duration": "PT2M51S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.5,
@@ -1529,6 +2033,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/hitmen-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1prqb1By5MgVUnzaPxjX4b9B7uT7Ko6j1",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Hitmen_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Hitmen_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/hitmen-2023/",
+        "description": "Get ready for a roller-coaster of laughter and adrenaline in the upcoming American action comedy film Hitmen, helmed by Patrick Hughes and penned by Tom O'Connor, Ryan Engle, and Patrick Hughes. Boasting a star-studded cast including Ryan Reynolds, Samuel L. Jackson, Salma Hayek, and Antonio Banderas, this cinematic spectacle is poised to deliver entertainment in spades. The anticipation is palpable, and audiences are eagerly counting down the days until they can embark on this roller-coaster ride of laughter and action. Hitmen (2023) is shaping up to be an unforgettable cinematic experience that promises to deliver on both its comedic and action-packed fronts.",
+        "duration": "PT1M16S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.4,
@@ -1566,6 +2084,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/hidden-strike-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1T579cBWCMLBtVp1GkUBVy09ihQfInnei",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Hidden_Strike_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Hidden_Strike_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/hidden-strike-2023/",
+        "description": "In the heart-pounding action thriller Hidden Strike (2023), directed by Scott Waugh, audiences are plunged into a high-stakes mission led by an ensemble cast featuring Jackie Chan, John Cena, Pilou Asb??k, Wang Zhenwei, Amadeus Serafini, and Rachael Holoway. Set against the backdrop of post-Iraq War chaos, the film's narrative revolves around two former special forces soldiers, Po (Jackie Chan) and Mo (John Cena), who are entrusted with a critical task: guiding a group of civilians through the perilous Highway of Death in Baghdad to reach the sanctuary of the Green Zone.",
+        "duration": "PT2M30S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.3,
@@ -1603,6 +2135,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/fast-x-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1m_Zig-MecPWM3dDOGFpuyUlNdP-H10xk",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Fast_X_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Fast_X_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/fast-x-2023/",
+        "description": "Buckle up, because the adrenaline-fueled saga continues in Fast X, the highly anticipated tenth installment of the Fast & Furious franchise. Helmed by director Louis Leterrier and penned by Chris Morgan, this action-packed thrill ride revs its engines as a direct sequel to 2021's F9, promising fans another dose of high-speed chases, heart-pounding stunts, and a stellar ensemble cast. Returning to the driver's seat are Vin Diesel as the iconic Dom Toretto, Michelle Rodriguez as Letty Ortiz, Tyrese Gibson as Roman Pearce, Chris Ludacris Bridges as Tej Parker, and more. Joining the family is John Cena, Jordana Brewster, Nathalie Emmanuel, Sung Kang, Helen Mirren, Charlize Theron, and the formidable Jason Momoa. So prepare for a white-knuckle ride, as Fast X gears up to take audiences on a high-octane journey that only the Fast & Furious franchise can provide.",
+        "duration": "PT4M31S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.8,
@@ -1640,6 +2186,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/insidious-the-red-door-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1I4i-h81kdiWVJall2jjxtBl5cBTABUUQ",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Insidious_The_Red_Door_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Insidious_The_Red_Door_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/insidious-the-red-door-2023/",
+        "description": "Insidious: The Red Door marks the fifth chapter in the spine-chilling saga of the Insidious horror film franchise. Released on July 7, 2023, and directed by Patrick Wilson, who also graces the screen alongside Rose Byrne and Ty Simpkins, the film continues to explore the unnerving intersection between the realms of the living and the paranormal. Set a decade after the events of Insidious: The Last Key, the narrative takes us on a haunting journey following Josh Lambert's life. As the Insidious saga evolves, Insidious: The Red Door offers another entry into a world where the veil between reality and the supernatural is tantalizingly thin.",
+        "duration": "PT2M31S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.6,
@@ -1677,6 +2237,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/char-cup-chai-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1UdzY99vN8EEyCF6er1myj8RJF0HqPcAH",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Char_Cup_Chai_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Char_Cup_Chai_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/char-cup-chai-2023/",
+        "description": "Char Cup Chai, a 2023 Indian Hindi-language drama film directed by Nikhil Nagpal and produced by Ronnie Screwvala under RSVP Movies, unveils a tapestry of human connections and aspirations through the lives of three protagonists - Ayushmann Khurrana, Rakul Preet Singh, and Jaideep Ahlawat. Set against the bustling streets of Delhi, the film delves into the transformative journey of friends who venture into entrepreneurship by opening a chai shop. While the film touches on themes of friendship, ambition, and love, its pacing and originality have sparked mixed reactions.",
+        "duration": "PT1M21S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.4,
@@ -1714,6 +2288,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/i-am-rage-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1KV1T3mlA9A_RtkOmxKh3EBm9RA5crX0d",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/I_Am_Rage_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/I_Am_Rage_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/i-am-rage-2023/",
+        "description": "I Am Rage (2023): A Gripping Blend of Action and Horror Unleashes Vengeance. In the realm of 2023's cinematic offerings, I Am Rage stands as an intense amalgamation of heart-pounding action and spine-chilling horror. Directed by David Ryan Keith and co-written by Keith and Stephen Durham, this American film thrusts viewers into a tumultuous tale of survival and revenge.",
+        "duration": "PT1M53S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 3.5,
@@ -1751,6 +2339,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/twisted-metal-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1KOmbY5GNAKdGpnUhtORPDQ901zb5JfaB",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Twisted_Metal_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Twisted_Metal_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/twisted-metal-2023/",
+        "description": "Twisted Metal is an exhilarating post-apocalyptic action drollery television series that takes its inspiration from the beloved video game franchise. Set in a undefined world, the serial publication follows the journey of a motor-mouthed foreigner named John Doe, portrayed by Anthony Mackie. Twisted Metal promises a rollercoaster tantalize of suspense, entertainment, and unforgettable characters that wish undoubtedly captivate fans of the genre and the video recording game franchise alike.",
+        "duration": "PT2M21S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 7.5,
@@ -1788,6 +2390,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/the-trial-pyaar-kaanoon-dhokha-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1Xm-G0v0q4tGium8o8vA1BtA4iDAvKxu7",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Trial_Pyaar_Kaanoon_Dhokha_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Trial_Pyaar_Kaanoon_Dhokha_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/the-trial-pyaar-kaanoon-dhokha-2023/",
+        "description": "The Trial Pyaar Kaanoon Dhokha is an enthralling idiot box series that delves into the intricate dynamics of love, law, and betrayal. The story revolves around Noyonika Sengupta, a devoted woman of the hous whose living takes an unexpected turn when her husband, Rajiv, is arrested under charges of subversion and sexual assault. The Trial Pyaar Kaanoon Dhokha promises to be a gripping and thought-provoking addition to the world of television, unearthing the indomitable spirit up of a woman on a call for for justice and truth.",
+        "duration": "PT2M01S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.3,
@@ -1825,6 +2441,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/city-on-fire-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1hwrrsZnPH0VPnaTJGknDUhU3HokVvLrC",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/City_on_Fire_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/City_on_Fire_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/city-on-fire-2023/",
+        "description": "The American crime drama series City on Fire ignites with a captivating premise, drawing its inspiration from Garth Risk Hallberg's novel of the same name. The narrative unfurls against the backdrop of a sprawling metropolis, setting the stage for a tapestry of enigma and intrigue that captures the essence of early 2000s New York City. City on Fire is an exceptional addition to the crime drama genre, inviting audiences to unravel its enigma while reflecting on the timeless themes it unveils.",
+        "duration": "PT1M59S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.4,
@@ -1862,6 +2492,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/tv-shows-2023/01/the-dessert-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1pdsDv7RG1Y6O-rSYkbHlsSRTMAzaTo6F",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Dessert_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Dessert_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/tv-shows-2023/01/the-dessert-2023/",
+        "description": "The Dessert is a uniquely daring Canadian sketch comedy series crafted by Bruce McCulloch, a prominent name in the realm of comedic artistry and co-creator of the renowned sketch comedy troupe, The Kids in the Hall. This bold venture into the realm of comedy premiered on CBC Gem on August 3, 2023, igniting screens with its unapologetically boundary-pushing content. Notably, the series's impact has been so resonant that it has garnered the green light for a second season, promising even more riveting comedic escapades in the future.",
+        "duration": "PT1M37S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.7,
@@ -1899,6 +2543,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/home-service-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=15XtwaE3El1lasVweNnjYLS7Fdfdtd2Fk",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Home_Service_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Home_Service_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/home-service-2023/",
+        "description": "Home Service (2023) is a compelling undefined that takes TV audience on a journey of self-discovery, redemption, and subjective growth. Set in the Philippines, the film introduces us to Precious (Angelica Cervantes), a nursing student by day and a rub down therapist by night. Her world takes an unplanned wrench when she crosses paths with Happy (RK Bagatsing), a flush businessman seeking discreet massage therapy. Despite her first reservations, preciously agrees to provide a massage for Happy. With an IMDb rating of 6.5/10, the film offers a painful reflectivity on the capacity for change and growth, serving as an stirring to audiences everywhere.",
+        "duration": "PT1M24S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.5,
@@ -1936,6 +2594,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/taong-grasa-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=15gUxVd237n3HgmfGyO_Nz8jSt6uyelYA",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Taong_Grasa_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Taong_Grasa_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/taong-grasa-2023/",
+        "description": "Taong Grasa (2023) is a captivating Filipino science fable thriller directed by Neal Tan, featuring a talented tout ensemble cast including Kurt Kendrick, Andrew Gan, Aldwin F. Alegre, Joni McNab, Maebelle Medina, Emelyn Cruz, Zion Ryle Sadie, and Jackie Lyn Sadie. As a must-watch for science fiction aficionados, the film invites viewers on an immersive journey through and through an uncharted territory of the mind.",
+        "duration": "PT2M40S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },   
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.5,
@@ -1973,6 +2645,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/ilaaj-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1Gxlw_fiM8AJznvYa85gK3wcOBJ6QiNI1",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Ilaaj_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Ilaaj_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/ilaaj-2023/",
+        "description": "Ilaaj is a gripping psychological thriller web serial that delves into the complex world of unhealthy health and the consequences of push the boundaries of medical science. The series centers around Dr. Aarav, a sacred doctor grappling with the red of his wife, Dr. Riya, who tragically succumbed to suicide due to an untreated mental illness. Motivated by his personal tragedy, Dr. Aarav embarks on a missionary work to develop a groundbreaking drug called Ilaaj, meaning cure in Hindi, which he believes can provide solace to those suffering from various mental illnesses. Ilaaj is set to captivate TV audience with its suspenseful narrative and a probing search into the intricacies of the human take care and the boundaries of medical advancement.",
+        "duration": "PT1M20S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.4,
@@ -2008,6 +2694,20 @@
       "amzads1": "https://raw.githubusercontent.com/joy2world/m3u8/main/output2.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/c2dd5325-05cc-4454-8504-a546724fdac3/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/the-channel-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1qKUvudME8A_ZvmA2OXK9oYf498WAqdgP",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Channel_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Channel_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/the-channel-2023/",
+        "description": "The Channel is an electrifying American action thriller take that delivers a roller-coaster of suspense and excitement. Written and orientated by the talented William Kaufman, the movie boasts a stellar cast light-emitting diode by Clayne Crawford, Max Martini, Nicoye Banks, and Michael Jai White. This gripping story follows a group of ex-Marines who stake into a dare bank heist in fres Orleans, only when to find themselves entangled in a web of danger and deception. If you're seeking an adrenaline race and a interesting story, The Channel is a must-watch for sue thriller enthusiasts.",
+        "duration": "PT1M44S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.3,
@@ -2045,6 +2745,20 @@
       "amzads1": "https://raw.githubusercontent.com/joy2world/m3u8/main/output2.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/c2dd5325-05cc-4454-8504-a546724fdac3/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/the-flash-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1FV6BE1zKiNnARUb3b3dcStr1-ve9nrfZ",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Flash_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Flash_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/the-flash-2023/",
+        "description": "The Flash is an action-packed American superhero take that brings the iconic District of Columbia Comics character to the big screen. Produced by Warner Bros. Pictures, DC Films, Double Dream, and the Disco Factory, and distributed by Warner Bros., the moving-picture show marks the 13th installment in the DC Extended Universe (DCEU). Directed by Andy Muschietti and featuring a screenplay by Christina Hodson, the film stars Ezra Miller in the titulary role of Barry Allen / The Flash, leading an impressive ensemble cast including Sasha Calle, Michael Shannon, Ron Livingston, Maribel Verd??, Kiersey Clemons, Antje Traue, and Michael Keaton.",
+        "duration": "PT2M21S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 7.0,
@@ -2081,6 +2795,20 @@
       "amzads1": "https://raw.githubusercontent.com/joy2world/m3u8/main/output2.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/c2dd5325-05cc-4454-8504-a546724fdac3/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/the-flood-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1G_s04L5jZ6zC4sX28C6-7fiozZCuemPP",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Flood_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/The_Flood_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/the-flood-2023/",
+        "description": "The Flood is an intense and heart-pounding American action horror take that takes audiences on a thrilling ride through a deadly hurricane and the terrifying presence of heavyweight alligators. orientated by Ben Mekler, the movie features a talented ensemble cast, including Nicky Whelan, Casper vanguard Dien, Louis Mandylor, Ryan Francis, Randy Waye, and Kim DeLonghi. Whether you're a fan of disaster films or enjoy wight features, this film promises to keep you on the undefined of your seat, witnessing a undefined battle against both nature's wrath and dreaded predators.",
+        "duration": "PT1M34S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 3.1,
@@ -2118,6 +2846,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/litsoneras-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=13_n_Mpdx7o2siAAeCL7XwX6kU6OE8art",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Litsoneras_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Litsoneras_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/litsoneras-2023/",
+        "description": "Litsoneras is a gripping Filipino drama shoot directed by Roman Perez Jr., offer audiences a dark and twined story of love, betrayal, and revenge. The story revolves around Elria, portrayed by Cindy Miranda, a young woman who unknowingly discovers her mother Minerva, played by AJ Raval, is busy in an affair with their prole Jonas, portrayed by Diego Loyzaga.",
+        "duration": "PT1M52S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.2,
@@ -2154,6 +2896,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/bisyo-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1HGqZVgE1lTUUXLqmt9H2B0e8rcIRHMgd",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Bisyo_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Bisyo_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/bisyo-2023/",
+        "description": "Bisyo! is a gripping Filipino undefined thriller film directed by Joel Lamangan and released in 2023. The movie centers around James, a youth man with dreams of starting his own business. However, destine takes a dark turn when circumstances force him to work for a dangerous syndicate. If you enjoy high-stakes crime dramas with saturated action and are intrigued by Filipino cinema, Bisyo! is Worth adding to your watchlist. However, due to its violent content, TV audience should be aware of its nature and exercise discretion.",
+        "duration": "PT0M48S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 5.4,
@@ -2190,6 +2946,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/shuddhikaran-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1a7iA2OnkK5Kluf-7GuaB-L8N9LpuSGvR",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Shuddhikaran_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Shuddhikaran_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/sergeant-2023/",
+        "description": "Shuddhikaran is an intriguing web series that delves into the topic of evil persistence and its impact on a newly married couple. The story revolves around the protagonist, a youth man who enters the sacred bond of marriage. However, his married woman is unjustly deemed impure by the villagers and family members, leadership to a series of troubling events.",
+        "duration": "PT1M11S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 6.2,
@@ -2226,6 +2996,20 @@
       "amzads1": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8bcd8ef5-85c8-4c87-a5f6-271efa8e23fc/default.jobtemplate.hls1080.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/d1782a29-3fdb-4669-97f2-f74aff10463c/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/adult-2023/01/anari-part1-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1p3RT7Q0DWD6AGOaDJVpBHnn-pQE-5yO2",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Anari_Part1_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Anari_Part1_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/adult-2023/01/anari-part1-2023/",
+        "description": "The movie Anari Part 1 (2023) is a captivating romantic comedy-drama typeset in India. It revolves around the news report of Anjali (played by Riya Sen), a youth fair sex who finds herself trapped in an arranged marriage to a affluent man of affairs onymous Rakesh (portrayed by Karan Singh Grover). Unhappy with her situation, Anjali becomes unregenerate to escape from her controlling and possessive husband. Anari Part 1 is a must-watch for fans of romantic comedy-dramas, offering a perfect blend of suspense, drama, and romance.",
+        "duration": "PT1M39S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.4,
@@ -2265,6 +3049,20 @@
       "amzads1": "https://raw.githubusercontent.com/joy2world/m3u8/main/output2.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/c2dd5325-05cc-4454-8504-a546724fdac3/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/neeyat-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=12I5q5P-6uJ5lH3Vi3ZOkqFPsDntq9E2h",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Neeyat_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Neeyat_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/neeyat-2023/",
+        "description": "Neeyat is a 2023 Indian Hindi-language mystery thriller film directed by Anu Menon and produced by Ronnie Screwvala, Siddharth Roy Kapur, and Manish Mundra. The film stars Vidya Balan, Ram Kapoor, Rahul Bose, Shahana Goswami, and Harshvardhan Rane. The film follows a detective who investigates the murder of a billionaire at his birthday party. The take opens with a scene of a lavish birthday political party being held for Ashish Kapoor (Ram Kapoor), a wealthy businessman. The film 'Neeyat' is a suspenseful and thought-provoking mystery thriller. It explores the dark side of human nature and the lengths that people will go to.",
+        "duration": "PT2M24S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 9.1,
@@ -2301,6 +3099,20 @@
       "amzads1": "https://raw.githubusercontent.com/joy2world/m3u8/main/output2.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/c2dd5325-05cc-4454-8504-a546724fdac3/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/ib-71-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1kDa8lhfjXaQDW1gpi7HJWjRpjZENW3tJ",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/IB_71_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/IB_71_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/ib-71-2023/",
+        "description": "IB 71 is a 2023 Indian Hindi-language espionage thriller film directed by Sankalp Reddy and produced by process Hero Films, Reliance Entertainment, and T-Series. The film stars Vidyut Jamwal, Shruti Haasan, Neha Dhupia, and Chandan Roy Sanyal.",
+        "duration": "PT0M47S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 8.2,
@@ -2338,6 +3150,20 @@
       "amzads1": "https://raw.githubusercontent.com/joy2world/m3u8/main/output2.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/c2dd5325-05cc-4454-8504-a546724fdac3/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/blind-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1zxYH6QAjz1eF7xUQ6RVQRU1MaZVQMq0t",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Blind_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Blind_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/blind-2023/",
+        "description": "Blind is a 2023 Indian Hindi-language thriller film directed by Aneesh Hazra and produced by A Kanai, AVMA Media, and Jio Studios. The film stars Sonam Kapoor as a blind woman who becomes the sole witness to a heinous crime. She must use her heightened senses to track down the killer and bring him to justice.",
+        "duration": "PT2M00S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },  
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.1,
@@ -2374,6 +3200,20 @@
       "amzads1": "https://raw.githubusercontent.com/joy2world/m3u8/main/output2.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/c2dd5325-05cc-4454-8504-a546724fdac3/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/lust-stories2-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1n5MC4l-JIkfWqXRWH7hG94ruwFDdL-oH",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Lust_Stories_2_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Lust_Stories_2_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/lust-stories2-2023/",
+        "description": "The movie Lust Stories 2 (2023) is a sequel to the 2018 anthology film Lust Stories. The take consists of four interwoven stories about love, lust, and desire. The first story is about a young woman named Anya (Rani Mukerji) who is married to a wealthy businessman. Anya is bored with her marriage and seeks excitement elsewhere. She meets a young man named Arjun (Arjun Kapoor), and they start an affair. The affair is passionate but dangerous, and Anya soon finds herself in over her head.",
+        "duration": "PT0M56S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      }, 
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 7.3,
@@ -2410,6 +3250,20 @@
       "amzads1": "https://raw.githubusercontent.com/joy2world/m3u8/main/output2.m3u8",
       "amzads2": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/c2dd5325-05cc-4454-8504-a546724fdac3/default.jobtemplate.hls1080.m3u8",
       "movie.watch": "2023/movies-2023/01/sergeant-2023/",
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Official Trailer",
+        "embedUrl": "https://drive.google.com/uc?export=view&id=1JDMB7R1X4_eP8k-agI1r5YrWCRq6YdcZ",
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Sergeant_2023.jpg"
+        },
+        "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Sergeant_2023.jpg",
+        "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/sergeant-2023/",
+        "description": "The movie Sergeant (2023) follows the write up of a former soldier named serjeant David, who suffers from severe slump after losing a limb on duty. He is struggling to adjust to civilian life and is haunted by the memories of his clock in the military. One day, Sergeant David is approached by a woman named Monica, who claims to be a former soldier as well. The real-life Sergeant David is a former soldier who suffered from PTSD after serving in Afghanistan.",
+        "duration": "PT1M34S",
+        "uploadDate": "2023-07-21T16:30:53.561Z"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.3,
