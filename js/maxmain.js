@@ -2,35 +2,32 @@
 
 
 // Generate a random version number or timestamp
-const cacheBuster = Date.now();
+// const cacheBuster = Date.now();
 
-// Construct the URLs with the cache buster parameter
-const resourceURLs = [
-    '/my.css',
-    '/js/maxmain.js',
-    // Add more resource URLs here
-];
+// const resourceURLs = [
+//     '/my.css',
+//     '/js/maxmain.js',
+// ];
 
-let reloaded = false;
+// let reloaded = false;
 
-// Function to reload the page
-function reloadPage() {
-    if (!reloaded) {
-        // Append cache buster parameter to each resource URL
-        resourceURLs.forEach(function(url) {
-            const updatedURL = url + '?v=' + cacheBuster;
-            const link = document.createElement('link');
-            link.href = updatedURL;
-            link.rel = 'stylesheet'; // Change to 'script' for JavaScript files
-            document.head.appendChild(link);
-        });
+// // Function to reload the page
+// function reloadPage() {
+//     if (!reloaded) {
+//         // Append cache buster parameter to each resource URL
+//         resourceURLs.forEach(function(url) {
+//             const updatedURL = url + '?v=' + cacheBuster;
+//             const link = document.createElement('link');
+//             link.href = updatedURL;
+//             link.rel = 'stylesheet'; // Change to 'script' for JavaScript files
+//             document.head.appendChild(link);
+//         });
 
-        // Mark as reloaded
-        reloaded = true;
-    }
-}
+//         reloaded = true;
+//     }
+// }
 
-window.onload = reloadPage;
+// window.onload = reloadPage;
 
 
 // shareSocialMedia.json
@@ -326,27 +323,27 @@ fetch("/movies.json")
 
 // skipAdButton1 & ad-video-1.js
 
-const skipAdButton1 = document.getElementById('skipAdButton1');
-const adVideo1 = document.getElementById('ad-video-1');
+// const skipAdButton1 = document.getElementById('skipAdButton1');
+// const adVideo1 = document.getElementById('ad-video-1');
 
-skipAdButton1.addEventListener('click', () => {
-  adVideo1.currentTime = adVideo1.duration; // Skip to the end of the video
-});
+// skipAdButton1.addEventListener('click', () => {
+//   adVideo1.currentTime = adVideo1.duration; // Skip to the end of the video
+// });
 
-adVideo1.addEventListener('ended', () => {
-  skipAdButton1.style.display = 'none'; // Hide the "Skip Ad" button when the video ends
-});
+// adVideo1.addEventListener('ended', () => {
+//   skipAdButton1.style.display = 'none'; // Hide the "Skip Ad" button when the video ends
+// });
 
-const skipAdButton2 = document.getElementById('skipAdButton2');
-const adVideo2 = document.getElementById('ad-video-2');
+// const skipAdButton2 = document.getElementById('skipAdButton2');
+// const adVideo2 = document.getElementById('ad-video-2');
 
-skipAdButton2.addEventListener('click', () => {
-  adVideo2.currentTime = adVideo2.duration; // Skip to the end of the video
-});
+// skipAdButton2.addEventListener('click', () => {
+//   adVideo2.currentTime = adVideo2.duration; // Skip to the end of the video
+// });
 
-adVideo2.addEventListener('ended', () => {
-  skipAdButton2.style.display = 'none'; // Hide the "Skip Ad" button when the video ends
-});
+// adVideo2.addEventListener('ended', () => {
+//   skipAdButton2.style.display = 'none'; // Hide the "Skip Ad" button when the video ends
+// });
 
 
 
