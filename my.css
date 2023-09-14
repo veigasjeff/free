@@ -709,7 +709,7 @@ body {
 
 /* Reset the image to its original position after the flip animation */
 /* .playlist_scrol .palylist-video:hover img {
-  transform: rotateY(2deg);
+  transform: rotateY(0deg);
 } */
 
 /* Optional: Add hover effect to playlist items */
@@ -944,6 +944,12 @@ nav ul li {
   transition: opacity 0.5s ease-in-out;
   padding: 20px;
   background-color: #fff;
+}
+/* CSS for responsive video container with 16:9 aspect ratio */
+.embed-responsive-16by9 {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+  height: auto; /* Change height to auto */
 }
 
 
