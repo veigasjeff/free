@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #000000;
   padding: 10px 20px;
 }
 
@@ -544,7 +544,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #333;
+        background-color: #000000;
         padding: 10px 20px;
     }
     .logo {
@@ -696,12 +696,35 @@ body {
     border: 2px solid #40D7BC;
 }
 
-/* Optional: Add hover effect to playlist items */
-.playlist_scrol .palylist-video:hover img {
-    transform: scale(1.05); /* Add a slight zoom effect on hover */
-    transition: transform 0.3s ease;
+/* Add a flip effect to playlist items  ---- image flip */
+/* .playlist_scrol .palylist-video {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
 }
-/* Style the product__modal-content */
+
+.playlist_scrol .palylist-video:hover {
+  transform: rotateY(180deg);
+} */
+
+/* Reset the image to its original position after the flip animation */
+/* .playlist_scrol .palylist-video:hover img {
+  transform: rotateY(2deg);
+} */
+
+/* Optional: Add hover effect to playlist items */
+.playlist_scrol .palylist-video:hover img:hover {
+  transform: scale(1.03); /* Add a slight zoom effect on hover */
+  transition: transform 0.3s ease;
+}
+/* Optional: Add hover effect to playlist items  --- image zoom */
+/* .playlist_scrol .palylist-video:hover img {
+    transform: scale(1.02) ; 
+    transition: transform 0.3s ease;
+} */
+
+
+/* Style the product__modal-content  */
 .product__modal-content {
     padding: 20px;
     background-color: #ffffff;
@@ -778,7 +801,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #000000;
     padding: 10px 20px;
 }
 
@@ -922,6 +945,7 @@ nav ul li {
   padding: 20px;
   background-color: #fff;
 }
+
 
 /* body {
   margin: 0;

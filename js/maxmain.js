@@ -223,11 +223,13 @@ fetch("/movies.json")
       const img = document.createElement("img");
       img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
       img.style.borderRadius = "10%";
+      img.style.marginTop = "5px";
       img.style.border = "2px solid #40D7BC";
       img.alt = movie.title;
 
       const listItem = document.createElement("li");
       listItem.className = "palylist-video";
+      listItem.style.marginRight = "5px"; // Adjust the margin as needed
 
       link.appendChild(img);
       listItem.appendChild(link);
@@ -295,14 +297,14 @@ fetch("/movies.json")
 //           "author": {
 //             "@type": "Person",
 //             "name": "DrTrailer",
-//             "url": "https://uwatchfree.vercel.app/DrTrailer.png"
+//             "url": "http://127.0.0.1:5500/DrTrailer.png"
 //           },
 //           "publisher": {
 //             "@type": "Organization",
-//             "name": "UWatchfree",
+//             "name": "Uwatchfree?",
 //             "logo": {
 //               "@type": "ImageObject",
-//               "url": "https://uwatchfree.vercel.app/og_image.jpg"
+//               "url": "http://127.0.0.1:5500/og_image.jpg"
 //             }
 //           },
 //           "additionalProperty": {
@@ -347,12 +349,6 @@ fetch("/movies.json")
   .catch((error) => {
     console.error("Error fetching movie data:", error);
   });
-
-
-
-
-
-
 
 
 
@@ -447,30 +443,66 @@ document.addEventListener("DOMContentLoaded", function () {
 //   });
 
 // DayNight.js
+// const modeToggleBtn = document.getElementById("modeToggleBtn");
+// const body = document.body;
+
+// modeToggleBtn.addEventListener("click", toggleMode);
+
+// var logoImage = document.querySelector(".logo");
+// if (logoImage.style.display === "none") {
+//   logoImage.style.display = "block";
+// } else {
+//   logoImage.style.display = "none";
+// }
+
+// function toggleMode() {
+//   body.classList.toggle("night-mode");
+//   if (body.classList.contains("night-mode")) {
+//     modeToggleBtn.innerHTML =
+//       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
+//       '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #fff;">Night Mode</span>';
+//   } else {
+//     modeToggleBtn.innerHTML =
+//       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
+//       '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #000;">Day Mode</span>';
+//   }
+// }
+
+
+// DayNight.js
+document.addEventListener("DOMContentLoaded", function () {
 const modeToggleBtn = document.getElementById("modeToggleBtn");
 const body = document.body;
+let isLogoVisible = true; // Track the visibility of the logo
 
 modeToggleBtn.addEventListener("click", toggleMode);
 
-var logoImage = document.querySelector(".logo");
-if (logoImage.style.display === "none") {
-  logoImage.style.display = "block";
-} else {
-  logoImage.style.display = "none";
-}
-
 function toggleMode() {
   body.classList.toggle("night-mode");
+  
+  // Toggle the logo's visibility based on the current state
+  var logoImage = document.querySelector(".logo");
+  if (body.classList.contains("night-mode")) {
+    if (!isLogoVisible) {
+      logoImage.style.display = "block"; // Show the logo in Night Mode if it was hidden
+      isLogoVisible = true;
+    }
+  } else {
+    logoImage.style.display = "block"; // Always show the logo in Day Mode
+    isLogoVisible = true;
+  }
+
   if (body.classList.contains("night-mode")) {
     modeToggleBtn.innerHTML =
       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
-      '<span class="text-2xl font-bold" style="text-shadow: 2px 5px 5px #fff;">Night Mode</span>';
+      '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #fff;">Night Mode</span>';
   } else {
     modeToggleBtn.innerHTML =
       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
-      '<span class="text-2xl font-bold" style="text-shadow: 2px 5px 5px #000;">Day Mode</span>';
+      '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #000;">Day Mode</span>';
   }
 }
+});
 
 // disableCopy.js
 document.addEventListener('contextmenu', function (event) {
