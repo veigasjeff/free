@@ -258,12 +258,19 @@ fetch("/movies.json")
 
 //         const img = document.createElement("img");
 //         img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
+//         // img.style.marginTop = "5px";
+//         // img.style.marginBottom = "5px";
+//         img.style.marginLeft = "5px";
+//         img.style.marginRight = "5px";
 //         img.style.borderRadius = "10%";
 //         img.style.border = "2px solid #40D7BC";
 //         img.alt = movie.title;
 
 //         const listItem = document.createElement("li");
 //         listItem.className = "palylist-video";
+//         listItem.style.marginRight = "5px"; // Adjust the margin as needed
+//         listItem.style.marginTop = "5px"; // Adjust the margin as needed
+//         listItem.style.marginBottom = "5px"; // Adjust the margin as needed
 
 //         link.appendChild(img);
 //         listItem.appendChild(link);
@@ -297,14 +304,14 @@ fetch("/movies.json")
 //           "author": {
 //             "@type": "Person",
 //             "name": "DrTrailer",
-//             "url": "http://127.0.0.1:5500/DrTrailer.png"
+//             "url": "https://uwatchfree.vercel.app/DrTrailer.png"
 //           },
 //           "publisher": {
 //             "@type": "Organization",
 //             "name": "Uwatchfree?",
 //             "logo": {
 //               "@type": "ImageObject",
-//               "url": "http://127.0.0.1:5500/og_image.jpg"
+//               "url": "https://uwatchfree.vercel.app/og_image.jpg"
 //             }
 //           },
 //           "additionalProperty": {
@@ -459,76 +466,88 @@ document.addEventListener("DOMContentLoaded", function () {
 //   body.classList.toggle("night-mode");
 //   if (body.classList.contains("night-mode")) {
 //     modeToggleBtn.innerHTML =
-//       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
+//       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Back
+//  Icon
+
+// " style="height: 2em; margin-right: 4px;">' +
 //       '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #fff;">Night Mode</span>';
 //   } else {
 //     modeToggleBtn.innerHTML =
-//       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
+//       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Back
+//  Icon
+
+// " style="height: 2em; margin-right: 4px;">' +
 //       '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #000;">Day Mode</span>';
 //   }
 // }
 
 
 // DayNight.js
-document.addEventListener("DOMContentLoaded", function () {
-const modeToggleBtn = document.getElementById("modeToggleBtn");
-const body = document.body;
-let isLogoVisible = true; // Track the visibility of the logo
+// document.addEventListener("DOMContentLoaded", function () {
+// const modeToggleBtn = document.getElementById("modeToggleBtn");
+// const body = document.body;
+// let isLogoVisible = true; // Track the visibility of the logo
 
-modeToggleBtn.addEventListener("click", toggleMode);
+// modeToggleBtn.addEventListener("click", toggleMode);
 
-function toggleMode() {
-  body.classList.toggle("night-mode");
+// function toggleMode() {
+//   body.classList.toggle("night-mode");
   
   // Toggle the logo's visibility based on the current state
-  var logoImage = document.querySelector(".logo");
-  if (body.classList.contains("night-mode")) {
-    if (!isLogoVisible) {
-      logoImage.style.display = "block"; // Show the logo in Night Mode if it was hidden
-      isLogoVisible = true;
-    }
-  } else {
-    logoImage.style.display = "block"; // Always show the logo in Day Mode
-    isLogoVisible = true;
-  }
+//   var logoImage = document.querySelector(".logo");
+//   if (body.classList.contains("night-mode")) {
+//     if (!isLogoVisible) {
+//       logoImage.style.display = "block"; // Show the logo in Night Mode if it was hidden
+//       isLogoVisible = true;
+//     }
+//   } else {
+//     logoImage.style.display = "block"; // Always show the logo in Day Mode
+//     isLogoVisible = true;
+//   }
 
-  if (body.classList.contains("night-mode")) {
-    modeToggleBtn.innerHTML =
-      '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
-      '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #fff;">Night Mode</span>';
-  } else {
-    modeToggleBtn.innerHTML =
-      '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Day and Night Icon" style="height: 2em; margin-right: 4px;">' +
-      '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #000;">Day Mode</span>';
-  }
-}
-});
+//   if (body.classList.contains("night-mode")) {
+//     modeToggleBtn.innerHTML =
+//       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Back
+//  Icon
 
-// disableCopy.js
-document.addEventListener('contextmenu', function (event) {
-  event.preventDefault();
-  showMessage('You can\'t right-click is disabled on this page.');
-});
+// " style="height: 2em; margin-right: 4px;">' +
+//       '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #fff;">Night Mode</span>';
+//   } else {
+//     modeToggleBtn.innerHTML =
+//       '<img src="/wp-content/uploads/2023/05/day-and-night.png" alt="Back
+//  Icon
 
-document.addEventListener('selectstart', function (event) {
-  event.preventDefault();
-  showMessage('Text selection is disabled on this page.');
-});
+// " style="height: 2em; margin-right: 4px;">' +
+//       '<span class="text-2xl font-bold rounded-3xl" style="text-shadow: 2px 5px 5px #000;">Day Mode</span>';
+//   }
+// }
+// });
 
-document.addEventListener('dragstart', function (event) {
-  event.preventDefault();
-  showMessage('Image dragging is disabled on this page.');
-});
+// // disableCopy.js
+// document.addEventListener('contextmenu', function (event) {
+//   event.preventDefault();
+//   showMessage('You can\'t right-click is disabled on this page.');
+// });
 
-function showMessage(message) {
-  const msgElement = document.createElement('div');
-  msgElement.className = 'custom-message';
-  msgElement.textContent = message;
-  document.body.appendChild(msgElement);
-  setTimeout(function () {
-    document.body.removeChild(msgElement);
-  }, 2000);
-}
+// document.addEventListener('selectstart', function (event) {
+//   event.preventDefault();
+//   showMessage('Text selection is disabled on this page.');
+// });
+
+// document.addEventListener('dragstart', function (event) {
+//   event.preventDefault();
+//   showMessage('Image dragging is disabled on this page.');
+// });
+
+// function showMessage(message) {
+//   const msgElement = document.createElement('div');
+//   msgElement.className = 'custom-message';
+//   msgElement.textContent = message;
+//   document.body.appendChild(msgElement);
+//   setTimeout(function () {
+//     document.body.removeChild(msgElement);
+//   }, 2000);
+// }
 // script.js
 
 document.addEventListener("DOMContentLoaded", function () {
