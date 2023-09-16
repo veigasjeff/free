@@ -945,7 +945,7 @@ nav ul li {
   padding: 20px;
   background-color: #fff;
 }
-/* CSS for responsive video container with 16:9 aspect ratio */
+/* CSS for responsive video container with 16:9 aspect ratio ------------Video outside the viewport */
 .embed-responsive-16by9 {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
