@@ -101,17 +101,21 @@
             "@type": "VideoObject",
             "name": "Official Trailer",
             "embedUrl": "https://drive.google.com/uc?export=view&id=1yup9Mz0JsR98jijFHmOLVH8gPhrtqxsC",
-            "thumbnail": {
-              "@type": "ImageObject",
-              "contentUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Wonderwell_2023.jpg"
-            },
             "thumbnailUrl": "https://uwatchfree.vercel.app/wp-content/uploads/2023/06/Wonderwell_2023.jpg",
             "url": "https://uwatchfree.vercel.app/2023/movies-2023/01/wonderwell-2023/",
             "description": "Wonderwell is a captivating and imaginative fantasy drama that invites audiences into a world where the boundaries of reality and imagination blur. Directed by Vlad Marsavin and boasting a star-studded cast including the iconic Carrie Fisher, the film promises to be a delightful journey for viewers of all ages. Set against the picturesque backdrop of modern-day Italy, Wonderwell follows the enchanting tale of Violet, a curious 12-year-old girl.",
             "duration": "PT1M54S",
-            "uploadDate": "2023-07-21T16:30:53.561Z"
-          },
-          "aggregateRating": {
+            "uploadDate": "2023-07-21T16:30:53.561Z",
+            "potentialAction": {
+                "@type": "SeekToAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://uwatchfree.vercel.app/2023/movies-2023/01/wonderwell-2023?t={seek_to_second_number}",
+                    "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+                }
+            }
+        },
+        "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.5,
             "bestRating": 10,
