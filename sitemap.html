@@ -25,23 +25,24 @@
             margin: 0;
             text-align: center;
         }
-
+    
         #cont {
             margin: auto;
             width: 800px;
             text-align: left;
         }
-
+    
         a:link,
         a:visited {
             color: #0180AF;
             text-decoration: underline;
+            line-height: 1.5; /* Add line height for spacing */
         }
-
+    
         a:hover {
             color: #666;
         }
-
+    
         h1 {
             background-color: #fff;
             padding: 20px;
@@ -50,20 +51,20 @@
             font-size: 32px;
             margin: 0px;
         }
-
+    
         h3 {
             font-size: 20px;
             background-color: #B8DCE9;
             margin: 0px;
             padding: 10px;
         }
-
+    
         h3 a {
             float: right;
             font-weight: normal;
             display: block;
         }
-
+    
         th {
             text-align: center;
             background-color: #00AEEF;
@@ -72,49 +73,49 @@
             font-weight: normal;
             font-size: 12px;
         }
-
+    
         td {
             font-size: 20px;
             padding: 3px;
             text-align: left;
         }
-
+    
         tr {
             background: #fff
         }
-
+    
         tr:nth-child(odd) {
             background: #f0f0f0
         }
-
+    
         #footer {
             background-color: #B8DCE9;
             padding: 10px;
         }
-
+    
         .pager,
         .pager a {
             background-color: #00AEEF;
             color: #fff;
             padding: 3px;
         }
-
+    
         .lhead {
             background-color: #fff;
             padding: 3px;
             font-weight: bold;
             font-size: 20px;
         }
-
+    
         .lpart {
             background-color: #f0f0f0;
             padding: 0px;
         }
-
+    
         .lpage {
             font: normal 20px verdana;
         }
-
+    
         .lcount {
             background-color: #00AEEF;
             color: #fff;
@@ -122,12 +123,35 @@
             margin: 2px;
             font: bold 12px verdana;
         }
-
+    
         a.aemphasis {
             color: #009;
             font-weight: bold;
         }
-    </style>
+     /* Media query for mobile devices */
+     @media (max-width: 768px) {
+        body {
+            font-size: 16px; /* Adjust font size for better readability on smaller screens */
+        }
+
+        #cont {
+            width: 100%; /* Make the container full width on smaller screens */
+        }
+
+        h3 {
+            font-size: 16px; /* Adjust font size for better readability on smaller screens */
+        }
+
+        td {
+            font-size: 16px; /* Adjust font size for better readability on smaller screens */
+        }
+
+        .lhead {
+            font-size: 16px; /* Adjust font size for better readability on smaller screens */
+        }
+    }
+</style>
+    
 </head>
 
 <body>
