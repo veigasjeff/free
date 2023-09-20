@@ -31,8 +31,6 @@
   <meta name="twitter:label1" content="Est. reading time" />
   <meta name="twitter:data1" content="1 minute" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <!-- <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
-  <script src="https://vjs.zencdn.net/7.15.4/video.js"></script> -->
   <link href="https://vjs.zencdn.net/8.5.2/video-js.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="/my.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -777,6 +775,29 @@
   // Call the auto adjustment function when the iframe has loaded
   iframe.addEventListener('load', autoAdjustSoundEnhancements);
 </script>
+<script>
+  // Get the audio element and create an audio context
+  const audioElement = document.getElementById('audioPlayer');
+  const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+  // Create a source node from the audio element
+  const sourceNode = audioContext.createMediaElementSource(audioElement);
+
+  // Create audio effect nodes (e.g., equalizer, reverb)
+  // You can customize these effects as needed
+  const equalizer = audioContext.createBiquadFilter();
+  equalizer.type = 'peaking'; // Set the filter type
+  equalizer.frequency.value = 1000; // Adjust the frequency
+  equalizer.gain.value = 6; // Adjust the gain (boost or cut)
+
+  // Connect the audio nodes in the desired order
+  sourceNode.connect(equalizer);
+  equalizer.connect(audioContext.destination);
+
+  // When the user changes the equalizer settings, you can update the values like this:
+  // equalizer.frequency.value = newFrequency;
+  // equalizer.gain.value = newGain;
+</script>
 <!-- <script>
   const iframe = document.querySelector('iframe');
   
@@ -824,8 +845,9 @@
       z-index: 1000;
     }
   </style>
-   <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
-  <script src='/js/maxmain.js'></script>
+
+<script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
+<script src='/js/maxmain.js'></script>
   <script src='/js/disableCopy.js'></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
