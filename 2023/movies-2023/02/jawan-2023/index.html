@@ -31,8 +31,9 @@
   <meta name="twitter:label1" content="Est. reading time" />
   <meta name="twitter:data1" content="1 minute" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
-  <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+  <!-- <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
+  <script src="https://vjs.zencdn.net/7.15.4/video.js"></script> -->
+  <link href="https://vjs.zencdn.net/8.5.2/video-js.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="/my.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
@@ -786,12 +787,15 @@
   };
 
   const predefinedNoiseReductionValue = 40; // Set your predefined noise reduction value here
-  const audioSourceQuality = "Low"; // Set the audio source quality (e.g., "high" or "low")
+
   // Function to automatically adjust sound enhancements
   function autoAdjustSoundEnhancements() {
       // If the iframe content is a web page with audio controls,
       // you can try to communicate with it if it supports auto adjustment
       const iframeWindow = iframe.contentWindow;
+
+      // Log a message to the console to indicate that the message is being sent
+      console.log('Sending message to iframe:', predefinedEqualizationValue);
 
       // Send a message to the iframe with predefined settings for equalization and noise reduction
       if (iframeWindow && iframeWindow.postMessage) {
@@ -820,6 +824,7 @@
       z-index: 1000;
     }
   </style>
+   <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
   <script src='/js/maxmain.js'></script>
   <script src='/js/disableCopy.js'></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
