@@ -43,147 +43,89 @@
   class="yoast-schema-graph"> { "@context": "https://schema.org", "@graph": [ { "@type": "Article", "@id": "/2023/movies-2023/01/adipurush-2023/#article", "isPartOf": { "@id": "/2023/movies-2023/01/adipurush-2023/" }, "author": { "name": "admin", "@id": "/#/schema/person/c92aae1e7544bfbf100f48bcddf0a3ee" }, "headline": "Adipurush (2023) Full Movie Online Free | Uwatchfree™", "datePublished": "2023-04-13T11:30:30+00:00", "dateModified": "2023-04-13T11:30:30+00:00", "mainEntityOfPage": { "@id": "/2023/movies-2023/01/adipurush-2023/" }, "wordCount": 3, "publisher": { "@id": "/#organization" }, "keywords": [ "123mkv", "300mb Movies Download", "Full movie Download", "HD Movies Online", "HDMovie5", "Katmoviehd", "MLSBD", "MLSBD Movies", "Movieshub", "mp4movies", "Adipurush (2023) Hindi 123mkv", "Adipurush (2023) Hindi 300mb Movies Download", "Adipurush (2023) Hindi Full movie Download", "Adipurush (2023) Hindi HD Movies Online", "Adipurush (2023) Hindi HDMovie5", "Adipurush (2023) Hindi Katmoviehd", "Adipurush (2023) Hindi MLSBD", "Adipurush (2023) Hindi MLSBD Movies", "Adipurush (2023) Hindi Movieshub", "Adipurush (2023) Hindi mp4movies", "Adipurush (2023) Hindi Todaypk", "Adipurush (2023) Hindi Uwatchfree", "Adipurush (2023) Hindi vegamovie", "Adipurush (2023) Hindi watch online movies", "Todaypk", "uwatchfree", "vegamovie", "watch online movies" ], "articleSection": [ "Downloadhub", "MkvMad", "Moviemad", "Movies", "Bollywood Movies", "Hollywood Movies", "Adult Movies", "Uwatchfree", "Uwatchfree Movies" ], "inLanguage": "en-US", "image": "/wp-content/uploads/2023/06/Adipurush_2023.jpg", "isAccessibleForFree": true, "additionalProperty": { "@type": "PropertyValue", "name": "Action Platform", "value": [ "Desktop Web Platform", "iOS Platform", "Android Platform" ] } }, { "@type": "WebPage", "@id": "/2023/movies-2023/01/adipurush-2023/", "url": "/2023/movies-2023/01/adipurush-2023/", "name": "Watch Adipurush (2023) Full Movie Online Free | Uwatchfree™", "isPartOf": { "@id": "/#website" }, "datePublished": "2023-04-13T11:30:30+00:00", "dateModified": "2023-04-13T11:30:30+00:00", "description": "Uwatchfree™ | Adipurush (2023) - Director: Om Raut, Starring: Kriti Sanon, Saif Ali Khan, Prabhas. Watch Adipurush (2023) Full Movie Online Free", "breadcrumb": { "@id": "/2023/movies-2023/01/adipurush-2023/#breadcrumb" }, "inLanguage": "en-US", "potentialAction": [ { "@type": "ReadAction", "target": [ "/2023/movies-2023/01/adipurush-2023/" ] } ], "image": { "@type": "ImageObject", "url": "/wp-content/uploads/2023/06/Adipurush_2023.jpg", "width": 303, "height": 430 } }, { "@type": "BreadcrumbList", "@id": "/2023/movies-2023/01/adipurush-2023/#breadcrumb", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" }, { "@type": "ListItem", "position": 2, "name": "Adipurush (2023) | Uwatchfree™" } ] }, { "@type": "WebSite", "@id": "/#website", "url": "/", "name": "Uwatchfree™", "description": "Uwatchfree™ is a movie streaming site. Where you can find movies of your interest in full HD quality updated on a daily basis. Watch Now or Download Now to Watch Later!", "publisher": { "@id": "/#organization" }, "potentialAction": [ { "@type": "SearchAction", "target": { "@type": "EntryPoint", "urlTemplate": "/?s={search_term_string}" }, "query-input": "required name=search_term_string" } ], "inLanguage": "en-US" }, { "@type": "Organization", "@id": "/#organization", "name": "Uwatchfree™", "url": "/", "logo": { "@type": "ImageObject", "inLanguage": "en-US", "@id": "/#/schema/logo/image/", "url": "/wp-content/uploads/2023/05/uwatchfree-header-logo.png", "contentUrl": "/wp-content/uploads/2023/05/uwatchfree-header-logo.png", "width": 280, "height": 80, "caption": "Uwatchfree™" }, "image": { "@id": "/#/schema/logo/image/" } }, { "@type": "Person", "@id": "/#/schema/person/c92aae1e7544bfbf100f48bcddf0a3ee", "name": "admin", "image": { "@type": "ImageObject", "inLanguage": "en-US", "@id": "/#/schema/person/image/", "url": "https://secure.gravatar.com/avatar/975ef77ac0743b7b71dbd1da922d31d4?s=96&d=mm&r=g", "contentUrl": "https://secure.gravatar.com/avatar/975ef77ac0743b7b71dbd1da922d31d4?s=96&d=mm&r=g", "caption": "admin" }, "sameAs": [ "" ], "url": "/author/admin/" } ] } </script>
 
   <script>
-    // function fetchMovieJsonLD(movieId) {
-    //   fetch("/movies.json") 
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       // Find the movie data with the specified ID
-    //       const movie = data.find(item => item.id === movieId);
-    
-    //       if (movie) {
-    //         const schemaData = {
-    //           "@context": "https://schema.org",
-    //           "@type": "Movie",
-    //           "name": movie.title,
-    //           "image": `/wp-content/uploads/2023/06/${movie.poster}`,
-    //           "url": `/${movie.movie.watch}`,
-    //           "description": movie.synopsis,
-    //           "director": {
-    //             "@type": "Person",
-    //             "name": movie.director
-    //           },
-    //           "actor": movie.starring.map(actor => ({
-    //             "@type": "Person",
-    //             "name": actor
-    //           })),
-    //           "datePublished": movie.startDate,
-    //           "locationCreated": movie.country, 
-    //           "contentRating": movie.contentRating, 
-    //           "duration": movie.time, 
-    //           "inLanguage": movie.language, 
-    //           "genre": movie.genre, 
-    //           "aggregateRating": movie.aggregateRating,
-    //           "author": {
-    //             "@type": "Person",
-    //             "name": "DrTrailer",
-    //             "url": "https://uwatchfree.vercel.app/DrTrailer.png"
-    //           },
-    //           "publisher": {
-    //             "@type": "Organization",
-    //             "name": "Uwatchfree?",
-    //             "logo": {
-    //               "@type": "ImageObject",
-    //               "url": "https://uwatchfree.vercel.app/og_image.jpg"
-    //             }
-    //           },
-    //           "additionalProperty": {
-    //             "@type": "PropertyValue",
-    //             "name": "Action Platform",
-    //             "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"]
-    //           }
-    //         };
-    
-    //         // Create a script element for JSON-LD
-    //         const scriptElement = document.createElement("script");
-    //         scriptElement.type = "application/ld+json";
-    //         scriptElement.textContent = JSON.stringify(schemaData);
-    
-    //         // Append the script element to the head of the document
-    //         document.head.appendChild(scriptElement);
-    //       } else {
-    //         console.error("Movie with ID " + movieId + " not found.");
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error("Error fetching movie data:", error);
-    //     });
-    // }
-    
-    // // Example usage:
-    // fetchMovieJsonLD("INDEX52"); // Replace "INDEX52" with the desired movie ID
-    function displayMovie() {
-  fetch("/movies.json")
-    .then((response) => response.json())
-    .then((data) => {
-      // Find the movie data with the specified ID
-      const movieId = "INDEX52"; // Replace with the desired movie ID
-      const movie = data.find((item) => item.id === movieId);
-
-      if (movie) {
-        // Create schema.org structured data (JSON-LD)
-        const schemaData = {
-          "@context": "https://schema.org",
-          "@type": "Movie",
-          "name": movie.title,
-          // Add other schema.org properties as needed
-          "image": `/wp-content/uploads/2023/06/${movie.poster}`,
-          "url": `/${movie.movie.watch}`,
-          "description": movie.synopsis,
-          "director": {
-            "@type": "Person",
-            "name": movie.director,
-          },
-          "actor": movie.starring.map((actor) => ({
-            "@type": "Person",
-            "name": actor,
-          })),
-          "datePublished": movie.startDate,
-          "locationCreated": movie.country,
-          "contentRating": movie.contentRating,
-          "duration": movie.time,
-          "inLanguage": movie.language,
-          "genre": movie.genre,
-          "aggregateRating": movie.aggregateRating,
-          "author": {
-            "@type": "Person",
-            "name": "DrTrailer",
-            "url": "https://uwatchfree.vercel.app/DrTrailer.png",
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Uwatchfree?",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://uwatchfree.vercel.app/og_image.jpg",
-            },
-          },
-          "additionalProperty": {
-            "@type": "PropertyValue",
-            "name": "Action Platform",
-            "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"],
-          },
-        };
-
-        // Create a script element for JSON-LD
-        const scriptElement = document.createElement("script");
-        scriptElement.type = "application/ld+json";
-        scriptElement.textContent = JSON.stringify(schemaData);
-
-        // Append the script element to the head of the document
-        document.head.appendChild(scriptElement);
-      } else {
-        console.error("Movie with ID " + movieId + " not found.");
-      }
-    })
-    .catch((error) => {
-      console.error("Error fetching movie data:", error);
-    });
-}
-
-// Call the function to display the movie
-displayMovie();
-
-    </script>
+    function fetchMovieJsonLD(movieId) {
+      fetch("/movies.json")
+        .then((response) => response.json())
+        .then((data) => {
+          // Find the movie data with the specified ID
+          const movie = data.find((item) => item.id === movieId);
+  
+          if (movie) {
+            const schemaData = {
+              "@context": "https://schema.org",
+              "@type": "Movie",
+              "name": movie.title,
+              "image": `/wp-content/uploads/2023/06/${movie.poster}`,
+              "url": `/${movie["movie.watch"]}`,
+              "description": movie.synopsis,
+              "director": {
+                "@type": "Person",
+                "name": movie.director
+              },
+              "actor": movie.starring.map((actor) => ({
+                "@type": "Person",
+                "name": actor
+              })),
+              "datePublished": movie.startDate,
+              "locationCreated": movie.country,
+              "contentRating": movie.contentRating,
+              "duration": movie.time,
+              "inLanguage": movie.language,
+              "genre": movie.genre,
+              "aggregateRating": movie.aggregateRating,
+              "trailer": {
+                "@type": "VideoObject",
+                "name": "Official Trailer",
+                "embedUrl": movie.trailer.embedUrl,
+                "thumbnail": {
+                  "@type": "ImageObject",
+                  "contentUrl": movie.trailer.thumbnail.contentUrl
+                },
+                "url": movie.trailer.url,
+                "description": movie.trailer.description,
+                "duration": movie.trailer.duration,
+                "uploadDate": movie.trailer.uploadDate
+              },
+              "author": {
+                "@type": "Person",
+                "name": "DrTrailer",
+                "url": "https://uwatchfree.vercel.app/DrTrailer.png"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Uwatchfree?",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://uwatchfree.vercel.app/og_image.jpg"
+                }
+              },
+              "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Action Platform",
+                "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"]
+              }
+            };
+  
+            // Create a script element for JSON-LD
+            const scriptElement = document.createElement("script");
+            scriptElement.type = "application/ld+json";
+            scriptElement.textContent = JSON.stringify(schemaData);
+  
+            // Append the script element to the head of the document
+            document.head.appendChild(scriptElement);
+          } else {
+            console.error("Movie with ID " + movieId + " not found.");
+          }
+        })
+        .catch((error) => {
+          console.error("Error fetching movie data:", error);
+        });
+    }
+  
+    // Example usage:
+    fetchMovieJsonLD("INDEX52"); // Replace "INDEX52" with the desired movie ID
+  </script>
+  
       
       
 </head>
