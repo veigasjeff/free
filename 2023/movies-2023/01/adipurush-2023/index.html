@@ -105,81 +105,82 @@
     });
   </script> -->
   <script>
-// Function to fetch JSON-LD structured data for a specific movie by movieId
-function fetchMovieJsonLD(movieId) {
-  fetch("movies.json") // Assuming "movies.json" is in the same directory as the HTML file
-    .then(response => response.json())
-    .then(data => {
-      // Find the movie data with the specified ID
-      const movie = data.find(item => item.id === movieId);
-
-      if (movie) {
-        // Create schema.org structured data (JSON-LD)
-        const schemaData = {
-          "@context": "https://schema.org",
-          "@type": "Movie",
-          "name": movie.title,
-          // Add other schema.org properties as needed
-          "image": `/wp-content/uploads/2023/06/${movie.poster}`,
-          "url": `/${movie.movie.watch}`,
-          "description": movie.synopsis,
-          "director": {
-            "@type": "Person",
-            "name": movie.director
-          },
-          "actor": movie.starring.map(actor => ({
-            "@type": "Person",
-            "name": actor
-          })),
-          "datePublished": movie.startDate,
-          "locationCreated": movie.country, 
-          "contentRating": movie.contentRating, 
-          "duration": movie.time, 
-          "inLanguage": movie.language, 
-          "genre": movie.genre, 
-          "aggregateRating": movie.aggregateRating,
-        
-          "author": {
-            "@type": "Person",
-            "name": "DrTrailer",
-            "url": "https://uwatchfree.vercel.app/DrTrailer.png"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Uwatchfree?",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://uwatchfree.vercel.app/og_image.jpg"
-            }
-          },
-          "additionalProperty": {
-            "@type": "PropertyValue",
-            "name": "Action Platform",
-            "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"]
+    function fetchMovieJsonLD(movieId) {
+      fetch("/movies.json")
+        .then(response => response.json())
+        .then(data => {
+          // Find the movie data with the specified ID
+          const movie = data.find(item => item.id === movieId);
+    
+          if (movie) {
+            const schemaData = {
+              "@context": "https://schema.org",
+              "@type": "Movie",
+              "name": movie.title,
+              "image": `/wp-content/uploads/2023/06/${movie.poster}`,
+              "url": `https://uwatchfree.vercel.app/${movie.movie.watch}`, // Make sure to use the full URL
+              "description": movie.synopsis,
+              "director": {
+                "@type": "Person",
+                "name": movie.director
+              },
+              "actor": movie.starring.map(actor => ({
+                "@type": "Person",
+                "name": actor
+              })),
+              "datePublished": movie.startDate,
+              "locationCreated": movie.country,
+              "contentRating": movie.contentRating,
+              "duration": movie.time,
+              "inLanguage": movie.language,
+              "genre": movie.genre,
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": movie.aggregateRating.ratingValue,
+                "bestRating": movie.aggregateRating.bestRating,
+                "worstRating": movie.aggregateRating.worstRating,
+                "ratingCount": movie.aggregateRating.ratingCount
+              },
+              "author": {
+                "@type": "Person",
+                "name": "DrTrailer",
+                "url": "https://uwatchfree.vercel.app/DrTrailer.png"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Uwatchfree?",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://uwatchfree.vercel.app/og_image.jpg"
+                }
+              },
+              "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Action Platform",
+                "value": ["Desktop Web Platform", "iOS Platform", "Android Platform"]
+              }
+            };
+    
+            // Create a script element for JSON-LD
+            const scriptElement = document.createElement("script");
+            scriptElement.type = "application/ld+json";
+            scriptElement.textContent = JSON.stringify(schemaData);
+    
+            // Append the script element to the head of the document
+            document.head.appendChild(scriptElement);
+          } else {
+            console.error("Movie with ID " + movieId + " not found.");
           }
-        };
-
-        // Create a script element for JSON-LD
-        const scriptElement = document.createElement("script");
-        scriptElement.type = "application/ld+json";
-        scriptElement.textContent = JSON.stringify(schemaData);
-
-        // Append the script element to the head of the document
-        document.head.appendChild(scriptElement);
-      } else {
-        console.error("Movie with ID " + movieId + " not found.");
-      }
-    })
-    .catch(error => {
-      console.error("Error fetching movie data:", error);
-    });
-}
-
-// Example usage:
-fetchMovieJsonLD("INDEX52"); // Replace "INDEX52" with the desired movie ID
-
-
-  </script>
+        })
+        .catch(error => {
+          console.error("Error fetching movie data:", error);
+        });
+    }
+    
+    // Example usage:
+    fetchMovieJsonLD("INDEX52"); // Replace "INDEX52" with the desired movie ID
+    </script>
+    
       
 </head>
 
