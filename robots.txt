@@ -1,6 +1,4 @@
-
 User-agent: *
-Allow: /
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://uwatchfree.vercel.app/sitemap.xml 
