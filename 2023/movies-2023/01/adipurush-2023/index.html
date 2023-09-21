@@ -107,7 +107,7 @@
   <script>
 // Function to fetch JSON-LD structured data for a specific movie by movieId
 function fetchMovieJsonLD(movieId) {
-  fetch("/movies.json") // Assuming "movies.json" is in the same directory as the HTML file
+  fetch("movies.json") // Assuming "movies.json" is in the same directory as the HTML file
     .then(response => response.json())
     .then(data => {
       // Find the movie data with the specified ID
@@ -138,20 +138,7 @@ function fetchMovieJsonLD(movieId) {
           "inLanguage": movie.language, 
           "genre": movie.genre, 
           "aggregateRating": movie.aggregateRating,
-          "trailer": {
-            "@type": "VideoObject",
-            "name": "Official Trailer",
-            "embedUrl": movie.trailer["@type"] === "VideoObject" ? movie.trailer.embedUrl : "",
-            "thumbnail": {
-              "@type": "ImageObject",
-              "contentUrl": movie.trailer.thumbnail.contentUrl
-            },
-            "thumbnailUrl": movie.trailer.thumbnailUrl,
-            "url": movie.trailer.url,
-            "description": movie.trailer.description,
-            "duration": movie.trailer.duration,
-            "uploadDate": movie.trailer.uploadDate
-          },
+        
           "author": {
             "@type": "Person",
             "name": "DrTrailer",
