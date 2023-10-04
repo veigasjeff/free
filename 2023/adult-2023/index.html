@@ -138,14 +138,14 @@
           ]
         }
         </script>
-        <style>
-            .mode-icon,
-            .back-icon {
-                height: 5vh;
-                /* Adjust as needed */
-    
-            }
-        </style>
+    <style>
+        .mode-icon,
+        .back-icon {
+            height: 5vh;
+            /* Adjust as needed */
+
+        }
+    </style>
 </head>
 <!-- Navigation Bar -->
 <div class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
@@ -202,7 +202,8 @@
     <!-- Center-aligned container -->
 
     <h3 class="text-3xl mb-2 font-bold text-center"
-        style="color: #40D7BC; display: flex; justify-content: center; align-items: center; height: 10vh;">Please Share The
+        style="color: #40D7BC; display: flex; justify-content: center; align-items: center; height: 10vh;">Please Share
+        The
         Link</h3>
     <div id="share-buttons" style="display: flex; justify-content: center; align-items: center; height: 10vh;">
         <!-- Facebook Share Button -->
@@ -243,23 +244,7 @@
         style="color: #40D7BC; text-shadow: 3px 5px 5px #000; font-size: 50px; margin-top: 10px;"> Watch Online
         Adult Movies
     </h1>
-    <div class=" flex flex-row justify-center " style="margin-top: 20px;">
-        <div class="buttons">
-            <div class=" flex flex-row justify-center ">
-                <a href="/">
-                    <button
-                        class=" back-btn text-2xl font-bold px-4 py-2 items-center bg-gray-200 rounded-3xl text-black inline-flex items-center font-bold"
-                        style="background: linear-gradient(45deg, #0074cc, #ff00ff); border: 2px solid #40d7bc;">
-                        <img src="/wp-content/uploads/2023/05/back.png" alt="Back Icon" class="back-icon">
-                        Back
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div>
     <div class="container items-center justify-center ">
-
-
         <div class="container items-center justify-center" style="text-align: center; margin-top: 50px; ">
             <div class="col row items-center justify-center">
                 <!-- <div class="col-md-4">
@@ -614,62 +599,11 @@
             </div>
         </div>
         <div class="container mx-auto mt-5">
-            <div class="text-center"style="margin-top: 10px; color: #40D7BC; font-size:20px;">
+            <div class="text-center" style="margin-top: 10px; color: #40D7BC; font-size:20px;">
                 <p>&copy; 2023 Uwatchfree™. All rights reserved.</p>
             </div>
         </div>
     </footer>
-
-
-    <style>
-        .night-mode {
-            background-color: #000;
-            color: #fff;
-        }
-    </style>
-    <style>
-        .custom-message {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            border-radius: 5px;
-            font-size: 16px;
-            z-index: 1000;
-        }
-    </style>
-
-    <script>
-        // disableCopy.js
-        document.addEventListener('contextmenu', function (event) {
-            event.preventDefault();
-            showMessage('You can\'t right-click is disabled on this page.');
-        });
-
-        document.addEventListener('selectstart', function (event) {
-            event.preventDefault();
-            showMessage('Text selection is disabled on this page.');
-        });
-
-        document.addEventListener('dragstart', function (event) {
-            event.preventDefault();
-            showMessage('Image dragging is disabled on this page.');
-        });
-
-        function showMessage(message) {
-            const msgElement = document.createElement('div');
-            msgElement.className = 'custom-message';
-            msgElement.textContent = message;
-            document.body.appendChild(msgElement);
-            setTimeout(function () {
-                document.body.removeChild(msgElement);
-            }, 2000);
-        }
-    </script>
-
     <script>
         // shareSocialMedia.json
         function shareSocialMedia(platform) {
@@ -714,7 +648,6 @@
             }
         }
     </script>
-    
     <script src='/js/slider.js'></script>
     <script src='/js/ads2.js'></script>
     <script src='/js/ads.js'></script>

@@ -2168,21 +2168,6 @@
             </div>
         </div>
     </footer>
-
-    <style>
-        .custom-message {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            border-radius: 5px;
-            font-size: 16px;
-            z-index: 1000;
-        }
-    </style>
     <script>
         // shareSocialMedia.json
         function shareSocialMedia(platform) {
@@ -2227,47 +2212,6 @@
             }
         }
     </script>
-    <script>
-        // disableCopy.js
-        document.addEventListener('contextmenu', function (event) {
-            event.preventDefault();
-            showMessage('You can\'t right-click is disabled on this page.');
-        });
-
-        document.addEventListener('selectstart', function (event) {
-            event.preventDefault();
-            showMessage('Text selection is disabled on this page.');
-        });
-
-        document.addEventListener('dragstart', function (event) {
-            event.preventDefault();
-            showMessage('Image dragging is disabled on this page.');
-        });
-
-        function showMessage(message) {
-            const msgElement = document.createElement('div');
-            msgElement.className = 'custom-message';
-            msgElement.textContent = message;
-            document.body.appendChild(msgElement);
-            setTimeout(function () {
-                document.body.removeChild(msgElement);
-            }, 2000);
-        }
-    </script>
-    <!-- <script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/js/sw.js')
-                .then((registration) => {
-                    console.log('Service Worker registered with scope:', registration.scope);
-                })
-                .catch((error) => {
-                    console.error('Service Worker registration failed:', error);
-                });
-        });
-    }
-</script> -->
-    <script src='/js/search.js'></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
