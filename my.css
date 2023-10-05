@@ -541,6 +541,20 @@ body {
         .content {
             font-size: 24px; /* Adjust the font size as needed */
         }
+        /* Media Query for Mobile Devices */
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .dome-container {
+    padding: 5px; /* Adjust the padding for mobile devices */
+  }
+
+  .content {
+    font-size: 18px; /* Adjust the font size for mobile devices */
+  }
+}
     /* Navigation bar styles */
     .navbar {
         display: flex;
