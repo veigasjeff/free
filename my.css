@@ -966,15 +966,15 @@ nav ul li {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
   height: auto; /* Change height to auto */
-  border: 2px solid #40D7BC;
-  border-radius: 20px;
+  /* border: 2px solid #40D7BC;
+  border-radius: 20px; */
 
 
 }
-.vcurve {
+/* .vcurve {
   border: 2px solid #40D7BC;
   border-radius: 20px;
-}
+} */
 /* CSS */
 .slider {
   width: 100%;
