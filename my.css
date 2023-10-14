@@ -972,11 +972,11 @@ nav ul li {
 
 
 }
-/* .vcurve {
-  border: 2px solid #40D7BC;
+.vcurve {
+  /* border: 2px solid #40D7BC; */
   border-radius: 20px;
-} */
-/* CSS */
+} 
+
 .slider {
   width: 100%;
   max-width: 800px; /* Set a max-width for responsiveness */
