@@ -34,7 +34,7 @@
   <meta name="twitter:label1" content="Est. reading time" />
   <meta name="twitter:data1" content="1 minute" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  
+  <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/my.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
@@ -127,8 +127,15 @@
               Watch on Server 1
             </h2>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item rounded-2xl"  src="https://wishfast.top/e/udek4d1gu95x" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg); " > </iframe>
+              <video id="my-video" class="video-js vjs-default-skin embed-responsive-item rounded-2xl" controls preload="auto" width="100%" height="auto"
+                     poster="https://img.youtube.com/vi/n0r1fTg-HvA/maxresdefault.jpg" data-setup="{}" >
+                <source src="https://yrwo6l2a.sw-cdnstream.com/hls2/01/01541/,udek4d1gu95x_x,lang/eng/udek4d1gu95x_eng,.urlset/master.m3u8?t=7s28CA-jgQMvwdxNeviT0crtO3TvjISVWou0vjQgTOI&s=1697497417&e=129600&f=7707653&srv=vzwptgggsmhf&i=0.4&sp=500&p1=vzwptgggsmhf&p2=vzwptgggsmhf&asn=132296" type="application/vnd.apple.mpegurl">
+                Your browser does not support the video tag.
+              </video>
             </div>
+            <!-- <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item rounded-2xl"  src="https://wishfast.top/e/udek4d1gu95x" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg); " > </iframe>
+            </div> -->
             <h2  style="margin-top: 10px; color: #40D7BC; font-size: 32px;">
               Watch on Server 2
             </h2>
@@ -540,7 +547,17 @@
       z-index: 1000;
     }
   </style>
-
+  <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls@5.15.0/dist/videojs-contrib-hls.js"></script>
+  <script>
+    // Register the Hls.js tech so it can be used in the video.js player
+    videojs.registerTech('html5.hlsjs', videojs.getComponent('Html5'));
+  
+    // Enable the hlsjs tech
+    videojs('my-video', {
+      techOrder: ['html5', 'hlsjs'],
+    });
+  </script>
   
   <script src='/js/maxmain.js' async defer></script>
 
