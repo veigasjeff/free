@@ -976,7 +976,24 @@ nav ul li {
   /* border: 2px solid #40D7BC; */
   border-radius: 20px;
 } 
-
+.video-js {
+  border-radius: 20px;
+  overflow: hidden;
+  /* border: 2px solid #40d7bc !important;  */
+ }
+/* Center the play button */
+/* Center and increase the size of the play button */
+.vjs-big-play-button {
+top: 50% !important;
+left: 50% !important;
+transform: translate(-50%, -50%) !important;
+width: 100px !important;
+height: 60px !important;
+line-height: 60px !important;
+/* background-color: rgb(148, 148, 207) !important; Change to the desired color */
+/* color: white !important; Change to the desired text color */
+border: 2px solid #40d7bc !important; /* Optional: Add a border */
+}
 .slider {
   width: 100%;
   max-width: 800px; /* Set a max-width for responsiveness */
