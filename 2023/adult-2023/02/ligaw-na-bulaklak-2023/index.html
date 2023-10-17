@@ -38,8 +38,9 @@
   <meta name="twitter:data1" content="1 minute" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   
-  <link rel="stylesheet" type="text/css" href="/my.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/my.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <script src="/js/tracker.js"></script>
   <script async data-id="101422353" src="//static.getclicky.com/js"></script>
@@ -149,14 +150,32 @@
             <h2 style="margin-top: 10px; color: #40D7BC; font-size: 32px;">
               Watch on Server 1
             </h2>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item rounded-2xl" src="https://wishfast.top/e/zcepqpgnbtjv" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="cursor: pointer; border-radius: 20px; overflow: hidden;filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg); "></iframe>
+            <div itemscope itemtype="https://schema.org/VideoObject" class="embed-responsive embed-responsive-16by9">
+              <meta itemprop="name" content="Ligaw Na Bulaklak Movie - 2023" />
+              <meta itemprop="description" content="Ligaw Na Bulaklak Movie - 2023" />
+              <meta itemprop="uploadDate" content="2023-10-02T03:06:59.000Z" />
+              <meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/VGDxA1b2jRiUwJSxF/x1080" />
+              <meta itemprop="duration" content="PT1H30M" />
+              <meta itemprop="embedUrl"
+                content="https://jturq6cd3w.sw-cdnstream.com/hls2/01/01456/eur6mgmwph4j_n/master.m3u8?t=1vev1OZt4-AFop5dvkedSVlxARv4ZG_aORB6cuSfAd4&s=1697575310&e=129600&f=7352423&srv=vpbqpwffnsea&i=0.4&sp=500&p1=vpbqpwffnsea&p2=vpbqpwffnsea&asn=132296" />
+
+              <video id="my-video" class="video-js vjs-default-skin embed-responsive-item rounded-2xl" controls
+                preload="auto" width="100%" height="auto"
+                poster="https://s1.dmcdn.net/v/VGDxA1b2jRiUwJSxF/x1080" data-setup="{}" style="filter: contrast(1.1) saturate(1.2) brightness(1.2) hue-rotate(0deg);">
+                <source
+                  src="https://jturq6cd3w.sw-cdnstream.com/hls2/01/01456/eur6mgmwph4j_n/master.m3u8?t=1vev1OZt4-AFop5dvkedSVlxARv4ZG_aORB6cuSfAd4&s=1697575310&e=129600&f=7352423&srv=vpbqpwffnsea&i=0.4&sp=500&p1=vpbqpwffnsea&p2=vpbqpwffnsea&asn=132296"
+                  type="application/vnd.apple.mpegurl">
+                Your browser does not support the video tag.
+              </video>
             </div>
+            <!-- <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item rounded-2xl" src="https://wishfast.top/e/zcepqpgnbtjv" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="cursor: pointer; border-radius: 20px; overflow: hidden;filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg); "></iframe>
+            </div> -->
             <h2 style="margin-top: 10px; color: #40D7BC; font-size: 32px;">
               Watch on Server 2
             </h2>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item rounded-2xl" src="https://doods.pro/e/eivdwv6j83r9" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="cursor: pointer; border-radius: 20px; overflow: hidden;filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg);"></iframe>
+              <iframe class="embed-responsive-item rounded-2xl" src="https://doods.pro/e/eivdwv6j83r9" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="filter: contrast(1.1) saturate(1.2) brightness(1.2) hue-rotate(0deg);"></iframe>
             </div>
             <h2 style="margin-top: 10px; color: #40D7BC; font-size: 32px;"> Watch Official
               Trailer </h2>
@@ -533,7 +552,10 @@
     }
   </style>
   
-  <script src='/js/maxmain.js' async defer></script>
+  <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls@5.15.0/dist/videojs-contrib-hls.js"></script>
+<script src='/js/player.js'></script>
+<script src='/js/maxmain.js' async defer></script>
 
 <script src='/js/audio.js'></script>
   

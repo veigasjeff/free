@@ -34,7 +34,7 @@
   <meta name="twitter:label1" content="Est. reading time" />
   <meta name="twitter:data1" content="1 minute" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  
+  <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/my.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
@@ -103,9 +103,27 @@
             <h2 style="margin-top: 10px; color: #40D7BC; font-size: 32px;">
               Watch on Server 1
             </h2>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item rounded-2xl"  src="https://wishfast.top/e/5n0jte1r9fyv" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg); " > </iframe>
+            <div itemscope itemtype="https://schema.org/VideoObject" class="embed-responsive embed-responsive-16by9">
+              <meta itemprop="name" content="Murder Syndicate Movie - 2023" />
+              <meta itemprop="description" content="Murder Syndicate Movie - 2023" />
+              <meta itemprop="uploadDate" content="2023-10-02T03:06:59.000Z" />
+              <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/BhyCdr-SGUU/sddefault.jpg" />
+              <meta itemprop="duration" content="PT1H39M" />
+              <meta itemprop="embedUrl"
+                content="https://n92qfljg.sw-cdnstream.com/hls2/01/01470/,5n0jte1r9fyv_x,lang/eng/5n0jte1r9fyv_eng,.urlset/master.m3u8?t=EPvucdgmRztpZCklG-fIcIQ520ny4fMGyjUWXIdsSfY&s=1697557025&e=129600&f=7352524&srv=bjekhspipnkx&i=0.4&sp=500&p1=bjekhspipnkx&p2=bjekhspipnkx&asn=132296" />
+
+              <video id="my-video" class="video-js vjs-default-skin embed-responsive-item rounded-2xl" controls
+                preload="auto" width="100%" height="auto" poster="https://img.youtube.com/vi/BhyCdr-SGUU/sddefault.jpg"
+                data-setup="{}" style="filter: contrast(1) saturate(1.2) brightness(1.5) hue-rotate(0deg);">
+                <source
+                  src="https://n92qfljg.sw-cdnstream.com/hls2/01/01470/,5n0jte1r9fyv_x,lang/eng/5n0jte1r9fyv_eng,.urlset/master.m3u8?t=EPvucdgmRztpZCklG-fIcIQ520ny4fMGyjUWXIdsSfY&s=1697557025&e=129600&f=7352524&srv=bjekhspipnkx&i=0.4&sp=500&p1=bjekhspipnkx&p2=bjekhspipnkx&asn=132296"
+                  type="application/vnd.apple.mpegurl">
+                Your browser does not support the video tag.
+              </video>
             </div>
+            <!-- <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item rounded-2xl"  src="https://wishfast.top/e/5n0jte1r9fyv" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg); " > </iframe>
+            </div> -->
             <h2 style="margin-top: 10px; color: #40D7BC; font-size: 32px;">
               Watch on Server 2
             </h2>
@@ -520,8 +538,9 @@
       z-index: 1000;
     }
   </style>
-
-  
+  <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls@5.15.0/dist/videojs-contrib-hls.js"></script>
+  <script src='/js/player.js'></script>  
   <script src='/js/maxmain.js' async defer></script>
 <script src='/js/audio.js'></script>
   <script src='/js/socialmedia.js' async defer></script>

@@ -36,7 +36,8 @@
   <meta name="twitter:data1" content="1 minute" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   
-  <link rel="stylesheet" type="text/css" href="/my.css">
+  <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/my.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <script src="/js/tracker.js"></script>
@@ -146,20 +147,35 @@
             <h2 style="margin-top: 10px; color: #40D7BC; font-size: 32px;">
               Watch on Server 1
             </h2>
-            <div class="embed-responsive embed-responsive-16by9">
+            <div itemscope itemtype="https://schema.org/VideoObject" class="embed-responsive embed-responsive-16by9">
+              <meta itemprop="name" content="Punit Na Langit Movie - 2023" />
+              <meta itemprop="description" content="Punit Na Langit Movie - 2023" />
+              <meta itemprop="uploadDate" content="2023-10-02T03:06:59.000Z" />
+              <meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/VIRKd1b7Lhzvab_FA/x120" />
+              <meta itemprop="duration" content="PT1H46M" />
+              <meta itemprop="embedUrl"
+                content="https://hxrfzft9ooce.sw-cdnstream.com/hls2/01/01470/,e9m80zevol00_x,lang/eng/e9m80zevol00_eng,.urlset/master.m3u8?t=51URmNaX_WrF7tClfgx0VdfJy3faTSg58uZGbk5RKio&s=1697576336&e=129600&f=7352686&srv=xjulwszvzhjq&i=0.4&sp=500&p1=xjulwszvzhjq&p2=xjulwszvzhjq&asn=132296" />
+
+              <video id="my-video" class="video-js vjs-default-skin embed-responsive-item rounded-2xl" controls
+                preload="auto" width="100%" height="auto"
+                poster="https://s1.dmcdn.net/v/VIRKd1b7Lhzvab_FA/x120" data-setup="{}" style="filter: contrast(1.05) saturate(1.2) brightness(1.2) hue-rotate(0deg);">
+                <source
+                  src="https://hxrfzft9ooce.sw-cdnstream.com/hls2/01/01470/,e9m80zevol00_x,lang/eng/e9m80zevol00_eng,.urlset/master.m3u8?t=51URmNaX_WrF7tClfgx0VdfJy3faTSg58uZGbk5RKio&s=1697576336&e=129600&f=7352686&srv=xjulwszvzhjq&i=0.4&sp=500&p1=xjulwszvzhjq&p2=xjulwszvzhjq&asn=132296"
+                  type="application/vnd.apple.mpegurl">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <!-- <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item rounded-2xl"  
                 style="filter: contrast(1.2) saturate(1.2); border: 2px solid #40D7BC;"
                 src="https://wishfast.top/e/e9m80zevol00" frameborder="0" allowfullscreen mozRequestFullScreen
                 webkitRequestFullscreen style="cursor: pointer; border-radius: 20px; overflow: hidden;filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg);"></iframe>
-            </div>
+            </div> -->
             <h2 style="margin-top: 10px; color: #40D7BC; font-size: 32px;">
               Watch on Server 2
             </h2>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item rounded-2xl"  
-                style="filter: contrast(1.2) saturate(1.2); border: 2px solid #40D7BC;"
-                src="https://doods.pro/e/x82qo3z5toh4" frameborder="0" allowfullscreen mozRequestFullScreen
-                webkitRequestFullscreen style="cursor: pointer; border-radius: 20px; overflow: hidden;filter: contrast(1.2) saturate(1.5) brightness(1.2) hue-rotate(0deg);"></iframe>
+              <iframe class="embed-responsive-item rounded-2xl" src="https://doods.pro/e/x82qo3z5toh4" frameborder="0" allowfullscreen mozRequestFullScreen webkitRequestFullscreen style="filter: contrast(1.05) saturate(1.2) brightness(1.2) hue-rotate(0deg);"></iframe>
             </div>
             <h2 style="margin-top: 10px; color: #40D7BC; font-size: 32px;"> Watch Official
               Trailer </h2>
@@ -558,7 +574,10 @@
     }
   </style>
   
-  <script src='/js/maxmain.js' async defer></script>
+  <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls@5.15.0/dist/videojs-contrib-hls.js"></script>
+<script src='/js/player.js'></script>
+<script src='/js/maxmain.js' async defer></script>
 
 <script src='/js/audio.js'></script>
   
