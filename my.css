@@ -1058,6 +1058,24 @@ body.night-mode {
     /* Adjust as needed */
 
 }
+
+p {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-family: 'Play', sans-serif;
+
+  }
+ h1 
+ {
+   font-family: 'Play', sans-serif;
+ 
+  }
+  span  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
 /* body {
   margin: 0;
   font-family: Arial, sans-serif;
