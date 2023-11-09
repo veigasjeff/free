@@ -544,7 +544,7 @@ body {
         }
 
        /* Major Issue part    Media Query for Mobile Devices */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .container {
     max-width: 100%;
   }
@@ -556,7 +556,7 @@ body {
   .content {
     font-size: 18px;
   }
-} 
+}  */
     /* Navigation bar styles */
     .navbar {
         display: flex;
