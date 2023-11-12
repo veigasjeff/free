@@ -383,14 +383,14 @@ fetch("/movies.json")
 //           "author": {
 //             "@type": "Person",
 //             "name": "DrTrailer",
-//             "url": "https://uwatchfree.vercel.app/DrTrailer.png"
+//             "url": "https://uwatchitfree.vercel.app/DrTrailer.png"
 //           },
 //           "publisher": {
 //             "@type": "Organization",
 //             "name": "Uwatchfree?",
 //             "logo": {
 //               "@type": "ImageObject",
-//               "url": "https://uwatchfree.vercel.app/og_image.webp"
+//               "url": "https://uwatchitfree.vercel.app/og_image.webp"
 //             }
 //           },
 //           "additionalProperty": {
