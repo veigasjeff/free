@@ -26,13 +26,13 @@ const latestDetail = ({ latest }) => {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'Movies Magazine™ - Explore. Discover. Watch.',
-      url: 'https://123moviesmagazine.vercel.app/',
+      url: 'https://moviesmagazine.vercel.app/',
       image: [
-        'https://123moviesmagazine.vercel.app/wp-content/uploads/2023/05/favicon.ico'
+        'https://moviesmagazine.vercel.app/wp-content/uploads/2023/05/favicon.ico'
       ],
       logo: {
         '@type': 'ImageObject',
-        url: 'https://123moviesmagazine.vercel.app/logo.png',
+        url: 'https://moviesmagazine.vercel.app/logo.png',
         width: 280,
         height: 80
       }
@@ -40,13 +40,13 @@ const latestDetail = ({ latest }) => {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      url: 'https://123moviesmagazine.vercel.app/',
+      url: 'https://moviesmagazine.vercel.app/',
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
           urlTemplate:
-            'https://123moviesmagazine.vercel.app/search?q={search_term_string}'
+            'https://moviesmagazine.vercel.app/search?q={search_term_string}'
         },
         'query-input': 'required name=search_term_string'
       }
@@ -63,8 +63,8 @@ const latestDetail = ({ latest }) => {
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://123moviesmagazine.vercel.app/#website',
-        url: 'https://123moviesmagazine.vercel.app/',
+        '@id': 'https://moviesmagazine.vercel.app/#website',
+        url: 'https://moviesmagazine.vercel.app/',
         name: 'Movies Magazine',
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
@@ -79,15 +79,15 @@ const latestDetail = ({ latest }) => {
         datePublished: '2024-01-13T13:00:00+00:00',
         dateModified: '2024-01-13T13:13:00+00:00',
         isPartOf: {
-          '@id': 'https://123moviesmagazine.vercel.app/#website'
+          '@id': 'https://moviesmagazine.vercel.app/#website'
         },
         inLanguage: 'en-US'
       },
       {
         '@type': 'Person',
-        '@id': 'https://123moviesmagazine.vercel.app/author/latest/',
+        '@id': 'https://moviesmagazine.vercel.app/author/latest/',
         name: 'Dr Trailer',
-        url: 'https://123moviesmagazine.vercel.app/author/latest/',
+        url: 'https://moviesmagazine.vercel.app/author/latest/',
         image: {
           '@type': 'ImageObject',
           '@id': 'https://gravatar.com/drtrailer2022',
@@ -95,7 +95,7 @@ const latestDetail = ({ latest }) => {
           caption: 'Dr Trailer',
           inLanguage: 'en-US'
         },
-        sameAs: ['https://123moviesmagazine.vercel.app/']
+        sameAs: ['https://moviesmagazine.vercel.app/']
       },
       {
         '@type': 'Article',
@@ -105,7 +105,7 @@ const latestDetail = ({ latest }) => {
         dateModified: '2024-01-13T13:13:00+00:00',
         articleSection: 'latest',
         author: {
-          '@id': 'https://123moviesmagazine.vercel.app/author/latest/'
+          '@id': 'https://moviesmagazine.vercel.app/author/latest/'
         },
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
@@ -129,7 +129,7 @@ const latestDetail = ({ latest }) => {
         dateModified: '2024-01-13T13:13:00+00:00',
         articleSection: 'latest',
         author: {
-          '@id': 'https://123moviesmagazine.vercel.app/author/latest/'
+          '@id': 'https://moviesmagazine.vercel.app/author/latest/'
         },
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
@@ -180,7 +180,7 @@ const latestDetail = ({ latest }) => {
       name: 'Movies Magazine',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://123moviesmagazine.vercel.app/og_image.jpg'
+        url: 'https://moviesmagazine.vercel.app/og_image.jpg'
       }
     },
     additionalProperty: {
@@ -287,7 +287,7 @@ const latestDetail = ({ latest }) => {
           `
           }}
         />
-        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> */}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
       </Head>
       <Script src='../../propler/ads.js' defer />
       <Script src='../../propler/ads2.js' defer />
@@ -384,7 +384,7 @@ const latestDetail = ({ latest }) => {
                   href='../latest/'
                   className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
                 >
-                   Latest News<span className='p'></span>
+                   Post<span className='p'></span>
                 </a>
               </li>
             </button>

@@ -3,7 +3,7 @@ import { FaTelegram } from 'react-icons/fa'
 import moviesData from '../public/movies.json'
 import latestData from '../public/latest.json'
 // import reviewsData from '../public/reviews.json'
-// import trailerData from '../public/trailer.json'
+import trailerData from '../public/trailer.json'
 // import graphicdesignData from '../public/graphicdesign.json'
 // import recapsData from '../public/recaps.json'
 // import Marquee from '../components/Marquee';
@@ -23,24 +23,24 @@ const HomePage = () => {
   // // const [browser, setbrowser] = useState(browserData.slice(0, 2)) // Only the first 2 items
 
   // Initial state with a consistent set of data
-  const [movies, setmovies] = useState(moviesData.slice(0, 6))
+  const [movies, setmovies] = useState(moviesData.slice(0, 4))
   // const [reviews, setreviews] = useState(reviewsData.slice(0, 4))
-  // const [trailer, settrailer] = useState(trailerData.slice(0, 4))
+  const [trailer, settrailer] = useState(trailerData.slice(0, 4))
   // const [graphicdesign, setgraphicdesign] = useState(
   //   graphicdesignData.slice(0, 2))
   // const [recaps, setrecaps] = useState(recapsData.slice(0, 4))
 
   // // Update the state with random items after the component mounts
   useEffect(() => {
-    const shuffledmoviesData = getRandomItems(moviesData, 6)
+    const shuffledmoviesData = getRandomItems(moviesData, 4)
     // const shuffledreviewsData = getRandomItems(reviewsData, 4)
-    // const shuffledtrailerData = getRandomItems(trailerData, 4)
+    const shuffledtrailerData = getRandomItems(trailerData, 4)
     //   const shuffledgraphicdesignData = getRandomItems(graphicdesignData, 2)
     // const shuffledrecapsData = getRandomItems(recapsData, 4)
 
     setmovies(shuffledmoviesData)
     // setreviews(shuffledreviewsData)
-    // settrailer(shuffledtrailerData)
+    settrailer(shuffledtrailerData)
     //   setgraphicdesign(shuffledgraphicdesignData)
     // setrecaps(shuffledrecapsData)
   }, [])
@@ -52,11 +52,11 @@ const HomePage = () => {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'Movies Magazine. - Explore. Discover. Watch.',
-      url: 'https://123moviesmagazine.vercel.app/',
-      image: ['https://123moviesmagazine.vercel.app/favicon.ico'],
+      url: 'https://moviesmagazine.vercel.app/',
+      image: ['https://moviesmagazine.vercel.app/favicon.ico'],
       logo: {
         '@type': 'ImageObject',
-        url: 'https://123moviesmagazine.vercel.app/logo.png',
+        url: 'https://moviesmagazine.vercel.app/logo.png',
         width: 280,
         height: 80
       }
@@ -64,13 +64,13 @@ const HomePage = () => {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      url: 'https://123moviesmagazine.vercel.app/',
+      url: 'https://moviesmagazine.vercel.app/',
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
           urlTemplate:
-            'https://123moviesmagazine.vercel.app/search?q={search_term_string}'
+            'https://moviesmagazine.vercel.app/search?q={search_term_string}'
         },
         'query-input': 'required name=search_term_string'
       }
@@ -82,9 +82,9 @@ const HomePage = () => {
     '@graph': [
       {
         '@type': 'Person',
-        '@id': 'https://123moviesmagazine.vercel.app/author/moviesmagazine/',
+        '@id': 'https://moviesmagazine.vercel.app/author/moviesmagazine/',
         name: 'Dr Trailer',
-        url: 'https://123moviesmagazine.vercel.app/author/moviesmagazine/',
+        url: 'https://moviesmagazine.vercel.app/author/moviesmagazine/',
         image: {
           '@type': 'ImageObject',
           '@id': 'https://gravatar.com/drtrailer2022',
@@ -95,38 +95,37 @@ const HomePage = () => {
       },
       {
         '@type': 'Organization',
-        '@id': 'https://123moviesmagazine.vercel.app/#organization',
+        '@id': 'https://moviesmagazine.vercel.app/#organization',
         name: 'Movies Magazine - Explore. Discover. Watch.',
-        url: 'https://123moviesmagazine.vercel.app/'
+        url: 'https://moviesmagazine.vercel.app/'
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://123moviesmagazine.vercel.app/#website',
-        url: 'https://123moviesmagazine.vercel.app/',
+        '@id': 'https://moviesmagazine.vercel.app/#website',
+        url: 'https://moviesmagazine.vercel.app/',
         name: 'Movies Magazine - Explore. Discover. Watch.',
         publisher: {
           '@type': 'Organization',
-          '@id': 'https://123moviesmagazine.vercel.app/#organization'
+          '@id': 'https://moviesmagazine.vercel.app/#organization'
         },
         potentialAction: {
           '@type': 'SearchAction',
-          target:
-            'https://123moviesmagazine.vercel.app/?s={search_term_string}',
+          target: 'https://moviesmagazine.vercel.app/?s={search_term_string}',
           'query-input': 'required name=search_term_string'
         }
       },
       {
         '@type': 'WebPage',
-        '@id': 'https://123moviesmagazine.vercel.app/#webpage',
-        url: 'https://123moviesmagazine.vercel.app/',
+        '@id': 'https://moviesmagazine.vercel.app/#webpage',
+        url: 'https://moviesmagazine.vercel.app/',
         name: 'Movie',
         datePublished: '2024-01-13T13:00:00+00:00',
         dateModified: '2024-01-13T13:13:00+00:00',
         about: {
           '@type': 'Person',
-          '@id': 'https://123moviesmagazine.vercel.app/author/moviesmagazine/',
+          '@id': 'https://moviesmagazine.vercel.app/author/moviesmagazine/',
           name: 'Dr Trailer',
-          url: 'https://123moviesmagazine.vercel.app/author/moviesmagazine/',
+          url: 'https://moviesmagazine.vercel.app/author/moviesmagazine/',
           image: {
             '@type': 'ImageObject',
             '@id': 'https://gravatar.com/drtrailer2022',
@@ -136,23 +135,23 @@ const HomePage = () => {
           }
         },
         isPartOf: {
-          '@id': 'https://123moviesmagazine.vercel.app/#website'
+          '@id': 'https://moviesmagazine.vercel.app/#website'
         },
         inLanguage: 'en-US',
         mainEntity: [
           {
             '@type': 'Article',
-            '@id': 'https://123moviesmagazine.vercel.app/',
-            url: 'https://123moviesmagazine.vercel.app/',
+            '@id': 'https://moviesmagazine.vercel.app/',
+            url: 'https://moviesmagazine.vercel.app/',
             headline: 'Movies Magazine - Explore. Discover. Watch.',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
             author: {
               '@type': 'Person',
               '@id':
-                'https://123moviesmagazine.vercel.app/author/moviesmagazine./',
+                'https://moviesmagazine.vercel.app/author/moviesmagazine./',
               name: 'Dr Trailer',
-              url: 'https://123moviesmagazine.vercel.app/author/moviesmagazine/',
+              url: 'https://moviesmagazine.vercel.app/author/moviesmagazine/',
               image: {
                 '@type': 'ImageObject',
                 '@id': 'https://gravatar.com/drtrailer2022',
@@ -163,24 +162,24 @@ const HomePage = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'https://123moviesmagazine.vercel.app/#organization',
+              '@id': 'https://moviesmagazine.vercel.app/#organization',
               name: 'Movies Magazine - Explore. Discover. Watch.',
-              url: 'https://123moviesmagazine.vercel.app/'
+              url: 'https://moviesmagazine.vercel.app/'
             }
           },
           {
             '@type': 'Article',
-            '@id': 'https://123moviesmagazine.vercel.app/',
-            url: 'https://123moviesmagazine.vercel.app/',
+            '@id': 'https://moviesmagazine.vercel.app/',
+            url: 'https://moviesmagazine.vercel.app/',
             headline: 'Movies Magazine. - Explore. Discover. Watch.',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
             author: {
               '@type': 'Person',
               '@id':
-                'https://123moviesmagazine.vercel.app/author/moviesmagazine/',
+                'https://moviesmagazine.vercel.app/author/moviesmagazine/',
               name: 'Dr Trailer',
-              url: 'https://123moviesmagazine.vercel.app/author/moviesmagazine/',
+              url: 'https://moviesmagazine.vercel.app/author/moviesmagazine/',
               image: {
                 '@type': 'ImageObject',
                 '@id': 'https://gravatar.com/drtrailer2022',
@@ -191,24 +190,24 @@ const HomePage = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'https://123moviesmagazine.vercel.app/#organization',
+              '@id': 'https://moviesmagazine.vercel.app/#organization',
               name: 'Movies Magazine.™ - Explore. Discover. Watch.',
-              url: 'https://123moviesmagazine.vercel.app/'
+              url: 'https://moviesmagazine.vercel.app/'
             }
           },
           {
             '@type': 'Article',
-            '@id': 'https://123moviesmagazine.vercel.app/',
-            url: 'https://123moviesmagazine.vercel.app/',
+            '@id': 'https://moviesmagazine.vercel.app/',
+            url: 'https://moviesmagazine.vercel.app/',
             headline: 'Movies Magazine.™ - Explore. Discover. Watch.',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
             author: {
               '@type': 'Person',
               '@id':
-                'https://123moviesmagazine.vercel.app/author/moviesmagazine/',
+                'https://moviesmagazine.vercel.app/author/moviesmagazine/',
               name: 'Dr Trailer',
-              url: 'https://123moviesmagazine.vercel.app/author/moviesmagazinMovies Magazinee/',
+              url: 'https://moviesmagazine.vercel.app/author/moviesmagazine/',
               image: {
                 '@type': 'ImageObject',
                 '@id': 'https://gravatar.com/drtrailer2022',
@@ -219,9 +218,9 @@ const HomePage = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'https://123moviesmagazine.vercel.app/#organization',
+              '@id': 'https://moviesmagazine.vercel.app/#organization',
               name: 'Movies Magazine. - Explore. Discover. Watch.',
-              url: 'https://123moviesmagazine.vercel.app/'
+              url: 'https://moviesmagazine.vercel.app/'
             }
           }
         ]
@@ -238,7 +237,7 @@ const HomePage = () => {
             rel='sitemap'
             type='application/xml'
             title='Sitemap'
-            href='https://123moviesmagazine.vercel.app/sitemap.xml'
+            href='https://moviesmagazine.vercel.app/sitemap.xml'
           />
           <meta
             name='viewport'
@@ -277,7 +276,7 @@ const HomePage = () => {
             name='description'
             content='Explore. Discover. Watch.'
           /> */}
-          {/* <link rel='canonical' href='https://123moviesmagazine.vercel.app/' /> */}
+          {/* <link rel='canonical' href='https://moviesmagazine.vercel.app/' /> */}
           <meta property='og:locale' content='en_US' />
           <meta property='og:type' content='video.movie' />
 
@@ -291,7 +290,7 @@ const HomePage = () => {
           />
           <meta
             property='og:url'
-            content='https://123moviesmagazine.vercel.app/'
+            content='https://moviesmagazine.vercel.app/'
           />
           <meta
             property='og:site_name'
@@ -299,7 +298,7 @@ const HomePage = () => {
           />
           <meta
             property='og:image'
-            content='https://123moviesmagazine.vercel.app/og_image.jpg'
+            content='https://moviesmagazine.vercel.app/og_image.jpg'
           />
           <meta property='og:image:width' content='1280' />
           <meta property='og:image:height' content='720' />
@@ -316,7 +315,7 @@ const HomePage = () => {
             rel='sitemap'
             type='application/xml'
             title='Sitemap'
-            href='https://123moviesmagazine.vercel.app/sitemap.xml'
+            href='https://moviesmagazine.vercel.app/sitemap.xml'
           />
           <meta name='twitter:card' content='summary_large_image' />
           <meta
@@ -364,10 +363,10 @@ const HomePage = () => {
           `
             }}
           />
-          {/* <link
+          <link
             rel='stylesheet'
             href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'
-          /> */}
+          />
         </Head>
 
         <h1
@@ -413,7 +412,7 @@ const HomePage = () => {
                 </a>
               </li>
             </button>
-            {/* <button className='border border-black p-2 m-1 hover:bg-orange-100'>
+            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
               <li id='menu-item-194' className='menu-tutorials'>
                 <a
                   href='../trailer/'
@@ -422,7 +421,7 @@ const HomePage = () => {
                   Trailers<span className='p'></span>
                 </a>
               </li>
-            </button> */}
+            </button>
             <button className='border border-black p-2 m-1 hover:bg-orange-100'>
               <li id='menu-item-194' className='menu-tutorials'>
                 <a
@@ -439,7 +438,7 @@ const HomePage = () => {
                   href='../latest/'
                   className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
                 >
-                  Latest News<span className='p'></span>
+                  Post<span className='p'></span>
                 </a>
               </li>
             </button>
@@ -461,7 +460,7 @@ const HomePage = () => {
           <div className='flex-container'>
             <div className='category-container'>
               <div className='card-container'>
-                {/* {trailer.map(trailerItem => (
+                {trailer.map(trailerItem => (
                   <div key={trailerItem.id} className='card'>
                     <a href={`/trailer/${trailerItem.id}`}>
                       <p
@@ -501,7 +500,7 @@ const HomePage = () => {
                   className='animate-pulse text-black hover:px-0 font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-2xl'
                 >
                   Many More Coming Soon...Click Here.
-                </a> */}
+                </a>
                 {/* {recaps.map(recapsItem => (
                   <div key={recapsItem.id} className='card'>
                     <a href={`/recaps/${recapsItem.id}`}>
@@ -676,7 +675,7 @@ const HomePage = () => {
                     </a>
                   </div>
                 ))}
-                <a
+                 <a
                   href='../movies/'
                   className='animate-pulse text-black hover:px-0 font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-2xl'
                 >
