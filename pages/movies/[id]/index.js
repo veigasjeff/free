@@ -342,7 +342,7 @@ const moviesDetail = ({ moviesItem }) => {
         />
         <title>
           {' '}
-          Review {moviesItem && moviesItem.name} | Movies Magazine.
+          Movies {moviesItem && moviesItem.name} | Movies Magazine.
         </title>
         <link rel='canonical' href={moviesItem && moviesItem.siteurl} />
         <meta name='robots' content='index, follow' />
